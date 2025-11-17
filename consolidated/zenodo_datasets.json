@@ -1424,6 +1424,361 @@
     "source": "zenodo"
   },
   {
+    "dataset_id": "7891964",
+    "doi": "10.5281/zenodo.7891964",
+    "concept_doi": "7891963",
+    "title": "Distinct frequencies balance segregation with interaction between different memory types within a prefrontal circuit",
+    "description": "<p>2023-05-30</p>\n\n<p>This archive holds the original data used to derive the results reported in the publication:<br>\n&#39;Distinct frequencies balance segregation with interaction between different memory types within a prefrontal circuit&#39;</p>\n\n<p>Authors: Martina Bracco, Tuomas P. Mutanen, Domenica Veniero, Gregor Thut &amp; Edwin M. Robertson<br>\nCorresponding Author: Edwin M. Robertson<br>\nContact: edwin.robertson@glasgow.ac.uk</p>\n\n<p>Please refer to the License for the correct use of the data.&nbsp;<br>\nIf the use of this data leads to any public dissemination, including (but not restricted to) scientific articles, conference presentations, and posters, please remember to cite the original article.</p>\n\n<p><br>\n<strong>General Description</strong></p>\n\n<p>The dataset is shared in BIDS format. To facilitate the upload of files to&nbsp;Zenodo, each subject folder was&nbsp;compressed separately. To ensure a valid bids structure of the dataset,&nbsp;extract the contents of each zip file and place them in the same directory as the other files from the dataset. By doing so, you will have all the necessary files in the correct structure for the BIDS format.</p>\n\n<p>Data type: raw TMS-EEG data organized in BIDS format, and epoched &plusmn;800 ms around the pulse.<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;preprocessed motor skill and word recall data organized in BIDS format (.tsv = data file; .json = data description).</p>\n\n<p>Key to Filenames: sub = Participant<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ses-preLearning = Session 1 data folder<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ses-postLearnng = Session 2 data folder<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; eeg = TMS-EEG data folder<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; beh = behaviral data folder</p>\n\n<p>Participants: 45 healthy participants (30 females, 23.9&plusmn;3.6 years; mean &plusmn; std)&nbsp;<br>\n&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>\nGroups: Participants were randomly assigned to three different groups with different behavioural conditions:<br>\n&nbsp;&nbsp; &nbsp;- In the &#39;motorSkill&#39;-group, participants performed a sequential motor-skill task followed by a wordlist memory task.&nbsp;<br>\n&nbsp; &nbsp; &nbsp; &nbsp; (sub-01 to sub-15)<br>\n&nbsp;&nbsp; &nbsp;- In the &#39;wordRecall&#39;-group, &nbsp;participants performed a &nbsp;wordlist memory followed by a sequential task motor-skill task.<br>\n&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;(sub-16 to sub-30)<br>\n&nbsp;&nbsp; &nbsp;- In the &#39;control&#39;-group, participants performed a random motor-skill task followed by a wordlist memory task.<br>\n&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;(sub-31 to sub-45)</p>\n\n<p><strong>TMS-EEG data description</strong></p>\n\n<p>Stimulation sites: Right dorsolateral prefrontal cortex (rDLPFC).&nbsp;<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Left primary motor cortex (lM1).</p>\n\n<p>Sessions: Session 1: TMS-EEG recordings before the behavioural tasks.<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Session 2: TMS-EEG recordings after the behavioural tasks.</p>\n\n<p>Number of TMS pulses: 126 pulses delivered to either DLPFC or M1 before, before and after behavioural tasks (a total of 252 pulses for Session 1 and Session 2, each).</p>\n\n<p>Inter-Stimulus Interval: 4-6 s (4.9&plusmn;0.6 s, mean &plusmn; std).</p>\n\n<p>TMS intensity: 80% of participants&#39; individual motor threshold.</p>\n\n<p>TMS machine: Magstim Rapid2, Magstim Company.</p>\n\n<p>Coil: figure-of-eight coil (Double 70-mm Alpha Coil).</p>\n\n<p>Number of channels: 62-channel EEG channels (AFz and TP9 are used as reference and ground, respectively)&nbsp;<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; + 1 FDI EMG channel<br>\n&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+ 1 electrode on the outer canthus of the left eye to monitor eye movements.</p>\n\n<p>Sampling rate: 5000 Hz.&nbsp;</p>\n\n<p>Voltage resolution: 0.1 uV.</p>\n\n<p>EEG system: TMS-EEG compatible BrainAmp (Brain Products).</p>\n\n<p>Noise masking during TMS-EEG recordings: Yes.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Memory tasks data description</strong></p>\n\n<p><br>\n<em>Motor skill task</em></p>\n\n<p>&#39;motorSkill&#39;-group (sub-01 to sub-15): TestSerial; averaged response time of the last 50 serial trials immediately after learning.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TestRandom; averaged response time for the 50 subsequent random trials immediately after learning.&nbsp;<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RetestSerial; averaged response time for the last 50 serial trials 10h after learning.<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RetestRandom; averaged response time for the 50 subsequent random trials 10h after learning.</p>\n\n<p>&#39;wordRecall&#39;-group (sub-16 to sub-30): TestSerial; averaged response time for the last 50 serial trials immediately after learning.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TestRandom; averaged response time for the 50 subsequent random trials immediately after learning. &nbsp;&nbsp;&nbsp; &nbsp;</p>\n\n<p>&#39;control&#39;-group (sub-31 to sub-45): &nbsp; &nbsp;TestRandom; averaged response time of the last 100 random trials at testing.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RetestRandom; averaged response time of the last 100 random trials 10h after the tasks.</p>\n\n<p><em>Word recall task</em></p>\n\n<p>&#39;motorSkill&#39;-group (sub-01 to sub-15): Test; number of words recalled immediately after learning.</p>\n\n<p>&#39;wordRecall&#39;-group (sub-16 to sub-30): Test; number of words recalled immediately after learning.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Retest; number of words recalled 10h after learning. &nbsp;&nbsp;&nbsp; &nbsp;</p>\n\n<p>&#39;control&#39;-group (sub-31 to sub-45): &nbsp; &nbsp;Test; number of words recalled immediately after learning.</p>",
+    "publication_date": "2023-06-02",
+    "created": "2023-06-04T09:38:53.612144+00:00",
+    "modified": "",
+    "creators": [
+      {
+        "name": "Bracco, Martina",
+        "affiliation": "Sorbonne Universit\u00e9, Institut du Cerveau, Paris Brain Institute, ICM, Inserm, CNRS, APHP, H\u00f4pital de la Piti\u00e9 Salp\u00eatri\u00e8re, 47 Bd de l'H\u00f4pital, 75013 Paris, France",
+        "orcid": "0000-0002-7242-086X"
+      },
+      {
+        "name": "Mutanen, Tuomas Petteri",
+        "affiliation": "Department of Neuroscience and Biomedical Engineering, Aalto University School of Science, P.O. box 12200, FI-00076 Aalto, Finland",
+        "orcid": "0000-0002-5995-8307"
+      },
+      {
+        "name": "Veniero, Domenica",
+        "affiliation": "School of Psychology, University of Nottingham, Nottingham NG7 2RD, UK",
+        "orcid": "0000-0001-8235-7270"
+      },
+      {
+        "name": "Thut, Gregor",
+        "affiliation": "Institute of Neuroscience and Psychology, Centre for Cognitive Neuroimaging, University of Glasgow, Glasgow G12 8QB, UK",
+        "orcid": "0000-0003-1313-4262"
+      },
+      {
+        "name": "Robertson, Edwin",
+        "affiliation": "Institute of Neuroscience and Psychology, Centre for Cognitive Neuroimaging, University of Glasgow, Glasgow G12 8QB, UK",
+        "orcid": "0000-0003-2248-5902"
+      }
+    ],
+    "keywords": [],
+    "resource_type": "dataset",
+    "resource_title": "Dataset",
+    "license": "cc-by-4.0",
+    "access_right": "open",
+    "url": "https://zenodo.org/records/7891964",
+    "doi_url": "https://doi.org/10.5281/zenodo.7891964",
+    "files": [
+      {
+        "filename": "sub-03.zip",
+        "size_bytes": 707807233,
+        "checksum": "md5:a46a0deee19c01d673b8be1a545e567c",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-03.zip/content"
+      },
+      {
+        "filename": "sub-23.zip",
+        "size_bytes": 725396547,
+        "checksum": "md5:3790b04210f27905d6f54b39124b201f",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-23.zip/content"
+      },
+      {
+        "filename": "sub-22.zip",
+        "size_bytes": 764562286,
+        "checksum": "md5:bece438729266baf8a37924989f2fdb3",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-22.zip/content"
+      },
+      {
+        "filename": "sub-09.zip",
+        "size_bytes": 697484935,
+        "checksum": "md5:136dbe38da3fb3f4e05376451a8aadfc",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-09.zip/content"
+      },
+      {
+        "filename": "sub-21.zip",
+        "size_bytes": 740379710,
+        "checksum": "md5:38f14fac44af6207ae9c2d2b00bea5e1",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-21.zip/content"
+      },
+      {
+        "filename": "sub-26.zip",
+        "size_bytes": 728450290,
+        "checksum": "md5:eeb2d1ae941af3ae79d793c4b2b0c714",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-26.zip/content"
+      },
+      {
+        "filename": "sub-08.zip",
+        "size_bytes": 713674671,
+        "checksum": "md5:a61b9bc03857aeafe65fbd7ca7e002e7",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-08.zip/content"
+      },
+      {
+        "filename": "sub-27.zip",
+        "size_bytes": 706526221,
+        "checksum": "md5:ad01f80ec387a90bb5a0787c7087c25b",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-27.zip/content"
+      },
+      {
+        "filename": "sub-07.zip",
+        "size_bytes": 795689190,
+        "checksum": "md5:3f4d0e1a09f02491d0b99ed500dc8c17",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-07.zip/content"
+      },
+      {
+        "filename": "CHANGES",
+        "size_bytes": 37,
+        "checksum": "md5:38ddef60e8ae88b34d6c887954b6c8c2",
+        "download_url": "https://zenodo.org/api/records/7891964/files/CHANGES/content"
+      },
+      {
+        "filename": "sub-20.zip",
+        "size_bytes": 711514011,
+        "checksum": "md5:d0ccccc287afba3e0d7c0cfd146b2168",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-20.zip/content"
+      },
+      {
+        "filename": "sub-14.zip",
+        "size_bytes": 688965059,
+        "checksum": "md5:2d99081a67fcd04f108b5bb7a94c8c9b",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-14.zip/content"
+      },
+      {
+        "filename": "README.txt",
+        "size_bytes": 4229,
+        "checksum": "md5:d4d9a016000407235a178e61ce597fc8",
+        "download_url": "https://zenodo.org/api/records/7891964/files/README.txt/content"
+      },
+      {
+        "filename": "participants.tsv",
+        "size_bytes": 1120,
+        "checksum": "md5:320eb10f6a7feca1f4db36fcd7772305",
+        "download_url": "https://zenodo.org/api/records/7891964/files/participants.tsv/content"
+      },
+      {
+        "filename": "sub-06.zip",
+        "size_bytes": 711296766,
+        "checksum": "md5:bb151bb3252ee8d95db0fa07f880ea23",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-06.zip/content"
+      },
+      {
+        "filename": "sub-25.zip",
+        "size_bytes": 680541515,
+        "checksum": "md5:e39ac93222eee663068aab4783433508",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-25.zip/content"
+      },
+      {
+        "filename": "sub-10.zip",
+        "size_bytes": 706922332,
+        "checksum": "md5:fa578b787aa18590bd2785a78fa2ad70",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-10.zip/content"
+      },
+      {
+        "filename": "sub-24.zip",
+        "size_bytes": 697026517,
+        "checksum": "md5:7c314662ad3a6078bab6e2db3930ff60",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-24.zip/content"
+      },
+      {
+        "filename": "sub-15.zip",
+        "size_bytes": 694300031,
+        "checksum": "md5:d41dcc82cf7bdef42e2e2c955573ead5",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-15.zip/content"
+      },
+      {
+        "filename": "sub-01.zip",
+        "size_bytes": 676962555,
+        "checksum": "md5:6fbf53b5ab6f2c326714553663073c12",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-01.zip/content"
+      },
+      {
+        "filename": "participants.json",
+        "size_bytes": 1148,
+        "checksum": "md5:6715565490d67fe37c7dca8d76d4947d",
+        "download_url": "https://zenodo.org/api/records/7891964/files/participants.json/content"
+      },
+      {
+        "filename": "sub-19.zip",
+        "size_bytes": 740397028,
+        "checksum": "md5:b144fe1d993786215593726c05f5e9f4",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-19.zip/content"
+      },
+      {
+        "filename": "sub-18.zip",
+        "size_bytes": 696562257,
+        "checksum": "md5:edd9f33b6252ce391d05dd2f6e125d2d",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-18.zip/content"
+      },
+      {
+        "filename": "sub-17.zip",
+        "size_bytes": 747677393,
+        "checksum": "md5:4f2ef94424fe46001b94f11f8c8374cd",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-17.zip/content"
+      },
+      {
+        "filename": "sub-11.zip",
+        "size_bytes": 734035638,
+        "checksum": "md5:74b80d603c8df5fe3112b6cc97bc1f3d",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-11.zip/content"
+      },
+      {
+        "filename": "LICENSE",
+        "size_bytes": 14681,
+        "checksum": "md5:7cb6bd7de67ad2b063c2bbdceb3aba6f",
+        "download_url": "https://zenodo.org/api/records/7891964/files/LICENSE/content"
+      },
+      {
+        "filename": "sub-02.zip",
+        "size_bytes": 703464106,
+        "checksum": "md5:2d0cd64de747065a55813e0c10f5f586",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-02.zip/content"
+      },
+      {
+        "filename": "sub-05.zip",
+        "size_bytes": 694270034,
+        "checksum": "md5:4d07f49fda352407d329038fc4f662f3",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-05.zip/content"
+      },
+      {
+        "filename": "dataset_description.json",
+        "size_bytes": 873,
+        "checksum": "md5:c872649172996febfffb2a11e61ca066",
+        "download_url": "https://zenodo.org/api/records/7891964/files/dataset_description.json/content"
+      },
+      {
+        "filename": "sub-12.zip",
+        "size_bytes": 688482655,
+        "checksum": "md5:27320c699d0e32078ece359e589990ec",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-12.zip/content"
+      },
+      {
+        "filename": "sub-16.zip",
+        "size_bytes": 664148570,
+        "checksum": "md5:cd5590496f70ed98c213a97349802123",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-16.zip/content"
+      },
+      {
+        "filename": "sub-04.zip",
+        "size_bytes": 675861498,
+        "checksum": "md5:ccfe24a1b080e4dd7d2e3b82ec0061e2",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-04.zip/content"
+      },
+      {
+        "filename": "sub-13.zip",
+        "size_bytes": 698898865,
+        "checksum": "md5:4a005f77c547057c2ade2798fee9c5eb",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-13.zip/content"
+      },
+      {
+        "filename": "sub-28.zip",
+        "size_bytes": 704767418,
+        "checksum": "md5:e3d095e227854640b63f00cd7f509fbe",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-28.zip/content"
+      },
+      {
+        "filename": "sub-29.zip",
+        "size_bytes": 712826354,
+        "checksum": "md5:aac79ef4da59e14e241da2ab9d97182a",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-29.zip/content"
+      },
+      {
+        "filename": "sub-30.zip",
+        "size_bytes": 692315861,
+        "checksum": "md5:4074ea181603b2901fe28f06f1d4c483",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-30.zip/content"
+      },
+      {
+        "filename": "sub-31.zip",
+        "size_bytes": 762857632,
+        "checksum": "md5:74ed412ad5aa27746f515f0c61ddfaf0",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-31.zip/content"
+      },
+      {
+        "filename": "sub-32.zip",
+        "size_bytes": 752813916,
+        "checksum": "md5:fc110281229fb2510e6e73b40395c5e0",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-32.zip/content"
+      },
+      {
+        "filename": "sub-33.zip",
+        "size_bytes": 714046447,
+        "checksum": "md5:c0bd9a06633f7b4ccd689afe0e264fc2",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-33.zip/content"
+      },
+      {
+        "filename": "sub-34.zip",
+        "size_bytes": 736490124,
+        "checksum": "md5:c04ea3ab392c798b20a1e9f8b46359d6",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-34.zip/content"
+      },
+      {
+        "filename": "sub-35.zip",
+        "size_bytes": 711871156,
+        "checksum": "md5:14945749062edf5989d2807bfc54f92d",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-35.zip/content"
+      },
+      {
+        "filename": "sub-36.zip",
+        "size_bytes": 679127234,
+        "checksum": "md5:d432233b8ff74c6e7839636429212856",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-36.zip/content"
+      },
+      {
+        "filename": "sub-37.zip",
+        "size_bytes": 752218460,
+        "checksum": "md5:3aa2b9cd2e95e8647f9527c8591add8a",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-37.zip/content"
+      },
+      {
+        "filename": "sub-38.zip",
+        "size_bytes": 669970262,
+        "checksum": "md5:903f0c8f478b1e113b5570862a08b029",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-38.zip/content"
+      },
+      {
+        "filename": "sub-39.zip",
+        "size_bytes": 658908225,
+        "checksum": "md5:706be2b0823db173c866a04965ca6cdc",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-39.zip/content"
+      },
+      {
+        "filename": "sub-40.zip",
+        "size_bytes": 697632067,
+        "checksum": "md5:2d942447ddc0d1696234dc2dfe446ba7",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-40.zip/content"
+      },
+      {
+        "filename": "sub-41.zip",
+        "size_bytes": 734999397,
+        "checksum": "md5:7fd1098a96b32cfde66b7abf59444353",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-41.zip/content"
+      },
+      {
+        "filename": "sub-42.zip",
+        "size_bytes": 671516945,
+        "checksum": "md5:e6d5664364ee5d7c9adc4244b8babd21",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-42.zip/content"
+      },
+      {
+        "filename": "sub-43.zip",
+        "size_bytes": 745815271,
+        "checksum": "md5:a2b7d5ce0f10e934108aee046a1219d4",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-43.zip/content"
+      },
+      {
+        "filename": "sub-44.zip",
+        "size_bytes": 663496624,
+        "checksum": "md5:d43721d968d8896c67ed1262702e5c24",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-44.zip/content"
+      },
+      {
+        "filename": "sub-45.zip",
+        "size_bytes": 676755493,
+        "checksum": "md5:f2bb1b2328495f5b12b40f2bdde3ee79",
+        "download_url": "https://zenodo.org/api/records/7891964/files/sub-45.zip/content"
+      }
+    ],
+    "file_count": 51,
+    "total_size_mb": 30450.58,
+    "source": "zenodo"
+  },
+  {
     "dataset_id": "5034769",
     "doi": "10.5061/dryad.v46p2jh",
     "concept_doi": "5034768",
@@ -1856,361 +2211,6 @@
     "source": "zenodo"
   },
   {
-    "dataset_id": "7891964",
-    "doi": "10.5281/zenodo.7891964",
-    "concept_doi": "7891963",
-    "title": "Distinct frequencies balance segregation with interaction between different memory types within a prefrontal circuit",
-    "description": "<p>2023-05-30</p>\n\n<p>This archive holds the original data used to derive the results reported in the publication:<br>\n&#39;Distinct frequencies balance segregation with interaction between different memory types within a prefrontal circuit&#39;</p>\n\n<p>Authors: Martina Bracco, Tuomas P. Mutanen, Domenica Veniero, Gregor Thut &amp; Edwin M. Robertson<br>\nCorresponding Author: Edwin M. Robertson<br>\nContact: edwin.robertson@glasgow.ac.uk</p>\n\n<p>Please refer to the License for the correct use of the data.&nbsp;<br>\nIf the use of this data leads to any public dissemination, including (but not restricted to) scientific articles, conference presentations, and posters, please remember to cite the original article.</p>\n\n<p><br>\n<strong>General Description</strong></p>\n\n<p>The dataset is shared in BIDS format. To facilitate the upload of files to&nbsp;Zenodo, each subject folder was&nbsp;compressed separately. To ensure a valid bids structure of the dataset,&nbsp;extract the contents of each zip file and place them in the same directory as the other files from the dataset. By doing so, you will have all the necessary files in the correct structure for the BIDS format.</p>\n\n<p>Data type: raw TMS-EEG data organized in BIDS format, and epoched &plusmn;800 ms around the pulse.<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;preprocessed motor skill and word recall data organized in BIDS format (.tsv = data file; .json = data description).</p>\n\n<p>Key to Filenames: sub = Participant<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ses-preLearning = Session 1 data folder<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ses-postLearnng = Session 2 data folder<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; eeg = TMS-EEG data folder<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; beh = behaviral data folder</p>\n\n<p>Participants: 45 healthy participants (30 females, 23.9&plusmn;3.6 years; mean &plusmn; std)&nbsp;<br>\n&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<br>\nGroups: Participants were randomly assigned to three different groups with different behavioural conditions:<br>\n&nbsp;&nbsp; &nbsp;- In the &#39;motorSkill&#39;-group, participants performed a sequential motor-skill task followed by a wordlist memory task.&nbsp;<br>\n&nbsp; &nbsp; &nbsp; &nbsp; (sub-01 to sub-15)<br>\n&nbsp;&nbsp; &nbsp;- In the &#39;wordRecall&#39;-group, &nbsp;participants performed a &nbsp;wordlist memory followed by a sequential task motor-skill task.<br>\n&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;(sub-16 to sub-30)<br>\n&nbsp;&nbsp; &nbsp;- In the &#39;control&#39;-group, participants performed a random motor-skill task followed by a wordlist memory task.<br>\n&nbsp; &nbsp; &nbsp;&nbsp; &nbsp;(sub-31 to sub-45)</p>\n\n<p><strong>TMS-EEG data description</strong></p>\n\n<p>Stimulation sites: Right dorsolateral prefrontal cortex (rDLPFC).&nbsp;<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Left primary motor cortex (lM1).</p>\n\n<p>Sessions: Session 1: TMS-EEG recordings before the behavioural tasks.<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Session 2: TMS-EEG recordings after the behavioural tasks.</p>\n\n<p>Number of TMS pulses: 126 pulses delivered to either DLPFC or M1 before, before and after behavioural tasks (a total of 252 pulses for Session 1 and Session 2, each).</p>\n\n<p>Inter-Stimulus Interval: 4-6 s (4.9&plusmn;0.6 s, mean &plusmn; std).</p>\n\n<p>TMS intensity: 80% of participants&#39; individual motor threshold.</p>\n\n<p>TMS machine: Magstim Rapid2, Magstim Company.</p>\n\n<p>Coil: figure-of-eight coil (Double 70-mm Alpha Coil).</p>\n\n<p>Number of channels: 62-channel EEG channels (AFz and TP9 are used as reference and ground, respectively)&nbsp;<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; + 1 FDI EMG channel<br>\n&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;+ 1 electrode on the outer canthus of the left eye to monitor eye movements.</p>\n\n<p>Sampling rate: 5000 Hz.&nbsp;</p>\n\n<p>Voltage resolution: 0.1 uV.</p>\n\n<p>EEG system: TMS-EEG compatible BrainAmp (Brain Products).</p>\n\n<p>Noise masking during TMS-EEG recordings: Yes.&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p><strong>Memory tasks data description</strong></p>\n\n<p><br>\n<em>Motor skill task</em></p>\n\n<p>&#39;motorSkill&#39;-group (sub-01 to sub-15): TestSerial; averaged response time of the last 50 serial trials immediately after learning.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TestRandom; averaged response time for the 50 subsequent random trials immediately after learning.&nbsp;<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RetestSerial; averaged response time for the last 50 serial trials 10h after learning.<br>\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;RetestRandom; averaged response time for the 50 subsequent random trials 10h after learning.</p>\n\n<p>&#39;wordRecall&#39;-group (sub-16 to sub-30): TestSerial; averaged response time for the last 50 serial trials immediately after learning.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; TestRandom; averaged response time for the 50 subsequent random trials immediately after learning. &nbsp;&nbsp;&nbsp; &nbsp;</p>\n\n<p>&#39;control&#39;-group (sub-31 to sub-45): &nbsp; &nbsp;TestRandom; averaged response time of the last 100 random trials at testing.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; RetestRandom; averaged response time of the last 100 random trials 10h after the tasks.</p>\n\n<p><em>Word recall task</em></p>\n\n<p>&#39;motorSkill&#39;-group (sub-01 to sub-15): Test; number of words recalled immediately after learning.</p>\n\n<p>&#39;wordRecall&#39;-group (sub-16 to sub-30): Test; number of words recalled immediately after learning.<br>\n&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Retest; number of words recalled 10h after learning. &nbsp;&nbsp;&nbsp; &nbsp;</p>\n\n<p>&#39;control&#39;-group (sub-31 to sub-45): &nbsp; &nbsp;Test; number of words recalled immediately after learning.</p>",
-    "publication_date": "2023-06-02",
-    "created": "2023-06-04T09:38:53.612144+00:00",
-    "modified": "",
-    "creators": [
-      {
-        "name": "Bracco, Martina",
-        "affiliation": "Sorbonne Universit\u00e9, Institut du Cerveau, Paris Brain Institute, ICM, Inserm, CNRS, APHP, H\u00f4pital de la Piti\u00e9 Salp\u00eatri\u00e8re, 47 Bd de l'H\u00f4pital, 75013 Paris, France",
-        "orcid": "0000-0002-7242-086X"
-      },
-      {
-        "name": "Mutanen, Tuomas Petteri",
-        "affiliation": "Department of Neuroscience and Biomedical Engineering, Aalto University School of Science, P.O. box 12200, FI-00076 Aalto, Finland",
-        "orcid": "0000-0002-5995-8307"
-      },
-      {
-        "name": "Veniero, Domenica",
-        "affiliation": "School of Psychology, University of Nottingham, Nottingham NG7 2RD, UK",
-        "orcid": "0000-0001-8235-7270"
-      },
-      {
-        "name": "Thut, Gregor",
-        "affiliation": "Institute of Neuroscience and Psychology, Centre for Cognitive Neuroimaging, University of Glasgow, Glasgow G12 8QB, UK",
-        "orcid": "0000-0003-1313-4262"
-      },
-      {
-        "name": "Robertson, Edwin",
-        "affiliation": "Institute of Neuroscience and Psychology, Centre for Cognitive Neuroimaging, University of Glasgow, Glasgow G12 8QB, UK",
-        "orcid": "0000-0003-2248-5902"
-      }
-    ],
-    "keywords": [],
-    "resource_type": "dataset",
-    "resource_title": "Dataset",
-    "license": "cc-by-4.0",
-    "access_right": "open",
-    "url": "https://zenodo.org/records/7891964",
-    "doi_url": "https://doi.org/10.5281/zenodo.7891964",
-    "files": [
-      {
-        "filename": "sub-03.zip",
-        "size_bytes": 707807233,
-        "checksum": "md5:a46a0deee19c01d673b8be1a545e567c",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-03.zip/content"
-      },
-      {
-        "filename": "sub-23.zip",
-        "size_bytes": 725396547,
-        "checksum": "md5:3790b04210f27905d6f54b39124b201f",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-23.zip/content"
-      },
-      {
-        "filename": "sub-22.zip",
-        "size_bytes": 764562286,
-        "checksum": "md5:bece438729266baf8a37924989f2fdb3",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-22.zip/content"
-      },
-      {
-        "filename": "sub-09.zip",
-        "size_bytes": 697484935,
-        "checksum": "md5:136dbe38da3fb3f4e05376451a8aadfc",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-09.zip/content"
-      },
-      {
-        "filename": "sub-21.zip",
-        "size_bytes": 740379710,
-        "checksum": "md5:38f14fac44af6207ae9c2d2b00bea5e1",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-21.zip/content"
-      },
-      {
-        "filename": "sub-26.zip",
-        "size_bytes": 728450290,
-        "checksum": "md5:eeb2d1ae941af3ae79d793c4b2b0c714",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-26.zip/content"
-      },
-      {
-        "filename": "sub-08.zip",
-        "size_bytes": 713674671,
-        "checksum": "md5:a61b9bc03857aeafe65fbd7ca7e002e7",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-08.zip/content"
-      },
-      {
-        "filename": "sub-27.zip",
-        "size_bytes": 706526221,
-        "checksum": "md5:ad01f80ec387a90bb5a0787c7087c25b",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-27.zip/content"
-      },
-      {
-        "filename": "sub-07.zip",
-        "size_bytes": 795689190,
-        "checksum": "md5:3f4d0e1a09f02491d0b99ed500dc8c17",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-07.zip/content"
-      },
-      {
-        "filename": "CHANGES",
-        "size_bytes": 37,
-        "checksum": "md5:38ddef60e8ae88b34d6c887954b6c8c2",
-        "download_url": "https://zenodo.org/api/records/7891964/files/CHANGES/content"
-      },
-      {
-        "filename": "sub-20.zip",
-        "size_bytes": 711514011,
-        "checksum": "md5:d0ccccc287afba3e0d7c0cfd146b2168",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-20.zip/content"
-      },
-      {
-        "filename": "sub-14.zip",
-        "size_bytes": 688965059,
-        "checksum": "md5:2d99081a67fcd04f108b5bb7a94c8c9b",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-14.zip/content"
-      },
-      {
-        "filename": "README.txt",
-        "size_bytes": 4229,
-        "checksum": "md5:d4d9a016000407235a178e61ce597fc8",
-        "download_url": "https://zenodo.org/api/records/7891964/files/README.txt/content"
-      },
-      {
-        "filename": "participants.tsv",
-        "size_bytes": 1120,
-        "checksum": "md5:320eb10f6a7feca1f4db36fcd7772305",
-        "download_url": "https://zenodo.org/api/records/7891964/files/participants.tsv/content"
-      },
-      {
-        "filename": "sub-06.zip",
-        "size_bytes": 711296766,
-        "checksum": "md5:bb151bb3252ee8d95db0fa07f880ea23",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-06.zip/content"
-      },
-      {
-        "filename": "sub-25.zip",
-        "size_bytes": 680541515,
-        "checksum": "md5:e39ac93222eee663068aab4783433508",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-25.zip/content"
-      },
-      {
-        "filename": "sub-10.zip",
-        "size_bytes": 706922332,
-        "checksum": "md5:fa578b787aa18590bd2785a78fa2ad70",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-10.zip/content"
-      },
-      {
-        "filename": "sub-24.zip",
-        "size_bytes": 697026517,
-        "checksum": "md5:7c314662ad3a6078bab6e2db3930ff60",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-24.zip/content"
-      },
-      {
-        "filename": "sub-15.zip",
-        "size_bytes": 694300031,
-        "checksum": "md5:d41dcc82cf7bdef42e2e2c955573ead5",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-15.zip/content"
-      },
-      {
-        "filename": "sub-01.zip",
-        "size_bytes": 676962555,
-        "checksum": "md5:6fbf53b5ab6f2c326714553663073c12",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-01.zip/content"
-      },
-      {
-        "filename": "participants.json",
-        "size_bytes": 1148,
-        "checksum": "md5:6715565490d67fe37c7dca8d76d4947d",
-        "download_url": "https://zenodo.org/api/records/7891964/files/participants.json/content"
-      },
-      {
-        "filename": "sub-19.zip",
-        "size_bytes": 740397028,
-        "checksum": "md5:b144fe1d993786215593726c05f5e9f4",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-19.zip/content"
-      },
-      {
-        "filename": "sub-18.zip",
-        "size_bytes": 696562257,
-        "checksum": "md5:edd9f33b6252ce391d05dd2f6e125d2d",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-18.zip/content"
-      },
-      {
-        "filename": "sub-17.zip",
-        "size_bytes": 747677393,
-        "checksum": "md5:4f2ef94424fe46001b94f11f8c8374cd",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-17.zip/content"
-      },
-      {
-        "filename": "sub-11.zip",
-        "size_bytes": 734035638,
-        "checksum": "md5:74b80d603c8df5fe3112b6cc97bc1f3d",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-11.zip/content"
-      },
-      {
-        "filename": "LICENSE",
-        "size_bytes": 14681,
-        "checksum": "md5:7cb6bd7de67ad2b063c2bbdceb3aba6f",
-        "download_url": "https://zenodo.org/api/records/7891964/files/LICENSE/content"
-      },
-      {
-        "filename": "sub-02.zip",
-        "size_bytes": 703464106,
-        "checksum": "md5:2d0cd64de747065a55813e0c10f5f586",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-02.zip/content"
-      },
-      {
-        "filename": "sub-05.zip",
-        "size_bytes": 694270034,
-        "checksum": "md5:4d07f49fda352407d329038fc4f662f3",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-05.zip/content"
-      },
-      {
-        "filename": "dataset_description.json",
-        "size_bytes": 873,
-        "checksum": "md5:c872649172996febfffb2a11e61ca066",
-        "download_url": "https://zenodo.org/api/records/7891964/files/dataset_description.json/content"
-      },
-      {
-        "filename": "sub-12.zip",
-        "size_bytes": 688482655,
-        "checksum": "md5:27320c699d0e32078ece359e589990ec",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-12.zip/content"
-      },
-      {
-        "filename": "sub-16.zip",
-        "size_bytes": 664148570,
-        "checksum": "md5:cd5590496f70ed98c213a97349802123",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-16.zip/content"
-      },
-      {
-        "filename": "sub-04.zip",
-        "size_bytes": 675861498,
-        "checksum": "md5:ccfe24a1b080e4dd7d2e3b82ec0061e2",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-04.zip/content"
-      },
-      {
-        "filename": "sub-13.zip",
-        "size_bytes": 698898865,
-        "checksum": "md5:4a005f77c547057c2ade2798fee9c5eb",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-13.zip/content"
-      },
-      {
-        "filename": "sub-28.zip",
-        "size_bytes": 704767418,
-        "checksum": "md5:e3d095e227854640b63f00cd7f509fbe",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-28.zip/content"
-      },
-      {
-        "filename": "sub-29.zip",
-        "size_bytes": 712826354,
-        "checksum": "md5:aac79ef4da59e14e241da2ab9d97182a",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-29.zip/content"
-      },
-      {
-        "filename": "sub-30.zip",
-        "size_bytes": 692315861,
-        "checksum": "md5:4074ea181603b2901fe28f06f1d4c483",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-30.zip/content"
-      },
-      {
-        "filename": "sub-31.zip",
-        "size_bytes": 762857632,
-        "checksum": "md5:74ed412ad5aa27746f515f0c61ddfaf0",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-31.zip/content"
-      },
-      {
-        "filename": "sub-32.zip",
-        "size_bytes": 752813916,
-        "checksum": "md5:fc110281229fb2510e6e73b40395c5e0",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-32.zip/content"
-      },
-      {
-        "filename": "sub-33.zip",
-        "size_bytes": 714046447,
-        "checksum": "md5:c0bd9a06633f7b4ccd689afe0e264fc2",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-33.zip/content"
-      },
-      {
-        "filename": "sub-34.zip",
-        "size_bytes": 736490124,
-        "checksum": "md5:c04ea3ab392c798b20a1e9f8b46359d6",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-34.zip/content"
-      },
-      {
-        "filename": "sub-35.zip",
-        "size_bytes": 711871156,
-        "checksum": "md5:14945749062edf5989d2807bfc54f92d",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-35.zip/content"
-      },
-      {
-        "filename": "sub-36.zip",
-        "size_bytes": 679127234,
-        "checksum": "md5:d432233b8ff74c6e7839636429212856",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-36.zip/content"
-      },
-      {
-        "filename": "sub-37.zip",
-        "size_bytes": 752218460,
-        "checksum": "md5:3aa2b9cd2e95e8647f9527c8591add8a",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-37.zip/content"
-      },
-      {
-        "filename": "sub-38.zip",
-        "size_bytes": 669970262,
-        "checksum": "md5:903f0c8f478b1e113b5570862a08b029",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-38.zip/content"
-      },
-      {
-        "filename": "sub-39.zip",
-        "size_bytes": 658908225,
-        "checksum": "md5:706be2b0823db173c866a04965ca6cdc",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-39.zip/content"
-      },
-      {
-        "filename": "sub-40.zip",
-        "size_bytes": 697632067,
-        "checksum": "md5:2d942447ddc0d1696234dc2dfe446ba7",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-40.zip/content"
-      },
-      {
-        "filename": "sub-41.zip",
-        "size_bytes": 734999397,
-        "checksum": "md5:7fd1098a96b32cfde66b7abf59444353",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-41.zip/content"
-      },
-      {
-        "filename": "sub-42.zip",
-        "size_bytes": 671516945,
-        "checksum": "md5:e6d5664364ee5d7c9adc4244b8babd21",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-42.zip/content"
-      },
-      {
-        "filename": "sub-43.zip",
-        "size_bytes": 745815271,
-        "checksum": "md5:a2b7d5ce0f10e934108aee046a1219d4",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-43.zip/content"
-      },
-      {
-        "filename": "sub-44.zip",
-        "size_bytes": 663496624,
-        "checksum": "md5:d43721d968d8896c67ed1262702e5c24",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-44.zip/content"
-      },
-      {
-        "filename": "sub-45.zip",
-        "size_bytes": 676755493,
-        "checksum": "md5:f2bb1b2328495f5b12b40f2bdde3ee79",
-        "download_url": "https://zenodo.org/api/records/7891964/files/sub-45.zip/content"
-      }
-    ],
-    "file_count": 51,
-    "total_size_mb": 30450.58,
-    "source": "zenodo"
-  },
-  {
     "dataset_id": "7413650",
     "doi": "10.5281/zenodo.7413650",
     "concept_doi": "6874128",
@@ -2509,101 +2509,6 @@
     "source": "zenodo"
   },
   {
-    "dataset_id": "5263362",
-    "doi": "10.5061/dryad.gmsbcc2mp",
-    "concept_doi": "5263361",
-    "title": "EEG abnormalities and their radiographic correlates in a COVID-19 inpatient cohort",
-    "description": "<p>Objective: To identify the prevalence of EEG abnormalities in patients with COVID-19 with neurologic changes, their associated neuroimaging abnormalities and rates of mortality.</p>\n\n<p>Methods: A retrospective case series of 192 adult COVID-19 positive inpatients with EEG performed between March and June 2020 at 4 hospitals: 161 undergoing continuous, 24 routine, and 7 reduced-montage EEG. Study indication, epilepsy history, intubation status, administration of sedatives or antiseizure medications, metabolic abnormalities, neuroimaging pathology associated with epileptiform abnormalities, and in-hospital mortality were analyzed.</p>\n\n<p>Results: EEG indications included encephalopathy (54.7%), seizure (18.2%), coma (17.2%), focal deficit (5.2%), and abnormal movements (4.6%). Epileptiform abnormalities occurred in 39.6% of patients: focal intermittent epileptiform discharges in 25.0%, lateralized periodic discharges in 6.3%, and generalized periodic discharges in 19.3%. Seizures were recorded in 8 patients, 3 with status epilepticus. Antiseizure medication administration, epilepsy history, and older age were associated with epileptiform abnormalities. Only 26.3% of patients with any epileptiform abnormality, 37.5% with electrographic seizures, and 25.7% patients with clinical seizures had known epilepsy. Background findings included generalized slowing (88.5%), focal slowing (15.6%), burst suppression (3.6%), attenuation (3.1%), and normal EEG (3.1%). Neuroimaging pathology was identified in 67.1% of patients with epileptiform abnormalities, over two-thirds acute. In-hospital mortality was 39.5% for patients with epileptiform abnormalities, 36.2% for those without. Risk factors for mortality were coma and ventilator support at time of EEG.</p>\n\n<p>Significance: This article highlights the range of EEG abnormalities frequently associated with acute neuroimaging abnormalities in COVID-19. Mortality rates were high, particularly for patients in coma requiring mechanical ventilation. These findings may guide the prognosis and management of patients with COVID-19 and neurologic changes.</p>",
-    "publication_date": "2021-08-25",
-    "created": "2021-08-26T02:41:11.856495+00:00",
-    "modified": "",
-    "creators": [
-      {
-        "name": "Hwang, Sean T.",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Ballout, Ahmad A.",
-        "affiliation": "Hofstra University",
-        "orcid": "0000-0001-7408-4233"
-      },
-      {
-        "name": "Sonti, Anup N.",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Kapyur, Amitha",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Kirsch, Claudia",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Singh, Neeraj",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Markowitz, Noah",
-        "affiliation": "Feinstein Institute for Medical Research",
-        "orcid": "0000-0001-9826-575X"
-      },
-      {
-        "name": "Leung, Tung Ming",
-        "affiliation": "Feinstein Institute for Medical Research",
-        "orcid": "0000-0002-4873-2732"
-      },
-      {
-        "name": "Chong, Derek J.",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Temes, Richard",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Pacia, Steven V.",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Kuzniecky, Ruben I.",
-        "affiliation": "Hofstra University"
-      },
-      {
-        "name": "Najjar, Souhel",
-        "affiliation": "Hofstra University"
-      }
-    ],
-    "keywords": [
-      "Neurologic complications of COVID-19",
-      "Coma",
-      "All Imaging"
-    ],
-    "resource_type": "dataset",
-    "resource_title": "Dataset",
-    "license": "cc0-1.0",
-    "access_right": "open",
-    "url": "https://zenodo.org/records/5263362",
-    "doi_url": "https://doi.org/10.5061/dryad.gmsbcc2mp",
-    "files": [
-      {
-        "filename": "data_finalized_version_-_dryad_8-24-2021.csv",
-        "size_bytes": 20576,
-        "checksum": "md5:1e11c30138213e67acab7ee765909b5c",
-        "download_url": "https://zenodo.org/api/records/5263362/files/data_finalized_version_-_dryad_8-24-2021.csv/content"
-      },
-      {
-        "filename": "AUTHOR_DATASET_ReadmeTemplate.txt",
-        "size_bytes": 6518,
-        "checksum": "md5:6ab963da41a7131420e5281aba50bcdf",
-        "download_url": "https://zenodo.org/api/records/5263362/files/AUTHOR_DATASET_ReadmeTemplate.txt/content"
-      }
-    ],
-    "file_count": 2,
-    "total_size_mb": 0.03,
-    "source": "zenodo"
-  },
-  {
     "dataset_id": "17306881",
     "doi": "10.5281/zenodo.17306881",
     "concept_doi": "17306880",
@@ -2697,6 +2602,101 @@
     ],
     "file_count": 1,
     "total_size_mb": 20682.25,
+    "source": "zenodo"
+  },
+  {
+    "dataset_id": "5263362",
+    "doi": "10.5061/dryad.gmsbcc2mp",
+    "concept_doi": "5263361",
+    "title": "EEG abnormalities and their radiographic correlates in a COVID-19 inpatient cohort",
+    "description": "<p>Objective: To identify the prevalence of EEG abnormalities in patients with COVID-19 with neurologic changes, their associated neuroimaging abnormalities and rates of mortality.</p>\n\n<p>Methods: A retrospective case series of 192 adult COVID-19 positive inpatients with EEG performed between March and June 2020 at 4 hospitals: 161 undergoing continuous, 24 routine, and 7 reduced-montage EEG. Study indication, epilepsy history, intubation status, administration of sedatives or antiseizure medications, metabolic abnormalities, neuroimaging pathology associated with epileptiform abnormalities, and in-hospital mortality were analyzed.</p>\n\n<p>Results: EEG indications included encephalopathy (54.7%), seizure (18.2%), coma (17.2%), focal deficit (5.2%), and abnormal movements (4.6%). Epileptiform abnormalities occurred in 39.6% of patients: focal intermittent epileptiform discharges in 25.0%, lateralized periodic discharges in 6.3%, and generalized periodic discharges in 19.3%. Seizures were recorded in 8 patients, 3 with status epilepticus. Antiseizure medication administration, epilepsy history, and older age were associated with epileptiform abnormalities. Only 26.3% of patients with any epileptiform abnormality, 37.5% with electrographic seizures, and 25.7% patients with clinical seizures had known epilepsy. Background findings included generalized slowing (88.5%), focal slowing (15.6%), burst suppression (3.6%), attenuation (3.1%), and normal EEG (3.1%). Neuroimaging pathology was identified in 67.1% of patients with epileptiform abnormalities, over two-thirds acute. In-hospital mortality was 39.5% for patients with epileptiform abnormalities, 36.2% for those without. Risk factors for mortality were coma and ventilator support at time of EEG.</p>\n\n<p>Significance: This article highlights the range of EEG abnormalities frequently associated with acute neuroimaging abnormalities in COVID-19. Mortality rates were high, particularly for patients in coma requiring mechanical ventilation. These findings may guide the prognosis and management of patients with COVID-19 and neurologic changes.</p>",
+    "publication_date": "2021-08-25",
+    "created": "2021-08-26T02:41:11.856495+00:00",
+    "modified": "",
+    "creators": [
+      {
+        "name": "Hwang, Sean T.",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Ballout, Ahmad A.",
+        "affiliation": "Hofstra University",
+        "orcid": "0000-0001-7408-4233"
+      },
+      {
+        "name": "Sonti, Anup N.",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Kapyur, Amitha",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Kirsch, Claudia",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Singh, Neeraj",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Markowitz, Noah",
+        "affiliation": "Feinstein Institute for Medical Research",
+        "orcid": "0000-0001-9826-575X"
+      },
+      {
+        "name": "Leung, Tung Ming",
+        "affiliation": "Feinstein Institute for Medical Research",
+        "orcid": "0000-0002-4873-2732"
+      },
+      {
+        "name": "Chong, Derek J.",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Temes, Richard",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Pacia, Steven V.",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Kuzniecky, Ruben I.",
+        "affiliation": "Hofstra University"
+      },
+      {
+        "name": "Najjar, Souhel",
+        "affiliation": "Hofstra University"
+      }
+    ],
+    "keywords": [
+      "Neurologic complications of COVID-19",
+      "Coma",
+      "All Imaging"
+    ],
+    "resource_type": "dataset",
+    "resource_title": "Dataset",
+    "license": "cc0-1.0",
+    "access_right": "open",
+    "url": "https://zenodo.org/records/5263362",
+    "doi_url": "https://doi.org/10.5061/dryad.gmsbcc2mp",
+    "files": [
+      {
+        "filename": "data_finalized_version_-_dryad_8-24-2021.csv",
+        "size_bytes": 20576,
+        "checksum": "md5:1e11c30138213e67acab7ee765909b5c",
+        "download_url": "https://zenodo.org/api/records/5263362/files/data_finalized_version_-_dryad_8-24-2021.csv/content"
+      },
+      {
+        "filename": "AUTHOR_DATASET_ReadmeTemplate.txt",
+        "size_bytes": 6518,
+        "checksum": "md5:6ab963da41a7131420e5281aba50bcdf",
+        "download_url": "https://zenodo.org/api/records/5263362/files/AUTHOR_DATASET_ReadmeTemplate.txt/content"
+      }
+    ],
+    "file_count": 2,
+    "total_size_mb": 0.03,
     "source": "zenodo"
   },
   {
@@ -4331,6 +4331,92 @@
     "source": "zenodo"
   },
   {
+    "dataset_id": "3233557",
+    "doi": "10.5281/zenodo.3233557",
+    "concept_doi": "3233556",
+    "title": "Data for the study: Comparison of beamformer implementations for MEG source localization",
+    "description": "<p>This&nbsp;data set is a part of the study &#39;Comparison of beamformers implementations for MEG source localization&#39;. The dataset includes 64 phantom datasets, 2 human datasets, and 50 simulated datasets. The data also include segmented MRI files from FreeSurfer for MEG phantom (Megin Oy, Helsinki, Finland) and a human subject MRI. It also includes the used versions of the four beamforming packages (MNE-Python, FieldTrip, SPM12(DAiSS), and Brainstorm) and codes used for the analysis.</p>",
+    "publication_date": "2019-10-03",
+    "created": "2019-10-03T18:05:49.022428+00:00",
+    "modified": "",
+    "creators": [
+      {
+        "name": "Amit Jaiswal",
+        "affiliation": "Megin Oy, Helsinki, Finland"
+      },
+      {
+        "name": "Jukka Nenonen",
+        "affiliation": "Megin Oy, Helsinki, Finland"
+      },
+      {
+        "name": "Matti Stenroos",
+        "affiliation": "Department of Neuroscience and Biomedical Engineering, Aalto University School of Science, Espoo, Finland"
+      },
+      {
+        "name": "Alexandre Gramfort",
+        "affiliation": "Inria, CEA/Neurospin, Universite Paris-Saclay, Paris, France"
+      },
+      {
+        "name": "Sarang S. Dalal",
+        "affiliation": "Center of Functionally Integrative Neuroscience, Aarhus University, Denmark"
+      },
+      {
+        "name": "Britta U. Westner",
+        "affiliation": "Center of Functionally Integrative Neuroscience, Aarhus University, Denmark"
+      },
+      {
+        "name": "Vladimir Litvak",
+        "affiliation": "The Wellcome Centre for Human Neuroimaging, UCL Queen Square Institute of Neurology, London, UK"
+      },
+      {
+        "name": "John C. Mosher",
+        "affiliation": "Department of Neurology, University of Texas Health Science Center at Houston, Houston, Texas, USA"
+      },
+      {
+        "name": "Jan-Mathijs Schoffelen",
+        "affiliation": "Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, The Netherlands"
+      },
+      {
+        "name": "Caroline Witton",
+        "affiliation": "Aston Brain Centre, School of Life and Health Sciences, Aston University, Birmingham, UK"
+      },
+      {
+        "name": "Robert Oostenveld",
+        "affiliation": "NatMEG, Karolinska Institutet, Stockholm, Sweden"
+      },
+      {
+        "name": "7,8, Lauri Parkkonen",
+        "affiliation": "Department of Neuroscience and Biomedical Engineering, Aalto University School of Science, Espoo, Finland"
+      }
+    ],
+    "keywords": [
+      "MEG, Beamformer"
+    ],
+    "resource_type": "dataset",
+    "resource_title": "Dataset",
+    "license": "cc-by-1.0",
+    "access_right": "open",
+    "url": "https://zenodo.org/records/3233557",
+    "doi_url": "https://doi.org/10.5281/zenodo.3233557",
+    "files": [
+      {
+        "filename": "LCMV_pipelines.tar.gz",
+        "size_bytes": 468986,
+        "checksum": "md5:ff114c32bcb0df250a4d74589908b0c9",
+        "download_url": "https://zenodo.org/api/records/3233557/files/LCMV_pipelines.tar.gz/content"
+      },
+      {
+        "filename": "BeamComp_DataRepo.tar.gz",
+        "size_bytes": 14947581750,
+        "checksum": "md5:ed3f4dcdb9168e8f6efe2745310eb691",
+        "download_url": "https://zenodo.org/api/records/3233557/files/BeamComp_DataRepo.tar.gz/content"
+      }
+    ],
+    "file_count": 2,
+    "total_size_mb": 14255.57,
+    "source": "zenodo"
+  },
+  {
     "dataset_id": "4946339",
     "doi": "10.5061/dryad.gj58t0v",
     "concept_doi": "4946338",
@@ -4517,92 +4603,6 @@
     ],
     "file_count": 2,
     "total_size_mb": 0.74,
-    "source": "zenodo"
-  },
-  {
-    "dataset_id": "3233557",
-    "doi": "10.5281/zenodo.3233557",
-    "concept_doi": "3233556",
-    "title": "Data for the study: Comparison of beamformer implementations for MEG source localization",
-    "description": "<p>This&nbsp;data set is a part of the study &#39;Comparison of beamformers implementations for MEG source localization&#39;. The dataset includes 64 phantom datasets, 2 human datasets, and 50 simulated datasets. The data also include segmented MRI files from FreeSurfer for MEG phantom (Megin Oy, Helsinki, Finland) and a human subject MRI. It also includes the used versions of the four beamforming packages (MNE-Python, FieldTrip, SPM12(DAiSS), and Brainstorm) and codes used for the analysis.</p>",
-    "publication_date": "2019-10-03",
-    "created": "2019-10-03T18:05:49.022428+00:00",
-    "modified": "",
-    "creators": [
-      {
-        "name": "Amit Jaiswal",
-        "affiliation": "Megin Oy, Helsinki, Finland"
-      },
-      {
-        "name": "Jukka Nenonen",
-        "affiliation": "Megin Oy, Helsinki, Finland"
-      },
-      {
-        "name": "Matti Stenroos",
-        "affiliation": "Department of Neuroscience and Biomedical Engineering, Aalto University School of Science, Espoo, Finland"
-      },
-      {
-        "name": "Alexandre Gramfort",
-        "affiliation": "Inria, CEA/Neurospin, Universite Paris-Saclay, Paris, France"
-      },
-      {
-        "name": "Sarang S. Dalal",
-        "affiliation": "Center of Functionally Integrative Neuroscience, Aarhus University, Denmark"
-      },
-      {
-        "name": "Britta U. Westner",
-        "affiliation": "Center of Functionally Integrative Neuroscience, Aarhus University, Denmark"
-      },
-      {
-        "name": "Vladimir Litvak",
-        "affiliation": "The Wellcome Centre for Human Neuroimaging, UCL Queen Square Institute of Neurology, London, UK"
-      },
-      {
-        "name": "John C. Mosher",
-        "affiliation": "Department of Neurology, University of Texas Health Science Center at Houston, Houston, Texas, USA"
-      },
-      {
-        "name": "Jan-Mathijs Schoffelen",
-        "affiliation": "Donders Institute for Brain, Cognition and Behaviour, Radboud University, Nijmegen, The Netherlands"
-      },
-      {
-        "name": "Caroline Witton",
-        "affiliation": "Aston Brain Centre, School of Life and Health Sciences, Aston University, Birmingham, UK"
-      },
-      {
-        "name": "Robert Oostenveld",
-        "affiliation": "NatMEG, Karolinska Institutet, Stockholm, Sweden"
-      },
-      {
-        "name": "7,8, Lauri Parkkonen",
-        "affiliation": "Department of Neuroscience and Biomedical Engineering, Aalto University School of Science, Espoo, Finland"
-      }
-    ],
-    "keywords": [
-      "MEG, Beamformer"
-    ],
-    "resource_type": "dataset",
-    "resource_title": "Dataset",
-    "license": "cc-by-1.0",
-    "access_right": "open",
-    "url": "https://zenodo.org/records/3233557",
-    "doi_url": "https://doi.org/10.5281/zenodo.3233557",
-    "files": [
-      {
-        "filename": "LCMV_pipelines.tar.gz",
-        "size_bytes": 468986,
-        "checksum": "md5:ff114c32bcb0df250a4d74589908b0c9",
-        "download_url": "https://zenodo.org/api/records/3233557/files/LCMV_pipelines.tar.gz/content"
-      },
-      {
-        "filename": "BeamComp_DataRepo.tar.gz",
-        "size_bytes": 14947581750,
-        "checksum": "md5:ed3f4dcdb9168e8f6efe2745310eb691",
-        "download_url": "https://zenodo.org/api/records/3233557/files/BeamComp_DataRepo.tar.gz/content"
-      }
-    ],
-    "file_count": 2,
-    "total_size_mb": 14255.57,
     "source": "zenodo"
   },
   {
@@ -4825,6 +4825,56 @@
     "source": "zenodo"
   },
   {
+    "dataset_id": "12794769",
+    "doi": "10.5281/zenodo.12794769",
+    "concept_doi": "12794768",
+    "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 2",
+    "description": "<h2><strong>Data location</strong></h2>\n<p>The data is split into 3 Zenodo locations as it is too large for one location. In total the data set contains meg data of 58 participants. An overview of the participants and the amount of musical training the have conducted is also available. Each of the 3 Zenodo uploads contains the participant overview file + Set#.zip.</p>\n<p>Part/Set 1 (blue) contains: meg data of participants 1 - 19 + audio folder (can be found <a href=\"../records/12793944\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p><strong>Part/Set 2 (pink) contains: meg data of participants 20 - 38</strong></p>\n<p>Part/Set 3 (yellow) contains: meg data of participants 39 - 58 (can be found <a href=\"../records/12794808\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>&nbsp;</p>\n<h2><strong>Experimental design</strong></h2>\n<p>We used four German audiobooks (all published by <a href=\"https://www.hoerbuch-hamburg.de/\" target=\"_blank\" rel=\"noopener\">H&ouml;rbuch Hamburg Verlag</a> and available online.&nbsp;</p>\n<p>1. &bdquo;Frau Ella&ldquo; (narrated by lower pitched (LP) speaker and attended by participants)</p>\n<p>2. &bdquo;Darum&ldquo; (narrated by LP speaker and ignored by participants)</p>\n<p>3. &bdquo;Den Hund &uuml;berleben&ldquo; (narrated by higher pitched (HP) speaker and attended by participants)</p>\n<p>4. &bdquo;Looking for Hope&ldquo; (narrated by HP speaker and ignored by participants)</p>\n<p>The participants listened to 10 audiobook chapters. There were always 2 audiobooks presented at the same time (one narrated by a HP speaker and one by a LP speaker) and the participants attended one and ignored the other speaker. The structure of the chapters was as follows:</p>\n<p>Chapter 1 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 1 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>&nbsp;</p>\n<h2><strong>MEG Data structure</strong></h2>\n<p>MEG data of 58 participants is contained in this data set.&nbsp;</p>\n<p>Each participant has a folder with its participant number as folder name (1,2,3,&hellip;).&nbsp;</p>\n<p>In the participant folder are two subfolders. One (LP_speaker_attended) containing the MEG data when the participant was attending the LP speaker (ignoring the HP speaker) and one (HP_speaker_attended) containing the MEG data measured when the participant was attending the HP speaker (ignoring the LP speaker). Note that after each chapter the participants switched the attention from LP to HP and vice versa but for evaluation we concatenated the data of the LP speaker attended/ HP speaker ignored mode and the HP speaker attended/ LP speaker ignored mode.</p>\n<p>The data of attending the HP speaker is of shape (248, 959416) (ca 16 minutes). That of the LP speaker is of shape (248, 1247854) (ca 21 minutes)</p>\n<p><code>#The meg data can be loaded with the <a href=\"https://mne.tools/stable/index.html\" target=\"_blank\" rel=\"noopener\">mne python library</a></code></p>\n<p><code>meg = mne.read_raw_fif(&ldquo;&hellip;/data_meg.fif&ldquo;)</code></p>\n<p><code>#The data can be accessed:</code></p>\n<p><code>meg_data = meg.get_data()</code></p>\n<p>Exemplary code for performing source reconstruction and trf evaluation can be found in our <a href=\"https://github.com/Al2606/MEG-Analysis-Pipeline\" target=\"_blank\" rel=\"noopener\">git repository</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>Audio Data structure</strong></h2>\n<p>The original audio chapters of the audio books are stored in the folder &bdquo;Audio&ldquo; of <a href=\"../records/12793944\" target=\"_blank\" rel=\"noopener\">Part 1</a>.</p>\n<p>There are two subfolders. One (attended_speech) contains the ten audiobook chapters which were attended by the participant (audiobook1_#, audiobook3_#). The other subfolder (ignored_speech) contains the ten audiobook chapters which were ignored by the participant (audiobook2_#, audiobook4_#).</p>\n<p>We recommend the <a href=\"https://librosa.org/doc/latest/index.html\" target=\"_blank\" rel=\"noopener\">librosa library</a> for audio loading and processing.</p>\n<p>Audio data is provided with a sampling frequency of 44.1 kHz</p>\n<p>Each audio book is provided in 5 chapters as they were presented to the participants. The corresponding meg file as described above already contains the concatenated measured data of all five chapters.&nbsp;</p>\n<p>If you resample the audio data to 1000Hz and concatenate the chapters, the audio shape (n_times) will be equal to the corresponding n_times of the meg data.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Processing of meg data</strong></h2>\n<p>The meg data was filtered analog with a 1.0 - 200 Hz filter and preprocessed offline using a notch filter (Firwin, 0.5 Hz bandwidth) to remove power line interference at frequencies 50, 100, 150 and 200 Hz.</p>\n<p>The data was then resampled from 1017.25 Hz to 1000 Hz.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Technical details</strong></h2>\n<p>The meg system with which the data was recorded was a 248 magnetometer system (4D Neuroimaging, San Diego, CA, USA)</p>\n<p>The audio signal was presented through loud speakers outside the magnetic chamber and passed on to the participant via tubes of 2 m length and 2 cm diameter leading to a delay of the acoustic signal of 6 ms. The audio was presented diotically (both the attended and the ignored audio stream were presented in both ears) with a sound pressure level of 67 dB(A).</p>\n<p>The measurement setup was provided by a former study by Schilling et al (<a href=\"https://doi.org/10.1080/23273798.2020.1803375\">https://doi.org/10.1080/23273798.2020.1803375</a>).</p>\n<p>&nbsp;</p>\n<h2><strong>Papers to cite when using this data</strong></h2>\n<ul>\n<li>Riegel et al., \"No Influence of Musical Training on the Cortical Contribution to the Speech-FFR and its Modulation Through Selective Attention\" eneuro in print (<a href=\"https://doi.org/10.1101/2024.07.25.605057\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.07.25.605057</a>).</li>\n<li>Sch&uuml;ller, M&uuml;cke et al. \"Assessing the Impact of Selective Attention on the Cortical Tracking of the Speech Envelope in the Delta and Theta Frequency Bands and How Musical Training Does (Not) Affect it\", under review (<a href=\"https://doi.org/10.1101/2024.08.01.606154\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.08.01.606154</a>).</li>\n<li>Sch&uuml;ller et al., \"Attentional Modulation of the Cortical Contribution to the Frequency-Following Response Evoked by Continuous Speech&ldquo; (<a href=\"https://doi.org/10.1523/JNEUROSCI.1247-23.2023\">https://doi.org/10.1523/JNEUROSCI.1247-23.2023</a>).</li>\n</ul>",
+    "publication_date": "2024-07-22",
+    "created": "2024-07-23T11:20:47.895868+00:00",
+    "modified": "",
+    "creators": [
+      {
+        "name": "Riegel, Jasmin",
+        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg"
+      },
+      {
+        "name": "Sch\u00fcller, Alina",
+        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+        "orcid": "0009-0009-0392-8000"
+      },
+      {
+        "name": "Reichenbach Tobias",
+        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+        "orcid": "0000-0003-3367-3511"
+      }
+    ],
+    "keywords": [],
+    "resource_type": "dataset",
+    "resource_title": "Dataset",
+    "license": "cc-by-4.0",
+    "access_right": "open",
+    "url": "https://zenodo.org/records/12794769",
+    "doi_url": "https://doi.org/10.5281/zenodo.12794769",
+    "files": [
+      {
+        "filename": "Set2.zip",
+        "size_bytes": 38492851452,
+        "checksum": "md5:05dd763f5fad193c0793929b15e5785b",
+        "download_url": "https://zenodo.org/api/records/12794769/files/Set2.zip/content"
+      },
+      {
+        "filename": "Participants_Overview.pdf",
+        "size_bytes": 82026,
+        "checksum": "md5:54af836cc5567b5be722aa00112af936",
+        "download_url": "https://zenodo.org/api/records/12794769/files/Participants_Overview.pdf/content"
+      }
+    ],
+    "file_count": 2,
+    "total_size_mb": 36709.72,
+    "source": "zenodo"
+  },
+  {
     "dataset_id": "12794808",
     "doi": "10.5281/zenodo.12794808",
     "concept_doi": "12794807",
@@ -4875,13 +4925,13 @@
     "source": "zenodo"
   },
   {
-    "dataset_id": "12794769",
-    "doi": "10.5281/zenodo.12794769",
-    "concept_doi": "12794768",
-    "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 2",
-    "description": "<h2><strong>Data location</strong></h2>\n<p>The data is split into 3 Zenodo locations as it is too large for one location. In total the data set contains meg data of 58 participants. An overview of the participants and the amount of musical training the have conducted is also available. Each of the 3 Zenodo uploads contains the participant overview file + Set#.zip.</p>\n<p>Part/Set 1 (blue) contains: meg data of participants 1 - 19 + audio folder (can be found <a href=\"../records/12793944\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p><strong>Part/Set 2 (pink) contains: meg data of participants 20 - 38</strong></p>\n<p>Part/Set 3 (yellow) contains: meg data of participants 39 - 58 (can be found <a href=\"../records/12794808\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>&nbsp;</p>\n<h2><strong>Experimental design</strong></h2>\n<p>We used four German audiobooks (all published by <a href=\"https://www.hoerbuch-hamburg.de/\" target=\"_blank\" rel=\"noopener\">H&ouml;rbuch Hamburg Verlag</a> and available online.&nbsp;</p>\n<p>1. &bdquo;Frau Ella&ldquo; (narrated by lower pitched (LP) speaker and attended by participants)</p>\n<p>2. &bdquo;Darum&ldquo; (narrated by LP speaker and ignored by participants)</p>\n<p>3. &bdquo;Den Hund &uuml;berleben&ldquo; (narrated by higher pitched (HP) speaker and attended by participants)</p>\n<p>4. &bdquo;Looking for Hope&ldquo; (narrated by HP speaker and ignored by participants)</p>\n<p>The participants listened to 10 audiobook chapters. There were always 2 audiobooks presented at the same time (one narrated by a HP speaker and one by a LP speaker) and the participants attended one and ignored the other speaker. The structure of the chapters was as follows:</p>\n<p>Chapter 1 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 1 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>&nbsp;</p>\n<h2><strong>MEG Data structure</strong></h2>\n<p>MEG data of 58 participants is contained in this data set.&nbsp;</p>\n<p>Each participant has a folder with its participant number as folder name (1,2,3,&hellip;).&nbsp;</p>\n<p>In the participant folder are two subfolders. One (LP_speaker_attended) containing the MEG data when the participant was attending the LP speaker (ignoring the HP speaker) and one (HP_speaker_attended) containing the MEG data measured when the participant was attending the HP speaker (ignoring the LP speaker). Note that after each chapter the participants switched the attention from LP to HP and vice versa but for evaluation we concatenated the data of the LP speaker attended/ HP speaker ignored mode and the HP speaker attended/ LP speaker ignored mode.</p>\n<p>The data of attending the HP speaker is of shape (248, 959416) (ca 16 minutes). That of the LP speaker is of shape (248, 1247854) (ca 21 minutes)</p>\n<p><code>#The meg data can be loaded with the <a href=\"https://mne.tools/stable/index.html\" target=\"_blank\" rel=\"noopener\">mne python library</a></code></p>\n<p><code>meg = mne.read_raw_fif(&ldquo;&hellip;/data_meg.fif&ldquo;)</code></p>\n<p><code>#The data can be accessed:</code></p>\n<p><code>meg_data = meg.get_data()</code></p>\n<p>Exemplary code for performing source reconstruction and trf evaluation can be found in our <a href=\"https://github.com/Al2606/MEG-Analysis-Pipeline\" target=\"_blank\" rel=\"noopener\">git repository</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>Audio Data structure</strong></h2>\n<p>The original audio chapters of the audio books are stored in the folder &bdquo;Audio&ldquo; of <a href=\"../records/12793944\" target=\"_blank\" rel=\"noopener\">Part 1</a>.</p>\n<p>There are two subfolders. One (attended_speech) contains the ten audiobook chapters which were attended by the participant (audiobook1_#, audiobook3_#). The other subfolder (ignored_speech) contains the ten audiobook chapters which were ignored by the participant (audiobook2_#, audiobook4_#).</p>\n<p>We recommend the <a href=\"https://librosa.org/doc/latest/index.html\" target=\"_blank\" rel=\"noopener\">librosa library</a> for audio loading and processing.</p>\n<p>Audio data is provided with a sampling frequency of 44.1 kHz</p>\n<p>Each audio book is provided in 5 chapters as they were presented to the participants. The corresponding meg file as described above already contains the concatenated measured data of all five chapters.&nbsp;</p>\n<p>If you resample the audio data to 1000Hz and concatenate the chapters, the audio shape (n_times) will be equal to the corresponding n_times of the meg data.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Processing of meg data</strong></h2>\n<p>The meg data was filtered analog with a 1.0 - 200 Hz filter and preprocessed offline using a notch filter (Firwin, 0.5 Hz bandwidth) to remove power line interference at frequencies 50, 100, 150 and 200 Hz.</p>\n<p>The data was then resampled from 1017.25 Hz to 1000 Hz.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Technical details</strong></h2>\n<p>The meg system with which the data was recorded was a 248 magnetometer system (4D Neuroimaging, San Diego, CA, USA)</p>\n<p>The audio signal was presented through loud speakers outside the magnetic chamber and passed on to the participant via tubes of 2 m length and 2 cm diameter leading to a delay of the acoustic signal of 6 ms. The audio was presented diotically (both the attended and the ignored audio stream were presented in both ears) with a sound pressure level of 67 dB(A).</p>\n<p>The measurement setup was provided by a former study by Schilling et al (<a href=\"https://doi.org/10.1080/23273798.2020.1803375\">https://doi.org/10.1080/23273798.2020.1803375</a>).</p>\n<p>&nbsp;</p>\n<h2><strong>Papers to cite when using this data</strong></h2>\n<ul>\n<li>Riegel et al., \"No Influence of Musical Training on the Cortical Contribution to the Speech-FFR and its Modulation Through Selective Attention\" eneuro in print (<a href=\"https://doi.org/10.1101/2024.07.25.605057\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.07.25.605057</a>).</li>\n<li>Sch&uuml;ller, M&uuml;cke et al. \"Assessing the Impact of Selective Attention on the Cortical Tracking of the Speech Envelope in the Delta and Theta Frequency Bands and How Musical Training Does (Not) Affect it\", under review (<a href=\"https://doi.org/10.1101/2024.08.01.606154\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.08.01.606154</a>).</li>\n<li>Sch&uuml;ller et al., \"Attentional Modulation of the Cortical Contribution to the Frequency-Following Response Evoked by Continuous Speech&ldquo; (<a href=\"https://doi.org/10.1523/JNEUROSCI.1247-23.2023\">https://doi.org/10.1523/JNEUROSCI.1247-23.2023</a>).</li>\n</ul>",
+    "dataset_id": "12793944",
+    "doi": "10.5281/zenodo.12793944",
+    "concept_doi": "12793943",
+    "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 1",
+    "description": "<h2><strong>Data location</strong></h2>\n<p>The data is split into 3 Zenodo locations as it is too large for one location. In total the data set contains meg data of 58 participants. An overview of the participants and the amount of musical training the have conducted is also available. Each of the 3 Zenodo uploads contains the participant overview file + Set#.zip.</p>\n<p><strong>Part/Set 1 (blue) contains: meg data of participants 1 - 19 + audio folder</strong></p>\n<p>Part/Set 2 (pink) contains: meg data of participants 20 - 38 (can be found <a href=\"../records/12794769\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>Part/Set 3 (yellow) contains: meg data of participants 39 - 58 (can be found <a href=\"../records/12794808\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>&nbsp;</p>\n<h2><strong>Experimental design</strong></h2>\n<p>We used four German audiobooks (all published by <a href=\"https://www.hoerbuch-hamburg.de/\" target=\"_blank\" rel=\"noopener\">H&ouml;rbuch Hamburg Verlag</a> and available online):&nbsp;</p>\n<p>1. &bdquo;Frau Ella&ldquo; (narrated by lower pitched (LP) speaker and attended by participants)</p>\n<p>2. &bdquo;Darum&ldquo; (narrated by LP speaker and ignored by participants)</p>\n<p>3. &bdquo;Den Hund &uuml;berleben&ldquo; (narrated by higher pitched (HP) speaker and attended by participants)</p>\n<p>4. &bdquo;Looking for Hope&ldquo; (narrated by HP speaker and ignored by participants)</p>\n<p>The participants listened to 10 audiobook chapters. There were always 2 audiobooks presented at the same time (one narrated by a HP speaker and one by a LP speaker) and the participants attended one and ignored the other speaker. The structure of the chapters was as follows:</p>\n<p>Chapter 1 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 1 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>&nbsp;</p>\n<h2><strong>MEG Data structure</strong></h2>\n<p>MEG data of 58 participants is contained in this data set.&nbsp;</p>\n<p>Each participant has a folder with its participant number as folder name (1,2,3,&hellip;).&nbsp;</p>\n<p>In the participant folder are two subfolders. One (LP_speaker_attended) containing the MEG data when the participant was attending the LP speaker (ignoring the HP speaker) and one (HP_speaker_attended) containing the MEG data measured when the participant was attending the HP speaker (ignoring the LP speaker). Note that after each chapter the participants switched the attention from LP to HP and vice versa but for evaluation we concatenated the data of the LP speaker attended/ HP speaker ignored mode and the HP speaker attended/ LP speaker ignored mode.</p>\n<p>The data of attending the HP speaker is of shape (248, 959416) (ca 16 minutes). That of the LP speaker is of shape (248, 1247854) (ca 21 minutes)</p>\n<p><code>#The meg data can be loaded with the <a href=\"https://mne.tools/stable/index.html\" target=\"_blank\" rel=\"noopener\">mne python library</a></code></p>\n<p><code>meg = mne.read_raw_fif(&ldquo;&hellip;/data_meg.fif&ldquo;)</code></p>\n<p><code>#The data can be accessed:</code></p>\n<p><code>meg_data = meg.get_data()</code></p>\n<p>Exemplary code for performing source reconstruction and trf evaluation can be found in our <a href=\"https://github.com/Al2606/MEG-Analysis-Pipeline\" target=\"_blank\" rel=\"noopener\">git repository</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>Audio Data structure</strong></h2>\n<p>The original audio chapters of the audio books are stored in the folder &bdquo;Audio&ldquo; in <a href=\"../records/12793944\">Part 1</a>.</p>\n<p>There are two subfolders. One (attended_speech) contains the ten audiobook chapters which were attended by the participant (audiobook1_#, audiobook3_#). The other subfolder (ignored_speech) contains the ten audiobook chapters which were ignored by the participant (audiobook2_#, audiobook4_#).</p>\n<p>We recommend the <a href=\"https://librosa.org/doc/latest/index.html\" target=\"_blank\" rel=\"noopener\">librosa library</a> for audio loading and processing.</p>\n<p>Audio data is provided with a sampling frequency of 44.1 kHz</p>\n<p>Each audio book is provided in 5 chapters as they were presented to the participants. The corresponding meg file as described above already contains the concatenated measured data of all five chapters.&nbsp;</p>\n<p>If you resample the audio data to 1000Hz and concatenate the chapters, the audio shape (n_times) will be equal to the corresponding n_times of the meg data.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Processing of meg data</strong></h2>\n<p>The meg data was filtered analog with a 1.0 - 200 Hz filter and preprocessed offline using a notch filter (Firwin, 0.5 Hz bandwidth) to remove power line interference at frequencies 50, 100, 150 and 200 Hz.</p>\n<p>The data was then resampled from 1017.25 Hz to 1000 Hz.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Technical details</strong></h2>\n<p>The meg system with which the data was recorded was a 248 magnetometer system (4D Neuroimaging, San Diego, CA, USA)</p>\n<p>The audio signal was presented through loud speakers outside the magnetic chamber and passed on to the participant via tubes of 2 m length and 2 cm diameter leading to a delay of the acoustic signal of 6 ms. The audio was presented diotically (both the attended and the ignored audio stream were presented in both ears) with a sound pressure level of 67 dB(A).</p>\n<p>The measurement setup was provided by a former study by Schilling et al (<a href=\"https://doi.org/10.1080/23273798.2020.1803375\">https://doi.org/10.1080/23273798.2020.1803375</a>).</p>\n<p>&nbsp;</p>\n<h2><strong>Papers to cite when using this data</strong></h2>\n<ul>\n<li>Riegel et al., \"No Influence of Musical Training on the Cortical Contribution to the Speech-FFR and its Modulation Through Selective Attention\" eneuro in print (<a href=\"https://doi.org/10.1101/2024.07.25.605057\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.07.25.605057</a>).</li>\n<li>Sch&uuml;ller, M&uuml;cke et al. \"Assessing the Impact of Selective Attention on the Cortical Tracking of the Speech Envelope in the Delta and Theta Frequency Bands and How Musical Training Does (Not) Affect it\", under review (<a href=\"https://doi.org/10.1101/2024.08.01.606154\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.08.01.606154</a>).</li>\n<li>Sch&uuml;ller et al., \"Attentional Modulation of the Cortical Contribution to the Frequency-Following Response Evoked by Continuous Speech&ldquo; (<a href=\"https://doi.org/10.1523/JNEUROSCI.1247-23.2023\">https://doi.org/10.1523/JNEUROSCI.1247-23.2023</a>).</li>\n</ul>",
     "publication_date": "2024-07-22",
-    "created": "2024-07-23T11:20:47.895868+00:00",
+    "created": "2024-07-23T11:20:27.789656+00:00",
     "modified": "",
     "creators": [
       {
@@ -4894,7 +4944,7 @@
         "orcid": "0009-0009-0392-8000"
       },
       {
-        "name": "Reichenbach Tobias",
+        "name": "Reichenbach, Tobias",
         "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
         "orcid": "0000-0003-3367-3511"
       }
@@ -4904,24 +4954,24 @@
     "resource_title": "Dataset",
     "license": "cc-by-4.0",
     "access_right": "open",
-    "url": "https://zenodo.org/records/12794769",
-    "doi_url": "https://doi.org/10.5281/zenodo.12794769",
+    "url": "https://zenodo.org/records/12793944",
+    "doi_url": "https://doi.org/10.5281/zenodo.12793944",
     "files": [
       {
-        "filename": "Set2.zip",
-        "size_bytes": 38492851452,
-        "checksum": "md5:05dd763f5fad193c0793929b15e5785b",
-        "download_url": "https://zenodo.org/api/records/12794769/files/Set2.zip/content"
+        "filename": "Set1.zip",
+        "size_bytes": 39037745559,
+        "checksum": "md5:7f4e68c52e76b601bc005810be0a45ee",
+        "download_url": "https://zenodo.org/api/records/12793944/files/Set1.zip/content"
       },
       {
         "filename": "Participants_Overview.pdf",
         "size_bytes": 82026,
         "checksum": "md5:54af836cc5567b5be722aa00112af936",
-        "download_url": "https://zenodo.org/api/records/12794769/files/Participants_Overview.pdf/content"
+        "download_url": "https://zenodo.org/api/records/12793944/files/Participants_Overview.pdf/content"
       }
     ],
     "file_count": 2,
-    "total_size_mb": 36709.72,
+    "total_size_mb": 37229.37,
     "source": "zenodo"
   },
   {
@@ -4982,56 +5032,6 @@
     ],
     "file_count": 2,
     "total_size_mb": 23243.45,
-    "source": "zenodo"
-  },
-  {
-    "dataset_id": "12793944",
-    "doi": "10.5281/zenodo.12793944",
-    "concept_doi": "12793943",
-    "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 1",
-    "description": "<h2><strong>Data location</strong></h2>\n<p>The data is split into 3 Zenodo locations as it is too large for one location. In total the data set contains meg data of 58 participants. An overview of the participants and the amount of musical training the have conducted is also available. Each of the 3 Zenodo uploads contains the participant overview file + Set#.zip.</p>\n<p><strong>Part/Set 1 (blue) contains: meg data of participants 1 - 19 + audio folder</strong></p>\n<p>Part/Set 2 (pink) contains: meg data of participants 20 - 38 (can be found <a href=\"../records/12794769\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>Part/Set 3 (yellow) contains: meg data of participants 39 - 58 (can be found <a href=\"../records/12794808\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>&nbsp;</p>\n<h2><strong>Experimental design</strong></h2>\n<p>We used four German audiobooks (all published by <a href=\"https://www.hoerbuch-hamburg.de/\" target=\"_blank\" rel=\"noopener\">H&ouml;rbuch Hamburg Verlag</a> and available online):&nbsp;</p>\n<p>1. &bdquo;Frau Ella&ldquo; (narrated by lower pitched (LP) speaker and attended by participants)</p>\n<p>2. &bdquo;Darum&ldquo; (narrated by LP speaker and ignored by participants)</p>\n<p>3. &bdquo;Den Hund &uuml;berleben&ldquo; (narrated by higher pitched (HP) speaker and attended by participants)</p>\n<p>4. &bdquo;Looking for Hope&ldquo; (narrated by HP speaker and ignored by participants)</p>\n<p>The participants listened to 10 audiobook chapters. There were always 2 audiobooks presented at the same time (one narrated by a HP speaker and one by a LP speaker) and the participants attended one and ignored the other speaker. The structure of the chapters was as follows:</p>\n<p>Chapter 1 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 1 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>&nbsp;</p>\n<h2><strong>MEG Data structure</strong></h2>\n<p>MEG data of 58 participants is contained in this data set.&nbsp;</p>\n<p>Each participant has a folder with its participant number as folder name (1,2,3,&hellip;).&nbsp;</p>\n<p>In the participant folder are two subfolders. One (LP_speaker_attended) containing the MEG data when the participant was attending the LP speaker (ignoring the HP speaker) and one (HP_speaker_attended) containing the MEG data measured when the participant was attending the HP speaker (ignoring the LP speaker). Note that after each chapter the participants switched the attention from LP to HP and vice versa but for evaluation we concatenated the data of the LP speaker attended/ HP speaker ignored mode and the HP speaker attended/ LP speaker ignored mode.</p>\n<p>The data of attending the HP speaker is of shape (248, 959416) (ca 16 minutes). That of the LP speaker is of shape (248, 1247854) (ca 21 minutes)</p>\n<p><code>#The meg data can be loaded with the <a href=\"https://mne.tools/stable/index.html\" target=\"_blank\" rel=\"noopener\">mne python library</a></code></p>\n<p><code>meg = mne.read_raw_fif(&ldquo;&hellip;/data_meg.fif&ldquo;)</code></p>\n<p><code>#The data can be accessed:</code></p>\n<p><code>meg_data = meg.get_data()</code></p>\n<p>Exemplary code for performing source reconstruction and trf evaluation can be found in our <a href=\"https://github.com/Al2606/MEG-Analysis-Pipeline\" target=\"_blank\" rel=\"noopener\">git repository</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>Audio Data structure</strong></h2>\n<p>The original audio chapters of the audio books are stored in the folder &bdquo;Audio&ldquo; in <a href=\"../records/12793944\">Part 1</a>.</p>\n<p>There are two subfolders. One (attended_speech) contains the ten audiobook chapters which were attended by the participant (audiobook1_#, audiobook3_#). The other subfolder (ignored_speech) contains the ten audiobook chapters which were ignored by the participant (audiobook2_#, audiobook4_#).</p>\n<p>We recommend the <a href=\"https://librosa.org/doc/latest/index.html\" target=\"_blank\" rel=\"noopener\">librosa library</a> for audio loading and processing.</p>\n<p>Audio data is provided with a sampling frequency of 44.1 kHz</p>\n<p>Each audio book is provided in 5 chapters as they were presented to the participants. The corresponding meg file as described above already contains the concatenated measured data of all five chapters.&nbsp;</p>\n<p>If you resample the audio data to 1000Hz and concatenate the chapters, the audio shape (n_times) will be equal to the corresponding n_times of the meg data.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Processing of meg data</strong></h2>\n<p>The meg data was filtered analog with a 1.0 - 200 Hz filter and preprocessed offline using a notch filter (Firwin, 0.5 Hz bandwidth) to remove power line interference at frequencies 50, 100, 150 and 200 Hz.</p>\n<p>The data was then resampled from 1017.25 Hz to 1000 Hz.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Technical details</strong></h2>\n<p>The meg system with which the data was recorded was a 248 magnetometer system (4D Neuroimaging, San Diego, CA, USA)</p>\n<p>The audio signal was presented through loud speakers outside the magnetic chamber and passed on to the participant via tubes of 2 m length and 2 cm diameter leading to a delay of the acoustic signal of 6 ms. The audio was presented diotically (both the attended and the ignored audio stream were presented in both ears) with a sound pressure level of 67 dB(A).</p>\n<p>The measurement setup was provided by a former study by Schilling et al (<a href=\"https://doi.org/10.1080/23273798.2020.1803375\">https://doi.org/10.1080/23273798.2020.1803375</a>).</p>\n<p>&nbsp;</p>\n<h2><strong>Papers to cite when using this data</strong></h2>\n<ul>\n<li>Riegel et al., \"No Influence of Musical Training on the Cortical Contribution to the Speech-FFR and its Modulation Through Selective Attention\" eneuro in print (<a href=\"https://doi.org/10.1101/2024.07.25.605057\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.07.25.605057</a>).</li>\n<li>Sch&uuml;ller, M&uuml;cke et al. \"Assessing the Impact of Selective Attention on the Cortical Tracking of the Speech Envelope in the Delta and Theta Frequency Bands and How Musical Training Does (Not) Affect it\", under review (<a href=\"https://doi.org/10.1101/2024.08.01.606154\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.08.01.606154</a>).</li>\n<li>Sch&uuml;ller et al., \"Attentional Modulation of the Cortical Contribution to the Frequency-Following Response Evoked by Continuous Speech&ldquo; (<a href=\"https://doi.org/10.1523/JNEUROSCI.1247-23.2023\">https://doi.org/10.1523/JNEUROSCI.1247-23.2023</a>).</li>\n</ul>",
-    "publication_date": "2024-07-22",
-    "created": "2024-07-23T11:20:27.789656+00:00",
-    "modified": "",
-    "creators": [
-      {
-        "name": "Riegel, Jasmin",
-        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg"
-      },
-      {
-        "name": "Sch\u00fcller, Alina",
-        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
-        "orcid": "0009-0009-0392-8000"
-      },
-      {
-        "name": "Reichenbach, Tobias",
-        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
-        "orcid": "0000-0003-3367-3511"
-      }
-    ],
-    "keywords": [],
-    "resource_type": "dataset",
-    "resource_title": "Dataset",
-    "license": "cc-by-4.0",
-    "access_right": "open",
-    "url": "https://zenodo.org/records/12793944",
-    "doi_url": "https://doi.org/10.5281/zenodo.12793944",
-    "files": [
-      {
-        "filename": "Set1.zip",
-        "size_bytes": 39037745559,
-        "checksum": "md5:7f4e68c52e76b601bc005810be0a45ee",
-        "download_url": "https://zenodo.org/api/records/12793944/files/Set1.zip/content"
-      },
-      {
-        "filename": "Participants_Overview.pdf",
-        "size_bytes": 82026,
-        "checksum": "md5:54af836cc5567b5be722aa00112af936",
-        "download_url": "https://zenodo.org/api/records/12793944/files/Participants_Overview.pdf/content"
-      }
-    ],
-    "file_count": 2,
-    "total_size_mb": 37229.37,
     "source": "zenodo"
   },
   {
