@@ -571,49 +571,6 @@
   },
   {
     "access_right": "open",
-    "concept_doi": "17282507",
-    "created": "2025-11-15T03:04:40.640887+00:00",
-    "creators": [
-      {
-        "name": "Shirazi, Seyed Yahya"
-      },
-      {
-        "name": "Meta Reality Labs"
-      }
-    ],
-    "dataset_id": "17613963",
-    "description": "Wrist Control: sEMG dataset for wrist movement decoding",
-    "doi": "10.5281/zenodo.17613963",
-    "doi_url": "https://doi.org/10.5281/zenodo.17613963",
-    "file_count": 1,
-    "files": [
-      {
-        "checksum": "md5:70873e2cc646ccf57812b889cadceb51",
-        "download_url": "https://zenodo.org/api/records/17613963/files/nm000107-v1.1.0.zip/content",
-        "filename": "nm000107-v1.1.0.zip",
-        "size_bytes": 571708
-      }
-    ],
-    "keywords": [
-      "BIDS",
-      "EMG",
-      "electromyography",
-      "neuromotor",
-      "neuroscience",
-      "sEMG"
-    ],
-    "license": "cc-by-nc-4.0",
-    "modified": "",
-    "publication_date": "2025-11-14",
-    "resource_title": "Dataset",
-    "resource_type": "dataset",
-    "source": "zenodo",
-    "title": "wrist - BIDS-EMG Dataset",
-    "total_size_mb": 0.55,
-    "url": "https://zenodo.org/records/17613963"
-  },
-  {
-    "access_right": "open",
     "concept_doi": "17283593",
     "created": "2025-11-15T03:02:57.756310+00:00",
     "creators": [
@@ -654,6 +611,49 @@
     "title": "discrete_gestures - BIDS-EMG Dataset",
     "total_size_mb": 1.49,
     "url": "https://zenodo.org/records/17613958"
+  },
+  {
+    "access_right": "open",
+    "concept_doi": "17282507",
+    "created": "2025-11-15T03:04:40.640887+00:00",
+    "creators": [
+      {
+        "name": "Shirazi, Seyed Yahya"
+      },
+      {
+        "name": "Meta Reality Labs"
+      }
+    ],
+    "dataset_id": "17613963",
+    "description": "Wrist Control: sEMG dataset for wrist movement decoding",
+    "doi": "10.5281/zenodo.17613963",
+    "doi_url": "https://doi.org/10.5281/zenodo.17613963",
+    "file_count": 1,
+    "files": [
+      {
+        "checksum": "md5:70873e2cc646ccf57812b889cadceb51",
+        "download_url": "https://zenodo.org/api/records/17613963/files/nm000107-v1.1.0.zip/content",
+        "filename": "nm000107-v1.1.0.zip",
+        "size_bytes": 571708
+      }
+    ],
+    "keywords": [
+      "BIDS",
+      "EMG",
+      "electromyography",
+      "neuromotor",
+      "neuroscience",
+      "sEMG"
+    ],
+    "license": "cc-by-nc-4.0",
+    "modified": "",
+    "publication_date": "2025-11-14",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "wrist - BIDS-EMG Dataset",
+    "total_size_mb": 0.55,
+    "url": "https://zenodo.org/records/17613963"
   },
   {
     "access_right": "open",
@@ -2536,45 +2536,6 @@
   },
   {
     "access_right": "open",
-    "concept_doi": "10640761",
-    "created": "2024-02-09T14:49:11.242195+00:00",
-    "creators": [
-      {
-        "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
-        "name": "Dan, Jonathan",
-        "orcid": "0000-0002-2338-572X"
-      },
-      {
-        "affiliation": "University of Siena",
-        "name": "Detti, Paolo"
-      }
-    ],
-    "dataset_id": "10640762",
-    "description": "<p><br>This dataset is a BIDS compatible version of the Siena Scalp EEG Database. It reorganizes the file structure to comply with the BIDS specification. To this effect:</p>\n<ul>\n<li>Metadata was organized according to BIDS.</li>\n<li>Data in the EEG edf files was modified to keep only the 19 channels from a 10-20 EEG system.</li>\n<li>Annotations were formatted as BIDS-score compatible <code>tsv</code> files.</li>\n</ul>\n<h2>Details related to access to the data</h2>\n<h3>License</h3>\n<p>The dataset is released under the <a href=\"https://physionet.org/content/chbmit/view-license/1.0.0/\">Open Data Commons Attribution License v1.0</a>.</p>\n<h3>Contact person</h3>\n<p>The original Physionet Siena Scalp EEG Database was published by Paolo Detti. This BIDS compatible version of the dataset was published by Jonathan Dan.</p>\n<h3>Practical information to access the data</h3>\n<p>The original Physionet Siena Scalp EEG Database is available on the <a href=\"https://physionet.org/content/siena-scalp-eeg/1.0.0/\">Physionet website.</a></p>\n<h2>Overview</h2>\n<h3>Project name</h3>\n<p>Siena Scalp EEG Database</p>\n<h3>Year that the project ran</h3>\n<p>2020</p>\n<h3>Brief overview of the tasks in the experiment</h3>\n<p>The Unit of Neurology and Neurophysiology at the University of Siena, Italy, acquired the data of 14 epileptic patients, collected during the national interdisciplinary research project PANACEE.</p>\n<h3>Description of the contents of the dataset</h3>\n<p>Each folder refers to a specific subject including between 1 and 5 data files with a maximum size of 2.11 GB each.<br>Each folder (sub-01, sub-01, etc.) contains between 1 and 5 continuous .edf files from a single subject.</p>\n<p>The EEG is recorded at 256 Hz. The recordings are referenced in a common average montage with 19 channels from the 10-20 electrode system.</p>\n<p>The dataset also contains seizure annotations as start and stop times.</p>\n<h2>Methods</h2>\n<h3>Subjects</h3>\n<p>14 patients with epileptic seizures, 9 males (ages 36&ndash;71) and 5 females (ages 20&ndash;58)</p>\n<h3>Apparatus</h3>\n<p>The data were acquired employing EB Neuro and Natus Quantum LTM amplifiers, and reusable silver/gold cup electrodes.</p>",
-    "doi": "10.5281/zenodo.10640762",
-    "doi_url": "https://doi.org/10.5281/zenodo.10640762",
-    "file_count": 1,
-    "files": [
-      {
-        "checksum": "md5:3145f577a6caa35a84f89f4c6ce0f9d7",
-        "download_url": "https://zenodo.org/api/records/10640762/files/BIDS_Siena.zip/content",
-        "filename": "BIDS_Siena.zip",
-        "size_bytes": 4489331248
-      }
-    ],
-    "keywords": [],
-    "license": "cc-by-4.0",
-    "modified": "",
-    "publication_date": "2024-02-09",
-    "resource_title": "Dataset",
-    "resource_type": "dataset",
-    "source": "zenodo",
-    "title": "BIDS Siena Scalp EEG Database",
-    "total_size_mb": 4281.36,
-    "url": "https://zenodo.org/records/10640762"
-  },
-  {
-    "access_right": "open",
     "concept_doi": "17306880",
     "created": "2025-10-09T16:10:04.360056+00:00",
     "creators": [
@@ -2629,6 +2590,45 @@
     "title": "HBN-EEG NC - BIDS Dataset",
     "total_size_mb": 15.05,
     "url": "https://zenodo.org/records/17306881"
+  },
+  {
+    "access_right": "open",
+    "concept_doi": "10640761",
+    "created": "2024-02-09T14:49:11.242195+00:00",
+    "creators": [
+      {
+        "affiliation": "\u00c9cole Polytechnique F\u00e9d\u00e9rale de Lausanne",
+        "name": "Dan, Jonathan",
+        "orcid": "0000-0002-2338-572X"
+      },
+      {
+        "affiliation": "University of Siena",
+        "name": "Detti, Paolo"
+      }
+    ],
+    "dataset_id": "10640762",
+    "description": "<p><br>This dataset is a BIDS compatible version of the Siena Scalp EEG Database. It reorganizes the file structure to comply with the BIDS specification. To this effect:</p>\n<ul>\n<li>Metadata was organized according to BIDS.</li>\n<li>Data in the EEG edf files was modified to keep only the 19 channels from a 10-20 EEG system.</li>\n<li>Annotations were formatted as BIDS-score compatible <code>tsv</code> files.</li>\n</ul>\n<h2>Details related to access to the data</h2>\n<h3>License</h3>\n<p>The dataset is released under the <a href=\"https://physionet.org/content/chbmit/view-license/1.0.0/\">Open Data Commons Attribution License v1.0</a>.</p>\n<h3>Contact person</h3>\n<p>The original Physionet Siena Scalp EEG Database was published by Paolo Detti. This BIDS compatible version of the dataset was published by Jonathan Dan.</p>\n<h3>Practical information to access the data</h3>\n<p>The original Physionet Siena Scalp EEG Database is available on the <a href=\"https://physionet.org/content/siena-scalp-eeg/1.0.0/\">Physionet website.</a></p>\n<h2>Overview</h2>\n<h3>Project name</h3>\n<p>Siena Scalp EEG Database</p>\n<h3>Year that the project ran</h3>\n<p>2020</p>\n<h3>Brief overview of the tasks in the experiment</h3>\n<p>The Unit of Neurology and Neurophysiology at the University of Siena, Italy, acquired the data of 14 epileptic patients, collected during the national interdisciplinary research project PANACEE.</p>\n<h3>Description of the contents of the dataset</h3>\n<p>Each folder refers to a specific subject including between 1 and 5 data files with a maximum size of 2.11 GB each.<br>Each folder (sub-01, sub-01, etc.) contains between 1 and 5 continuous .edf files from a single subject.</p>\n<p>The EEG is recorded at 256 Hz. The recordings are referenced in a common average montage with 19 channels from the 10-20 electrode system.</p>\n<p>The dataset also contains seizure annotations as start and stop times.</p>\n<h2>Methods</h2>\n<h3>Subjects</h3>\n<p>14 patients with epileptic seizures, 9 males (ages 36&ndash;71) and 5 females (ages 20&ndash;58)</p>\n<h3>Apparatus</h3>\n<p>The data were acquired employing EB Neuro and Natus Quantum LTM amplifiers, and reusable silver/gold cup electrodes.</p>",
+    "doi": "10.5281/zenodo.10640762",
+    "doi_url": "https://doi.org/10.5281/zenodo.10640762",
+    "file_count": 1,
+    "files": [
+      {
+        "checksum": "md5:3145f577a6caa35a84f89f4c6ce0f9d7",
+        "download_url": "https://zenodo.org/api/records/10640762/files/BIDS_Siena.zip/content",
+        "filename": "BIDS_Siena.zip",
+        "size_bytes": 4489331248
+      }
+    ],
+    "keywords": [],
+    "license": "cc-by-4.0",
+    "modified": "",
+    "publication_date": "2024-02-09",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "BIDS Siena Scalp EEG Database",
+    "total_size_mb": 4281.36,
+    "url": "https://zenodo.org/records/10640762"
   },
   {
     "access_right": "open",
@@ -2849,50 +2849,6 @@
   },
   {
     "access_right": "open",
-    "concept_doi": "1490921",
-    "created": "2019-01-09T22:02:50.359078+00:00",
-    "creators": [
-      {
-        "affiliation": "CNRS",
-        "name": "Delorme, Arnaud"
-      }
-    ],
-    "dataset_id": "2536267",
-    "description": "<p>This meditation experiment contains 24 subjects. Subjects were meditating and were interrupted about every 2 minutes to indicate their level of concentration and mind wandering. The scientific article (see Reference file) contains all methodological details.</p>\n\n<p>- Arnaud Delorme (October 17, 2018)</p>",
-    "doi": "10.5281/zenodo.2536267",
-    "doi_url": "https://doi.org/10.5281/zenodo.2536267",
-    "file_count": 2,
-    "files": [
-      {
-        "checksum": "md5:d52ba0c121a141c84005f48ca0e4b691",
-        "download_url": "https://zenodo.org/api/records/2536267/files/BIDS_EEG_meditation_experiment_v2.zip/content",
-        "filename": "BIDS_EEG_meditation_experiment_v2.zip",
-        "size_bytes": 4509319580
-      },
-      {
-        "checksum": "md5:099c0bfdad511a12d32d7ddf0722bfbb",
-        "download_url": "https://zenodo.org/api/records/2536267/files/BIDS_EEG_meditation_experiment.zip/content",
-        "filename": "BIDS_EEG_meditation_experiment.zip",
-        "size_bytes": 4575387804
-      }
-    ],
-    "keywords": [
-      "EEG",
-      "meditation",
-      "BIDS"
-    ],
-    "license": "cc-by-4.0",
-    "modified": "",
-    "publication_date": "2018-11-19",
-    "resource_title": "Dataset",
-    "resource_type": "dataset",
-    "source": "zenodo",
-    "title": "BIDS formatted EEG meditation experiment data",
-    "total_size_mb": 8663.85,
-    "url": "https://zenodo.org/records/2536267"
-  },
-  {
-    "access_right": "open",
     "concept_doi": "11238928",
     "created": "2024-08-19T11:58:10.538100+00:00",
     "creators": [
@@ -2941,6 +2897,276 @@
     "title": "The Phantom EEG Dataset",
     "total_size_mb": 28673.64,
     "url": "https://zenodo.org/records/13341214"
+  },
+  {
+    "access_right": "open",
+    "concept_doi": "1490921",
+    "created": "2019-01-09T22:02:50.359078+00:00",
+    "creators": [
+      {
+        "affiliation": "CNRS",
+        "name": "Delorme, Arnaud"
+      }
+    ],
+    "dataset_id": "2536267",
+    "description": "<p>This meditation experiment contains 24 subjects. Subjects were meditating and were interrupted about every 2 minutes to indicate their level of concentration and mind wandering. The scientific article (see Reference file) contains all methodological details.</p>\n\n<p>- Arnaud Delorme (October 17, 2018)</p>",
+    "doi": "10.5281/zenodo.2536267",
+    "doi_url": "https://doi.org/10.5281/zenodo.2536267",
+    "file_count": 2,
+    "files": [
+      {
+        "checksum": "md5:d52ba0c121a141c84005f48ca0e4b691",
+        "download_url": "https://zenodo.org/api/records/2536267/files/BIDS_EEG_meditation_experiment_v2.zip/content",
+        "filename": "BIDS_EEG_meditation_experiment_v2.zip",
+        "size_bytes": 4509319580
+      },
+      {
+        "checksum": "md5:099c0bfdad511a12d32d7ddf0722bfbb",
+        "download_url": "https://zenodo.org/api/records/2536267/files/BIDS_EEG_meditation_experiment.zip/content",
+        "filename": "BIDS_EEG_meditation_experiment.zip",
+        "size_bytes": 4575387804
+      }
+    ],
+    "keywords": [
+      "EEG",
+      "meditation",
+      "BIDS"
+    ],
+    "license": "cc-by-4.0",
+    "modified": "",
+    "publication_date": "2018-11-19",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "BIDS formatted EEG meditation experiment data",
+    "total_size_mb": 8663.85,
+    "url": "https://zenodo.org/records/2536267"
+  },
+  {
+    "access_right": "open",
+    "concept_doi": "3840614",
+    "created": "2025-06-03T21:34:25.708059+00:00",
+    "creators": [
+      {
+        "affiliation": "The City College of New York",
+        "name": "Gebodh, Nigel",
+        "orcid": "0000-0001-5457-5641"
+      }
+    ],
+    "dataset_id": "15572614",
+    "description": "<p><strong>GX Dataset&nbsp;downsampled - Experiment 1</strong></p>\n<p>The&nbsp;GX Dataset is a&nbsp;dataset of combined&nbsp;tES, EEG, physiological,&nbsp;and behavioral signals from human subjects.<br>Here the GX Dataset for <strong>Experiment 1</strong> is downsampled to 1 kHz and saved in .MAT format which can be used in both MATLAB and Python.</p>\n<p><strong>Publication</strong></p>\n<p>A full data descriptor is published in <a href=\"https://doi.org/10.1038/s41597-021-01046-y\">Nature Scientific Data</a>. <strong>Please cite this work as</strong>:</p>\n<blockquote>\n<p>Gebodh, N., Esmaeilpour, Z., Datta, A. et al. Dataset of concurrent EEG, ECG, and behavior with multiple doses of transcranial electrical stimulation. Sci Data 8, 274 (2021). https://doi.org/10.1038/s41597-021-01046-y</p>\n</blockquote>\n<p><strong>Descriptions</strong></p>\n<p>A dataset combining high-density electroencephalography (EEG) with physiological and continuous behavioral metrics during transcranial electrical stimulation (tES). Data includes within subject application of nine High-Definition tES (HD-tES) types targeted three brain regions (frontal, motor, parietal) with three waveforms (DC, 5Hz, 30Hz), with more than 783 total stimulation trials over 62 sessions with EEG, physiological (ECG, EOG), and continuous behavioral vigilance/alertness metrics.</p>\n<p><strong>Acknowledgments</strong></p>\n<p>Portions of this study were funded by X (formerly Google X), the Moonshot Factory. The funding source had no influence on study conduction or result evaluation. MB is further supported by grants from the National Institutes of Health: R01NS101362, R01NS095123, R01NS112996, R01MH111896, R01MH109289, and (to NG) NIH-G-RISE T32GM136499.</p>\n<p><strong>Extras</strong></p>\n<p>Back to&nbsp;<a href=\"https://doi.org/10.5281/zenodo.4456079\">Full GX Dataset</a> :&nbsp;https://doi.org/10.5281/zenodo.4456079</p>\n<p>&nbsp;</p>\n<p>For downsampled data (1 kHz ) please see (in .mat format):</p>\n<ul>\n<li><a href=\"https://doi.org/10.5281/zenodo.3840614\">Experiment 1</a> : https://doi.org/10.5281/zenodo.3840614</li>\n<li><a href=\"https://doi.org/10.5281/zenodo.3840616\">Experiment 2</a> : https://doi.org/10.5281/zenodo.3840616</li>\n</ul>\n<p>&nbsp;</p>\n<p>Code used to import, process, and plot this dataset can be found here:</p>\n<ul>\n<li><a href=\"https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior\">GitHub</a> :&nbsp;<a href=\"https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior\">https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>Additional figures for this project have been shared on&nbsp;Figshare. Trial-wise figures can be found here:</p>\n<ul>\n<li><a href=\"https://figshare.com/articles/figure/Dataset_of_Concurrent_EEG_ECG_and_Behavior_with_Multiple_Doses_of_transcranial_Electrical_Stimulation-_Stimulation_Trials_PSD/14810517\">PSD</a>:&nbsp;<a href=\"https://doi.org/10.6084/m9.figshare.14810517.v1\">https://doi.org/10.6084/m9.figshare.14810517.v1</a></li>\n<li><a href=\"https://figshare.com/articles/figure/Dataset_of_Concurrent_EEG_ECG_and_Behavior_with_Multiple_Doses_of_transcranial_Electrical_Stimulation-_Stimulation_Trials_Topoplots/14810478\">Topoplots During Stimulation:</a>&nbsp;<a href=\"https://doi.org/10.6084/m9.figshare.14810478\">https://doi.org/10.6084/m9.figshare.14810478</a></li>\n<li><a href=\"https://doi.org/10.6084/m9.figshare.14810442.v1\">Voltage timeseries, spectrogram and behavior:</a>&nbsp;<a href=\"https://doi.org/10.6084/m9.figshare.14810442\">https://doi.org/10.6084/m9.figshare.14810442.v1</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>The full dataset is also provided in <a href=\"https://bids.neuroimaging.io/\">BIDS</a>&nbsp;format here:</p>\n<ul>\n<li><a href=\"https://doi.org/10.18112/openneuro.ds003670.v1.1.0\">Data in BIDS format:</a>&nbsp;https://doi.org/10.18112/openneuro.ds003670.v1.1.0</li>\n</ul>\n<p><strong>Data License&nbsp;</strong><br><a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Common 4.0 with attribution (CC BY 4.0)</a></p>\n<p>&nbsp;</p>\n<p><strong>NOTE</strong></p>\n<p><strong>Please email ngebodh01@citymail.cuny.edu with any questions.</strong></p>\n<p>&nbsp;</p>\n<p><br><strong>Updates</strong></p>\n<ul>\n<li><strong>Version 2.1.0</strong>\n<ul>\n<li>Behavioral data (ptracker) adjusted for all files. Previous version had one participant's data overwriting all behavioral data when downsampled. Mat format now explicitly &gt;v7.3&nbsp;&nbsp;</li>\n</ul>\n</li>\n<li><strong>Version 2</strong>&nbsp;\n<ul>\n<li>Stimulation trigger labels now adjusted. Previous labels were missmatched for Experiment 1's data.&nbsp;</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>",
+    "doi": "10.5281/zenodo.15572614",
+    "doi_url": "https://doi.org/10.5281/zenodo.15572614",
+    "file_count": 32,
+    "files": [
+      {
+        "checksum": "md5:92528ee3cac2dc4bfc6ae2e755df0753",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0105.mat/content",
+        "filename": "EEG_DS_Struct_0105.mat",
+        "size_bytes": 1101930522
+      },
+      {
+        "checksum": "md5:0484c16f53fae318a1b1181949066d42",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0106.mat/content",
+        "filename": "EEG_DS_Struct_0106.mat",
+        "size_bytes": 1098316616
+      },
+      {
+        "checksum": "md5:51268c067ae75a4405f13f4bd5b6cab1",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0202.mat/content",
+        "filename": "EEG_DS_Struct_0202.mat",
+        "size_bytes": 1105370935
+      },
+      {
+        "checksum": "md5:9e03bd92564249c77e77b5aff0abb283",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0302.mat/content",
+        "filename": "EEG_DS_Struct_0302.mat",
+        "size_bytes": 1095188443
+      },
+      {
+        "checksum": "md5:6b2256bace3fe781c98537e424c48325",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0303.mat/content",
+        "filename": "EEG_DS_Struct_0303.mat",
+        "size_bytes": 1082684339
+      },
+      {
+        "checksum": "md5:2b017a26e624fc238fb8eba9fc665d2b",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0402.mat/content",
+        "filename": "EEG_DS_Struct_0402.mat",
+        "size_bytes": 1095034368
+      },
+      {
+        "checksum": "md5:0166e2d25dfe10b2b73bddf3f8b4aac2",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0401.mat/content",
+        "filename": "EEG_DS_Struct_0401.mat",
+        "size_bytes": 1110544626
+      },
+      {
+        "checksum": "md5:58bc70b366f141538e989814d05333c2",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0601.mat/content",
+        "filename": "EEG_DS_Struct_0601.mat",
+        "size_bytes": 1095632090
+      },
+      {
+        "checksum": "md5:5c92852562859126d143f1f06a5174eb",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0403.mat/content",
+        "filename": "EEG_DS_Struct_0403.mat",
+        "size_bytes": 1108408419
+      },
+      {
+        "checksum": "md5:79b371dc0d04d3f88e24bd3186a70920",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0501.mat/content",
+        "filename": "EEG_DS_Struct_0501.mat",
+        "size_bytes": 1113452178
+      },
+      {
+        "checksum": "md5:dff87085731000a3fbeee753a903dfee",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0504.mat/content",
+        "filename": "EEG_DS_Struct_0504.mat",
+        "size_bytes": 1100112220
+      },
+      {
+        "checksum": "md5:d43f64286efa1af6bfeefeaa3d0064b9",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0702.mat/content",
+        "filename": "EEG_DS_Struct_0702.mat",
+        "size_bytes": 1096075179
+      },
+      {
+        "checksum": "md5:d43c49851c0572791811ff278822efa1",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0505.mat/content",
+        "filename": "EEG_DS_Struct_0505.mat",
+        "size_bytes": 1107458370
+      },
+      {
+        "checksum": "md5:936f2f20763e56022a1cf638595774e3",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0602.mat/content",
+        "filename": "EEG_DS_Struct_0602.mat",
+        "size_bytes": 1095917178
+      },
+      {
+        "checksum": "md5:ea9f5b813481c894fc66bd1d769204c3",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0603.mat/content",
+        "filename": "EEG_DS_Struct_0603.mat",
+        "size_bytes": 1092564322
+      },
+      {
+        "checksum": "md5:7c36c9cd66fd546aa5343e6f03819ceb",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0103.mat/content",
+        "filename": "EEG_DS_Struct_0103.mat",
+        "size_bytes": 1113350809
+      },
+      {
+        "checksum": "md5:7b464f55f7b925c6d7887c3df14cab3f",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0201.mat/content",
+        "filename": "EEG_DS_Struct_0201.mat",
+        "size_bytes": 1114733294
+      },
+      {
+        "checksum": "md5:67e8e83543d93b681c8ce3b4d8633aca",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0104.mat/content",
+        "filename": "EEG_DS_Struct_0104.mat",
+        "size_bytes": 1099004180
+      },
+      {
+        "checksum": "md5:92168c59b37b7cf2cb5ea967e90a83fb",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0701.mat/content",
+        "filename": "EEG_DS_Struct_0701.mat",
+        "size_bytes": 1100898374
+      },
+      {
+        "checksum": "md5:7c0743a47b70afad63916e6bf23374fc",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0703.mat/content",
+        "filename": "EEG_DS_Struct_0703.mat",
+        "size_bytes": 1098412534
+      },
+      {
+        "checksum": "md5:f706e7dcd97509dd9c92e359f6698dfe",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0801.mat/content",
+        "filename": "EEG_DS_Struct_0801.mat",
+        "size_bytes": 1099978270
+      },
+      {
+        "checksum": "md5:8c9a775aa035dcb45752406bd207bb64",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0903.mat/content",
+        "filename": "EEG_DS_Struct_0903.mat",
+        "size_bytes": 1096917549
+      },
+      {
+        "checksum": "md5:f4715abacf5206c0fd76b19279f84f4f",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0802.mat/content",
+        "filename": "EEG_DS_Struct_0802.mat",
+        "size_bytes": 1091179316
+      },
+      {
+        "checksum": "md5:d7712a971355f7c6afe8e3e0a4e489b6",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0901.mat/content",
+        "filename": "EEG_DS_Struct_0901.mat",
+        "size_bytes": 1111794180
+      },
+      {
+        "checksum": "md5:310c66591e3cb050be2f7f599b150976",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0902.mat/content",
+        "filename": "EEG_DS_Struct_0902.mat",
+        "size_bytes": 1098915456
+      },
+      {
+        "checksum": "md5:3f930fde20af32f5d8b838170b90be84",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_1001.mat/content",
+        "filename": "EEG_DS_Struct_1001.mat",
+        "size_bytes": 1087451497
+      },
+      {
+        "checksum": "md5:f4190fec74fc9719909b563399a799b0",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_1002.mat/content",
+        "filename": "EEG_DS_Struct_1002.mat",
+        "size_bytes": 1085093142
+      },
+      {
+        "checksum": "md5:aa11ec5b1cb097152eddf12558eefb74",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0301.mat/content",
+        "filename": "EEG_DS_Struct_0301.mat",
+        "size_bytes": 1094928399
+      },
+      {
+        "checksum": "md5:68f0793d5f22828a247050e55ca671ac",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0803.mat/content",
+        "filename": "EEG_DS_Struct_0803.mat",
+        "size_bytes": 1087929373
+      },
+      {
+        "checksum": "md5:5d1076fae6ebc042ce2b3208d0381d95",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_1003.mat/content",
+        "filename": "EEG_DS_Struct_1003.mat",
+        "size_bytes": 1081460593
+      },
+      {
+        "checksum": "md5:525ee7594d1716b98a453cf820eb3801",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0102.mat/content",
+        "filename": "EEG_DS_Struct_0102.mat",
+        "size_bytes": 829302528
+      },
+      {
+        "checksum": "md5:619c99be0ba53a5b4d3026b9d66cda78",
+        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0101.mat/content",
+        "filename": "EEG_DS_Struct_0101.mat",
+        "size_bytes": 1125741386
+      }
+    ],
+    "keywords": [
+      "EEG",
+      "ECG",
+      "Brain Stimulation",
+      "tES"
+    ],
+    "license": "cc-by-4.0",
+    "modified": "",
+    "publication_date": "2025-06-01",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation-Exp1-Data Downsampled",
+    "total_size_mb": 33298.28,
+    "url": "https://zenodo.org/records/15572614"
   },
   {
     "access_right": "open",
@@ -3206,232 +3432,6 @@
   },
   {
     "access_right": "open",
-    "concept_doi": "3840614",
-    "created": "2025-06-03T21:34:25.708059+00:00",
-    "creators": [
-      {
-        "affiliation": "The City College of New York",
-        "name": "Gebodh, Nigel",
-        "orcid": "0000-0001-5457-5641"
-      }
-    ],
-    "dataset_id": "15572614",
-    "description": "<p><strong>GX Dataset&nbsp;downsampled - Experiment 1</strong></p>\n<p>The&nbsp;GX Dataset is a&nbsp;dataset of combined&nbsp;tES, EEG, physiological,&nbsp;and behavioral signals from human subjects.<br>Here the GX Dataset for <strong>Experiment 1</strong> is downsampled to 1 kHz and saved in .MAT format which can be used in both MATLAB and Python.</p>\n<p><strong>Publication</strong></p>\n<p>A full data descriptor is published in <a href=\"https://doi.org/10.1038/s41597-021-01046-y\">Nature Scientific Data</a>. <strong>Please cite this work as</strong>:</p>\n<blockquote>\n<p>Gebodh, N., Esmaeilpour, Z., Datta, A. et al. Dataset of concurrent EEG, ECG, and behavior with multiple doses of transcranial electrical stimulation. Sci Data 8, 274 (2021). https://doi.org/10.1038/s41597-021-01046-y</p>\n</blockquote>\n<p><strong>Descriptions</strong></p>\n<p>A dataset combining high-density electroencephalography (EEG) with physiological and continuous behavioral metrics during transcranial electrical stimulation (tES). Data includes within subject application of nine High-Definition tES (HD-tES) types targeted three brain regions (frontal, motor, parietal) with three waveforms (DC, 5Hz, 30Hz), with more than 783 total stimulation trials over 62 sessions with EEG, physiological (ECG, EOG), and continuous behavioral vigilance/alertness metrics.</p>\n<p><strong>Acknowledgments</strong></p>\n<p>Portions of this study were funded by X (formerly Google X), the Moonshot Factory. The funding source had no influence on study conduction or result evaluation. MB is further supported by grants from the National Institutes of Health: R01NS101362, R01NS095123, R01NS112996, R01MH111896, R01MH109289, and (to NG) NIH-G-RISE T32GM136499.</p>\n<p><strong>Extras</strong></p>\n<p>Back to&nbsp;<a href=\"https://doi.org/10.5281/zenodo.4456079\">Full GX Dataset</a> :&nbsp;https://doi.org/10.5281/zenodo.4456079</p>\n<p>&nbsp;</p>\n<p>For downsampled data (1 kHz ) please see (in .mat format):</p>\n<ul>\n<li><a href=\"https://doi.org/10.5281/zenodo.3840614\">Experiment 1</a> : https://doi.org/10.5281/zenodo.3840614</li>\n<li><a href=\"https://doi.org/10.5281/zenodo.3840616\">Experiment 2</a> : https://doi.org/10.5281/zenodo.3840616</li>\n</ul>\n<p>&nbsp;</p>\n<p>Code used to import, process, and plot this dataset can be found here:</p>\n<ul>\n<li><a href=\"https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior\">GitHub</a> :&nbsp;<a href=\"https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior\">https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>Additional figures for this project have been shared on&nbsp;Figshare. Trial-wise figures can be found here:</p>\n<ul>\n<li><a href=\"https://figshare.com/articles/figure/Dataset_of_Concurrent_EEG_ECG_and_Behavior_with_Multiple_Doses_of_transcranial_Electrical_Stimulation-_Stimulation_Trials_PSD/14810517\">PSD</a>:&nbsp;<a href=\"https://doi.org/10.6084/m9.figshare.14810517.v1\">https://doi.org/10.6084/m9.figshare.14810517.v1</a></li>\n<li><a href=\"https://figshare.com/articles/figure/Dataset_of_Concurrent_EEG_ECG_and_Behavior_with_Multiple_Doses_of_transcranial_Electrical_Stimulation-_Stimulation_Trials_Topoplots/14810478\">Topoplots During Stimulation:</a>&nbsp;<a href=\"https://doi.org/10.6084/m9.figshare.14810478\">https://doi.org/10.6084/m9.figshare.14810478</a></li>\n<li><a href=\"https://doi.org/10.6084/m9.figshare.14810442.v1\">Voltage timeseries, spectrogram and behavior:</a>&nbsp;<a href=\"https://doi.org/10.6084/m9.figshare.14810442\">https://doi.org/10.6084/m9.figshare.14810442.v1</a></li>\n</ul>\n<p>&nbsp;</p>\n<p>The full dataset is also provided in <a href=\"https://bids.neuroimaging.io/\">BIDS</a>&nbsp;format here:</p>\n<ul>\n<li><a href=\"https://doi.org/10.18112/openneuro.ds003670.v1.1.0\">Data in BIDS format:</a>&nbsp;https://doi.org/10.18112/openneuro.ds003670.v1.1.0</li>\n</ul>\n<p><strong>Data License&nbsp;</strong><br><a href=\"https://creativecommons.org/licenses/by/4.0/\">Creative Common 4.0 with attribution (CC BY 4.0)</a></p>\n<p>&nbsp;</p>\n<p><strong>NOTE</strong></p>\n<p><strong>Please email ngebodh01@citymail.cuny.edu with any questions.</strong></p>\n<p>&nbsp;</p>\n<p><br><strong>Updates</strong></p>\n<ul>\n<li><strong>Version 2.1.0</strong>\n<ul>\n<li>Behavioral data (ptracker) adjusted for all files. Previous version had one participant's data overwriting all behavioral data when downsampled. Mat format now explicitly &gt;v7.3&nbsp;&nbsp;</li>\n</ul>\n</li>\n<li><strong>Version 2</strong>&nbsp;\n<ul>\n<li>Stimulation trigger labels now adjusted. Previous labels were missmatched for Experiment 1's data.&nbsp;</li>\n</ul>\n</li>\n</ul>\n<p>&nbsp;</p>",
-    "doi": "10.5281/zenodo.15572614",
-    "doi_url": "https://doi.org/10.5281/zenodo.15572614",
-    "file_count": 32,
-    "files": [
-      {
-        "checksum": "md5:92528ee3cac2dc4bfc6ae2e755df0753",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0105.mat/content",
-        "filename": "EEG_DS_Struct_0105.mat",
-        "size_bytes": 1101930522
-      },
-      {
-        "checksum": "md5:0484c16f53fae318a1b1181949066d42",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0106.mat/content",
-        "filename": "EEG_DS_Struct_0106.mat",
-        "size_bytes": 1098316616
-      },
-      {
-        "checksum": "md5:51268c067ae75a4405f13f4bd5b6cab1",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0202.mat/content",
-        "filename": "EEG_DS_Struct_0202.mat",
-        "size_bytes": 1105370935
-      },
-      {
-        "checksum": "md5:9e03bd92564249c77e77b5aff0abb283",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0302.mat/content",
-        "filename": "EEG_DS_Struct_0302.mat",
-        "size_bytes": 1095188443
-      },
-      {
-        "checksum": "md5:6b2256bace3fe781c98537e424c48325",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0303.mat/content",
-        "filename": "EEG_DS_Struct_0303.mat",
-        "size_bytes": 1082684339
-      },
-      {
-        "checksum": "md5:2b017a26e624fc238fb8eba9fc665d2b",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0402.mat/content",
-        "filename": "EEG_DS_Struct_0402.mat",
-        "size_bytes": 1095034368
-      },
-      {
-        "checksum": "md5:0166e2d25dfe10b2b73bddf3f8b4aac2",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0401.mat/content",
-        "filename": "EEG_DS_Struct_0401.mat",
-        "size_bytes": 1110544626
-      },
-      {
-        "checksum": "md5:58bc70b366f141538e989814d05333c2",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0601.mat/content",
-        "filename": "EEG_DS_Struct_0601.mat",
-        "size_bytes": 1095632090
-      },
-      {
-        "checksum": "md5:5c92852562859126d143f1f06a5174eb",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0403.mat/content",
-        "filename": "EEG_DS_Struct_0403.mat",
-        "size_bytes": 1108408419
-      },
-      {
-        "checksum": "md5:79b371dc0d04d3f88e24bd3186a70920",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0501.mat/content",
-        "filename": "EEG_DS_Struct_0501.mat",
-        "size_bytes": 1113452178
-      },
-      {
-        "checksum": "md5:dff87085731000a3fbeee753a903dfee",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0504.mat/content",
-        "filename": "EEG_DS_Struct_0504.mat",
-        "size_bytes": 1100112220
-      },
-      {
-        "checksum": "md5:d43f64286efa1af6bfeefeaa3d0064b9",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0702.mat/content",
-        "filename": "EEG_DS_Struct_0702.mat",
-        "size_bytes": 1096075179
-      },
-      {
-        "checksum": "md5:d43c49851c0572791811ff278822efa1",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0505.mat/content",
-        "filename": "EEG_DS_Struct_0505.mat",
-        "size_bytes": 1107458370
-      },
-      {
-        "checksum": "md5:936f2f20763e56022a1cf638595774e3",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0602.mat/content",
-        "filename": "EEG_DS_Struct_0602.mat",
-        "size_bytes": 1095917178
-      },
-      {
-        "checksum": "md5:ea9f5b813481c894fc66bd1d769204c3",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0603.mat/content",
-        "filename": "EEG_DS_Struct_0603.mat",
-        "size_bytes": 1092564322
-      },
-      {
-        "checksum": "md5:7c36c9cd66fd546aa5343e6f03819ceb",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0103.mat/content",
-        "filename": "EEG_DS_Struct_0103.mat",
-        "size_bytes": 1113350809
-      },
-      {
-        "checksum": "md5:7b464f55f7b925c6d7887c3df14cab3f",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0201.mat/content",
-        "filename": "EEG_DS_Struct_0201.mat",
-        "size_bytes": 1114733294
-      },
-      {
-        "checksum": "md5:67e8e83543d93b681c8ce3b4d8633aca",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0104.mat/content",
-        "filename": "EEG_DS_Struct_0104.mat",
-        "size_bytes": 1099004180
-      },
-      {
-        "checksum": "md5:92168c59b37b7cf2cb5ea967e90a83fb",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0701.mat/content",
-        "filename": "EEG_DS_Struct_0701.mat",
-        "size_bytes": 1100898374
-      },
-      {
-        "checksum": "md5:7c0743a47b70afad63916e6bf23374fc",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0703.mat/content",
-        "filename": "EEG_DS_Struct_0703.mat",
-        "size_bytes": 1098412534
-      },
-      {
-        "checksum": "md5:f706e7dcd97509dd9c92e359f6698dfe",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0801.mat/content",
-        "filename": "EEG_DS_Struct_0801.mat",
-        "size_bytes": 1099978270
-      },
-      {
-        "checksum": "md5:8c9a775aa035dcb45752406bd207bb64",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0903.mat/content",
-        "filename": "EEG_DS_Struct_0903.mat",
-        "size_bytes": 1096917549
-      },
-      {
-        "checksum": "md5:f4715abacf5206c0fd76b19279f84f4f",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0802.mat/content",
-        "filename": "EEG_DS_Struct_0802.mat",
-        "size_bytes": 1091179316
-      },
-      {
-        "checksum": "md5:d7712a971355f7c6afe8e3e0a4e489b6",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0901.mat/content",
-        "filename": "EEG_DS_Struct_0901.mat",
-        "size_bytes": 1111794180
-      },
-      {
-        "checksum": "md5:310c66591e3cb050be2f7f599b150976",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0902.mat/content",
-        "filename": "EEG_DS_Struct_0902.mat",
-        "size_bytes": 1098915456
-      },
-      {
-        "checksum": "md5:3f930fde20af32f5d8b838170b90be84",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_1001.mat/content",
-        "filename": "EEG_DS_Struct_1001.mat",
-        "size_bytes": 1087451497
-      },
-      {
-        "checksum": "md5:f4190fec74fc9719909b563399a799b0",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_1002.mat/content",
-        "filename": "EEG_DS_Struct_1002.mat",
-        "size_bytes": 1085093142
-      },
-      {
-        "checksum": "md5:aa11ec5b1cb097152eddf12558eefb74",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0301.mat/content",
-        "filename": "EEG_DS_Struct_0301.mat",
-        "size_bytes": 1094928399
-      },
-      {
-        "checksum": "md5:68f0793d5f22828a247050e55ca671ac",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0803.mat/content",
-        "filename": "EEG_DS_Struct_0803.mat",
-        "size_bytes": 1087929373
-      },
-      {
-        "checksum": "md5:5d1076fae6ebc042ce2b3208d0381d95",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_1003.mat/content",
-        "filename": "EEG_DS_Struct_1003.mat",
-        "size_bytes": 1081460593
-      },
-      {
-        "checksum": "md5:525ee7594d1716b98a453cf820eb3801",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0102.mat/content",
-        "filename": "EEG_DS_Struct_0102.mat",
-        "size_bytes": 829302528
-      },
-      {
-        "checksum": "md5:619c99be0ba53a5b4d3026b9d66cda78",
-        "download_url": "https://zenodo.org/api/records/15572614/files/EEG_DS_Struct_0101.mat/content",
-        "filename": "EEG_DS_Struct_0101.mat",
-        "size_bytes": 1125741386
-      }
-    ],
-    "keywords": [
-      "EEG",
-      "ECG",
-      "Brain Stimulation",
-      "tES"
-    ],
-    "license": "cc-by-4.0",
-    "modified": "",
-    "publication_date": "2025-06-01",
-    "resource_title": "Dataset",
-    "resource_type": "dataset",
-    "source": "zenodo",
-    "title": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation-Exp1-Data Downsampled",
-    "total_size_mb": 33298.28,
-    "url": "https://zenodo.org/records/15572614"
-  },
-  {
-    "access_right": "open",
     "concept_doi": "5816705",
     "created": "2022-01-09T22:13:32.616051+00:00",
     "creators": [
@@ -3475,50 +3475,6 @@
     "title": "VEP_workflow_simulatedData",
     "total_size_mb": 71.12,
     "url": "https://zenodo.org/records/5816706"
-  },
-  {
-    "access_right": "open",
-    "concept_doi": "8288892",
-    "created": "2023-08-28T16:03:41.630095+00:00",
-    "creators": [
-      {
-        "affiliation": "KIST",
-        "name": "Han,Hio-Been"
-      },
-      {
-        "affiliation": "KIST",
-        "name": "Choi,Jee Hyun"
-      }
-    ],
-    "dataset_id": "8288893",
-    "description": "<p>Original publication link:&nbsp;<a href=\"https://doi.org/10.1073/pnas.2308762120\">https://doi.org/10.1073/pnas.2308762120</a></p>\n\n<p>A set of mouse EEG data (raw data files in [data_EEG-BIDS.zip]) and simultaneously recorded video (raw data files and processed behavioral data&nbsp;in [data_behavior.zip]). A mirror&nbsp;of this dataset is located here:&nbsp;<a href=\"https://gin.g-node.org/hiobeen/Mouse-threat-and-escape-Han-et-al-PNAS\">https://gin.g-node.org/hiobeen/Mouse-threat-and-escape-Han-et-al-PNAS</a>.</p>\n\n<p>Check this <a href=\"https://gin.g-node.org/hiobeen/Mouse-threat-and-escape-Han-et-al-PNAS/src/master/README.md\">how-to-start guide</a> to this dataset!&nbsp;<br>\n&nbsp;</p>\n\n<p>1. EEG dataset</p>\n\n<p>Most of all, the overall dataset structure adheres to the BIDS-EEG format introduced by Pernet et al. (2019). Within the top-level directory &#39;data_EEG-BIDS/&#39;, the EEG data is organized under paths starting with &#39;sub-##/&#39;. These EEG recordings (mouse n = 8) were recorded under the Threat-and-escape paradigm experiment, which involves dynamic interactions with a spider robot. This experiment was done in two separate conditions: the solitary condition, where a mouse was exposed to the robot alone in the arena (referred to as the &#39;Single&#39; condition), and the group condition, where mice encountered the robot alongside other conspecifics (referred to as the &#39;Group&#39; condition). This dataset only includes the data from solitary condition. CBRAIN headstage (Kim et al., 2019) was employed to record this EEG data at a sampling rate of 1024 Hz. The recordings were taken from the medial prefrontal cortex (channel 1) and the basolateral amygdala (channel 2). For a comprehensive understanding of the experimental methods and procedures, please see our original publications: Han et al. (2023), Cho et al. (2023), and Kim et al. (2020).</p>\n\n<p>&nbsp;</p>\n\n<p>2.&nbsp;Position dataset</p>\n\n<p>Another top-level directory, &#39;data_behavior/&#39;, contains simultaneously recorded video (in avi format) (&#39;data_behavior/raw/&#39;) and position extracted from the video in csv format (&#39;data_behavior/processed/&#39;). The positions are located in the &#39;stimuli/position/&#39; directory.</p>\n\n<p>Position tracking is performed using the U-Net architecture of CNN (Ronnenberger, 2015; also see, Han et al. in press for detailed procedure). This method tracks the body area&#39;s location to extract its centroid.</p>\n\n<p>&nbsp;</p>\n\n<p>3. References</p>\n\n<p>Han, H. B., Shin, H. S., Jeong, Y., Kim, J., Choi, J. H., (2023) Dynamic switching of neural oscillations in the prefrontal&ndash;amygdala circuit for naturalistic freeze-or-flight,&nbsp;<em>Proceedings of the National Academy of Sciences,</em>,&nbsp;<em>120</em>(37),&nbsp;<a href=\"https://doi.org/10.1073/pnas.2308762120\">https://doi.org/10.1073/pnas.2308762120</a></p>\n\n<p>Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., &amp; Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography.&nbsp;<em>Scientific data</em>,&nbsp;<em>6</em>(1), 103.</p>\n\n<p>Kim, J., Kim, C., Han, H. B., Cho, C. J., Yeom, W., Lee, S. Q., &amp; Choi, J. H. (2020). A bird&rsquo;s-eye view of brain activity in socially interacting mice through mobile edge computing (MEC).&nbsp;<em>Science Advances</em>,&nbsp;<em>6</em>(49).</p>\n\n<p>Cho, S., &amp; Choi, J. H. (2023). A guide towards optimal detection of transient oscillatory bursts with unknown parameters.&nbsp;<em>Journal of Neural Engineering</em>.</p>\n\n<p>Ronneberger, O., Fischer, P., &amp; Brox, T. (2015). U-net: Convolutional networks for biomedical image segmentation. In&nbsp;<em>Medical Image Computing and Computer-Assisted Intervention&ndash;MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18</em>&nbsp;(pp. 234-241). Springer International Publishing.</p>\n\n<p>&nbsp;</p>\n\n<p>written by Hio-Been Han, hiobeen.han@gmail.com, 2023-09-07.</p>",
-    "doi": "10.5281/zenodo.8288893",
-    "doi_url": "https://doi.org/10.5281/zenodo.8288893",
-    "file_count": 2,
-    "files": [
-      {
-        "checksum": "md5:15249191aa4b4fe9b80d326fbaf37708",
-        "download_url": "https://zenodo.org/api/records/8288893/files/data_behavior.zip/content",
-        "filename": "data_behavior.zip",
-        "size_bytes": 6446829786
-      },
-      {
-        "checksum": "md5:77808999e7035f17d1a77fa3da016f4a",
-        "download_url": "https://zenodo.org/api/records/8288893/files/data_EEG-BIDS.zip/content",
-        "filename": "data_EEG-BIDS.zip",
-        "size_bytes": 85781722
-      }
-    ],
-    "keywords": [],
-    "license": "cc-by-4.0",
-    "modified": "",
-    "publication_date": "2023-08-28",
-    "resource_title": "Dataset",
-    "resource_type": "dataset",
-    "source": "zenodo",
-    "title": "Dataset of mouse EEG and behaviors under threat-and-escape paradigm (solitary threat condition)",
-    "total_size_mb": 6229.98,
-    "url": "https://zenodo.org/records/8288893"
   },
   {
     "access_right": "open",
@@ -3579,6 +3535,50 @@
     "title": "Reward-based option competition in human dorsal stream and transition from stochastic exploration to exploitation in continuous space",
     "total_size_mb": 94.25,
     "url": "https://zenodo.org/records/10624385"
+  },
+  {
+    "access_right": "open",
+    "concept_doi": "8288892",
+    "created": "2023-08-28T16:03:41.630095+00:00",
+    "creators": [
+      {
+        "affiliation": "KIST",
+        "name": "Han,Hio-Been"
+      },
+      {
+        "affiliation": "KIST",
+        "name": "Choi,Jee Hyun"
+      }
+    ],
+    "dataset_id": "8288893",
+    "description": "<p>Original publication link:&nbsp;<a href=\"https://doi.org/10.1073/pnas.2308762120\">https://doi.org/10.1073/pnas.2308762120</a></p>\n\n<p>A set of mouse EEG data (raw data files in [data_EEG-BIDS.zip]) and simultaneously recorded video (raw data files and processed behavioral data&nbsp;in [data_behavior.zip]). A mirror&nbsp;of this dataset is located here:&nbsp;<a href=\"https://gin.g-node.org/hiobeen/Mouse-threat-and-escape-Han-et-al-PNAS\">https://gin.g-node.org/hiobeen/Mouse-threat-and-escape-Han-et-al-PNAS</a>.</p>\n\n<p>Check this <a href=\"https://gin.g-node.org/hiobeen/Mouse-threat-and-escape-Han-et-al-PNAS/src/master/README.md\">how-to-start guide</a> to this dataset!&nbsp;<br>\n&nbsp;</p>\n\n<p>1. EEG dataset</p>\n\n<p>Most of all, the overall dataset structure adheres to the BIDS-EEG format introduced by Pernet et al. (2019). Within the top-level directory &#39;data_EEG-BIDS/&#39;, the EEG data is organized under paths starting with &#39;sub-##/&#39;. These EEG recordings (mouse n = 8) were recorded under the Threat-and-escape paradigm experiment, which involves dynamic interactions with a spider robot. This experiment was done in two separate conditions: the solitary condition, where a mouse was exposed to the robot alone in the arena (referred to as the &#39;Single&#39; condition), and the group condition, where mice encountered the robot alongside other conspecifics (referred to as the &#39;Group&#39; condition). This dataset only includes the data from solitary condition. CBRAIN headstage (Kim et al., 2019) was employed to record this EEG data at a sampling rate of 1024 Hz. The recordings were taken from the medial prefrontal cortex (channel 1) and the basolateral amygdala (channel 2). For a comprehensive understanding of the experimental methods and procedures, please see our original publications: Han et al. (2023), Cho et al. (2023), and Kim et al. (2020).</p>\n\n<p>&nbsp;</p>\n\n<p>2.&nbsp;Position dataset</p>\n\n<p>Another top-level directory, &#39;data_behavior/&#39;, contains simultaneously recorded video (in avi format) (&#39;data_behavior/raw/&#39;) and position extracted from the video in csv format (&#39;data_behavior/processed/&#39;). The positions are located in the &#39;stimuli/position/&#39; directory.</p>\n\n<p>Position tracking is performed using the U-Net architecture of CNN (Ronnenberger, 2015; also see, Han et al. in press for detailed procedure). This method tracks the body area&#39;s location to extract its centroid.</p>\n\n<p>&nbsp;</p>\n\n<p>3. References</p>\n\n<p>Han, H. B., Shin, H. S., Jeong, Y., Kim, J., Choi, J. H., (2023) Dynamic switching of neural oscillations in the prefrontal&ndash;amygdala circuit for naturalistic freeze-or-flight,&nbsp;<em>Proceedings of the National Academy of Sciences,</em>,&nbsp;<em>120</em>(37),&nbsp;<a href=\"https://doi.org/10.1073/pnas.2308762120\">https://doi.org/10.1073/pnas.2308762120</a></p>\n\n<p>Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., &amp; Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography.&nbsp;<em>Scientific data</em>,&nbsp;<em>6</em>(1), 103.</p>\n\n<p>Kim, J., Kim, C., Han, H. B., Cho, C. J., Yeom, W., Lee, S. Q., &amp; Choi, J. H. (2020). A bird&rsquo;s-eye view of brain activity in socially interacting mice through mobile edge computing (MEC).&nbsp;<em>Science Advances</em>,&nbsp;<em>6</em>(49).</p>\n\n<p>Cho, S., &amp; Choi, J. H. (2023). A guide towards optimal detection of transient oscillatory bursts with unknown parameters.&nbsp;<em>Journal of Neural Engineering</em>.</p>\n\n<p>Ronneberger, O., Fischer, P., &amp; Brox, T. (2015). U-net: Convolutional networks for biomedical image segmentation. In&nbsp;<em>Medical Image Computing and Computer-Assisted Intervention&ndash;MICCAI 2015: 18th International Conference, Munich, Germany, October 5-9, 2015, Proceedings, Part III 18</em>&nbsp;(pp. 234-241). Springer International Publishing.</p>\n\n<p>&nbsp;</p>\n\n<p>written by Hio-Been Han, hiobeen.han@gmail.com, 2023-09-07.</p>",
+    "doi": "10.5281/zenodo.8288893",
+    "doi_url": "https://doi.org/10.5281/zenodo.8288893",
+    "file_count": 2,
+    "files": [
+      {
+        "checksum": "md5:15249191aa4b4fe9b80d326fbaf37708",
+        "download_url": "https://zenodo.org/api/records/8288893/files/data_behavior.zip/content",
+        "filename": "data_behavior.zip",
+        "size_bytes": 6446829786
+      },
+      {
+        "checksum": "md5:77808999e7035f17d1a77fa3da016f4a",
+        "download_url": "https://zenodo.org/api/records/8288893/files/data_EEG-BIDS.zip/content",
+        "filename": "data_EEG-BIDS.zip",
+        "size_bytes": 85781722
+      }
+    ],
+    "keywords": [],
+    "license": "cc-by-4.0",
+    "modified": "",
+    "publication_date": "2023-08-28",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "Dataset of mouse EEG and behaviors under threat-and-escape paradigm (solitary threat condition)",
+    "total_size_mb": 6229.98,
+    "url": "https://zenodo.org/records/8288893"
   },
   {
     "access_right": "open",
@@ -4891,6 +4891,89 @@
   },
   {
     "access_right": "open",
+    "concept_doi": "15704069",
+    "created": "2025-12-03T08:20:30.617929+00:00",
+    "creators": [
+      {
+        "affiliation": "Universidad de Deusto",
+        "name": "Tall\u00f3n, Paula",
+        "orcid": "0009-0003-3228-3447"
+      }
+    ],
+    "dataset_id": "17798906",
+    "description": "<p>Systematic review metadata and supplementary materials for the study:</p>\n<p>Computational Strategies for Depression Detection and Treatment: The Role of Behavioral Activation and Neurobiological Insights &ndash; A Systematic Review</p>\n<p>This dataset contains structured metadata for the 59 studies included in the PRISMA 2020-compliant systematic review. It supports the analysis of artificial intelligence (AI), machine learning, behavioral activation (BA), physical activity monitoring, and neurobiological mechanisms in depression detection and treatment.</p>\n<p>&nbsp;Contents:<br>- `dataset.csv`: Full bibliographic details (Study ID, first author, year, full title, journal, AI technique, accuracy/outcome metrics, population, DOI/URL) for all 59 included studies, plus 2 more regarding the references of the checklist of CLAIM and IJMI AI/ML reporting guidelines.<br>- `S1_File.docx`: Retrospective review protocol, including PICO framework, search strategy, and inclusion/exclusion criteria.<br>- `S1_Table.pdf`: Complete search strings used across PubMed, Scopus, ACM Digital Library, and Web of Science.<br>- `S2_File.docx`: Completed PRISMA 2020 Checklist.<br>- `README.markdown`: Dataset overview and usage instructions.<br>- `data_availability_statement.md`: Final data availability statement for inclusion in the manuscript.Keywords: depression, artificial intelligence, behavioral activation, machine learning, EEG, neuroimaging, digital mental health, PRISMA</p>\n<p>-'Appendix_S2_AI_ML_reporting_checklist.docx': Compliance with CLAIM and IJMI AI/ML reporting guidelines</p>",
+    "doi": "10.5281/zenodo.17798906",
+    "doi_url": "https://doi.org/10.5281/zenodo.17798906",
+    "file_count": 9,
+    "files": [
+      {
+        "checksum": "md5:861d15a5cb0e674f97aaa35052a4ed34",
+        "download_url": "https://zenodo.org/api/records/17798906/files/dataset.csv/content",
+        "filename": "dataset.csv",
+        "size_bytes": 13282
+      },
+      {
+        "checksum": "md5:5c79a38496f38d274e771e01088f257a",
+        "download_url": "https://zenodo.org/api/records/17798906/files/S1_File.docx/content",
+        "filename": "S1_File.docx",
+        "size_bytes": 29463
+      },
+      {
+        "checksum": "md5:a8f3be1ecb1ecd4eb0e10bb99b296323",
+        "download_url": "https://zenodo.org/api/records/17798906/files/S1_Table.pdf/content",
+        "filename": "S1_Table.pdf",
+        "size_bytes": 3200
+      },
+      {
+        "checksum": "md5:77eff88ea211921d767df2cdba9196b7",
+        "download_url": "https://zenodo.org/api/records/17798906/files/S2_Fig.tiff/content",
+        "filename": "S2_Fig.tiff",
+        "size_bytes": 715546
+      },
+      {
+        "checksum": "md5:0e522d59bd22f3eda220f5cfc0aad8ee",
+        "download_url": "https://zenodo.org/api/records/17798906/files/S2_file.docx/content",
+        "filename": "S2_file.docx",
+        "size_bytes": 278968
+      },
+      {
+        "checksum": "md5:f6700ea16b0029300f7d838d2e8b14a6",
+        "download_url": "https://zenodo.org/api/records/17798906/files/Appendix_S2_AI_ML_reporting_checklist.docx/content",
+        "filename": "Appendix_S2_AI_ML_reporting_checklist.docx",
+        "size_bytes": 28714
+      },
+      {
+        "checksum": "md5:e48a61216976921c0ba325e7bd4c6da6",
+        "download_url": "https://zenodo.org/api/records/17798906/files/data_availability_statement.md/content",
+        "filename": "data_availability_statement.md",
+        "size_bytes": 801
+      },
+      {
+        "checksum": "md5:5021f65665d16f9229756e7b2621bbba",
+        "download_url": "https://zenodo.org/api/records/17798906/files/README.markdown/content",
+        "filename": "README.markdown",
+        "size_bytes": 2689
+      },
+      {
+        "checksum": "md5:192b94a97b0f90dacc9a9393db6bf22b",
+        "download_url": "https://zenodo.org/api/records/17798906/files/zenodo_metadata.json/content",
+        "filename": "zenodo_metadata.json",
+        "size_bytes": 2506
+      }
+    ],
+    "keywords": [],
+    "license": "cc-by-4.0",
+    "modified": "",
+    "publication_date": "2025-12-03",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "Dataset for Systematic Review: Computational Strategies for Depression Detection and Treatment",
+    "total_size_mb": 1.03,
+    "url": "https://zenodo.org/records/17798906"
+  },
+  {
+    "access_right": "open",
     "concept_doi": "7196041",
     "created": "2022-10-13T22:03:47.678241+00:00",
     "creators": [
@@ -4951,56 +5034,6 @@
   },
   {
     "access_right": "open",
-    "concept_doi": "12794807",
-    "created": "2024-07-23T11:20:56.359672+00:00",
-    "creators": [
-      {
-        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
-        "name": "Riegel, Jasmin"
-      },
-      {
-        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
-        "name": "Sch\u00fcller, Alina",
-        "orcid": "0009-0009-0392-8000"
-      },
-      {
-        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
-        "name": "Reichenbach, Tobias",
-        "orcid": "0000-0003-3367-3511"
-      }
-    ],
-    "dataset_id": "12794808",
-    "description": "<h2><strong>Data location</strong></h2>\n<p>The data is split into 3 Zenodo locations as it is too large for one location. In total the data set contains meg data of 58 participants. An overview of the participants and the amount of musical training the have conducted is also available. Each of the 3 Zenodo uploads contains the participant overview file + Set#.zip.</p>\n<p>Part/Set 1 (blue) contains: meg data of participants 1 - 19 + audio folder (can be found <a href=\"../records/12793944\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>Part/Set 2 (pink) contains: meg data of participants 20 - 38 (can be found <a href=\"../records/12794769\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p><strong>Part/Set 3 (yellow) contains: meg data of participants 39 - 58</strong></p>\n<p>&nbsp;</p>\n<h2><strong>Experimental design</strong></h2>\n<p>We used four German audiobooks (all published by <a href=\"https://www.hoerbuch-hamburg.de/\" target=\"_blank\" rel=\"noopener\">H&ouml;rbuch Hamburg Verlag</a> and available online.&nbsp;</p>\n<p>1. &bdquo;Frau Ella&ldquo; (narrated by lower pitched (LP) speaker and attended by participants)</p>\n<p>2. &bdquo;Darum&ldquo; (narrated by LP speaker and ignored by participants)</p>\n<p>3. &bdquo;Den Hund &uuml;berleben&ldquo; (narrated by higher pitched (HP) speaker and attended by participants)</p>\n<p>4. &bdquo;Looking for Hope&ldquo; (narrated by HP speaker and ignored by participants)</p>\n<p>The participants listened to 10 audiobook chapters. There were always 2 audiobooks presented at the same time (one narrated by a HP speaker and one by a LP speaker) and the participants attended one and ignored the other speaker. The structure of the chapters was as follows:</p>\n<p>Chapter 1 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 1 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>&nbsp;</p>\n<h2><strong>MEG Data structure</strong></h2>\n<p>MEG data of 58 participants is contained in this data set.&nbsp;</p>\n<p>Each participant has a folder with its participant number as folder name (1,2,3,&hellip;).&nbsp;</p>\n<p>In the participant folder are two subfolders. One (LP_speaker_attended) containing the MEG data when the participant was attending the LP speaker (ignoring the HP speaker) and one (HP_speaker_attended) containing the MEG data measured when the participant was attending the HP speaker (ignoring the LP speaker). Note that after each chapter the participants switched the attention from LP to HP and vice versa but for evaluation we concatenated the data of the LP speaker attended/ HP speaker ignored mode and the HP speaker attended/ LP speaker ignored mode.</p>\n<p>The data of attending the HP speaker is of shape (248, 959416) (ca 16 minutes). That of the LP speaker is of shape (248, 1247854) (ca 21 minutes)</p>\n<p><code>#The meg data can be loaded with the <a href=\"https://mne.tools/stable/index.html\" target=\"_blank\" rel=\"noopener\">mne python library</a></code></p>\n<p><code>meg = mne.read_raw_fif(&ldquo;&hellip;/data_meg.fif&ldquo;)</code></p>\n<p><code>#The data can be accessed:</code></p>\n<p><code>meg_data = meg.get_data()</code></p>\n<p>Exemplary code for performing source reconstruction and trf evaluation can be found in our <a href=\"https://github.com/Al2606/MEG-Analysis-Pipeline\" target=\"_blank\" rel=\"noopener\">git repository</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>Audio Data structure</strong></h2>\n<p>The original audio chapters of the audio books are stored in the folder &bdquo;Audio&ldquo; in <a href=\"../records/12793944\">Part 1</a>.</p>\n<p>There are two subfolders. One (attended_speech) contains the ten audiobook chapters which were attended by the participant (audiobook1_#, audiobook3_#). The other subfolder (ignored_speech) contains the ten audiobook chapters which were ignored by the participant (audiobook2_#, audiobook4_#).</p>\n<p>We recommend the <a href=\"https://librosa.org/doc/latest/index.html\" target=\"_blank\" rel=\"noopener\">librosa library</a> for audio loading and processing.</p>\n<p>Audio data is provided with a sampling frequency of 44.1 kHz</p>\n<p>Each audio book is provided in 5 chapters as they were presented to the participants. The corresponding meg file as described above already contains the concatenated measured data of all five chapters.&nbsp;</p>\n<p>If you resample the audio data to 1000Hz and concatenate the chapters, the audio shape (n_times) will be equal to the corresponding n_times of the meg data.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Processing of meg data</strong></h2>\n<p>The meg data was filtered analog with a 1.0 - 200 Hz filter and preprocessed offline using a notch filter (Firwin, 0.5 Hz bandwidth) to remove power line interference at frequencies 50, 100, 150 and 200 Hz.</p>\n<p>The data was then resampled from 1017.25 Hz to 1000 Hz.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Technical details</strong></h2>\n<p>The meg system with which the data was recorded was a 248 magnetometer system (4D Neuroimaging, San Diego, CA, USA)</p>\n<p>The audio signal was presented through loud speakers outside the magnetic chamber and passed on to the participant via tubes of 2 m length and 2 cm diameter leading to a delay of the acoustic signal of 6 ms. The audio was presented diotically (both the attended and the ignored audio stream were presented in both ears) with a sound pressure level of 67 dB(A).</p>\n<p>The measurement setup was provided by a former study by Schilling et al (<a href=\"https://doi.org/10.1080/23273798.2020.1803375\">https://doi.org/10.1080/23273798.2020.1803375</a>).</p>\n<p>&nbsp;</p>\n<h2><strong>Papers to cite when using this data</strong></h2>\n<ul>\n<li>Riegel et al., \"No Influence of Musical Training on the Cortical Contribution to the Speech-FFR and its Modulation Through Selective Attention\" eneuro in print (<a href=\"https://doi.org/10.1101/2024.07.25.605057\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.07.25.605057</a>).</li>\n<li>Sch&uuml;ller, M&uuml;cke et al. \"Assessing the Impact of Selective Attention on the Cortical Tracking of the Speech Envelope in the Delta and Theta Frequency Bands and How Musical Training Does (Not) Affect it\", under review (<a href=\"https://doi.org/10.1101/2024.08.01.606154\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.08.01.606154</a>).</li>\n<li>Sch&uuml;ller et al., \"Attentional Modulation of the Cortical Contribution to the Frequency-Following Response Evoked by Continuous Speech&ldquo; (<a href=\"https://doi.org/10.1523/JNEUROSCI.1247-23.2023\">https://doi.org/10.1523/JNEUROSCI.1247-23.2023</a>).</li>\n</ul>",
-    "doi": "10.5281/zenodo.12794808",
-    "doi_url": "https://doi.org/10.5281/zenodo.12794808",
-    "file_count": 2,
-    "files": [
-      {
-        "checksum": "md5:2d312b39e2ccb7a5c8926c9cb59a2882",
-        "download_url": "https://zenodo.org/api/records/12794808/files/Set3.zip/content",
-        "filename": "Set3.zip",
-        "size_bytes": 40383799758
-      },
-      {
-        "checksum": "md5:54af836cc5567b5be722aa00112af936",
-        "download_url": "https://zenodo.org/api/records/12794808/files/Participants_Overview.pdf/content",
-        "filename": "Participants_Overview.pdf",
-        "size_bytes": 82026
-      }
-    ],
-    "keywords": [],
-    "license": "cc-by-4.0",
-    "modified": "",
-    "publication_date": "2024-07-22",
-    "resource_title": "Dataset",
-    "resource_type": "dataset",
-    "source": "zenodo",
-    "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 3",
-    "total_size_mb": 38513.07,
-    "url": "https://zenodo.org/records/12794808"
-  },
-  {
-    "access_right": "open",
     "concept_doi": "12794768",
     "created": "2024-07-23T11:20:47.895868+00:00",
     "creators": [
@@ -5048,6 +5081,56 @@
     "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 2",
     "total_size_mb": 36709.72,
     "url": "https://zenodo.org/records/12794769"
+  },
+  {
+    "access_right": "open",
+    "concept_doi": "12794807",
+    "created": "2024-07-23T11:20:56.359672+00:00",
+    "creators": [
+      {
+        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+        "name": "Riegel, Jasmin"
+      },
+      {
+        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+        "name": "Sch\u00fcller, Alina",
+        "orcid": "0009-0009-0392-8000"
+      },
+      {
+        "affiliation": "Friedrich-Alexander-Universit\u00e4t Erlangen-N\u00fcrnberg",
+        "name": "Reichenbach, Tobias",
+        "orcid": "0000-0003-3367-3511"
+      }
+    ],
+    "dataset_id": "12794808",
+    "description": "<h2><strong>Data location</strong></h2>\n<p>The data is split into 3 Zenodo locations as it is too large for one location. In total the data set contains meg data of 58 participants. An overview of the participants and the amount of musical training the have conducted is also available. Each of the 3 Zenodo uploads contains the participant overview file + Set#.zip.</p>\n<p>Part/Set 1 (blue) contains: meg data of participants 1 - 19 + audio folder (can be found <a href=\"../records/12793944\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p>Part/Set 2 (pink) contains: meg data of participants 20 - 38 (can be found <a href=\"../records/12794769\" target=\"_blank\" rel=\"noopener\">here</a>)</p>\n<p><strong>Part/Set 3 (yellow) contains: meg data of participants 39 - 58</strong></p>\n<p>&nbsp;</p>\n<h2><strong>Experimental design</strong></h2>\n<p>We used four German audiobooks (all published by <a href=\"https://www.hoerbuch-hamburg.de/\" target=\"_blank\" rel=\"noopener\">H&ouml;rbuch Hamburg Verlag</a> and available online.&nbsp;</p>\n<p>1. &bdquo;Frau Ella&ldquo; (narrated by lower pitched (LP) speaker and attended by participants)</p>\n<p>2. &bdquo;Darum&ldquo; (narrated by LP speaker and ignored by participants)</p>\n<p>3. &bdquo;Den Hund &uuml;berleben&ldquo; (narrated by higher pitched (HP) speaker and attended by participants)</p>\n<p>4. &bdquo;Looking for Hope&ldquo; (narrated by HP speaker and ignored by participants)</p>\n<p>The participants listened to 10 audiobook chapters. There were always 2 audiobooks presented at the same time (one narrated by a HP speaker and one by a LP speaker) and the participants attended one and ignored the other speaker. The structure of the chapters was as follows:</p>\n<p>Chapter 1 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 1 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 2 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 3 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 4 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 1 + random part of audiobook 4</p>\n<p>3 comprehension questions</p>\n<p>Chapter 5 of audiobook 3 + random part of audiobook 2</p>\n<p>3 comprehension questions</p>\n<p>&nbsp;</p>\n<h2><strong>MEG Data structure</strong></h2>\n<p>MEG data of 58 participants is contained in this data set.&nbsp;</p>\n<p>Each participant has a folder with its participant number as folder name (1,2,3,&hellip;).&nbsp;</p>\n<p>In the participant folder are two subfolders. One (LP_speaker_attended) containing the MEG data when the participant was attending the LP speaker (ignoring the HP speaker) and one (HP_speaker_attended) containing the MEG data measured when the participant was attending the HP speaker (ignoring the LP speaker). Note that after each chapter the participants switched the attention from LP to HP and vice versa but for evaluation we concatenated the data of the LP speaker attended/ HP speaker ignored mode and the HP speaker attended/ LP speaker ignored mode.</p>\n<p>The data of attending the HP speaker is of shape (248, 959416) (ca 16 minutes). That of the LP speaker is of shape (248, 1247854) (ca 21 minutes)</p>\n<p><code>#The meg data can be loaded with the <a href=\"https://mne.tools/stable/index.html\" target=\"_blank\" rel=\"noopener\">mne python library</a></code></p>\n<p><code>meg = mne.read_raw_fif(&ldquo;&hellip;/data_meg.fif&ldquo;)</code></p>\n<p><code>#The data can be accessed:</code></p>\n<p><code>meg_data = meg.get_data()</code></p>\n<p>Exemplary code for performing source reconstruction and trf evaluation can be found in our <a href=\"https://github.com/Al2606/MEG-Analysis-Pipeline\" target=\"_blank\" rel=\"noopener\">git repository</a>.</p>\n<p>&nbsp;</p>\n<h2><strong>Audio Data structure</strong></h2>\n<p>The original audio chapters of the audio books are stored in the folder &bdquo;Audio&ldquo; in <a href=\"../records/12793944\">Part 1</a>.</p>\n<p>There are two subfolders. One (attended_speech) contains the ten audiobook chapters which were attended by the participant (audiobook1_#, audiobook3_#). The other subfolder (ignored_speech) contains the ten audiobook chapters which were ignored by the participant (audiobook2_#, audiobook4_#).</p>\n<p>We recommend the <a href=\"https://librosa.org/doc/latest/index.html\" target=\"_blank\" rel=\"noopener\">librosa library</a> for audio loading and processing.</p>\n<p>Audio data is provided with a sampling frequency of 44.1 kHz</p>\n<p>Each audio book is provided in 5 chapters as they were presented to the participants. The corresponding meg file as described above already contains the concatenated measured data of all five chapters.&nbsp;</p>\n<p>If you resample the audio data to 1000Hz and concatenate the chapters, the audio shape (n_times) will be equal to the corresponding n_times of the meg data.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Processing of meg data</strong></h2>\n<p>The meg data was filtered analog with a 1.0 - 200 Hz filter and preprocessed offline using a notch filter (Firwin, 0.5 Hz bandwidth) to remove power line interference at frequencies 50, 100, 150 and 200 Hz.</p>\n<p>The data was then resampled from 1017.25 Hz to 1000 Hz.&nbsp;</p>\n<p>&nbsp;</p>\n<h2><strong>Technical details</strong></h2>\n<p>The meg system with which the data was recorded was a 248 magnetometer system (4D Neuroimaging, San Diego, CA, USA)</p>\n<p>The audio signal was presented through loud speakers outside the magnetic chamber and passed on to the participant via tubes of 2 m length and 2 cm diameter leading to a delay of the acoustic signal of 6 ms. The audio was presented diotically (both the attended and the ignored audio stream were presented in both ears) with a sound pressure level of 67 dB(A).</p>\n<p>The measurement setup was provided by a former study by Schilling et al (<a href=\"https://doi.org/10.1080/23273798.2020.1803375\">https://doi.org/10.1080/23273798.2020.1803375</a>).</p>\n<p>&nbsp;</p>\n<h2><strong>Papers to cite when using this data</strong></h2>\n<ul>\n<li>Riegel et al., \"No Influence of Musical Training on the Cortical Contribution to the Speech-FFR and its Modulation Through Selective Attention\" eneuro in print (<a href=\"https://doi.org/10.1101/2024.07.25.605057\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.07.25.605057</a>).</li>\n<li>Sch&uuml;ller, M&uuml;cke et al. \"Assessing the Impact of Selective Attention on the Cortical Tracking of the Speech Envelope in the Delta and Theta Frequency Bands and How Musical Training Does (Not) Affect it\", under review (<a href=\"https://doi.org/10.1101/2024.08.01.606154\" target=\"_blank\" rel=\"noopener\">https://doi.org/10.1101/2024.08.01.606154</a>).</li>\n<li>Sch&uuml;ller et al., \"Attentional Modulation of the Cortical Contribution to the Frequency-Following Response Evoked by Continuous Speech&ldquo; (<a href=\"https://doi.org/10.1523/JNEUROSCI.1247-23.2023\">https://doi.org/10.1523/JNEUROSCI.1247-23.2023</a>).</li>\n</ul>",
+    "doi": "10.5281/zenodo.12794808",
+    "doi_url": "https://doi.org/10.5281/zenodo.12794808",
+    "file_count": 2,
+    "files": [
+      {
+        "checksum": "md5:2d312b39e2ccb7a5c8926c9cb59a2882",
+        "download_url": "https://zenodo.org/api/records/12794808/files/Set3.zip/content",
+        "filename": "Set3.zip",
+        "size_bytes": 40383799758
+      },
+      {
+        "checksum": "md5:54af836cc5567b5be722aa00112af936",
+        "download_url": "https://zenodo.org/api/records/12794808/files/Participants_Overview.pdf/content",
+        "filename": "Participants_Overview.pdf",
+        "size_bytes": 82026
+      }
+    ],
+    "keywords": [],
+    "license": "cc-by-4.0",
+    "modified": "",
+    "publication_date": "2024-07-22",
+    "resource_title": "Dataset",
+    "resource_type": "dataset",
+    "source": "zenodo",
+    "title": "MEG Attention Dataset Using Musicians and Non-Musicians - Part 3",
+    "total_size_mb": 38513.07,
+    "url": "https://zenodo.org/records/12794808"
   },
   {
     "access_right": "open",
