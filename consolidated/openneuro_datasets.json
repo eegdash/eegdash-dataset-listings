@@ -49188,7 +49188,7 @@
       "Joe Bathelt"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds007827.v1.0.0",
+    "dataset_doi": "doi:10.18112/openneuro.ds007827.v1.0.1",
     "dataset_id": "ds007827",
     "datatypes": "eeg",
     "demographics": {
@@ -49302,7 +49302,7 @@
       "beh"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds007827/versions/1.0.0"
+      "source_url": "https://openneuro.org/datasets/ds007827/versions/1.0.1"
     },
     "funding": [],
     "license": "CC0",
@@ -49311,7 +49311,7 @@
     "recording_modality": "eeg",
     "senior_author": "Marte Otten",
     "sessions": [],
-    "size_bytes": 71681602256,
+    "size_bytes": 71681602327,
     "source": "openneuro",
     "tasks": [
       "ImageRatings",
@@ -49319,7 +49319,7 @@
     ],
     "timestamps": {
       "dataset_created_at": "2026-05-22T12:12:02.303Z",
-      "dataset_modified_at": "2026-05-22T14:04:58.000Z"
+      "dataset_modified_at": "2026-06-23T10:46:43.000Z"
     },
     "total_files": 502
   },
@@ -49779,6 +49779,103 @@
       "dataset_modified_at": "2026-06-15T17:03:56.000Z"
     },
     "total_files": 290
+  },
+  {
+    "associated_paper_doi": "",
+    "authors": [
+      "Lydia Arana",
+      "Enrique Stern",
+      "Almudena Capilla"
+    ],
+    "bids_version": "1.8.0",
+    "contact_info": [
+      "Lydia Arana"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds007987.v1.0.0",
+    "dataset_id": "ds007987",
+    "datatypes": "eeg",
+    "demographics": {
+      "age_max": 30,
+      "age_min": 18,
+      "ages": [
+        26,
+        27,
+        29,
+        19,
+        21,
+        21,
+        19,
+        18,
+        18,
+        18,
+        20,
+        18,
+        18,
+        20,
+        19,
+        19,
+        19,
+        18,
+        18,
+        18,
+        19,
+        18,
+        19,
+        18,
+        19,
+        19,
+        27,
+        18,
+        18,
+        18,
+        19,
+        18,
+        19,
+        19,
+        19,
+        30,
+        19,
+        18,
+        20,
+        18,
+        21,
+        19,
+        28
+      ],
+      "species": "Human",
+      "subjects_count": 43
+    },
+    "experimental_modalities": [
+      "eeg"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds007987/versions/1.0.0"
+    },
+    "funding": [
+      "Ministerio de Ciencia, Innovación y Universidades / Agencia Estatal de Investigación, Spain / FEDER/FSE+, UE and Comunidad de Madrid: MCIU/AEI/10.13039/501100011033 /FEDER/FSE+, UE; PID2024-161032NB-I00  //  IND2022/SOC-23652  "
+    ],
+    "license": "CC0",
+    "name": "Raw resting-state EEG dataset with alternating eyes-open and eyes-closed recordings in healthy adults",
+    "readme": "This dataset contains raw EEG recordings in resting state from healthy participants with no current psychiatric or neurological diagnosis, recorded at the Universidad Autónoma de Madrid, inside a Faraday cage. \n\nNo preprocessing was applied prior to data sharing, only conversion to bids from .bdf format (.bdf files are also available upon request). \n\n\n- Dataset organization:\n\nAll EEG recordings were acquired during a single recording session lasting approximately 20 minutes. Participants completed four consecutive 5-minute runs: two eyes-open (EO) runs and two eyes-closed (EC) runs. Conditions alternated throughout the session, and participants were randomly assigned to one of two acquisition sequences: EO run-1 → EC run-1 → EO run-2 → EC run-2, or EC run-1 → EO run-1 → EC run-2 → EO run-2.\n\nIn the BIDS structure, recordings are organized into two session folders for each participant: \"ses-OA\" (Ojos Abiertos: eyes open) and \"ses-OC\" (Ojos Cerrados: eyes closed). These session labels are used only to separate recording conditions and do not indicate different visits or recording days.\n\nExample:\n\nsub-05/\n├── ses-OA/\n│ └── eeg/\n│   ├── ...run-1...\n│   └── ...run-2...\n└── ses-OC/\n  └── eeg/\n    ├── ...run-1...\n    └── ...run-2...\n\nNote that file names also use Spanish abbreviations: OA = Ojos Abiertos (eyes open) and OC = Ojos Cerrados (eyes closed).\n\n- Recording system: \n\nBiosemi ActiveTwo 128 channels.\n1024 Hz sampling rate (except for subj 19, 20, 31, 33, 37, 38, 39, 40, 41, 42, 47 with 2048 Hz).\n\nNote that the power line frequency in Spain is 50 Hz (and harmonics).\n\nDim light (120-150 lux). \n\nParticipants were instructed to sit still and avoid muscle tension.\n\nBlack fixation point over white wall for OA condition. \n\n",
+    "recording_modality": "eeg",
+    "senior_author": "Almudena Capilla",
+    "sessions": [
+      "OC",
+      "OA"
+    ],
+    "size_bytes": 40969902602,
+    "source": "openneuro",
+    "study_design": "Within-subject repeated-measures design (EO and EO, two runs each)",
+    "study_domain": "Resting state EEG",
+    "tasks": [
+      "resting"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2026-06-18T12:29:00.555Z",
+      "dataset_modified_at": "2026-06-23T09:40:55.000Z"
+    },
+    "total_files": 1423
   },
   {
     "associated_paper_doi": "",
