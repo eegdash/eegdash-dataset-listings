@@ -26179,7 +26179,7 @@
       "Hiroki Nariai"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds005398.v1.1.1",
+    "dataset_doi": "doi:10.18112/openneuro.ds005398.v1.1.3",
     "dataset_id": "ds005398",
     "datatypes": "ieeg",
     "demographics": {
@@ -26379,18 +26379,18 @@
       "ieeg"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds005398/versions/1.1.1"
+      "source_url": "https://openneuro.org/datasets/ds005398/versions/1.1.3"
     },
     "funding": [],
     "license": "CC0",
     "name": "Open iEEG Dataset (Pediatric iEEG, Wayne State University and UCLA)",
-    "readme": "This dataset was utilized for the publication of the manuscript by Zhang et al. [1]. A subset of the data has been employed in [2], [3], and [4].\n\nSummary:\nThis data set comprises the de-identified subjects with interictal iEEG recordings with sleep from University of California Los Angels Mattel Children’s Hospital, and Children’s Hospital of Michigan, Detroit. \nSubject-wise information is contained in each folder, including iEEGs collected from 185 subjects during sleep. The channel name and valuables, such as the anatomical label and the resection status, are attached to each folder. The outcome and background information of all the subjects are summarized in ‘paticipant.tsv’ located in the parental directory.\n\nDerivatives\nThe processed data for HFO detection and classification are shown in the derivatives/folder. The HFO analysis contains detection from two methods: RMS and MNI detectors.\n\nReferences: \n\n[1] Zhang Y, Daida A, Liu L, Kuroda N, Ding Y, Oana S, Kanai S, Monsoor T, Duan C, Hussain SA, Qiao JX, Salamon N, Fallah A, Sim MS, Sankar R, Staba RJ, Engel J Jr, Asano E, Roychowdhury V, Nariai H. Self-supervised data-driven approach defines pathological high-frequency oscillations in epilepsy. Epilepsia. 2025 Nov;66(11):4434-4450. doi: 10.1111/epi.18545.\n\n[2] Monsoor T, Kanai S, Daida A, Kuroda N, Sinha P, Oana S, Zhang Y, Liu L, Singh G, Duan C, Sim MS, Fallah A, Speier W, Asano E, Roychowdhury V, Nariai H. Mini-Seizures: Novel Interictal iEEG Biomarker Capturing Synchronization Network Dynamics at the Epileptogenic Zone. medRxiv. 2025 Feb 2:2025.01.31.25321482. doi: 10.1101/2025.01.31.25321482.\n\n[3] Zhang Y, Lu Q, Monsoor T, Hussain SA, Qiao JX, Salamon N, Fallah A, Sim MS, Asano E, Sankar R, Staba RJ, Engel J Jr, Speier W, Roychowdhury V, Nariai H. Refining epileptogenic high-frequency oscillations using deep learning: a reverse engineering approach. Brain Commun. 2021 Nov 3;4(1):fcab267. doi: 10.1093/braincomms/fcab267. \n\n[4] Kuroda N, Sonoda M, Miyakoshi M, Nariai H, Jeong JW, Motoi H, Luat AF, Sood S, Asano E. Objective interictal electrophysiology biomarkers optimize prediction of epilepsy surgery outcome. Brain Commun. 2021 Mar 14;3(2):fcab042. doi: 10.1093/braincomms/fcab042.",
+    "readme": "This dataset was utilized for the publication of the manuscript by Zhang et al. [1]. A subset of the data has been employed in [2], [3], [4], and [5].\n\nSummary:\nThis data set comprises the de-identified subjects with interictal iEEG recordings with sleep from University of California Los Angels Mattel Children’s Hospital, and Children’s Hospital of Michigan, Detroit. \nSubject-wise information is contained in each folder, including iEEGs collected from 185 subjects during sleep. The channel name and valuables, such as the anatomical label and the resection status, are attached to each folder. The outcome and background information of all the subjects are summarized in ‘paticipant.tsv’ located in the parental directory.\n\nDerivatives\nThe processed data for HFO detection and classification are shown in the derivatives/folder. The HFO analysis contains detection from two methods: RMS and MNI detectors. The bipolar iEEG data used for [5] is also uploaded, and the credit for creating such dataset is given to the authors of the manuscript. \n\nReferences: \n\n[1] Zhang Y, Daida A, Liu L, Kuroda N, Ding Y, Oana S, Kanai S, Monsoor T, Duan C, Hussain SA, Qiao JX, Salamon N, Fallah A, Sim MS, Sankar R, Staba RJ, Engel J Jr, Asano E, Roychowdhury V, Nariai H. Self-supervised data-driven approach defines pathological high-frequency oscillations in epilepsy. Epilepsia. 2025 Nov;66(11):4434-4450. doi: 10.1111/epi.18545.\n\n[2] Monsoor T, Kanai S, Daida A, Kuroda N, Sinha P, Oana S, Zhang Y, Liu L, Singh G, Duan C, Sim MS, Fallah A, Speier W, Asano E, Roychowdhury V, Nariai H. Mini-Seizures: Novel Interictal iEEG Biomarker Capturing Synchronization Network Dynamics at the Epileptogenic Zone. medRxiv. 2025 Feb 2:2025.01.31.25321482. doi: 10.1101/2025.01.31.25321482.\n\n[3] Zhang Y, Lu Q, Monsoor T, Hussain SA, Qiao JX, Salamon N, Fallah A, Sim MS, Asano E, Sankar R, Staba RJ, Engel J Jr, Speier W, Roychowdhury V, Nariai H. Refining epileptogenic high-frequency oscillations using deep learning: a reverse engineering approach. Brain Commun. 2021 Nov 3;4(1):fcab267. doi: 10.1093/braincomms/fcab267. \n\n[4] Kuroda N, Sonoda M, Miyakoshi M, Nariai H, Jeong JW, Motoi H, Luat AF, Sood S, Asano E. Objective interictal electrophysiology biomarkers optimize prediction of epilepsy surgery outcome. Brain Commun. 2021 Mar 14;3(2):fcab042. doi: 10.1093/braincomms/fcab042.\n\n[5]  Blanca Romero Milà, Nathan Phi Hoang, Marco Pinto-Orellana, Atsuro Daida, Sotaro Kanai, Naoto Kuroda, Shaun A. Hussain, Daniel W. Shrey, Eishi Asano, Hiroki Nariai, Beth A. Lopour. Discovering Novel intracranial EEG Biomarkers of Seizure Generating Tissue through Time-Frequency Analysis. medRxiv. doi: https://doi.org/10.64898/2026.06.12.26355482. Posted June 22, 2026.",
     "recording_modality": "ieeg",
     "senior_author": "Hiroki Nariai",
     "sessions": [
       "01"
     ],
-    "size_bytes": 109729579196,
+    "size_bytes": 109729585717,
     "source": "openneuro",
     "study_design": "",
     "study_domain": "",
@@ -26399,9 +26399,9 @@
     ],
     "timestamps": {
       "dataset_created_at": "2024-08-04T16:43:46.618Z",
-      "dataset_modified_at": "2026-03-24T17:01:03.000Z"
+      "dataset_modified_at": "2026-06-25T22:39:15.000Z"
     },
-    "total_files": 1300
+    "total_files": 1301
   },
   {
     "associated_paper_doi": "",
@@ -45563,19 +45563,18 @@
   {
     "associated_paper_doi": "10.1117/1.NPh.10.2.025007",
     "authors": [
-      "Gao, Yuanyuan",
-      "Rogers, De’Ja",
-      "von Lühmann, Alexander",
-      "Ortega-Martinez, Antonio",
-      "Boas, David",
-      "Yücel, Meryem"
+      "Shibo Zhou",
+      "De’Ja Rogers",
+      "David A. Boas",
+      "Meryem A. Yücel",
+      "Yuanyuan Gao"
     ],
     "bids_version": "1.7.1",
     "contact_info": [
       "Shibo Zhou"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds007420.v1.0.2",
+    "dataset_doi": "doi:10.18112/openneuro.ds007420.v1.0.4",
     "dataset_id": "ds007420",
     "datatypes": "nirs",
     "demographics": {
@@ -45587,22 +45586,22 @@
       "nirs"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds007420/versions/1.0.2"
+      "source_url": "https://openneuro.org/datasets/ds007420/versions/1.0.4"
     },
     "funding": [
       "NIH BRAIN Initiative (Grant No. 1U01EB029856-01)",
       "NIH BRAIN Initiative: 1U01EB029856-01"
     ],
     "license": "CC0",
-    "name": "A Light Weight Multi-Distance fNIRS Dataset for Ball-Squeezing Task and Purposeful Motion Artifact Creation Task",
+    "name": "Open-access Multi-Distance fNIRS Dataset Generated During Ball-Squeezing and Motion-Artifact Induction Tasks",
     "recording_modality": "nirs",
-    "senior_author": "Yücel, Meryem",
+    "senior_author": "Yuanyuan Gao",
     "sessions": [
       "02",
       "03",
       "01"
     ],
-    "size_bytes": 587945590,
+    "size_bytes": 587945873,
     "source": "openneuro",
     "study_design": "Event-related design",
     "study_domain": " multi-distance fNIRS, DOT, ball squeezing, resting, motion artifact generation",
@@ -45614,7 +45613,7 @@
     ],
     "timestamps": {
       "dataset_created_at": "2026-02-14T18:09:31.926Z",
-      "dataset_modified_at": "2026-03-26T14:39:52.000Z"
+      "dataset_modified_at": "2026-06-25T17:45:09.000Z"
     },
     "total_files": 460
   },
@@ -49991,5 +49990,59 @@
       "dataset_modified_at": "2026-06-18T16:57:35.000Z"
     },
     "total_files": 383
+  },
+  {
+    "associated_paper_doi": "https://doi.org/10.1038/s41467-026-74824-0",
+    "authors": [
+      "Coumarane Tirou",
+      "Oussame Abdoun",
+      "Teodóra Vékony",
+      "Laure Tosatto",
+      "Andrea Brovelli",
+      "Marine Vernet",
+      "Dezső Németh",
+      "Romain Quentin"
+    ],
+    "bids_version": "1.7.0",
+    "contact_info": [
+      "Anonymous User"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds008017.v1.0.0",
+    "dataset_id": "ds008017",
+    "datatypes": "meg",
+    "demographics": {
+      "ages": [],
+      "species": "Human",
+      "subjects_count": 15
+    },
+    "experimental_modalities": [
+      "meg",
+      "mri",
+      "beh"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds008017/versions/1.0.0"
+    },
+    "funding": [],
+    "license": "CC0",
+    "name": "Learning regularities in noise (ASRT MEG)",
+    "readme": "Summary\n----------\nThis dataset contains magnetoencephalography (MEG) recordings collected while participants performed the cued Alternating Serial Reaction Time task, a visuo-motor task during which arrows are displayed and they must respond with response keys.\n\n------------------------------------------------------------------------\n\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\n\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110.https://doi.org/10.1038/sdata.2018.110\n\n",
+    "recording_modality": "meg",
+    "senior_author": "Romain Quentin",
+    "sessions": [],
+    "size_bytes": 241678037289,
+    "source": "openneuro",
+    "study_design": "ASRT task – 3 practice blocks + 20 learning blocks ",
+    "study_domain": "Cognitive Neuroscience",
+    "tasks": [
+      "asrt",
+      "practice"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2026-06-23T14:33:11.431Z",
+      "dataset_modified_at": "2026-06-25T14:03:40.000Z"
+    },
+    "total_files": 759
   }
 ]
