@@ -327,48 +327,8 @@
       "Haiyan Wu",
       "Quanying Liu"
     ],
-    "dataset_doi": "10.57760/sciencedb.20611",
-    "dataset_id": "Chen_2",
-    "datatypes": "eeg",
-    "demographics": {
-      "ages": [],
-      "subjects_count": 0
-    },
-    "description": "Now-existing Electroencephalography (EEG) datasets&nbsp;are mainly based on English, which encounters difficulty when representing Chinese. While there have been EEG datasets related to linguistic stimuli, the existing resources are limited, and many faces the problem of teacher-forcing. In our future studies, we plan to promote a unified encoder of multi-modalities for semantic decoding, which suggests the need of more data support. To bridge this gap, we introduce ChineseEEG-2, a high-density EEG dataset that extends ChineseEEG containing both reading aloud and auditory listening tasks. As a unique multimodal EEG dataset featuring synchronized reading and listening tasks based on the same corpus, ChineseEEG-2 dataset enables the exploration of how the brain processes language across both visual and auditory modalities in the context of Chinese natural language. It offers valuable insights into multimodal semantic alignment, neural decoding, and the alignment between large language mo",
-    "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=6916026c662fc239fea3b88d"
-    },
-    "funding": [],
-    "identifiers": {
-      "doi": "10.57760/sciencedb.20611"
-    },
-    "license": "CC0",
-    "name": "ChineseEEG-2:An EEG Dataset for Multimodal Semantic Alignment and Neural Decoding during Reading and Listening",
-    "recording_modality": "eeg",
-    "scidb_dataset_id": "bd666609b2464a42a0503f1eb96524cc",
-    "scidb_id": "6916026c662fc239fea3b88d",
-    "scidb_version": "V2",
-    "sessions": [],
-    "source": "scidb",
-    "tasks": [],
-    "timestamps": {}
-  },
-  {
-    "authors": [
-      "Sitong Chen",
-      "Beiqianyi Li",
-      "Cuilin He",
-      "Dongyang Li",
-      "Mingyang Wu",
-      "Xinke Shen",
-      "Song Wang",
-      "Xuetao Wei",
-      "Xindi Wang",
-      "Haiyan Wu",
-      "Quanying Liu"
-    ],
     "dataset_doi": "10.57760/sciencedb.CHNNeuro.00001",
-    "dataset_id": "Chen_3",
+    "dataset_id": "Chen_2",
     "datatypes": "eeg",
     "demographics": {
       "ages": [],
@@ -388,6 +348,46 @@
     "scidb_dataset_id": "cf79be5a415c488b9ebbee97e77a2f16",
     "scidb_id": "693ad3a68e3cab4ed9f9dbd5",
     "scidb_version": "V4",
+    "sessions": [],
+    "source": "scidb",
+    "tasks": [],
+    "timestamps": {}
+  },
+  {
+    "authors": [
+      "Sitong Chen",
+      "Beiqianyi Li",
+      "Cuilin He",
+      "Dongyang Li",
+      "Mingyang Wu",
+      "Xinke Shen",
+      "Song Wang",
+      "Xuetao Wei",
+      "Xindi Wang",
+      "Haiyan Wu",
+      "Quanying Liu"
+    ],
+    "dataset_doi": "10.57760/sciencedb.20611",
+    "dataset_id": "Chen_3",
+    "datatypes": "eeg",
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Now-existing Electroencephalography (EEG) datasets&nbsp;are mainly based on English, which encounters difficulty when representing Chinese. While there have been EEG datasets related to linguistic stimuli, the existing resources are limited, and many faces the problem of teacher-forcing. In our future studies, we plan to promote a unified encoder of multi-modalities for semantic decoding, which suggests the need of more data support. To bridge this gap, we introduce ChineseEEG-2, a high-density EEG dataset that extends ChineseEEG containing both reading aloud and auditory listening tasks. As a unique multimodal EEG dataset featuring synchronized reading and listening tasks based on the same corpus, ChineseEEG-2 dataset enables the exploration of how the brain processes language across both visual and auditory modalities in the context of Chinese natural language. It offers valuable insights into multimodal semantic alignment, neural decoding, and the alignment between large language mo",
+    "external_links": {
+      "source_url": "https://www.scidb.cn/en/detail?id=6916026c662fc239fea3b88d"
+    },
+    "funding": [],
+    "identifiers": {
+      "doi": "10.57760/sciencedb.20611"
+    },
+    "license": "CC0",
+    "name": "ChineseEEG-2:An EEG Dataset for Multimodal Semantic Alignment and Neural Decoding during Reading and Listening",
+    "recording_modality": "eeg",
+    "scidb_dataset_id": "bd666609b2464a42a0503f1eb96524cc",
+    "scidb_id": "6916026c662fc239fea3b88d",
+    "scidb_version": "V2",
     "sessions": [],
     "source": "scidb",
     "tasks": [],
@@ -2053,22 +2053,22 @@
     "datatypes": "spike",
     "demographics": {
       "ages": [],
-      "subjects_count": 116
+      "subjects_count": 40
     },
-    "description": "This dataset provides comprehensive brain-wide single-unit spiking and behavioral data, capturing neural activity from 40 head-fixed mice performing an olfactory delayed paired-association task. The dataset is specifically designed to facilitate the study of working memory-specific activation and spontaneous memory reactivation. A comprehensive data descriptor article is uploaded alongside these data files; viewers are highly encouraged to refer to this accompanying document for further in-depth methodological details, extended analysis parameters, and visual references.Scientific ValueThis dataset provides extensive brain-wide coverage, encompassing 33,028 single units across 62 brain regions, with 34 regions each containing more than 100 neurons. Its distinctive contribution lies in systematically documenting both task-related activity motifs and their spontaneous hierarchical replay during inter-trial intervals — a dimension that has remained largely inaccessible in prior working me",
+    "description": "OverviewThis dataset provides brain-wide single-unit spiking and behavioral data from 40 head-fixed male C57BL/6J mice performing an olfactory delayed paired-association working memory task. The main data release contains 116 session-level NWB files with curated spike-sorted single units, behavioral trial information, unit quality-control metrics, anatomical annotations, and precomputed task-aligned firing-rate matrices. Raw voltage traces are not included.The dataset supports analyses of task-related neural activity, spike timing, cross-region functional coupling, anatomical distribution of recorded units, and potential reactivation-related activity during inter-trial intervals.Dataset ContentsThe main release includes:Spike times for curated spike-sorted single unitsBehavioral trial tables with task events, cue identities, delay durations, lick responses, correctness labels, and well-trained-window indicatorsUnit-level quality-control metricsAnatomical annotations based on Allen Mous",
     "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=69d3100bf99e221a65bd0d24"
+      "source_url": "https://www.scidb.cn/en/detail?id=6a37920d9a0ef638b83bd034"
     },
     "funding": [],
     "identifiers": {
       "doi": "10.57760/sciencedb.nb.00013"
     },
     "license": "CC BY-NC 4.0",
-    "name": "A Brain-wide Neuronal Spiking and Behavior Dataset for Working Memory-Specific Activation and Reactivation in Mice",
+    "name": "A Brain-wide Neuronal Spiking and Behavioral Dataset for Working Memory-Specific Activation and Reactivation in Mice",
     "recording_modality": "spike",
     "scidb_dataset_id": "b908adb126d84d5e8369135cecd56f82",
-    "scidb_id": "69d3100bf99e221a65bd0d24",
-    "scidb_version": "V1",
+    "scidb_id": "6a37920d9a0ef638b83bd034",
+    "scidb_version": "V2",
     "sessions": [],
     "source": "scidb",
     "tasks": [],
@@ -2451,10 +2451,46 @@
   },
   {
     "authors": [
+      "Haoran Jiang",
+      "Xiuyan Guo",
+      "Yang Lu",
+      "Shaobo Xu",
+      "Guanglong Liu",
+      "Xianting Shen",
+      "Xue Weng"
+    ],
+    "dataset_doi": "10.57760/sciencedb.39982",
+    "dataset_id": "Jiang",
+    "datatypes": "meg",
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "This dataset contains processed neural data from two EEG experiments and one MEG experiment investigating how compressed neural representations underpin knowledge awareness in sequence learning. The dataset includes preprocessed electrophysiological and neurophysiological data from EEG Experiments 1 and 2, as well as the MEG experiment. Subject identifiers have been anonymized.The data are organized by experiment and include processed neural data used to support the analyses reported in the associated study.",
+    "external_links": {
+      "source_url": "https://www.scidb.cn/en/detail?id=6a2d50eb8d33a3355a30f908"
+    },
+    "funding": [],
+    "identifiers": {
+      "doi": "10.57760/sciencedb.39982"
+    },
+    "license": "CC BY-NC-ND 4.0",
+    "name": "Processed EEG and MEG neural data from three sequence-learning experiments on compressed representations and knowledge awareness",
+    "recording_modality": "meg",
+    "scidb_dataset_id": "582ef2e675a44cce9080e4372d1e7f4f",
+    "scidb_id": "6a2d50eb8d33a3355a30f908",
+    "scidb_version": "V1",
+    "sessions": [],
+    "source": "scidb",
+    "tasks": [],
+    "timestamps": {}
+  },
+  {
+    "authors": [
       "Lang Jiang"
     ],
     "dataset_doi": "10.57760/sciencedb.03495",
-    "dataset_id": "Jiang",
+    "dataset_id": "Jiang_2",
     "datatypes": "spike",
     "demographics": {
       "ages": [],
@@ -2484,7 +2520,7 @@
       "Lang Jiang"
     ],
     "dataset_doi": "10.57760/sciencedb.03513",
-    "dataset_id": "Jiang_2",
+    "dataset_id": "Jiang_3",
     "datatypes": "mea",
     "demographics": {
       "ages": [],
@@ -3756,6 +3792,36 @@
   },
   {
     "authors": [
+      "Man Menghua"
+    ],
+    "dataset_doi": "10.57760/sciencedb.40499",
+    "dataset_id": "Menghua",
+    "datatypes": "lfp",
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Three subjects participated in the experiments, and all of them wore athletic shoes with rubber/EVA composite soles. In each trial, one subject randomly selected a starting position within the test field and moved in either the slow walking mode or the fast running mode. Each motion mode was repeated six times for each subject, resulting in 36 raw signal groups in total. The signal groups are denoted as  &nbsp;or  , where i denotes the subject index and j denotes the trial index under the walking or running mode, respectively. Each signal group contains five synchronously acquired channels, including four output signals from the noncontact electrostatic sensors and one output signal from the contact measurement reference channel.Three subjects participated in the experiments, and all of them wore athletic shoes with rubber/EVA composite soles. In each trial, one subject randomly selected a starting position within the test field and moved in either the slow walking mode or the fast run",
+    "external_links": {
+      "source_url": "https://www.scidb.cn/en/detail?id=6a33564f74b9114066f50585"
+    },
+    "funding": [],
+    "identifiers": {
+      "doi": "10.57760/sciencedb.40499"
+    },
+    "license": "CC BY-NC-SA 4.0",
+    "name": "Movement human body electrostatic potential dataset",
+    "recording_modality": "lfp",
+    "scidb_dataset_id": "448b7c9c53fd47b3ad363b3384a12709",
+    "scidb_id": "6a33564f74b9114066f50585",
+    "scidb_version": "V1",
+    "sessions": [],
+    "source": "scidb",
+    "tasks": [],
+    "timestamps": {}
+  },
+  {
+    "authors": [
       "zhang jin ming",
       "Ni Fafu",
       "Wu Junxia"
@@ -4004,38 +4070,6 @@
     "recording_modality": "bids",
     "scidb_dataset_id": "cfebd625e5e24c1a8ac5d9264bd5972c",
     "scidb_id": "6a18902373ca1134694f4ed1",
-    "scidb_version": "V1",
-    "sessions": [],
-    "source": "scidb",
-    "tasks": [],
-    "timestamps": {}
-  },
-  {
-    "authors": [
-      "Hao Pan",
-      "Xiaochen Li",
-      "Mingjie Zheng"
-    ],
-    "dataset_doi": "10.57760/sciencedb.39107",
-    "dataset_id": "Pan",
-    "datatypes": "spike",
-    "demographics": {
-      "ages": [],
-      "subjects_count": 0
-    },
-    "description": "The file MPEA-Tensile-Dataset.csv is the data file.Tensile data are collected from publications, where a DOI link is provided for acessibility.The columns include alloy name, content (in atomic fraction, at.%), phase, tensile properties (utlimate tensile strength/MPa, yield strength/MPa, and total elongation/%).",
-    "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=6a229f8cd9d9433d01e29695"
-    },
-    "funding": [],
-    "identifiers": {
-      "doi": "10.57760/sciencedb.39107"
-    },
-    "license": "CC BY 4.0",
-    "name": "Tensile Properties for Multi-Principal Element Alloys",
-    "recording_modality": "spike",
-    "scidb_dataset_id": "2e69b2140e6f4b04b26972ed9a6fd6cf",
-    "scidb_id": "6a229f8cd9d9433d01e29695",
     "scidb_version": "V1",
     "sessions": [],
     "source": "scidb",
@@ -4405,36 +4439,6 @@
     "scidb_dataset_id": "4513959349a54d3682861174a2d3f085",
     "scidb_id": "68b560f30baa9602c9b694c0",
     "scidb_version": "V5",
-    "sessions": [],
-    "source": "scidb",
-    "tasks": [],
-    "timestamps": {}
-  },
-  {
-    "authors": [
-      "robin shen"
-    ],
-    "dataset_doi": "10.57760/sciencedb.o00130.00001",
-    "dataset_id": "Shen_2",
-    "datatypes": "lfp",
-    "demographics": {
-      "ages": [],
-      "subjects_count": 0
-    },
-    "description": "The researcher tests the QA capability of ChatGPT in the medical field from the following aspects:1. Test their reserve capacity for medical knowledge2. Check their ability to read literature and understand medical literature3. Test their ability of auxiliary diagnosis after reading case data4. Test its error correction ability for case data5. Test its ability to standardize medical terms6. Test their evaluation ability to experts7. Check their ability to evaluate medical institutionsThe conclusion is:ChatGPT has great potential in the application of medical and health care, and may directly replace human beings or even professionals at a certain level in some fields;The researcher preliminarily believe that ChatGPT has basic medical knowledge and the ability of multiple rounds of dialogue, and its ability to understand Chinese is not weak;ChatGPT has the ability to read, understand and correct cases;ChatGPT has the ability of information extraction and terminology standardization, and",
-    "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=6401b44d939386762d5a5bb0"
-    },
-    "funding": [],
-    "identifiers": {
-      "doi": "10.57760/sciencedb.o00130.00001"
-    },
-    "license": "CC BY 4.0",
-    "name": "Test dataset of ChatGPT in medical field",
-    "recording_modality": "lfp",
-    "scidb_dataset_id": "3f00137a8b5241ae8fcb7caa424c6ad6",
-    "scidb_id": "6401b44d939386762d5a5bb0",
-    "scidb_version": "V1",
     "sessions": [],
     "source": "scidb",
     "tasks": [],
@@ -6022,11 +6026,50 @@
   },
   {
     "authors": [
+      "Xin Xu",
+      "Xinke Shen",
+      "Xuyang Chen",
+      "Qingzhu Zhang",
+      "Sitian Wang",
+      "Yihan Li",
+      "Zongsheng Li",
+      "Dan Zhang",
+      "Mingming Zhang",
+      "Quanying Liu"
+    ],
+    "dataset_doi": "10.57760/sciencedb.14025",
+    "dataset_id": "Xin",
+    "datatypes": "eeg",
+    "demographics": {
+      "ages": [],
+      "subjects_count": 60
+    },
+    "description": "We present the Multi-Context Emotional EEG (EmoEEG-MC) dataset, featuring 64-channel EEG and peripheral physiological data from 60 participants exposed to two distinct contexts: video-induced and imagery-induced emotions. These contexts evoke seven distinct emotional categories: joy, inspiration, tenderness, fear, disgust, sadness, and neutral emotion. The emotional experience of a specific emotion category was validated through subjective reports. The EmoEEG-MC dataset serves as a foundational resource for advancing cross-context emotion recognition and enhancing the real-world application of emotion decoding methods.",
+    "external_links": {
+      "source_url": "https://www.scidb.cn/en/detail?id=692d4686dffd317ed0d26dbb"
+    },
+    "funding": [],
+    "identifiers": {
+      "doi": "10.57760/sciencedb.14025"
+    },
+    "license": "CC0",
+    "name": "EmoEEG-MC: A Multi-Context Emotional EEG Dataset for Cross-Context Emotion Decoding",
+    "recording_modality": "eeg",
+    "scidb_dataset_id": "9b182864c9604255a0433d1edae88f0b",
+    "scidb_id": "692d4686dffd317ed0d26dbb",
+    "scidb_version": "V6",
+    "sessions": [],
+    "source": "scidb",
+    "tasks": [],
+    "timestamps": {}
+  },
+  {
+    "authors": [
       "qing xin",
       "SuHao"
     ],
     "dataset_doi": "10.57760/sciencedb.25915",
-    "dataset_id": "Xin",
+    "dataset_id": "Xin_2",
     "datatypes": "eeg",
     "demographics": {
       "ages": [],
@@ -6057,7 +6100,7 @@
       "Lunche Wang"
     ],
     "dataset_doi": "10.57760/sciencedb.24000",
-    "dataset_id": "Xin_2",
+    "dataset_id": "Xin_3",
     "datatypes": "meg",
     "demographics": {
       "ages": [],
@@ -6087,7 +6130,7 @@
       "Su Xin"
     ],
     "dataset_doi": "10.57760/sciencedb.25524",
-    "dataset_id": "Xin_3",
+    "dataset_id": "Xin_4",
     "datatypes": "meg",
     "demographics": {
       "ages": [],
@@ -6118,7 +6161,7 @@
       "Lunche Wang"
     ],
     "dataset_doi": "10.57760/sciencedb.34990",
-    "dataset_id": "Xin_4",
+    "dataset_id": "Xin_5",
     "datatypes": "emg",
     "demographics": {
       "ages": [],
@@ -7303,36 +7346,6 @@
   },
   {
     "authors": [
-      "Sun Yishan"
-    ],
-    "dataset_doi": "10.57760/sciencedb.j00139.00182",
-    "dataset_id": "Yishan",
-    "datatypes": "spike",
-    "demographics": {
-      "ages": [],
-      "subjects_count": 0
-    },
-    "description": "收集来自成年麝鼠的新鲜肌肉组织样本并进行高通量测序以进行基因组组装。使用 DNA 纯化试剂盒 （Qiagen， China） 从样品中提取基因组 DNA，并在 Illumina HiSeq2000 和 Oxford Nanopore GridIOn 平台 （ONT） 上进行测序，分别生成 300 Gb 和 120 Gb 的数据。对于 Hi-C 测序文库构建，从 Illumina HiSeq X Ten 平台获得了 300 Gb 的数据。麝鼠组装跨越 27 条染色体，跨度为 2.43 Gb，其中 99.68% 的重叠群锚定在染色体上。",
-    "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=67d266180c3f76cd744c9ee6"
-    },
-    "funding": [],
-    "identifiers": {
-      "doi": "10.57760/sciencedb.j00139.00182"
-    },
-    "license": "CC BY-NC-ND 4.0",
-    "name": "Multi omics sequencing of Moschus berezovskii and Ondatra zibethicus",
-    "recording_modality": "spike",
-    "scidb_dataset_id": "d2fc37a8772642349a5838c5427f2494",
-    "scidb_id": "67d266180c3f76cd744c9ee6",
-    "scidb_version": "V1",
-    "sessions": [],
-    "source": "scidb",
-    "tasks": [],
-    "timestamps": {}
-  },
-  {
-    "authors": [
       "Zhang Yong"
     ],
     "dataset_doi": "10.57760/sciencedb.35911",
@@ -7596,36 +7609,6 @@
   },
   {
     "authors": [
-      "chen qing yue"
-    ],
-    "dataset_doi": "10.57760/sciencedb.space.00505",
-    "dataset_id": "Yue_2",
-    "datatypes": "mea",
-    "demographics": {
-      "ages": [],
-      "subjects_count": 0
-    },
-    "description": "The data set is the input and output data of the active phased array antenna in different communication scenarios. The different communication scenarios mainly consider the average input power and antenna steering angle. The data are used in order to validate the proposed transfer learning assisted phased array linearization.",
-    "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=63ffc5bd8356c27854fe4d43"
-    },
-    "funding": [],
-    "identifiers": {
-      "doi": "10.57760/sciencedb.space.00505"
-    },
-    "license": "CC0",
-    "name": "Input and output data of active phased arrays in different communication scenarios",
-    "recording_modality": "mea",
-    "scidb_dataset_id": "128bffb7c1a946e5952525b9a7d92a23",
-    "scidb_id": "63ffc5bd8356c27854fe4d43",
-    "scidb_version": "V1",
-    "sessions": [],
-    "source": "scidb",
-    "tasks": [],
-    "timestamps": {}
-  },
-  {
-    "authors": [
       "li yue",
       "Changchang Xing",
       "Shichuan Zhong",
@@ -7636,7 +7619,7 @@
       "Weiping Ca"
     ],
     "dataset_doi": "10.57760/sciencedb.04052",
-    "dataset_id": "Yue_3",
+    "dataset_id": "Yue_2",
     "datatypes": "mea",
     "demographics": {
       "ages": [],
@@ -7655,6 +7638,36 @@
     "recording_modality": "mea",
     "scidb_dataset_id": "250f54449d6f4da8bf798f11da41858c",
     "scidb_id": "634e02a21eb2ba6997fb4c54",
+    "scidb_version": "V1",
+    "sessions": [],
+    "source": "scidb",
+    "tasks": [],
+    "timestamps": {}
+  },
+  {
+    "authors": [
+      "chen qing yue"
+    ],
+    "dataset_doi": "10.57760/sciencedb.space.00505",
+    "dataset_id": "Yue_3",
+    "datatypes": "mea",
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "The data set is the input and output data of the active phased array antenna in different communication scenarios. The different communication scenarios mainly consider the average input power and antenna steering angle. The data are used in order to validate the proposed transfer learning assisted phased array linearization.",
+    "external_links": {
+      "source_url": "https://www.scidb.cn/en/detail?id=63ffc5bd8356c27854fe4d43"
+    },
+    "funding": [],
+    "identifiers": {
+      "doi": "10.57760/sciencedb.space.00505"
+    },
+    "license": "CC0",
+    "name": "Input and output data of active phased arrays in different communication scenarios",
+    "recording_modality": "mea",
+    "scidb_dataset_id": "128bffb7c1a946e5952525b9a7d92a23",
+    "scidb_id": "63ffc5bd8356c27854fe4d43",
     "scidb_version": "V1",
     "sessions": [],
     "source": "scidb",
@@ -7735,43 +7748,8 @@
       "Hehai Jiang",
       "Meng Cui"
     ],
-    "dataset_doi": "10.57760/sciencedb.13798",
-    "dataset_id": "Yuting",
-    "datatypes": "bids",
-    "demographics": {
-      "ages": [],
-      "subjects_count": 0
-    },
-    "description": "Source data for paper \"Geometric transformation adaptive optics (GTAO) for volumetric deep brain imaging through gradient-index lenses'.",
-    "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=65777d3c2f5f7d06c2721343"
-    },
-    "funding": [],
-    "identifiers": {
-      "doi": "10.57760/sciencedb.13798"
-    },
-    "license": "CC BY 4.0",
-    "name": "Geometric transformation adaptive optics (GTAO) for volumetric deep brain imaging through gradient-index lenses",
-    "recording_modality": "bids",
-    "scidb_dataset_id": "298ea5f212f44854b1ffbfe902458217",
-    "scidb_id": "65777d3c2f5f7d06c2721343",
-    "scidb_version": "V2",
-    "sessions": [],
-    "source": "scidb",
-    "tasks": [],
-    "timestamps": {}
-  },
-  {
-    "authors": [
-      "Yuting Li",
-      "Zongyue Cheng",
-      "Chenmao Wang",
-      "Jianian Lin",
-      "Hehai Jiang",
-      "Meng Cui"
-    ],
     "dataset_doi": "10.57760/sciencedb.13796",
-    "dataset_id": "Yuting_2",
+    "dataset_id": "Yuting",
     "datatypes": "bids",
     "demographics": {
       "ages": [],
@@ -7791,6 +7769,41 @@
     "scidb_dataset_id": "7cd71a84070b454fa72a959fb4ef18c8",
     "scidb_id": "6567968f77f30263add20e31",
     "scidb_version": "V1",
+    "sessions": [],
+    "source": "scidb",
+    "tasks": [],
+    "timestamps": {}
+  },
+  {
+    "authors": [
+      "Yuting Li",
+      "Zongyue Cheng",
+      "Chenmao Wang",
+      "Jianian Lin",
+      "Hehai Jiang",
+      "Meng Cui"
+    ],
+    "dataset_doi": "10.57760/sciencedb.13798",
+    "dataset_id": "Yuting_2",
+    "datatypes": "bids",
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Source data for paper \"Geometric transformation adaptive optics (GTAO) for volumetric deep brain imaging through gradient-index lenses'.",
+    "external_links": {
+      "source_url": "https://www.scidb.cn/en/detail?id=65777d3c2f5f7d06c2721343"
+    },
+    "funding": [],
+    "identifiers": {
+      "doi": "10.57760/sciencedb.13798"
+    },
+    "license": "CC BY 4.0",
+    "name": "Geometric transformation adaptive optics (GTAO) for volumetric deep brain imaging through gradient-index lenses",
+    "recording_modality": "bids",
+    "scidb_dataset_id": "298ea5f212f44854b1ffbfe902458217",
+    "scidb_id": "65777d3c2f5f7d06c2721343",
+    "scidb_version": "V2",
     "sessions": [],
     "source": "scidb",
     "tasks": [],
@@ -8324,9 +8337,9 @@
       "ages": [],
       "subjects_count": 0
     },
-    "description": "High-density intracranial recordings during naturalistic language processing are critical for advancing models of speech perception. However, open, well-annotated high-density ECoG resources for tonal languages such as Mandarin remain scarce. We present a publicly available high-density ECoG dataset from four participants undergoing awake craniotomy who listened to continuous, sentence-level Mandarin drawn from the Annotated Speech Corpus of Chinese Discourse (ASCCD). Signals were recorded with 128–256-channel subdural grids and synchronized with the audio; high-gamma activity (70–150 Hz) was derived and down-sampled to 400 Hz. The release follows BIDS-iEEG and is distributed as NWB files, with derivatives including word- and syllable-level alignments; Pinyin; lexical tone and stress tiers; prosodic break indices; mel-spectrograms; F0 and formants; and electrode localization on individual anatomy with projections to MNI space. This resource supports fine-grained investigations of lexic",
+    "description": "High-density intracranial recordings during naturalistic language processing are critical for advancing models of speech perception. However, open, well-annotated high-density ECoG resources for tonal languages such as Mandarin remain scarce. We present a publicly available high-density ECoG dataset from four participants undergoing awake craniotomy who listened to continuous, sentence-level Mandarin drawn from the Annotated Speech Corpus of Chinese Discourse (ASCCD). Signals were recorded with 128–256-channel subdural grids and synchronized with the audio; ECoG signals were down-sampled to 400 Hz, filtered in the high-gamma range (70–150 Hz), and used to derive high-gamma amplitude. The release follows BIDS-iEEG and is distributed as NWB files, with derivatives including high-gamma amplitude; word- and syllable-level alignments; Pinyin; lexical tone and stress tiers; prosodic break indices; mel-spectrograms; F0 and formants; and electrode localization on individual anatomy with projec",
     "external_links": {
-      "source_url": "https://www.scidb.cn/en/detail?id=6a015d2ed9d9433d01e286b0"
+      "source_url": "https://www.scidb.cn/en/detail?id=6a0aae45d9d9433d01e28b39"
     },
     "funding": [],
     "identifiers": {
@@ -8336,8 +8349,8 @@
     "name": "A Fine-grained Spatiotemporal ECoG Dataset during Speech Perception in Tonal Language",
     "recording_modality": "eeg",
     "scidb_dataset_id": "c4d82d65ad5c4db88d712e68e199b6aa",
-    "scidb_id": "6a015d2ed9d9433d01e286b0",
-    "scidb_version": "V4",
+    "scidb_id": "6a0aae45d9d9433d01e28b39",
+    "scidb_version": "V5",
     "sessions": [],
     "source": "scidb",
     "tasks": [],
