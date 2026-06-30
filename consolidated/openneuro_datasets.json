@@ -43243,6 +43243,56 @@
   {
     "associated_paper_doi": "",
     "authors": [
+      "Martina T. Cinca-Tomás",
+      "Judith Domínguez-Borràs"
+    ],
+    "bids_version": "1.8.0",
+    "contact_info": [
+      "Martina T. Cinca-Tomás"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds007114.v1.0.1",
+    "dataset_id": "ds007114",
+    "datatypes": "eeg",
+    "demographics": {
+      "ages": [],
+      "species": "Human",
+      "subjects_count": 28
+    },
+    "experimental_modalities": [
+      "eeg",
+      "beh"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds007114/versions/1.0.1"
+    },
+    "funding": [
+      "European Research Counceling (ERC) under the European Union’s Horizon 2020 research and innovation program (101088954)",
+      "European Research Council (ERC) : 101088954"
+    ],
+    "license": "CC0",
+    "name": "SUBEMOcondEEG1",
+    "readme": "Task: \nParticipants were instructed to respond, as quickly and accurately as possible, on which side they heard a voice (left or right, by pressing a keyboard button with their right index or middle finger, respectively), while maintaining their gaze on a permanent fixation cross at the center of the screen. \nThe task consisted of a fear conditioning paradigm with a Pre-Conditioning, a Conditioning and an Extinction phase. During Conditioning, participants were presented with both highAM and lowAM voices, and these were either paired (CS+) or unpaired (CS-) with the unpleasant loud white noise (US). Stimulus assignment as either CS+ or CS- was based on the gender of each voice and counterbalanced across participants (i.e., 50% were presented with highAM and lowAM CS+ male voices, and with highAM and lowAM CS- female voices). During Pre-Conditioning, the same CS stimuli were presented without the US. The fear conditioning was conducted with a 50% partial reinforcement.\n\nThirty-two healthy volunteers were mostly recruited among University of Barcelona students. All were right-handed, with normal hearing and no previous neurological or psychiatric disorders. Four participants were excluded from the analysis due to low signal-to-noise ratio on the electrophysiological data. Thus, the final sample consisted of twenty-eight participants (12 females; age range 18-31, mean age = 22 years). All procedures were approved by the ethics committee of the University of Barcelona (RB00003099 - CER042405), in accordance with the Declaration of Helsinki (2024). All volunteers provided written informed consent and received monetary compensation for their participation.\n\nEEG, pupillometry and behavioral data are stored separately in corresponding folders:\nbeh - behavioral data: Contingency, Valence, Arousal, Response Time, Hit Rate\neeg - EEG data\npupil -  pupillometry ",
+    "recording_modality": "eeg",
+    "senior_author": "Judith Domínguez-Borràs",
+    "sessions": [],
+    "size_bytes": 19983493150,
+    "source": "openneuro",
+    "study_design": "Conditioning",
+    "study_domain": "Emotion",
+    "tasks": [
+      "unnamed",
+      "SUBEMOcondEEG1"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2025-12-18T17:50:17.304Z",
+      "dataset_modified_at": "2026-05-04T11:02:57.000Z"
+    },
+    "total_files": 147
+  },
+  {
+    "associated_paper_doi": "",
+    "authors": [
       "Keisuke Hatano",
       "Naoto Kuroda",
       "Hiroshi Uda",
@@ -50108,5 +50158,293 @@
       "dataset_modified_at": "2026-06-25T14:03:40.000Z"
     },
     "total_files": 759
+  },
+  {
+    "associated_paper_doi": "",
+    "authors": [
+      "Attila Pohlmann",
+      "Felipe Reinoso-Carvalho",
+      "Brayan Rodríguez"
+    ],
+    "bids_version": "1.9.0",
+    "contact_info": [
+      "Attila Pohlmann"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds008062.v1.0.0",
+    "dataset_id": "ds008062",
+    "datatypes": "eeg",
+    "demographics": {
+      "age_max": 40,
+      "age_min": 22,
+      "ages": [
+        26,
+        34,
+        22,
+        33,
+        30,
+        27,
+        25,
+        36,
+        30,
+        24,
+        28,
+        26,
+        37,
+        35,
+        32,
+        24,
+        24,
+        25,
+        27,
+        37,
+        23,
+        29,
+        40,
+        35,
+        32,
+        38,
+        27,
+        40,
+        27,
+        31
+      ],
+      "species": "Human",
+      "subjects_count": 30
+    },
+    "experimental_modalities": [
+      "eeg"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds008062/versions/1.0.0"
+    },
+    "funding": [],
+    "license": "CC0",
+    "name": "EEG and hedonic responses to sonic-seasoning soundscapes",
+    "readme": "EEG and liking responses to sonic-seasoning soundscapes.\n\nPer participant: one combined EEG file (eyes-open + eyes-closed baseline + ~17 s exposure to jungle and deconstruct\nsoundscapes), events.tsv marking segments, with liking ratings and baseline-state survey items in participants.tsv,\nand stimulus audio in /stimuli. Released as recorded (EPOC X hardware bandpass only; no additional software filtering). Recording timestamps removed.\nParticipant IDs are de-identified (sequential sub-NN); the mapping to original recording IDs is held privately and\nis not part of this dataset. See the associated Data in Brief article for full description.\n\nEEGLAB USERS\n------------\nA processed, EEGLAB-ready version of the two soundscape conditions (jungle, deconstruct)\nis provided under derivatives/eeglab/ as per-condition .set files that import directly\ninto an EEGLAB STUDY with conditions assigned. See derivatives/eeglab/README for details.\nThe raw combined EDFs at the repository root remain the primary, archival data.\n\nRESTING CALIBRATION (eyes-open / eyes-closed) — IMPORTANT NOTE\n-------------------------------------------------------------\nThe eyes-open and eyes-closed calibration segments had a fixed intended duration of\n~20 s each, but in the experiment builder each advanced on a participant-controlled\n\"continue\" button (not a hard timer). Segment markers therefore span from segment\nstart to that button press, so recorded durations vary across participants\n(eyes-open mostly ~24 s, a few longer; eyes-closed ~26-63 s), and the button-press\ntimes were not logged. The full segments are released unmodified.\n=> For length-matched comparisons (e.g. with the 17 s soundscape exposures), use the\n   FIRST 17 s of each calibration segment: it falls within the fixed instructed window\n   for all participants and precedes any post-task advance interval.\n",
+    "recording_modality": "eeg",
+    "senior_author": "Brayan Rodríguez",
+    "sessions": [],
+    "size_bytes": 20355543,
+    "source": "openneuro",
+    "study_design": "",
+    "study_domain": "Consumer and cognitive neuroscience of multisensory perception: EEG and liking responses to designed soundscapes; sonic seasoning.",
+    "tasks": [
+      "soundscape"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2026-06-29T18:25:55.482Z",
+      "dataset_modified_at": "2026-06-29T18:27:12.000Z"
+    },
+    "total_files": 127
+  },
+  {
+    "associated_paper_doi": "Hierarchical Priors Shape Dynamic Evidence Accumulation and Aperiodic EEG Activity",
+    "authors": [
+      "Jonathan Buchholz",
+      "Guido Hesselmann"
+    ],
+    "bids_version": "1.9.0",
+    "contact_info": [
+      "Jonathan Buchholz"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds008063.v1.0.0",
+    "dataset_id": "ds008063",
+    "datatypes": "eeg",
+    "demographics": {
+      "age_max": 40,
+      "age_min": 18,
+      "ages": [
+        24,
+        28,
+        27,
+        24,
+        26,
+        26,
+        31,
+        33,
+        20,
+        22,
+        30,
+        22,
+        19,
+        31,
+        26,
+        24,
+        28,
+        28,
+        23,
+        26,
+        22,
+        23,
+        32,
+        23,
+        23,
+        21,
+        23,
+        20,
+        23,
+        22,
+        40,
+        28,
+        21,
+        24,
+        25,
+        21,
+        23,
+        19,
+        25,
+        23,
+        21,
+        31,
+        18
+      ],
+      "species": "Human",
+      "subjects_count": 43
+    },
+    "experimental_modalities": [
+      "eeg"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds008063/versions/1.0.0"
+    },
+    "funding": [],
+    "license": "CC0",
+    "name": "HierarchicalPriors",
+    "readme": "# README: Experiment Guide — Hierarchical Priors RDK EEG Task\n\nThis file provides a experimental guide linking the analysis of *Buchholz & Hesselmann (in review) - Hierarchical Priors Shape Dynamic Evidence Accumulation and Aperiodic EEG Activity* with the here provided data and code. This can be used as an assisting tool for first running a semi-automated BIDS-EEG pipeline.\n\nThis EEG-BIDS dataset contains cue-locked EEG recordings and event annotations from a random-dot kinematogram (RDK) task designed to dissociate low-level and high-level priors during perceptual decision-making. The accompanying analysis tests whether hierarchical priors bias behavior through signal detection theory (SDT) and generalized drift-diffusion modeling (gDDM), and whether they modulate occipital oscillatory or aperiodic EEG activity.\n\nThe trial-level variables needed for analysis are stored in `epochs.metadata` and are illustrated by the accompanying `metadata.csv` file. Each row corresponds to one cue-locked epoch/trial retained in the MNE `Epochs` object. Additionally, [trigger codes](#trigger-codes) stored as annotations enable (less flexible) trial-wise analyses.\n\n## Data collection\n\nData were collected from neurotypical adults with normal or corrected-to-normal vision and no neurological or psychiatric diagnoses. Fifty-three participants were tested; twelve were excluded for failing the preregistered discrimination-performance criterion, leaving 43 participants in the final sample (27 female, 1 trans; mean age 24.47 +/- 5.46 years). Participants gave written informed consent, were tested in the EEG laboratory of Psychologische Hochschule Berlin, and received course credit or monetary compensation.\n\nStimuli were random-dot kinematograms (RDKs) with 1200 white dots (0.078 deg; 2.53 deg/s) presented inside a circular aperture (radius 9.09 deg). A subset of dots moved coherently leftward or rightward while the remaining dots moved randomly; dot lifetime was limited to 24 frames (~100 ms). Stimuli were presented with PsychoPy on a 24.5-inch LCD monitor (240 Hz refresh rate) at a fixed viewing distance of 65 cm. Auditory cues were delivered for 500 ms at 84.8 dB(A); each trial then included an approximately 1000 ms fixation-only interval, RDK presentation for up to approximately 3000 ms or until response, and a jittered 1000-1500 ms intertrial interval.\n\nThe experiment used a within-subject design with three conditions: baseline/no prior, low-level prior, and high-level prior. Baseline blocks used a neutral 750 Hz tone and comprised 8 blocks of 20 trials. Low-level priors were induced implicitly by 600/900 Hz tones that predicted leftward or rightward motion with 75% contingency; tone-motion mappings were counterbalanced, learned across 3 blocks of 20 trials, and tested across 8 blocks of 20 trials. High-level priors were induced by a standardized cover story about tinted glasses that allegedly enhanced leftward or rightward motion; beliefs were reinforced across 4 learning blocks of 20 trials and tested across 8 blocks of 20 trials. Condition order was fully counterbalanced, and 160 trials per condition entered the main analyses.\n\nBefore the experiment, individual motion sensitivity was estimated with two 40-trial QUEST staircases targeting 75% discrimination accuracy. The final threshold defined medium coherence; low and high coherence were 50% and 200% of this threshold, respectively. Learning blocks overrepresented medium- and high-coherence trials to support prior acquisition, whereas baseline and test blocks overrepresented low-coherence trials and contained no high-coherence trials to increase reliance on prior information.\n\nContinuous EEG was recorded from 31 active Ag/AgCl electrodes arranged according to the international 10/20 system using an actiChamp Plus amplifier at 1000 Hz. The ground electrode was placed at FPz and data were online referenced to FCz. Electrode impedances were kept below 20 kOhm, and participants were instructed to minimize blinks, saccades, muscle activity, and body movement during recording. Post-experimental questionnaires assessed demographics, manipulation checks, belief strength, and psychosis proneness.\n\n## Task summary\n\nEach trial followed this sequence:\n\n1. auditory cue/tone onset;\n2. fixation-only interstimulus interval (ISI; approximately 1000 ms);\n3. RDK onset with leftward or rightward net motion at individualized coherence;\n4. left/right response, followed by a jittered intertrial interval (ITI; approximately 1000–1500 ms).\n\nMotion coherence was individualized with two QUEST staircases targeting 75% discrimination accuracy. The resulting threshold defined the medium coherence level. Low coherence was 50% of this threshold; high coherence was 200% of this threshold.\n\nThe experiment contained three within-subject conditions:\n\n- **Baseline / no prior** (`exp = base`): a neutral, nonpredictive 750 Hz tone preceded the RDK.\n- **Low-level prior** (`exp = lowlevel`): two tones (600/900 Hz) predicted leftward or rightward motion with 75% contingency. Participants were not informed about the tone-motion association.\n- **High-level prior** (`exp = highlevel`): the tone was neutral/nonpredictive, but participants wore transparent tinted glasses and were led to believe that the glasses enhanced perception of either leftward or rightward motion. This belief was reinforced during learning blocks before the analyzed test blocks.\n\nThe main analyses use baseline trials and prior-condition test trials. Learning blocks served to establish the tone-motion associations or glass beliefs and should not be included unless explicitly intended.\n\n## Raw BIDS events\n\nEach `*_events.tsv` file contains raw trigger-level events, and the `*_events.json` sidecar defines the BIDS event columns. Events are stored under `sub-0XX/ses-01/eeg/`.\n\n**BIDS naming note:** the provided example sidecar is named `task-RDK_events.json`, whereas the provided example events file is named `task-HierPrior_events.tsv`. For strict BIDS compatibility, task labels should be identical across the EEG data file, events file, and JSON sidecar.\n\n### Event columns\n\n\n| Column       | Meaning                                                           |\n| ------------ | ----------------------------------------------------------------- |\n| `onset`      | Event onset in seconds from the first stored data point.          |\n| `duration`   | Event duration in seconds. Non-informative in this dataset        |\n| `sample`     | Event onset in sampling points; first sample is 0.                |\n| `value`      | Numeric trigger/event code.                                       |\n| `trial_type` | Human-readable trigger label, for example `S_1`, `S_8`, or `R_1`. |\n\n\n### Trigger codes\n\n\n| `value` | `trial_type` | Meaning                                                                                               |\n| ------- | ------------ | ----------------------------------------------------------------------------------------------------- |\n| 1       | `S_1`        | left prior; tone (600/900 Hz) for low-level / left-enhancing glasses for high-level prior condition   |\n| 2       | `S_2`        | right prior; tone (600/900 Hz) for low-level / right-enhancing glasses for high-level prior condition |\n| 4       | `S_4`        | no prior; 750 Hz tone cue onset in baseline.                                                          |\n| 8       | `S_8`        | RDK onset with leftward net motion.                                                                   |\n| 16      | `S_16`       | RDK onset with rightward net motion.                                                                  |\n| 101     | `R_1`        | Correct response.                                                                                     |\n| 102     | `R_2`        | Incorrect response.                                                                                   |\n\n\nA raw trial can be reconstructed as:\n\n`cue event (S_1/S_2/S_4) → RDK event (S_8/S_16) → response event (R_1/R_2, if present)`\n\nFor manuscript-level reproduction, use `epochs.metadata` rather than only the raw triggers, because the metadata contains condition labels, prior direction, motion coherence, counterbalancing, response direction, and behavioral exclusion flags.\n\n## `epochs.metadata` column dictionary\n\nThe table below explains the columns in `metadata.csv`, which are attached to each cue-locked MNE `Epochs` object as `epochs.metadata`. Values shown are examples from the supplied file; levels may vary across participants.\n\n\n| Column                | Example values / type                | Meaning                                                                                                                                                                                                                                                      | Use for reproduction                                                                                              |\n| --------------------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------- |\n| `trigger`             | `1`                                  | Technical event identifier used during cue-locked epoch creation. In the provided metadata this is constant because epochs are anchored to cue onset.                                                                                                        | Bookkeeping only. Use `exp`, `cueHz`, and `prior` for analysis coding.                                            |\n| `participant`         | `sub-001`                            | BIDS participant label.                                                                                                                                                                                                                                      | Grouping variable for participant-level SDT, gDDM, EEG, and spectral summaries; merge key for questionnaire data. |\n| `exp`                 | `base`, `lowlevel`, `highlevel`      | Experimental condition: baseline/no prior, implicit low-level prior, or explicit high-level prior.                                                                                                                                                           | Primary within-subject factor `prior condition` in behavioral and EEG analyses.                                   |\n| `block_cond`          | `base`, `test`                       | Analysis phase/block type. Baseline blocks are coded `base`; analyzed prior-condition test blocks are coded `test`.                                                                                                                                          | Keep `base` and `test` rows for the main analyses; exclude learning blocks if present in other metadata files.    |\n| `block_order`         | e.g., `bhl`                          | Counterbalanced order of the three conditions. Letters denote baseline (`b`), high-level (`h`), and low-level (`l`).                                                                                                                                         | Optional check for order effects; not a primary manuscript variable.                                              |\n| `thisN`               | `0`–`19`                             | Trial index within the current 20-trial block as generated by the task script.                                                                                                                                                                               | Trial-order diagnostics and within-block checks.                                                                  |\n| `cueAss`              | e.g., `highleft`                     | Low-level tone-motion counterbalancing. `highleft` means the high tone predicted leftward motion and the low tone predicted rightward motion.                                                                                                                | Reconstruct or validate `prior` in low-level prior trials from `cueHz`.                                           |\n| `cueHz`               | `600`, `750`, `900`                  | Auditory cue frequency in Hz. `750` is neutral/nonpredictive; `600` and `900` are predictive low-level prior cues.                                                                                                                                           | Validate cue condition; reconstruct low-level prior direction together with `cueAss`.                             |\n| `motion_direction`    | `left`, `right`                      | Physical net direction of RDK motion on the trial.                                                                                                                                                                                                           | Stimulus direction for accuracy, SDT signal coding, and prior congruency.                                         |\n| `prior`               | `noprior`, `left`, `right`           | Direction predicted by the current prior. `noprior` is used in baseline trials; `left`/`right` indicate the tone-predicted or glasses-predicted direction.                                                                                                   | Defines prior-congruent versus prior-incongruent stimuli and responses.                                           |\n| `response`            | `left`, `right`, missing             | Participant's reported perceived motion direction.                                                                                                                                                                                                           | Behavioral choice variable for SDT and gDDM. Exclude missing responses for behavioral modeling.                   |\n| `corr`                | `0`, `1`                             | Accuracy relative to physical RDK direction: `1` = response matches `motion_direction`; `0` = incorrect.                                                                                                                                                     | Performance checks and inclusion diagnostics.                                                                     |\n| `rt`                  | seconds                              | Reaction time from RDK onset to button response.                                                                                                                                                                                                             | gDDM response-time variable and RT outlier screening.                                                             |\n| `thresh75`            | participant-specific proportion      | Individual QUEST threshold targeting 75% correct discrimination. This is the participant's medium coherence.                                                                                                                                                 | Defines individualized sensory uncertainty; `medium = thresh75`, `low = 0.5 × thresh75`, `high = 2 × thresh75`.   |\n| `BiasFirst`           | e.g., `rightfirst`, `leftfirst`      | Counterbalancing/order variable for the high-level glasses manipulation, indicating which glasses/prior direction was introduced or tested first.                                                                                                            | Optional check for high-level prior order effects.                                                                |\n| `coh`                 | proportion, e.g., `0.0562`, `0.1124` | Trial-wise RDK motion coherence.                                                                                                                                                                                                                             | Continuous sensory-evidence strength; drift rate was modeled as a function of coherence in the gDDM.              |\n| `coh_level`           | `low`, `medium`, `high`              | Categorical coherence level derived from `thresh75`. In analyzed test trials, low and medium coherence are expected.                                                                                                                                         | Descriptive performance checks and model validation by coherence level.                                           |\n| `filename`            | e.g., `sub-001_RDKdeutsch_highleft`  | Source behavioral/task-log identifier. Usually contains participant and counterbalancing information.                                                                                                                                                        | Provenance and debugging.                                                                                         |\n| `rt_flag`             | `False`, `True`                      | Trial-level behavioral exclusion flag. `True` marks trials excluded because of missing responses or RT outlier criteria.                                                                                                                                     | For behavioral SDT/gDDM reproduction, use `rt_flag == False` with nonmissing `rt` and `response`.                 |\n| `lowCoh_performance`  | proportion correct                   | Participant-level accuracy at low coherence, repeated across rows for that participant.                                                                                                                                                                      | Inclusion/performance diagnostics; used to verify monotonic performance across coherence levels.                  |\n| `medCoh_performance`  | proportion correct                   | Participant-level accuracy at medium coherence, repeated across rows for that participant.                                                                                                                                                                   | Inclusion/performance diagnostics.                                                                                |\n| `highCoh_performance` | proportion correct                   | Participant-level accuracy at high coherence, repeated across rows for that participant.                                                                                                                                                                     | Inclusion/performance diagnostics; should exceed medium and low coherence performance.                            |\n| `prior_dic`           | `noprior`, `prior`                   | Binary prior grouping: baseline/no-prior versus any prior condition.                                                                                                                                                                                         | Convenience grouping only. Use `exp` to distinguish low-level from high-level priors.                             |\n| `response_prior`      | `0`, `1`, missing                    | Response recoded relative to the prior-defined decision bound. In prior conditions, `1` = response in the prior-congruent direction and `0` = response in the prior-incongruent direction. In baseline trials, `1` = left response and `0` = right response. | Primary binary response variable for SDT and gDDM boundary coding.                                                |\n\n\n## Reproducing the manuscript analyses from metadata\n\n### 1. Recommended trial filters\n\nFor behavioral SDT and gDDM analyses, start from the metadata table and retain analyzed trials:\n\n```python\nmeta_beh = metadata.query(\"exp in ['base', 'lowlevel', 'highlevel']\").copy()\nmeta_beh = meta_beh.query(\"block_cond in ['base', 'test']\").copy()\nmeta_beh = meta_beh[meta_beh['rt_flag'] == False]\nmeta_beh = meta_beh.dropna(subset=['response', 'rt', 'response_prior'])\n```\n\nWhen using preprocessed MNE `Epochs`, the rows in `epochs.metadata` remain aligned to the retained EEG epochs. If the exact manuscript behavioral analyses were run before EEG epoch rejection, a complete behavioral log may be needed to reproduce those behavioral trial counts exactly.\n\n### 2. Manuscript variables and metadata columns\n\n\n| Manuscript variable / analysis concept | Metadata column(s)                                                | Coding / transformation                                                                                |\n| -------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |\n| Participant                            | `participant`                                                     | Group all first-level estimates by participant.                                                        |\n| Prior condition                        | `exp`                                                             | `base` = baseline/no prior; `lowlevel` = low-level prior; `highlevel` = high-level prior.              |\n| Baseline/no-prior trials               | `exp == 'base'`, `prior == 'noprior'`, `cueHz == 750`             | Neutral tone, no directional prediction.                                                               |\n| Low-level prior trials                 | `exp == 'lowlevel'`, `cueHz in [600, 900]`                        | Tone direction mapping is encoded in `cueAss`; final predicted direction is already stored in `prior`. |\n| High-level prior trials                | `exp == 'highlevel'`, `cueHz == 750`, `prior in ['left','right']` | Directional prediction comes from the alleged motion-enhancing glasses, not from the tone.             |\n| Motion direction                       | `motion_direction`                                                | Physical RDK direction: left or right.                                                                 |\n| Prior direction                        | `prior`                                                           | Direction predicted by tone or glasses; `noprior` for baseline.                                        |\n| Response direction                     | `response`                                                        | Participant's left/right report.                                                                       |\n| Accuracy                               | `corr`                                                            | `1` if `response == motion_direction`, else `0`.                                                       |\n| RT                                     | `rt`                                                              | Seconds from RDK onset to response.                                                                    |\n| RT/response exclusion                  | `rt_flag`, `response`, `rt`                                       | Exclude `rt_flag == True` and missing values.                                                          |\n| Sensory precision / motion coherence   | `coh`, `coh_level`, `thresh75`                                    | Use continuous `coh` for gDDM drift modulation; use `coh_level` for descriptive checks.                |\n| Prior-congruent stimulus               | `motion_direction`, `prior`, `exp`                                | Prior conditions: `motion_direction == prior`; baseline: `motion_direction == 'left'` for SDT coding.  |\n| Prior-congruent response               | `response_prior`                                                  | Prior conditions: `1` = response matches `prior`; baseline: `1` = left response.                       |\n| SDT signal-present trial               | `motion_direction`, `prior`, `exp`                                | Prior conditions: prior-congruent motion; baseline: leftward motion.                                   |\n| SDT signal response                    | `response_prior`                                                  | `response_prior == 1`.                                                                                 |\n| DDM response/boundary                  | `response_prior`                                                  | Prior conditions: prior-congruent vs. prior-incongruent response; baseline: left vs. right response.   |\n| EEG condition contrast                 | `exp`                                                             | Compare `lowlevel` vs `base` and `highlevel` vs `base`.                                                |\n| Spectral parameterization condition    | `exp`                                                             | Estimate PSD/specparam measures separately for `base`, `lowlevel`, and `highlevel`.                    |\n| Psychosis proneness                    | external questionnaire data                                       | Not in metadata. Merge PDI/CAPS composite scores by `participant`.                                     |\n| High-level belief strength             | external questionnaire data                                       | Not in metadata. Merge VAS belief ratings by `participant`.                                            |\n\n\n### 3. Signal detection theory coding\n\nFor SDT, the manuscript defined the signal differently for baseline and prior conditions. In prior conditions, signal-present trials are trials in which physical motion is congruent with the prior. In baseline trials, leftward motion is treated as the signal.\n\n```python\nimport numpy as np\n\nis_prior = meta_beh['exp'].isin(['lowlevel', 'highlevel'])\n\nmeta_beh['sdt_signal'] = np.where(\n    is_prior,\n    meta_beh['motion_direction'] == meta_beh['prior'],\n    meta_beh['motion_direction'] == 'left'\n)\n\nmeta_beh['sdt_signal_response'] = meta_beh['response_prior'] == 1\n```\n\nFor each participant and condition, compute hit and false-alarm rates from `sdt_signal` and `sdt_signal_response`, then calculate criterion:\n\n```python\nc = -0.5 * (z_hit_rate + z_false_alarm_rate)\n```\n\nNegative criterion values in the prior conditions indicate a bias toward the prior-congruent direction.\n\n### 4. Generalized drift-diffusion modeling coding\n\nFor each participant and condition, fit a gDDM using:\n\n\n| gDDM input              | Metadata source      |\n| ----------------------- | -------------------- |\n| Response time           | `rt`                 |\n| Binary response / bound | `response_prior`     |\n| Condition               | `exp`                |\n| Motion coherence        | `coh` or `coh_level` |\n| Trial exclusion         | `rt_flag == False`   |\n\n\nIn the prior conditions, the decision bounds are prior-congruent (`response_prior = 1`) versus prior-incongruent (`response_prior = 0`). In the baseline condition, the same column codes left (`1`) versus right (`0`) responses. The manuscript estimated drift rate (`d`), boundary separation (`a`), and starting point (`z`), with noise fixed to 1, nondecision time fixed to 200 ms, maximum RT set to 3000 ms, and drift modeled as a function of motion coherence.\n\n### 5. EEG time-frequency and spectral analyses\n\nEEG analyses are cue-locked. Use the MNE epoch time axis rather than metadata onsets for time-resolved analyses.\n\n\n| EEG analysis step                  | Metadata / data source                                               |\n| ---------------------------------- | -------------------------------------------------------------------- |\n| Epoch anchor                       | cue onset; rows in `epochs.metadata` correspond to cue-locked epochs |\n| Epoch window                       | EEG time axis, -600 to 1500 ms relative to cue onset                 |\n| Baseline interval                  | EEG time axis, -600 to -100 ms                                       |\n| Condition factor                   | `exp`                                                                |\n| Occipital channel cluster          | O1, Oz, O2 from EEG data                                             |\n| TFR contrasts                      | `lowlevel` vs `base`; `highlevel` vs `base`                          |\n| TFR frequency range                | 5–40 Hz                                                              |\n| Spectral-parameterization window   | 0–1500 ms relative to cue onset                                      |\n| Spectral-parameterization grouping | average/fit spectra separately by `participant` and `exp`            |\n\n\nSpectral parameterization outputs are not stored in `epochs.metadata`. They should be computed from the EEG signal and then summarized by participant and condition as aperiodic offset, aperiodic exponent, and periodic alpha power.\n\n### 6. Psychosis-proneness correlations\n\nPsychosis-proneness measures are not stored in `epochs.metadata`. To reproduce the associative analyses:\n\n1. compute participant-level behavioral prior metrics, preferably drift rates from the gDDM, separately for `lowlevel` and `highlevel`;\n2. merge these metrics with questionnaire-derived psychosis proneness scores by `participant`;\n3. compute product-moment correlations between psychosis proneness and low-level/high-level drift-rate metrics.\n\n## Variables not contained in `epochs.metadata`\n\nThe metadata table does not contain PDI scores, CAPS scores, the PDI/CAPS psychosis-proneness composite, VAS belief strength ratings, raw ICA labels, bad-channel interpolation logs, rejected-epoch annotations, SDT estimates, gDDM estimates, TFR outputs, or spectral-parameterization outputs. These variables must be obtained from questionnaire files, preprocessing logs, or analysis derivatives.\n\n============================================================================================\n\n# [BIDS-EEG Processing Pipeline](https://github.com/jonathanbuc/BIDSEEG_Pipeline) - J.Buchholz\n\nThe current data was processed with the [BIDSEEG-Processing Pipeline](https://github.com/jonathanbuc/BIDSEEG_Pipeline). This pipeline enables easy-use, semi-automated processing of EEG-data from **BIDSraw** up to statistical analysis, including **preprocessing**, **artifact correction/rejection** and **conventional** and **parameterized frequency analysis**. The behavioral modules further enable **generlized and hierarchical drift diffusion modelling (g/hDDM)**. The implemented HSSM-package enables analysis of DDM-parameter with trial-by-trial covariates (i.e. expectations, ERPs, frequency measures.) All input can be provided via a single .json file, wherefore *no extensive coding expertise is required!*\n\nThe pipeline implements 4 modules:\n\n1 *Preprocessing*:\n    - Preprocessing BIDSified EEG data including downsampling, rereferencing, linenoise removal and filtering.\n\n2 *Artifact Correction/Rejection*:\n    - Data epoching, ICA (+ automatic OR manual artifactual IC deletion), bad channel interpolation (RANSAC), bad epoch deletion (autoreject).\n\n3 *EEG Analysis*:\n    - Computation of time-frequency representations, consecutive cluster-based permutation tests and spectral parameterization analysis (SpecParam, former FOOOF).\n\n4 *Behavioral Analysis*:\n    - Signal detection theory analysis and generalized drift diffusion modelling (+ predictive checks and parameter recovery study for parameter validation).\n\n0.1 *BIDSification*:\n    - If your data is not in BIDS-format yet, using `z_BIDSification_module.py` you can convert data from any output format (e.g. BrainVision) into BIDS (Brain Imaging Data Structure).\n\n## 1. Conda Setup\n\n### 1.1 Prerequisites\n\nThe pipeline is best executed within a conda environment. Follow the subsequent for successful setup.\nUsing the appropriate commands for your OS, e.g. Windows, MacOS, install `conda` from [Miniconda Install](https://docs.anaconda.com/miniconda/install/) and follow the installation guide. \n\nTesting the installation:\n    When the installation finishes, open your terminal application (find this by typing \"terminal\" into your computer's launchpad). Test your installation by running:\n\n```bash\nconda list\n```\n\nIf conda has been installed correctly, a list of installed packages will appear.\n\n### 1.2 Install Interpreter (Visual Studio Code)\n\nWe recommend using a interpreter like `Visual Studio Code` or `cursor`. You may install `VS Code` from [here](https://code.visualstudio.com/download) and follow the installation guide. Pipeline input can edited via .json-file and executed via the terminal within VS Code.\n\n**For Windows-Users:** We recommend using  open VS Code from out your `Anaconda Prompt`. Open your Anaconda Prompt and run:\n\n```bash\ncode\n```\n\nthat way you have access to your conda environments in the terminal within VS Code\n\n**For Mac-Users:** Just open `VS Code` from your applications.\n\n**Clone the Repository**\nAfter creating and activating the environment, clone the pipeline repository:\n\n```bash\ngit clone https://github.com/jonathanbuc/BIDSEEG_Pipeline.git\n```\n\n-> Now simply open a new terminal `Terminal/New Terminal` and proceed with steps 1.3 and 1.4\n\n### 1.3 Setup conda in Anaconda Prompt (windows) or terminal (Mac)\n\nIn your terminal, check if you are in your repository **BIDSEEG_pipeline*\nIf not, navigate to the eeg pipeline via `cd path/to/BIDSEEG_pipeline` i.e., `cd C:\\Users\\YourName\\Research\\EEGresearch\\BIDSEEG_pipeline`\n\n### 1.4 Create a conda environment in your terminal (*anaconda prompt* = windows / *terminal* = Mac)\n\nInstall the provided conda environment via the .yml file. Be sure to execute the command within the *EEGpipeline* directory.\n\n```bash\nconda env create -f environment_setup.yml\n```\n\n--> Note, 'mne-env' is the default name of the conda environment you are creating within the *EEGpipeline* directory. You can define a different name by changing *name: mne-env* within the `environment_setup.yml` file\n\nTo **activate** your conda environment, run:\n\n```bash\nconda activate 'mne-env'\n```\n\nTo **deactivate** your conda environment, run:\n\n```bash\nconda deactivate\n```\n\n### 1.5 Explore inputs.json\n\n--> **IMPORTANT:** Consult the [ExperimentGuide_HierarchicalPriors.md](ExperimentGuide_HierarchicalPriors.md) file to gain a better understanding of the input structure.\n\n- *inputs.json* is the dictionary that provides values for each of the subsequent steps (preprocessing, artifact correction, analysis)\n- while exploring the pipeline, you may change the values in this file to see differences across different changes (i.e., change \"samplingrate_down\": 250 --> 500).\n- please note, to use the updated inputs.json file, you must save the file to execute new commands.  Save = *ctl + s*\n\n## 2. Usage - Quick Start\n\nThe `data/BIDShierPriors` contains 3 subjects from *Buchholz & Hesselmann (in review) - Hierarchical Priors Shape Dynamic Evidence Accumulation and Aperiodic EEG Activity* as testing data for an initial run (steps 2.1-2.4). \n\n**IMPORTANT**: Consider the [ExperimentGuide_HierarchicalPriors.md](ExperimentGuide_HierarchicalPriors.md), which provides a thorough linkage of the experiment and this pipeline. We recommend using this file as guideline when proceeding with steps `2.1-2.3` This file can also be used for a replication of the respective study.\n\n### 2.1 - Module 1: Preprocessing\n\nTo preprocess the BIDSified data, run:\n\n```bash\npython a_preprocessing_module.py inputs.json\n```\n\n### 2.2 - Module 2: Artifact Correction\n\nTo perform artifact correction/rejection, run:\n\n```bash\npython b_ArtifactCorrection_module.py inputs.json\n```\n\n### 2.3 - Module 4: EEG Analysis\n\nTo perform EEG analysis, run:\n\n```bash\npython c_EEGAnalysis_module.py inputs.json\n```\n\n### 2.4 - Module 4: Behavioral Analysis\n\nTo perform behavioral analysis, run:\n\n```bash\npython d_BehavAnalysis_module.py inputs.json\n```\n\n### 2.5 - Module 4: HSSM Analysis\n\nTo perform HSSM analysis, run:\n\n```bash\npython e_HSSM_module.py inputs.json\n```\n\n",
+    "recording_modality": "eeg",
+    "senior_author": "Guido Hesselmann",
+    "sessions": [
+      "01"
+    ],
+    "size_bytes": 9409695796,
+    "source": "openneuro",
+    "study_design": "",
+    "study_domain": "Decision-making under uncertainty, computational psychiatry, neural correlates of hierarchical predictions",
+    "tasks": [
+      "HierPrior"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2026-06-29T18:35:47.570Z",
+      "dataset_modified_at": "2026-06-29T18:55:48.000Z"
+    },
+    "total_files": 350
+  },
+  {
+    "associated_paper_doi": "https://doi.org/10.1177/23312165261465722; https://doi.org/10.64898/2025.12.24.696406",
+    "authors": [
+      "Melissa J. Polonenko",
+      "Benjamin R. Eisenreich"
+    ],
+    "bids_version": "1.7.0",
+    "contact_info": [
+      "Melissa Polonenko"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds008065.v1.0.0",
+    "dataset_id": "ds008065",
+    "datatypes": "eeg",
+    "demographics": {
+      "age_max": 57,
+      "age_min": 18,
+      "ages": [
+        19,
+        21,
+        20,
+        19,
+        19,
+        19,
+        20,
+        21,
+        21,
+        19,
+        23,
+        19,
+        21,
+        22,
+        21,
+        20,
+        22,
+        20,
+        21,
+        21,
+        19,
+        22,
+        24,
+        20,
+        20,
+        20,
+        20,
+        20,
+        20,
+        29,
+        20,
+        19,
+        20,
+        21,
+        21,
+        20,
+        20,
+        19,
+        19,
+        19,
+        18,
+        19,
+        20,
+        20,
+        20,
+        19,
+        18,
+        21,
+        20,
+        38,
+        22,
+        57,
+        27,
+        20,
+        19,
+        21,
+        20,
+        22,
+        33,
+        20,
+        21,
+        24
+      ],
+      "species": "Human",
+      "subjects_count": 62
+    },
+    "experimental_modalities": [
+      "eeg"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds008065/versions/1.0.0"
+    },
+    "funding": [
+      "Hearing Health Foundation Emerging Research Grant 972469",
+      "University of Minnesota Undergraduate Research Opportunities Program",
+      "Hearing Health Foundation: Emerging Research Grant 972469"
+    ],
+    "license": "CC0",
+    "name": "Optimizing parameters for multiband ABRs to continuous speech",
+    "readme": "\nREADME\n------\nDetails related to access to the data\n-------------------------------------\nPlease contact the following author for further information:\n    Melissa Polonenko(email: mpolonen@umn.edu)\n\nOverview\n--------\nThis is the dataset for the paper: \"Optimal parameters for measuring multiband auditory brainstem responses to continuous speech\"\nPolonenko MJ & Eisenreich BR (2026), with citation listed below.\n\nTrends in Hearing: Melissa J. Polonenko, Benjamin R. Eisenreich, Trends in Hearing, 2026; https://doi.org/10.1177/23312165261465722\nBioRxiv: Melissa J. Polonenko, Benjamin R. Eisenreich, bioRxiv 2025.12.24.696406; doi: https://doi.org/10.64898/2025.12.24.696406\n\nExp1_phases\n-----------\nThis is the \"phases\" dataset for the paper\n\nMultiband auditory brainstem responses (ABRs) were derived to continuous peaky\nspeech from one narrator with his original fundamental frequency (125 Hz).\nData was collected from October to December 2022.\n\nAim: Determine if peaky speech made with chirp-phase profile evokes larger ABRs\nthan zero-phase profile.\nBased on:\n    1) previous work of click vs chirp stimuli for ABRs.\n    2) computational modeling with 11 stories with a range of natural f0s to \n        zero- and CE-chirp phase profiles.\n\nThe details of the experiment can be found in the bioRxiv pre-print and article\ncited above. \n\nStimuli:\n    multiband peaky speech (using audiological bands, dichotic) for 1 talker \n    (f0 = 118 Hz) at the natural f0, with zero- or chirp-phase profile.\n    360 x 10 s trials each of the 2 phase profiles\n    for a total of 720 trials (120 minutes or 2 hours, 60 min each)\n\nThe code for analyses is available in the code/exp1_phases subfolder here, and on Github:\n    https://github.com/polonenkolab/multibandABR_optimal_params\n\nFormat\n------\nThe dataset is formatted according to the EEG Brain Imaging Data Structure. It \nincludes EEG recording from participant 01 to 15 in raw brainvision format\n(3 files: .eeg, .vhdr, .vmrk) and stimuli files in format of .hdf5. The stimuli\nfiles contain the audio ('x_play_band_zero' and 'x_play_band_chirp'), and \nregressors for the deconvolution ('pulse_inds' are the pulse indices for the \nmultiband ABRs, 'fake_pulse_inds' are the pulse indices for creating the \n\"common component\" that is subtracted to reveal the frequency-specific ABRs). \n\nGenerally, you can find detailed event data in the .tsv files and descriptions\nin the accompanying .json files. Raw eeg files are provided in the Brain\nProducts format.\n\nParticipants\n------------\n17 participants, mean ± SD age of 20.4 ± 1.3 years (19-23 years)\nNOTE: do NOT use subjects 1 (no responses) and 13 (last 1 hr of data not saved)\nThus, use 15 participant data.\n\nInclusion criteria:\n    1) Age between 18-40 years\n    2) Normal hearing: audiometric thresholds <25 dB HL from 500 to 8000 Hz\n    3) Speak English as their primary language\n\nPlease see participants.tsv for more information.\n\nApparatus\n---------\nParticipants sat in a darkened sound-isolating booth and rested while listening\nto the audiobooks, although they were not required to pay attention to the stories.\nStimuli were presented at an average level of 65 dB SPL and a sampling rate of\n48 kHz through ER-2 insert earphones plugged into an RME Digiface USB digital\nsound card. Custom python scripts using expyfun were used to control the\nexperiment and stimulus presentation.\n\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Polonenko & Eisenreich (2026) and the\nsupplied `task-phases_eeg.json` file. The 2 phase conditions were randomly\ninterleaved. \n\nTrigger onset times are not corrected for the delay of the insert earphones,\nbut the tsv files have both the uncorrected and corrected samples.\nTriggers with values of \"1\" were recorded to the onset of the 10 s audio, and\nshortly after triggers with values of \"4\" or \"8\" were stamped to indicate the\nwhich of the 2 conditions was played, the overall trial number, and the stimulus\nfile number. This was done by converting the decimal trial number to bits,\ndenoted b, then calculating 2 ** (b + 2). We've specified these trial numbers\nand more metadata of the events in each of the '*_eeg_events.tsv\" file, which\nis sufficient to know which trial corresponded to which type of stimulus and \nwhich file - e.g., stimuli/exp1_phases/wizardofoz/wizardofoz_original_0001.hdf5.\n\n\n\nExp2_f0s\n--------\nThis is the \"f0s\" dataset for the paper\n\nMultiband auditory brainstem responses (ABRs) were derived to continuous peaky\nspeech from two narrators (stories) with different fundamental frequencies (f0s)\nthat were also shifted down to an average f0 of 100 Hz. Data was collected from\nJanuary to April 2023.\n\nAim: Evaluate the f0 effect for measured multiband ABRs, using 2 talkers with\ndifferent natural f0s (one <170 Hz and one >170 Hz) and both shifted down to\nan average f0 of 100 Hz. Based on:\n    1) previous work (Polonenko & Maddox, 2021, 2024) that showed for broadband\n    ABRs, narrators with lower f0s produce larger ABRs, with an effect similar\n    to the stimulation rate effect in click ABRs.\n    2) computational modeling with systematic shifting of 11 stories with a \n    range of natural f0s to each mean f0 from 80 to 130 Hz in 10 dB steps.\n\nThe details of the experiment can be found in the bioRxiv pre-print and article\ncited above. \n\nStimuli:\n    multiband peaky speech (using audiological bands, dichotic) for two talkers \n    (f0 = 118 Hz and 180 Hz) at their natural f0s and shifted to 100 Hz,\n    210 x 10 s trials each of the 4 narrator-f0 combo\n    for a total of 840 trials (2 hours 20 minutes, 35 min each)\n    \n    NOTE: f0s used: original f0s (118 and 180 Hz) and f0s shifted to 100 Hz\n\nThe code for analyses is available in code/exp2_f0s subfolder herein and on Github:\n    https://github.com/polonenkolab/multibandABR_optimal_params\n\nFormat\n------\nThe dataset is formatted according to the EEG Brain Imaging Data Structure. It \nincludes EEG recording from participant 01 to 30 in raw brainvision format\n(3 files: .eeg, .vhdr, .vmrk) and stimuli files in format of .hdf5. The stimuli\nfiles contain the audio ('x_play_band_chirp_CE'), and regressors for the \ndeconvolution ('pulse_inds' are the pulse indices for the multiband ABRs,\n               'fake_pulse_inds' are the pulse indices for creating the \n               \"common component\" that is subtracted to reveal the frequency-\n               specific ABRs). \n\nGenerally, you can find detailed event data in the .tsv files and descriptions\nin the accompanying .json files. Raw eeg files are provided in the Brain\nProducts format.\n\nParticipants\n------------\n30 participants, mean ± SD age of 20.3 ± 2.0 years (18-29 years)\nNOTE: removed participants sub-exp223 and sub-exp230 from analysis due to poor responses\n(there were problems noted during the recording). Participants sub-exp206, sub-exp208, sub-exp217 were also removed from the paper's analysis due to noisy responses. Thus n = 25 total used in the final analysis.\n\nInclusion criteria:\n    1) Age between 18-40 years\n    2) Normal hearing: audiometric thresholds 20 dB HL or better from 500 to 8000 Hz\n    3) Speak English as their primary language\n\nPlease see participants.tsv for more information.\n\nApparatus\n---------\nParticipants sat in a darkened sound-isolating booth and rested while listening\nto the audiobooks, although they were not required to pay attention to the stories.\nStimuli were presented at an average level of 65 dB SPL and a sampling rate of\n48 kHz through ER-2 insert earphones plugged into an RME Digiface USB digital\nsound card. Custom python scripts using expyfun were used to control the\nexperiment and stimulus presentation.\n\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Polonenko & Eisenreich (2026) and the\nsupplied `task-f0s_eeg.json` file. The 4 conditions (2 narrators x 2 f0s) were\nrandomly interleaved for each block of trials (i.e., for trial 1, the 4 \n                                               conditions were randomized).\n\nTrigger onset times are not corrected for the delay of the insert earphones,\nbut the tsv files have both the uncorrected and corrected samples.\nTriggers with values of \"1\" were recorded to the onset of the 10 s audio, and\nshortly after triggers with values of \"4\" or \"8\" were stamped to indicate the\nwhich of the 4 conditions was played, the overall trial number, and the stimulus\nfile number. This was done by converting the decimal trial number to bits,\ndenoted b, then calculating 2 ** (b + 2). We've specified these trial numbers\nand more metadata of the events in each of the '*_eeg_events.tsv\" file, which\nis sufficient to know which trial corresponded to which type of stimulus\n(toto or wizardofoz story), which f0 (100 Hz or original f0), and which\nfile - e.g., stimuli/exp2_f0s/toto_shifted/toto_shifted_0001.hdf5 for the toto story with 100 Hz f0.\n\n\nExp3_f0s2\n---------\nThis is the \"f0s2\" dataset for the paper\nMultiband auditory brainstem responses (ABRs) were derived to continuous peaky\nspeech from two narrators (stories) with fundamental frequencies (f0s) that \nwere shifted down to an average f0 of 90 Hz. Data was collected in June 2023.\n\nAim: Determine if the f0 shifted down to 90 Hz gives good ABRs across stories.\nBased on:\n    1) previous work (Polonenko & Maddox, 2021, 2024) that showed for broadband\n    ABRs, narrators with lower f0s produce larger ABRs, with an effect similar\n    to the stimulation rate effect in click ABRs.\n    2) computational modeling with systematic shifting of 11 stories with a \n    range of natural f0s to each mean f0 from 80 to 130 Hz in 10 dB steps.\n    3) f0s study that showed stories shifted to 100 Hz gave larger ABRs.\n\nThe details of the experiment can be found in the bioRxiv pre-print and article\ncited above. \n\nStimuli:\n    multiband peaky speech (using audiological bands, dichotic) for 3 talkers \n    (f0s = 118, 132, 155 Hz) at their natural f0s and shifted to 90 Hz,\n    210 x 10 s trials each of the 3 narrators\n    for a total of 630 trials (105 minutes or 1.75 hours, 35 min each)\n\nThe code for analyses is available in the code/exp3_f0s2 subfolder herein and on Github:\n    https://github.com/polonenkolab/multibandABR_optimal_params\n\nFormat\n------\nThe dataset is formatted according to the EEG Brain Imaging Data Structure. It \nincludes EEG recording from participant 01 to 15 in raw brainvision format\n(3 files: .eeg, .vhdr, .vmrk) and stimuli files in format of .hdf5. The stimuli\nfiles contain the audio ('x_play_band_chirp_CE'), and regressors for the \ndeconvolution ('pulse_inds' are the pulse indices for the multiband ABRs,\n               'fake_pulse_inds' are the pulse indices for creating the \n               \"common component\" that is subtracted to reveal the frequency-\n               specific ABRs). \n\nGenerally, you can find detailed event data in the .tsv files and descriptions\nin the accompanying .json files. Raw eeg files are provided in the Brain\nProducts format.\n\nParticipants\n------------\n15 participants, mean ± SD age of 27.7 ± 10.2 years (19-57 years)\nNOTE: all participants included in final analysis.\n\nInclusion criteria:\n    1) Age between 18-60 years\n    2) Normal hearing: audiometric thresholds 20 dB HL or better from 500 to 8000 Hz\n    3) Speak English as their primary language\n\nPlease see participants.tsv for more information.\n\nApparatus\n---------\nParticipants sat in a darkened sound-isolating booth and rested while listening\nto the audiobooks, although they were not required to pay attention to the stories.\nStimuli were presented at an average level of 65 dB SPL and a sampling rate of\n48 kHz through ER-2 insert earphones plugged into an RME Digiface USB digital\nsound card. Custom python scripts using expyfun were used to control the\nexperiment and stimulus presentation.\n\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Polonenko & Eisenreich (2026) and the\nsupplied `task-f0s2_eeg.json` file. The 3 conditions (3 narrators) were randomly\ninterleaved for each block of trials (i.e., for trial 1, 3 stories randomized). \n\nTrigger onset times are not corrected for the delay of the insert earphones,\nbut the tsv files have both the uncorrected and corrected samples.\nTriggers with values of \"1\" were recorded to the onset of the 10 s audio, and\nshortly after triggers with values of \"4\" or \"8\" were stamped to indicate the\nwhich of the 3 conditions was played, the overall trial number, and the stimulus\nfile number. This was done by converting the decimal trial number to bits,\ndenoted b, then calculating 2 ** (b + 2). We've specified these trial numbers\nand more metadata of the events in each of the '*_eeg_events.tsv\" file, which\nis sufficient to know which trial corresponded to which type of stimulus and \nwhich file - e.g., stimuli/exp3_f0s2/wizard/wizard_shifted_0001.hdf5.\n\n\n\n\n\n",
+    "recording_modality": "eeg",
+    "senior_author": "Benjamin R. Eisenreich",
+    "sessions": [],
+    "size_bytes": 101304975402,
+    "source": "openneuro",
+    "study_design": "",
+    "study_domain": "Auditory Brainstem Response",
+    "tasks": [
+      "f0s2",
+      "f0s",
+      "phases"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2026-06-29T22:36:44.048Z",
+      "dataset_modified_at": "2026-06-30T02:57:36.000Z"
+    },
+    "total_files": 523
   }
 ]
