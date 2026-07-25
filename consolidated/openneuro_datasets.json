@@ -47053,7 +47053,7 @@
       "Julius Welzel"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds007605.v1.0.0",
+    "dataset_doi": "doi:10.18112/openneuro.ds007605.v1.0.1",
     "dataset_id": "ds007605",
     "datatypes": "eeg",
     "demographics": {
@@ -47166,7 +47166,7 @@
       "eeg"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds007605/versions/1.0.0"
+      "source_url": "https://openneuro.org/datasets/ds007605/versions/1.0.1"
     },
     "funding": [
       "[\"COVIDOM and Neurogeriatrics\"]"
@@ -47177,7 +47177,7 @@
     "recording_modality": "eeg",
     "senior_author": "\"Julius Welzel\"]",
     "sessions": [],
-    "size_bytes": 23247192025,
+    "size_bytes": 23247190336,
     "source": "openneuro",
     "study_design": "exploratory group-level comparisons",
     "study_domain": "self-reported cognitive symptoms and fatigue",
@@ -47186,7 +47186,7 @@
     ],
     "timestamps": {
       "dataset_created_at": "2026-03-31T12:28:11.761Z",
-      "dataset_modified_at": "2026-04-13T04:51:29.000Z"
+      "dataset_modified_at": "2026-07-24T07:23:35.000Z"
     },
     "total_files": 685
   },
@@ -47428,7 +47428,7 @@
       "Haorui Sun"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds007629.v1.1.1",
+    "dataset_doi": "doi:10.18112/openneuro.ds007629.v1.2.0",
     "dataset_id": "ds007629",
     "datatypes": "eeg",
     "demographics": {
@@ -47488,16 +47488,16 @@
       "beh"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds007629/versions/1.1.1"
+      "source_url": "https://openneuro.org/datasets/ds007629/versions/1.2.0"
     },
     "funding": [],
     "license": "CC0",
     "name": "ROAMM",
-    "readme": "# ROAMM: Reading Observed At Mindless Moments\n\n**ROAMM** is a large-scale multimodal dataset featuring simultaneous **EEG and eye-tracking** data collected during naturalistic reading with **span-level mind-wandering annotations**. ROAMM provides a benchmark dataset for MW detection and EEG-to-text decoding tasks, and enables the study of attention-related degradation in language decoding from brain activity in naturalistic reading.\n\n## Dataset Status\n\n- **Synchronized ML Dataset:** For researchers looking for the pre-processed, synchronized EEG and eye-tracking data (Pickle format), please navigate to:\n\n  `derivatives/synced/`\n\n- **Linguistic Content:** Reading materials (words with coordinate information) are stored in `derivatives/stimuli/wiki_stories`. Each word is assigned a unique key to enable mapping fixated words back to their original corpus.\n\n- **Raw EEG (BIDS):** **Work in Progress.** We are currently converting the full raw EEG dataset for all participants into BIDS-compliant format.\n\n## Project Details\n\n- **Task:** Naturalistic reading of standardized articles with retrospective self-report paradigm (ReMind task).\n- **Participants:** 44 subjects (50+ hours of data).\n- **Modalities:**\n  - EEG (BioSemi ActiveTwo 64 channels).\n  - Simultaneous Eye-Tracking (SR Research EyeLink 1000 Plus).\n  - Span-level mind-wandering annotations.\n  - Reading comprehension scores (page-level, multiple-choice questions).\n\n## Structure\n\nThis repository follows the Brain Imaging Data Structure (BIDS).\n\n- `participants.tsv`: Demographic information (age, sex, handedness, ADHD/Reading Disability status).\n- `derivatives/synced/`: Synchronized multi-modal data frames ready for Machine Learning pipelines.\n\n## Code Repository\n\nBaseline models and machine learning pipelines are available at:\n**[https://github.com/GlassBrainLab/ROAMM](https://github.com/GlassBrainLab/ROAMM)**\n\n\n## Publication & Citation\n\nThe dataset paper describing the collection, synchronization, and baseline modeling of this data is available on OpenReview: [https://openreview.net/forum?id=zqLPdt09fE](https://openreview.net/forum?id=zqLPdt09fE)\n\nIf you use ROAMM in your research, please cite:\n\n```bibtex\n@inproceedings{sun2026roamm,\n  title     = {{ROAMM}: A Benchmark Dataset for Multimodal Human Attention Decoding and {EEG}-to-Text Modeling During Naturalistic Reading},\n  author    = {Haorui Sun and Ardyn Vivienne Olszko and Niharika Singh and David C. Jangraw},\n  booktitle = {Forty-third International Conference on Machine Learning},\n  year      = {2026},\n  url       = {https://openreview.net/forum?id=zqLPdt09fE}\n}\n```",
+    "readme": "# ROAMM: Reading Observed At Mindless Moments\n\n**ROAMM** is a large-scale multimodal dataset featuring simultaneous **EEG** and **eye-tracking** recordings collected during naturalistic reading with **span-level mind-wandering annotations**. ROAMM provides a benchmark for mind-wandering detection, EEG-to-text decoding, and the study of how attention modulates language processing during naturalistic reading.\n\n## Project Details\n\n- **Task:** Naturalistic reading using the **ReMind** retrospective self-report paradigm for span-level mind-wandering annotation.\n- **Participants:** 44 participants (>50 hours of synchronized recordings).\n- **Modalities:**\n  - EEG (BioSemi ActiveTwo, 64 channels)\n  - Eye tracking (SR Research EyeLink 1000 Plus)\n  - Span-level mind-wandering annotations\n  - Reading comprehension responses\n\nFor a detailed description of the experimental paradigm, retrospective annotation procedure, and validation of the ReMind task, see:\n\n> Sun, H., et al. (2026). *ReMind: A Retrospective Self-Report Paradigm for Studying Mind-Wandering Onset During Reading.*  \n> https://www.biorxiv.org/content/10.64898/2026.05.14.725227v1\n\n---\n\n## Dataset Organization\n\n### `derivatives/synced/`\n\nPreprocessed, synchronized EEG and eye-tracking data (Pickle format) ready for machine learning and multimodal analyses.\n\n### `derivatives/stimuli/wiki_stories/`\n\nReading materials with word-level coordinate information. Each word is assigned a unique key, allowing fixated words in the synchronized data to be mapped back to their original text.\n\n### `derivatives/stimuli/comprehension_questions/`\n\nStory-specific multiple-choice comprehension questions, including answer options and the correct answer.\n\n### `derivatives/behavioral/`\n\nBehavioral summary files:\n\n- **roamm_page_level_reading_data.csv** — Page-level reading behavior, including reading time, page order, mind-wandering annotations, and related measures.\n- **roamm_comprehension_data.csv** — Story-level comprehension data, including participant responses, correct answers, comprehension accuracy, and self-reported familiarity and understanding.\n\n> **Note**\n>\n> The primary purpose of the comprehension questions was to encourage participants to stay engaged with the reading task, rather than to serve as a primary experimental measure. Nevertheless, we hope these data will be useful for future research and are excited to see what the community discovers with them.\n\n### Raw EEG (BIDS)\n\n**Work in Progress.** We are currently converting the full raw EEG dataset for all participants into BIDS-compliant format.\n\n---\n\n## Code Repository\n\nBaseline models and machine learning pipelines are available at:\n\n**https://github.com/GlassBrainLab/ROAMM**\n\n---\n\n## Publication & Citation\n\nThe dataset paper describing the collection, synchronization, and baseline modeling of ROAMM is available at:\n\nhttps://openreview.net/forum?id=zqLPdt09fE\n\nIf you use ROAMM in your research, please cite:\n\n```bibtex\n@inproceedings{\nsun2026roamm,\ntitle={{ROAMM}: A Benchmark Dataset for Multimodal Human Attention Decoding and {EEG}-to-Text Modeling During Naturalistic Reading},\nauthor={Haorui Sun and Ardyn Vivienne Olszko and Niharika Singh and David C. Jangraw},\nbooktitle={Forty-third International Conference on Machine Learning},\nyear={2026},\nurl={https://openreview.net/forum?id=zqLPdt09fE}\n}\n```",
     "recording_modality": "eeg",
     "senior_author": "David C. Jangraw",
     "sessions": [],
-    "size_bytes": 234623140,
+    "size_bytes": 234623929,
     "source": "openneuro",
     "study_design": "ReMind",
     "study_domain": "Mind-Wandering",
@@ -47506,7 +47506,7 @@
     ],
     "timestamps": {
       "dataset_created_at": "2026-04-03T21:41:15.979Z",
-      "dataset_modified_at": "2026-07-12T18:47:30.000Z"
+      "dataset_modified_at": "2026-07-24T21:46:59.000Z"
     },
     "total_files": 39
   },
