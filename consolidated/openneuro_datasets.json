@@ -11998,13 +11998,13 @@
       "Colin Phillips",
       "Ellen Lau"
     ],
-    "bids_version": "1.6.0",
+    "bids_version": "1.9.0",
     "contact_info": [
       "Christian Brodbeck",
       "Phoebe Gaston"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds004276.v1.0.0",
+    "dataset_doi": "doi:10.18112/openneuro.ds004276.v1.1.0",
     "dataset_id": "ds004276",
     "datatypes": "meg",
     "demographics": {
@@ -12034,13 +12034,13 @@
       "subjects_count": 18
     },
     "experimental_modalities": [
-      "meg"
+      "meg",
+      "beh"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds004276/versions/1.0.0"
+      "source_url": "https://openneuro.org/datasets/ds004276/versions/1.1.0"
     },
     "funding": [
-      "NSF BCS-1749407",
       "NSF: BCS-1749407"
     ],
     "license": "CC0",
@@ -12048,8 +12048,27 @@
     "readme": "# Auditory single word recognition in MEG\n\nThis dataset is described in Gaston et al. (2022).\n\nStimuli and TextGrids are available from the Massive Auditory Lexical Decision database (Tucker et al., 2019).\n\nConverted to BIDS using MNE-BIDS (Appelhoff et al., 2019; Niso et al., 2018).\n\n\n# References\n\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Höchenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\n\nGaston, P., Brodbeck, C., Phillips, C., & Lau, E. (2022). Auditory word comprehension is less incremental in isolated words. Neurobiology of Language\n\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110. https://doi.org/10.1038/sdata.2018.110\n\nTucker, B. V., Brenner, D., Danielson, D. K., Kelley, M. C., Nenadić, F., & Sims, M. (2019). The Massive Auditory Lexical Decision (MALD) database. Behavior Research Methods, 51(3), 1187–1204. https://doi.org/10.3758/s13428-018-1056-1\n",
     "recording_modality": "meg",
     "senior_author": "Ellen Lau",
-    "sessions": [],
-    "size_bytes": 12467037085,
+    "sessions": [
+      "20191212",
+      "20191206",
+      "20191213",
+      "20191115",
+      "20191015",
+      "20190930",
+      "20191211",
+      "20191216",
+      "20191210",
+      "20191209",
+      "20191204",
+      "20191202",
+      "20191125",
+      "20191122",
+      "20191112",
+      "20191025",
+      "20191007",
+      "20190925"
+    ],
+    "size_bytes": 16087882081,
     "source": "openneuro",
     "study_design": "MEG study",
     "study_domain": "Auditory word recognition",
@@ -12059,9 +12078,9 @@
     ],
     "timestamps": {
       "dataset_created_at": "2022-09-23T14:41:43.515Z",
-      "dataset_modified_at": "2022-09-23T20:02:38.000Z"
+      "dataset_modified_at": "2026-08-18T14:50:54.000Z"
     },
-    "total_files": 135
+    "total_files": 223
   },
   {
     "associated_paper_doi": "",
@@ -45548,7 +45567,7 @@
       "Shibo Zhou"
     ],
     "data_processed": false,
-    "dataset_doi": "doi:10.18112/openneuro.ds007420.v1.0.4",
+    "dataset_doi": "doi:10.18112/openneuro.ds007420.v1.0.5",
     "dataset_id": "ds007420",
     "datatypes": "nirs",
     "demographics": {
@@ -45560,7 +45579,7 @@
       "nirs"
     ],
     "external_links": {
-      "source_url": "https://openneuro.org/datasets/ds007420/versions/1.0.4"
+      "source_url": "https://openneuro.org/datasets/ds007420/versions/1.0.5"
     },
     "funding": [
       "NIH BRAIN Initiative (Grant No. 1U01EB029856-01)",
@@ -45568,28 +45587,29 @@
     ],
     "license": "CC0",
     "name": "Open-access Multi-Distance fNIRS Dataset Generated During Ball-Squeezing and Motion-Artifact Induction Tasks",
+    "readme": "# Multi-Distance fNIRS Dataset Generated During Ball-Squeezing and Motion-Artifact Induction Tasks\n\nMulti-distance fNIRS recordings from 12 healthy adults performing a resting-state task, ball-squeezing tasks, and a motion-artifact induction task.\n\n## Authors\n\nShibo Zhou, De'Ja Rogers, David A. Boas, Meryem A. Yücel, Yuanyuan Gao\n\n## Citation\n\nZhou, S., Rogers, D., Boas, D. A., Yücel, M. A., & Gao, Y. Multi-Distance fNIRS Dataset Generated During Ball-Squeezing and Motion-Artifact Induction Tasks. OpenNeuro. [Dataset] doi:10.18112/openneuro.ds007420.v1.0.5\n\n## License\n\nCC0\n\n## Participants\n\n12 healthy young adults (6 female, 6 male; 23.2 ± 5.2 years; range 18–37 years).\n\n## Acknowledgements\n\nThis work was supported by the NIH BRAIN Initiative (Grant No. 1U01EB029856-01). We thank all the participants and research staff involved in the data collection and analysis.\n",
     "recording_modality": "nirs",
     "senior_author": "Yuanyuan Gao",
     "sessions": [
-      "02",
+      "01",
       "03",
-      "01"
+      "02"
     ],
-    "size_bytes": 587945873,
+    "size_bytes": 587946787,
     "source": "openneuro",
     "study_design": "Event-related design",
     "study_domain": " multi-distance fNIRS, DOT, ball squeezing, resting, motion artifact generation",
     "tasks": [
-      "BallSqueezing",
-      "BallSqueeze",
+      "Rest",
       "Motion",
-      "Rest"
+      "BallSqueezing",
+      "BallSqueeze"
     ],
     "timestamps": {
       "dataset_created_at": "2026-02-14T18:09:31.926Z",
-      "dataset_modified_at": "2026-06-25T17:45:09.000Z"
+      "dataset_modified_at": "2026-08-18T20:54:22.000Z"
     },
-    "total_files": 460
+    "total_files": 461
   },
   {
     "associated_paper_doi": "10.1371/journal.pone.0343722",
