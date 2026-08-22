@@ -52082,6 +52082,90 @@
     "total_files": 277
   },
   {
+    "associated_paper_doi": "",
+    "authors": [
+      "Huang Jinfeng",
+      "Kangqiao Liu",
+      "Li Zhongjie",
+      "Jin Yongdong"
+    ],
+    "bids_version": "1.7.0",
+    "contact_info": [
+      "Jinfeng HUANG"
+    ],
+    "data_processed": false,
+    "dataset_doi": "doi:10.18112/openneuro.ds008465.v1.0.0",
+    "dataset_id": "ds008465",
+    "datatypes": "eeg",
+    "demographics": {
+      "age_max": 30,
+      "age_min": 19,
+      "ages": [
+        23,
+        28,
+        19,
+        30,
+        27,
+        22,
+        24,
+        26,
+        29,
+        20,
+        21,
+        25,
+        30,
+        23,
+        28,
+        27,
+        22,
+        19,
+        26,
+        24,
+        25,
+        30,
+        29,
+        28,
+        20,
+        21,
+        23,
+        22,
+        24,
+        26
+      ],
+      "species": "Human",
+      "subjects_count": 30
+    },
+    "experimental_modalities": [
+      "eeg"
+    ],
+    "external_links": {
+      "source_url": "https://openneuro.org/datasets/ds008465/versions/1.0.0"
+    },
+    "funding": [
+      "NeuralEcho Technology Co., Ltd."
+    ],
+    "license": "CC0",
+    "name": "NeuralEcho MACS high-density communication-related EEG dataset",
+    "readme": "NeuralEcho MACS high-density communication-related EEG dataset\n================================================================\n\nOverview\n--------\nThis dataset contains high-density EEG recordings from 30 healthy,\nright-handed, native Chinese-speaking adults. Participants performed imagined\nand executed vocalization and writing tasks involving four Chinese strokes\n(heng, shu, pie and na) and four English letters (a, b, c and d).\n\nExperimental design\n-------------------\nEach participant completed eight runs of 64 trials. The factorial design\ncrossed task mode (motor imagery or motor execution), action (read/speak or\nwrite), script (Chinese or English) and token identity, yielding 32 event-coded\nconditions and 15,360 task events.\n\nData organization\n-----------------\nThe BIDS root contains BrainVision EEG data and metadata. Proprietary Neuroscan\nsource recordings are under sourcedata/. EEGLAB preprocessing derivatives and\nsubject-level machine-learning exports are under derivatives/. Those two\ndirectories are intentionally listed in .bidsignore because they are shared\nfor reuse but are not part of raw-BIDS validation.\n\nElectrode coordinates and reference\n-----------------------------------\nThe electrodes.tsv files contain a shared 127-channel cap-layout template\nderived from Code/127cn.csv. Coordinates are expressed in millimetres using\nthe EEGLAB ALS convention: positive x points anteriorly, positive y points to\nthe participant's left and positive z points superiorly. These are template\ncoordinates repeated across participants, not participant-specific digitized\npositions. Trigger is an acquisition channel and is therefore excluded from\nelectrodes.tsv. The continuous recordings used the bilateral mastoid\nelectrodes M1 and M2 as the EEG reference.\n\nAuthors and contributors\n------------------------\nHuang Jinfeng; Kangqiao Liu; Li Zhongjie; Jin Yongdong.\nData were collected and curated collaboratively by Tianjin University,\nShenzhen University and NeuralEcho Technology Co., Ltd.\n\nReferences\n----------\nAppelhoff, S. et al. MNE-BIDS: Organizing electrophysiological data into the\nBIDS format and facilitating their analysis. Journal of Open Source Software\n4, 1896 (2019). https://doi.org/10.21105/joss.01896\n\nPernet, C. R. et al. EEG-BIDS, an extension to the brain imaging data structure\nfor electroencephalography. Scientific Data 6, 103 (2019).\nhttps://doi.org/10.1038/s41597-019-0104-8\n",
+    "recording_modality": "eeg",
+    "senior_author": "Jin Yongdong",
+    "sessions": [
+      "exp1"
+    ],
+    "size_bytes": 3069949,
+    "source": "openneuro",
+    "study_design": "Cross-sectional, within-participant 2 x 2 x 2 x 4 factorial design. Thirty healthy, right-handed, native Chinese-speaking adults each completed eight runs of 64 trials. Factors were task mode (imagery or execution), action (vocalization or writing), script (Chinese or English), and token identity. During executed-writing trials, participants traced the prompted symbol with a finger on the tabletop; trajectories were not recorded.",
+    "study_domain": "Communication-related EEG; brain-computer interfaces; imagined and overt speech; imagined and executed finger writing; motor imagery and execution; Chinese strokes and English letters",
+    "tasks": [
+      "comm"
+    ],
+    "timestamps": {
+      "dataset_created_at": "2026-07-24T03:44:23.604Z",
+      "dataset_modified_at": "2026-08-07T02:47:13.000Z"
+    },
+    "total_files": 1776
+  },
+  {
     "authors": [
       ""
     ],
