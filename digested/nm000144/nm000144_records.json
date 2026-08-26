@@ -1,0 +1,2223 @@
+{
+  "dataset": "nm000144",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:34.546013+00:00",
+  "record_count": 18,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_events.tsv",
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_events.json",
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64469888--cdf1dab73b7e63d2eeb6e28ff34d708d7e64da9ed979152194076e416a37e4ca.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714605,
+      "duration_seconds": 2791.42578125,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2791.42578125,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64492976--053a5705a1bf206ae57d18d19a2023bbaa93b99448d036714f8461361b72fdde.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714809,
+      "duration_seconds": 2792.22265625,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2792.22265625,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_events.tsv",
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_events.json",
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64377536--1710598393c04b0b5429d854afa9b388f4a576d1601fea11e4838e79764ec413.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 713494,
+      "duration_seconds": 2787.0859375,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2787.0859375,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64539152--e913ebfca46f45b022cf8beb776a13032ac4cce6ae78a61252feb5427f17a09d.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 715464,
+      "duration_seconds": 2794.78125,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2794.78125,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_events.tsv",
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_events.json",
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s55743977--44412797df1594ca1a76d49b781e0377810aa8679617bda0a4991d246191ffe6.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 618143,
+      "duration_seconds": 2414.62109375,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2414.62109375,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64469888--53d2b69f07b50bde949c36fdca602681bc734d29f382d8d4299fb3681e4835f5.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714700,
+      "duration_seconds": 2791.796875,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2791.796875,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_events.tsv",
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_events.json",
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64562240--d3af552373df8f77b09d977a79ece5f7d75795d5a512461fc43ee6b93f083651.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 715773,
+      "duration_seconds": 2795.98828125,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2795.98828125,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64654592--44888f845d24d291fa9c8ecdc2fb63baae84557c4a860644ed68b8b1e244f747.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 716636,
+      "duration_seconds": 2799.359375,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2799.359375,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_events.tsv",
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_events.json",
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64346087--75faee53f93b2824406c7142a3a2261d563166a56f5e4484101b5681573741d8.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 713267,
+      "duration_seconds": 2786.19921875,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2786.19921875,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64660874--5be34cace28e045f0217a7297f9d6f1aff43c7f50d989da19ee8abdf2883d95a.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 716815,
+      "duration_seconds": 2800.05859375,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2800.05859375,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_events.tsv",
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_events.json",
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s56504528--fc26b96c6562e97f8bbab74d91a9c278282db38f300cf9bcef4809bc82f11bd6.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 626369,
+      "duration_seconds": 2446.75390625,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2446.75390625,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64461512--dc3bbebff20d7bc0ae64b6fad5904395faa5a1d88f8ddb8f7fe451bc972d6989.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714539,
+      "duration_seconds": 2791.16796875,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2791.16796875,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_events.tsv",
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_events.json",
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64423712--a4d3335e5f6a483559a7e9ba012857e690b286e0044be8441893cc6b9207d823.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714036,
+      "duration_seconds": 2789.203125,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2789.203125,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64423712--f91326c7ccf3c6060ddacfc03a69c477603df60ace7c71c71d8eb08f94028d84.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714138,
+      "duration_seconds": 2789.6015625,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2789.6015625,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_events.tsv",
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_events.json",
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64008128--a39aa0b476b54f7683fcea12a98b376b325034da2136c9db2f53ba0e1cafbcaf.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 709497,
+      "duration_seconds": 2771.47265625,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2771.47265625,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64239008--6e51ecfb95f55c32986217defbc1f7586f9b9cf867efd94f102b9a68fb616b20.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 712169,
+      "duration_seconds": 2781.91015625,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2781.91015625,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_events.tsv",
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_events.json",
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s64423712--df35239324197ea2285282ecf2ee23f5ccf863ff8dfda6064c9e3f4159528399.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 714217,
+      "duration_seconds": 2789.91015625,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2789.91015625,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    },
+    {
+      "dataset": "nm000144",
+      "data_name": "nm000144_sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000144/sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000144",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s64383890--8e4055edce4287c04ed54333eeb3772f9e1bf2649b99aa88a01a3017b4ca5c5b.bdf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC3",
+        "FCz",
+        "FC4",
+        "T3",
+        "C3",
+        "Cz",
+        "C4",
+        "T4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "PO3",
+        "PO4",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 30,
+      "ntimes": 713807,
+      "duration_seconds": 2788.30859375,
+      "digested_at": "2026-08-26T11:01:34.546013+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "stroke and spinal cord injury",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left and right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filter, notch filter, artifact rejection"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institut Guttmann",
+      "recording_type": "continuous",
+      "recording_duration": 2788.30859375,
+      "eeg_ground": "left and right mastoid",
+      "montage_hash": "af53656d05a2f313"
+    }
+  ]
+}

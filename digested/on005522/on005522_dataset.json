@@ -1,0 +1,150 @@
+{
+  "dataset_id": "on005522",
+  "name": "Spatial Navigation Memory of Object Locations",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005522-blue)](https://doi.org/10.82901/nemar.on005522)\n### Spatial Navigation Memory of Object Locations\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a spatial navigation memory task.  The experiment consists of participants encoding object locations during a guided navigation learning phase and then recalling the object locations during a self-navigation test phase.  The data was collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University of Pennsylvania.\nEach session contains 50 trials (2 practice and 48 experimental), and each overall \"trial\" contains 2 learning trials followed by 1 test trial with the same object at the same location.  For learning trial 1, participants are placed at a random location at a given radius from the object.  They are smoothly turned to face the object (1 s), automatically driven to the object location (3 s), and then paused at the object (1 s).  5 seconds later, participants are placed at a new random location and the process repeats for learning trial 2.  On test trials, participants are placed at a random location and orientation, with the object invisible.  They navigate to where they believe the object was located and press a button to record their response.  The environment for all sessions and trials is 64.8 x 36, with coordinates: x = (-32.4, 32.4), y = (-18.0, 18.0).\nThe trials are blocked by a counterbalanced scheme, so for every trial there is another trial with reflected object position, starting position, and orientation.  Each block contains 2 trials (i.e., 2 x (2 learning, 1 test)), with object (X, Y) and starting locations (x, y):\n- **(X1, Y1)**\n    - **(x1', y1')**\n    - **(x1'', y1'')**\n    - **(x1''', y1''')**\n- **(X2, Y2)**\n    - **(x2', y2')**\n    - **(x2'', y2'')**\n    - **(x2''', y2''')**\nThe paired block contains 2 trials in the opposite order with object and starting locations:\n- **(-X2, -Y2)**\n    - **(-x2', -y2')**\n    - **(-x2'', -y2'')**\n    - **(-x2''', -y2''')**\n- **(-X1, -Y1)**\n    - **(-x1', -y1')**\n    - **(-x1'', -y1'')**\n    - **(-x1''', -y1''')**\n#### To Note\n* The iEEG recordings are labeled either \"monopolar\" or \"bipolar.\"  The monopolar recordings are referenced (typically a mastoid reference), but should always be re-referenced before analysis.  The bipolar recordings are referenced according to a paired scheme indicated by the accompanying bipolar channels tables.\n* Each subject has a unique montage of electrode locations.  MNI and Talairach coordinates are provided when available.\n* Recordings done with the Blackrock system are in units of 250 nV, while recordings done with the Medtronic system are estimated through testing to have units of 0.1 uV.  We have completed the scaling to provide values in V.\n#### Contact\nFor questions or inquiries, please contact sas-kahana-sysadmin@sas.upenn.edu.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Haydn G. Herrema",
+    "Michael J. Kahana"
+  ],
+  "funding": [
+    "DARPA RAM: N66001-14-2-4032"
+  ],
+  "dataset_doi": "10.82901/nemar.on005522",
+  "associated_paper_doi": null,
+  "tasks": [
+    "YC1"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "total_files": 176,
+  "size_bytes": 115392340076,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 55,
+    "ages": [
+      48,
+      20,
+      55,
+      20,
+      30,
+      36,
+      47,
+      54,
+      47,
+      34,
+      38,
+      32,
+      36,
+      19,
+      24,
+      23,
+      19,
+      31,
+      29,
+      47,
+      34,
+      28,
+      58,
+      51,
+      39,
+      21,
+      52,
+      20,
+      24,
+      19,
+      23,
+      34,
+      44,
+      36,
+      21,
+      23,
+      23,
+      56,
+      34,
+      39,
+      45,
+      39,
+      26,
+      60,
+      24,
+      50,
+      47,
+      21,
+      49,
+      20,
+      36,
+      34,
+      26,
+      26,
+      29,
+      31,
+      40,
+      23
+    ],
+    "age_min": 19,
+    "age_max": 60,
+    "age_mean": 34.37931034482759,
+    "species": null,
+    "sex_distribution": {
+      "f": 33,
+      "m": 25
+    },
+    "handedness_distribution": {
+      "r": 46,
+      "l": 8,
+      "a": 4
+    }
+  },
+  "senior_author": "Michael J. Kahana",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:11:38.871784+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-27 07:10:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005522",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005522",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank our collaborators who have helped in the collection of this data: Hospital of the University of Pennsylvania, Thomas Jefferson University Hospital, Dartmouth-Hitchcock Medical Center, Mayo Clinic, Columbia University Hospital, Emory University Hospital, University of Texas Southwestern Medical Center, University of Washington Medical Center.",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005522.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "a65e7603f7724e1d8e7569582c329ff49765faf387f43a2b800541abd3c022b6"
+}

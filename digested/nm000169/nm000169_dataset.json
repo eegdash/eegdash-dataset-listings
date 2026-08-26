@@ -1,0 +1,107 @@
+{
+  "dataset_id": "nm000169",
+  "name": "BNCI 2014-008 P300 dataset (ALS patients)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000169-blue)](https://doi.org/10.82901/nemar.nm000169)\n# BNCI 2014-008 P300 dataset (ALS patients)\nBNCI 2014-008 P300 dataset (ALS patients).\n## Dataset Overview\n- **Code**: BNCI2014-008\n- **Paradigm**: p300\n- **DOI**: 10.3389/fnhum.2013.00732\n- **Subjects**: 8\n- **Sessions per subject**: 1\n- **Events**: Target=2, NonTarget=1\n- **Trial interval**: [0, 1.0] s\n- **File format**: Unknown\n- **Data preprocessed**: True\n## Acquisition\n- **Sampling rate**: 256.0 Hz\n- **Number of channels**: 8\n- **Channel types**: eeg=8\n- **Channel names**: Fz, Cz, Pz, Oz, P3, P4, PO7, PO8\n- **Montage**: 10-10\n- **Hardware**: g.MOBILAB\n- **Software**: BCI2000\n- **Reference**: right earlobe\n- **Ground**: left mastoid\n- **Sensor type**: active electrodes\n- **Line frequency**: 50.0 Hz\n- **Online filters**: 0.1-10 Hz bandpass, 50 Hz notch\n- **Electrode type**: g.Ladybird\n- **Electrode material**: Ag/AgCl\n## Participants\n- **Number of subjects**: 8\n- **Health status**: ALS patients\n- **Clinical population**: amyotrophic lateral sclerosis\n- **Age**: mean=58.0, std=12.0, min=40, max=72\n- **Gender distribution**: M=5, F=3\n- **BCI experience**: naive\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: p300\n- **Number of classes**: 2\n- **Class labels**: Target, NonTarget\n- **Study design**: P300 speller with 6x6 matrix for copy-spelling task in ALS patients\n- **Feedback type**: visual\n- **Stimulus type**: row-column intensification\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: synchronous\n- **Mode**: online\n- **Training/test split**: True\n- **Instructions**: Copy spell seven predefined words of five characters each by focusing attention on desired letters\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Number of targets**: 36\n- **Number of repetitions**: 10\n- **Inter-stimulus interval**: 125.0 ms\n- **Stimulus onset asynchrony**: 250.0 ms\n## Data Structure\n- **Trials**: 35\n- **Blocks per session**: 7\n- **Trials context**: per subject (7 words, 5 characters each)\n## Preprocessing\n- **Data state**: preprocessed\n- **Preprocessing applied**: True\n- **Steps**: bandpass filtering, notch filtering, artifact rejection, baseline correction\n- **Highpass filter**: 0.1 Hz\n- **Lowpass filter**: 10.0 Hz\n- **Bandpass filter**: {'low_cutoff_hz': 0.1, 'high_cutoff_hz': 10.0}\n- **Notch filter**: [50] Hz\n- **Filter type**: Butterworth\n- **Filter order**: 4\n- **Artifact methods**: amplitude threshold rejection\n- **Re-reference**: right earlobe\n- **Epoch window**: [0.0, 1.0]\n- **Notes**: Epochs with peak amplitude >70 \u03bcV or <-70 \u03bcV were rejected. Baseline correction based on 200 ms preceding each epoch.\n## Signal Processing\n- **Classifiers**: SWLDA\n- **Feature extraction**: temporal features, decimation\n## Cross-Validation\n- **Method**: 7-fold\n- **Folds**: 7\n- **Evaluation type**: within_subject\n## Performance (Original Study)\n- **Accuracy**: 97.5%\n- **Binary Accuracy Offline**: 87.4\n- **P300 Amplitude Mean Uv**: 3.3\n## BCI Application\n- **Applications**: communication\n- **Environment**: laboratory\n- **Online feedback**: True\n## Tags\n- **Pathology**: ALS\n- **Modality**: P300\n- **Type**: ERP\n## Documentation\n- **DOI**: 10.3389/fnhum.2013.00732\n- **License**: CC-BY-NC-ND-4.0\n- **Investigators**: Angela Riccio, Luca Simione, Francesca Schettini, Alessia Pizzimenti, Maurizio Inghilleri, Marta Olivetti Belardinelli, Donatella Mattia, Febo Cincotti\n- **Senior author**: Febo Cincotti\n- **Contact**: a.riccio@hsantalucia.it\n- **Institution**: Fondazione Santa Lucia\n- **Department**: Neuroelectrical Imaging and BCI Laboratory\n- **Address**: Via Ardeatina, 306, 00179 Rome, Italy\n- **Country**: Italy\n- **Repository**: BNCI Horizon\n- **Publication year**: 2013\n- **Funding**: Italian Agency for Research on ALS-ARiSLA project 'Brindisys'; FARI project C26I12AJZZ at the Sapienza University of Rome\n- **Ethics approval**: Fondazione Santa Lucia ethic committee\n- **Keywords**: brain computer interface, amyotrophic lateral sclerosis, P300, attention, working memory\n## References\nRiccio, A., Simione, L., Schettini, F., Pizzimenti, A., Inghilleri, M., Belardinelli, M. O., & Mattia, D. (2013). Attention and P300-based BCI performance in people with amyotrophic lateral sclerosis. Frontiers in human neuroscience, 7, 732. https://doi.org/10.3389/fnhum.2013.00732\nNotes\n.. note::\n``BNCI2014_008`` was previously named ``BNCI2014008``. ``BNCI2014008`` will be removed in version 1.1.\n.. versionadded:: 0.4.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "Angela Riccio",
+    "Luca Simione",
+    "Francesca Schettini",
+    "Alessia Pizzimenti",
+    "Maurizio Inghilleri",
+    "Marta Olivetti Belardinelli",
+    "Donatella Mattia",
+    "Febo Cincotti"
+  ],
+  "funding": [
+    "Italian Agency for Research on ALS-ARiSLA project 'Brindisys'",
+    "FARI project C26I12AJZZ at the Sapienza University of Rome"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000169",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 8,
+  "size_bytes": 252199678,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      55,
+      59,
+      43,
+      75,
+      60,
+      40,
+      61,
+      72
+    ],
+    "age_min": 40,
+    "age_max": 75,
+    "age_mean": 58.125,
+    "species": null,
+    "sex_distribution": {
+      "m": 5,
+      "f": 3
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Febo Cincotti",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:47.918823+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:16:10"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000169",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000169",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Fondazione Santa Lucia ethic committee"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnhum.2013.00732"
+    }
+  ],
+  "ingestion_fingerprint": "e608bcb02e8b4f938759a6c213e434899779648311d15a02f5e43b2a59e7b80e"
+}

@@ -1,0 +1,1476 @@
+{
+  "dataset": "on004348",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:06:40.632136+00:00",
+  "record_count": 18,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-001_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.set": "SHA256E-s10104048--f9f14b59c8f022aa5a5119f5343a5ed89d6cc939b62d95c711e332f0cd72af40.set",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-wake_eeg.fdt": "SHA256E-s342937600--f9dfa1fdc84366905f28f6234d79a99de0e406f26c93870ab6eb89f4ac2e8d15.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 2521600,
+      "duration_seconds": 12608.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 12607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-001_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_channels.tsv",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_events.tsv",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_events.json",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.json",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.set": "SHA256E-s22248016--6f89be751e8c047bd1cd707fbad447eceef332110357b0c280e06127bb649949.set",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_eeg.fdt": "SHA256E-s755833600--db8ac3722601b508f45810d820fdbad0da4a8a4b8ef11c1d30d9dec52931eb12.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 2521599,
+      "duration_seconds": 12607.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 12607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-007_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.set": "SHA256E-s2904024--1afffdb7604d9fe0df7497eb42fccdfeefd39df462b06bfb13c669b18dda7cf0.set",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-wake_eeg.fdt": "SHA256E-s98137600--34022e3ba49949276d83e9972034bf0203de5ae533d55097fff2addface8ab2b.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 721600,
+      "duration_seconds": 3608.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-007_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_channels.tsv",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_events.tsv",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_events.json",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.json",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.set": "SHA256E-s23688016--7b34e2b70cd50124828e9f7a083b712b10041f669d8434f53fafac48c69a8e7c.set",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_eeg.fdt": "SHA256E-s804793600--d27e371b9b99dc4353679fbc2fb9418697dc4de08f04179cece8d3179896d322.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 721599,
+      "duration_seconds": 3607.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-009_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "009",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "009",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_channels.tsv",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_events.tsv",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_events.json",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.json",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.set": "SHA256E-s9598416--3331d74d68147f66eb5d6d71ef15f6e044fea5b3406fe1ab044b75d36d42c0f6.set",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_eeg.fdt": "SHA256E-s325747200--4a4fec7c212416d2e90d6a3d8eb9eabde6ed2c2d9553c29dce447ff7e5d16b4c.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 721599,
+      "duration_seconds": 3607.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-009_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "009",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "009",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.set": "SHA256E-s2904016--98d820eccfca4e33053dcdefa06687261f3cc90cb8ac4a40af7ac5692d725c8b.set",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-wake_eeg.fdt": "SHA256E-s98137600--862b5994d09aa7eb38cd156670459b0b65bbc9f950bfd5c625a0746af9c4631e.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 721600,
+      "duration_seconds": 3608.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-004_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_channels.tsv",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_events.tsv",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_events.json",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.json",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.set": "SHA256E-s28030416--6ce2d1d44ba23c6b61e72e61d74326563936601b2f155ed4fc9e9d1941657efb.set",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_eeg.fdt": "SHA256E-s952435200--c6c0ba774c35121896ac4d10aea1a714ec108e719a59d0c006470bc5e95ea09d.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 721599,
+      "duration_seconds": 3607.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-004_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.set": "SHA256E-s2904024--feb07207c0390e1deb16e33b6105133a76d04ee17341b048fbc95a43676698e0.set",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-wake_eeg.fdt": "SHA256E-s98137600--ca9acf9f8b21443c0adaba4697ac9f1dd6e6b4e72cc8c427abb58055c2a00902.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 721600,
+      "duration_seconds": 3608.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-002_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "002",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "002",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_channels.tsv",
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_events.tsv",
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_events.json",
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.json",
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.set": "SHA256E-s807435760--1b285435193fef58051fc42594eaf76bf5599957d064154b8d8e40718197780d.set",
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-sleep_eeg.fdt": "SHA256E-s98899200--9738b4518f5e07b64f9be5ffbe233055d65cd13f99f337613f69a20772ba3a4f.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 727199,
+      "duration_seconds": 3635.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3635.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-002_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "002",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "002",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.set": "SHA256E-s2926432--9457598a122742bdcda12e9f2de40f7fd1eb5c8a2d01fe676058b97f7d9e79de.set",
+          "sub-002/ses-001/eeg/sub-002_ses-001_task-wake_eeg.fdt": "SHA256E-s98899200--9738b4518f5e07b64f9be5ffbe233055d65cd13f99f337613f69a20772ba3a4f.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 727200,
+      "duration_seconds": 3636.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3635.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-008_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.set": "SHA256E-s11544024--8ba78525e36caf4790f3fb5adec568ce5713713c11e94f33594f2ca8e6391cc1.set",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-wake_eeg.fdt": "SHA256E-s391897600--4f3767a73ddba8a3d0f18003059268810b77a39a1f38799603b99f56748a91b9.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 2881600,
+      "duration_seconds": 14408.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 14407.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-008_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_channels.tsv",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_events.tsv",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_events.json",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.json",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.set": "SHA256E-s19227216--b538f8eb8e42259b3638da51ad2db7fc6db5481bc3a3bb3368faf4b0b776d4b5.set",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_eeg.fdt": "SHA256E-s653126400--9b9a0c1599ce0b152b667d310bdb958020ea60d1c2e436ebb938f765d5eefcc5.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 2881599,
+      "duration_seconds": 14407.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 14407.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-005_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "005",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "005",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_channels.tsv",
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_events.tsv",
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_events.json",
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.json",
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.set": "SHA256E-s24984016--9419b4031652991878e7b9d8ab8d2633f54a5c18709264c1e4cb696159762ab6.set",
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-sleep_eeg.fdt": "SHA256E-s848857600--5cc62b32252e9e0f112a788a82b168819504a59af17e2e778900738fe12f1927.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 721599,
+      "duration_seconds": 3607.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-005_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "005",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "005",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.set": "SHA256E-s2904024--09eb32ca0f96f73da8edf18ccb5fb6fa49c1b7b74ce93d68eae0d8fbf6061e07.set",
+          "sub-005/ses-001/eeg/sub-005_ses-001_task-wake_eeg.fdt": "SHA256E-s98137600--625882f2eb70b3c28311798b320f422a7135d64f0c2988f2bc8688792dc06d8f.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 721600,
+      "duration_seconds": 3608.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-003_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_channels.tsv",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_events.tsv",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_events.json",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.json",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.set": "SHA256E-s918875760--a02b781983678c55ec0b75e778ff505646ee18cb6f20eb30a0a8e28787e620d5.set",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_eeg.fdt": "SHA256E-s98137600--6b1499766de9c54cbe7c939f2eb509a648dcd2c73f21813b007a03f553dd69c7.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 721599,
+      "duration_seconds": 3607.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-003_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.set": "SHA256E-s2904024--6c2ba696e4548947388011bb69aedb68a1b9771ded26c5836fcc845ad3112a2a.set",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-wake_eeg.fdt": "SHA256E-s98137600--6b1499766de9c54cbe7c939f2eb509a648dcd2c73f21813b007a03f553dd69c7.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 721600,
+      "duration_seconds": 3608.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "m"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 3607.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-006_ses-001_task-sleep_eeg.set",
+      "bidspath": "on004348/sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.set",
+      "bids_relpath": "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_channels.tsv",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_events.tsv",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_events.json",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.json",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.set": "SHA256E-s18142416--0211aa36997d810c372c00a89b0d62e009593411569509c4ecdfdab0c77df98e.set",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_eeg.fdt": "SHA256E-s616243200--c5c03cd4a7a8b228036cc58d2e3295a211b1b61c87cf479d65f32d586dfe61a2.fdt"
+        }
+      },
+      "ch_names": [
+        "Event",
+        "C3",
+        "O1",
+        "A1",
+        "F3",
+        "LOC",
+        "ELA",
+        "ELE",
+        "ELI",
+        "ERA",
+        "ERG",
+        "ERE",
+        "ERI",
+        "ELB1",
+        "C4",
+        "O2",
+        "A2",
+        "F4",
+        "ROC",
+        "ELB",
+        "ELG",
+        "ELK",
+        "ERB",
+        "ERK",
+        "ERB1",
+        "CHIN12",
+        "DIF2",
+        "DIF3",
+        "DIF4",
+        "DC1",
+        "DC2",
+        "DC3",
+        "DC4",
+        "OSAT"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 2881599,
+      "duration_seconds": 14407.995,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 14407.995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on004348",
+      "data_name": "on004348_sub-006_ses-001_task-wake_eeg.set",
+      "bidspath": "on004348/sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.set",
+      "bids_relpath": "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": "001",
+        "task": "wake",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on004348",
+        "raw_key": "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.set",
+        "dep_keys": [
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.set": "SHA256E-s11544024--83e01971c191d3ee25970b4b0953cec59254b017a0dda55add417e16b24f5724.set",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-wake_eeg.fdt": "SHA256E-s391897600--e0f8500d9b0d3da86567f4c88a7bcff4a76e608e26e2d624d8f973f252f86c5d.fdt"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": null,
+      "nchans": null,
+      "ntimes": 2881600,
+      "duration_seconds": 14408.0,
+      "digested_at": "2026-08-26T11:06:40.632136+00:00",
+      "participant_tsv": {
+        "gender": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": null,
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "Aarhus University",
+      "recording_duration": 14407.995,
+      "montage_hash": null
+    }
+  ]
+}

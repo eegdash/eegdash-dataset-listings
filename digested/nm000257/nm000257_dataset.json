@@ -1,0 +1,92 @@
+{
+  "dataset_id": "nm000257",
+  "name": "Imagined speech EEG dataset \u2014 short words condition (Nguyen et al. 2017)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000257-blue)](https://doi.org/10.82901/nemar.nm000257)\n# Imagined speech EEG dataset \u2014 short words condition (Nguyen et al. 2017)\n## Overview\nThis dataset comprises preprocessed EEG recordings from 6 healthy participants performing imagined speech tasks with three short word conditions (out, in, up). The study employed a motor imagery paradigm with auditory and visual cueing, yielding 5,400 trials analyzed using Riemannian manifold methods and relevance vector machines for brain-computer interface applications.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 6 |\n| Channels | 64 |\n| Classes | 3 |\n| Trial length | 5 s |\n| Sampling frequency | 256 Hz |\n| Sessions | 1 |\n| Total trials | 1800 |\n| Paradigm | MotorImagery |\n## Data Collection Methods\nEEG data were acquired at 256 Hz using 64 channels (60 EEG, 4 EOG) with a BrainProducts ActiCHamp system. Preprocessing included bandpass filtering (8-70 Hz, 5th order Butterworth), 60 Hz notch filtering, EOG artifact removal via adaptive filtering. Trials were 2 seconds in duration, extracted from a 5-second post-stimulus interval following an auditory beep sequence.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Nguyen2017_S\nfrom moabb.paradigms import MotorImagery\nparadigm = MotorImagery()\ndataset = Nguyen2017_S()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Nguyen2017_S.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.1088/1741-2552/aa8235](https://doi.org/10.1088/1741-2552/aa8235)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "other-open",
+  "authors": [
+    "Chuong H. Nguyen",
+    "George K. Karavas",
+    "Panagiotis Artemiadis"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000257",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 6,
+  "size_bytes": 2042956079,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 6,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Panagiotis Artemiadis",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:16.451362+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:19:46"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000257",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000257",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://zenodo.org/records/19502794",
+    "10.1088/1741-2552/aa8235"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1088/1741-2552/aa8235",
+      "URL": "https://zenodo.org/records/19502794"
+    },
+    {
+      "DOI": "doi:10.1088/1741-2552/aa8235"
+    }
+  ],
+  "ingestion_fingerprint": "a56c6f1c73f4d6ad5eaf4d156c533447084fe413d7e15d0b94c7e85ed7bc4c86"
+}

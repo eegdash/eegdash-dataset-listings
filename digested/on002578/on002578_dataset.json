@@ -1,0 +1,91 @@
+{
+  "dataset_id": "on002578",
+  "name": "Visual Oddball Task (256 channels)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002578-blue)](https://doi.org/10.82901/nemar.on002578)\nData for this selective attention task was collected in 2004\nat the Swartz Center for Computational Neuroscience at UCSD.\nThese datasets are part of a larger corpus of 32-channel data\ncollected a few years prior. The experiment is identical\nalthough the number of channel is larger (256), the electrode\npositions are scanned and the anatomical MRI is provided\n(allowing for precise source localization). See publication\nfor more details.\nRaw data manipulation before export:\n- Fuse all BDF BIOSEMI files and reference to electrode 135 (see loadallbdf_2020.m)\n- Fuse with presentation file information (see loadallbdf_2020.m)\n- Remove spurious events of type 'condition' and '201' (see clean_events.m)\n- Add HED tags (see addHEDTags.m)\n- Convert MRI to NIFTI format (MRIcron) and reorient (MRIcrogl) (see convert_nifti.m)\n## NEMAR curation changes (2026-05-21)\nBIDS validator: 7 errors + 109 warnings \u2192 0 errors + 94 warnings. Raw `.set`/`.fdt` binary payloads unchanged.\n### `participants.tsv`\n- Header had `participant_id` listed twice (`participant_id, gender, participant_id, age`), and the duplicate column repeated the subject ID. Dropped the duplicate so the header is `participant_id, gender, age`. Two data rows now read `sub-001 F 30` and `sub-002 M 30`. Closes the `TSV_COLUMN_HEADER_DUPLICATE`, `TSV_COLUMN_MISSING`, and `PARTICIPANT_ID_MISMATCH` errors.\n### `dataset_description.json`\n- `BIDSVersion`: `\"v1.2.1\"` \u2192 `\"1.8.0\"` (BIDS-canonical, no leading `v`). Closes `UNKNOWN_BIDS_VERSION`.\n- Added `DatasetType: \"raw\"`.\n- Added `GeneratedBy: [{Name: \"nemar-cli\", Version: \"0.8.8\", CodeURL: \"https://github.com/nemar-org/nemar-cli\"}]`.\n### `sub-NNN/eeg/sub-NNN_task-attention_electrodes.tsv` (2 files)\n- `git mv` to `sub-NNN/eeg/sub-NNN_electrodes.tsv` (dropped the `task-` entity \u2014 electrode positions are subject-level, not task-level per BIDS). Closes `EXCESSIVE_ELECTRODE_SPECIFICITY` \u00d72 and dependent `SIDECAR_KEY_RECOMMENDED:TaskName` warnings.\n### `sub-NNN/eeg/sub-NNN_task-attention_coordsystem.json` (2 files)\n- `git mv` to `sub-NNN/eeg/sub-NNN_coordsystem.json` (same rationale). Closes `EXCESSIVE_COORDSYSTEM_SPECIFICITY` \u00d72 and `JSON_SCHEMA_VALIDATION_ERROR:EEGCoordinateSystem` (file contents unchanged; value `\"CTF\"` is a valid BIDS coordinate system once the file is at the subject-level path).\n### `task-attention_events.json` (new, consolidating root sidecar)\n- Created at dataset root, replacing the two byte-identical per-subject `_events.json` files (removed) plus the orphan root `events.json` (also removed). BIDS inheritance carries this single file to both subjects.\n- All time columns (`onset`, `duration`, `response_time`): `\"Units\": \"second\"` \u2192 `\"Units\": \"s\"` (BIDS-canonical SI symbol).\n- Added `sample` column definition (was undocumented).\n- `value` column: removed the obsolete `Levels` block \u2014 the old keys `x11..x55` did not match any cells in `events.tsv`, which is what triggered the `TSV_VALUE_INCORRECT_TYPE` errors on bare numerics like `34` (sub-001 line 249) and `35` (sub-002 line 252). Closes both errors.\n- `value` column: preserved the HED dictionary from the orphan root `events.json` (12 entries: numeric trigger codes 31/33-35/41-45 plus the string classes `Picture`, `Response`, `boundary`) and re-anchored it under `value.HED` to match the actual column name in `events.tsv`. The orphan had nested it under a non-existent column `type`, so the annotations were unreachable; their content is unchanged.\n### Removed files\n- `events.json` (root) \u2014 orphan that nested HED tags under a non-existent column `type`. Salvageable HED entries now live in the new `task-attention_events.json` under `value.HED`. Removing this file also closes the `HED_ERROR:SIDECAR_INVALID` on sub-001.\n- `sub-001/eeg/sub-001_task-attention_events.json`, `sub-002/eeg/sub-002_task-attention_events.json` \u2014 byte-identical to each other; both replaced by the inheriting root sidecar.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Arnaud Delorme",
+    "Scott Makeig"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on002578",
+  "associated_paper_doi": null,
+  "tasks": [
+    "attention"
+  ],
+  "sessions": [],
+  "total_files": 2,
+  "size_bytes": 1429253682,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [
+      30,
+      30
+    ],
+    "age_min": 30,
+    "age_max": 30,
+    "age_mean": 30.0,
+    "species": null,
+    "sex_distribution": {
+      "f": 1,
+      "m": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Scott Makeig",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:13.484949+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-05-26 19:01:43"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on002578",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-attention_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on002578",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6673364/"
+  ],
+  "generated_by": [
+    {
+      "Name": "nemar-cli",
+      "Version": "0.8.8",
+      "CodeURL": "https://github.com/nemar-org/nemar-cli"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds002578.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "ee1dfe669b856f37af332def0180ef07e47b89f5cac36572d8e44e4bd5b92bb8"
+}

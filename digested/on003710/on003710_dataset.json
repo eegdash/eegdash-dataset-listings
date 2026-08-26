@@ -1,0 +1,83 @@
+{
+  "dataset_id": "on003710",
+  "name": "APPLESEED Example Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003710-blue)](https://doi.org/10.82901/nemar.on003710)\nThe APPLESEED Example Dataset\nThis dataset consists of longitudinal EEG recordings from 13 infants at 4, 8, and 12 months of age. Test-retest reliability was assessed at 4 months of age via two appointments (session 1 & 2) that occurred within 1 week of each other. Session 3 data was recorded at 8 months of age and session 4 data was recorded at 12 months of age. Two participants did not return for longitudinal testing at sessions 3 & 4. Therefore, the complete dataset consists of 48 recording sessions, with reliability and longitudinal data (sessions 1-4) for 11 infants (6 F), and reliability data only (sessions 1 & 2) for an additional 2 infants. A channel location file and bin file for analysis are included in the \"code\" directory.\nThis dataset was used to develop and validate the Automated Preprocessing Pipe-Line for the Estimation of Scale-wise Entropy from EEG Data (APPLESEED) and is provided as an example dataset to accompany Puglia, M.H., Slobin, J.S., & Williams, C.L., 2022. The Automated Preprocessing Pipe-Line for the Estimation of Scale-wise Entropy from EEG Data (APPLESEED): Development and validation for use in pediatric populations. Developmental Cognitive Neuroscience, 101163.\nAPPLESEED code is available to download from https://github.com/mhpuglia/APPLESEED.\nThis dataset is part of a larger, ongoing longitudinal study initially described in Puglia, M.H., Krol, K.M., Missana, M., Williams, C.L., Lillard, T.S., Morris, J.P., Connelly, J.J. and Grossmann, T.,  2020. Epigenetic tuning of brain signal entropy in emergent human social behavior. BMC medicine, 18(1), pp.1-24. https://doi.org/10.1186/s12916-020-01683-x.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Cabell L. Williams",
+    "Meghan H. Puglia"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on003710",
+  "associated_paper_doi": null,
+  "tasks": [
+    "appleseedexample"
+  ],
+  "sessions": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "total_files": 48,
+  "size_bytes": 10934711308,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 13,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 7,
+      "f": 6
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Meghan H. Puglia",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:55.522391+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 13:38:53"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003710",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003710",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite: Puglia, M.H., Slobin, J.S., & Williams, C.L., 2021. The Automated Preprocessing Pipe-Line for the Estimation of Scale-wise Entropy from EEG Data (APPLESEED): Development and validation for use in pediatric populations. bioRxiv. https://doi.org/10.1101/2021.07.10.450198., and Puglia, M.H., Krol, K.M., Missana, M., Williams, C.L., Lillard, T.S., Morris, J.P., Connelly, J.J., & Grossmann, T. (2020). Epigenetic tuning of brain signal entropy in emergent human social behavior. BMC medicine, 18(1), 1-24. https://doi.org/10.1186/s12916-020-01683-x",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds003710.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "b51e542d9dd1a739b469a54fd38711ce65bc48fcf1ea1e0ad5721513b3ac9951"
+}

@@ -1,0 +1,82 @@
+{
+  "dataset_id": "on003805",
+  "name": "Multisensory Gamma Entrainment",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003805-blue)](https://doi.org/10.82901/nemar.on003805)\n> Introduction\nThis experiment was designed to study the effects of different sensory modalities (auditory, visual, and audio-visual) on brain entrainment. The EEG data was collected from a young healthy volunteer (23 years old male). Recently, gamma entrainment based on individual (auditory or visual) sensory stimulation as well as simultaneous auditory and visual stimulation have been proposed and shown effective in improving several symptoms of Alzheimer's Diseases (AD) in mice and humans. The aim of this study is to investigate the effect of different modalities in producing synchronized brain oscillations. The task is composed of three epochs of auditory, visual, and audio-visual stimulations respectively, each lasting for 40sec in one session.\n> Auditory stimulation\nTwo speakers were placed in front of the participant 50cm apart from each other and directly pointed at the participant's ears at a distance of 50cm. The sound intensity was set to around -40dB. Before starting the task, the participant was asked if the volume was loud enough and the sound volume was set at a comfortable level for him. The auditory stimulus was a 5kHz carrier tone amplitude modulated with a 40Hz rectangular wave (40Hz On and Off cycles). Since a 40Hz audio signal cannot be easily heard, the 5KHz carrier frequency was used to render the 40Hz pulse train audible. In order to minimize the effect of the carrier sound, the duty cycle of the modulating 40Hz waveform was set to 4% (1ms of the 25ms cycle was On). The auditory stimulant was generated in MATLAB and played as a .wav file. This file consisted of 40sec of stimulus.\n> Visual stimulation\nThe visual stimulant was a 20Hz flickering white light produced by an array of LEDs and reflected from a white wall at 50cm distance in front of the participant (open eyes) with 50% On cycles (duty cycle = 50%) flickering for 40sec. Due to the presence of harmonic frequencies in the pulse train of the stimulus, the 20Hz stimulant is able to drive 40Hz oscillations in the brain.\n> EEG recording and preprocessing\nThe EEG data were recorded using 19 monopolar channels in the standard 10/20 system referenced to the earlobes, sampled at 500Hz, and the impedance of the electrodes was kept under 20kOhm.\nData from all three epochs were preprocessed identically following Makoto's preprocessing pipeline: Highpass filtering above 1Hz; removal of the line noise; rejecting potential bad channels; interpolating rejected channels; re-referencing data to the average; Artifact Subspace Reconstruction (ASR); re-referencing data to the average again; estimating the brain source activity using independent component analysis (ICA); dipole fitting; rejecting bad dipoles (sources) for further cleaning the data. These preprocessing steps were performed using EEGLab MATLAB toolbox.\n> Instructions\nDuring the experiment, participant was seated comfortably with open eyes in a quiet room. He was instructed to relax his body to avoid muscle artifacts and move his head as little as possible. The participant was free to take a rest after each epoch but the EEG cap was not taken off.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.0.0",
+  "license": "CC0",
+  "authors": [
+    "Mojtaba Lahijanian",
+    "Mohammad Javad Sedghizadeh",
+    "Hamid Aghajan"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on003805",
+  "associated_paper_doi": null,
+  "tasks": [
+    "MultisensoryGammaEntrainment"
+  ],
+  "sessions": [],
+  "total_files": 1,
+  "size_bytes": 17784466,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [
+      23
+    ],
+    "age_min": 23,
+    "age_max": 23,
+    "age_mean": 23.0,
+    "species": null,
+    "sex_distribution": {
+      "m": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Hamid Aghajan",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:01.664449+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 17:08:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003805",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003805",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    ""
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003805.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "8cc0e559bed01f2f74c2e5b19b82cf5f75b5b7b285896b481c8a14de6ed471fb"
+}

@@ -1,0 +1,111 @@
+{
+  "dataset_id": "nm000207",
+  "name": "Kojima et al. 2024 (Dataset B) \u2014 Four-class ASME BCI: investigation of the feasibility and comparison of two strategies for multiclassing",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000207-blue)](https://doi.org/10.82901/nemar.nm000207)\n# Class for Kojima2024B dataset management. P300 dataset\nClass for Kojima2024B dataset management. P300 dataset.\n## Dataset Overview\n- **Code**: Kojima2024B\n- **Paradigm**: p300\n- **DOI**: 10.7910/DVN/1UJDV6\n- **Subjects**: 15\n- **Sessions per subject**: 1\n- **Events**: Target=[111, 112, 113, 114], NonTarget=[101, 102, 103, 104]\n- **Trial interval**: [-0.5, 1.2] s\n- **Runs per session**: 12\n- **File format**: BrainVision\n- **Number of contributing labs**: 1\n## Acquisition\n- **Sampling rate**: 1000.0 Hz\n- **Number of channels**: 64\n- **Channel types**: eeg=64, eog=2\n- **Channel names**: AF3, AF4, AF7, AF8, AFz, C1, C2, C3, C4, C5, C6, CP1, CP2, CP3, CP4, CP5, CP6, CPz, Cz, F1, F2, F3, F4, F5, F6, F7, F8, FC1, FC2, FC3, FC4, FC5, FC6, FCz, FT10, FT7, FT8, FT9, Fp1, Fp2, Fz, O1, O2, Oz, P1, P2, P3, P4, P5, P6, P7, P8, PO3, PO4, PO7, PO8, POz, Pz, T7, T8, TP10, TP7, TP8, TP9, hEOG, vEOG\n- **Montage**: standard_1020\n- **Hardware**: BrainAmp\n- **Reference**: right mastoid\n- **Ground**: left mastoid\n- **Sensor type**: EEG\n- **Line frequency**: 50.0 Hz\n- **Cap manufacturer**: EasyCap\n- **Electrode type**: passive Ag/AgCl\n- **Electrode material**: Ag/AgCl\n- **Auxiliary channels**: EOG (2 ch, vertical, horizontal)\n## Participants\n- **Number of subjects**: 15\n- **Health status**: healthy\n- **Age**: mean=22.8, min=21.0, max=24.0\n- **Gender distribution**: male=13, female=2\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: p300\n- **Task type**: auditory stream segregation with oddball\n- **Number of classes**: 2\n- **Class labels**: Target, NonTarget\n- **Trial duration**: 90.0 s\n- **Tasks**: ASME-4stream, ASME-2stream\n- **Study design**: within-subject comparison\n- **Study domain**: auditory BCI\n- **Feedback type**: none\n- **Stimulus type**: auditory tones\n- **Stimulus modalities**: auditory\n- **Primary modality**: auditory\n- **Synchronicity**: synchronous\n- **Mode**: offline\n- **Training/test split**: False\n- **Instructions**: focus selectively on deviant stimuli in one of the streams and count target deviant stimuli\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Number of targets**: 4\n- **Number of repetitions**: 15\n- **Stimulus onset asynchrony**: {'ASME-4stream_overall': 150.0, 'ASME-2stream_overall': 300.0, 'within_stream': 600.0} ms\n## Data Structure\n- **Trials**: {'ASME-4stream': '600 stimuli per trial (4 trials per run, 6 runs)', 'ASME-2stream': '300 stimuli per trial (4 trials per run, 6 runs)'}\n- **Blocks per session**: 12\n- **Block duration**: 90.0 s\n- **Trials context**: 12 runs alternating between ASME-4stream and ASME-2stream, 4 trials per run\n## Preprocessing\n- **Data state**: raw\n- **Preprocessing applied**: False\n## Signal Processing\n- **Classifiers**: Linear Discriminant Analysis (LDA), shrinkage-LDA\n- **Feature extraction**: mean amplitudes in 10 intervals (0.1s non-overlapping, 0-1.0s)\n- **Frequency bands**: analyzed=[0.1, 8.0] Hz\n## Cross-Validation\n- **Method**: 3-fold chronological cross-validation (BCI simulation); 4-fold chronological cross-validation (binary classification)\n- **Evaluation type**: offline simulation\n## Performance (Original Study)\n- **Asme-4Stream Accuracy**: 0.83\n- **Asme-2Stream Accuracy**: 0.86\n## BCI Application\n- **Applications**: communication\n- **Environment**: laboratory\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: auditory\n- **Type**: ERP, P300\n## Documentation\n- **Description**: Four-class ASME BCI investigation comparing two strategies for multiclassing: ASME-4stream (four streams with single target stimulus each) vs ASME-2stream (two streams with two target stimuli each)\n- **DOI**: 10.3389/fnhum.2024.1461960\n- **Associated paper DOI**: 10.3389/fnhum.2024.1461960\n- **License**: CC0-1.0\n- **Investigators**: Simon Kojima, Shin'ichiro Kanoh\n- **Senior author**: Shin'ichiro Kanoh\n- **Contact**: simon.kojima@ieee.org\n- **Institution**: Shibaura Institute of Technology\n- **Department**: Graduate School of Engineering and Science (Simon Kojima); College of Engineering (Shin'ichiro Kanoh)\n- **Address**: Tokyo, Japan\n- **Country**: JP\n- **Repository**: Harvard dataverse\n- **Data URL**: https://doi.org/10.7910/DVN/1UJDV6\n- **Publication year**: 2024\n- **Funding**: JSPS KAKENHI (Grant Number JP23K11811 to Shin'ichiro Kanoh)\n- **Ethics approval**: Review Board on Bioengineering Research Ethics of the Shibaura Institute of Technology\n- **Keywords**: brain-computer interface, electroencephalogram, event-related potential, auditory scene analysis, stream segregation, machine learning, NASA-TLX\n## Abstract\nThe ASME (Auditory Stream segregation Multiclass ERP) paradigm is used for an auditory brain-computer interface (BCI). Two approaches for achieving four-class ASME were investigated: ASME-4stream (four streams with a single target stimulus each) and ASME-2stream (two streams with two target stimuli each). Fifteen healthy subjects participated. ERPs were analyzed, and binary classification and BCI simulation were conducted offline using linear discriminant analysis. Average accuracies were 0.83 (ASME-4stream) and 0.86 (ASME-2stream). The ASME-2stream paradigm showed shorter latency and larger amplitude of P300, higher binary classification accuracy, and smaller workload. Both paradigms achieved sufficiently high accuracy (over 80%) for practical auditory BCI.\n## Methodology\nSubjects performed 12 runs alternating between ASME-4stream and ASME-2stream paradigms. Each run contained 4 trials with ~90s duration. ASME-4stream presented 4 streams (SOA=0.15s, 600 stimuli/trial, ratio 9:1 standard:deviant). ASME-2stream presented 2 streams with 2 deviant stimuli each (SOA=0.3s, 300 stimuli/trial, ratio 8:1:1). EEG recorded at 1000 Hz from 64 channels. EOG artifacts removed using ICA on 15 PCs. Data filtered (1-40 Hz for ERP, 0.1-8 Hz for classification), epoched (-0.1 to 1.2s), downsampled to 250 Hz. Classification used shrinkage-LDA with mean amplitudes from 10 intervals (0-1.0s) as features. Performance evaluated using 4-fold chronological cross-validation. Usability assessed via NASA-TLX questionnaire.\n## References\nKojima, S. (2024). Replication Data for: Four-class ASME BCI: investigation of the feasibility and comparison of two strategies for multiclassing. Harvard Dataverse, V1. DOI: https://doi.org/10.7910/DVN/1UJDV6\nKojima, S. & Kanoh, S. (2024). Four-class ASME BCI: investigation of the feasibility and comparison of two strategies for multiclassing. Frontiers in Human Neuroscience 18:1461960. DOI: https://doi.org/10.3389/fnhum.2024.1461960\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "Simon Kojima",
+    "Shin'ichiro Kanoh"
+  ],
+  "funding": [
+    "JSPS KAKENHI (Grant Number JP23K11811 to Shin'ichiro Kanoh)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000207",
+  "associated_paper_doi": null,
+  "tasks": [
+    "2stream",
+    "4stream",
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 360,
+  "size_bytes": 25266119887,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 30,
+    "ages": [
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22,
+      22
+    ],
+    "age_min": 22,
+    "age_max": 22,
+    "age_mean": 22.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Shin'ichiro Kanoh",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:02:30.556552+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:15:26"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000207",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000207",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Review Board on Bioengineering Research Ethics of the Shibaura Institute of Technology"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.7910/DVN/1UJDV6",
+    "10.3389/fnhum.2024.1461960"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.7910/DVN/1UJDV6",
+      "URL": "https://doi.org/10.7910/DVN/1UJDV6"
+    }
+  ],
+  "ingestion_fingerprint": "01690d894a6fdbaf8b38ce8b8a62c45d41d5c379bea246ad9f9675c90f2044a0"
+}

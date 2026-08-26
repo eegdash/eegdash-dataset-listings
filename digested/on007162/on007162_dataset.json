@@ -1,0 +1,83 @@
+{
+  "dataset_id": "on007162",
+  "name": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007162-blue)](https://doi.org/10.82901/nemar.on007162)\n# Dataset Description\nThis dataset contains the EEG data accompanying the study\n**\"Adaptive recruitment of cortex-wide recurrence for visual object recognition\"** (Link to preprint: https://www.biorxiv.org/content/10.1101/2025.10.17.682937v2).\nPlease cite the above paper if you use this data.\n---\n## Dataset Overview\n- 34 participants, each with 1 session\n---\n## Experimental Design\nThe EEG experiment used a stimulus set of 242 images (121 \u201cchallenge\u201d and 121 \u201ccontrol\u201d images) derived from comparisons between human behavioural performance and AlexNet.\n- **Main task:** Each trial consisted of a single image presented for 200 ms followed by a 100 ms blank. Trials were grouped into sequences of 14 images. At the end of each sequence, participants reported whether a paper clip appeared anywhere in that sequence.\n---\n## Derivatives\nThe derivatives/ folder contains outputs from the decoding analyses, including time-resolved decoding accuracy matrices for object identity.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "[Unspecified1]",
+    "[Unspecified2]"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007162",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rcor"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 69,
+  "size_bytes": 65680314545,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 34,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "[Unspecified2]",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:57.160829+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 01:41:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007162",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007162",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007162.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "9268651a356172159ff415a6dc7cfebc910e04b684e55dd05590bfdb92a07494"
+}

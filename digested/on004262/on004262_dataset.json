@@ -1,0 +1,103 @@
+{
+  "dataset_id": "on004262",
+  "name": "Continuous Feedback Processing",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004262-blue)](https://doi.org/10.82901/nemar.on004262)\n# Continuous Feedback Processing\nTwenty-one participants learned to predict the final level of an animated rising bar. Following the appearance of a fixation cross, participants used the mouse to indicate their guess (i.e., how high they thought the bar would rise). After a delay, participants watched the bar rise to its final level. Points were awarded based on the distance between their guess and the actual level. Each round was cued by the appearance of a gnome (cover story: the gnomes are playing a strongman game while visiting a fair). Cues varied in the degree to which the outcome was predictable (highly predictable, somewhat predictable, unpredictable).\nParticipant 11 was excluded from the analysis due to excessive artifacts.\nTiming\nfixation cross (400-600 ms) -> gnome cue (1500 ms) -> bar outline (until response) -> animation (1 degree per second until complete) -> final outcome (1000 ms)\nConditions (Gnome Types)\n1: highly predictable - consistently low\n2: highly predictable - consistently high\n3: unpredictable - low or high with equal probability\n4: somewhat predictable - usually (80%) low, sometimes high\n5: somewhat predictable - usually (80%) high, sometimes low\n6: unpredictable - random uniform distribution\nTrigger Modifiers\nAdd 0: Fixation cross\nAdd 10: Cue (gnome) onset\nAdd 20: Bar outline appears\nAdd 30: Participant response\nAdd 40: Start of animation\nAdd 50: End of animation (and start of 1-second delay)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Cameron D. Hassall",
+    "Yan Yan",
+    "Laurence T. Hunt"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004262",
+  "associated_paper_doi": null,
+  "tasks": [
+    "gnomes"
+  ],
+  "sessions": [],
+  "total_files": 21,
+  "size_bytes": 3731657469,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      23,
+      22,
+      23,
+      25,
+      27,
+      29,
+      26,
+      41,
+      33,
+      25,
+      24,
+      25,
+      24,
+      22,
+      28,
+      27,
+      21,
+      23,
+      24,
+      26,
+      24
+    ],
+    "age_min": 21,
+    "age_max": 41,
+    "age_mean": 25.80952380952381,
+    "species": null,
+    "sex_distribution": {
+      "f": 16,
+      "m": 5
+    },
+    "handedness_distribution": {
+      "r": 19,
+      "l": 2
+    }
+  },
+  "senior_author": "Laurence T. Hunt",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:36.471534+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 20:09:13"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004262",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004262",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004262.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "cb6180ff374fbb45e2a2e21b56ea95824c8b2f70120dbc0044703fb20ee86ee3"
+}

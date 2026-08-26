@@ -1,0 +1,111 @@
+{
+  "dataset_id": "on003846",
+  "name": "Prediction Error",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003846-blue)](https://doi.org/10.82901/nemar.on003846)\n# Readme\nIn case of any questions, please contact: Lukas Gehrke, lukas.gehrke@tu-berlin.de, orcid: 0000-0003-3661-1973\n## Overview\nCyber-Physical Systems: Prediction Error\nThese data were collected at https://www.tu.berlin/bpn. Data collection occurred either between 10:00 and 12:00 or between 14:00 and 18:00.\nTo learn about the task, independent-, dependent-, and control variables, please consult the methods sections of the following two publications:\nhttps://dl.acm.org/doi/abs/10.1145/3290605.3300657\nhttps://iopscience.iop.org/article/10.1088/1741-2552/ac69bc/meta\n- Contents of the dataset: Output from BIDS-validator\nSummary\n324 Files, 9.76GB\n19 - Subjects\n5 - Sessions\nAvailable Tasks\nPredictionError\nAvailable Modalities\nEEG\n- [ ] Quality assessment of the data: Link to data paper, once done\n## Methods\n### Subjects\nThe study sample consists of 19 participants (participant_id 1 to 19) with ages ranging from 18 to 34 years and varying cap sizes from 54 to 60. Stimulation is delivered in three blocks: Block_1, Block_2, and Block_3, utilizing different combinations of Visual, Vibro, and EMS.\nParticipant Information:\nAge: Ranges from 18 to 34 years.\nCap Size: Varied, with sizes ranging from 54 to 60.\nStimulation Blocks:\nBlock_1 and Block_2 include Visual, Visual + Vibro, and Visual + Vibro + EMS.\nBlock_3 primarily involves Visual + Vibro + EMS.\nUsage of Stimulation Blocks:\nMost participants experience Visual stimulation in all blocks.\nVisual + Vibro is common in Block_1 and Block_2.\nVisual + Vibro + EMS is prevalent in Block_3.\nSome participants did not experience certain blocks (indicated by \"0\").\nOther Observations:\nCap size variation doesn't show a clear pattern in relation to stimulation blocks.\nParticipants exhibit diverse stimulation patterns, showcasing individualized experiences.\n### Task, Environment and Variables\nThis set of variables outlines key parameters in a neuroscience experiment involving a haptic task. Here's a summary:\nbox:\nDescription: Represents the target object to be touched following its spawn.\nUnits: String (presumably indicating the characteristics or identity of the object).\nnormal_or_conflict:\nDescription: Describes the behavior of the target object in the current trial, distinguishing between oddball and non-oddball conditions.\nUnits: String (presumably indicating the nature of the trial).\ncondition:\nDescription: Indicates the level of haptic realism in the experiment.\nUnits: String (presumably representing different levels of realism).\ncube:\nDescription: Specifies the position of the target object, whether it is located on the left, right, or center.\nUnits: String (presumably indicating spatial orientation).\ntrial_nr:\nDescription: Denotes the number of the current trial in the experiment.\nUnits: Integer.\n### Apparatus\nHere's a summary of the recording environment:\n- **EEG Stream Name:** BrainVision\n- **EEG Reference and Ground:** FCz and AFz, respectively\n- **EEG Channel Locations:** 63 channels with specific names (e.g., Fp1, Fz, Pz) and types (EEG)\n- **Additional Channels:** 1 EOG (Electrooculogram)\n- **Power Line Frequency:** 50 Hz\n- **Manufacturer:** Brain Products\n- **Manufacturer's Model Name:** BrainAmp DC\n- **Cap Manufacturer:** EasyCap\n- **Cap Model Name:** actiCap 64ch CACS-64\n- **EEG Placement Scheme:** Positions chosen from a 10% system\n- **Channel Counts:**\n  - EEG Channels: 63\n  - EOG Channels: 1\n  - ECG Channels: 0\n  - EMG Channels: 0\n  - Miscellaneous Channels: 0\n  - Trigger Channels: 0\nThis configuration indicates a high-density EEG setup with specific electrode placements, utilizing Brain Products' BrainAmp DC model. The electrode cap is manufactured by EasyCap, with the specific model name actiCap 64ch CACS-64. The EEG data is sampled at an unspecified frequency, and the system is designed to capture electrical brain activity across a comprehensive set of channels. The recording includes an additional channel for recording eye movements (EOG). Overall, the setup appears suitable for detailed EEG investigations in neurophysiological research.\nThe motion capture recording environment uses two devices: \"rigid_head\" and \"rigid_handr,\" which correspond to \"HTCViveHead\" and \"HTCViveRightHand\" in the BIDS (Brain Imaging Data Structure) naming convention. The tracked points include \"Head\" and \"handR.\" The motion data is captured using quaternions with channels named \"quat_X,\" \"quat_Y,\" \"quat_Z,\" and \"quat_W.\" Positional data includes channels \"_X,\" \"_Y,\" and \"_Z.\" The system is manufactured by HTC, with the model name \"Vive,\" and the recording has a sampling frequency of 90 Hz. Additional information such as software versions is not provided.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Lukas Gehrke",
+    "Sezen Akman",
+    "Albert Chen",
+    "Pedro Lopes",
+    "Klaus Gramann"
+  ],
+  "funding": [
+    ""
+  ],
+  "dataset_doi": "10.82901/nemar.on003846",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PredictionError"
+  ],
+  "sessions": [
+    "EMS",
+    "Vibro",
+    "Vibro101bis300",
+    "Vibroerste100",
+    "Visual"
+  ],
+  "total_files": 50,
+  "size_bytes": 12193817849,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [
+      24,
+      25,
+      28,
+      18,
+      32,
+      28,
+      31,
+      24,
+      34,
+      27,
+      28,
+      27,
+      24,
+      31,
+      26,
+      25,
+      25,
+      25,
+      26
+    ],
+    "age_min": 18,
+    "age_max": 34,
+    "age_mean": 26.736842105263158,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Klaus Gramann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:04.750956+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 19:09:09"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003846",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-PredictionError_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003846",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Avinash Singh, Tim Chen and C.-T. Lin from the Univsersity of Sydney (New South Wales, Australia) for their help developing the task.",
+  "how_to_acknowledge": "See CITATION.cff",
+  "ethics_approvals": [
+    "Local ethics board at the Institute of Psychology and Ergonomics at TU Berlin number GR_10_20180603"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds003846.v2.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "380a4cc337eac8cd5476e5a0374515ae085fe7636859f231f8cd39a095d0526d"
+}

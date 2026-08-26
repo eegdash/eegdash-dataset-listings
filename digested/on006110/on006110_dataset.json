@@ -1,0 +1,159 @@
+{
+  "dataset_id": "on006110",
+  "name": "PsiConnect",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006110-blue)](https://doi.org/10.82901/nemar.on006110)\nPsiConnect is a large-scale neuroimaging study designed to investigate context-dependent neural and subjective effects of psilocybin using multimodal neuroimaging. It combines functional, structural, and diffusion-weighted MRI with EEG to examine brain activity in 62 participants before and after a 19 mg dose of psilocybin. The design includes resting-state scans and three naturalistic conditions: guided meditation, music listening, and movie watching. Half of the cohort underwent an 8-week meditation training program, enabling exploration of interactions among meditation, psilocybin, and brain function. fMRI data was obtained through multi-echo fMRI, enhancing signal-to-noise ratio and reducing susceptibility artifacts to improve reliability. A comprehensive battery of behavioural and self-report measures captured acute and longitudinal cognitive and subjective effects, with follow-ups to one year post-administration. The large sample, multimodal imaging, contextual diversity, and behavioural follow-ups enable study of psilocybin-induced brain and behaviour changes with unprecedented comprehensiveness and reliability. Data is curated according to open science principles to ensure accessibility and compatibility with established neuroimaging pipelines, making PsiConnect a valuable, reusable resource for cognitive and computational neuroscience.\nPlease cite both:\n- Novelli, L. et al. (2025). PsiConnect: A Multimodal Neuroimaging Study of Psilocybin-Induced Changes in Brain and Behaviour. https://doi.org/10.1101/2025.04.11.643415\n- Stoliker, D. et al. (2025). Psychedelics Align Brain Activity with Context. 2025. https://doi.org/10.1101/2025.03.09.642197",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Adeel Razi"
+  ],
+  "funding": [
+    "Australian Research Council (Refs: DE170100128 and DP200100757)",
+    "Australian National Health and Medical Research Council (Investigator Grant 1194910)",
+    "CIFAR Azrieli Mind & Consciousness Program",
+    "USONA Institute Investigational Drug Supply Program"
+  ],
+  "dataset_doi": "10.82901/nemar.on006110",
+  "associated_paper_doi": null,
+  "tasks": [
+    "series"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 124,
+  "size_bytes": 1004663010141,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 65,
+    "ages": [
+      41,
+      48,
+      33,
+      35,
+      46,
+      19,
+      19,
+      34,
+      53,
+      50,
+      29,
+      51,
+      33,
+      49,
+      51,
+      43,
+      47,
+      43,
+      46,
+      53,
+      22,
+      21,
+      29,
+      48,
+      48,
+      43,
+      41,
+      27,
+      49,
+      50,
+      40,
+      42,
+      30,
+      46,
+      23,
+      27,
+      22,
+      41,
+      31,
+      36,
+      53,
+      30,
+      27,
+      48,
+      24,
+      51,
+      35,
+      47,
+      27,
+      35,
+      50,
+      21,
+      35,
+      35,
+      22,
+      44,
+      21,
+      26,
+      38,
+      20,
+      54,
+      43,
+      36,
+      47,
+      46
+    ],
+    "age_min": 19,
+    "age_max": 54,
+    "age_mean": 37.753846153846155,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Adeel Razi",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:40.873177+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-21 01:07:57"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006110",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "T1w.json",
+      "T2w.json",
+      "coordsystem.json",
+      "datacite.yml",
+      "dir-ROW_run-1_epi.json",
+      "participants.json",
+      "participants.tsv",
+      "task-meditation_bold.json",
+      "task-movie_bold.json",
+      "task-music_bold.json",
+      "task-rest_bold.json",
+      "task-series_eeg.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006110",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "The authors acknowledge the facilities and scientific and technical assistance of the National Imaging Facility (NIF), a National Collaborative Research Infrastructure Strategy (NCRIS) capability at Monash Biomedical Imaging (MBI), a Technology Research Platform at Monash University. This research is funded by the Australian Research Council (Refs:  DE170100128 and DP200100757) and the Australian National Health and Medical Research Council (Investigator Grant 1194910). Adeel Razi is a CIFAR Azrieli Global Scholar in the Brain, Mind & Consciousness Program. We also acknowledge USONA Institute for providing psilocybin through their \"Investigational Drug Supply Program.\"",
+  "how_to_acknowledge": "Please cite both:\n\nNovelli, L. et al. (2025). PsiConnect: A Multimodal Neuroimaging Study of Psilocybin-Induced Changes in Brain and Behaviour. https://doi.org/10.1101/2025.04.11.643415\n\nStoliker, D. et al. (2025). Psychedelics Align Brain Activity with Context. 2025. https://doi.org/10.1101/2025.03.09.642197\n",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006110.v1.2.0"
+    }
+  ],
+  "ingestion_fingerprint": "64882d91a82dbe054d9aedc6c72f45a0eed0a6c1fdc86f869cb23c5cc9c61928"
+}

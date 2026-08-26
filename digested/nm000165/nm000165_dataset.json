@@ -1,0 +1,115 @@
+{
+  "dataset_id": "nm000165",
+  "name": "MUniverse Grison et al 2025",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000165-blue)](https://doi.org/10.82901/nemar.nm000165)\n# Grison et al 2025: HDsEMG recordings\nBIDS-formatted version of a HDsEMG dataset corresponding to *[Grison et al. 2025](https://doi.org/10.1113/JP287913)*.\n### Overview\nOne healthy subject performed 10 submaximal (10 to 70 percent MVC) isometric\nankle dorsiflexions. EMG signals were recorded from the right tibialis anterior\nusing two arrays of 64 surface electrodes (4 mm interelectrode distance, 13x5 configuration)\nfor a total of 128 electrodes.\n### Protocol description\nThe participant performed one, two, or three trapezoidal contractions (with repetitions being\nspecified by the run labels) at 10, 15, 20, 25, 30, 35, 40, 50, 60, and 70 percent MVC\nwith 120 s of rest in between, consisting of linear ramps up and down performed at\n5 percent per second and a plateau maintained for 20 s up to 30 percent MVC, 15 s for 35 percent\nand 40 percent MVC, and 10 s from 50 percent to 70 percent MVC. The order of the\ncontractions was randomized.\n### Set-up description\nThe participant sat on a chair with the hips flexed at 30 degrees, 0 degrees being\nthe hip neutral position, and their knees fully extended. The foot of\nthe dominant leg (right) was fixed onto the pedal of a commercial dynamometer (OT Bioelettronica)\npositioned at 30 degrees in the plantarflexion direction. Force signals\nwere recorded with a load cell (CCT Transducer s.a.s.) connected in-series to the pedal\nusing the same acquisition system as for the HD-EMG recordings.\n### Coordinate systems\nAll electrode coordinates (reported in mm) are reported in their respective\ngrid coordinate system (*space-grid1* and *space-grid2*).\nTheir relative positions as well as the positions of the reference\nand ground electrodes are reported in a separate coordinate system (*space-lowerLeg*)\nreported in percent of the lower leg length.\n### Labeled motor unit spike trains\nLabeled motor unit spike trains were derived from concurrently recorded invasive EMG\nand curated by an experienced investigator (only available for *_run-01* of each trial).\n### Conversion\nThe dataset has been converted semi-automatically using the [*MUniverse*](https://github.com/dfarinagroup/muniverse/tree/main) software.\nSee *dataset_description.json* for further details.",
+  "recording_modality": [
+    "emg"
+  ],
+  "datatypes": [
+    "emg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.11.1",
+  "license": "CC0 BY 4.0",
+  "authors": [
+    "Agnese Grison",
+    "Irene Mendez Guerra",
+    "Alexander Kenneth Clarke",
+    "Silvia Muceli",
+    "Jaime Ibanez Pereda",
+    "Dario Farina"
+  ],
+  "funding": [
+    "UK Research and Innovation (UKRI Centre for Doctoral Training in AI for Healthcare grant number EP/S023283/1)",
+    "Huawei Technologies Research & Development (UK) Ltd.",
+    "Engineering and Physical Sciences Research Council (EPSRC) Doctoral Prize Fellowship",
+    "HybridNeuro (HORIZON-WIDERA-2021-ACCESS-03- 101079392)",
+    "ECHOES (ERC Starting Grant 101077693)",
+    "Consolidaci\u00f3n Investigadora grant (CNS2022-135366) funded by MCIN/AEI/10.13039/501100011033",
+    "NextGenerationEU/PRTR",
+    "Non-Invasive Single Neuron Electrical Monitoring (NISNEM Technology) Grant EP/T020970/1)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000165",
+  "associated_paper_doi": null,
+  "tasks": [
+    "isometric10percentmvc",
+    "isometric15percentmvc",
+    "isometric20percentmvc",
+    "isometric25percentmvc",
+    "isometric30percentmvc",
+    "isometric35percentmvc",
+    "isometric40percentmvc",
+    "isometric50percentmvc",
+    "isometric60percentmvc",
+    "isometric70percentmvc"
+  ],
+  "sessions": [],
+  "total_files": 10,
+  "size_bytes": 1441225061,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 1
+    },
+    "handedness_distribution": {
+      "r": 1
+    }
+  },
+  "senior_author": "Dario Farina",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:45.859640+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-01 16:00:15"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000165",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000165",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "The Ethics Committee at Imperial College London reviewed and approved all procedures and protocols (no. 19IC5640)"
+  ],
+  "references_and_links": [
+    "Grison, A., Mendez Guerra, I., Clarke, A. K., Muceli, S., Ibanez Pereda, J., & Farina, D. (2025). Unlocking the full potential of high-density surface EMG: novel non-invasive high-yield motor unit decomposition Journal of Physiology, 603.8 (2025)",
+    "https://doi.org/10.1113/JP287913"
+  ],
+  "generated_by": [
+    {
+      "Name": "MUniverse",
+      "Version": "1.0",
+      "CodeURL": "https://github.com/dfarinagroup/muniverse/scripts/",
+      "ScriptName": "grison2025_to_bids.py",
+      "Description": "Semi-automated conversion of the original data into BIDS format"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "https://doi.org/10.7910/DVN/ID1WNQ"
+    }
+  ],
+  "ingestion_fingerprint": "79084ca37b542b5dfa84668e1cea2ca9ab94f555e460a68c5804d42ad797837a"
+}

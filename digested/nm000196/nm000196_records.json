@@ -1,0 +1,5697 @@
+{
+  "dataset": "nm000196",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:02:18.365406+00:00",
+  "record_count": 36,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-1_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s104886936--df23a9db09ce6eeb1e97ced72ebc27a7608fa139206f943df137115d938bc17b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 542541,
+      "duration_seconds": 264.91259765625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 264.91259765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-1_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s102908256--a1ae5e575f29eb8e40adcbf7d1781459b83978c4027af8521b6310a6bf3527d6.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 531284,
+      "duration_seconds": 259.416015625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 264.91259765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-1_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s102512520--44fd15a3410599b64080ac39fe7acd06fb12cd1148570d8fbb9609f58e733b4b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 528487,
+      "duration_seconds": 258.05029296875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 264.91259765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-6_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s99346632--64a1d5e59df050796aafeac13ac5ececb2d14ba089f2069fa8ab8886437f76d9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 513122,
+      "duration_seconds": 250.5478515625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 257.47265625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-6_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s102116784--e5389278aaaf1f8d6e11b4799cd841387b81f36631524db31e810e56cb031483.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 527437,
+      "duration_seconds": 257.53759765625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 257.47265625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-6_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s102116784--fb9ca0b9381dd7e525d8e91a188a5b0352e746cdf9770679bcd7528c81963408.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 527304,
+      "duration_seconds": 257.47265625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 257.47265625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-4_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s100138104--cca189374506e51f235db87c0337fa7dd63dab31fff82fbdc94e2e4a7c566fa8.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 517479,
+      "duration_seconds": 252.67529296875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 263.173828125,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-4_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s104491200--c48ff1295eefce273345688a45c81d6d629d182b247642ef4c1461a7abd8a45c.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 538980,
+      "duration_seconds": 263.173828125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 263.173828125,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-4_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s115176072--bf699396770fc6d8eca8280a3979e1aefd44a966bce14c940b811f577be68517.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 594065,
+      "duration_seconds": 290.07080078125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 263.173828125,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-9_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s100138104--b8edf6f70b51fe6f73653a2c33cac11eb7170455912d849670e61fa46ead4af3.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 516524,
+      "duration_seconds": 252.208984375,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.96630859375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-9_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s102512520--8484caed317e25f9ae9a4611258a539d919ad0dbd7e2cf89d15a668bd7181b99.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 530363,
+      "duration_seconds": 258.96630859375,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.96630859375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-9_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s102512520--7f215543a53bc2b5cf331db350ba28946a45bc123adbcddcb60daabf71342ea3.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 529466,
+      "duration_seconds": 258.5283203125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.96630859375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-8_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s102512520--6c4c7b0049be18533aeb1f577edb0c19546931cd180ce18e31e59cd1d6b3c1d6.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 529663,
+      "duration_seconds": 258.62451171875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.62451171875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-8_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s102512520--e1eb03fa96c60891d199f0714ebdb8c694fdbf7381bbdbed08958008826379dc.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 529504,
+      "duration_seconds": 258.546875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.62451171875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-8_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s99742368--33824165aec062c062befa7b0ce8196ff8ffe056a68d3d9d93651dfa0c339901.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 514330,
+      "duration_seconds": 251.1376953125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.62451171875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-12_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s103303992--153bd1d543d8f8df3e2b2c9dd61214384cfc3f4b9944d8b0d6ba4c163a2b37fe.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 532493,
+      "duration_seconds": 260.00634765625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 260.00634765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-12_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s99742368--474757125ee7296486706b6fc7c1070780657eafbca009195aa253d1c667819a.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 514076,
+      "duration_seconds": 251.013671875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 260.00634765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-12_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s102512520--c9c57a431c749ba2c7c85bcf2e7c9e7c4d6ca5124b8312b4b28f29ade16236d5.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 528709,
+      "duration_seconds": 258.15869140625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 260.00634765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-11_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s102512520--9e4b18e03330454212b94067459e82e6f23ab7847f59a1d4525b57bd8f76a99f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 530140,
+      "duration_seconds": 258.857421875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.857421875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-11_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s99346632--7b5d3cc792023456e9861f011016026ffa9971fca096c3324bef3b055fe430a6.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 512804,
+      "duration_seconds": 250.392578125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.857421875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-11_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s102512520--d012381d572c8e8a23c6ac35db02aa5817a06f39f0768aca8d1c2cf062d8bf0e.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 530045,
+      "duration_seconds": 258.81103515625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 258.857421875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-7_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s103303992--53b8579387cc497649036a7f53368c88ec0d59199f38f00a96bc4d46a7aef2b4.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 534051,
+      "duration_seconds": 260.76708984375,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 260.76708984375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-7_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s102512520--be814aa040a17e9e1a65504f5793f3be88a249e53057958c923a29763e6cf95f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 529949,
+      "duration_seconds": 258.76416015625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 260.76708984375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-7_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s103303992--c23b9105d756a51925a192cd9ab9f00b0e338a9e370876f028272021d6aba34f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 532585,
+      "duration_seconds": 260.05126953125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 260.76708984375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-10_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s99346632--eb57a26085898f3c0f82966fb0e568aaa7c3f0e17ac2b758e4bb2d1be7a8ed5a.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 512836,
+      "duration_seconds": 250.408203125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 257.98779296875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-10_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s102512520--239d3ede6af473f3b4c15298c5f20015ff7b6ff1d3ff814e8a9fe4a499712b68.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 528582,
+      "duration_seconds": 258.0966796875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 257.98779296875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-10_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s102116784--770520eb9c33f7d150532b85707e79867e508ca813b1952ae5f54d57710d66d3.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 528359,
+      "duration_seconds": 257.98779296875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 257.98779296875,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-3_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s102908256--a6d15eccc40fc3b885d3635c927358f271a896a529078a11080be3d7dcc9b60d.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 531062,
+      "duration_seconds": 259.3076171875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 259.50927734375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-3_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s102908256--450cabd77e5a95e413956b9d15b98ac62ff8ad8fdd097900f0010ead09037904.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 531475,
+      "duration_seconds": 259.50927734375,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 259.50927734375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-3_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s100533840--425c8d56117e441a96ebbb51d5d12c22c7f1fca06b99ebc52b131076b92d25a9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 519578,
+      "duration_seconds": 253.7001953125,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 259.50927734375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-5_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s127443888--1edf5214a13daeb350e75da2eb5784e73020669b9d6ca9bf568b18aae232037c.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 658178,
+      "duration_seconds": 321.3759765625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 321.3759765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-5_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s99346632--3f39de5305f54b2783945edbceae8c19ef95b62510805d6fed59bb2c788985a8.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 514045,
+      "duration_seconds": 250.99853515625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 321.3759765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-5_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s102512520--43283f0c8885cb3138978e948c0f028f6f106a1d1374b7b3b20264b662ed590b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 530045,
+      "duration_seconds": 258.81103515625,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 321.3759765625,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-2_ses-0_task-cvep_run-1_eeg.bdf",
+      "bidspath": "nm000196/sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "cvep",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-1_eeg.bdf": "SHA256E-s108448560--79314c7b35b3e4350979d85b0efc9f8e9e44736732616ede0ade740b9e66f0c6.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 559526,
+      "duration_seconds": 273.2060546875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 303.70458984375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-2_ses-0_task-cvep_run-0_eeg.bdf",
+      "bidspath": "nm000196/sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "cvep",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-0_eeg.bdf": "SHA256E-s120320640--43f603b522064f70b3215fcc29d9781df77c90ff7648d3b61988b8033c84816b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 621987,
+      "duration_seconds": 303.70458984375,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 303.70458984375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    },
+    {
+      "dataset": "nm000196",
+      "data_name": "nm000196_sub-2_ses-0_task-cvep_run-2_eeg.bdf",
+      "bidspath": "nm000196/sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "cvep",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000196",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-cvep_run-2_eeg.bdf": "SHA256E-s102908256--1932ffffeb7c46abcb20bc11c3ab8cd283b103b024751c4fed11a54e8dc5c867.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "AF7",
+        "AF3",
+        "F1",
+        "F3",
+        "F5",
+        "F7",
+        "FT7",
+        "FC5",
+        "FC3",
+        "FC1",
+        "C1",
+        "C3",
+        "C5",
+        "T7",
+        "TP7",
+        "CP5",
+        "CP3",
+        "CP1",
+        "P1",
+        "P3",
+        "P5",
+        "P7",
+        "P9",
+        "PO7",
+        "PO3",
+        "O1",
+        "Iz",
+        "Oz",
+        "POz",
+        "Pz",
+        "CPz",
+        "Fpz",
+        "Fp2",
+        "AF8",
+        "AF4",
+        "AFz",
+        "Fz",
+        "F2",
+        "F4",
+        "F6",
+        "F8",
+        "FT8",
+        "FC6",
+        "FC4",
+        "FC2",
+        "FCz",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "T8",
+        "TP8",
+        "CP6",
+        "CP4",
+        "CP2",
+        "P2",
+        "P4",
+        "P6",
+        "P8",
+        "P10",
+        "PO8",
+        "PO4",
+        "O2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 64,
+      "ntimes": 532239,
+      "duration_seconds": 259.88232421875,
+      "digested_at": "2026-08-26T11:02:18.365406+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "Healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "CMS/DRL",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "downsampling from 2048 Hz to 360 Hz, linear de-trending, common average referencing, spectral filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "band1": [
+            5,
+            48
+          ],
+          "band2": [
+            52,
+            100
+          ]
+        }
+      },
+      "manufacturer": "BioSemi",
+      "manufacturers_model_name": "Biosemi ActiveTwo",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Radboud University Nijmegen",
+      "recording_type": "continuous",
+      "recording_duration": 303.70458984375,
+      "eeg_ground": "n/a",
+      "montage_hash": "aa1186914620e6fc"
+    }
+  ]
+}

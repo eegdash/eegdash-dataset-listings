@@ -1,0 +1,162 @@
+{
+  "dataset_id": "nm000244",
+  "name": "P300 dataset BI2014a from a \"Brain Invaders\" experiment",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000244-blue)](https://doi.org/10.82901/nemar.nm000244)\n# P300 dataset BI2014a from a \"Brain Invaders\" experiment\nP300 dataset BI2014a from a \"Brain Invaders\" experiment.\n## Dataset Overview\n- **Code**: BrainInvaders2014a\n- **Paradigm**: p300\n- **DOI**: https://doi.org/10.5281/zenodo.3266222\n- **Subjects**: 64\n- **Sessions per subject**: 1\n- **Events**: Target=2, NonTarget=1\n- **Trial interval**: [0, 1] s\n- **File format**: mat and csv\n## Acquisition\n- **Sampling rate**: 512.0 Hz\n- **Number of channels**: 16\n- **Channel types**: eeg=16\n- **Channel names**: Fp1, Fp2, F5, AFz, F6, T7, Cz, T8, P7, P3, Pz, P4, P8, O1, Oz, O2\n- **Montage**: standard_1010\n- **Hardware**: g.USBamp (g.tec, Schiedlberg, Austria)\n- **Software**: OpenVibe\n- **Reference**: right earlobe\n- **Ground**: FZ\n- **Sensor type**: dry electrodes\n- **Line frequency**: 50.0 Hz\n- **Online filters**: no digital filter applied\n- **Cap manufacturer**: g.tec\n- **Cap model**: g.Sahara\n- **Electrode type**: dry 8-pins gold-alloy electrodes\n- **Electrode material**: gold-alloy\n## Participants\n- **Number of subjects**: 64\n- **Health status**: healthy\n- **Age**: mean=23.55, std=3.13\n- **Gender distribution**: male=49, female=22\n- **Handedness**: not specified\n- **BCI experience**: 57 were na\u00efve BCI participants\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: p300\n- **Task type**: oddball\n- **Number of classes**: 2\n- **Class labels**: Target, NonTarget\n- **Study design**: calibration-less P300-based BCI system with dry electrodes; screening session for potential candidates for a broader multi-user BCI study\n- **Feedback type**: visual\n- **Stimulus type**: visual flashes\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Mode**: online\n- **Instructions**: Destroy the target symbol by focusing attention on it. Players had up to eight attempts to destroy the target symbol per level.\n- **Stimulus presentation**: n_symbols=36, n_groups=12, symbols_per_group=6, target_flashes_per_repetition=2, non_target_flashes_per_repetition=10, animation=symbols slowly and regularly moving according to predefined path\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Number of targets**: 1\n- **Number of repetitions**: 12\n## Data Structure\n- **Trials**: variable; up to 8 attempts per level, 9 levels per session\n- **Blocks per session**: 9\n- **Trials context**: 9 levels per session, up to 8 attempts per level to destroy target\n## Preprocessing\n- **Data state**: raw EEG with hardware tagging (USB digital-to-analog converter for synchronization)\n- **Preprocessing applied**: False\n- **Notes**: No digital filter applied during recording. USB digital-to-analog converter used to reduce jitter and synchronize experimental tags with EEG signals.\n## Signal Processing\n- **Classifiers**: Riemannian Minimum Distance to Mean (RMDM), xDAWN, Riemannian\n- **Feature extraction**: Covariance/Riemannian, xDAWN\n## Cross-Validation\n- **Evaluation type**: cross_session\n## Performance (Original Study)\n- **Note**: Real-time adaptive RMDM classifier used for assessing participants' command with calibration-free procedure\n## BCI Application\n- **Applications**: gaming\n- **Environment**: laboratory\n- **Online feedback**: True\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Visual\n- **Type**: Perception\n## Documentation\n- **Description**: Dataset contains electroencephalographic (EEG) recordings of 71 subjects playing to a visual P300 Brain-Computer Interface (BCI) videogame named Brain Invaders. The interface uses the oddball paradigm on a grid of 36 symbols (1 Target, 35 Non-Target) that are flashed pseudo-randomly to elicit the P300 response.\n- **DOI**: 10.5281/zenodo.3266223\n- **Associated paper DOI**: hal-02171575\n- **License**: CC-BY-4.0\n- **Investigators**: Louis Korczowski, Ekaterina Ostaschenko, Anton Andreev, Gr\u00e9goire Cattan, Pedro Luiz Coelho Rodrigues, Violette Gautheret, Marco Congedo\n- **Senior author**: Marco Congedo\n- **Institution**: GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP\n- **Address**: GIPSA-lab, 11 rue des Math\u00e9matiques, Grenoble Campus BP46, F-38402, France\n- **Country**: FR\n- **Repository**: Zenodo\n- **Data URL**: https://doi.org/10.5281/zenodo.3266223\n- **Publication year**: 2019\n- **Ethics approval**: Approved by the Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)\n- **Acknowledgements**: At the end of the experiment one ticket of cinema was offered to each subject, for a value of 7.5 euros per subject.\n- **Keywords**: Electroencephalography (EEG), P300, Brain-Computer Interface, Experiment, Collaboration, Multi-User, Hyperscanning\n## Abstract\nWe describe the experimental procedures for the bi2014a dataset that contains electroencephalographic (EEG) recordings of 71 subjects playing to a visual P300 Brain-Computer Interface (BCI) videogame named Brain Invaders. The interface uses the oddball paradigm on a grid of 36 symbols (1 Target, 35 Non-Target) that are flashed pseudo-randomly to elicit the P300 response. EEG data were recorded using 16 active dry electrodes with up to three game sessions. The experiment took place at GIPSA-lab, Grenoble, France, in 2014.\n## Methodology\nThe experiment was designed to study the viability of a calibration-less P300-based BCI system with dry electrodes. Visual P300 is an event-related potential (ERP) elicited by an expected but unpredictable target visual stimulation (oddball paradigm), with peaking amplitude 240-600 ms after stimulus onset. Two event-related stimuli: Target (P300 expected) and Non-Target (no P300). The experiment used Brain Invaders, a P300-based BCI open-source software. A repetition is composed of 12 flashes (one for each group), of which two include the Target symbol (Target flashes) and 10 do not (non-Target flashes). The ratio of Target versus non-Target epochs in the whole datasets is one-to-five. During the experiment, the output of a real-time adaptive Riemannian Minimum Distance to Mean (RMDM) classifier was used for assessing the participants' command. Game session was compounded by nine levels, consisting in a unique and predefined configuration of the 36 symbols of the interface. Players had up to eight attempts to destroy the target symbol. If the player missed all eight attempts, the level was started once again from the beginning. Average duration of five minutes for the nine levels. Experimenter could end the experiment if no control over the BCI system was gained after 10 minutes.\n## References\nKorczowski, L., Ostaschenko, E., Andreev, A., Cattan, G., Rodrigues, P. L. C., Gautheret, V., & Congedo, M. (2019). Brain Invaders calibration-less P300-based BCI using dry EEG electrodes Dataset (BI2014a). https://hal.archives-ouvertes.fr/hal-02171575\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Louis Korczowski",
+    "Ekaterina Ostaschenko",
+    "Anton Andreev",
+    "Gr\u00e9goire Cattan",
+    "Pedro Luiz Coelho Rodrigues",
+    "Violette Gautheret",
+    "Marco Congedo"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000244",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 64,
+  "size_bytes": 3287304890,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 64,
+    "ages": [
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "age_min": 23,
+    "age_max": 23,
+    "age_mean": 23.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Marco Congedo",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:03:53.208935+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 21:21:24"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000244",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000244",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "At the end of the experiment one ticket of cinema was offered to each subject, for a value of 7.5 euros per subject.",
+  "ethics_approvals": [
+    "Approved by the Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.5281/zenodo.3266223",
+    "hal-02171575"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "https://doi.org/10.5281/zenodo.3266222",
+      "URL": "https://doi.org/10.5281/zenodo.3266223"
+    }
+  ],
+  "ingestion_fingerprint": "defc55b9c3b5756fa33811b02a0f307a3752e62ad95eaa74eacdaec23fce1613"
+}

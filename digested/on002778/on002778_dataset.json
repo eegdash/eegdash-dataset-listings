@@ -1,0 +1,121 @@
+{
+  "dataset_id": "on002778",
+  "name": "UC San Diego Resting State EEG Data from Patients with Parkinson's Disease",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002778-blue)](https://doi.org/10.82901/nemar.on002778)\nWelcome to the resting state EEG dataset collected at the University of San Diego and curated by Alex Rockhill at the University of Oregon.\nPlease email arockhil@uoregon.edu before submitting a manuscript to be published in a peer-reviewed journal using this data, we wish to ensure that the data to be analyzed and interpreted with scientific integrity so as not to mislead the public about findings that may have clinical relevance. The purpose of this is to be responsible stewards of the data without an \"available upon reasonable request\" clause that we feel doesn't fully represent the open-source, reproducible ethos. The data is freely available to download so we cannot stop your publication if we don't support your methods and interpretation of findings, however, in being good data stewards, we would like to offer suggestions in the pre-publication stage so as to reduce conflict in published scientific literature. As far as credit, there is precedent for receiving a mention in the acknowledgements section for reading and providing feedback on the paper or, for more involved consulting, being included as an author may be warranted. The purpose of asking for this is not to inflate our number of authorships; we take ethical considerations of the best way to handle intellectual property in the form of manuscripts very seriously, and, again, sharing is at the discretion of the author although we strongly recommend it. Please be ethical and considerate in your use of this data and all open-source data and be sure to credit authors by citing them.\nAn example of an analysis that we could consider problematic and would strongly advice to be corrected before submission to a publication would be using machine learning to classify Parkinson's patients from healthy controls using this dataset. This is because there are far too few patients for proper statistics. Parkinson's disease presents heterogeneously across patients, and, with a proper test-training split, there would be fewer than 8 patients in the testing set. Statistics on 8 or fewer patients for such a complicated diease would be inaccurate due to having too small of a sample size. Furthermore, if multiple machine learning algorithms were desired to be tested, a third split would be required to choose the best method, further lowering the number of patients in the testing set. We strongly advise against using any such approach because it would mislead patients and people who are interested in knowing if they have Parkinson's disease.\nNote that UPDRS rating scales were collected by laboratory personnel who had completed online training and not a board-certified neurologist. Results should be interpreted accordingly, especially that analyses based largely on these ratings should be taken with the appropriate amount of uncertainty.\nIn addition to contacting the aforementioned email, please cite the following papers:\nNicko Jackson, Scott R. Cole, Bradley Voytek, Nicole C. Swann. Characteristics of Waveform Shape in Parkinson's Disease Detected with Scalp Electroencephalography. eNeuro 20 May 2019, 6 (3) ENEURO.0151-19.2019; DOI: 10.1523/ENEURO.0151-19.2019.\nSwann NC, de Hemptinne C, Aron AR, Ostrem JL, Knight RT, Starr PA. Elevated synchrony in Parkinson disease detected with electroencephalography. Ann Neurol. 2015 Nov;78(5):742-50. doi: 10.1002/ana.24507. Epub 2015 Sep 2. PMID: 26290353; PMCID: PMC4623949.\nGeorge JS, Strunk J, Mak-McCully R, Houser M, Poizner H, Aron AR. Dopaminergic therapy in Parkinson's disease decreases cortical beta band coherence in the resting state and increases cortical beta band power during executive control. Neuroimage Clin. 2013 Aug 8;3:261-70. doi: 10.1016/j.nicl.2013.07.013. PMID: 24273711; PMCID: PMC3814961.\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G.,\nPhillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8.\nNote: see this discussion on the structure of the json files that is sufficient but not optimal and will hopefully be changed in future versions of BIDS: https://neurostars.org/t/behavior-metadata-without-tsv-event-data-related-to-a-neuroimaging-data/6768/25.\n## NEMAR curation changes (2026-05-21, revised 2026-05-27)\nThe BIDS validator went from 4 errors + 1290 warnings to 0 errors + 968 warnings. None of the raw `.bdf` recordings were touched \u2014 every change is to a text sidecar.\n**Participant table (`participants.tsv`)**\n- The `gender` column held lowercase `f`/`m`, but the paired `participants.json` defines this column with uppercase categories (`F` = female, `M` = male). The 31 cells were capitalized to match so they read as valid values.\n- The `hand` column held lowercase `r` for the same reason \u2014 `participants.json` defines handedness as uppercase `R`/`L`/`A` \u2014 so it was capitalized to `R` across all 31 rows.\n- No other column values were changed.\n**Participant descriptions (`participants.json`)**\n- The `MMSE` entry listed score bins (`\">24\"`, `\"19 - 23\"`, `\"10 - 18\"`, `\"<9\"`) as if they were the allowed cell values, which made the validator reject the actual integer scores (e.g. `30`). It was rewritten as a plain numeric column measured in points, and the bin information was moved into the column's description text where it belongs.\n**Dataset description (`dataset_description.json`)**\n- Added `DatasetType: \"raw\"` so the dataset is validated as raw data rather than a derivative.\n- Updated `BIDSVersion` from `1.2.2` to `1.11.1`, the version the current validator checks against.\n- Left `GeneratedBy` absent, as the source published it. The original OpenNeuro dataset declares no generation tooling, and this rehost only fixes validator issues, so nothing was invented here.\n**Task sidecar added at the dataset root (`task-rest_eeg.json`)**\n- A new shared sidecar carrying a one-sentence task description paraphrased from this README (resting-state EEG; healthy controls have a single session, Parkinson's patients two \u2014 one on and one off dopaminergic medication). Placed at the root so it applies to every recording at once instead of being repeated in each file.\n**Behavioral sidecar (`task-rest_beh.json`)**\n- Added a task name (`rest`) and a task description noting this is resting state with no behavioral responses; the `_beh.tsv` files are placeholders kept only for BIDS compatibility, as the existing `trial` column note already explains. That original column documentation is preserved unchanged.\n**Events sidecar added at the dataset root (`task-rest_events.json`)**\n- A new shared sidecar describing the four columns in every events table: `onset` and `duration` (both in seconds), `sample`, and `value`. The `value` column carries the BioSemi `Status`-channel trigger code. These columns appeared in the data but were previously undocumented; one root sidecar documents them for all recordings.\n**Recording sidecars (`_eeg.json`, all 46 recordings)**\n- The misc-channel-count field was spelled `MiscChannelCount`; BIDS uses all-uppercase `MISCChannelCount`. It was renamed so the validator recognizes it. The value, `0`, was already correct and is unchanged.\n**Acquisition times (`scans.tsv`) \u2014 left exactly as published**\n- EEGDash's loader appends a `.000000` microsecond suffix to the acquisition times when it reads the files, but the published timestamps (e.g. `2011-01-19T11:22:56`) are already valid BIDS \u2014 fractional seconds are optional \u2014 so they were left unchanged rather than having the loader's suffix baked in.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.11.1",
+  "license": "CC0",
+  "authors": [
+    "Alexander P. Rockhill",
+    "Nicko Jackson",
+    "Jobi George",
+    "Adam Aron",
+    "Nicole C. Swann"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on002778",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest"
+  ],
+  "sessions": [
+    "hc",
+    "off",
+    "on"
+  ],
+  "total_files": 46,
+  "size_bytes": 571478984,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 31,
+    "ages": [
+      54,
+      50,
+      52,
+      50,
+      67,
+      62,
+      54,
+      71,
+      55,
+      59,
+      74,
+      71,
+      62,
+      63,
+      74,
+      55,
+      57,
+      69,
+      68,
+      72,
+      47,
+      66,
+      61,
+      74,
+      71,
+      61,
+      60,
+      69,
+      82,
+      60,
+      75
+    ],
+    "age_min": 47,
+    "age_max": 82,
+    "age_mean": 63.38709677419355,
+    "species": null,
+    "sex_distribution": {
+      "f": 17,
+      "m": 14
+    },
+    "handedness_distribution": {
+      "r": 31
+    }
+  },
+  "senior_author": "Nicole C. Swann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:21.675290+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-05-27 23:21:43"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on002778",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-rest_beh.json",
+      "task-rest_eeg.json",
+      "task-rest_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on002778",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds002778.v1.0.5"
+    }
+  ],
+  "ingestion_fingerprint": "8c74e0752064af66b56efabe5f38c2e47989f3fcd080525d3aa9d07a736aaa2f"
+}

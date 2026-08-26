@@ -1,0 +1,3573 @@
+{
+  "dataset": "on007949",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:15:12.256764+00:00",
+  "record_count": 44,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-17_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-17/eeg/sub-17_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-17/eeg/sub-17_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-17/eeg/sub-17_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-17/eeg/sub-17_task-streaming_channels.tsv",
+          "sub-17/eeg/sub-17_task-streaming_events.tsv",
+          "sub-17/eeg/sub-17_task-streaming_events.json",
+          "sub-17/eeg/sub-17_task-streaming_eeg.json",
+          "sub-17/eeg/sub-17_task-streaming_eeg.eeg",
+          "sub-17/eeg/sub-17_task-streaming_eeg.vmrk",
+          "sub-17/eeg/sub-17_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/eeg/sub-17_task-streaming_eeg.vhdr": "SHA256E-s727--323e76cf1414487149631d92b22614f91fd30797a92afc0fd62084969c46a220.vhdr",
+          "sub-17/eeg/sub-17_task-streaming_eeg.eeg": "SHA256E-s196653324--07de2874b49ee5b3ceb43aeaacc1d98420cc6f6d68c25d1c505f03ef6e8c021b.eeg",
+          "sub-17/eeg/sub-17_task-streaming_eeg.vmrk": "SHA256E-s512--7ee98fbde5796ef4b091544041efd582ad99766e206fc59995ede495d84165f7.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16387776,
+      "duration_seconds": 1638.7776,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1614.4705,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-17_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-17/eeg/sub-17_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-17/eeg/sub-17_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-17/eeg/sub-17_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-17/eeg/sub-17_task-discrimination_channels.tsv",
+          "sub-17/eeg/sub-17_task-discrimination_events.tsv",
+          "sub-17/eeg/sub-17_task-discrimination_events.json",
+          "sub-17/eeg/sub-17_task-discrimination_eeg.json",
+          "sub-17/eeg/sub-17_task-discrimination_eeg.eeg",
+          "sub-17/eeg/sub-17_task-discrimination_eeg.vmrk",
+          "sub-17/eeg/sub-17_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/eeg/sub-17_task-discrimination_eeg.vhdr": "SHA256E-s737--783dd2722dc956999021c32d862daf315e8a3f08ef92e094e3bdfbc95605cfab.vhdr",
+          "sub-17/eeg/sub-17_task-discrimination_eeg.eeg": "SHA256E-s193736472--9bb68bb9ca9fa16e2bf8435cc9aa404283f0689b6335c6e7749448abab45d995.eeg",
+          "sub-17/eeg/sub-17_task-discrimination_eeg.vmrk": "SHA256E-s517--5dc1ddd282bf66758677e62daabb00ec3e205d3df9fed9382aa3e5cbeaa965b2.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16144705,
+      "duration_seconds": 1614.4705,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1614.4705,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-14_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-14/eeg/sub-14_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-14/eeg/sub-14_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-14/eeg/sub-14_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-14/eeg/sub-14_task-streaming_channels.tsv",
+          "sub-14/eeg/sub-14_task-streaming_events.tsv",
+          "sub-14/eeg/sub-14_task-streaming_events.json",
+          "sub-14/eeg/sub-14_task-streaming_eeg.json",
+          "sub-14/eeg/sub-14_task-streaming_eeg.eeg",
+          "sub-14/eeg/sub-14_task-streaming_eeg.vmrk",
+          "sub-14/eeg/sub-14_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/eeg/sub-14_task-streaming_eeg.vhdr": "SHA256E-s727--23065b14166eacc2d13619ad14808bdf39ecd4983ecb4fa4ab0257c3155c402e.vhdr",
+          "sub-14/eeg/sub-14_task-streaming_eeg.eeg": "SHA256E-s176878836--585889053b39e058748a3ee47100f69ea2538024e6082a369276383e4eb7734b.eeg",
+          "sub-14/eeg/sub-14_task-streaming_eeg.vmrk": "SHA256E-s512--3e17351aee2fef10b9728c1e74b474ecce4f1d078a7355779772d86765111925.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14739902,
+      "duration_seconds": 1473.9902,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1364.6755,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-14_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-14/eeg/sub-14_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-14/eeg/sub-14_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-14/eeg/sub-14_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-14/eeg/sub-14_task-discrimination_channels.tsv",
+          "sub-14/eeg/sub-14_task-discrimination_events.tsv",
+          "sub-14/eeg/sub-14_task-discrimination_events.json",
+          "sub-14/eeg/sub-14_task-discrimination_eeg.json",
+          "sub-14/eeg/sub-14_task-discrimination_eeg.eeg",
+          "sub-14/eeg/sub-14_task-discrimination_eeg.vmrk",
+          "sub-14/eeg/sub-14_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/eeg/sub-14_task-discrimination_eeg.vhdr": "SHA256E-s737--0332ab4d3832a76a042db6f5a0970e7645dff298c0339b0a2aba3dd7bdccf80f.vhdr",
+          "sub-14/eeg/sub-14_task-discrimination_eeg.eeg": "SHA256E-s163761072--029751843630197f975ca28a9f0e4b4ae51ca02e786257dac0a12d386695ac20.eeg",
+          "sub-14/eeg/sub-14_task-discrimination_eeg.vmrk": "SHA256E-s517--500fb33db2ffd14ff6834b840e1b271852e21c929204c6bbf95f0900d2063584.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13646755,
+      "duration_seconds": 1364.6755,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1364.6755,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-15_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-15/eeg/sub-15_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-15/eeg/sub-15_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-15/eeg/sub-15_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-15/eeg/sub-15_task-streaming_channels.tsv",
+          "sub-15/eeg/sub-15_task-streaming_events.tsv",
+          "sub-15/eeg/sub-15_task-streaming_events.json",
+          "sub-15/eeg/sub-15_task-streaming_eeg.json",
+          "sub-15/eeg/sub-15_task-streaming_eeg.eeg",
+          "sub-15/eeg/sub-15_task-streaming_eeg.vmrk",
+          "sub-15/eeg/sub-15_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/eeg/sub-15_task-streaming_eeg.vhdr": "SHA256E-s727--3331030b47b469995cda15c5b4cc87600c12dd1ca2887f5b8134ddf0ad4fb9a2.vhdr",
+          "sub-15/eeg/sub-15_task-streaming_eeg.eeg": "SHA256E-s197571384--69a117fa4690d079e6e6e9b88251fd91cf92aa876ce0bab98b6a1ac19892a009.eeg",
+          "sub-15/eeg/sub-15_task-streaming_eeg.vmrk": "SHA256E-s512--a38093aaa44b66f9df4490e4a73791113b5c406cc85fd92a1876e78c8abb90b3.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16464281,
+      "duration_seconds": 1646.4281,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1427.8884,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-15_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-15/eeg/sub-15_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-15/eeg/sub-15_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-15/eeg/sub-15_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-15/eeg/sub-15_task-discrimination_channels.tsv",
+          "sub-15/eeg/sub-15_task-discrimination_events.tsv",
+          "sub-15/eeg/sub-15_task-discrimination_events.json",
+          "sub-15/eeg/sub-15_task-discrimination_eeg.json",
+          "sub-15/eeg/sub-15_task-discrimination_eeg.eeg",
+          "sub-15/eeg/sub-15_task-discrimination_eeg.vmrk",
+          "sub-15/eeg/sub-15_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/eeg/sub-15_task-discrimination_eeg.vhdr": "SHA256E-s737--32fb9d593c11fb9540347cce237f829a75a1f2dca259cef0c6a86ee84e3bcc05.vhdr",
+          "sub-15/eeg/sub-15_task-discrimination_eeg.eeg": "SHA256E-s171346620--1f6a4687ed4c5cd1483a3bea467dc0223a12de054cbc635408f56eec78ccae7c.eeg",
+          "sub-15/eeg/sub-15_task-discrimination_eeg.vmrk": "SHA256E-s517--e324564794596e4623747e9de79ab799cd2a3be8f6da2f707076bda9c2273b76.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14278884,
+      "duration_seconds": 1427.8884,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1427.8884,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-04_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-04/eeg/sub-04_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-04/eeg/sub-04_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-04/eeg/sub-04_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-04/eeg/sub-04_task-streaming_channels.tsv",
+          "sub-04/eeg/sub-04_task-streaming_events.tsv",
+          "sub-04/eeg/sub-04_task-streaming_events.json",
+          "sub-04/eeg/sub-04_task-streaming_eeg.json",
+          "sub-04/eeg/sub-04_task-streaming_eeg.eeg",
+          "sub-04/eeg/sub-04_task-streaming_eeg.vmrk",
+          "sub-04/eeg/sub-04_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/eeg/sub-04_task-streaming_eeg.vhdr": "SHA256E-s727--1c6ee6b7792c27019f52d1f5f999f9a450c3b18b5e8da3f8ecb9c2028e7af5e7.vhdr",
+          "sub-04/eeg/sub-04_task-streaming_eeg.eeg": "SHA256E-s165535368--f5fdd031505a7f54b77c7d0875f45d58a8c37ebd7e46f4b2d2aec01e7501832f.eeg",
+          "sub-04/eeg/sub-04_task-streaming_eeg.vmrk": "SHA256E-s512--8918783ff1e39ad0cd42687a0d5bc7d45d7527fccc840de85cc57fc8bd698848.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13794613,
+      "duration_seconds": 1379.4613,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1246.2454,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-04_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-04/eeg/sub-04_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-04/eeg/sub-04_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-04/eeg/sub-04_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-04/eeg/sub-04_task-discrimination_channels.tsv",
+          "sub-04/eeg/sub-04_task-discrimination_events.tsv",
+          "sub-04/eeg/sub-04_task-discrimination_events.json",
+          "sub-04/eeg/sub-04_task-discrimination_eeg.json",
+          "sub-04/eeg/sub-04_task-discrimination_eeg.eeg",
+          "sub-04/eeg/sub-04_task-discrimination_eeg.vmrk",
+          "sub-04/eeg/sub-04_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/eeg/sub-04_task-discrimination_eeg.vhdr": "SHA256E-s737--e4ef1e1e24beae4f0debd5a06d09bff3fb739578caf1c33f7048a65d5d2e2b05.vhdr",
+          "sub-04/eeg/sub-04_task-discrimination_eeg.eeg": "SHA256E-s149549460--19f3b427b60c29c68fc349f39aaf83a9d372773bda851b798e92300dd27c9485.eeg",
+          "sub-04/eeg/sub-04_task-discrimination_eeg.vmrk": "SHA256E-s517--848ee69d26b6db9dc23523e9105f72685cd5050319543ef2bf67b87519b14468.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 12462454,
+      "duration_seconds": 1246.2454,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1246.2454,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-13_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-13/eeg/sub-13_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-13/eeg/sub-13_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-13/eeg/sub-13_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-13/eeg/sub-13_task-discrimination_channels.tsv",
+          "sub-13/eeg/sub-13_task-discrimination_events.tsv",
+          "sub-13/eeg/sub-13_task-discrimination_events.json",
+          "sub-13/eeg/sub-13_task-discrimination_eeg.json",
+          "sub-13/eeg/sub-13_task-discrimination_eeg.eeg",
+          "sub-13/eeg/sub-13_task-discrimination_eeg.vmrk",
+          "sub-13/eeg/sub-13_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/eeg/sub-13_task-discrimination_eeg.vhdr": "SHA256E-s737--3f413c78e0d8d435b5b4087f46aa1c43648fb8b0c4366a9ece034c1d17fae320.vhdr",
+          "sub-13/eeg/sub-13_task-discrimination_eeg.eeg": "SHA256E-s181121448--b0e706289a38eed90b660652a97f1b2e7b201df9c02d2f84860d7040dbbc8bfc.eeg",
+          "sub-13/eeg/sub-13_task-discrimination_eeg.vmrk": "SHA256E-s517--c9760feece02724c005dfefa7ef82cb2f95e0bf00df3da046766df624d156e8b.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15093453,
+      "duration_seconds": 1509.3453,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1509.3453,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-13_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-13/eeg/sub-13_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-13/eeg/sub-13_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-13/eeg/sub-13_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-13/eeg/sub-13_task-streaming_channels.tsv",
+          "sub-13/eeg/sub-13_task-streaming_events.tsv",
+          "sub-13/eeg/sub-13_task-streaming_events.json",
+          "sub-13/eeg/sub-13_task-streaming_eeg.json",
+          "sub-13/eeg/sub-13_task-streaming_eeg.eeg",
+          "sub-13/eeg/sub-13_task-streaming_eeg.vmrk",
+          "sub-13/eeg/sub-13_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/eeg/sub-13_task-streaming_eeg.vhdr": "SHA256E-s727--a501f76c88dcb759345d4edb15c53bf98c39cff7f82a7c46e043d910a86551c2.vhdr",
+          "sub-13/eeg/sub-13_task-streaming_eeg.eeg": "SHA256E-s280126128--e7b6195d5ddfa64d732efa01287f71f7cce0a19032b80e68590dd9d580c9b996.eeg",
+          "sub-13/eeg/sub-13_task-streaming_eeg.vmrk": "SHA256E-s512--9926e2899d4d89d08d915b7252a5f7cbead5ae0ec234bb3816bfb8d876a6a27d.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 23343843,
+      "duration_seconds": 2334.3843,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1509.3453,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-05_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-05/eeg/sub-05_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-05/eeg/sub-05_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-05/eeg/sub-05_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-05/eeg/sub-05_task-streaming_channels.tsv",
+          "sub-05/eeg/sub-05_task-streaming_events.tsv",
+          "sub-05/eeg/sub-05_task-streaming_events.json",
+          "sub-05/eeg/sub-05_task-streaming_eeg.json",
+          "sub-05/eeg/sub-05_task-streaming_eeg.eeg",
+          "sub-05/eeg/sub-05_task-streaming_eeg.vmrk",
+          "sub-05/eeg/sub-05_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/eeg/sub-05_task-streaming_eeg.vhdr": "SHA256E-s727--00d83d52e045cb898fb87edfe911a68dbccc405c176e3b6297597418fc3bbd20.vhdr",
+          "sub-05/eeg/sub-05_task-streaming_eeg.eeg": "SHA256E-s189114516--fc056bedcf250e2e9f269cce432bbf3aa8288b9f6a5ca1854b58b0212eee8e29.eeg",
+          "sub-05/eeg/sub-05_task-streaming_eeg.vmrk": "SHA256E-s512--0be01a7dc4cf4a08ab8590c85a7acbfe33cccd51ab8b107439ec35a957db5847.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15759542,
+      "duration_seconds": 1575.9542,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1413.4891,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-05_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-05/eeg/sub-05_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-05/eeg/sub-05_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-05/eeg/sub-05_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-05/eeg/sub-05_task-discrimination_channels.tsv",
+          "sub-05/eeg/sub-05_task-discrimination_events.tsv",
+          "sub-05/eeg/sub-05_task-discrimination_events.json",
+          "sub-05/eeg/sub-05_task-discrimination_eeg.json",
+          "sub-05/eeg/sub-05_task-discrimination_eeg.eeg",
+          "sub-05/eeg/sub-05_task-discrimination_eeg.vmrk",
+          "sub-05/eeg/sub-05_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/eeg/sub-05_task-discrimination_eeg.vhdr": "SHA256E-s737--235bb7989575263322e576c3280e9aa44d57ebbc07d8c5e55812d9c985832f3f.vhdr",
+          "sub-05/eeg/sub-05_task-discrimination_eeg.eeg": "SHA256E-s169618704--1b3e57eb0f96d735b0b960939e1f2a14b27fda2f0e1155a23139040b90d73212.eeg",
+          "sub-05/eeg/sub-05_task-discrimination_eeg.vmrk": "SHA256E-s517--a1c808295b99c03787be2f1658a171c2f20ff09a1c9ec60c85dd50d4b37c01c7.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14134891,
+      "duration_seconds": 1413.4891,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1413.4891,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-18_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-18/eeg/sub-18_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-18/eeg/sub-18_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-18/eeg/sub-18_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-18/eeg/sub-18_task-streaming_channels.tsv",
+          "sub-18/eeg/sub-18_task-streaming_events.tsv",
+          "sub-18/eeg/sub-18_task-streaming_events.json",
+          "sub-18/eeg/sub-18_task-streaming_eeg.json",
+          "sub-18/eeg/sub-18_task-streaming_eeg.eeg",
+          "sub-18/eeg/sub-18_task-streaming_eeg.vmrk",
+          "sub-18/eeg/sub-18_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-18/eeg/sub-18_task-streaming_eeg.vhdr": "SHA256E-s727--0a06b0e38b617ea5509e4fb120ad9729784a84049f7ea447124f1b2de1fe889a.vhdr",
+          "sub-18/eeg/sub-18_task-streaming_eeg.eeg": "SHA256E-s189469884--f25af921ee4a9400c5e9383d8186925be74e97cb0f6266b79eb16d9352510e23.eeg",
+          "sub-18/eeg/sub-18_task-streaming_eeg.vmrk": "SHA256E-s512--f9802f5e3c99ad20e181478850bf8c7e78f39927130e4fece7a442562574503b.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15789156,
+      "duration_seconds": 1578.9156,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1356.5417,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-18_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-18/eeg/sub-18_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-18/eeg/sub-18_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-18/eeg/sub-18_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-18/eeg/sub-18_task-discrimination_channels.tsv",
+          "sub-18/eeg/sub-18_task-discrimination_events.tsv",
+          "sub-18/eeg/sub-18_task-discrimination_events.json",
+          "sub-18/eeg/sub-18_task-discrimination_eeg.json",
+          "sub-18/eeg/sub-18_task-discrimination_eeg.eeg",
+          "sub-18/eeg/sub-18_task-discrimination_eeg.vmrk",
+          "sub-18/eeg/sub-18_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-18/eeg/sub-18_task-discrimination_eeg.vhdr": "SHA256E-s737--cf5bf05b3cd02fef4aa570637fafa1c2d3ed4e6f54dc39cc36fd8806e6395098.vhdr",
+          "sub-18/eeg/sub-18_task-discrimination_eeg.eeg": "SHA256E-s162785016--f2fd88e571f79ccc021807098d6b82303571704a1afcd866d36277441454aff7.eeg",
+          "sub-18/eeg/sub-18_task-discrimination_eeg.vmrk": "SHA256E-s517--1ec49b8f410d5c792f0ef770fd1df85b40c474f731726e8ef2ddf21a543b6142.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13565417,
+      "duration_seconds": 1356.5417,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1356.5417,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-12_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-12/eeg/sub-12_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-12/eeg/sub-12_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-12/eeg/sub-12_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-12/eeg/sub-12_task-discrimination_channels.tsv",
+          "sub-12/eeg/sub-12_task-discrimination_events.tsv",
+          "sub-12/eeg/sub-12_task-discrimination_events.json",
+          "sub-12/eeg/sub-12_task-discrimination_eeg.json",
+          "sub-12/eeg/sub-12_task-discrimination_eeg.eeg",
+          "sub-12/eeg/sub-12_task-discrimination_eeg.vmrk",
+          "sub-12/eeg/sub-12_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/eeg/sub-12_task-discrimination_eeg.vhdr": "SHA256E-s737--f55439d16ffe42db1ef736e351d3ed8f08f0ff11ea41db4459dcbb0790d852e6.vhdr",
+          "sub-12/eeg/sub-12_task-discrimination_eeg.eeg": "SHA256E-s160797264--de2d89df8bd7c0930a5d83f9a9c6af9138af4cc4bb25d135a5a61e748790cfe0.eeg",
+          "sub-12/eeg/sub-12_task-discrimination_eeg.vmrk": "SHA256E-s517--110e68ee41e2764d7a6cca92784664c0f5634f87922887e578698ee3566ca4b3.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13399771,
+      "duration_seconds": 1339.9771,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1339.9771,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-12_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-12/eeg/sub-12_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-12/eeg/sub-12_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-12/eeg/sub-12_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-12/eeg/sub-12_task-streaming_channels.tsv",
+          "sub-12/eeg/sub-12_task-streaming_events.tsv",
+          "sub-12/eeg/sub-12_task-streaming_events.json",
+          "sub-12/eeg/sub-12_task-streaming_eeg.json",
+          "sub-12/eeg/sub-12_task-streaming_eeg.eeg",
+          "sub-12/eeg/sub-12_task-streaming_eeg.vmrk",
+          "sub-12/eeg/sub-12_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/eeg/sub-12_task-streaming_eeg.vhdr": "SHA256E-s727--49a6e6187a2844c2df400c0f5f171dcac9918ba3fdb2ea5dab17059b0378fc86.vhdr",
+          "sub-12/eeg/sub-12_task-streaming_eeg.eeg": "SHA256E-s194972160--3fbe2b6ea8229a43094a484c6eca39301e4576b2f50cc152e285c2184381b344.eeg",
+          "sub-12/eeg/sub-12_task-streaming_eeg.vmrk": "SHA256E-s512--3a8c8ef974bfc1f19fbef6b2de0ea7f80ff0dd95eaba25680fef47357252be72.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16247679,
+      "duration_seconds": 1624.7679,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1339.9771,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-11_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-11/eeg/sub-11_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-11/eeg/sub-11_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-11/eeg/sub-11_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-11/eeg/sub-11_task-discrimination_channels.tsv",
+          "sub-11/eeg/sub-11_task-discrimination_events.tsv",
+          "sub-11/eeg/sub-11_task-discrimination_events.json",
+          "sub-11/eeg/sub-11_task-discrimination_eeg.json",
+          "sub-11/eeg/sub-11_task-discrimination_eeg.eeg",
+          "sub-11/eeg/sub-11_task-discrimination_eeg.vmrk",
+          "sub-11/eeg/sub-11_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/eeg/sub-11_task-discrimination_eeg.vhdr": "SHA256E-s737--568606e46e23ed39572b490ef04aac2446d0b0b76591a8d2cb6a70bc4985da9d.vhdr",
+          "sub-11/eeg/sub-11_task-discrimination_eeg.eeg": "SHA256E-s153191136--8d0a5a7e7d56cca5191efd465c03a7a7b547b03c5be841acea44d5571f3e5fa7.eeg",
+          "sub-11/eeg/sub-11_task-discrimination_eeg.vmrk": "SHA256E-s517--cd9e8bc0c3a02e0da13c941ec6dc8d65864c6517706d56957c544eae652b9eee.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 12765927,
+      "duration_seconds": 1276.5927,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1276.5927,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-11_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-11/eeg/sub-11_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-11/eeg/sub-11_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-11/eeg/sub-11_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-11/eeg/sub-11_task-streaming_channels.tsv",
+          "sub-11/eeg/sub-11_task-streaming_events.tsv",
+          "sub-11/eeg/sub-11_task-streaming_events.json",
+          "sub-11/eeg/sub-11_task-streaming_eeg.json",
+          "sub-11/eeg/sub-11_task-streaming_eeg.eeg",
+          "sub-11/eeg/sub-11_task-streaming_eeg.vmrk",
+          "sub-11/eeg/sub-11_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/eeg/sub-11_task-streaming_eeg.vhdr": "SHA256E-s727--1bd95e15b1b62be3eee4e40adc54dfbdcff3dd73c5953dc5b21330e2109a9c6a.vhdr",
+          "sub-11/eeg/sub-11_task-streaming_eeg.eeg": "SHA256E-s185399964--ee4bb00ac31e909f8595c7ea3eeac35f5788717b1d46c495d13ad6460fd2975d.eeg",
+          "sub-11/eeg/sub-11_task-streaming_eeg.vmrk": "SHA256E-s512--36c05a7385b64be484d655262cca6ffc7541ae0851511788ceaac04a5236cf73.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15449996,
+      "duration_seconds": 1544.9996,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1276.5927,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-03_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-03/eeg/sub-03_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-03/eeg/sub-03_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-03/eeg/sub-03_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-03/eeg/sub-03_task-discrimination_channels.tsv",
+          "sub-03/eeg/sub-03_task-discrimination_events.tsv",
+          "sub-03/eeg/sub-03_task-discrimination_events.json",
+          "sub-03/eeg/sub-03_task-discrimination_eeg.json",
+          "sub-03/eeg/sub-03_task-discrimination_eeg.eeg",
+          "sub-03/eeg/sub-03_task-discrimination_eeg.vmrk",
+          "sub-03/eeg/sub-03_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/eeg/sub-03_task-discrimination_eeg.vhdr": "SHA256E-s737--0aaf02c02741d63c343bac74f8a5314eb0ad8976984bb569156eae7be561b2e1.vhdr",
+          "sub-03/eeg/sub-03_task-discrimination_eeg.eeg": "SHA256E-s156364944--9b701efb77606c5bbe170efc9903d1d622a916bf4193dc9ba7198f99c243f8b6.eeg",
+          "sub-03/eeg/sub-03_task-discrimination_eeg.vmrk": "SHA256E-s517--35f73ff43b43ec53c38c6b83b573df021f5fb4add87037d476d6382ca123c12a.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13030411,
+      "duration_seconds": 1303.0411,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1303.0411,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-03_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-03/eeg/sub-03_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-03/eeg/sub-03_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-03/eeg/sub-03_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-03/eeg/sub-03_task-streaming_channels.tsv",
+          "sub-03/eeg/sub-03_task-streaming_events.tsv",
+          "sub-03/eeg/sub-03_task-streaming_events.json",
+          "sub-03/eeg/sub-03_task-streaming_eeg.json",
+          "sub-03/eeg/sub-03_task-streaming_eeg.eeg",
+          "sub-03/eeg/sub-03_task-streaming_eeg.vmrk",
+          "sub-03/eeg/sub-03_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/eeg/sub-03_task-streaming_eeg.vhdr": "SHA256E-s727--b80de92d9a37b945e08835cd350261f55ab9513448855b093bbf412e33b07997.vhdr",
+          "sub-03/eeg/sub-03_task-streaming_eeg.eeg": "SHA256E-s183644712--e5d67f6f5f1b917a34ea0bab4443c92723b9bc7c78bd2b65c0dd01be075eb1ec.eeg",
+          "sub-03/eeg/sub-03_task-streaming_eeg.vmrk": "SHA256E-s512--993b76b916a1a37af2b10948da21a0355b116ee4a0d0aeb4b32e0010962c6e2a.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15303725,
+      "duration_seconds": 1530.3725,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1303.0411,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-06_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-06/eeg/sub-06_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-06/eeg/sub-06_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-06/eeg/sub-06_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-06/eeg/sub-06_task-discrimination_channels.tsv",
+          "sub-06/eeg/sub-06_task-discrimination_events.tsv",
+          "sub-06/eeg/sub-06_task-discrimination_events.json",
+          "sub-06/eeg/sub-06_task-discrimination_eeg.json",
+          "sub-06/eeg/sub-06_task-discrimination_eeg.eeg",
+          "sub-06/eeg/sub-06_task-discrimination_eeg.vmrk",
+          "sub-06/eeg/sub-06_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/eeg/sub-06_task-discrimination_eeg.vhdr": "SHA256E-s737--3b312e6e6641aed7f1448133b0a1274ae9b1c2f958cd6f871dadfed04287d8c3.vhdr",
+          "sub-06/eeg/sub-06_task-discrimination_eeg.eeg": "SHA256E-s178482096--9b5719dda9e24c8d3f3bc0df96097f136f9ff16d84de46d30d9359b86fdc82c1.eeg",
+          "sub-06/eeg/sub-06_task-discrimination_eeg.vmrk": "SHA256E-s517--e670cec72f72d549b4d68696414c7ad0b7b51ea7dd4b7f2cdbfeafcbdc35ddf6.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14873507,
+      "duration_seconds": 1487.3507,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1487.3507,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-06_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-06/eeg/sub-06_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-06/eeg/sub-06_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-06/eeg/sub-06_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-06/eeg/sub-06_task-streaming_channels.tsv",
+          "sub-06/eeg/sub-06_task-streaming_events.tsv",
+          "sub-06/eeg/sub-06_task-streaming_events.json",
+          "sub-06/eeg/sub-06_task-streaming_eeg.json",
+          "sub-06/eeg/sub-06_task-streaming_eeg.eeg",
+          "sub-06/eeg/sub-06_task-streaming_eeg.vmrk",
+          "sub-06/eeg/sub-06_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/eeg/sub-06_task-streaming_eeg.vhdr": "SHA256E-s727--dec4ce9f20486ce2536594647505a690efc0953ad7bb438d1a6cf9ae101d5845.vhdr",
+          "sub-06/eeg/sub-06_task-streaming_eeg.eeg": "SHA256E-s199548372--50ee5db3601ae21287fe78c4009b064bd723b3de110e0705b83597e7051d6084.eeg",
+          "sub-06/eeg/sub-06_task-streaming_eeg.vmrk": "SHA256E-s512--d39c8ea46b6d4fcf1f89830fec9954d29760fad1f337a260076ac414fbbf7461.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16629030,
+      "duration_seconds": 1662.903,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1487.3507,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-21_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-21/eeg/sub-21_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-21/eeg/sub-21_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-21/eeg/sub-21_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-21/eeg/sub-21_task-streaming_channels.tsv",
+          "sub-21/eeg/sub-21_task-streaming_events.tsv",
+          "sub-21/eeg/sub-21_task-streaming_events.json",
+          "sub-21/eeg/sub-21_task-streaming_eeg.json",
+          "sub-21/eeg/sub-21_task-streaming_eeg.eeg",
+          "sub-21/eeg/sub-21_task-streaming_eeg.vmrk",
+          "sub-21/eeg/sub-21_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-21/eeg/sub-21_task-streaming_eeg.vhdr": "SHA256E-s727--c07c2992e1b7a170157408b4a267e4e02791931c9ff45706111ebdcc92e5a765.vhdr",
+          "sub-21/eeg/sub-21_task-streaming_eeg.eeg": "SHA256E-s170123496--9e3da7a45cccadb065eaa16c051302bfd879502417435e22f2f3f6fd9e7c24ff.eeg",
+          "sub-21/eeg/sub-21_task-streaming_eeg.vmrk": "SHA256E-s512--8a69669d91439fa375b7e8bb39be172f03d527e531c5cafbc1440a2dfc047c81.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14176957,
+      "duration_seconds": 1417.6957,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "EEG impedance about 10 kOhms"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1281.6193,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-21_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-21/eeg/sub-21_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-21/eeg/sub-21_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-21/eeg/sub-21_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-21/eeg/sub-21_task-discrimination_channels.tsv",
+          "sub-21/eeg/sub-21_task-discrimination_events.tsv",
+          "sub-21/eeg/sub-21_task-discrimination_events.json",
+          "sub-21/eeg/sub-21_task-discrimination_eeg.json",
+          "sub-21/eeg/sub-21_task-discrimination_eeg.eeg",
+          "sub-21/eeg/sub-21_task-discrimination_eeg.vmrk",
+          "sub-21/eeg/sub-21_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-21/eeg/sub-21_task-discrimination_eeg.vhdr": "SHA256E-s737--ee040a14fda39f9c6e120dbe63e8d28c2e62fdfa6cc6509d4eab50570cf9b039.vhdr",
+          "sub-21/eeg/sub-21_task-discrimination_eeg.eeg": "SHA256E-s153794328--37d2b1ce1c317b7ddc3e63fb650db13ab5b9d14ab44584364c568d816b5f19b2.eeg",
+          "sub-21/eeg/sub-21_task-discrimination_eeg.vmrk": "SHA256E-s517--44786450dfc334d644d3d145661e03e13beee04897b1b46ee56a6f76e7af3088.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 12816193,
+      "duration_seconds": 1281.6193,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "EEG impedance about 10 kOhms"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1281.6193,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-20_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-20/eeg/sub-20_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-20/eeg/sub-20_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-20/eeg/sub-20_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-20/eeg/sub-20_task-discrimination_channels.tsv",
+          "sub-20/eeg/sub-20_task-discrimination_events.tsv",
+          "sub-20/eeg/sub-20_task-discrimination_events.json",
+          "sub-20/eeg/sub-20_task-discrimination_eeg.json",
+          "sub-20/eeg/sub-20_task-discrimination_eeg.eeg",
+          "sub-20/eeg/sub-20_task-discrimination_eeg.vmrk",
+          "sub-20/eeg/sub-20_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-20/eeg/sub-20_task-discrimination_eeg.vhdr": "SHA256E-s737--1fb12b6f01942235b379717b968780e0633a3a10f01eb36b2427b119fc32179c.vhdr",
+          "sub-20/eeg/sub-20_task-discrimination_eeg.eeg": "SHA256E-s166810116--ec582b5467c2020a97cc00ba2bfcca079bae104257fde45884b75ee85ab7c6be.eeg",
+          "sub-20/eeg/sub-20_task-discrimination_eeg.vmrk": "SHA256E-s517--ae843520017fefa1d6e82996a353df7d8917e49dbc48cc6ca0437fe3fa4f06fe.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13900842,
+      "duration_seconds": 1390.0842,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "ECG noisier than usual but did not prevent R-peak detection"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1390.0842,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-20_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-20/eeg/sub-20_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-20/eeg/sub-20_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-20/eeg/sub-20_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-20/eeg/sub-20_task-streaming_channels.tsv",
+          "sub-20/eeg/sub-20_task-streaming_events.tsv",
+          "sub-20/eeg/sub-20_task-streaming_events.json",
+          "sub-20/eeg/sub-20_task-streaming_eeg.json",
+          "sub-20/eeg/sub-20_task-streaming_eeg.eeg",
+          "sub-20/eeg/sub-20_task-streaming_eeg.vmrk",
+          "sub-20/eeg/sub-20_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-20/eeg/sub-20_task-streaming_eeg.vhdr": "SHA256E-s727--0e93a27c4e50911c255f7ce1332a704a3befc14c0cab493394a03bc5456ad830.vhdr",
+          "sub-20/eeg/sub-20_task-streaming_eeg.eeg": "SHA256E-s189461244--a856930286ed5485108c2689aab05ff2a96945907f2e7b91af223fd57d7bccaf.eeg",
+          "sub-20/eeg/sub-20_task-streaming_eeg.vmrk": "SHA256E-s512--23a30b900e0489e96257d2456d96f02223e15de9fb3d6520e8b4f82d8ec7d263.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15788436,
+      "duration_seconds": 1578.8436,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "ECG noisier than usual but did not prevent R-peak detection"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1390.0842,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-19_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-19/eeg/sub-19_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-19/eeg/sub-19_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-19/eeg/sub-19_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-19/eeg/sub-19_task-discrimination_channels.tsv",
+          "sub-19/eeg/sub-19_task-discrimination_events.tsv",
+          "sub-19/eeg/sub-19_task-discrimination_events.json",
+          "sub-19/eeg/sub-19_task-discrimination_eeg.json",
+          "sub-19/eeg/sub-19_task-discrimination_eeg.eeg",
+          "sub-19/eeg/sub-19_task-discrimination_eeg.vmrk",
+          "sub-19/eeg/sub-19_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-19/eeg/sub-19_task-discrimination_eeg.vhdr": "SHA256E-s737--8a149144ca79c6f79b2b2a74f0932a14ca49cb586ffba0eda3d7b9b1ee7dc81c.vhdr",
+          "sub-19/eeg/sub-19_task-discrimination_eeg.eeg": "SHA256E-s152218824--c1461e4dcd1ecc4968864ec83fb662be14a5650624df523e81d0155bf4feb30f.eeg",
+          "sub-19/eeg/sub-19_task-discrimination_eeg.vmrk": "SHA256E-s517--f4e748059fd9e226f3beeb79f05fbc077bd1eadbe9cc967c66aae28c39e250e4.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 12684901,
+      "duration_seconds": 1268.4901,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "EEG impedance exceeded 10 kOhms"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1268.4901,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-19_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-19/eeg/sub-19_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-19/eeg/sub-19_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-19/eeg/sub-19_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-19/eeg/sub-19_task-streaming_channels.tsv",
+          "sub-19/eeg/sub-19_task-streaming_events.tsv",
+          "sub-19/eeg/sub-19_task-streaming_events.json",
+          "sub-19/eeg/sub-19_task-streaming_eeg.json",
+          "sub-19/eeg/sub-19_task-streaming_eeg.eeg",
+          "sub-19/eeg/sub-19_task-streaming_eeg.vmrk",
+          "sub-19/eeg/sub-19_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-19/eeg/sub-19_task-streaming_eeg.vhdr": "SHA256E-s727--3bdd781d8fbd44d5cd980f5c6defa4bded2195961ad0baaef65078c9fbc5ec1b.vhdr",
+          "sub-19/eeg/sub-19_task-streaming_eeg.eeg": "SHA256E-s160769928--25a4c15bdb99a8b5f7429a59d3ac9fd4e3fb10a74de6008dd43202d2c134cb20.eeg",
+          "sub-19/eeg/sub-19_task-streaming_eeg.vmrk": "SHA256E-s512--831589f178eeee8ecd968ccbcc91506840a8e87fb195e907485d0606c938024d.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13397493,
+      "duration_seconds": 1339.7493,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "EEG impedance exceeded 10 kOhms"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1268.4901,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-08_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-08/eeg/sub-08_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-08/eeg/sub-08_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-08/eeg/sub-08_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-08/eeg/sub-08_task-streaming_channels.tsv",
+          "sub-08/eeg/sub-08_task-streaming_events.tsv",
+          "sub-08/eeg/sub-08_task-streaming_events.json",
+          "sub-08/eeg/sub-08_task-streaming_eeg.json",
+          "sub-08/eeg/sub-08_task-streaming_eeg.eeg",
+          "sub-08/eeg/sub-08_task-streaming_eeg.vmrk",
+          "sub-08/eeg/sub-08_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/eeg/sub-08_task-streaming_eeg.vhdr": "SHA256E-s727--3e51876d014a2d4774a3ac96309f26fe09ab1417afd14c32be9c70b8f4814bd9.vhdr",
+          "sub-08/eeg/sub-08_task-streaming_eeg.eeg": "SHA256E-s175450332--3e2350ccaabe28ffa94151b6bcb6314ddc841188f5af48a538b5b9accb475458.eeg",
+          "sub-08/eeg/sub-08_task-streaming_eeg.vmrk": "SHA256E-s512--fadc322a6ec820ba44d29b422ec506f18e969a677a00628a84320c0f43a00a9e.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14620860,
+      "duration_seconds": 1462.086,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "EEG impedance exceeded 10 kOhms"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1219.8456,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-08_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-08/eeg/sub-08_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-08/eeg/sub-08_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-08/eeg/sub-08_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-08/eeg/sub-08_task-discrimination_channels.tsv",
+          "sub-08/eeg/sub-08_task-discrimination_events.tsv",
+          "sub-08/eeg/sub-08_task-discrimination_events.json",
+          "sub-08/eeg/sub-08_task-discrimination_eeg.json",
+          "sub-08/eeg/sub-08_task-discrimination_eeg.eeg",
+          "sub-08/eeg/sub-08_task-discrimination_eeg.vmrk",
+          "sub-08/eeg/sub-08_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/eeg/sub-08_task-discrimination_eeg.vhdr": "SHA256E-s737--db7f38a6f92cec9c6c623941587294b6b877fc8c01b0f4c3e148b6fc8cd8b32a.vhdr",
+          "sub-08/eeg/sub-08_task-discrimination_eeg.eeg": "SHA256E-s146381484--2b654710b85ee07ae0ef1df028b229dc32c5ddf925930f4da65555b8d8008127.eeg",
+          "sub-08/eeg/sub-08_task-discrimination_eeg.vmrk": "SHA256E-s517--10c4e9fc4ddd1c77ff716e891ed4e715c93137c36525dafa56e81b8193f0d681.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 12198456,
+      "duration_seconds": 1219.8456,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "EEG impedance exceeded 10 kOhms"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1219.8456,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-10_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-10/eeg/sub-10_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-10/eeg/sub-10_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-10/eeg/sub-10_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-10/eeg/sub-10_task-streaming_channels.tsv",
+          "sub-10/eeg/sub-10_task-streaming_events.tsv",
+          "sub-10/eeg/sub-10_task-streaming_events.json",
+          "sub-10/eeg/sub-10_task-streaming_eeg.json",
+          "sub-10/eeg/sub-10_task-streaming_eeg.eeg",
+          "sub-10/eeg/sub-10_task-streaming_eeg.vmrk",
+          "sub-10/eeg/sub-10_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/eeg/sub-10_task-streaming_eeg.vhdr": "SHA256E-s727--9171f220aa8aaf5f7be9e5b176df50aef58f0819d5f9a449b5ce86799a22c322.vhdr",
+          "sub-10/eeg/sub-10_task-streaming_eeg.eeg": "SHA256E-s173444100--53c2ecab0dee9535d422f22f11c41a3a9345e764ecdb39c47324a3819f209ace.eeg",
+          "sub-10/eeg/sub-10_task-streaming_eeg.vmrk": "SHA256E-s512--6a828273139473f54a013c49e98db4a2050f25d12fa9dcb3d28b376d3fabcc6d.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14453674,
+      "duration_seconds": 1445.3674,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "right earphone briefly fell out during streaming task"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1241.6974,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-10_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-10/eeg/sub-10_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-10/eeg/sub-10_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-10/eeg/sub-10_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-10/eeg/sub-10_task-discrimination_channels.tsv",
+          "sub-10/eeg/sub-10_task-discrimination_events.tsv",
+          "sub-10/eeg/sub-10_task-discrimination_events.json",
+          "sub-10/eeg/sub-10_task-discrimination_eeg.json",
+          "sub-10/eeg/sub-10_task-discrimination_eeg.eeg",
+          "sub-10/eeg/sub-10_task-discrimination_eeg.vmrk",
+          "sub-10/eeg/sub-10_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/eeg/sub-10_task-discrimination_eeg.vhdr": "SHA256E-s737--16a7da92afc79c2b5f985b628c08ebc0e18e448b8dee1fbaac53e72eb10eb7be.vhdr",
+          "sub-10/eeg/sub-10_task-discrimination_eeg.eeg": "SHA256E-s149003700--09c72ca006548bd079a1c756e2f6badb77a0e0cff01093f8248ccc9c95d2b495.eeg",
+          "sub-10/eeg/sub-10_task-discrimination_eeg.vmrk": "SHA256E-s517--016d3f142edd20be0bcff3661c6c49fab6c7b86ca851cc05d8e7ad5757f83964.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 12416974,
+      "duration_seconds": 1241.6974,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": "right earphone briefly fell out during streaming task"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1241.6974,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-16_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-16/eeg/sub-16_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-16/eeg/sub-16_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-16/eeg/sub-16_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-16/eeg/sub-16_task-streaming_channels.tsv",
+          "sub-16/eeg/sub-16_task-streaming_events.tsv",
+          "sub-16/eeg/sub-16_task-streaming_events.json",
+          "sub-16/eeg/sub-16_task-streaming_eeg.json",
+          "sub-16/eeg/sub-16_task-streaming_eeg.eeg",
+          "sub-16/eeg/sub-16_task-streaming_eeg.vmrk",
+          "sub-16/eeg/sub-16_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/eeg/sub-16_task-streaming_eeg.vhdr": "SHA256E-s727--ba3ced6e53b3fd00862d7b86628398bb73b73897be1ccb4e1989ff819bd4bf03.vhdr",
+          "sub-16/eeg/sub-16_task-streaming_eeg.eeg": "SHA256E-s174745320--3060f256d0c918c4f58c25880a28024909f4d4f2de3c5cdff666e05718e4794a.eeg",
+          "sub-16/eeg/sub-16_task-streaming_eeg.vmrk": "SHA256E-s512--d2cb3a1d890fde3cd00314f8914d289ea336ef807fea879bacd47d0619538c32.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14562109,
+      "duration_seconds": 1456.2109,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1309.2337,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-16_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-16/eeg/sub-16_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-16/eeg/sub-16_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-16/eeg/sub-16_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-16/eeg/sub-16_task-discrimination_channels.tsv",
+          "sub-16/eeg/sub-16_task-discrimination_events.tsv",
+          "sub-16/eeg/sub-16_task-discrimination_events.json",
+          "sub-16/eeg/sub-16_task-discrimination_eeg.json",
+          "sub-16/eeg/sub-16_task-discrimination_eeg.eeg",
+          "sub-16/eeg/sub-16_task-discrimination_eeg.vmrk",
+          "sub-16/eeg/sub-16_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/eeg/sub-16_task-discrimination_eeg.vhdr": "SHA256E-s737--06b22599151a8405766005d494a212424f73d46e811ea4323cd18f901d432491.vhdr",
+          "sub-16/eeg/sub-16_task-discrimination_eeg.eeg": "SHA256E-s157108056--9173924287726947afb1e2e24c8c3dc452441d088eec05e0a5cf44f59bbc1871.eeg",
+          "sub-16/eeg/sub-16_task-discrimination_eeg.vmrk": "SHA256E-s517--fe03a8316b156fc7d85ea4a76a42153ecd1a4dc1520a0448dc90487aa7b4e5c6.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13092337,
+      "duration_seconds": 1309.2337,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1309.2337,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-07_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-07/eeg/sub-07_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-07/eeg/sub-07_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-07/eeg/sub-07_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-07/eeg/sub-07_task-discrimination_channels.tsv",
+          "sub-07/eeg/sub-07_task-discrimination_events.tsv",
+          "sub-07/eeg/sub-07_task-discrimination_events.json",
+          "sub-07/eeg/sub-07_task-discrimination_eeg.json",
+          "sub-07/eeg/sub-07_task-discrimination_eeg.eeg",
+          "sub-07/eeg/sub-07_task-discrimination_eeg.vmrk",
+          "sub-07/eeg/sub-07_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/eeg/sub-07_task-discrimination_eeg.vhdr": "SHA256E-s737--709d10bc6b0f6f58f7d263a210618310ce099936c518526d9c8b71541f1bbaad.vhdr",
+          "sub-07/eeg/sub-07_task-discrimination_eeg.eeg": "SHA256E-s167306904--3c1674e60fe2214879849504da45b8d87fc8d100c7764a0581c79124bf331fd1.eeg",
+          "sub-07/eeg/sub-07_task-discrimination_eeg.vmrk": "SHA256E-s517--c101d9806d2167d765a6550f233f8fad4c7a8446494f4eff45892ee5c0368967.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13942241,
+      "duration_seconds": 1394.2241,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "L",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1394.2241,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-07_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-07/eeg/sub-07_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-07/eeg/sub-07_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-07/eeg/sub-07_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-07/eeg/sub-07_task-streaming_channels.tsv",
+          "sub-07/eeg/sub-07_task-streaming_events.tsv",
+          "sub-07/eeg/sub-07_task-streaming_events.json",
+          "sub-07/eeg/sub-07_task-streaming_eeg.json",
+          "sub-07/eeg/sub-07_task-streaming_eeg.eeg",
+          "sub-07/eeg/sub-07_task-streaming_eeg.vmrk",
+          "sub-07/eeg/sub-07_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/eeg/sub-07_task-streaming_eeg.vhdr": "SHA256E-s727--90ecf6001d5ef9319c4e5128d88be319723d20a88cab6b85e909f5c77a7003a3.vhdr",
+          "sub-07/eeg/sub-07_task-streaming_eeg.eeg": "SHA256E-s174120108--8e3617916519ad3c673822c36181019ffabfe6bc4959615f43eee7826b53a935.eeg",
+          "sub-07/eeg/sub-07_task-streaming_eeg.vmrk": "SHA256E-s512--5060d1667b2883482dfca7f1bc9fde1c924bbfb487cf7aba82e81fefe7c5e62e.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14510008,
+      "duration_seconds": 1451.0008,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "L",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1394.2241,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-09_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-09/eeg/sub-09_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-09/eeg/sub-09_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-09/eeg/sub-09_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-09/eeg/sub-09_task-discrimination_channels.tsv",
+          "sub-09/eeg/sub-09_task-discrimination_events.tsv",
+          "sub-09/eeg/sub-09_task-discrimination_events.json",
+          "sub-09/eeg/sub-09_task-discrimination_eeg.json",
+          "sub-09/eeg/sub-09_task-discrimination_eeg.eeg",
+          "sub-09/eeg/sub-09_task-discrimination_eeg.vmrk",
+          "sub-09/eeg/sub-09_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/eeg/sub-09_task-discrimination_eeg.vhdr": "SHA256E-s737--4a7057939b756c2a663e68914935db2cd2ce55319862139f508a5bb288287d48.vhdr",
+          "sub-09/eeg/sub-09_task-discrimination_eeg.eeg": "SHA256E-s172805520--f2ea3fcc502651b5522b318036e123fd323b9b73ec39c7731f370a987ef54766.eeg",
+          "sub-09/eeg/sub-09_task-discrimination_eeg.vmrk": "SHA256E-s517--f128f9cfffdbd8669a5a99768623c87369cb5a0f55f52d55df05c2536953aa3f.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 14400459,
+      "duration_seconds": 1440.0459,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1440.0459,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-09_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-09/eeg/sub-09_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-09/eeg/sub-09_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-09/eeg/sub-09_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-09/eeg/sub-09_task-streaming_channels.tsv",
+          "sub-09/eeg/sub-09_task-streaming_events.tsv",
+          "sub-09/eeg/sub-09_task-streaming_events.json",
+          "sub-09/eeg/sub-09_task-streaming_eeg.json",
+          "sub-09/eeg/sub-09_task-streaming_eeg.eeg",
+          "sub-09/eeg/sub-09_task-streaming_eeg.vmrk",
+          "sub-09/eeg/sub-09_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/eeg/sub-09_task-streaming_eeg.vhdr": "SHA256E-s727--e2969a14fa1c076e60e07f0300ba9147dea88e1e2c66729b6d7262b44bddc08e.vhdr",
+          "sub-09/eeg/sub-09_task-streaming_eeg.eeg": "SHA256E-s197033844--7a0f64ff8d9578a371bfcefbbd611120d9c5c19e55b0245887f1ebde79b1c974.eeg",
+          "sub-09/eeg/sub-09_task-streaming_eeg.vmrk": "SHA256E-s512--c29f19040983f7e8189789a4fa4ac7a61912e4b7ad0032f536902dfdb66b8f54.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16419486,
+      "duration_seconds": 1641.9486,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1440.0459,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-02_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-02/eeg/sub-02_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-02/eeg/sub-02_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-02/eeg/sub-02_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-02/eeg/sub-02_task-discrimination_channels.tsv",
+          "sub-02/eeg/sub-02_task-discrimination_events.tsv",
+          "sub-02/eeg/sub-02_task-discrimination_events.json",
+          "sub-02/eeg/sub-02_task-discrimination_eeg.json",
+          "sub-02/eeg/sub-02_task-discrimination_eeg.eeg",
+          "sub-02/eeg/sub-02_task-discrimination_eeg.vmrk",
+          "sub-02/eeg/sub-02_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/eeg/sub-02_task-discrimination_eeg.vhdr": "SHA256E-s737--aefbf57a69d0c54fed8c4fcd31261c11314936159844b413f5425ce18d615074.vhdr",
+          "sub-02/eeg/sub-02_task-discrimination_eeg.eeg": "SHA256E-s184653204--4fe72bfb97c6e33e621e3a9ba2d1f20e4053a66743892b669437a656b5284128.eeg",
+          "sub-02/eeg/sub-02_task-discrimination_eeg.vmrk": "SHA256E-s517--1615e95b3bef4b8a67aad113f19d9ec73e622f15dc8f3ea81e01d73ddf6888e1.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15387766,
+      "duration_seconds": 1538.7766,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "L",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1538.7766,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-02_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-02/eeg/sub-02_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-02/eeg/sub-02_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-02/eeg/sub-02_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-02/eeg/sub-02_task-streaming_channels.tsv",
+          "sub-02/eeg/sub-02_task-streaming_events.tsv",
+          "sub-02/eeg/sub-02_task-streaming_events.json",
+          "sub-02/eeg/sub-02_task-streaming_eeg.json",
+          "sub-02/eeg/sub-02_task-streaming_eeg.eeg",
+          "sub-02/eeg/sub-02_task-streaming_eeg.vmrk",
+          "sub-02/eeg/sub-02_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/eeg/sub-02_task-streaming_eeg.vhdr": "SHA256E-s727--229aa84a8d329fc1a70a20f9391130226bcba11876800ac505a0a06b11e6c764.vhdr",
+          "sub-02/eeg/sub-02_task-streaming_eeg.eeg": "SHA256E-s198718044--30026dd92f8241437418ef99dfa572a520af5580b3f7bb3d6bba719944eb5f4a.eeg",
+          "sub-02/eeg/sub-02_task-streaming_eeg.vmrk": "SHA256E-s512--65193a0d3a514650eb3d81ffed76f4b103792b14a37a7a094eaa5eea89cb3780.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16559836,
+      "duration_seconds": 1655.9836,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "L",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1538.7766,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-22_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-22/eeg/sub-22_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-22/eeg/sub-22_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-22/eeg/sub-22_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-22/eeg/sub-22_task-discrimination_channels.tsv",
+          "sub-22/eeg/sub-22_task-discrimination_events.tsv",
+          "sub-22/eeg/sub-22_task-discrimination_events.json",
+          "sub-22/eeg/sub-22_task-discrimination_eeg.json",
+          "sub-22/eeg/sub-22_task-discrimination_eeg.eeg",
+          "sub-22/eeg/sub-22_task-discrimination_eeg.vmrk",
+          "sub-22/eeg/sub-22_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-22/eeg/sub-22_task-discrimination_eeg.vhdr": "SHA256E-s737--6e4370aac164b72556effcdb32167119458a80fcfe63503627b115afa4b8d5f0.vhdr",
+          "sub-22/eeg/sub-22_task-discrimination_eeg.eeg": "SHA256E-s160027596--960d7254767845d0d910b7966efbd8a0bae0197c7895d5ebe2590c8fb62d2164.eeg",
+          "sub-22/eeg/sub-22_task-discrimination_eeg.vmrk": "SHA256E-s517--79280a02073ea010dd481ef07a7489306f36ae11d1107f7644f241e74a17b665.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13335632,
+      "duration_seconds": 1333.5632,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1333.5632,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-22_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-22/eeg/sub-22_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-22/eeg/sub-22_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-22/eeg/sub-22_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-22/eeg/sub-22_task-streaming_channels.tsv",
+          "sub-22/eeg/sub-22_task-streaming_events.tsv",
+          "sub-22/eeg/sub-22_task-streaming_events.json",
+          "sub-22/eeg/sub-22_task-streaming_eeg.json",
+          "sub-22/eeg/sub-22_task-streaming_eeg.eeg",
+          "sub-22/eeg/sub-22_task-streaming_eeg.vmrk",
+          "sub-22/eeg/sub-22_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-22/eeg/sub-22_task-streaming_eeg.vhdr": "SHA256E-s727--2c141a565a50e58b2117de7f2513882c0a796916309ed8b218caa018cebf9213.vhdr",
+          "sub-22/eeg/sub-22_task-streaming_eeg.eeg": "SHA256E-s196802628--ff58deb3f0de926dccfc89fbcba6e863ef53d5de3a84e91b8294dff04c2cb2d3.eeg",
+          "sub-22/eeg/sub-22_task-streaming_eeg.vmrk": "SHA256E-s512--88be67f23ab98ac87bbda0a288c3934dcf276268b6a1fd704cce24d54205388f.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 16400218,
+      "duration_seconds": 1640.0218,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1333.5632,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-01_task-discrimination_eeg.vhdr",
+      "bidspath": "on007949/sub-01/eeg/sub-01_task-discrimination_eeg.vhdr",
+      "bids_relpath": "sub-01/eeg/sub-01_task-discrimination_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "discrimination",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-01/eeg/sub-01_task-discrimination_eeg.vhdr",
+        "dep_keys": [
+          "sub-01/eeg/sub-01_task-discrimination_channels.tsv",
+          "sub-01/eeg/sub-01_task-discrimination_events.tsv",
+          "sub-01/eeg/sub-01_task-discrimination_events.json",
+          "sub-01/eeg/sub-01_task-discrimination_eeg.json",
+          "sub-01/eeg/sub-01_task-discrimination_eeg.eeg",
+          "sub-01/eeg/sub-01_task-discrimination_eeg.vmrk",
+          "sub-01/eeg/sub-01_task-discrimination_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/eeg/sub-01_task-discrimination_eeg.vhdr": "SHA256E-s737--fcdc5a0307a0f51f0b4d35bbcaed7692d270ac177f15d59a92b38a6887eab119.vhdr",
+          "sub-01/eeg/sub-01_task-discrimination_eeg.eeg": "SHA256E-s167876688--50d579b5679ebe87328686c8538c802014a3e603fc0fb4836edeada33906851c.eeg",
+          "sub-01/eeg/sub-01_task-discrimination_eeg.vmrk": "SHA256E-s517--fcd6761d29fb9152eedf5ff054e7af7a6294ecf166dc8421d6d05ea52e6537f1.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 13989723,
+      "duration_seconds": 1398.9723,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1398.9723,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on007949",
+      "data_name": "on007949_sub-01_task-streaming_eeg.vhdr",
+      "bidspath": "on007949/sub-01/eeg/sub-01_task-streaming_eeg.vhdr",
+      "bids_relpath": "sub-01/eeg/sub-01_task-streaming_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "streaming",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on007949",
+        "raw_key": "sub-01/eeg/sub-01_task-streaming_eeg.vhdr",
+        "dep_keys": [
+          "sub-01/eeg/sub-01_task-streaming_channels.tsv",
+          "sub-01/eeg/sub-01_task-streaming_events.tsv",
+          "sub-01/eeg/sub-01_task-streaming_events.json",
+          "sub-01/eeg/sub-01_task-streaming_eeg.json",
+          "sub-01/eeg/sub-01_task-streaming_eeg.eeg",
+          "sub-01/eeg/sub-01_task-streaming_eeg.vmrk",
+          "sub-01/eeg/sub-01_task-streaming_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/eeg/sub-01_task-streaming_eeg.vhdr": "SHA256E-s727--7a0e14e161bfaae2e8268b5eba2fb7678265a3d80c2eb8cf844c419317da805e.vhdr",
+          "sub-01/eeg/sub-01_task-streaming_eeg.eeg": "SHA256E-s184212432--6ace8bf91b6e3daba55bbbccfb4a4b01f12caca5537a52f17a9c0fa65667b8e4.eeg",
+          "sub-01/eeg/sub-01_task-streaming_eeg.vmrk": "SHA256E-s512--33c992f955e55f54f5000ce9ad7b4e260fb790dc4159af7ce6dfc1b3c82a0358.vmrk"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "ecg",
+        "audio"
+      ],
+      "sampling_frequency": 10000.0,
+      "nchans": 3,
+      "ntimes": 15351035,
+      "duration_seconds": 1535.1035,
+      "digested_at": "2026-08-26T11:15:12.256764+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "notes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": "n/a",
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp Plus with EP-PreAmp Gain 50",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 1398.9723,
+      "eeg_ground": "right mastoid",
+      "montage_hash": null
+    }
+  ]
+}

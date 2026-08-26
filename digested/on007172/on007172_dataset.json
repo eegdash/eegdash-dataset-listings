@@ -1,0 +1,88 @@
+{
+  "dataset_id": "on007172",
+  "name": "EEG-Asymmetries Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007172-blue)](https://doi.org/10.82901/nemar.on007172)\nReferences BIDS\n---------------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8\nReferences Dataset\n------------------\nReinke, P., Deneke, L., & Ocklenburg, S. (2025). Hemispheric asymmetries in the EEG: Is there an association between N1 lateralization and alpha asymmetry?. Laterality, 1\u201350. Advance online publication. https://doi.org/10.1080/1357650X.2025.2591660\nDataset description\n-----------------------------\nThe dataset comprises 100 participants (53 females, 46 males, 1 diverse individual). 27 of the females were right-handed, the rest was non-right-hand dominant. Of the males 24 were right-handed, while the rest was non-right-hand dominant. The mean age of the participants was 25.6 [4.91SD] years. All participants reported normal or 2 corrected-to-normal vision, had no unilateral sensory or motor deficits, no history of mental illnesses 3 or neurologic disorders, and were currently not taking any medication.\nAll participants started with a resting state (RS) of approximately eight minutes, where periods of open and closed eyes were included (each period was 63seconds, leading to 4.2 minutes of open eyes and 4.2 minutes of closed eyes resting state). After the RS each participant completed four tasks in a randomized order. Each task was constructed in the same way: The participants were instructed verbally as well as in written form directly before each trial 4 began. They were told to only react to the target stimuli (animal names, female faces, and houses with pitched roofs) via a press on the space bar. Each trial consisted of three blocks: one short practice block, one block where answers should be given with the right hand, and one block where answers should be given with the left hand. The starting hand was randomized across participants. During the trials, words (words task) or pictures (faces, emotions, and houses task) were shown in the center of the screen for one second, followed by a fixation cross for 500-700ms. After 80 stimuli, the response hand was changed, leading to a total of 160 stimuli presentations for each task. For more specific information look here: Reinke, P., Deneke, L., & Ocklenburg, S. (2025). Hemispheric asymmetries in the EEG: Is there an association between N1 lateralization and alpha asymmetry?. Laterality, 1\u201350. Advance online publication. https://doi.org/10.1080/1357650X.2025.2591660\nTrigger description\n-------------------\nResting State (\u201crest\u201d):\nRest/Open: 1\nRest/Closed: 2\nWords Task (\u201cwords\u201d):\nRight Hand & animal name: 13\nRight Hand & non-animal word: 14\nLeft Hand & animal name: 23\nLeft Hand & non-animal word: 24\nFaces Task (\u201cfaces\u201d):\nRight Hand \u2013 Male \u2013 Black: 117\nRight Hand \u2013 Male \u2013 White: 118\nRight Hand \u2013 Female \u2013 Black: 127\nRight Hand \u2013 Female \u2013 White: 128\nLeft Hand \u2013 Male \u2013 Black: 217\nLeft Hand \u2013 Male \u2013 White: 218\nLeft Hand \u2013 Female \u2013 Black: 227\nLeft Hand \u2013 Female \u2013 White: 228\nEmotions Task (\u201cemotions\u201d):\nRight Hand \u2013 Male \u2013 Angry: 111\nRight Hand \u2013 Male \u2013 Fearful: 112\nRight Hand \u2013 Male \u2013 Happy (mouth open): 113\nRight Hand \u2013 Male \u2013 Happy (mouth closed): 114\nRight Hand \u2013 Female \u2013 Angry: 121\nRight Hand \u2013 Female \u2013 Fearful: 122\nRight Hand \u2013 Female \u2013 Happy (mouth open): 123\nRight Hand \u2013 Female \u2013 Happy (mouth closed): 124\u00b4\nLeft Hand \u2013 Male \u2013 Angry: 211\nLeft Hand \u2013 Male \u2013 Fearful: 212\nLeft Hand \u2013 Male \u2013 Happy (mouth open): 213\nLeft Hand \u2013 Male \u2013 Happy (mouth closed): 214\nLeft Hand \u2013 Female \u2013 Angry: 221\nLeft Hand \u2013 Female \u2013 Fearful: 222\nLeft Hand \u2013 Female \u2013 Happy (mouth open): 223\nLeft Hand \u2013 Female \u2013 Happy (mouth closed): 224\nHouses task (\u201chouses\u201d):\nRight Hand & Pitched Roof: 11\nRight Hand & Flat Roof: 12\nLeft Hand & Pitched Roof: 21\nLeft Hand & Flat Roof: 22",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Petunia Reinke",
+    "Lisa Deneke",
+    "Sebastian Ocklenburg"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007172",
+  "associated_paper_doi": null,
+  "tasks": [
+    "emotions",
+    "emotios",
+    "faces",
+    "houses",
+    "rest",
+    "words"
+  ],
+  "sessions": [],
+  "total_files": 501,
+  "size_bytes": 11851936853,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 100,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 46,
+      "f": 53,
+      "o": 1
+    },
+    "handedness_distribution": {
+      "r": 52,
+      "l": 48
+    }
+  },
+  "senior_author": "Sebastian Ocklenburg",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:00.201505+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 02:41:08"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007172",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007172",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Reinke, P., Deneke, L., & Ocklenburg, S. (2025). Hemispheric asymmetries in the EEG: Is there an association between N1 lateralization and alpha asymmetry?. Laterality, 1\u201350. Advance online publication. https://doi.org/10.1080/1357650X.2025.2591660",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007172.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "4a97fa2f9183ac4ad4bee2a408c55fbe8e5b6b23f166753efc7d9a57480e1fd8"
+}

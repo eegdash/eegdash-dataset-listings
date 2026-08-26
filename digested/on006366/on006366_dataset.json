@@ -1,0 +1,102 @@
+{
+  "dataset_id": "on006366",
+  "name": "Mouse Sleep Staging Validation dataset (MSSV)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006366-blue)](https://doi.org/10.82901/nemar.on006366)\n# Mouse Sleep Staging Validation dataset (MSSV)\nThis dataset contains EEG recordings with sleep scores from 92 healthy mice. The recordings and sleep scores were collected from five different labs:\n- Department of Biomedical and Neuromotor Sciences, Universit\u00e0 di Bologna, Italy.\n- Center for Translational Neuroscience, University of Copenhagen, Denmark.\n- Department of Neuroscience, University of Copenhagen, Denmark.\n- Zentrum f\u00fcr Experimentelle Neurologie, Department of Neurology, Inselspital University Hospital Bern, Bern, Switzerland.\n- Lyon Neuroscience Research Center, Lyon, France.\n## Overview\n-   It contains EEG data from healthy mice in both dark and light phases.\n-   All recordings contain at least one EEG and one EMG channel. The number of EEG channels available varies between labs (see labs.tsv).\n-   The dataset is formatted according to the Brain Imaging Data Structure. See the 'dataset_description.json' file for the specific BIDS version used. The recordings are stored in .EDF format.\n-   This dataset has been used and is fully described in https://doi.org/10.1093/sleepadvances/zpaf025.\n## Methods\n-   There are 92 healthy mice from 5 different labs. Each mouse is scored by a single sleep expert. See participants.tsv to see what lab each mouse belongs to.\n-   All recordings have been downsampled to 128Hz and have SI units (volts). The epoch length is 4 seconds.\n## Contact\nFor questions regarding this dataset, contact Birgitte Rahbek Kornum, kornum@sund.ku.dk",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "Laura Rose",
+    "Alexander Neergaard Zahid",
+    "Javier Garc\u00eda Ciudad",
+    "Christine Egebjerg",
+    "Louise Piilgaard",
+    "Frederikke Lynge S\u00f8rensen",
+    "Mie Andersen",
+    "Tessa Radovanovic",
+    "Anastasia Tsopanidou",
+    "Maiken Nedergaard",
+    "S\u00e9bastien Arthaud",
+    "Renato Maciel",
+    "Christelle Peyron",
+    "Chiara Berteotti",
+    "Viviana Lo Martire",
+    "Alessandro Silvani",
+    "Giovanna Zoccoli",
+    "Micaela Borsa",
+    "Antoine Adamantidis",
+    "Morten M\u00f8rup",
+    "Birgitte Rahbek Kornum"
+  ],
+  "funding": [
+    "Lundbeck Foundation (R344-2020-749)"
+  ],
+  "dataset_doi": "10.82901/nemar.on006366",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep"
+  ],
+  "sessions": [],
+  "total_files": 148,
+  "size_bytes": 6526747928,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 92,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Birgitte Rahbek Kornum",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:55.987474+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-28 21:08:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006366",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "labs.tsv",
+      "participants.json",
+      "participants.tsv",
+      "task-sleep_eeg.json",
+      "task-sleep_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006366",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Acknowledgements: Thank you to all participating labs for sharing their data.",
+  "ethics_approvals": [
+    "All animal studies have been approved by the respective national authorities and carried out according to ethical guidelines (European Communities Council Directive (86/609/EEC) and ARRIVE (Animal Research: Reporting In Vivo Experiments)."
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006366.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "973efee653a0dbe19e0138c336fa1f4c7b13842ebc6c1aed7b96b62361ce437e"
+}

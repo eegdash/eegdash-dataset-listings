@@ -1,0 +1,82 @@
+{
+  "dataset_id": "nm000133",
+  "name": "Alljoined1",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000133-blue)](https://doi.org/10.82901/nemar.nm000133)\n# Alljoined1: EEG Responses to Natural Images\n## Overview\nAlljoined1 is an EEG dataset of neural responses to rapid serial visual presentation (RSVP) of natural images, designed for EEG-to-image decoding research. Eight healthy right-handed adults (6 male, 2 female; mean age 22 +/- 0.64 years, normal or corrected-to-normal vision) each viewed 10,000 natural images across two recording sessions on separate days.\nThe original data were recorded in BioSemi Data Format (BDF) via a 64-channel BioSemi ActiveTwo system with 24-bit A/D conversion, digitized at 512 Hz. This BIDS-formatted version preserves the BDF format to maintain full 24-bit data fidelity.\n**Reference:** Xu, J., Aristimunha, B., Feucht, M. E., Qian, E., Liu, C., Shahjahan, T., ... & Nestor, A. (2024). Alljoined--A dataset for EEG-to-Image decoding. Workshop Data Curation and Augmentation in Medical Imaging at 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 1\u20139. https://doi.org/10.48550/arXiv.2404.05553\n## Recording Setup\n- **Equipment:** BioSemi ActiveTwo, 64 Ag/AgCl sintered electrodes\n- **Montage:** International 10-20 system\n- **Sampling rate:** 512 Hz\n- **Reference:** CMS/DRL (BioSemi default); average reference applied in preprocessing\n- **Electrode offset:** kept below 40 mV\n- **Power line:** 60 Hz notch filter applied during preprocessing\n## Task Paradigm\nParticipants viewed natural images in a rapid serial visual presentation (RSVP) paradigm with an oddball detection task. Each trial consisted of an image presented for 300 ms, followed by 300 ms of black screen, plus 0-50 ms of random jitter. Participants pressed the space bar when two consecutive trials contained the same image (oddball detection). Oddball trials (24 per block) were excluded from analysis.\n## Stimulus Set\n10,000 natural images per participant drawn from the Natural Scenes Dataset (NSD), which itself is sourced from MS-COCO:\n- **1,000 shared images:** the first 960 images from the NSD \"shared1000\" subset, shown to all participants (each image repeated 4 times per participant)\n- **9,000 unique images:** different for each participant\nEach image was shown 4 times per participant across blocks and sessions (presented twice per block, with blocks repeated within sessions).\nThe BIDS event tables (every `events.tsv`) reference the stimuli as\n`trial_type = \"image/N\"` where `N` is a 1-indexed position (1..960) into\nthe shared subset. The full mapping chain is:\n```\nevents.tsv `value` (N, 1..960)\n    \u2193\nsharedix[N-1]                                    (from code/0_data_collection/nsd_expdesign.mat; 1-indexed NSD id)\n    \u2193\nnsdId = sharedix[N-1] - 1                        (0-indexed)\n    \u2193\ncode/1_preprocessing/data/nsd_stim_info_merged.csv\n    \u2193\ncocoId, cocoSplit (val2017 / train2017)\n    \u2193\nstimuli/<cocoSplit>/000000<cocoId:012d>.jpg      (preserves original COCO 2017 layout)\n```\nEmpirically the 960 shared NSD ids are all in `train2017`, so every\nstimulus path under this dataset is `stimuli/train2017/000000<id>.jpg`.\nTo populate `stimuli/`:\n```bash\npython code/download_stimuli.py            # ~140 MB, fetches only the 960 needed\npython code/smoke_test.py                  # confirms every event row resolves\n```\nA small alignment helper is provided:\n```python\nimport pandas as pd\nfrom code.align_stimuli import StimulusAligner\naligner = StimulusAligner('.')\nevents = pd.read_csv('sub-01/ses-01/eeg/sub-01_ses-01_task-images_events.tsv', sep='\\t')\npaths = aligner.paths_for_events(events, subject=1, session=1)   # list[Path | None]\nimg   = aligner.image_for_event(events.iloc[0], subject=1, session=1)  # PIL.Image\n```\n## Subjects and Sessions\n8 subjects, 1-2 sessions each (13 sessions total):\n| Subject | Sessions | Notes |\n|---------|----------|-------|\n| sub-01 | ses-01, ses-02 | |\n| sub-02 | ses-01 | |\n| sub-03 | ses-01, ses-02 | Epoched file missing for ses-01 |\n| sub-04 | ses-01, ses-02 | |\n| sub-05 | ses-01, ses-02 | |\n| sub-06 | ses-01, ses-02 | |\n| sub-07 | ses-01 | |\n| sub-08 | ses-01 | |\nTotal: approximately 46,080 epochs across all participants (approximately 3,839 events per session after oddball exclusion).\n## Data Format\nRaw continuous EEG recordings are stored as BDF files (BioSemi Data Format, 24-bit resolution). The original data were distributed as MNE-Python FIF files; conversion to BDF was performed to preserve the native 24-bit precision of the BioSemi ActiveTwo system. Round-trip validation confirmed data integrity to within 1.55e-8 V (sub-nanovolt), and event onsets match exactly (zero timing error).\n**Per-session files:**\n| Path | Description |\n|------|-------------|\n| `sub-XX/ses-YY/eeg/sub-XX_ses-YY_task-images_eeg.bdf` | Raw EEG |\n| `sub-XX/ses-YY/eeg/sub-XX_ses-YY_task-images_events.tsv` | Event markers |\n**Shared sidecar files (root level, BIDS inheritance principle):**\n| File | Description |\n|------|-------------|\n| `task-images_eeg.json` | Recording parameters |\n| `task-images_channels.tsv` | Channel descriptions (64 EEG channels) |\n| `task-images_electrodes.tsv` | Electrode positions (standard 10-20, CapTrak) |\n| `task-images_coordsystem.json` | Coordinate system specification |\nEvent values in the events.tsv files represent image indices (1-960+) corresponding to NSD image identifiers. The `trial_type` column uses the format `image/{index}`.\n## Derivatives\nThe `derivatives/epoched/` directory contains preprocessed and epoched data provided by the original authors, stored in MNE-Python FIF format (`.fif`).\nPreprocessing pipeline applied by the original authors:\n1. Band-pass filter: 0.5-125 Hz\n2. Notch filter: 60 Hz (power line)\n3. Independent Component Analysis (ICA): FastICA, retaining 95% of variance\n4. Epoch extraction: -50 ms to 600 ms relative to stimulus onset\n5. Artifact rejection: AutoReject algorithm (mean 130.75 epochs dropped per subject, SD 260.44)\n6. Baseline correction\n7. Average re-referencing\nThese epoched files are derivative products, not raw recordings, and are stored separately per BIDS conventions. Note: the epoched file for sub-03 ses-01 was not available in the source distribution.\n## Code\nThe `code/` directory contains the original Alljoined1 analysis code, cloned from <https://github.com/Alljoined/alljoined-dataset1>.\n## BIDS Conversion\nConverted to BIDS by Yahya Shirazi (Swartz Center for Computational Neuroscience, UC San Diego) using MNE-Python and custom scripts.\n- **Source data:** OSF repository <https://osf.io/kqgs8/>\n- Conversion validated with round-trip integrity checks (data, channels, sampling frequency, event count, event values, and event timing)\n## License and Terms of Use\nThis dataset is distributed under CC-BY-NC-ND-4.0 (Creative Commons Attribution-NonCommercial-NoDerivatives 4.0). The Alljoined team imposes additional terms on their datasets. By using this dataset you agree to all conditions below.\n1. Researcher shall use the Dataset only for non-commercial research and educational purposes, in accordance with Alljoined's [Terms of Use](https://www.alljoined.com/terms-of-use).\n2. **No Warranties:** Alljoined makes no representations or warranties regarding the Dataset, including but not limited to warranties of non-infringement or fitness for a particular purpose.\n3. **Full Responsibility:** Researcher accepts full responsibility for his or her use of the Dataset and shall defend and indemnify Alljoined, including their employees, officers and agents, against any and all claims arising from Researcher's use of the Dataset.\n4. **Privacy Compliance:** Researcher shall comply with Alljoined's [Privacy Policy](https://www.alljoined.com/privacy-policy) and ensure that any use of the Dataset respects the privacy rights of individuals whose data may be included.\n5. **Sharing Rights:** Researcher may provide research associates and colleagues with access to the Dataset provided that they first agree to be bound by these terms and conditions.\n6. **Termination Rights:** Alljoined reserves the right to terminate Researcher's access to the Dataset at any time.\n7. **Commercial Entity Binding:** If Researcher is employed by a for-profit, commercial entity, Researcher's employer shall also be bound by these terms and conditions, and Researcher hereby represents that he or she is fully authorized to enter into this agreement on behalf of such employer.\n8. **Governing Law:** The law of the State of California shall apply to all disputes under this agreement.\n> **Note:** The original Alljoined1 dataset on OSF (<https://osf.io/kqgs8/>) does not specify an explicit license. The terms above are from the Alljoined-1.6M HuggingFace distribution and the Alljoined website; they are included here as the best available guidance. Contact the Alljoined team (team@alljoined.com) for clarification on redistribution rights.\n- Full terms: <https://www.alljoined.com/terms-of-use>\n- Privacy policy: <https://www.alljoined.com/privacy-policy>\n## References\nXu, J., Aristimunha, B., Feucht, M. E., Qian, E., Liu, C., Shahjahan, T., ... & Nestor, A. (2024). Alljoined--A dataset for EEG-to-Image decoding. Workshop Data Curation and Augmentation in Medical Imaging at 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 1\u20139. https://doi.org/10.48550/arXiv.2404.05553",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "Jonathan Xu",
+    "Si Kai Lee",
+    "Wangshu Jiang"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000133",
+  "associated_paper_doi": null,
+  "tasks": [
+    "images"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 13,
+  "size_bytes": 8319291771,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Wangshu Jiang",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:23.362134+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-05-18 18:38:24"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000133",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "LICENSE",
+      "README.md",
+      "participants.tsv",
+      "task-images_channels.tsv",
+      "task-images_coordsystem.json",
+      "task-images_eeg.json",
+      "task-images_electrodes.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000133",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite: Xu, J., Lee, S. K., & Jiang, W. (2024). Alljoined - A dataset for EEG-to-Image decoding. https://doi.org/10.48550/arXiv.2404.05553. Data available at https://osf.io/kqgs8/",
+  "references_and_links": [
+    "https://doi.org/10.48550/arXiv.2404.05553",
+    "https://osf.io/kqgs8/",
+    "https://huggingface.co/Alljoined"
+  ],
+  "ingestion_fingerprint": "7583cb6c90e8de8c1cea4015da926ef07347c689990c4952c058dcde474d4e59"
+}

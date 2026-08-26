@@ -1,0 +1,77 @@
+{
+  "dataset_id": "on007471",
+  "name": "Joint agency EEG dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007471-blue)](https://doi.org/10.82901/nemar.on007471)\n# Behavioural and EEG data from an EEG hyperscanning study examining cognitive and neural signals underlying the sense of joint agency during a musical joint action task\n---\n# Dataset Structure\nThe primary folder includes a separate folder for each pair:sub-##\nEach pair folder contains:\n## Behavioural Data\nLocated in:sub-##/beh/\nFile:sub-##_task-jointaction_beh.tsv\n## EEG Data\nLocated in:sub-##/eeg/\nFiles (BrainVision format):\nsub-##_task-jointaction_eeg.eeg\nsub-##_task-jointaction_eeg.vhdr\nsub-##_task-jointaction_eeg.vmrk\n---\n# Derivatives Folder\nThe `derivatives/` folder contains:\n- `behavioural_all.tsv`\n  Compiled behavioural data across all pairs.\n- `32chanElectrodePositions.elp`\n  Electrode positions used for EEG data acquisition and analysis.\n---\n# Behavioural Data Description\nThe following column descriptions apply to both:\n- `behavioural_all.tsv`\n- `sub-##_task-jointaction_beh.tsv`\n---\n## Pair Number\nValues: 1\u201332\n---\n## Participant Number\n- The first one or two digits represent the pair number.\n- The last digit represents seating position:\n  - `1` = left participant\n  - `2` = right participant\nExamples:\n- `11` = left participant in pair 1\n- `202` = right participant in pair 20\n---\n## Block Number\nTest block number for a given trial (1\u20138).\n---\n## Trial Number\nEach pair performed:\n- 8 tone sequences\n  - 4 musical duets\n  - 4 constant pitch sequences\n- 5 joint trials per sequence\nTotal:\n- 40 test trials per pair\n- Trial numbers range from 1\u201340\n---\n## Experimental Condition\n- `0` = constant pitch sequences\n- `1` = musical duets\n---\n## Part Performed\nIndicates which part of the tone sequence the participant performed:\n- `0` = higher-pitch part (for constant pitch sequences) or melody part (for musical duets)\n- `1` = lower-pitch part (for constant pitch sequences) or accompaniment part (for musical duets)\n---\n## Tone Sequence\n1. Twinkle Twinkle Little Star\n2. Hush Little Baby\n3. B.I.N.G.O.\n4. Yankee Doodle\n5. Constant pitch sequence with A4 as higher-pitch part\n6. Constant pitch sequence with C5 as higher-pitch part\n7. Constant pitch sequence with E\u266d5 as higher-pitch part\n8. Constant pitch sequence with F\u266f5 as higher-pitch part\n---\n## Joint Agency Ratings\nSelf-reported rating scale: 1\u20137\n---\n## Mean Synchronization Performance\nThe mean synchronization performance for each trial was calculated as follows. First, we calculated the absolute asynchrony between the two participants\u2019 note onsets at each beat. Then, we converted each asynchrony to a proportion of the inter-onset interval (IOI) from the preceding note onset to the current note onset, which we averaged across the two participants and across all beats in the sequence.\n---\n## Standard Deviation (SD) of Synchronization Performance\nThe SD of synchronization performance was defined as the standard deviation of the asynchronies across all beats in a given each trial.\n---\n# EEG Data Description\nFor each EEG dataset within each pair\u2019s folder:\n- Channels 1\u201332: left participant EEG\n- Channels 33\u201364: right participant EEG\nData are stored in BrainVision format.\n---\n# Event Codes (Test Section)\nThe following event markers are present during the test section (see Figure 1 for schematic reference):\n- **S1** \u2013 the beginning of the test trials portion of the experiment\n- **S10** \u2013 a condition marker indicating the beginning of a block of musical duets\n- **S11** \u2013 a condition marker indicating the beginning of a block of constant pitch sequences\n- **S105** \u2013 the start of each trial, triggered by pressing the space bar\n- **S128** \u2013 The first five S128s mark the metronome tone onsets. Remaining S128s mark the tone onsets from the left participant\u2019s e-music box.\n- **S4** \u2013 tone onsets from the right participant\u2019s e-music box\n- **S2** \u2013 the end of the left participant\u2019s performance, marked one beat after the last of their 16-beat tone sequence\n- **S3** \u2013 the end of the right participant\u2019s performance, marked one beat after the last of their 16-beat tone sequence\n- **S106** \u2013 the end of each trial after the rating scales were completed\n- **S107** \u2013 the end of each block\n---\n# Figure\n![Illustration of the event codes occurring over time in the dataset.](derivatives/figures/Figure1_EventCodes.png)\n---\n# Notes\n- Data are organized in BIDS format.\n- BrainVision files (.eeg, .vhdr, .vmrk) contain raw hyperscanning EEG data.\n- Behavioural data are provided per pair and as a compiled dataset in the derivatives folder.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Zijun Zhou",
+    "Anna Zamm",
+    "Justin Christensen",
+    "Vinesh Rao",
+    "Janeen Loehr"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007471",
+  "associated_paper_doi": null,
+  "tasks": [
+    "jointaction"
+  ],
+  "sessions": [],
+  "total_files": 31,
+  "size_bytes": 8659078270,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 31,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Janeen Loehr",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:23.564952+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 10:09:31"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007471",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007471",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007471.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "ac389ec1c97201f130264937d24f512a1622ffbff87dc354178408ad9245d793"
+}

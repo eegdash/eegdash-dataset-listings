@@ -1,0 +1,100 @@
+{
+  "dataset_id": "nm000178",
+  "name": "BNCI 2020-001 Reach-and-Grasp Electrode Comparison EEG dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000178-blue)](https://doi.org/10.82901/nemar.nm000178)\n# BNCI 2020-001 Reach-and-Grasp Electrode Comparison EEG dataset\n## Overview\nThis dataset comprises EEG recordings from 45 healthy participants performing self-initiated reach-and-grasp motor imagery tasks using three different recording systems: gel-based laboratory equipment (g.tec USBamp/g.Ladybird), water-based mobile EEG (EEG-Versatile), and dry-electrode mobile EEG (EEG-Hero). Participants executed palmar and lateral grasp actions toward objects while EEG signals were recorded at 256 Hz from 58 EEG channels plus 6 EOG channels (64 total channels). The study investigates the feasibility of decoding natural reach-and-grasp neural correlates across different EEG acquisition modalities for brain-computer interface applications.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 15 |\n| Channels | 11\u201364 |\n| Classes | 3 |\n| Trial length | 5 s |\n| Sampling frequency | 256 Hz |\n| Sessions | 3 |\n| Total trials | 7200 |\n| Paradigm | MotorImagery |\n## Data Collection Methods\nEEG data were acquired at 256 Hz sampling rate using 58 EEG channels and 6 EOG channels (64 total) with a 5% grid system montage. Three recording systems were employed: gel-based active electrodes (g.tec USBamp/g.Ladybird, reference: right earlobe, ground: AFz), water-based mobile EEG (EEG-Versatile), and dry-electrode mobile EEG (EEG-Hero). Online filtering included 8th order Chebyshev filter (0.01-100 Hz) and 50 Hz notch filter. Participants performed 80 self-initiated reach-and-grasp trials each for palmar grasp (toward glass) and lateral grasp (toward spoon) with 2-second fixation period, 1-2 second hold, and 4-second inter-trial interval. Offline preprocessing included 4th order Butterworth bandpass filtering (0.3-60 Hz), extended infomax ICA for artifact removal (applied to gel-based and water-based systems; not applied to dry-electrode recordings due to unfavorable channel count), amplitude thresholding (>125 \u00b5V), and abnormal joint probability/kurtosis rejection (4 SD threshold).\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import BNCI2020_001\nfrom moabb.paradigms import MotorImagery\nparadigm = MotorImagery()\ndataset = BNCI2020_001()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2020_001.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.3389/fnhum.2022.898300](https://doi.org/10.3389/fnhum.2022.898300)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Andreas Schwarz",
+    "Carlos Escolano",
+    "Luis Montesano",
+    "Gernot R. M\u00fcller-Putz"
+  ],
+  "funding": [
+    "Horizon 2020 Project MoreGrasp"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000178",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 45,
+  "size_bytes": 9304493351,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 45,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": {
+      "r": 45
+    }
+  },
+  "senior_author": "Gernot R. M\u00fcller-Putz",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:55.065869+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:17:26"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000178",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000178",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Medical University of Graz (EK: 30-439 ex 17/18)"
+  ],
+  "references_and_links": [
+    "https://bnci-horizon-2020.eu/database/data-sets",
+    "10.3389/fnins.2020.00849"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnins.2020.00849",
+      "URL": "https://bnci-horizon-2020.eu/database/data-sets"
+    },
+    {
+      "DOI": "doi:10.3389/fnins.2020.00849"
+    }
+  ],
+  "ingestion_fingerprint": "233743e76a1c40f908e32e439f40927a648b2496407a17c36c6a20b62116139b"
+}

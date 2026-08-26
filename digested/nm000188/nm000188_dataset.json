@@ -1,0 +1,108 @@
+{
+  "dataset_id": "nm000188",
+  "name": "BNCI 2014-009 P300 dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000188-blue)](https://doi.org/10.82901/nemar.nm000188)\n# BNCI 2014-009 P300 dataset\nBNCI 2014-009 P300 dataset.\n## Dataset Overview\n- **Code**: BNCI2014-009\n- **Paradigm**: p300\n- **DOI**: 10.1088/1741-2560/11/3/035008\n- **Subjects**: 10\n- **Sessions per subject**: 3\n- **Events**: Target=2, NonTarget=1\n- **Trial interval**: [0, 0.8] s\n- **File format**: MAT\n- **Data preprocessed**: True\n## Acquisition\n- **Sampling rate**: 256.0 Hz\n- **Number of channels**: 16\n- **Channel types**: eeg=16\n- **Channel names**: Fz, Cz, Pz, Oz, P3, P4, PO7, PO8, F3, F4, FCz, C3, C4, CP3, CPz, CP4\n- **Montage**: 10-10\n- **Hardware**: g.USBamp\n- **Software**: BCI2000\n- **Reference**: linked earlobes\n- **Ground**: right mastoid\n- **Sensor type**: Ag/AgCl\n- **Line frequency**: 50.0 Hz\n- **Online filters**: bandpass 0.1-20 Hz\n- **Impedance threshold**: 10.0 kOhm\n- **Cap manufacturer**: Electro-Cap International, Inc.\n## Participants\n- **Number of subjects**: 10\n- **Health status**: healthy\n- **Age**: mean=26.8, std=5.6\n- **Gender distribution**: female=10, male=0\n- **BCI experience**: experienced\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: p300\n- **Task type**: spelling\n- **Number of classes**: 2\n- **Class labels**: Target, NonTarget\n- **Trial duration**: 16.0 s\n- **Study design**: P300-based BCI with two interfaces: P300 Speller (overt attention) and GeoSpell (covert attention). 36 alphanumeric characters presented. Eight stimulation sequences per trial with 16 target intensifications.\n- **Feedback type**: none\n- **Stimulus type**: visual_intensification\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: synchronous\n- **Mode**: offline\n- **Training/test split**: False\n- **Instructions**: Subject focused on one out of 36 different characters. At the beginning of each trial, the system prompted the subject with the character to attend. Target prompt appeared during a 2 s pre-trial interval.\n- **Stimulus presentation**: stimulus_duration_ms=125, isi_ms=125, soa_ms=250, n_sequences=8, n_intensifications_per_target=16, pre_trial_interval_s=2.0, tti_min_ms=500\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Number of targets**: 36\n- **Number of repetitions**: 8\n- **Inter-stimulus interval**: 125.0 ms\n- **Stimulus onset asynchrony**: 250.0 ms\n## Data Structure\n- **Trials**: 18\n- **Blocks per session**: 3\n- **Trials context**: 6 trials \u00d7 3 runs per session\n## Preprocessing\n- **Data state**: preprocessed\n- **Preprocessing applied**: True\n- **Steps**: bandpass filtering\n- **Highpass filter**: 0.1 Hz\n- **Lowpass filter**: 20.0 Hz\n- **Bandpass filter**: {'low_cutoff_hz': 0.1, 'high_cutoff_hz': 20.0}\n- **Filter type**: Butterworth\n- **Filter order**: 8\n- **Re-reference**: linked earlobes\n- **Epoch window**: [0.0, 0.8]\n- **Notes**: EEG acquired using g.USBamp amplifier (g.Tec, Austria), digitized at 256 Hz\n## Signal Processing\n- **Classifiers**: LDA, SWLDA\n- **Feature extraction**: Wavelet, Time-Frequency, CWT\n- **Frequency bands**: analyzed=[1.0, 20.0] Hz\n## Cross-Validation\n- **Method**: cross-validation\n- **Folds**: 3\n- **Evaluation type**: within_session\n## Performance (Original Study)\n- **P300 Latency Jitter Correlation**: negative correlation with accuracy\n## BCI Application\n- **Applications**: communication, spelling\n- **Environment**: laboratory\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Visual\n- **Type**: P300, ERP\n## Documentation\n- **Description**: Complete record of P300 evoked potentials recorded with BCI2000 using two different paradigms: P300 Speller (overt attention) and GeoSpell (covert attention). 10 healthy subjects focused on one out of 36 different characters.\n- **DOI**: 10.1088/1741-2560/11/3/035008\n- **Associated paper DOI**: 10.3389/fnhum.2013.00732\n- **License**: CC-BY-NC-ND-4.0\n- **Investigators**: P Aric\u00f2, F Aloise, F Schettini, S Salinari, D Mattia, F Cincotti\n- **Senior author**: F Cincotti\n- **Contact**: p.arico@hsantalucia.it\n- **Institution**: Fondazione Santa Lucia IRCCS\n- **Department**: Neuroelectrical Imaging and BCI Lab\n- **Address**: Rome, Italy\n- **Country**: Italy\n- **Repository**: BNCI Horizon\n- **Publication year**: 2014\n- **Ethics approval**: Approved by local Ethics Committee\n- **Keywords**: P300 latency jitter, brain-computer interface, covert attention, wavelet analysis, single epoch\n## Abstract\nThis dataset represents a complete record of P300 evoked potentials recorded with BCI2000 using two different paradigms: a paradigm based on the P300 Speller originally described by Farwell and Donchin in overt attention condition and a paradigm based on the GeoSpell interface used in covert attention condition. In these sessions, 10 healthy subjects focused on one out of 36 different characters. The objective was to predict the correct character in each of the provided character selection epochs.\n## Methodology\nTen healthy subjects (10 female, mean age = 26.8 \u00b1 5.6) with previous experience with P300-based BCIs attended 4 recording sessions. Scalp EEG potentials were measured using 16 Ag/AgCl electrodes arranged on an elastic cap per the 10-10 standard. Each electrode was referenced to the linked earlobes and grounded to the right mastoid. The EEG was acquired using a g.USBamp amplifier (g.Tec, Austria), digitized at 256 Hz, high pass- and low pass-filtered with cutoff frequencies of 0.1 Hz and 20 Hz, respectively. The electrode impedance did not exceed 10 k\u03a9. Visual stimulation, acquisition and online classification were performed with BCI2000. Each subject attended 4 recording sessions. During each session, the subject performed three runs with each of the stimulation interfaces. Each trial consisted of eight stimulation sequences, and thus, 16 intensifications of the target character. Each stimulus was intensified for 125 ms, with an inter stimulus interval (ISI) of 125 ms, yielding a 250 ms lag between the appearance of two stimuli (SOA). Pseudorandom stimulation sequences were assembled so that each target intensification would not occur within 500 ms after the previous one to avoid the attentional blink phenomenon.\n## References\nRiccio, A., Simione, L., Schettini, F., Pizzimenti, A., Inghilleri, M., Belardinelli, M. O., & Mattia, D. (2013). Attention and P300-based BCI performance in people with amyotrophic lateral sclerosis. Frontiers in human neuroscience, 7, 732. https://doi.org/10.3389/fnhum.2013.00732\nNotes\n.. note::\n``BNCI2014_009`` was previously named ``BNCI2014009``. ``BNCI2014009`` will be removed in version 1.1.\n.. versionadded:: 0.4.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "P Aric\u00f2",
+    "F Aloise",
+    "F Schettini",
+    "S Salinari",
+    "D Mattia",
+    "F Cincotti"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000188",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2"
+  ],
+  "total_files": 30,
+  "size_bytes": 259467946,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 10,
+    "ages": [
+      22,
+      35,
+      23,
+      27,
+      23,
+      23,
+      26,
+      40,
+      23,
+      26
+    ],
+    "age_min": 22,
+    "age_max": 40,
+    "age_mean": 26.8,
+    "species": null,
+    "sex_distribution": {
+      "f": 10
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "F Cincotti",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:02:12.250302+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:16:37"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000188",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000188",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Approved by local Ethics Committee"
+  ],
+  "references_and_links": [
+    "10.3389/fnhum.2013.00732"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1088/1741-2560/11/3/035008"
+    }
+  ],
+  "ingestion_fingerprint": "b5fb072f3bce881785c10837f7e3fc6788635fb88ec538ec9e15cf8bb8dd4444"
+}

@@ -1,0 +1,106 @@
+{
+  "dataset_id": "on006695",
+  "name": "Validation of Sleep Staging with Forehead EEG Patch",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006695-blue)](https://doi.org/10.82901/nemar.on006695)\n# UCSD Forehead Patch Sleep Validation Dataset\nCurated EEG recordings for validating sleep staging from a three-electrode forehead patch against standard 33-channel polysomnography.\n## What is included\n- CGX patch `.set` files that contain `EEG.VisualHypnogram` and `EEG.SpectralScoring`. The 33-channel data is not included in this release -- this release only includes the three-electrode data. The 33-channel data will be released separately.\n## Sleep stage labels\n`EEG.VisualHypnogram` is manual scoring in 30-second epochs using the following integers\n1 equals Wake\n2 equals REM\n3 equals N1\n4 equals N2\n5 equals N3\n0 equals unknown or movement\n`EEG.SpectralScoring` is spectral staging from the forehead patch. One row per patch channel. One column per 30-second epoch (see publication).\n## Alignment policy\nThe 33-channel cap data used to score polysomnography and the 3-channel patch EEG data do not always start and stop at the same clock times. CGX patch data were aligned to the cap start time based on a spreadsheet completed by the data collector, so the start may be off by a few seconds. The 3-channel EEG data were segmented into 30-second windows, and the number of these windows should approximately match the number of values in the EEG.VisualHypnogram for the same dataset. If the patch data ended up shorter than the visual hypnogram, the hypnogram was trimmed at the end to match the patch length. If the hypnogram was longer, it was left untrimmed. In general, the mismatch at the end of the recording is less than one 30-second window.\n## Subject exclusions\n113 and 121 are excluded. The CGX patch was inadequate or unavailable.\n## Citation\nOnton JA, Simon KC, Morehouse AB, Shuster AE, Zhang J, Pe\u00f1a AA, Mednick SC. Validation of spectral sleep scoring with polysomnography using forehead EEG device. Frontiers in Sleep. 2024. doi 10.3389/frsle.2024.1349537.\nAmerican Academy of Sleep Medicine. The AASM manual for the scoring of sleep and associated events. 2007 and later.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Julie Onton",
+    "Sarah Mednick"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on006695",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep"
+  ],
+  "sessions": [],
+  "total_files": 19,
+  "size_bytes": 10052873640,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [
+      29,
+      24,
+      21,
+      25,
+      20,
+      20,
+      20,
+      19,
+      26,
+      20,
+      26,
+      24,
+      27,
+      21,
+      27,
+      23,
+      20,
+      20,
+      23
+    ],
+    "age_min": 19,
+    "age_max": 29,
+    "age_mean": 22.894736842105264,
+    "species": null,
+    "sex_distribution": {
+      "f": 10,
+      "m": 9
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Sarah Mednick",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:26.491800+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 08:09:07"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006695",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006695",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "Onton, J. A., Simon, K. C., Morehouse, A. B., Shuster, A. E., Zhang, J., Pe\u00f1a, A. A., & Mednick, S. C. (2024). Validation of spectral sleep scoring with polysomnography using forehead EEG device. Frontiers in Sleep, 3, Article 1349537. https://doi.org/10.3389/frsle.2024.1349537"
+  ],
+  "generated_by": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006695.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "97618dd5f93a8bce79d99fc6769b8f195f33b2d2c3ef637975407f23bf73b18d"
+}

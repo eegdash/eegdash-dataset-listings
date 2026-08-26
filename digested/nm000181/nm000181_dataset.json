@@ -1,0 +1,85 @@
+{
+  "dataset_id": "nm000181",
+  "name": "NMT: Neurodiagnostic Montage Template Scalp EEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000181-blue)](https://doi.org/10.82901/nemar.nm000181)\nNMT: Neurodiagnostic Montage Template Scalp EEG Dataset\n=========================================================\nOverview\n--------\n2,417 clinical EEG recordings (normal and abnormal) in standard 10-20\nmontage with 19 EEG channels + 2 reference electrodes. EDF format,\nvariable sampling rates and durations.\nThis dataset was collected for EEG-based pathology detection and\nnormal/abnormal classification tasks.\nSource: Zenodo (doi:10.5281/zenodo.10909103)\nLicense: CC BY-SA 4.0\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC BY-SA 4.0",
+  "authors": [
+    "Hussain A. Khan"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000181",
+  "associated_paper_doi": null,
+  "tasks": [
+    "clinical"
+  ],
+  "sessions": [],
+  "total_files": 2417,
+  "size_bytes": 14819739145,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2417,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Hussain A. Khan",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:57.127587+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-01 23:22:55"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000181",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000181",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite the Zenodo record: Khan, H.A. (2022). NMT Scalp EEG Dataset.",
+  "references_and_links": [
+    "https://zenodo.org/records/10909103"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_khan2022.py (EEGDash)",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://zenodo.org/records/10909103"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.10909103"
+    }
+  ],
+  "ingestion_fingerprint": "4955cb5c4f55c5aee04268ca355a34153486c00836e77d36a7778432d3c51295"
+}

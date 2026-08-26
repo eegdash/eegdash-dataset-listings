@@ -1,0 +1,6209 @@
+{
+  "dataset": "nm000161",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:44.824226+00:00",
+  "record_count": 40,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-17_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_events.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_events.json",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s288941396--89c1b13e61479ef2fb365616f496d633f5e25190b739ce66e4a61208f62801d2.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1604239,
+      "duration_seconds": 3208.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3208.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-17_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_events.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_events.json",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267963008--de4e38622ef46dd55ebe09d531c86b3f2b05776f4cacd107d7d30fd92ea36ca4.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1487979,
+      "duration_seconds": 2975.958,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3208.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-14_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268323152--aab6ad041b6aa120c984e6bb1def0962ae237003f8f32fa026cdfdf6a6b9458e.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1489989,
+      "duration_seconds": 2979.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3080.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s277416788--dfcb7028a94331ea4de62cd0727133dfe3072b202ab1e118ddb06dd79591f8ac.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1540239,
+      "duration_seconds": 3080.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3080.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s276696500--26b6615868be0463dd078056fee5750fcc890e79f5d3ba6466a5c6e578e34268.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1536229,
+      "duration_seconds": 3072.458,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3072.458,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-1_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267963008--8323c6552987c804a79cb4772e1ed989aae2fdc8816e2e2500dcee6ed93a3178.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1487979,
+      "duration_seconds": 2975.958,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3072.458,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s274535636--0cf4b8b9698b52876ed2548aadc27502c42215d3b9a8cb37e55e72ba6a291a2b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1524489,
+      "duration_seconds": 3048.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3048.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-6_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268053044--99c39246561a4118c6410b5636535894dcd11ee8ba46e6b6f0946079a42a2387.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488489,
+      "duration_seconds": 2976.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3048.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-4_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268053044--113461a93f1b8e8b74f1bee88f2d96e2f112c67304835d29463728c27be0e5df.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488469,
+      "duration_seconds": 2976.938,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3124.918,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s281378372--0899b2f3e20ba72a652acd7259ae1dcddc90ed7a90770d5d1401e45984885894.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1562459,
+      "duration_seconds": 3124.918,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3124.918,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-15_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_events.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_events.json",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268053044--2eb20a993e415bec42f0f9472f0b209db25a978ea2d25b6b27ae71edb8fceac8.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488479,
+      "duration_seconds": 2976.958,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3067.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-15_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_events.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_events.json",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s276246320--349d7107afbcb370add8c9b0afb23dd546b24eca83fd1612163193f3628b1108.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1533989,
+      "duration_seconds": 3067.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3067.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-9_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267963008--e98e358c57282da60dd0073b338dd1e233bbd6d41fc478f70818886fad1913a2.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1487989,
+      "duration_seconds": 2975.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3017.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s271744520--bff880227ecb1b2438281401976c00c45551bfcf5296c9b08be4a3455b7f9033.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1508989,
+      "duration_seconds": 3017.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3017.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-8_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267602864--37a9e5170dcc823daaef0a9eb00f3802ad73ca0ae0f86a07c59cc68560b2fe07.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1485989,
+      "duration_seconds": 2971.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3069.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s276426392--6f0df84cda41eb2dc57535b4357ccf167bc3ae9d9d67918b690d2180bb6426c6.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1534989,
+      "duration_seconds": 3069.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3069.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-13_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268035182--5db39866e99f53de214992840dff723c94c3ff36c73f5be3258b7ccd4b36de90.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488499,
+      "duration_seconds": 2976.998,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3044.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s274175492--ff8d80ae5f4ab367d02ea9be8cf97253869219c8835d778f8136fe459618f0f2.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1522239,
+      "duration_seconds": 3044.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3044.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-18_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_events.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_events.json",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267512828--715519d512255a62f93253743c6350b4c89b610ba2dda9855f70304ec5f27370.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1485489,
+      "duration_seconds": 2970.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3092.498,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-18_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_events.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_events.json",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s278497220--2c2a6b918c7940e5670601ee80948635e0894149bf5acb2a8519a2c59d929fb9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1546249,
+      "duration_seconds": 3092.498,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3092.498,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-12_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268053044--1b6f41c6a6fda682a7f267eeab630b805a683dbe8932a78a80d1b95a61a9e67c.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488459,
+      "duration_seconds": 2976.918,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3051.918,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s274805744--38c6c7ad4727ad8ae5c9dc006f5928227cdaf3673be99a4af4709a7fa49f7814.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1525959,
+      "duration_seconds": 3051.918,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3051.918,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-11_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267872972--d6a9ccbd5f07eebfae75b59c7a5fef252a360d37929cf34308e223f483873282.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1487479,
+      "duration_seconds": 2974.958,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3037.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s273545240--2fda881efffc5be1d431fac671f281ac3abb54de5b3b9042cc6acb18a2337902.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1518989,
+      "duration_seconds": 3037.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3037.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-7_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268233116--bf9e05057edc4ac01ebb0c09e3ad9005e41eab42ec4ace7ff08f44280bd2fc0e.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1489239,
+      "duration_seconds": 2978.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3193.458,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s287590856--5a91c8be8e14c5d4d786801651369232200b68a077dc5a68cc0ebe68b477c6b0.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1596729,
+      "duration_seconds": 3193.458,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3193.458,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-20_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_events.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_events.json",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s273635276--e3adaca1ecafd366c0ba0811b79e651d02b768fcfab55024f1f3c87999bbb60a.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1519489,
+      "duration_seconds": 3038.978,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3038.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-20_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_events.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_events.json",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268143080--62835f8e25a9747297494d5d7beea96ead9a16936d1e20d64a04cda3d18fb0d0.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488739,
+      "duration_seconds": 2977.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3038.978,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-19_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_events.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_events.json",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s274895780--3ae2f6c1501fb65a2a38ec02b0b66d246d0d2b9223ffb370eddfd9b5a3cc26b9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1526209,
+      "duration_seconds": 3052.418,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3052.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-19_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_events.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_events.json",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268413188--831df75d76c49c166612d169e21a9c1488216c1366f027bd607ddeefc73f85f8.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1490449,
+      "duration_seconds": 2980.898,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3052.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s277866968--f99964fe8cc1191c349fd09d4a654bdd541fcefc22d68b4fefe7e7bd5f816d8d.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1542709,
+      "duration_seconds": 3085.418,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3085.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-10_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267963008--40b804c2da5d0649a43b1c2852efea0df38f483ba8d14acb48537801c4d969f9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1487959,
+      "duration_seconds": 2975.918,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3085.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-16_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_events.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_events.json",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s272554844--dc42302653229f2d31c9745cfc06db1740c4e060504efe34179ca9893d7194b9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1513239,
+      "duration_seconds": 3026.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3026.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-16_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_events.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_events.json",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268683296--a1639b0b58a2ffb1fbdbbb51b58b77557058160b230fe8cad52b938c82bdfb5f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1491739,
+      "duration_seconds": 2983.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3026.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-3_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s267963008--b996c6e4d97ca8488e73221b29846d059798a9614b4da4192ae13873c11443c6.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1487979,
+      "duration_seconds": 2975.958,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3026.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s272554844--a4e65a88aa507a654c0a9e99183b4f1e902873d77239f6c0a879b589ce7caa1e.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1513239,
+      "duration_seconds": 3026.478,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3026.478,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s274805744--c6ef2b9a0e02219bc0cfdab7bfad59ea33bb1ec3611f4cc0e98e204a645803dc.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1525709,
+      "duration_seconds": 3051.418,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3051.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-5_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268143080--456cd1109be0745a7ab2528df1a6d0afb88d479db810a0648b4eb8071e00b945.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488699,
+      "duration_seconds": 2977.398,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3051.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-2_ses-0_task-imagery_run-1_eeg.bdf",
+      "bidspath": "nm000161/sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-1_eeg.bdf": "SHA256E-s268053044--9f949a9bd29d6b6ecf99aa4d5906d2e4065db59181664361b9549e6b74dea673.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1488219,
+      "duration_seconds": 2976.438,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3091.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    },
+    {
+      "dataset": "nm000161",
+      "data_name": "nm000161_sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000161/sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000161",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s278407184--49d036b0357cbdf71b0e71f1d04417bafbc61e42115c6593453018d001e650bf.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fpz",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "M1",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "M2",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "POz",
+        "O1",
+        "Oz",
+        "O2",
+        "AF7",
+        "AF3",
+        "AF4",
+        "AF8",
+        "F5",
+        "F1",
+        "F2",
+        "F6",
+        "FT9",
+        "FT7",
+        "FC3",
+        "FC4",
+        "FT8",
+        "FT10",
+        "C5",
+        "C1",
+        "C2",
+        "C6",
+        "TP7",
+        "CP3",
+        "CPz",
+        "CP4",
+        "TP8",
+        "P5",
+        "P1",
+        "P2",
+        "P6",
+        "PO3"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 60,
+      "ntimes": 1545709,
+      "duration_seconds": 3091.418,
+      "digested_at": "2026-08-26T11:01:44.824226+00:00",
+      "participant_tsv": {
+        "age": 27.5,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "not specified"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "notch filtering, bandpass filtering, bad channel interpolation, EOG artifact correction (SGEYESUB), ICA for artifact removal, re-referencing to CAR, bad segment rejection, lowpass filtering, downsampling, epoching"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.3,
+          "high_cutoff_hz": 70.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "BrainVision",
+      "manufacturers_model_name": "BrainVision",
+      "eeg_placement_scheme": "eogl1 eogl2 eogl3 eogr1 af7 af3 afz af4 af8 f7 f5 f3 f1 fz f2 f4 f6 f8 ft7 fc5 fc3 fc1 fcz fc2 fc4 fc6 ft8 t7 c5 c3 c1 cz c2 c4 c6 t8 tp7 cp5 cp3 cp1 cpz cp2 cp4 cp6 tp8 p7 p5 p3 p1 pz p2 p4 p6 p8 ppo1h ppo2h po7 po3 poz po4 po8 o1 oz o2",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3091.418,
+      "eeg_ground": "n/a",
+      "montage_hash": "958ab80e3f2d71fb"
+    }
+  ]
+}

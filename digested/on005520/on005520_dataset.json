@@ -1,0 +1,118 @@
+{
+  "dataset_id": "on005520",
+  "name": "Research data supporting 'EEG recording during playing MOBA game'",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005520-blue)](https://doi.org/10.82901/nemar.on005520)\n#  General information\nThis dataset contains resting(eyes closed, eyes open) and EEG recordings during playing real MOBA game with 23 participants.\n#    Dataset\n##   Presentation\n     The data collection was initiated in April 2023 and was terminated in July 2023. The detailed description of the dataset is currently under working by Hong-Zhi Li and Dong-Dong Zhou, and will submit to Scientific Data for publication.\n#### EEG acquisition\n     * EEG system (Neuroscan, 64 electrodes)\n     * Sampling frequency: 1000Hz\n#### event type\n      * 13 indicates a kill during playing game\n      * 14 indicates a death during playing game\n      * 66 indicates game start\n      * 444 indicates game failure\n      * 666 indicates game victory\n## Contact\n     * If you have any questions or comments, please contact:\n     * Dong-Dong Zhou: zhoudongdong@cqmu.edu.cn",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2",
+  "license": "CC0",
+  "authors": [
+    "Hong-Zhi Li",
+    "Jia-Jia Yang",
+    "Zhen Lv",
+    "Li-Yang Wan",
+    "Wo Wang",
+    "Da-Qi Li",
+    "Dong-Dong Zhou",
+    "Li Kuang"
+  ],
+  "funding": [
+    "This work was supported by a grant from the Chongqing Medical Youth Top Talent Project in Chongqing Municipal Health Commission (DDZ)."
+  ],
+  "dataset_doi": "10.82901/nemar.on005520",
+  "associated_paper_doi": null,
+  "tasks": [
+    "MOBAgame",
+    "restingeyeclosed",
+    "restingeyeopen"
+  ],
+  "sessions": [],
+  "total_files": 69,
+  "size_bytes": 296326430761,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 23,
+    "ages": [
+      22,
+      19,
+      22,
+      19,
+      19,
+      23,
+      19,
+      20,
+      18,
+      20,
+      18,
+      21,
+      19,
+      20,
+      19,
+      20,
+      19,
+      19,
+      20,
+      21,
+      20,
+      21,
+      15
+    ],
+    "age_min": 15,
+    "age_max": 23,
+    "age_mean": 19.695652173913043,
+    "species": null,
+    "sex_distribution": {
+      "o": 23
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Li Kuang",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:11:35.853886+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-27 06:48:39"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005520",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005520",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "Name": "FieldTrip",
+      "Version": "unknown",
+      "Description": "data2bids converter",
+      "URI": "https://www.fieldtriptoolbox.org"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005520.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "f022bb83577d1b447559df3b1046f4d5a2e8d94c7d46d891cb395f85ecb7399e"
+}

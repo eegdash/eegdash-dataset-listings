@@ -1,0 +1,213 @@
+{
+  "dataset_id": "nm000130",
+  "name": "Liu2022 \u2013 eldBETA SSVEP benchmark dataset for elderly population",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000130-blue)](https://doi.org/10.82901/nemar.nm000130)\n# eldBETA SSVEP benchmark dataset for elderly population\neldBETA SSVEP benchmark dataset for elderly population.\n## Dataset Overview\n- **Code**: Liu2022EldBETA\n- **Paradigm**: ssvep\n- **DOI**: 10.1038/s41597-022-01372-9\n- **Subjects**: 100\n- **Sessions per subject**: 7\n- **Events**: 8=1, 9.5=2, 11=3, 8.5=4, 10=5, 11.5=6, 9=7, 10.5=8, 12=9\n- **Trial interval**: [0, 6.0] s\n- **File format**: GDF (BIDS)\n## Acquisition\n- **Sampling rate**: 1000.0 Hz\n- **Number of channels**: 64\n- **Channel types**: eeg=64\n- **Montage**: standard_1005\n- **Hardware**: Synamps2 (Neuroscan)\n- **Reference**: Cz\n- **Line frequency**: 50.0 Hz\n- **Impedance threshold**: 20 kOhm\n## Participants\n- **Number of subjects**: 100\n- **Health status**: healthy\n- **Age**: mean=63.17, std=6.05, min=51, max=81\n- **Gender distribution**: male=33, female=67\n## Experimental Protocol\n- **Paradigm**: ssvep\n- **Task type**: 9-target SSVEP speller\n- **Number of classes**: 9\n- **Class labels**: 8, 9.5, 11, 8.5, 10, 11.5, 9, 10.5, 12\n- **Trial duration**: 5.0 s\n- **Feedback type**: visual\n- **Stimulus type**: JFPM visual flicker\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: synchronous\n- **Mode**: online\n- **Training/test split**: False\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  8\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/8\n  9.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/9_5\n  11\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/11\n  8.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/8_5\n  10\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/10\n  11.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/11_5\n  9\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/9\n  10.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/10_5\n  12\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/12\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: ssvep\n- **Stimulus frequencies**: [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0] Hz\n- **Frequency resolution**: 0.5 Hz\n## Data Structure\n- **Trials**: 63\n- **Blocks per session**: 7\n## Signal Processing\n- **Classifiers**: TDCA, ms-eCCA, ensemble_msTRCA, ensemble_TRCA, Extended_CCA, ITCCA, L1MCCA, FBCCA, CVARS, tMSI, MEC, MSI, CCA\n- **Feature extraction**: TDCA, CCA, FBCCA, TRCA, ms-eCCA, msTRCA, Extended_CCA, ITCCA, L1MCCA, CVARS, tMSI, MEC, MSI\n- **Frequency bands**: bandpass=[6.0, 100.0] Hz\n- **Spatial filters**: TDCA, CCA, TRCA, ms-eCCA, msTRCA, Extended_CCA, ITCCA, L1MCCA, CVARS, MEC, MSI, tMSI\n## Cross-Validation\n- **Method**: leave-one-block-out\n- **Folds**: 7\n- **Evaluation type**: within_subject\n## BCI Application\n- **Applications**: speller\n- **Environment**: lab\n- **Online feedback**: True\n## Tags\n- **Pathology**: healthy\n- **Modality**: visual\n- **Type**: perception\n## Documentation\n- **DOI**: 10.1038/s41597-022-01372-9\n- **License**: CC BY 4.0\n- **Investigators**: Bingchuan Liu, Yijun Wang, Xiaorong Gao, Xiaogang Chen\n- **Senior author**: Xiaogang Chen\n- **Institution**: Tsinghua University\n- **Department**: Department of Biomedical Engineering, School of Medicine, Tsinghua University\n- **Country**: CN\n- **Repository**: Figshare\n- **Data URL**: https://doi.org/10.6084/m9.figshare.18032669\n- **Publication year**: 2022\n- **Funding**: National Natural Science Foundation of China (No. 62171473); Doctoral Brain+X Seed Grant Program of Tsinghua University; Strategic Priority Research Program of Chinese Academy of Sciences (No. XDB32040200)\n- **Ethics approval**: Institutional Review Board of Tsinghua University, No. 20210032\n- **Keywords**: SSVEP, BCI, EEG, elderly, aging, benchmark, JFPM\n## References\nB. Liu, Y. Wang, X. Gao, and X. Chen, \"eldBETA: A Large Eldercare-oriented Benchmark Database of SSVEP-BCI for the Aging Population,\" Scientific Data, vol. 9, p. 252, 2022. DOI: 10.1038/s41597-022-01372-9\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.4.3 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC BY 4.0",
+  "authors": [
+    "Bingchuan Liu",
+    "Yijun Wang",
+    "Xiaorong Gao",
+    "Xiaogang Chen"
+  ],
+  "funding": [
+    "National Natural Science Foundation of China (No. 62171473)",
+    "Doctoral Brain+X Seed Grant Program of Tsinghua University",
+    "Strategic Priority Research Program of Chinese Academy of Sciences (No. XDB32040200)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000130",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ssvep"
+  ],
+  "sessions": [
+    "0",
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "total_files": 1400,
+  "size_bytes": 37336319229,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 199,
+    "ages": [
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70,
+      70
+    ],
+    "age_min": 70,
+    "age_max": 70,
+    "age_mean": 70.0,
+    "species": null,
+    "sex_distribution": {
+      "m": 33,
+      "f": 67
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Xiaogang Chen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:21.324331+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-20 19:21:40"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000130",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000130",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Institutional Review Board of Tsinghua University, No. 20210032"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.6084/m9.figshare.18032669"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1038/s41597-022-01372-9",
+      "URL": "https://doi.org/10.6084/m9.figshare.18032669"
+    }
+  ],
+  "ingestion_fingerprint": "40d00d0e06088873589592ccd2af56d930edb07cc0527b349bd4279e3fcc3c4b"
+}

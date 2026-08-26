@@ -1,0 +1,6489 @@
+{
+  "dataset": "nm000109",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:05.014278+00:00",
+  "record_count": 72,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-17_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-17/eeg/sub-17_task-rest_eeg.edf",
+      "bids_relpath": "sub-17/eeg/sub-17_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-17/eeg/sub-17_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-17/eeg/sub-17_task-rest_channels.tsv",
+          "sub-17/eeg/sub-17_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/eeg/sub-17_task-rest_eeg.edf": "SHA256E-s3829344--bb2287be3bc8da6763e140a2b8d7f4e9595fabacec2a310f10a985bf0dd2fad9.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-17_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-17/eeg/sub-17_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-17/eeg/sub-17_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-17/eeg/sub-17_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-17/eeg/sub-17_task-mentalArithmetic_channels.tsv",
+          "sub-17/eeg/sub-17_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/eeg/sub-17_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--e41687b6ef958d74ce46af8bd4bd7f4d3b95eeb9ce609cc1218a325a1caed19b.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-14_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-14/eeg/sub-14_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-14/eeg/sub-14_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-14/eeg/sub-14_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-14/eeg/sub-14_task-mentalArithmetic_channels.tsv",
+          "sub-14/eeg/sub-14_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/eeg/sub-14_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--15b24744acff38ef1f4123eb60a7f671f8434e905d58795d45f9988bf04e9e21.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-14_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-14/eeg/sub-14_task-rest_eeg.edf",
+      "bids_relpath": "sub-14/eeg/sub-14_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-14/eeg/sub-14_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-14/eeg/sub-14_task-rest_channels.tsv",
+          "sub-14/eeg/sub-14_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/eeg/sub-14_task-rest_eeg.edf": "SHA256E-s3829344--326632abba91e52a43e3228749e69b45bc9834a2366b61867e09b328b4116629.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-26_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-26/eeg/sub-26_task-rest_eeg.edf",
+      "bids_relpath": "sub-26/eeg/sub-26_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "26",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "26",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-26/eeg/sub-26_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-26/eeg/sub-26_task-rest_channels.tsv",
+          "sub-26/eeg/sub-26_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-26/eeg/sub-26_task-rest_eeg.edf": "SHA256E-s3829344--c2d88173e1d1e43af2ed6dea2d046de035acb72b5176a293fd2c199e9a1dd45f.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-26_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-26/eeg/sub-26_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-26/eeg/sub-26_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "26",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "26",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-26/eeg/sub-26_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-26/eeg/sub-26_task-mentalArithmetic_channels.tsv",
+          "sub-26/eeg/sub-26_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-26/eeg/sub-26_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--6ed08f1aee2d6ceee8f328a9a99123b14cba03091dce23402656dc420a99c6c4.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-27_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-27/eeg/sub-27_task-rest_eeg.edf",
+      "bids_relpath": "sub-27/eeg/sub-27_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-27/eeg/sub-27_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-27/eeg/sub-27_task-rest_channels.tsv",
+          "sub-27/eeg/sub-27_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-27/eeg/sub-27_task-rest_eeg.edf": "SHA256E-s3829344--7b762b96afab4ff6cba3e477f8dc867b24321bcbbc819c1a4016378815a53f67.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-27_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-27/eeg/sub-27_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-27/eeg/sub-27_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-27/eeg/sub-27_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-27/eeg/sub-27_task-mentalArithmetic_channels.tsv",
+          "sub-27/eeg/sub-27_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-27/eeg/sub-27_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--d191ec7498d38614f04154aa415fe8529b3d15026a4b8226b4109dc798dc7db3.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-24_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-24/eeg/sub-24_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-24/eeg/sub-24_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-24/eeg/sub-24_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-24/eeg/sub-24_task-mentalArithmetic_channels.tsv",
+          "sub-24/eeg/sub-24_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-24/eeg/sub-24_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--afdbf4bf942a0af67c607e509549ec50e11485dbd287d5f3a2afcef126dc84d9.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-24_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-24/eeg/sub-24_task-rest_eeg.edf",
+      "bids_relpath": "sub-24/eeg/sub-24_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-24/eeg/sub-24_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-24/eeg/sub-24_task-rest_channels.tsv",
+          "sub-24/eeg/sub-24_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-24/eeg/sub-24_task-rest_eeg.edf": "SHA256E-s3829344--2ebc73ed4a8d359e45ff8b075a20912a7530fc0077c8747bb03bfe7498c4c25d.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-15_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-15/eeg/sub-15_task-rest_eeg.edf",
+      "bids_relpath": "sub-15/eeg/sub-15_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-15/eeg/sub-15_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-15/eeg/sub-15_task-rest_channels.tsv",
+          "sub-15/eeg/sub-15_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/eeg/sub-15_task-rest_eeg.edf": "SHA256E-s3829344--ac3949e4bf2b935873dda36068614b2c7b309396134000c086bc7e652395e96b.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-15_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-15/eeg/sub-15_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-15/eeg/sub-15_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-15/eeg/sub-15_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-15/eeg/sub-15_task-mentalArithmetic_channels.tsv",
+          "sub-15/eeg/sub-15_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/eeg/sub-15_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--03fab74260a2baf468ef57eddb5ccdfdd9ba84dfec16cec296cd543532d4b366.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-04_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-04/eeg/sub-04_task-rest_eeg.edf",
+      "bids_relpath": "sub-04/eeg/sub-04_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-04/eeg/sub-04_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-04/eeg/sub-04_task-rest_channels.tsv",
+          "sub-04/eeg/sub-04_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-04/eeg/sub-04_task-rest_eeg.edf": "SHA256E-s3577248--903c41fb3a7862458d56d8d9fa7e60ec70b195e2305871f1c5108f1b2c265818.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 84999,
+      "duration_seconds": 169.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-04_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-04/eeg/sub-04_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-04/eeg/sub-04_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-04/eeg/sub-04_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-04/eeg/sub-04_task-mentalArithmetic_channels.tsv",
+          "sub-04/eeg/sub-04_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-04/eeg/sub-04_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--a7ccd21ec548308787450c0c361f22aa5059aa27279d194b303a98cdce847dfa.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-13_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-13/eeg/sub-13_task-rest_eeg.edf",
+      "bids_relpath": "sub-13/eeg/sub-13_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-13/eeg/sub-13_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-13/eeg/sub-13_task-rest_channels.tsv",
+          "sub-13/eeg/sub-13_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/eeg/sub-13_task-rest_eeg.edf": "SHA256E-s3829344--cbc50c194288fafaa3f7381a2de02eac4146b1434a4601174a218f97bb20e9dd.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-13_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-13/eeg/sub-13_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-13/eeg/sub-13_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-13/eeg/sub-13_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-13/eeg/sub-13_task-mentalArithmetic_channels.tsv",
+          "sub-13/eeg/sub-13_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/eeg/sub-13_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--b8e5a23a9b0526f9a9a7b85b6703c44b3efa5a86e56665063655e2df7a89b6c4.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-05_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-05/eeg/sub-05_task-rest_eeg.edf",
+      "bids_relpath": "sub-05/eeg/sub-05_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-05/eeg/sub-05_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-05/eeg/sub-05_task-rest_channels.tsv",
+          "sub-05/eeg/sub-05_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-05/eeg/sub-05_task-rest_eeg.edf": "SHA256E-s3829344--0d68c4a047228e445fe720230b9987f061890e5a512a620c621a5c699398078a.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 16.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-05_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-05/eeg/sub-05_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-05/eeg/sub-05_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-05/eeg/sub-05_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-05/eeg/sub-05_task-mentalArithmetic_channels.tsv",
+          "sub-05/eeg/sub-05_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-05/eeg/sub-05_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--650ad879087efc82b489b5ddebb71801bbf93db5df8895a49bf38f4340ccf92b.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 16.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-18_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-18/eeg/sub-18_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-18/eeg/sub-18_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-18/eeg/sub-18_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-18/eeg/sub-18_task-mentalArithmetic_channels.tsv",
+          "sub-18/eeg/sub-18_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/eeg/sub-18_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--c234521676c3ba3c01ad6ffc88aff63f836f401af0006aded485fad514946b2f.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-18_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-18/eeg/sub-18_task-rest_eeg.edf",
+      "bids_relpath": "sub-18/eeg/sub-18_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-18/eeg/sub-18_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-18/eeg/sub-18_task-rest_channels.tsv",
+          "sub-18/eeg/sub-18_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/eeg/sub-18_task-rest_eeg.edf": "SHA256E-s3829344--8ab79acbc81ad7e986aedf60f52a7c483d017363efb4b24050ae91c0901dec76.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-33_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-33/eeg/sub-33_task-rest_eeg.edf",
+      "bids_relpath": "sub-33/eeg/sub-33_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-33/eeg/sub-33_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-33/eeg/sub-33_task-rest_channels.tsv",
+          "sub-33/eeg/sub-33_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-33/eeg/sub-33_task-rest_eeg.edf": "SHA256E-s3829344--3ea16299ed5944ea32fea5a599f27ae4a6f7733a21d2d01140160f3153182a8b.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-33_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-33/eeg/sub-33_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-33/eeg/sub-33_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-33/eeg/sub-33_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-33/eeg/sub-33_task-mentalArithmetic_channels.tsv",
+          "sub-33/eeg/sub-33_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-33/eeg/sub-33_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--91c408f8e0922139a40169208724e5f2062647d94a7ca4780ceb0117e9ed45c0.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-12_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-12/eeg/sub-12_task-rest_eeg.edf",
+      "bids_relpath": "sub-12/eeg/sub-12_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-12/eeg/sub-12_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-12/eeg/sub-12_task-rest_channels.tsv",
+          "sub-12/eeg/sub-12_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/eeg/sub-12_task-rest_eeg.edf": "SHA256E-s3829344--36b24e2fdbf8ff2472468c99fec7ecf236aaa8f2bc1dd8d7cdf8e877a6e1afd8.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-12_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-12/eeg/sub-12_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-12/eeg/sub-12_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-12/eeg/sub-12_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-12/eeg/sub-12_task-mentalArithmetic_channels.tsv",
+          "sub-12/eeg/sub-12_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/eeg/sub-12_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--142cfbd44d29899a82f5590ecf4a41a8d7b6d74b5ef1e15b6d759a51368f62b4.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-30_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-30/eeg/sub-30_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-30/eeg/sub-30_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-30/eeg/sub-30_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-30/eeg/sub-30_task-mentalArithmetic_channels.tsv",
+          "sub-30/eeg/sub-30_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-30/eeg/sub-30_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--3dcec49f069f1fbe6c38565bf58cfad01d6ca3426ebc611940bdf6058c7bdf62.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-30_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-30/eeg/sub-30_task-rest_eeg.edf",
+      "bids_relpath": "sub-30/eeg/sub-30_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-30/eeg/sub-30_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-30/eeg/sub-30_task-rest_channels.tsv",
+          "sub-30/eeg/sub-30_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-30/eeg/sub-30_task-rest_eeg.edf": "SHA256E-s3829344--6a48375dc83e319c08c5b610b7b38f6440ee31c4f5cf37f82a50c97e13d288fc.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-11_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-11/eeg/sub-11_task-rest_eeg.edf",
+      "bids_relpath": "sub-11/eeg/sub-11_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-11/eeg/sub-11_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-11/eeg/sub-11_task-rest_channels.tsv",
+          "sub-11/eeg/sub-11_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/eeg/sub-11_task-rest_eeg.edf": "SHA256E-s3829344--e5bc7ddc4b3421128e499cdbf396460fc438232d367b4f9d45065f95b68233b7.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-11_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-11/eeg/sub-11_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-11/eeg/sub-11_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-11/eeg/sub-11_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-11/eeg/sub-11_task-mentalArithmetic_channels.tsv",
+          "sub-11/eeg/sub-11_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/eeg/sub-11_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--caf351d79dfeda7808f002694cd7e483693a048e5a65e62477d45a77b052664f.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-03_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-03/eeg/sub-03_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-03/eeg/sub-03_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-03/eeg/sub-03_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-03/eeg/sub-03_task-mentalArithmetic_channels.tsv",
+          "sub-03/eeg/sub-03_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-03/eeg/sub-03_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--890103def7f3ec81e3389587f5dab310a38885629ba950d328e2eacc78101294.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-03_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-03/eeg/sub-03_task-rest_eeg.edf",
+      "bids_relpath": "sub-03/eeg/sub-03_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-03/eeg/sub-03_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-03/eeg/sub-03_task-rest_channels.tsv",
+          "sub-03/eeg/sub-03_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-03/eeg/sub-03_task-rest_eeg.edf": "SHA256E-s3829344--057692d713c3cd0e81dc9ecfb6a93e4f016a04f40375e7595e2f41bd92418c57.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-06_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-06/eeg/sub-06_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-06/eeg/sub-06_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-06/eeg/sub-06_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-06/eeg/sub-06_task-mentalArithmetic_channels.tsv",
+          "sub-06/eeg/sub-06_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-06/eeg/sub-06_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--4a6bbe575ab0ff04bfef96d726555ef94dadb6f67e89a5ec26469bdb07383450.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-06_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-06/eeg/sub-06_task-rest_eeg.edf",
+      "bids_relpath": "sub-06/eeg/sub-06_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-06/eeg/sub-06_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-06/eeg/sub-06_task-rest_channels.tsv",
+          "sub-06/eeg/sub-06_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-06/eeg/sub-06_task-rest_eeg.edf": "SHA256E-s3829344--bf904ea715d5ad0fc16a082baf9568f4847aee6b0427fced7943bd8d24152491.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-21_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-21/eeg/sub-21_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-21/eeg/sub-21_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-21/eeg/sub-21_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-21/eeg/sub-21_task-mentalArithmetic_channels.tsv",
+          "sub-21/eeg/sub-21_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-21/eeg/sub-21_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--e469acb6f8741d5d5cf957fa9091634f95fd13c4417875132a47565b398365a0.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-21_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-21/eeg/sub-21_task-rest_eeg.edf",
+      "bids_relpath": "sub-21/eeg/sub-21_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-21/eeg/sub-21_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-21/eeg/sub-21_task-rest_channels.tsv",
+          "sub-21/eeg/sub-21_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-21/eeg/sub-21_task-rest_eeg.edf": "SHA256E-s3829344--efff235fa8b1eb918f4030b71af661b361237da20df961b083300eb41ea0f87d.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-20_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-20/eeg/sub-20_task-rest_eeg.edf",
+      "bids_relpath": "sub-20/eeg/sub-20_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-20/eeg/sub-20_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-20/eeg/sub-20_task-rest_channels.tsv",
+          "sub-20/eeg/sub-20_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/eeg/sub-20_task-rest_eeg.edf": "SHA256E-s3829344--faacc234de622fc5bf3612f7893fd6c39c36a6db2b70d2092264d232e63b42cc.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-20_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-20/eeg/sub-20_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-20/eeg/sub-20_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-20/eeg/sub-20_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-20/eeg/sub-20_task-mentalArithmetic_channels.tsv",
+          "sub-20/eeg/sub-20_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/eeg/sub-20_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--66e2f45d938284d930ce773684f4b0c453eb7f44e5f711beb5848856d010e657.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-32_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-32/eeg/sub-32_task-rest_eeg.edf",
+      "bids_relpath": "sub-32/eeg/sub-32_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-32/eeg/sub-32_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-32/eeg/sub-32_task-rest_channels.tsv",
+          "sub-32/eeg/sub-32_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-32/eeg/sub-32_task-rest_eeg.edf": "SHA256E-s3829344--ae565edd49112399ff05b962ed0e46cb0511acfb46d9a776c531d8c9a20fe3c4.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-32_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-32/eeg/sub-32_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-32/eeg/sub-32_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-32/eeg/sub-32_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-32/eeg/sub-32_task-mentalArithmetic_channels.tsv",
+          "sub-32/eeg/sub-32_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-32/eeg/sub-32_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--dd39877d4c26053fb660b20a0a9bd17736a80945e06fcf9fe7be89ada15e83e5.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-00_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-00/eeg/sub-00_task-rest_eeg.edf",
+      "bids_relpath": "sub-00/eeg/sub-00_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "00",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "00",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-00/eeg/sub-00_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-00/eeg/sub-00_task-rest_channels.tsv",
+          "sub-00/eeg/sub-00_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-00/eeg/sub-00_task-rest_eeg.edf": "SHA256E-s3829344--9149d8389e46d157a82e0f204fba57a8e1dd5b3627fa73eac006f439f693379c.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-00_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-00/eeg/sub-00_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-00/eeg/sub-00_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "00",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "00",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-00/eeg/sub-00_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-00/eeg/sub-00_task-mentalArithmetic_channels.tsv",
+          "sub-00/eeg/sub-00_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-00/eeg/sub-00_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--32c138226b081119c66584963b8547b69321738b642252443eb289ef5210322f.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-35_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-35/eeg/sub-35_task-rest_eeg.edf",
+      "bids_relpath": "sub-35/eeg/sub-35_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "35",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "35",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-35/eeg/sub-35_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-35/eeg/sub-35_task-rest_channels.tsv",
+          "sub-35/eeg/sub-35_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-35/eeg/sub-35_task-rest_eeg.edf": "SHA256E-s3829344--b6ff8b61da5ae88940c62cd1346b155a369e18331b661b093a6fe05563797d6c.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-35_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-35/eeg/sub-35_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-35/eeg/sub-35_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "35",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "35",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-35/eeg/sub-35_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-35/eeg/sub-35_task-mentalArithmetic_channels.tsv",
+          "sub-35/eeg/sub-35_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-35/eeg/sub-35_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--0fd44218bc2edcb5d910c79c8682cdcc24a2865bfbcdc3060f4522cc8996a39a.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-19_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-19/eeg/sub-19_task-rest_eeg.edf",
+      "bids_relpath": "sub-19/eeg/sub-19_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-19/eeg/sub-19_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-19/eeg/sub-19_task-rest_channels.tsv",
+          "sub-19/eeg/sub-19_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/eeg/sub-19_task-rest_eeg.edf": "SHA256E-s3829344--3db4a1486776c2db1d0c2f367048e45b73fe525d3130cad118b2ff2f370a7e95.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-19_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-19/eeg/sub-19_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-19/eeg/sub-19_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-19/eeg/sub-19_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-19/eeg/sub-19_task-mentalArithmetic_channels.tsv",
+          "sub-19/eeg/sub-19_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/eeg/sub-19_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--481c5b794e43f8f02d0c3f39f0d403e9f1930466d19bae5c5881b9a51bed7253.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-08_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-08/eeg/sub-08_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-08/eeg/sub-08_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-08/eeg/sub-08_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-08/eeg/sub-08_task-mentalArithmetic_channels.tsv",
+          "sub-08/eeg/sub-08_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-08/eeg/sub-08_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--ee40795fe078f887984136c3ac5131d590687878a3976d3a69681746e6ab769c.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-08_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-08/eeg/sub-08_task-rest_eeg.edf",
+      "bids_relpath": "sub-08/eeg/sub-08_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-08/eeg/sub-08_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-08/eeg/sub-08_task-rest_channels.tsv",
+          "sub-08/eeg/sub-08_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-08/eeg/sub-08_task-rest_eeg.edf": "SHA256E-s3829344--df6c63c1c5f7972652b225d1a548ea6dd354f717b0a3977dfce4c2b217378090.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-10_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-10/eeg/sub-10_task-rest_eeg.edf",
+      "bids_relpath": "sub-10/eeg/sub-10_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-10/eeg/sub-10_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-10/eeg/sub-10_task-rest_channels.tsv",
+          "sub-10/eeg/sub-10_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/eeg/sub-10_task-rest_eeg.edf": "SHA256E-s3955392--d826d324bf91481557c4717580cc4ff269395d10b3967a3545fc5f279534a12c.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 93999,
+      "duration_seconds": 187.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-10_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-10/eeg/sub-10_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-10/eeg/sub-10_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-10/eeg/sub-10_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-10/eeg/sub-10_task-mentalArithmetic_channels.tsv",
+          "sub-10/eeg/sub-10_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/eeg/sub-10_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--01b3ad05ce2b4b9358f43f1c9d55b205b48ec0aa03f3e61fc5ca299050144654.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-16_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-16/eeg/sub-16_task-rest_eeg.edf",
+      "bids_relpath": "sub-16/eeg/sub-16_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-16/eeg/sub-16_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-16/eeg/sub-16_task-rest_channels.tsv",
+          "sub-16/eeg/sub-16_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/eeg/sub-16_task-rest_eeg.edf": "SHA256E-s3829344--928e91f0d7d9a8b7eb25ec0a9a22656ecd86476f3f4265d52b4ae8adfb21fdce.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-16_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-16/eeg/sub-16_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-16/eeg/sub-16_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-16/eeg/sub-16_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-16/eeg/sub-16_task-mentalArithmetic_channels.tsv",
+          "sub-16/eeg/sub-16_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/eeg/sub-16_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--554c9d47d7140f7dadfee4a7c5d18a94406775a894324ca54b4b0afb74e63442.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-25_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-25/eeg/sub-25_task-rest_eeg.edf",
+      "bids_relpath": "sub-25/eeg/sub-25_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-25/eeg/sub-25_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-25/eeg/sub-25_task-rest_channels.tsv",
+          "sub-25/eeg/sub-25_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-25/eeg/sub-25_task-rest_eeg.edf": "SHA256E-s3829344--aa8d3b56d797ab20f658db2b089d791f36babd7e613f406383278134e7658be1.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-25_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-25/eeg/sub-25_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-25/eeg/sub-25_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-25/eeg/sub-25_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-25/eeg/sub-25_task-mentalArithmetic_channels.tsv",
+          "sub-25/eeg/sub-25_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-25/eeg/sub-25_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--9e776fd7c845b8f2312b81d72d9d8c98fafb2bea88cdd1e5085eba7ad6b8d28a.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 17.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-34_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-34/eeg/sub-34_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-34/eeg/sub-34_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-34/eeg/sub-34_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-34/eeg/sub-34_task-mentalArithmetic_channels.tsv",
+          "sub-34/eeg/sub-34_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-34/eeg/sub-34_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--16f1cc369d4d92c55d9cf03612bdf65aada7975728fce86cfebcfdf17802df04.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-34_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-34/eeg/sub-34_task-rest_eeg.edf",
+      "bids_relpath": "sub-34/eeg/sub-34_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-34/eeg/sub-34_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-34/eeg/sub-34_task-rest_channels.tsv",
+          "sub-34/eeg/sub-34_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-34/eeg/sub-34_task-rest_eeg.edf": "SHA256E-s3829344--631068d3db3484cea1c7d671757adbd698cdd14942f348a1e4742a1418119a43.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-07_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-07/eeg/sub-07_task-rest_eeg.edf",
+      "bids_relpath": "sub-07/eeg/sub-07_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-07/eeg/sub-07_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-07/eeg/sub-07_task-rest_channels.tsv",
+          "sub-07/eeg/sub-07_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-07/eeg/sub-07_task-rest_eeg.edf": "SHA256E-s3829344--3c3874475e4463da1793532f5ab21a7f553615518491576dc46056e4139d03c0.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-07_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-07/eeg/sub-07_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-07/eeg/sub-07_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-07/eeg/sub-07_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-07/eeg/sub-07_task-mentalArithmetic_channels.tsv",
+          "sub-07/eeg/sub-07_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-07/eeg/sub-07_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--967d763052c0aec60863da3d93ee12f66e16c020616d05f31ee7d40b807fc7c5.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-09_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-09/eeg/sub-09_task-rest_eeg.edf",
+      "bids_relpath": "sub-09/eeg/sub-09_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-09/eeg/sub-09_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-09/eeg/sub-09_task-rest_channels.tsv",
+          "sub-09/eeg/sub-09_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-09/eeg/sub-09_task-rest_eeg.edf": "SHA256E-s3829344--f6953f11b1e23a572d4af82d9fd7efaeb90de5555c21237a78bc85b5d5303b7d.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 16.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-09_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-09/eeg/sub-09_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-09/eeg/sub-09_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-09/eeg/sub-09_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-09/eeg/sub-09_task-mentalArithmetic_channels.tsv",
+          "sub-09/eeg/sub-09_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-09/eeg/sub-09_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--e04782d64b96df26efae8127f60766ded86de17e300c55f43193a37b5d322c53.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 16.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-02_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-02/eeg/sub-02_task-rest_eeg.edf",
+      "bids_relpath": "sub-02/eeg/sub-02_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-02/eeg/sub-02_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-02/eeg/sub-02_task-rest_channels.tsv",
+          "sub-02/eeg/sub-02_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-02/eeg/sub-02_task-rest_eeg.edf": "SHA256E-s3829344--186cc6a88384839879f581dce7c6d99f501ebb51bc1c0cc1260bb15d57f3297f.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-02_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-02/eeg/sub-02_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-02/eeg/sub-02_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-02/eeg/sub-02_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-02/eeg/sub-02_task-mentalArithmetic_channels.tsv",
+          "sub-02/eeg/sub-02_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-02/eeg/sub-02_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--b9ebb76077a8a9944c9aa07ff78b253901c44acfea9512c96f7796901644a209.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-29_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-29/eeg/sub-29_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-29/eeg/sub-29_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-29/eeg/sub-29_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-29/eeg/sub-29_task-mentalArithmetic_channels.tsv",
+          "sub-29/eeg/sub-29_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-29/eeg/sub-29_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--320bc20e2c110ff133e8381e5a0c02055d8d6ad809f112dd1bd674940f14836b.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-29_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-29/eeg/sub-29_task-rest_eeg.edf",
+      "bids_relpath": "sub-29/eeg/sub-29_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-29/eeg/sub-29_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-29/eeg/sub-29_task-rest_channels.tsv",
+          "sub-29/eeg/sub-29_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-29/eeg/sub-29_task-rest_eeg.edf": "SHA256E-s3829344--ff23fd587f36f71b2a084f651f2de844bd9c2ee82b89b8b162814a23f0140932.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "M",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-31_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-31/eeg/sub-31_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-31/eeg/sub-31_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-31/eeg/sub-31_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-31/eeg/sub-31_task-mentalArithmetic_channels.tsv",
+          "sub-31/eeg/sub-31_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-31/eeg/sub-31_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--1d25d96480803c7a2df3b739759e8df3e6267109aec0289d53b1206a5b492b25.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-31_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-31/eeg/sub-31_task-rest_eeg.edf",
+      "bids_relpath": "sub-31/eeg/sub-31_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-31/eeg/sub-31_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-31/eeg/sub-31_task-rest_channels.tsv",
+          "sub-31/eeg/sub-31_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-31/eeg/sub-31_task-rest_eeg.edf": "SHA256E-s1686368--f76abf82fcc9bb5ab8efdb1c8e62993bf6189a057968626c319f5fd33bfd1c85.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 39999,
+      "duration_seconds": 79.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-22_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-22/eeg/sub-22_task-rest_eeg.edf",
+      "bids_relpath": "sub-22/eeg/sub-22_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-22/eeg/sub-22_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-22/eeg/sub-22_task-rest_channels.tsv",
+          "sub-22/eeg/sub-22_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-22/eeg/sub-22_task-rest_eeg.edf": "SHA256E-s3829344--e1a05027a7c45ca0c2e438bb47b7074ae9480ff7c6e0df8969f837be509d58b0.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-22_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-22/eeg/sub-22_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-22/eeg/sub-22_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-22/eeg/sub-22_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-22/eeg/sub-22_task-mentalArithmetic_channels.tsv",
+          "sub-22/eeg/sub-22_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-22/eeg/sub-22_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--20f7bc18df75c69f303dadfdb4f71d750499955be785b3f38516bb12caffe2d8.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-01_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-01/eeg/sub-01_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-01/eeg/sub-01_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-01/eeg/sub-01_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-01/eeg/sub-01_task-mentalArithmetic_channels.tsv",
+          "sub-01/eeg/sub-01_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-01/eeg/sub-01_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--2da2c9fb3aeb0539a0f3e3c557b73a8c145bafe38e9e1b5c40561bdfc4fe743c.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-01_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-01/eeg/sub-01_task-rest_eeg.edf",
+      "bids_relpath": "sub-01/eeg/sub-01_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-01/eeg/sub-01_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-01/eeg/sub-01_task-rest_channels.tsv",
+          "sub-01/eeg/sub-01_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-01/eeg/sub-01_task-rest_eeg.edf": "SHA256E-s3829344--9c0df6dba12e138d2eec5a076a42aecf037067034a4593684d04f2393d8aa977.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-28_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-28/eeg/sub-28_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-28/eeg/sub-28_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "28",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "28",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-28/eeg/sub-28_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-28/eeg/sub-28_task-mentalArithmetic_channels.tsv",
+          "sub-28/eeg/sub-28_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-28/eeg/sub-28_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--fd36c8291c0252d48e7a8422660997f0805c6d891db8f2909eec6241a85b8497.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-28_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-28/eeg/sub-28_task-rest_eeg.edf",
+      "bids_relpath": "sub-28/eeg/sub-28_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "28",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "28",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-28/eeg/sub-28_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-28/eeg/sub-28_task-rest_channels.tsv",
+          "sub-28/eeg/sub-28_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-28/eeg/sub-28_task-rest_eeg.edf": "SHA256E-s3829344--b103165fe0d90716f0e2f7a3c721fe7d6c688cfffac966912e5f5ddc8d9554ec.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-23_task-rest_eeg.edf",
+      "bidspath": "nm000109/sub-23/eeg/sub-23_task-rest_eeg.edf",
+      "bids_relpath": "sub-23/eeg/sub-23_task-rest_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": null,
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-23/eeg/sub-23_task-rest_eeg.edf",
+        "dep_keys": [
+          "sub-23/eeg/sub-23_task-rest_channels.tsv",
+          "sub-23/eeg/sub-23_task-rest_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-23/eeg/sub-23_task-rest_eeg.edf": "SHA256E-s3829344--15c74d9f9655e60b872ee5617a9eb271a5276dfa01998b67d25183e5c9e88668.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 90999,
+      "duration_seconds": 181.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 16.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    },
+    {
+      "dataset": "nm000109",
+      "data_name": "nm000109_sub-23_task-mentalArithmetic_eeg.edf",
+      "bidspath": "nm000109/sub-23/eeg/sub-23_task-mentalArithmetic_eeg.edf",
+      "bids_relpath": "sub-23/eeg/sub-23_task-mentalArithmetic_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": null,
+        "task": "mentalArithmetic",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000109",
+        "raw_key": "sub-23/eeg/sub-23_task-mentalArithmetic_eeg.edf",
+        "dep_keys": [
+          "sub-23/eeg/sub-23_task-mentalArithmetic_channels.tsv",
+          "sub-23/eeg/sub-23_task-mentalArithmetic_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-23/eeg/sub-23_task-mentalArithmetic_eeg.edf": "SHA256E-s1308260--eb8c62731070292cea774f5ec0962aa8ea84154e12bb30e947439d75e0cbcec1.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "F4",
+        "F7",
+        "F8",
+        "T3",
+        "T4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4",
+        "O1",
+        "O2",
+        "Fz",
+        "Cz",
+        "Pz",
+        "A2",
+        "ECG"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 21,
+      "ntimes": 30999,
+      "duration_seconds": 61.998,
+      "digested_at": "2026-08-26T11:01:05.014278+00:00",
+      "participant_tsv": {
+        "age": 16.0,
+        "sex": "F",
+        "hand": null,
+        "weight": null,
+        "height": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "eeg_reference": "n/a",
+      "software_filters": "n/a",
+      "manufacturer": "n/a",
+      "eeg_placement_scheme": "based on the extended 10/20 system",
+      "recording_type": "continuous",
+      "recording_duration": 61.998,
+      "eeg_ground": "n/a",
+      "montage_hash": "600c00edfb0baf51"
+    }
+  ]
+}

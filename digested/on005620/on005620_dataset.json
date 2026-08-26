@@ -1,0 +1,106 @@
+{
+  "dataset_id": "on005620",
+  "name": "A repeated awakening study exploring the capacity of complexity measures to capture dreaming during propofol sedation",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005620-blue)](https://doi.org/10.82901/nemar.on005620)\n# A Repeated Awakening Study Exploring the Capacity of Complexity Measures to Capture Dreaming During Propofol Sedation\n## Description\nThis dataset contains EEG data from a study investigating the effects of propofol sedation on dreaming and the applicability of complexity measures in capturing this phenomenon. The study aims to understand the dynamics of consciousness during sedation and the potential for EEG complexity measures to reflect subjective experiences.\n## Authors\n- Imad J. Bajwa\n- Andre S. Nilsen\n- Ren\u00e9 Skukies\n- Arnfinn Aamodt\n- Gernot Ernst\n- Johan F. Storm\n- Bj\u00f8rn E. Juel\n## Ethics Statement\nApproved by the Regional Committees for Medical Research Ethics South East Norway (REK), ref. 2015/1520.\n## License\nThis dataset is licensed under CC-BY-4.0.\n## File Structure\nThe dataset is organized by subject, with each subject's EEG files stored in a dedicated directory. Below is the structure for the EEG data associated with a sample subject (sub-1016).\n### Directory Structure\n```\n/Volumes/IMADS SSD/Anesthesia_conciousness_paper/project_BIDS/\n\u2514\u2500\u2500 sub-1016/\n    \u2514\u2500\u2500 eeg/\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_channels.tsv\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_eeg.eeg\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_eeg.json\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_eeg.vhdr\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_eeg.vmrk\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_events.json\n        \u251c\u2500\u2500 sub-1016_task-awake_acq-EC_events.tsv\n        \u251c\u2500\u2500 ...\n```\n### File Naming Convention\nEEG files are named in the format:\n`sub-<subject_id>_task-<task_name>_acq-<acquisition>_run-<run_number>.<extension>`\n### Example Filenames\n- `sub-1016_task-awake_acq-EC_channels.tsv`\n- `sub-1016_task-sed_acq-rest_run-1_eeg.eeg`\n### Filename Components\n- **sub-<subject_id>**: Identifier for the subject (e.g., `sub-1016`).\n- **task-<task_name>**: Indicates the task condition:\n  - `awake`: Wakefulness\n  - `sed`: Sedation condition\n  - `sed2`: One-minute resting EEG recorded just before an awakening\n- **acq-<acquisition>**: Type of acquisition:\n  - `EC`: Eyes Closed (during wakefulness)\n  - `EO`: Eyes Open (during wakefulness)\n  - `tms`: Session with Transcranial Magnetic Stimulation\n  - `rest`: Rest condition (during sedation)\n- **run-<run_number>**: Specifies the run number for the data collection:\n  - `run-1`, `run-2`, `run-3` (indicating different awakenings in sedation)\n- **.<extension>**: File extension indicating the type of file (e.g., `.eeg`, `.vhdr`, `.vmrk`, etc.).\n### File Types\n- **.eeg**: Raw EEG data.\n- **.vhdr**: BrainVision header file.\n- **.vmrk**: BrainVision marker file.\n- **_events.json / _events.tsv**: Event markers.\n- **_channels.tsv / _eeg.json**: Channel information and metadata.\n## Usage Instructions\nTo analyze the data, you may need software such as Python with MNE-Python. Please refer to the MNE documentation for details on how to load and manipulate the datasets.\n## Contact Information\nFor questions regarding this dataset, please contact:\nImad J. Bajwa\nEmail: imadjb@uio.no\nBj\u00f8rn E. Juel\nEmail: Bjorneju@gmail.com\n## Acknowledgements\nWe thank the participants and the supporting research staff for their contributions to this study.\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Imad J. Bajwa1",
+    "Andre S. Nilsen1",
+    "Ren\u00e9 Skukies1,3",
+    "Arnfinn Aamodt1",
+    "Gernot Ernst2",
+    "Johan F. Storm1",
+    "Bj\u00f8rn E. Juel1,2"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on005620",
+  "associated_paper_doi": null,
+  "tasks": [
+    "awake",
+    "sed",
+    "sed2"
+  ],
+  "sessions": [],
+  "total_files": 202,
+  "size_bytes": 83002664249,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      25,
+      26,
+      21,
+      24,
+      30,
+      27,
+      29,
+      24,
+      27,
+      25,
+      19,
+      26,
+      26,
+      26,
+      21,
+      27,
+      27
+    ],
+    "age_min": 19,
+    "age_max": 30,
+    "age_mean": 25.294117647058822,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 8
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Bj\u00f8rn E. Juel1,2",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:11:58.098077+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-27 14:11:02"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005620",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005620",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank the participants and the supporting research staff.",
+  "ethics_approvals": [
+    "Approved by the Regional Committees for Medical Research Ethics South East Norway (REK), ref. 2015/1520"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005620.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "e207552b06881ae2b4f7cd5d8c54672605d819ff6ccc900976ba7682474ab7bc"
+}

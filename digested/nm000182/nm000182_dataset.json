@@ -1,0 +1,102 @@
+{
+  "dataset_id": "nm000182",
+  "name": "Multicenter iEEG dataset for classification of graphoelements and artifactual signals (MAYO)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "Nejedly2020 multicenter iEEG graphoelement clips (MAYO)\nThis BIDS dataset is converted from the public segmented .mat archives released\nwith Nejedly et al. 2020, Scientific Data:\nhttps://doi.org/10.1038/s41597-020-0532-5\nThe source data are independent 3 s single-channel iEEG clips. The original\nauthors also released MEF3 BIDS archives for reviewer-requested compatibility,\nbut those contain the same data as the .mat clips. This conversion therefore\nuses the segmented archives directly.\nLayout\n------\nEach BIDS run contains clips from one subject and one source SEEG contact,\nconcatenated at 5000 Hz. Events mark the 3 s clip boundaries and preserve the\noriginal label, segment_id, anatomy, reviewer_id, SOZ flag, and electrode type.\nThe runs are not continuous clinical recordings and should not be interpreted as\nreal time-contiguous data across clip boundaries.\nSubject labels preserve the original NEMAR/OpenNeuro style (for example sub-000) because this is a single-site dataset.\nElectrodes\n----------\nPatient-specific electrode coordinates were not released with the segmented\ndataset. Therefore electrodes.tsv keeps x/y/z as n/a while preserving contact\nnames, material, and manufacturer. Anatomy and SOZ labels are preserved per clip\nin events.tsv.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.1",
+  "license": "CC0",
+  "authors": [
+    "Petr Nejedly",
+    "Vaclav Kremen",
+    "Vladimir Sladky",
+    "Jan Cimbalnik",
+    "Petr Klimes",
+    "Filip Plesinger",
+    "Filip Mivalt",
+    "Vojtech Travnicek",
+    "Ivo Viscor",
+    "Martin Pail",
+    "Josef Halamek",
+    "Benjamin Brinkmann",
+    "Milan Brazdil",
+    "Pavel Jurak",
+    "Gregory Worrell"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000182",
+  "associated_paper_doi": null,
+  "tasks": [
+    "MachineLearningEEG"
+  ],
+  "sessions": [],
+  "total_files": 257,
+  "size_bytes": 9329755406,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 24,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Gregory Worrell",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:58.136845+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 21:47:24"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000182",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-MachineLearningEEG_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000182",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Staff of Mayo Clinic and MSEL",
+  "how_to_acknowledge": "Please cite Nejedly et al. 2020, Scientific Data (doi:10.1038/s41597-020-0532-5).",
+  "references_and_links": [
+    "https://doi.org/10.1038/s41597-020-0532-5",
+    "https://doi.org/10.6084/m9.figshare.12192405"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_mayo_to_bids.py",
+      "Description": "BrainVision iEEG BIDS conversion from public segmented .mat clip archives; recording data unchanged from the released clips."
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://doi.org/10.6084/m9.figshare.12192405",
+      "DOI": "doi:10.6084/m9.figshare.12192405",
+      "Version": "1"
+    }
+  ],
+  "ingestion_fingerprint": "2725b45805bdcdd4ddcb72fb17501176f00b255fd1133f58e41fa4267deb2352"
+}

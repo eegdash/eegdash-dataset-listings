@@ -1,0 +1,118 @@
+{
+  "dataset_id": "on006468",
+  "name": "MEG-SCANS - A comprehensive magnetoencephalography speech dataset with Stories, Chirps And Noisy Sentences.",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006468-blue)](https://doi.org/10.82901/nemar.on006468)\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110.https://doi.org/10.1038/sdata.2018.110\nDescription\n-----------\nThe MEG-SCANS (Stories, Chirps, And Noisy Sentences) dataset provides raw and MaxFiltered magnetoencephalography (MEG) recordings from 24 German-speaking participants, collected over three months. Each participant engaged in an auditory experiment, listening to approximately one hour of stimuli, including two audiobooks (approx. 20 minutes each), 120 sentences from the Oldenburger Matrix Sentence Test (OLSA) presented at varying speech intelligibility levels (20% to 95%) for Speech Reception Threshold (SRT) assessment, and short up-chirps used for MEG signal quality assessment. For each participant, the dataset comprises raw MEG data, corresponding MaxFiltered data, two empty-room MEG recordings (pre- and post-session), a structural MRI scan of the head, behavioral audiogram and SRT results from hearing screenings, and the corresponding audio stimulus material (audiobooks, envelopes, and chirp stimuli). Auxiliary channels recorded include the left audio channel (MISC001), right audio channel (MISC002), and the instructor's microphone (MISC007), all sampled at 1000 Hz. Organized according to the Brain Imaging Data Structure (BIDS), this dataset offers a robust benchmark for large-scale encoding/decoding analyses of temporally-resolved brain responses to speech. Note that sub-01 served as a pilot so that its data resembles a slightly different experimental design, specifically lacking chirp stimuli and featuring different audiobooks; this variation is accounted for in the provided analysis pipelines. Comprehensive Matlab and Python code are included alongside the entire analysis pipeline [https://doi.org/10.5281/zenodo.17397581] to replicate key data validations, ensuring transparency and reproducibility. The dataset is described in an accompanying data descriptor paper [https://doi.org/10.1038/s41597-025-06397-4].",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Till Habersetzer",
+    "Bernd T. Meyer"
+  ],
+  "funding": [
+    "This work was funded by Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) under Germany\u2019s Excellence Strategy\u2013 EXC 2177/1- Project ID 390895286 and by Forschungspoolmittel Potentialbereich mHealth from the School VI Medicine and Health Sciences at Carl von Ossietzky University Oldenburg (PB mHealth 2020-13)."
+  ],
+  "dataset_doi": "10.82901/nemar.on006468",
+  "associated_paper_doi": null,
+  "tasks": [
+    "audiobook1",
+    "audiobook2",
+    "noise",
+    "olsa"
+  ],
+  "sessions": [],
+  "total_files": 189,
+  "size_bytes": 219210057325,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 24,
+    "ages": [
+      29,
+      27,
+      23,
+      33,
+      24,
+      31,
+      22,
+      23,
+      23,
+      27,
+      20,
+      28,
+      27,
+      26,
+      27,
+      23,
+      25,
+      22,
+      23,
+      27,
+      21,
+      22,
+      22,
+      28
+    ],
+    "age_min": 20,
+    "age_max": 33,
+    "age_mean": 25.125,
+    "species": null,
+    "sex_distribution": {
+      "m": 8,
+      "f": 16
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Bernd T. Meyer",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:08.233261+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 01:43:09"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006468",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006468",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We are grateful to Helge Ahrens for his technical support during patient recordings, to Svea Steuer for her foundational contributions in the project's early stages, the patients, whose participation was essential to this work.",
+  "how_to_acknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite the following paper: \nHabersetzer, T., Steuer, S., Radeloff, A. et al. MEG-SCANS - A comprehensive magnetoencephalography speech dataset with Stories, Chirps and Noisy Sentences. Sci Data 12, 1938 (2025). https://doi.org/10.1038/s41597-025-06397-4",
+  "ethics_approvals": [
+    "Commission for Research Assessment and Ethics University Oldenburg: Drs.EK/2019/034"
+  ],
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.16.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006468.v1.1.2"
+    }
+  ],
+  "ingestion_fingerprint": "5f6ecdb01f938214a304b117a019beb907430809538bf36016df694780c014c4"
+}

@@ -1,0 +1,93 @@
+{
+  "dataset_id": "nm000263",
+  "name": "Visual object ERP EEG dataset (Kaneshiro et al. 2015)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000263-blue)](https://doi.org/10.82901/nemar.nm000263)\n# Visual object ERP EEG dataset (Kaneshiro et al. 2015)\n## Overview\nA visual event-related potential (ERP) dataset comprising 124-channel EEG recordings from 10 healthy participants viewing photographs from six object categories (human body, human face, animal body, animal face, fruit/vegetable, and inanimate objects). The dataset contains 5,184 trials collected during a visual object recognition task with 72 images per category, each presented for 500 ms with a 750 ms interstimulus interval. Data were acquired at 62.5 Hz using a high-density geodesic sensor net and are suitable for investigating neural representations of object categories through single-trial EEG classification and representational similarity analysis.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 10 |\n| Channels | 124 |\n| Classes | 6 |\n| Trial length | 0.5 s |\n| Sampling frequency | 62.5 Hz |\n| Sessions | 1 |\n| Total trials | 5184 |\n| Paradigm | P300 |\n## Data Collection Methods\nEEG data were acquired from 10 healthy participants using a 124-channel EGI Net Amps 300 system with HydroCel Geodesic Sensor Net montage (GSN-HydroCel-128) at a sampling rate of 62.5 Hz with average reference. Participants viewed 72 photographs from six object categories presented for 500 ms each with a 750 ms interstimulus interval. Data were preprocessed and organized in BIDS format.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Kaneshiro2015\nfrom moabb.paradigms import P300\nparadigm = P300()\ndataset = Kaneshiro2015()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Kaneshiro2015.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.1371/journal.pone.0135697](https://doi.org/10.1371/journal.pone.0135697)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-3.0",
+  "authors": [
+    "Blair Kaneshiro",
+    "Marcos Perreau Guimaraes",
+    "Hyung-Suk Kim",
+    "Anthony M. Norcia",
+    "Patrick Suppes"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000263",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 10,
+  "size_bytes": 3652595587,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 10,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Patrick Suppes",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:20.566110+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:19:58"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000263",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000263",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://purl.stanford.edu/bq914sc3730"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1371/journal.pone.0135697",
+      "URL": "https://purl.stanford.edu/bq914sc3730"
+    },
+    {
+      "DOI": "doi:10.1371/journal.pone.0135697"
+    }
+  ],
+  "ingestion_fingerprint": "9a6e556e5aa1d2d36864cb0f110f46e8c9af0a50cf41b5d8b7b9e10f5dbe21d5"
+}

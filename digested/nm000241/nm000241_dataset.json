@@ -1,0 +1,95 @@
+{
+  "dataset_id": "nm000241",
+  "name": "CerebroVoice: Bilingual sEEG Speech Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000241-blue)](https://doi.org/10.82901/nemar.nm000241)\nCerebroVoice: Bilingual sEEG Speech Dataset\n=============================================\nOverview\n--------\nIntracranial EEG (sEEG) recordings from 2 epilepsy patients during bilingual\nspeech tasks (Mandarin Chinese, English, and digit reading). Recorded at\n1000 Hz with Nihon Kohden EEG-1200, depth electrodes (platinum-iridium).\nData distributed as preprocessed NPY derivatives:\n- LFS: Low-frequency signal\n- HGA: High-gamma activity\n- BBS: Broadband signal\nTasks: Chinese reading, English reading, digit reading\nSubjects: SUB1 (114 channels post-filtering), SUB2 (158 channels)\nDuration: ~73 min (SUB1), ~76 min (SUB2)\nSource: Zenodo (doi:10.5281/zenodo.13332808)\nLicense: CC BY 4.0\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nHoldgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., \u2026 Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC BY 4.0",
+  "authors": [
+    "Xueyi Zhang"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000241",
+  "associated_paper_doi": null,
+  "tasks": [
+    "chinesebbs",
+    "chinesehga",
+    "chineselfs",
+    "digitbbs",
+    "digithga",
+    "digitlfs",
+    "englishbbs",
+    "englishhga",
+    "englishlfs"
+  ],
+  "sessions": [],
+  "total_files": 18,
+  "size_bytes": 2012667513,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": null,
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:03:50.152908+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-05-04 13:08:24"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000241",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000241",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite the Zenodo record and OpenReview submission.",
+  "references_and_links": [
+    "https://zenodo.org/records/13332808",
+    "https://openreview.net/forum?id=3sfOGsBh85"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_cerebrovoice.py (EEGDash)",
+      "Description": "Converted from NPY derivatives to BIDS-iEEG format.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://zenodo.org/records/13332808"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.13332808"
+    }
+  ],
+  "ingestion_fingerprint": "9b98e3b644d30f93e05115016f146bcf86d9914b80730ae77ef27b26c4140656"
+}

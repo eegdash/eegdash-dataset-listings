@@ -1,0 +1,119 @@
+{
+  "dataset_id": "nm000236",
+  "name": "Dataset of an EEG-based BCI experiment in Virtual Reality using P300",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000236-blue)](https://doi.org/10.82901/nemar.nm000236)\n# Dataset of an EEG-based BCI experiment in Virtual Reality using P300\nDataset of an EEG-based BCI experiment in Virtual Reality using P300.\n## Dataset Overview\n- **Code**: Cattan2019-VR\n- **Paradigm**: p300\n- **DOI**: https://doi.org/10.5281/zenodo.2605204\n- **Subjects**: 21\n- **Sessions per subject**: 1\n- **Events**: Target=2, NonTarget=1\n- **Trial interval**: [0, 1.0] s\n- **Runs per session**: 60\n- **Session IDs**: PC, VR\n- **File format**: mat, csv\n- **Contributing labs**: GIPSA-lab\n## Acquisition\n- **Sampling rate**: 512.0 Hz\n- **Number of channels**: 16\n- **Channel types**: eeg=16\n- **Channel names**: Fp1, Fp2, Fc5, Fz, Fc6, T7, Cz, T8, P7, P3, Pz, P4, P8, O1, Oz, O2\n- **Montage**: 10-10\n- **Hardware**: g.USBamp (g.tec, Schiedlberg, Austria)\n- **Software**: OpenVibe\n- **Reference**: right earlobe\n- **Ground**: AFZ\n- **Sensor type**: wet electrodes\n- **Line frequency**: 50.0 Hz\n- **Online filters**: no digital filter applied\n- **Cap manufacturer**: EasyCap\n- **Cap model**: EC20\n## Participants\n- **Number of subjects**: 21\n- **Health status**: healthy\n- **Age**: mean=26.38, std=5.78, min=19.0, max=44.0\n- **Gender distribution**: male=14, female=7\n- **BCI experience**: varied gaming experience: some played video games occasionally, some played First Person Shooters; varied VR experience from none to repetitive\n## Experimental Protocol\n- **Paradigm**: p300\n- **Number of classes**: 2\n- **Class labels**: Target, NonTarget\n- **Study design**: randomized session order (PC vs VR); limit eye blinks, head movements and face muscular contractions\n- **Feedback type**: visual\n- **Stimulus type**: flashing white crosses in 6x6 matrix\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Mode**: offline\n- **Training/test split**: False\n- **Instructions**: focus on a red-squared target symbol while groups of six symbols flash\n- **Stimulus presentation**: description=6x6 matrix of white crosses; groups of 6 symbols flash; each symbol flashes exactly 2 times per repetition, platform=Unity engine exported to PC and VR\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Number of targets**: 1\n- **Number of repetitions**: 12\n## Data Structure\n- **Trials**: {'target': 120, 'non_target': 600}\n- **Trials per class**: target=120, non_target=600\n- **Blocks per session**: 12\n- **Trials context**: per session: 12 blocks \u00d7 5 repetitions \u00d7 12 flashes per repetition (2 target, 10 non-target)\n## Preprocessing\n- **Data state**: raw EEG with software tagging via USB (note: tagging introduces jitter and latency - mean 38ms in PC, 117ms in VR)\n- **Preprocessing applied**: False\n- **Notes**: mean tagging latency: ~38 ms in PC, ~117 ms in VR due to different hardware/software setup; these latencies should be used to correct ERPs\n## Signal Processing\n- **Classifiers**: xDAWN, Riemannian\n- **Feature extraction**: Covariance/Riemannian, xDAWN\n## Cross-Validation\n- **Evaluation type**: cross_session\n## BCI Application\n- **Applications**: speller\n- **Environment**: PC and Virtual Reality (VRElegiant HMD with Huawei Ascend Mate 7 smartphone)\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Visual\n- **Type**: Perception\n## Documentation\n- **Description**: EEG recordings of 21 subjects doing a visual P300 experiment on PC and VR to compare BCI performance and user experience\n- **DOI**: 10.5281/zenodo.2605204\n- **Associated paper DOI**: hal-02078533v3\n- **License**: CC-BY-4.0\n- **Investigators**: Gr\u00e9goire Cattan, Anton Andreev, Pedro Luiz Coelho Rodrigues, Marco Congedo\n- **Senior author**: Marco Congedo\n- **Institution**: GIPSA-lab\n- **Department**: GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP\n- **Address**: GIPSA-lab, 11 rue des Math\u00e9matiques, Grenoble Campus BP46, F-38402, France\n- **Country**: FR\n- **Repository**: Zenodo\n- **Data URL**: https://doi.org/10.5281/zenodo.2605204\n- **Publication year**: 2019\n- **Funding**: IHMTEK Company (Interaction Homme-Machine Technologie)\n- **Ethics approval**: Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)\n- **Acknowledgements**: promoted by the IHMTEK Company\n- **Keywords**: Electroencephalography (EEG), P300, Brain-Computer Interface (BCI), Virtual Reality (VR), experiment\n## Abstract\nDataset contains electroencephalographic recordings on 21 subjects doing a visual P300 experiment on PC and VR. The visual P300 is an event-related potential elicited by a visual stimulation, peaking 240\u2013600 ms after stimulus onset. The experiment compares P300-based BCI on PC vs VR headset (passive HMD with smartphone) concerning physiological, subjective and performance aspects. EEG recorded with 16 electrodes. Experiment conducted at GIPSA-lab in 2018.\n## Methodology\nTwo randomized sessions (PC and VR). Each session: 12 blocks of 5 repetitions. Each repetition: 12 flashes of groups of 6 symbols, ensuring each symbol flashes exactly 2 times. Target flashes twice per repetition (2 target flashes), non-target flashes 10 times. Random feedback given after each repetition (70% expected accuracy). P300 interface: 6x6 matrix of white flashing crosses with red-squared target. VR used passive HMD (VRElegiant) with Huawei Mate 7 smartphone. IMU deactivated to prevent drift. Unity engine used for identical visual stimulation across PC and VR.\n## References\nG. Cattan, A. Andreev, P. L. C. Rodrigues, and M. Congedo (2019). Dataset of an EEG-based BCI experiment in Virtual Reality and on a Personal Computer. Research Report, GIPSA-lab; IHMTEK. https://doi.org/10.5281/zenodo.2605204\n.. versionadded:: 0.5.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Gr\u00e9goire Cattan",
+    "Anton Andreev",
+    "Pedro Luiz Coelho Rodrigues",
+    "Marco Congedo"
+  ],
+  "funding": [
+    "IHMTEK Company (Interaction Homme-Machine Technologie)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000236",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0VR",
+    "1PC"
+  ],
+  "total_files": 2520,
+  "size_bytes": 1047272994,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26,
+      26
+    ],
+    "age_min": 26,
+    "age_max": 26,
+    "age_mean": 26.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Marco Congedo",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:03:24.067344+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 21:19:56"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000236",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000236",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "promoted by the IHMTEK Company",
+  "ethics_approvals": [
+    "Ethical Committee of the University of Grenoble Alpes (Comit\u00e9 d'Ethique pour la Recherche Non-Interventionnelle)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.5281/zenodo.2605204",
+    "hal-02078533v3"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "https://doi.org/10.5281/zenodo.2605204",
+      "URL": "https://doi.org/10.5281/zenodo.2605204"
+    }
+  ],
+  "ingestion_fingerprint": "dd09c01d5abef912a836071bedafb89d48f50fa10ad901146c741dd975acf994"
+}

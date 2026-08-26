@@ -1,0 +1,80 @@
+{
+  "dataset_id": "on006735",
+  "name": "Chimeric music reveals an interaction of pitch and time in electrophysiological signatures of music encoding",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006735-blue)](https://doi.org/10.82901/nemar.on006735)\n# Details related to access to the data\nPlease contact the following authors for further information:\nTong Shan (email: tongshan@stanford.edu)\nRoss K. Maddox (email: rkmaddox@med.umich.edu)\n# Overview\nThis study examines pitch-time interactions in music processing by introducing \u201cchimeric music,\u201d which pairs two distinct melodies, and exchanges their pitch contours and note onset-times to create two new melodies, thereby distorting musical pattern while maintaining the marginal statistics of the original pieces\u2019 pitch and temporal sequences.\nData collected from Sep to Nov, 2023.\nThe details of the experiment can be found at Shan et al. (2024). There were two phases in this experiment. For the first phase, ten trials of one-minute clicks were presented to the subjects. For the second phase, the 2 types of monophonic music (original and chimeric) clips were presented. There were 33 trials for each type with shuffled order. Between trials, there was a 0.5 s pause.\nThe code for analysis for this study can be found in GitHub repo (https://github.com/maddoxlab/Chimeric_music).\n# Format\nThis dataset is formatted according to the EEG Brain Imaging Data Structure. It includes EEG recording from subject 001 to subject 027 in raw brainvision format (including .eeg, .vhdr, and .vmrk triplet).\n# Subjects\n27 subjects participated in this study.\n## Subject inclusion criteria\nAge between 18-40.\nNormal hearing: audiometric thresholds of 20 dB HL or better from 500 to 8000 Hz.\nSpeak English as their primary language.\nSelf-reported normal or correctable to normal vision.\nTwenty-seven participants participated in this experiment with an age of 22.9 \u00b1 3.9 (mean \u00b1 STD) years.\n# Apparatus\nSubjects were seated in a sound-isolating booth on a chair in front of a 24-inch BenQ monitor with a viewing distance of approximately 60 cm. Stimuli were presented at an average level of 60 dB SPL and a sampling rate of 48000 Hz through ER-2 insert earphones plugged into an RME Babyface Pro digital sound card. The stimulus presentation for the experiment was controlled by a python script using a custom package, expyfun.\nFollowing the experimental session, participants completed a self-reported musicianship questionnaire (adapted from Whiteford et al, 2025). The questionnaire is included in this repository.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Tong Shan",
+    "Edmund C. Lalor",
+    "Ross K. Maddox"
+  ],
+  "funding": [
+    "NSF CAREER grant 2142612",
+    "the Schmitt Program in Neuroscience"
+  ],
+  "dataset_doi": "10.82901/nemar.on006735",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ChimericMusic"
+  ],
+  "sessions": [],
+  "total_files": 27,
+  "size_bytes": 207114904309,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 27,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Ross K. Maddox",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:27.522827+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 09:13:05"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006735",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006735",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "approved by the University of Rochester Subjects Review Board (#66988)"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006735.v2.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "fe076fb2db0b942138a745e8893d6cb66cda883ae8601bbbfebb2f2dedca9e4c"
+}

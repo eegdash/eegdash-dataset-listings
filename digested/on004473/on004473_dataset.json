@@ -1,0 +1,93 @@
+{
+  "dataset_id": "on004473",
+  "name": "sEEG Forced Two-Choice Task",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004473-blue)](https://doi.org/10.82901/nemar.on004473)\nWelcome to our dataset! Here we present stereoelectroencephalography data from a forced two-choice response task collected in the epilepsy monitoring unit at Oregon Health & Science University. The data was analyzed in collaboration with the University of Oregon. The accompanying paper the first reference below.\nReferences\n----------\nRockhill, A. P., Mantovani, A., Stedelin, B., Nerison, C. S., Raslan, A. M., & Swann, N. C. (2022). Stereo-EEG recordings extend known distributions of canonical movement-related oscillations. Journal of Neural Engineering. https://doi.org/10.1088/1741-2552/acae0a\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nHoldgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., \u2026 Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.2",
+  "license": "CC0",
+  "authors": [
+    "Alexander P. Rockhill",
+    "Alessandra Mantovani",
+    "Brittany Stedelin",
+    "Admed M. Raslan",
+    "Nicole C. Swann"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004473",
+  "associated_paper_doi": null,
+  "tasks": [
+    "SlowFast"
+  ],
+  "sessions": [],
+  "total_files": 8,
+  "size_bytes": 15594180517,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      44,
+      47,
+      33,
+      31,
+      39,
+      31,
+      30,
+      26
+    ],
+    "age_min": 26,
+    "age_max": 47,
+    "age_mean": 35.125,
+    "species": null,
+    "sex_distribution": {
+      "m": 4,
+      "f": 4
+    },
+    "handedness_distribution": {
+      "r": 6,
+      "l": 2
+    }
+  },
+  "senior_author": "Nicole C. Swann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:14.991976+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 10:43:24"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004473",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-SlowFast_beh.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004473",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004473.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "af37a50946de5e1d10975ed5c70c2a098889b89d008d0ff038b0a960591b3347"
+}

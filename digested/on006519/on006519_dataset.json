@@ -1,0 +1,115 @@
+{
+  "dataset_id": "on006519",
+  "name": "Dataset of intracranial EEG during cortical stimulations evoking negative motor responses",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006519-blue)](https://doi.org/10.82901/nemar.on006519)\nIn this dataset we included iEEG recordings of responses to 41 intracranial high frequency stimulations evoking\nnegative motor responses, in 23 patients undergoing stereo-EEG presurgical evaluation for drug-resistant epilepsy.\nThe dataset contains 24 seconds of iEEG data around each stimulation, 9-10 seconds before the start of the stimulation,\nup to 5 seconds of intracranial stimulation and 9-10 seconds after the end of the stimulation. Each recording contains\ntwo 5 second epochs, pre-stimulation (used as baseline in the connectivity analysis) and post-stimulation.\nWe have used high-frequency bipolar stimulations of different areas of the brain, using biphasic pulses having a duration\nof 1 ms, at a frequency of 43.2 Hz (alternating polarity) or 50 Hz (non-alternating), current intensity between 0.25 to 3 mA,\nfor up to 5 s.\nThe contact pair on which stimulation is applied, the current intensity level and evoked effect are specified\nin the events tsv.\nNot all patients in which stimulations evoked negative motor responses met the inclusion criteria for network analysis\nthat requires running the freesurfer pipeline, for instance patients having prior resections, therefore there are subjects\nthat do not contain anatomy data and are not included in the dataset. However, they are included in the numbering of patients\nto match the table in the companion manuscript.\nContact: andrei.barborica@fizica.unibuc.ro",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Andrei Barborica",
+    "Cristina Ghita",
+    "Laurentiu Tofan",
+    "Irina Oane",
+    "Ioana Mindruta"
+  ],
+  "funding": [
+    "Romanian UEFISCDI PN-III-P4-ID-PCE-2020-0935"
+  ],
+  "dataset_doi": "10.82901/nemar.on006519",
+  "associated_paper_doi": null,
+  "tasks": [
+    "dcs"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05"
+  ],
+  "total_files": 35,
+  "size_bytes": 1118744404,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      35,
+      24,
+      33,
+      11,
+      9,
+      28,
+      36,
+      29,
+      28,
+      42,
+      41,
+      20,
+      27,
+      26,
+      24,
+      18,
+      20,
+      26,
+      29,
+      54,
+      29,
+      35,
+      42
+    ],
+    "age_min": 9,
+    "age_max": 54,
+    "age_mean": 28.956521739130434,
+    "species": null,
+    "sex_distribution": {
+      "f": 8,
+      "m": 15
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Ioana Mindruta",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:17.286353+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 03:08:47"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006519",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006519",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Bucharest University CEC 45/11.06.2020"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006519.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "a57f825ba0c286c2132391145ed67f51aa6d27ce7899aba7993bfcf6ecadb055"
+}

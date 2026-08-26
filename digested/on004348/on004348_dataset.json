@@ -1,0 +1,84 @@
+{
+  "dataset_id": "on004348",
+  "name": "Ear-EEG Sleep Monitoring 2017 (EESM17)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004348-blue)](https://doi.org/10.82901/nemar.on004348)\nEar-EEG Sleep Monitoring 2017 (EESM17) data set\n**Overview**\nThis dataset was collected as part of a research project on ear-EEG sleep monitoring which took place in 2017.\nThe data set contains nightly EEG recordings from 9 healthy participants ('subjects'). The recordings consist of 'partial polysomnography' (PSG) measurements, including EEG, EOG and chin EMG combined with 14 ear-EEG electrodes.\n**Format**\nThe dataset is formatted according to the Brain Imaging Data Structure. See the 'dataset_description.json' file for the specific BIDS version used. The EEG data format chosen is the '.set' format of EEGLAB.\nFor more information, see the following link:\nhttps://bids-specification.readthedocs.io/en/stable/01-introduction.html\n**Task description**\nThe subjects were instructed to perform two recordings. In the first recording, they had to simply relax in a chair either reading or watching television, prior to going to bed. These recordings are labeled as 'wake' task. After this, the real recording started, which took place during the night and began when the subject went to bed. These recordings are labeled as having task 'sleep'.\nThe recording equipment was mounted in the afternoon, and the recordings took place at the subject's home.\nThe data set was previously described in the paper: https://doi.org/10.1186/s12938-017-0400-5\nWhen citing this data set, please refer to this paper.\nPlease note that for all subjects, the sleep scoring begins at 'Lights out'.\n** Notes **\nDue to a miscommunication in the original sleep study, two ear-EEG channels, ERB1 and ELB1, were not used. However, they are included in the data set. Both electrode positions were very close to the ERB and ELB positions.\n**Contact**\nFor questions regarding this data set, contact:\nKaare Mikkelsen, Mikkelsen.kaare@ece.au.dk, https://orcid.org/0000-0002-7360-8629",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Kaare B. Mikkelsen",
+    "David B. Villadsen",
+    "Laura Birch",
+    "Marit Otto",
+    "Preben Kidmose"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004348",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep",
+    "wake"
+  ],
+  "sessions": [
+    "001"
+  ],
+  "total_files": 18,
+  "size_bytes": 13210478882,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 9,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 6,
+      "f": 3
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Preben Kidmose",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:40.632136+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 03:09:05"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004348",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004348",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite Mikkelsen et al 2017: https://doi.org/10.1186/s12938-017-0400-5",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004348.v1.0.5"
+    }
+  ],
+  "ingestion_fingerprint": "33659b2dcdf5782ea3cd64baae2d3ad5f246d8a8a84701050aade7cdc36f01f7"
+}

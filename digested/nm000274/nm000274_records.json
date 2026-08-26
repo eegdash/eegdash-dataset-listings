@@ -1,0 +1,501 @@
+{
+  "dataset": "nm000274",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:04:32.739825+00:00",
+  "record_count": 4,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000274",
+      "data_name": "nm000274_sub-4_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+      "bidspath": "nm000274/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": "finaltrain"
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": "finaltrain"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000274",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf": "SHA256E-s6165184--756bdd993086bf0c7edea0c99edd5ef9533887b50d97951d856c87305508e2bb.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 95999,
+      "duration_seconds": 479.995,
+      "digested_at": "2026-08-26T11:04:32.739825+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "n/a",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "Bandpass filtering (1-100 Hz), Channel selection (32 channels from Weibo2014)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 100.0,
+          "Type": "frequency-domain"
+        }
+      },
+      "manufacturer": "n/a",
+      "manufacturers_model_name": "n/a",
+      "eeg_placement_scheme": "10-05 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Imperial College London",
+      "recording_type": "continuous",
+      "recording_duration": 799.995,
+      "eeg_ground": "n/a",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "13959e970a104f9f"
+    },
+    {
+      "dataset": "nm000274",
+      "data_name": "nm000274_sub-4_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+      "bidspath": "nm000274/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": "finaltest"
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": "finaltest"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000274",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf": "SHA256E-s10269504--32788d5b179bd26448c7d44759dd649adc27fe8da643687b6239f4055daaa748.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 159999,
+      "duration_seconds": 799.995,
+      "digested_at": "2026-08-26T11:04:32.739825+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "n/a",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "Bandpass filtering (1-100 Hz), Channel selection (32 channels from Weibo2014)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 100.0,
+          "Type": "frequency-domain"
+        }
+      },
+      "manufacturer": "n/a",
+      "manufacturers_model_name": "n/a",
+      "eeg_placement_scheme": "10-05 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Imperial College London",
+      "recording_type": "continuous",
+      "recording_duration": 799.995,
+      "eeg_ground": "n/a",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "13959e970a104f9f"
+    },
+    {
+      "dataset": "nm000274",
+      "data_name": "nm000274_sub-5_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+      "bidspath": "nm000274/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": "finaltest"
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "1",
+        "acquisition": "finaltest"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000274",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltest_run-1_eeg.edf": "SHA256E-s10269504--59de1469d5854b86ddd389fc59c6ab500d8dd356a790f0c49aad03fba9d4bfa8.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 159999,
+      "duration_seconds": 799.995,
+      "digested_at": "2026-08-26T11:04:32.739825+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "n/a",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "Bandpass filtering (1-100 Hz), Channel selection (32 channels from Weibo2014)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 100.0,
+          "Type": "frequency-domain"
+        }
+      },
+      "manufacturer": "n/a",
+      "manufacturers_model_name": "n/a",
+      "eeg_placement_scheme": "10-05 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Imperial College London",
+      "recording_type": "continuous",
+      "recording_duration": 799.995,
+      "eeg_ground": "n/a",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "13959e970a104f9f"
+    },
+    {
+      "dataset": "nm000274",
+      "data_name": "nm000274_sub-5_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+      "bidspath": "nm000274/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": "finaltrain"
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": "finaltrain"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000274",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_acq-finaltrain_run-0_eeg.edf": "SHA256E-s6165184--ed9370fb729590e42ee75a7d867766c0955f7e91a4fc6d4153954570ccbd5a36.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P7",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "P8"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 95999,
+      "duration_seconds": 479.995,
+      "digested_at": "2026-08-26T11:04:32.739825+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "n/a",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "Bandpass filtering (1-100 Hz), Channel selection (32 channels from Weibo2014)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 100.0,
+          "Type": "frequency-domain"
+        }
+      },
+      "manufacturer": "n/a",
+      "manufacturers_model_name": "n/a",
+      "eeg_placement_scheme": "10-05 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Imperial College London",
+      "recording_type": "continuous",
+      "recording_duration": 799.995,
+      "eeg_ground": "n/a",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "13959e970a104f9f"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "dataset_id": "nm000270",
+  "name": "Liu et al. 2025 \u2014 Lower limb motor imagery EEG dataset based on the multi-paradigm and longitudinal-training of stroke patients (Tianjin University)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000270-blue)](https://doi.org/10.82901/nemar.nm000270)\n# Lower limb motor imagery EEG dataset of stroke patients (multi-paradigm, longitudinal training)\n## Summary\nThis dataset contains scalp electroencephalography (EEG) recordings acquired during a\n**lower-limb motor-imagery** paradigm in **stroke patients** undergoing rehabilitation.\nIt was collected with a multi-paradigm protocol and a longitudinal (repeated-session)\ntraining design, supporting research on motor-imagery brain\u2013computer interfaces (BCI)\nfor lower-limb and gait rehabilitation after stroke.\nThe BIDS conversion in this NEMAR record contains EEG data for **27 participants**\n(`sub-*` folders), organised under the `eeg/` modality with a single motor-imagery\ntask (`task-imagery`).\n## Modality and paradigm\n- **Modality:** EEG (scalp electroencephalography)\n- **Task / paradigm:** Lower-limb motor imagery (`task-imagery`), multi-paradigm,\n  longitudinal training\n- **Population:** Stroke patients (rehabilitation cohort)\n## Participants\nThis BIDS dataset includes **27 subjects** (`sub-01` \u2026 ). Refer to `participants.tsv`\nand the original data descriptor for demographic and clinical details.\n## Original dataset / data paper\nPlease cite the original Scientific Data descriptor when using this dataset:\n> Liu, Y., Gui, Z., Yan, D., Wang, Z., Gao, R., Han, N., Chen, J., Wu, J., & Ming, D.\n> (2025). *Lower limb motor imagery EEG dataset based on the multi-paradigm and\n> longitudinal-training of stroke patients.* **Scientific Data, 12, 314.**\n> https://doi.org/10.1038/s41597-025-04618-4\n- **DOI:** [10.1038/s41597-025-04618-4](https://doi.org/10.1038/s41597-025-04618-4)\n- **Source / project:** Tianjin University\n- **Related record:** https://zenodo.org/records/18987384\n## Attribution\nAll data were collected by the original authors (Yuan Liu and colleagues, Tianjin\nUniversity). Please credit the original creators and cite the data paper above. This\nNEMAR record redistributes the dataset in BIDS format; EEG-BIDS and related BIDS tools\nwere used only for standardisation, not as the source of the data.\n## License\nCC-BY-NC-ND-4.0 (see `dataset_description.json`).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "Yuan Liu",
+    "Zhuolan Gui",
+    "De Yan",
+    "Zhuang Wang",
+    "Ruisi Gao",
+    "Ningxin Han",
+    "Junying Chen",
+    "Jialing Wu",
+    "Dong Ming"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000270",
+  "associated_paper_doi": null,
+  "tasks": [
+    "MotorImagery",
+    "imagery"
+  ],
+  "sessions": [
+    "0pre",
+    "follow",
+    "miies",
+    "mises",
+    "post",
+    "pre"
+  ],
+  "total_files": 529,
+  "size_bytes": 60831759390,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 36,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Dong Ming",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:28.678073+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-20 19:22:03"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000270",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000270",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Tianjin University",
+  "references_and_links": [
+    "https://doi.org/10.1038/s41597-025-04618-4",
+    "https://zenodo.org/records/18987384"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.1038/s41597-025-04618-4"
+    }
+  ],
+  "ingestion_fingerprint": "e40722947d662781d343b75a38fa4c429865524453287edc32518fbc05aaa6db"
+}

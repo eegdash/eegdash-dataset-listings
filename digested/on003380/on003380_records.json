@@ -1,0 +1,73 @@
+{
+  "dataset": "on003380",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:05:32.996021+00:00",
+  "record_count": 1,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on003380",
+      "data_name": "on003380_sub-12_eeg.edf",
+      "bidspath": "on003380/sub-12/eeg/sub-12_eeg.edf",
+      "bids_relpath": "sub-12/eeg/sub-12_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": null,
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": null,
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003380",
+        "raw_key": "sub-12/eeg/sub-12_eeg.edf",
+        "dep_keys": [],
+        "annex_keys": {
+          "sub-12/eeg/sub-12_eeg.edf": "MD5E-s20612352--b780f25fdca59df84f750ba60d0737ad.edf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F4",
+        "C3",
+        "C4",
+        "T5",
+        "T6",
+        "P3",
+        "P4"
+      ],
+      "sampling_frequency": null,
+      "nchans": 9,
+      "ntimes": 644000,
+      "duration_seconds": 322.0,
+      "digested_at": "2026-08-26T11:05:32.996021+00:00",
+      "participant_tsv": {
+        "animal_id": "P_728",
+        "group": "sedation"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": null,
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "montage_hash": null
+    }
+  ]
+}

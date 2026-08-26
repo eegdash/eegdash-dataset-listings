@@ -1,0 +1,94 @@
+{
+  "dataset_id": "on006525",
+  "name": "Resting EEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006525-blue)](https://doi.org/10.82901/nemar.on006525)\nIntroduction: The EEG data was recorded using the 128-channel Amps 300 amplifier (Electrical Geodesics Inc., OR, USA) at a sampling frequency of 1000 Hz.\nThe EEG data acquisition was conducted  during the resting.\nStructural MRI data for the same participants were acquired at the University of Oklahoma Health Science Center (OUHSC) MRI facility using a GE MR750 scanner. The scans were obtained with GE\u2019s BRAVO sequence, with a field of view (FOV) of 240 mm and 180 axial slices per slab\nPreprocessing in EEGLAB: After the data acquisition, a band-pass filter (0.5\u2013100 Hz) and a notch filter (58\u201362 Hz) were applied to remove noise.\nNoisy channels and artifacts (e.g., from eye blinks, muscle movements, or heartbeats) were identified and removed.\nBad channels were replaced using interpolation, and the data was re-referenced to the average of all electrodes.\nThe data was then sampled down to 250 Hz to reduce file size while keeping enough detail. No data segments were removed to ensure the continuity needed for later analysis.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Computational Neuroimaging and Neuroengineering Lab ar the University of Oklahoma"
+  ],
+  "funding": [
+    "OPTIONAL. List of sources of funding (grant numbers)"
+  ],
+  "dataset_doi": "10.82901/nemar.on006525",
+  "associated_paper_doi": null,
+  "tasks": [
+    "resting"
+  ],
+  "sessions": [],
+  "total_files": 34,
+  "size_bytes": 3223160581,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 34,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Computational Neuroimaging and Neuroengineering Lab ar the University of Oklahoma",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:18.306199+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 03:39:29"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006525",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006525",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Please cite the paper with doi: 10.1088/1741-2552/ab7ad3 that reported the dataset for the first time.",
+  "how_to_acknowledge": "Cite the following paper.\n33.\tShou GF, Yuan H, Li C, Chen YF, Chen YX, and Ding L: Whole-brain Electrophysiological Functional Connectivity Dynamics in Resting-state EEG, Journal of Neural Engineering, 17(2): 026016, 2020.",
+  "ethics_approvals": [
+    "OPTIONAL. List of ethics committee approvals of the research protocols and/or protocol identifiers"
+  ],
+  "references_and_links": [
+    "OPTIONAL. List of references to publication that contain information on the dataset, or links",
+    "https://github.com/Donders-Institute/bidscoin",
+    "doi: 10.1088/1741-2552/ab7ad3",
+    "doi: 10.1016/j.neuroimage.2022.119461",
+    "doi: 10.1016/j.neuroimage.2025.121408"
+  ],
+  "generated_by": [
+    {
+      "Name": "BIDScoin",
+      "Version": "4.2.1",
+      "CodeURL": "https://github.com/Donders-Institute/bidscoin"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006525.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "c927c5709a2df76a573bb59c1e029af05658976e21a675cbdc3a5e434fba832b"
+}

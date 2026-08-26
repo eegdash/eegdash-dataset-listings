@@ -1,0 +1,87 @@
+{
+  "dataset_id": "on004017",
+  "name": "Embodied Learning for Literacy EEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004017-blue)](https://doi.org/10.82901/nemar.on004017)\nThere are three files per participant collected for each of the three stages of the procedure.\nStage 1 (before measurement): A two-alternative forced choice discrimination task including letters \"b\" and \"d\"\nStage 2 (intervention measurement): A simple visual search task including a target letter (either b or d) and three distractor letters chosen at random (p or q).\nStage 3 (after measurement): A two-alternative forced choice discrimination task including letters \"b\" and \"d\"\n_________________________________________\nParticipants were assigned to two groups.\nParticipants in the intervention group were: sub-04, sub-05, sub-06, sub-07, sub-09, sub-10, sub-12, sub-14, sub-15, sub-16, sub-21\nParticipants in the control group were: sub-01, sub-02, sub-03, sub-08, sub-11, sub-13, sub-17, sub-18, sub-19, sub-20\n__________________________________________\nEvents in all recordings correspond to stimulus presentation. The value of 100 represents letter b stimuli and 200 represents letter d stimuli.\nEvents marked with 10 (b) and 20 (d) represent practice trials.\n__________________________________________\nThe detailed description of the tasks and the procedure can be found in this preprint:\nFor questions about the tasks and the data please email Jacob Wienecke at wienecke@nexs.ku.dk.\nMarta Topor 17/03/2022",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.0",
+  "license": "CC0",
+  "authors": [
+    "Linn Damsgaard",
+    "Marta Topor",
+    "Anne-Mette Veber Nielsen",
+    "Anne K\u00e6r Gejl",
+    "Anne Sofie B\u00f8gh Malling",
+    " Mark Schram Christensen",
+    "Rasmus Ahmt Hansen",
+    " S\u00f8ren Kildahl",
+    "Jacob Wienecke"
+  ],
+  "funding": [
+    "n/a"
+  ],
+  "dataset_doi": "10.82901/nemar.on004017",
+  "associated_paper_doi": null,
+  "tasks": [],
+  "sessions": [
+    "after",
+    "before",
+    "int"
+  ],
+  "total_files": 63,
+  "size_bytes": 39325546833,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Jacob Wienecke",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:12.953120+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 02:09:29"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004017",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004017",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://github.com/MovementAndNeuroscience/B-D_EEG_Child"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004017.v1.0.3"
+    }
+  ],
+  "ingestion_fingerprint": "b29ece555a3f769351466307cd2b4683572cf3c9fbe53ed2de7de48d1fb048d6"
+}

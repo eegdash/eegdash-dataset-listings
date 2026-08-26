@@ -1,0 +1,136 @@
+{
+  "dataset_id": "on007629",
+  "name": "ROAMM",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007629-blue)](https://doi.org/10.82901/nemar.on007629)\n# ROAMM: Reading Observed At Mindless Moments\n**ROAMM** is a large-scale multimodal dataset featuring simultaneous **EEG and eye-tracking** data collected during naturalistic reading with **span-level mind-wandering annotations**. ROAMM provides a benchmark dataset for MW detection and EEG-to-text decoding tasks, and enables the study of attention-related degradation in language decoding from brain activity in naturalistic reading.\n## Dataset Status\n* **Synchronized ML Dataset:** For researchers looking for the pre-processed, synchronized EEG and eye-tracking data (Pickle format), please navigate to:\n  `derivatives/synced/`\n* **Linguistic Content:** Reading materials (words with coordinate information) are stored in `derivatives/stimuli/wiki_stories`. Each word is assigned a unique key to enable mapping fixated words back to their original corpus.\n* **Raw EEG (BIDS):** **Work in Progress.** We are currently converting the full raw EEG dataset for all participants into BIDS-compliant format.\n## Project Details\n- **Task:** Naturalistic reading of standardized articles with retrospective self-report paradigm (ReMind task).\n- **Participants:** 44 subjects (50+ hours of data).\n- **Modalities:**\n    - EEG (BioSemi ActiveTwo 64 channels).\n    - Simultaneous Eye-Tracking (SR Research EyeLink 1000 Plus).\n    - Span-level mind-wandering annotations.\n    - Reading comprehension scores (page-level, multiple-choice questions).\n## Structure\nThis repository follows the Brain Imaging Data Structure (BIDS).\n- `participants.tsv`: Demographic information (age, sex, handedness, ADHD/Reading Disability status).\n- `derivatives/synced/`: Synchronized multi-modal data frames ready for Machine Learning pipelines.\n## Publication & Citation\nThe dataset paper describing the collection, synchronization, and baseline modeling of this data will be available online shortly. Once published, please use the citation provided here to credit the work.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Haorui Sun",
+    "Ardyn Vivienne Olszko",
+    "Niharika Singh",
+    "David C. Jangraw"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007629",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ReMind"
+  ],
+  "sessions": [],
+  "total_files": 5,
+  "size_bytes": 50025343803,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [
+      21,
+      29,
+      64,
+      19,
+      27,
+      34,
+      28,
+      26,
+      22,
+      30,
+      19,
+      19,
+      22,
+      18,
+      20,
+      28,
+      22,
+      20,
+      19,
+      19,
+      19,
+      19,
+      36,
+      18,
+      18,
+      21,
+      27,
+      20,
+      18,
+      18,
+      18,
+      22,
+      19,
+      18,
+      20,
+      18,
+      19,
+      19,
+      18,
+      21,
+      20,
+      20,
+      22,
+      20
+    ],
+    "age_min": 18,
+    "age_max": 64,
+    "age_mean": 22.59090909090909,
+    "species": null,
+    "sex_distribution": {
+      "f": 30,
+      "o": 5,
+      "m": 9
+    },
+    "handedness_distribution": {
+      "r": 37,
+      "l": 7
+    }
+  },
+  "senior_author": "David C. Jangraw",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:47.835297+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 16:09:52"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007629",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "datacite.yml",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007629",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.18.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007629.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "e9c8e66bb8d252aa74b83690fd669a297bfe1ab0b859effe23afe0feb9ebfce5"
+}

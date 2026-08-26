@@ -1,0 +1,122 @@
+{
+  "dataset_id": "nm000219",
+  "name": "BNCI 2020-002 Attention Shift (Covert Spatial Attention) dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000219-blue)](https://doi.org/10.82901/nemar.nm000219)\n# BNCI 2020-002 Attention Shift (Covert Spatial Attention) dataset\nBNCI 2020-002 Attention Shift (Covert Spatial Attention) dataset.\n## Dataset Overview\n- **Code**: BNCI2020-002\n- **Paradigm**: p300\n- **DOI**: 10.3389/fnins.2020.591777\n- **Subjects**: 18\n- **Sessions per subject**: 1\n- **Events**: NonTarget=1, Target=2\n- **Trial interval**: [0, 16] s\n- **File format**: MAT\n## Acquisition\n- **Sampling rate**: 250.0 Hz\n- **Number of channels**: 30\n- **Channel types**: eeg=30, eog=2\n- **Channel names**: C3, C4, CP1, CP2, Cz, F3, F4, F7, F8, FC1, FC2, Fp1, Fp2, Fz, HEOG, IZ, LMAST, O10, O9, Oz, P3, P4, P7, P8, PO3, PO4, PO7, PO8, Pz, T7, T8, VEOG\n- **Montage**: extended 10-20\n- **Hardware**: BrainAmp DC Amplifier\n- **Reference**: right mastoid\n- **Sensor type**: Ag/AgCl electrodes\n- **Line frequency**: 50.0 Hz\n- **Online filters**: 0.1 Hz highpass\n- **Cap manufacturer**: Brain Products GmbH\n- **Auxiliary channels**: EOG (2 ch, horizontal, vertical)\n## Participants\n- **Number of subjects**: 18\n- **Health status**: healthy\n- **Age**: mean=27.0, min=19.0, max=38.0\n- **Gender distribution**: male=8, female=10\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: p300\n- **Task type**: binary decision\n- **Number of classes**: 2\n- **Class labels**: NonTarget, Target\n- **Feedback type**: visual (yes/no text)\n- **Stimulus type**: colored crosses (green + and red x)\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: synchronous\n- **Mode**: online\n- **Training/test split**: True\n- **Instructions**: Respond to yes/no questions by shifting attention to green cross (yes) or red cross (no) while maintaining central gaze fixation\n- **Stimulus presentation**: duration_ms=250, soa_ms=850 (jittered by 0-250 ms), stimuli_per_trial=10\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Number of targets**: 2\n- **Number of repetitions**: 10\n- **Stimulus onset asynchrony**: 850.0 ms\n## Data Structure\n- **Trials**: 24\n- **Blocks per session**: 7\n- **Trials context**: per_block\n## Preprocessing\n- **Data state**: raw\n- **Preprocessing applied**: False\n- **Steps**: re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after\n- **Highpass filter**: 1.0 Hz\n- **Lowpass filter**: 12.5 Hz\n- **Bandpass filter**: [1.0, 12.5]\n- **Filter type**: Butterworth IIR\n- **Filter order**: 4\n- **Re-reference**: average of left and right mastoid\n- **Downsampled to**: 50.0 Hz\n- **Epoch window**: [0.0, 0.75]\n## Signal Processing\n- **Classifiers**: Canonical Correlation Analysis (CCA)\n- **Feature extraction**: N2pc, ERP, Canonical difference waves\n- **Spatial filters**: CCA spatial filters\n## Cross-Validation\n- **Method**: leave-one-out cross-validation (LOOCV)\n- **Evaluation type**: within_subject\n## Performance (Original Study)\n- **Accuracy**: 88.5%\n- **Itr**: 3.02 bits/min\n- **Std Accuracy**: 7.8\n- **Min Accuracy**: 70.8\n- **Max Accuracy**: 90.3\n## BCI Application\n- **Applications**: communication, binary decision\n- **Environment**: laboratory\n- **Online feedback**: True\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Visual\n- **Type**: Attention\n## Documentation\n- **Description**: Gaze-independent brain-computer interface based on covert spatial attention shifts for binary (yes/no) communication\n- **DOI**: 10.3389/fnins.2020.591777\n- **Associated paper DOI**: 10.3389/fnins.2020.591777\n- **License**: CC-BY-4.0\n- **Investigators**: Christoph Reichert, Igor Fabian Tellez Ceja, Catherine M. Sweeney-Reed, Hans-Jochen Heinze, Hermann Hinrichs, Stefan D\u00fcrschmid\n- **Senior author**: Stefan D\u00fcrschmid\n- **Contact**: christoph.reichert@lin-magdeburg.de\n- **Institution**: Leibniz Institute for Neurobiology\n- **Department**: Department of Behavioral Neurology\n- **Address**: Magdeburg, Germany\n- **Country**: Germany\n- **Repository**: BNCI Horizon\n- **Data URL**: http://bnci-horizon-2020.eu/database/data-sets\n- **Publication year**: 2020\n- **Funding**: German Ministry of Education and Research (BMBF) within the Research Campus STIMULATE under grant number 13GW0095D\n- **Ethics approval**: Ethics Committee of the Otto-von-Guericke University, Magdeburg\n- **Keywords**: visual spatial attention, brain-computer interface, stimulus features, N2pc, canonical correlation analysis, gaze-independent, BCI\n## References\nReichert, C., Tellez-Ceja, I. F., Schwenker, F., Rusnac, A.-L., Curio, G., Aust, L., & Hinrichs, H. (2020). Impact of Stimulus Features on the Performance of a Gaze-Independent Brain-Computer Interface Based on Covert Spatial Attention Shifts. Frontiers in Neuroscience, 14, 591777. https://doi.org/10.3389/fnins.2020.591777\nNotes\n.. versionadded:: 1.3.0\nThis dataset uses a covert spatial attention paradigm with N2pc ERP detection, which is different from traditional P300 or motor imagery paradigms. The paradigm is designed for gaze-independent BCI control, making it suitable for users who cannot control eye movements.\nSee Also\nBNCI2015_009 : AMUSE auditory spatial P300 paradigm BNCI2015_010 : RSVP visual P300 paradigm\nExamples\n>>> from moabb.datasets import BNCI2020_002 >>> dataset = BNCI2020_002() >>> dataset.subject_list [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18]\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Christoph Reichert",
+    "Igor Fabian Tellez Ceja",
+    "Catherine M. Sweeney-Reed",
+    "Hans-Jochen Heinze",
+    "Hermann Hinrichs",
+    "Stefan D\u00fcrschmid"
+  ],
+  "funding": [
+    "German Ministry of Education and Research (BMBF) within the Research Campus STIMULATE under grant number 13GW0095D"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000219",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 18,
+  "size_bytes": 1954127439,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [
+      26,
+      29,
+      19,
+      31,
+      18,
+      34,
+      25,
+      27,
+      19,
+      24,
+      37,
+      38,
+      25,
+      27,
+      38,
+      27,
+      27,
+      25
+    ],
+    "age_min": 18,
+    "age_max": 38,
+    "age_mean": 27.555555555555557,
+    "species": null,
+    "sex_distribution": {
+      "m": 8,
+      "f": 10
+    },
+    "handedness_distribution": {
+      "r": 17,
+      "l": 1
+    }
+  },
+  "senior_author": "Stefan D\u00fcrschmid",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:02:46.741183+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 21:16:33"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000219",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000219",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Ethics Committee of the Otto-von-Guericke University, Magdeburg"
+  ],
+  "references_and_links": [
+    "http://bnci-horizon-2020.eu/database/data-sets",
+    "10.3389/fnins.2020.591777"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnins.2020.591777",
+      "URL": "http://bnci-horizon-2020.eu/database/data-sets"
+    }
+  ],
+  "ingestion_fingerprint": "fadb25bf39aede6770e925cdc21ef52a66a88109a01f8881bfe13a3d3923dd1f"
+}

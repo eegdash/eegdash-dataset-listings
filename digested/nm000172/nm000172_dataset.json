@@ -1,0 +1,117 @@
+{
+  "dataset_id": "nm000172",
+  "name": "High-gamma dataset described in Schirrmeister et al. 2017",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000172-blue)](https://doi.org/10.82901/nemar.nm000172)\n# High-gamma dataset described in Schirrmeister et al. 2017\nHigh-gamma dataset described in Schirrmeister et al. 2017.\n## Dataset Overview\n- **Code**: Schirrmeister2017\n- **Paradigm**: imagery\n- **DOI**: 10.1002/hbm.23730\n- **Subjects**: 14\n- **Sessions per subject**: 1\n- **Events**: right_hand=1, left_hand=2, rest=3, feet=4\n- **Trial interval**: [0, 4] s\n- **Runs per session**: 2\n- **File format**: EDF\n## Acquisition\n- **Sampling rate**: 500.0 Hz\n- **Number of channels**: 128\n- **Channel types**: eeg=128\n- **Channel names**: Fp1, Fp2, Fpz, F7, F3, Fz, F4, F8, FC5, FC1, FC2, FC6, M1, T7, C3, Cz, C4, T8, M2, CP5, CP1, CP2, CP6, P7, P3, Pz, P4, P8, POz, O1, Oz, O2, AF7, AF3, AF4, AF8, F5, F1, F2, F6, FC3, FCz, FC4, C5, C1, C2, C6, CP3, CPz, CP4, P5, P1, P2, P6, PO5, PO3, PO4, PO6, FT7, FT8, TP7, TP8, PO7, PO8, FT9, FT10, TPP9h, TPP10h, PO9, PO10, P9, P10, AFF1, AFz, AFF2, FFC5h, FFC3h, FFC4h, FFC6h, FCC5h, FCC3h, FCC4h, FCC6h, CCP5h, CCP3h, CCP4h, CCP6h, CPP5h, CPP3h, CPP4h, CPP6h, PPO1, PPO2, I1, Iz, I2, AFp3h, AFp4h, AFF5h, AFF6h, FFT7h, FFC1h, FFC2h, FFT8h, FTT9h, FTT7h, FCC1h, FCC2h, FTT8h, FTT10h, TTP7h, CCP1h, CCP2h, TTP8h, TPP7h, CPP1h, CPP2h, TPP8h, PPO9h, PPO5h, PPO6h, PPO10h, POO9h, POO3h, POO4h, POO10h, OI1h, OI2h\n- **Montage**: standard_1005\n- **Software**: BCI2000\n- **Sensor type**: EEG\n- **Line frequency**: 50.0 Hz\n## Participants\n- **Number of subjects**: 14\n- **Health status**: healthy\n- **Age**: mean=27.2, std=3.6\n- **Gender distribution**: female=6, male=8\n- **Handedness**: {'right': 12, 'left': 2}\n## Experimental Protocol\n- **Paradigm**: imagery\n- **Number of classes**: 4\n- **Class labels**: right_hand, left_hand, rest, feet\n- **Trial duration**: 4.0 s\n- **Study design**: Executed movements including left hand (sequential finger-tapping), right hand (sequential finger-tapping), feet (repetitive toe clenching), and rest conditions\n- **Stimulus type**: visual\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: cue-based\n- **Mode**: offline\n- **Training/test split**: True\n- **Instructions**: Subjects performed repetitive movements at their own pace when arrow was showing\n- **Stimulus presentation**: type=gray arrow on black background, direction_mapping=downward=feet, leftward=left_hand, rightward=right_hand, upward=rest\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  right_hand\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Right, Hand\n  left_hand\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Left, Hand\n  rest\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Rest\n  feet\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine, Move, Foot\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: motor_imagery\n- **Imagery tasks**: left_hand_finger_tapping, right_hand_finger_tapping, feet_toe_clenching, rest\n## Data Structure\n- **Trials**: {'total_per_subject': 963, 'training_set': 880, 'test_set': 160}\n- **Trials per class**: per_class_per_subject=260\n- **Blocks per session**: 13\n- **Trials context**: 13 runs per subject, 80 trials per run (4 seconds each), 3-4 seconds inter-trial interval, pseudo-randomized presentation with all 4 classes shown every 4 trials\n## Signal Processing\n- **Classifiers**: Deep ConvNet, Shallow ConvNet, ResNet, FBCSP with LDA\n- **Feature extraction**: FBCSP, CSP, Bandpower, Spectral power modulations\n- **Frequency bands**: alpha=[7.0, 13.0] Hz; beta=[13.0, 30.0] Hz; gamma=[30.0, 100.0] Hz\n- **Spatial filters**: CSP\n## Cross-Validation\n- **Method**: holdout\n- **Evaluation type**: within_subject\n## Performance (Original Study)\n- **Fbcsp Accuracy**: 91.2\n- **Deep Convnet Accuracy**: 89.3\n- **Shallow Convnet Accuracy**: 92.5\n## BCI Application\n- **Applications**: motor_control\n- **Environment**: laboratory\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Motor\n- **Type**: Motor Imagery, Motor Execution\n## Documentation\n- **DOI**: 10.1002/hbm.23730\n- **License**: CC-BY-4.0\n- **Investigators**: Robin Tibor Schirrmeister, Jost Tobias Springenberg, Lukas Dominique Josef Fiederer, Martin Glasstetter, Katharina Eggensperger, Michael Tangermann, Frank Hutter, Wolfram Burgard, Tonio Ball\n- **Senior author**: Tonio Ball\n- **Contact**: robin.schirrmeister@uniklinik-freiburg.de\n- **Institution**: University of Freiburg\n- **Department**: Translational Neurotechnology Lab, Epilepsy Center, Medical Center\n- **Address**: Engelberger Str. 21, Freiburg 79106, Germany\n- **Country**: DE\n- **Repository**: GitHub\n- **Data URL**: https://web.gin.g-node.org/robintibor/high-gamma-dataset/\n- **Publication year**: 2017\n- **Funding**: BrainLinks-BrainTools Cluster of Excellence (DFG) EXC1086; Federal Ministry of Education and Research (BMBF) Motor-BIC 13GW0053D\n- **Ethics approval**: Approved by the ethical committee of the University of Freiburg\n- **Acknowledgements**: Funded by BrainLinks-BrainTools Cluster of Excellence (DFG, EXC1086) and the Federal Ministry of Education and Research (BMBF, Motor-BIC 13GW0053D).\n- **How to acknowledge**: Please cite: Schirrmeister et al. (2017). Deep learning with convolutional neural networks for EEG decoding and visualization. Human Brain Mapping, 38(11), 5391-5420. https://doi.org/10.1002/hbm.23730\n- **Keywords**: electroencephalography, EEG analysis, machine learning, end-to-end learning, brain-machine interface, brain-computer interface, model interpretability, brain mapping\n## Abstract\nDeep learning with convolutional neural networks (deep ConvNets) has revolutionized computer vision through end-to-end learning. This study investigates deep ConvNets for end-to-end EEG decoding of imagined or executed movements from raw EEG. Results show that recent advances including batch normalization and exponential linear units, together with a cropped training strategy, boosted decoding performance to match or exceed FBCSP (82.1% FBCSP vs 84.0% deep ConvNets). Novel visualization methods demonstrated that ConvNets learned to use spectral power modulations in alpha, beta, and high gamma frequencies with meaningful spatial distributions.\n## Methodology\nEnd-to-end deep learning approach comparing shallow ConvNets, deep ConvNets, and ResNets against FBCSP baseline. Evaluated design choices including batch normalization, exponential linear units, dropout, and cropped training strategies. Novel visualization techniques developed to understand learned features and verify that ConvNets use spectral power modulations in task-relevant frequency bands.\n## References\nSchirrmeister, Robin Tibor, et al. \"Deep learning with convolutional neural networks for EEG decoding and visualization.\" Human brain mapping 38.11 (2017): 5391-5420.\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Robin Tibor Schirrmeister",
+    "Jost Tobias Springenberg",
+    "Lukas Dominique Josef Fiederer",
+    "Martin Glasstetter",
+    "Katharina Eggensperger",
+    "Michael Tangermann",
+    "Frank Hutter",
+    "Wolfram Burgard",
+    "Tonio Ball"
+  ],
+  "funding": [
+    "BrainLinks-BrainTools Cluster of Excellence (DFG) EXC1086",
+    "Federal Ministry of Education and Research (BMBF) Motor-BIC 13GW0053D"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000172",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 28,
+  "size_bytes": 33606135475,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 14,
+    "ages": [
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27,
+      27
+    ],
+    "age_min": 27,
+    "age_max": 27,
+    "age_mean": 27.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Tonio Ball",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:50.966336+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:15:58"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000172",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000172",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Funded by BrainLinks-BrainTools Cluster of Excellence (DFG, EXC1086) and the Federal Ministry of Education and Research (BMBF, Motor-BIC 13GW0053D).",
+  "how_to_acknowledge": "Please cite: Schirrmeister et al. (2017). Deep learning with convolutional neural networks for EEG decoding and visualization. Human Brain Mapping, 38(11), 5391-5420. https://doi.org/10.1002/hbm.23730",
+  "ethics_approvals": [
+    "Approved by the ethical committee of the University of Freiburg"
+  ],
+  "references_and_links": [
+    "https://web.gin.g-node.org/robintibor/high-gamma-dataset/"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1002/hbm.23730",
+      "URL": "https://web.gin.g-node.org/robintibor/high-gamma-dataset/"
+    }
+  ],
+  "ingestion_fingerprint": "735b855b0beae810cb2a902d4cc51b190c062665514d6587d733ffab2db677ea"
+}

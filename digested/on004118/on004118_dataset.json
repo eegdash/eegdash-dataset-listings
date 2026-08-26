@@ -1,0 +1,100 @@
+{
+  "dataset_id": "on004118",
+  "name": "BCIT Calibration Driving",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004118-blue)](https://doi.org/10.82901/nemar.on004118)\n## BCIT Calibration Driving\n### Introduction\n**Overview:** The Calibration Driving study was intended to provide calibration data for applying\nfatigue-based driver performance prediction algorithms. Calibration data sets were designed to be\nthe first component of every recording session within the BCIT program, which featured multiple\nstudies investigating fatigue.\nCollectively, the Calibration Driving recordings comprise a 'virtual' study, in which driving performance\nat the calibration level can be analyzed. When analyzed with other same-subject data, involving much longer tasks,\nthe calibration data sets can be used as the basis for non-fatigue state performance.\nFurther information is available on request from [cancta.net](https://cancta.net).\nThe task was performed using identical systems at three different sites:\n- Army Research Laboratory, Aberdeen MD (T1)\n- Teledyne Corporation, Durham, NC (T2)\n- Science Applications International Corporation (SAIC), Louisville, CO (T3)\nAll sites used identical driving simulator setups.\nThe data collected at site T1 used a 64-channel Biosemi EEG headset as did the data collected at site T2,\nwhile site T3 used a 256-channel Biosemi EEG headset.\nData from site T1 has legacy subject IDs in the range 1000 to 1999.\nData from site T2 has legacy subject IDs in the range 2000 to 2999.\nData from site T3 has legacy subject IDs in the range 3000 to 3999.\nLegacy subject IDs are unique across the entire BCIT program.\n### Methods\n**Subjects:** Subjects at Aberdeen Proving Grounds were recruited, on a voluntary basis from among the\nscientists and engineers working at APG.\nSubjects recruited by Teledyne and SAIC were found via advertising and community outreach efforts,\nand primarily consisted of local college students.\n**Apparatus:**  Driving simulator with steering wheel and brake / foot pedals (Real Time Technologies; Dearborn, MI);\n Video Refresh Rate (VRR) = 900 Hz; Vehicle data log file Sampling Rate (SR) = 100 Hz);\n EEG (BioSemi 256 (+8) channel systems with 4 eye and 2 mastoid channels recorded; SR=1024 Hz);\n Eye Tracking (Sensomotoric Instruments (SMI); REDEYE250).\n**Initial setup:** Upon arrival to the lab, subjects were given an introduction to the primary study\nfor which they were recruited and provided informed consent and provided demographics information.\nThis was followed by a practice session, to acclimate the subject to the driving simulator.\nThe driving practice task lasted 10-15 min, until asymptotic performance in steering and speed control\nwas demonstrated and lack of motion sickness was reported.\nSubjects were then outfitted and prepped for eye tracking and EEG acquisition.\n**Task organization:** The Calibration study featured a 15-minute trial, requiring the driver to control\nthe steering of a simulated vehicle on a long, straight road in a visually sparse environment.\nWith the vehicle speed controlled by the driving simulator, the only task for the subject was to maintain\nthe vehicle position in the center of the lane. The vehicle was periodically subject to lateral perturbing forces,\nwhich could be applied to either side of the vehicle, pushing the vehicle out of the center of the lane;\nand the subject was instructed to execute corrective steering actions to return the vehicle to the center of the lane.\n**Independent variables:** None.\n**Dependent variables:** Reaction times to perturbations, continuous performance based on vehicle log\n(steering wheel angle, lane position, heading error, etc.), Task-Induced Fatigue Scale (TIFS),\nKarolinska Sleepiness Scale (KSS), Visual Analog Scale of Fatigue (VAS-F).\n**Note:** questionnaire data is available upon request from [cancta.net](https://cancta.net).\n**Additional data acquired:** Participant Enrollment Questionnaire, Subject Questionnaire for Current Session,\nSimulator Sickness Questionnaire.\n**Experimental Locations:**  Army Research Laboratory, Aberdeen MD (site T1);\nTeledyne Corporation, Durham, NC (site T2);\nScience Applications International Corporation (SAIC), Louisville, CO (site T3).\n**Note:** This 15-minute task was performed prior to every run in the BCIT experimental series. Thus,\nthe runs have corresponding runs in one or more of BCIT Advanced Guard Duty (ds004106),\nBCIT Basic Guard Duty (ds004119), BCIT Baseline Driving (ds004120), BCIT Mind Wandering (ds004121),\nBCIT Speed Control (ds004122) and Traffic Complexity (ds004123) that were conducted on the\nsame subject during the same session. The Calibration Driving run was always conducted first.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Jonathan Touryan (data and curation)",
+    "Greg Apker (data)",
+    "Brent Lance (data)",
+    "Scott Kerick (data)",
+    "Anthony Ries (data)",
+    "Kaleb McDowell (data)",
+    "Tony Johnson (curation)",
+    "Kay Robbins (curation)"
+  ],
+  "funding": [
+    "This research was sponsored by the Army Research Laboratory and was accomplished under Cooperative Agreement Number W911NF-10-0-0002."
+  ],
+  "dataset_doi": "10.82901/nemar.on004118",
+  "associated_paper_doi": null,
+  "tasks": [
+    "Drive"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07"
+  ],
+  "total_files": 247,
+  "size_bytes": 133505831296,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 156,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Kay Robbins (curation)",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:26.214693+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 09:18:49"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004118",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-Drive_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004118",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Touryan, J., Apker, G., Lance, B.J., Kerick, S.E., Ries, A.J., McDowell, K., 2014. Estimating endogenous changes in task performance from EEG. Front. Neurosci. 8, https://doi.org/10.3389/fnins.2014.00155.",
+  "references_and_links": [
+    "Touryan, J., Apker, G., Lance, B.J., Kerick, S.E., Ries, A.J., McDowell, K., 2014. Estimating endogenous changes in task performance from EEG. Front. Neurosci. 8, https://doi.org/10.3389/fnins.2014.00155.",
+    "Brooks, J., Kerick, S., 2015. Event-related alpha perturbations related to the scaling of steering wheel corrections. Physiol. Behav. 149, 287?293, https://doi.org/10.1016/j.physbeh.2015.05.026.",
+    "Brooks, J.R., Kerick, S.E., McDowell, K., 2015. Novel measure of driver and vehicle interaction demonstrates transient changes related to alerting. J. Mot. Behav. J. Mot. Behav. 47, 47, 106, 106?116, https://doi.org/10.1080/00222895.2014.959887, 10.1080/00222895.2014.959887.",
+    "Garcia, J.O., Brooks, J., Kerick, S., Johnson, T., Mullen, T.R., Vettel, J.M., 2017. Estimating direction in brain-behavior interactions: Proactive and reactive brain states in driving. NeuroImage 150, 239?249, https://doi.org/10.1016/j.neuroimage.2017.02.057.",
+    "Bigdely-Shamlo, N., Touryan, J., Ojeda, A., Kothe, C., Mullen, T., Robbins, K., 2019. Automated EEG mega-analysis I: Spectral and amplitude characteristics across studies, NeuroImage, p. 116361, https://doi.org/10.1016/j.neuroimage.2019.116361.",
+    "Bigdely-Shamlo, N., Touryan, J., Ojeda, A., Kothe, C., Mullen, T., Robbins, K., 2019. Automated EEG mega-analysis II: Cognitive aspects of event related features, NeuroImage, p. 116054, https://doi.org/10.1016/j.neuroimage.2019.116054."
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004118.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "62278e4025547a21b5fc5dc399d2651ce4eb5f2363f07de753869a24acf8aa40"
+}

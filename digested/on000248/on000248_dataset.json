@@ -1,0 +1,97 @@
+{
+  "dataset_id": "on000248",
+  "name": " ",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on000248-blue)](https://doi.org/10.82901/nemar.on000248)\nMNE-Sample-Data\n---------------\nThe MNE software is accompanied by a sample data set. These data were acquired with the Neuromag Vectorview system at MGH/HMS/MIT Athinoula A. Martinos Center Biomedical Imaging. EEG data from a 60-channel electrode cap was acquired simultaneously with the MEG. The original MRI data set was acquired with a Siemens 1.5 T Sonata scanner using an MPRAGE sequence.\nIn the MEG/EEG experiment, checkerboard patterns were presented into the left and right visual field, interspersed by tones to the left or right ear. The interval between the stimuli was 750 ms. Occasionally a smiley face was presented at the center of the visual field. The subject was asked to press a key with the right index finger as soon as possible after the appearance of the face.\nFreesurfer derivatives\n----------------------\n- Calls from the command line:\n  - `recon-all -i sub-01/anat/sub-01_T1w.nii.gz -s sub-01 -all`\n  - `mne make_scalp_surfaces -s sub-01 --overwrite --force`\n  - `mne flash_bem -s sub-01 --overwrite`\n  - `mne watershed_bem -s sub-01 --overwrite`\nReferences\n----------\nA. Gramfort, M. Luessi, E. Larson, D. Engemann, D. Strohmeier, C. Brodbeck, L. Parkkonen, M. H\u00e4m\u00e4l\u00e4inen, MNE software for processing MEG and EEG data, NeuroImage, Volume 86, 1 February 2014, Pages 446-460, ISSN 1053-8119\nA. Gramfort, M. Luessi, E. Larson, D. Engemann, D. Strohmeier, C. Brodbeck, R. Goj, M. Jas, T. Brooks, L. Parkkonen, M. H\u00e4m\u00e4l\u00e4inen, MEG and EEG data analysis with MNE-Python, Frontiers in Neuroscience, Volume 7, 2013, ISSN 1662-453X\"\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110. http://doi.org/10.1038/sdata.2018.110\nReferences\n----------\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110. https://doi.org/10.1038/sdata.2018.110",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Alexandre Gramfort",
+    "Matti S H\u00e4m\u00e4l\u00e4inen"
+  ],
+  "funding": [
+    "NIH 5R01EB009048",
+    "NIH 1R01EB009048",
+    "NIH R01EB006385",
+    "NIH 1R01HD40712",
+    "NIH 1R01NS44319",
+    "NIH 2R01NS37462",
+    "NIH P41EB015896",
+    "ANR-11-IDEX-0003-02",
+    "ERC-StG-263584",
+    "ERC-StG-676943",
+    "ANR-14-NEUC-0002-01"
+  ],
+  "dataset_doi": "10.82901/nemar.on000248",
+  "associated_paper_doi": null,
+  "tasks": [
+    "audiovisual",
+    "noise"
+  ],
+  "sessions": [
+    "19210819"
+  ],
+  "total_files": 3,
+  "size_bytes": 2073279740,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Matti S H\u00e4m\u00e4l\u00e4inen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:04.228485+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-20 18:11:22"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on000248",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "acq-epi_T1w.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on000248",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Alexandre Gramfort, Mainak Jas, and Stefan Appelhoff prepared and updated the data in BIDS format.",
+  "how_to_acknowledge": "If you reference this dataset in a publication, please acknowledge its authors and cite MNE papers: A. Gramfort, M. Luessi, E. Larson, D. Engemann, D. Strohmeier, C. Brodbeck, L. Parkkonen, M. H\u00e4m\u00e4l\u00e4inen, MNE software for processing MEG and EEG data, NeuroImage, Volume 86, 1 February 2014, Pages 446-460, ISSN 1053-8119 and A. Gramfort, M. Luessi, E. Larson, D. Engemann, D. Strohmeier, C. Brodbeck, R. Goj, M. Jas, T. Brooks, L. Parkkonen, M. H\u00e4m\u00e4l\u00e4inen, MEG and EEG data analysis with MNE-Python, Frontiers in Neuroscience, Volume 7, 2013, ISSN 1662-453X",
+  "references_and_links": [
+    "https://doi.org/10.1016/j.neuroimage.2014.02.017",
+    "https://doi.org/10.3389/fnins.2013.00267",
+    "https://mne.tools/stable/overview/datasets_index.html#sample"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds000248.v1.2.4"
+    }
+  ],
+  "ingestion_fingerprint": "990c5bd668306887e842ac175c38ea3a7b8cf6af5502f047571d2129297dea3a"
+}

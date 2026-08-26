@@ -1,0 +1,95 @@
+{
+  "dataset_id": "nm000160",
+  "name": "Multi-joint upper-limb MI dataset from Yi et al. 2025",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000160-blue)](https://doi.org/10.82901/nemar.nm000160)\n# Multi-joint upper-limb MI dataset from Yi et al. 2025\nMulti-joint upper-limb MI dataset from Yi et al. 2025.\n## Dataset Overview\n- **Code**: Yi2025\n- **Paradigm**: imagery\n- **DOI**: 10.1038/s41597-025-05286-0\n- **Subjects**: 18\n- **Sessions per subject**: 1\n- **Events**: hand_open_close=1, wrist_flex_ext=2, wrist_abd_add=3, elbow_pron_sup=4, elbow_flex_ext=5, shoulder_pron_sup=6, shoulder_abd_add=7, shoulder_flex_ext=8\n- **Trial interval**: [0, 4] s\n- **Runs per session**: 8\n- **File format**: CNT\n## Acquisition\n- **Sampling rate**: 1000.0 Hz\n- **Number of channels**: 62\n- **Channel types**: eeg=62\n- **Channel names**: Fp1, Fpz, Fp2, AF3, AF4, F7, F5, F3, F1, Fz, F2, F4, F6, F8, FT7, FC5, FC3, FC1, FCz, FC2, FC4, FC6, FT8, T7, C5, C3, C1, Cz, C2, C4, C6, T8, TP7, CP5, CP3, CP1, CPz, CP2, CP4, CP6, TP8, P7, P5, P3, P1, Pz, P2, P4, P6, P8, PO7, PO5, PO3, POz, PO4, PO6, PO8, CB1, O1, Oz, O2, CB2\n- **Montage**: standard_1005\n- **Hardware**: Neuroscan SynAmps2\n- **Reference**: left mastoid (M1)\n- **Line frequency**: 50.0 Hz\n## Participants\n- **Number of subjects**: 18\n- **Health status**: healthy\n- **Age**: min=22, max=27\n- **Gender distribution**: female=10, male=8\n- **Handedness**: right\n- **BCI experience**: naive\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: imagery\n- **Number of classes**: 8\n- **Class labels**: hand_open_close, wrist_flex_ext, wrist_abd_add, elbow_pron_sup, elbow_flex_ext, shoulder_pron_sup, shoulder_abd_add, shoulder_flex_ext\n- **Trial duration**: 4.0 s\n- **Study design**: 8-class multi-joint upper-limb MI. 8 blocks of 40 trials (5 per class), 320 total trials per subject.\n- **Feedback type**: none\n- **Stimulus type**: video + text\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: cue-based\n- **Mode**: offline\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  hand_open_close\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/hand_open_close\n  wrist_flex_ext\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/wrist_flex_ext\n  wrist_abd_add\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/wrist_abd_add\n  elbow_pron_sup\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/elbow_pron_sup\n  elbow_flex_ext\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/elbow_flex_ext\n  shoulder_pron_sup\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/shoulder_pron_sup\n  shoulder_abd_add\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/shoulder_abd_add\n  shoulder_flex_ext\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/shoulder_flex_ext\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: motor_imagery\n- **Imagery tasks**: hand_open_close, wrist_flex_ext, wrist_abd_add, elbow_pron_sup, elbow_flex_ext, shoulder_pron_sup, shoulder_abd_add, shoulder_flex_ext\n- **Cue duration**: 2.0 s\n- **Imagery duration**: 4.0 s\n## Data Structure\n- **Trials**: 320\n- **Trials per class**: hand_open_close=40, wrist_flex_ext=40, wrist_abd_add=40, elbow_pron_sup=40, elbow_flex_ext=40, shoulder_pron_sup=40, shoulder_abd_add=40, shoulder_flex_ext=40\n- **Blocks per session**: 8\n- **Trials context**: 8 blocks x 40 trials (5 per class x 8 classes)\n## Signal Processing\n- **Classifiers**: ShallowConvNet\n- **Feature extraction**: ERSP\n- **Frequency bands**: alpha=[8.0, 13.0] Hz; beta=[13.0, 30.0] Hz; bandpass=[4.0, 40.0] Hz\n- **Spatial filters**: CAR\n## Cross-Validation\n- **Method**: 5-fold\n- **Folds**: 5\n- **Evaluation type**: within_subject\n## BCI Application\n- **Applications**: rehabilitation\n- **Environment**: laboratory\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Motor\n- **Type**: Motor Imagery\n## Documentation\n- **DOI**: 10.1038/s41597-025-05286-0\n- **License**: CC-BY-NC-ND-4.0\n- **Investigators**: Weibo Yi, Jiaming Chen, Dan Wang, Xinkang Hu, Meng Xu, Fangda Li, Shuhan Wu, Jin Qian\n- **Institution**: Beijing University of Technology\n- **Country**: CN\n- **Data URL**: https://figshare.com/articles/dataset/Data/24123303\n- **Publication year**: 2025\n## References\nYi, W., Chen, J., Wang, D., et al. (2025). A multi-modal dataset of EEG and fNIRS for motor imagery of multi-types of joints from unilateral upper limb. Scientific Data, 12, 953. https://doi.org/10.1038/s41597-025-05286-0\nNotes\n.. versionadded:: 1.2.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "Weibo Yi",
+    "Jiaming Chen",
+    "Dan Wang",
+    "Xinkang Hu",
+    "Meng Xu",
+    "Fangda Li",
+    "Shuhan Wu",
+    "Jin Qian"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000160",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 141,
+  "size_bytes": 53647048275,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": {
+      "r": 18
+    }
+  },
+  "senior_author": "Jin Qian",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:43.808561+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:14:55"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000160",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000160",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://figshare.com/articles/dataset/Data/24123303"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1038/s41597-025-05286-0",
+      "URL": "https://figshare.com/articles/dataset/Data/24123303"
+    }
+  ],
+  "ingestion_fingerprint": "f0faa5f13694fefeadf88f330dbafb55387b3181488e0884b2bac30633f59b6b"
+}

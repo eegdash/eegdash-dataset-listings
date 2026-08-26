@@ -1,0 +1,108 @@
+{
+  "dataset_id": "nm000121",
+  "name": "Oikonomou2016 \u2013 SSVEP MAMEM 3 dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000121-blue)](https://doi.org/10.82901/nemar.nm000121)\n# SSVEP MAMEM 3 dataset\nSSVEP MAMEM 3 dataset.\n## Dataset Overview\n- **Code**: MAMEM3\n- **Paradigm**: ssvep\n- **DOI**: 10.48550/arXiv.1602.00904\n- **Subjects**: 11\n- **Sessions per subject**: 1\n- **Events**: 6.66=33029, 7.50=33028, 8.57=33027, 10.00=33026, 12.00=33025\n- **Trial interval**: [1, 4] s\n- **Runs per session**: 10\n- **File format**: csv\n- **Data preprocessed**: True\n## Acquisition\n- **Sampling rate**: 128.0 Hz\n- **Number of channels**: 14\n- **Channel types**: eeg=14\n- **Channel names**: AF3, AF4, F3, F4, F7, F8, FC5, FC6, O1, O2, P7, P8, T7, T8\n- **Montage**: 10-20\n- **Hardware**: EGI 300 Geodesic EEG System (GES 300)\n- **Software**: Microsoft Visual Studio 2010 with OpenGL\n- **Reference**: CAR\n- **Sensor type**: scalp electrodes\n- **Line frequency**: 50.0 Hz\n- **Online filters**: 5-48 Hz bandpass, 50 Hz notch\n- **Impedance threshold**: 80.0 kOhm\n- **Cap manufacturer**: EGI\n- **Cap model**: HydroCel Geodesic Sensor Net (HCGSN)\n- **Electrode type**: wet\n- **Auxiliary channels**: ecg, gsr, ppg\n## Participants\n- **Number of subjects**: 11\n- **Health status**: healthy\n- **Age**: min=24.0, max=39.0\n- **Gender distribution**: male=8, female=3\n- **Handedness**: {'right': 10, 'left': 1}\n- **BCI experience**: naive\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: ssvep\n- **Number of classes**: 5\n- **Class labels**: 6.66, 7.50, 8.57, 10.00, 12.00\n- **Trial duration**: 5.0 s\n- **Study design**: Subjects focus attention on a violet box flickering at different frequencies (6.66, 7.50, 8.57, 10.00, 12.00 Hz) presented at the center of the monitor. Each trial lasts 5 seconds followed by 5 seconds rest.\n- **Feedback type**: none\n- **Stimulus type**: visual\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: synchronous\n- **Mode**: offline\n- **Training/test split**: False\n- **Instructions**: Subjects were instructed to focus attention on the flickering stimulus and minimize artifacts by reducing eye blinks and movements.\n- **Stimulus presentation**: display=22 inch LCD monitor, 60 Hz refresh rate, 1680x1080 resolution, background=black, stimulus=violet box flickering at center of screen, graphics=Nvidia GeForce GTX 860M with vertical synchronization enabled\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  6.66\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/6_66\n  7.50\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/7_50\n  8.57\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/8_57\n  10.00\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/10_00\n  12.00\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/12_00\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: ssvep\n- **Stimulus frequencies**: [6.66, 7.5, 8.57, 10.0, 12.0] Hz\n- **Number of targets**: 5\n## Data Structure\n- **Trials**: 1104\n- **Trials context**: Total of 1104 trials (5 seconds each) across all subjects and sessions. Subject S001: 3 sessions, S003 and S004: 4 sessions each, all others: 5 sessions. Each session includes 23 trials (8 adaptation + 15 experimental).\n## Preprocessing\n- **Preprocessing applied**: True\n- **Steps**: bandpass filtering (5-48 Hz), notch filtering (50 Hz), artifact removal (AMUSE, ICA), Common Average Reference (CAR)\n- **Highpass filter**: 5.0 Hz\n- **Lowpass filter**: 48.0 Hz\n- **Bandpass filter**: {'low_cutoff_hz': 5.0, 'high_cutoff_hz': 48.0}\n- **Notch filter**: 50.0 Hz\n- **Filter type**: IIR (Chebyshev, Elliptic)\n- **Artifact methods**: AMUSE, ICA, FastICA\n- **Re-reference**: CAR\n## Signal Processing\n- **Classifiers**: LDA, SVM, Random Forest, kNN, Naive Bayes, CCA, ELM, Decision Trees\n- **Feature extraction**: Periodogram, Welch, Goertzel, Yule-AR, STFT, Discrete Wavelet Transform, PSD, CSP, ICA\n- **Frequency bands**: analyzed=[5.0, 48.0] Hz\n- **Spatial filters**: CAR, CSP, Minimum Energy\n## Cross-Validation\n- **Method**: leave-one-subject-out\n- **Evaluation type**: cross_subject\n## Performance (Original Study)\n- **Accuracy**: 72.47%\n- **Default Config Accuracy**: 72.47\n- **Optimal Config Accuracy**: 79.47\n- **Best Electrode Accuracy**: 74.42\n- **Execution Time Ms**: 5.0\n## BCI Application\n- **Applications**: research, comparative_study\n- **Environment**: laboratory\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Visual\n- **Type**: Perception\n## Documentation\n- **Description**: Comparative evaluation of state-of-the-art algorithms for SSVEP-based BCIs. Dataset includes 256-channel EEG signals from 11 subjects performing SSVEP tasks with 5 different flickering frequencies.\n- **DOI**: 10.6084/m9.figshare.2068677.v1\n- **Associated paper DOI**: arXiv:1602.00904v2\n- **License**: ODC-By-1.0\n- **Investigators**: Vangelis P. Oikonomou, Georgios Liaros, Kostantinos Georgiadis, Elisavet Chatzilari, Katerina Adam, Spiros Nikolopoulos, Ioannis Kompatsiaris\n- **Senior author**: Ioannis Kompatsiaris\n- **Institution**: Centre for Research and Technology Hellas (CERTH)\n- **Country**: Greece\n- **Repository**: Figshare\n- **Data URL**: https://dx.doi.org/10.6084/m9.figshare.2068677.v1\n- **Publication year**: 2016\n- **Ethics approval**: Ethics committee of the Centre for Research and Technology Hellas, approved 3/7/2015\n- **Keywords**: SSVEP, BCI, brain-computer interface, EEG, visual evoked potentials, comparative evaluation, signal processing\n## Abstract\nBrain-computer interfaces (BCIs) have been gaining momentum in making human-computer interaction more natural, especially for people with neuro-muscular disabilities. This report focuses on EEG-based BCIs that rely on Steady-State-Visual-Evoked Potentials (SSVEPs) and performs a comparative evaluation of state-of-the-art algorithms for filtering, artifact removal, feature extraction, feature selection and classification. The dataset consists of 256-channel EEG signals from 11 subjects, along with a processing toolbox for reproducing results.\n## Methodology\nComparative evaluation of SSVEP-based BCI algorithms using leave-one-subject-out cross-validation. The study examines filtering methods (IIR, FIR), artifact removal (AMUSE, ICA), feature extraction (Periodogram, Welch, Goertzel, Yule-AR, STFT, DWT), feature selection (Shannon entropy, PCA, ICA), and classification (LDA, SVM, kNN, Naive Bayes, Random Forest, CCA, ELM, Decision Trees). Each parameter is studied independently while keeping others fixed to identify optimal configurations.\n## References\nOikonomou, V. P., Liaros, G., Georgiadis, K., Chatzilari, E., Adam, K., Nikolopoulos, S., & Kompatsiaris, I. (2016). Comparative evaluation of state-of-the-art algorithms for SSVEP-based BCIs. arXiv preprint arXiv:1602.00904.\nMAMEM Steady State Visually Evoked Potential EEG Database `<https://archive.physionet.org/physiobank/database/mssvepdb/>`_\nS. Nikolopoulos, 2016, DataAcquisitionDetails.pdf `<https://figshare.com/articles/dataset/MAMEM_EEG_SSVEP_Dataset_III_14_channels_11_subjects_5_frequencies_presented_simultaneously_/3413851>`_\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.4.3 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "ODC-By-1.0",
+  "authors": [
+    "Vangelis P. Oikonomou",
+    "Georgios Liaros",
+    "Kostantinos Georgiadis",
+    "Elisavet Chatzilari",
+    "Katerina Adam",
+    "Spiros Nikolopoulos",
+    "Ioannis Kompatsiaris"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000121",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ssvep"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 110,
+  "size_bytes": 290664890,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 11,
+    "ages": [
+      24,
+      37,
+      25,
+      37,
+      39,
+      31,
+      27,
+      28,
+      26,
+      31,
+      29
+    ],
+    "age_min": 24,
+    "age_max": 39,
+    "age_mean": 30.363636363636363,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Ioannis Kompatsiaris",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:16.183924+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:13:44"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000121",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000121",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Ethics committee of the Centre for Research and Technology Hellas, approved 3/7/2015"
+  ],
+  "references_and_links": [
+    "https://dx.doi.org/10.6084/m9.figshare.2068677.v1",
+    "arXiv:1602.00904v2"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.48550/arXiv.1602.00904",
+      "URL": "https://dx.doi.org/10.6084/m9.figshare.2068677.v1"
+    }
+  ],
+  "ingestion_fingerprint": "ba230a2c7b0442f49c84ec0e769ce12109513c1914ae51e38553d51078003bd9"
+}

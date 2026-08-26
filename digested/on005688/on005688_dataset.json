@@ -1,0 +1,96 @@
+{
+  "dataset_id": "on005688",
+  "name": "visStim",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005688-blue)](https://doi.org/10.82901/nemar.on005688)\nDataset description\n===================\nThis dataset was collected for the study \"Diagnostic ultrasound enhances, then reduces, exogenously induced brain activity of mice\" by Tan et al. (2024). The research demonstrates how transcranially delivered diagnostic ultrasound (tDUS) modulates the brain's receptivity to external stimuli, using a blinking light stimulus in a mouse model.\nThe study findings highlight the potential for diagnostic ultrasound to intentionally modulate brain function, paving the way for possible future clinical and therapeutic applications.\nPlease cite the following paper when using this dataset:\nTan H, Griggs DJ, Chen L, et al. Diagnostic ultrasound enhances, then reduces, exogenously induced brain activity of mice. Frontiers in Neuroscience. 2024. DOI: [in peer review].\nLicense\n-------\nThis dataset is proprietary to the Department of Neurological Surgery, University of Washington, Seattle, WA, USA.\nUsage is restricted to academic and non-commercial research. Redistribution, modification, or commercial use is prohibited without prior permission.\nFor inquiries, contact: Pierre D. Mourad (doumitt@uw.edu).\nAcknowledgements\n----------------\nWe thank the Department of Neurological Surgery, University of Washington, for internal funding.\nThis research was supported by R01 NS119395 and P51 OD010425 (DJG) and the Mary Gates Research Scholarship** (HT).\nDataset Overview\n-----------------\nThis dataset comprises electrocorticography (ECoG) recordings from three cohorts of C57BL/6 mice exposed to combinations of diagnostic ultrasound (tDUS) and blinking light stimuli. The study investigates how tDUS influences the visual cortex's response to external visual stimulation.\nKey Features:\n- Subjects: 20 C57BL/6 mice divided into three experimental cohorts:\n  1. Light-only cohort: Exposed to blinking light only.\n  2. US-only cohort: Exposed to tDUS without light.\n  3. US+Light cohort: Exposed to blinking light combined with tDUS.\n- Electrode Placement: ECoG electrodes targeted visual and somatosensory cortices.\n- Recording Conditions: Data recorded at 20 kS/s, filtered (5\u201355 Hz), and analyzed with MATLAB.\nData Structure\n---------------\nData Files:\n- Raw ECoG Data: Continuous brain activity recordings.\n- Event-Triggered Data: Segment-specific RMS values for blinking light events.\n- Processed Data: Filtered and normalized brain activity traces.\nMetadata:\n- Experimental conditions, cohort allocation, and baseline brain activity.\nMethodology\n-----------\n- Stimulation Protocols: Mice were exposed to blinking light stimuli (10 seconds per event) and tDUS delivered through a P21x5-1 scan head (Sonosite MicroMaxx system).\n- Data Collection: Baseline and event-triggered ECoG signals were recorded using LabChart software.\n- Analysis: RMS values normalized to baseline activity for comparative statistical analysis.\nOutcomes\n________\nKey Findings:\n1. Enhanced Brain Activity: Simultaneous tDUS and blinking light increased cortical activity compared to light alone.\n2. Persistent Effects: tDUS effects on brain activity persisted after stimulation ceased.\n3. No Effect of tDUS Alone: tDUS without light did not activate cortical activity but reduced subsequent activity.\nReferences\n___________\nFor a complete list of references, please consult the manuscript.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Henry Tan",
+    "Devon Griggs",
+    "Lucas Chen",
+    "Kahte Culevski",
+    "Kat Floerchinger",
+    "Alissa Phutirat",
+    "Gabe Koh",
+    "Nels Schimek",
+    "Pierre Mourad"
+  ],
+  "funding": [
+    "R01 NS119395"
+  ],
+  "dataset_doi": "10.82901/nemar.on005688",
+  "associated_paper_doi": null,
+  "tasks": [
+    "baseline",
+    "trial1",
+    "trial2",
+    "trial3",
+    "trial4"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 89,
+  "size_bytes": 9036022103,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Pierre Mourad",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:06.209070+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-27 17:08:17"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005688",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005688",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "An immense thanks to all contributors for their support.",
+  "how_to_acknowledge": "Please cite: Tan, H. et al., 2024",
+  "ethics_approvals": [
+    "All animal procedures were vetted and approved by the University of Washington\u2019s Institutional Animal Care and Use Committee under protocol number 4084-10"
+  ],
+  "references_and_links": [
+    "https://in_submission_for_publication.com/VisStim"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005688.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "7e3fe7c997b39a7c9ab694f4af46588ddc73ae242735b5df6b1fc8544b3e10e0"
+}

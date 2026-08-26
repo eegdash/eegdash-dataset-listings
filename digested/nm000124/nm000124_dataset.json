@@ -1,0 +1,97 @@
+{
+  "dataset_id": "nm000124",
+  "name": "Han2024 \u2013 SSVEP fatigue dataset with two frequency paradigms",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000124-blue)](https://doi.org/10.82901/nemar.nm000124)\n# SSVEP fatigue dataset with two frequency paradigms\nSSVEP fatigue dataset with two frequency paradigms.\n## Dataset Overview\n- **Code**: Han2024Fatigue\n- **Paradigm**: ssvep\n- **DOI**: 10.1109/TNSRE.2024.3380635\n- **Subjects**: 24\n- **Sessions per subject**: 2\n- **Events**: 8=1, 8.5=2, 9=3, 9.5=4, 10=5, 10.5=6, 11=7, 11.5=8, 12=9, 12.5=10, 13=11, 13.5=12, 14=13, 14.5=14, 15=15, 15.5=16, 25.5=17, 26=18, 26.5=19, 27=20, 27.5=21, 28=22, 28.5=23, 29=24, 29.5=25, 30=26, 30.5=27, 31=28, 31.5=29, 32=30, 32.5=31, 33=32\n- **Trial interval**: [0.14, 2.14] s\n- **File format**: MAT\n## Acquisition\n- **Sampling rate**: 1000.0 Hz\n- **Number of channels**: 64\n- **Channel types**: eeg=64\n- **Channel names**: Fp1, Fpz, Fp2, AF3, AF4, F7, F5, F3, F1, Fz, F2, F4, F6, F8, FT7, FC5, FC3, FC1, FCz, FC2, FC4, FC6, FT8, T7, C5, C3, C1, Cz, C2, C4, C6, T8, M1, TP7, CP5, CP3, CP1, CPz, CP2, CP4, CP6, TP8, M2, P7, P5, P3, P1, Pz, P2, P4, P6, P8, PO7, PO5, PO3, POz, PO4, PO6, PO8, CB1, O1, Oz, O2, CB2\n- **Montage**: standard_1005\n- **Hardware**: Synamps2 (Neuroscan)\n- **Reference**: Cz\n- **Ground**: midway between Fz and FPz\n- **Line frequency**: 50.0 Hz\n- **Online filters**: {'bandpass_hz': [0.15, 200.0]}\n- **Impedance threshold**: 10 kOhm\n## Participants\n- **Number of subjects**: 24\n- **Health status**: healthy\n- **Age**: min=18, max=26\n- **Gender distribution**: male=12, female=12\n## Experimental Protocol\n- **Paradigm**: ssvep\n- **Task type**: gaze-shifting\n- **Number of classes**: 32\n- **Class labels**: 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 12.5, 13, 13.5, 14, 14.5, 15, 15.5, 25.5, 26, 26.5, 27, 27.5, 28, 28.5, 29, 29.5, 30, 30.5, 31, 31.5, 32, 32.5, 33\n- **Trial duration**: 2.0 s\n- **Feedback type**: none\n- **Stimulus type**: JFPM visual flicker\n- **Stimulus modalities**: visual\n- **Primary modality**: visual\n- **Synchronicity**: synchronous\n- **Mode**: offline\n- **Training/test split**: True\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  8\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/8\n  8.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/8_5\n  9\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/9\n  9.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/9_5\n  10\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/10\n  10.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/10_5\n  11\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/11\n  11.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/11_5\n  12\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/12\n  12.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/12_5\n  13\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/13\n  13.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/13_5\n  14\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/14\n  14.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/14_5\n  15\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/15\n  15.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/15_5\n  25.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/25_5\n  26\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/26\n  26.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/26_5\n  27\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/27\n  27.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/27_5\n  28\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/28\n  28.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/28_5\n  29\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/29\n  29.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/29_5\n  30\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/30\n  30.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/30_5\n  31\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/31\n  31.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/31_5\n  32\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/32\n  32.5\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/32_5\n  33\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Label/33\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: ssvep\n- **Stimulus frequencies**: [8.0, 8.5, 9.0, 9.5, 10.0, 10.5, 11.0, 11.5, 12.0, 12.5, 13.0, 13.5, 14.0, 14.5, 15.0, 15.5, 25.5, 26.0, 26.5, 27.0, 27.5, 28.0, 28.5, 29.0, 29.5, 30.0, 30.5, 31.0, 31.5, 32.0, 32.5, 33.0] Hz\n- **Frequency resolution**: 0.5 Hz\n## Data Structure\n- **Trials**: 960 per frequency band (16 targets x 60 blocks)\n- **Blocks per session**: 60\n- **Trials context**: 6 training + 24 fatigue blocks per frequency condition\n## Preprocessing\n- **Data state**: epoched\n## Signal Processing\n- **Classifiers**: TRCA\n- **Spatial filters**: TRCA\n## BCI Application\n- **Environment**: lab\n- **Online feedback**: False\n## Tags\n- **Pathology**: healthy\n- **Modality**: visual\n- **Type**: perception\n## Documentation\n- **DOI**: 10.1109/TNSRE.2024.3380635\n- **License**: CC BY 4.0\n- **Investigators**: Yuheng Han, Yufeng Ke, Ruiyan Wang, Tao Wang, Dong Ming\n- **Senior author**: Dong Ming\n- **Institution**: Tianjin University\n- **Department**: Academy of Medical Engineering and Translational Medicine, Tianjin University\n- **Country**: CN\n- **Repository**: Zenodo\n- **Data URL**: https://zenodo.org/records/10507229\n- **Publication year**: 2024\n- **Funding**: National Key Research and Development Program of China (Grant 2021YFF1200603); National Natural Science Foundation of China (Grants 62276184, 61806141)\n- **Ethics approval**: Research Ethics Committee of Tianjin University\n- **Keywords**: SSVEP, BCI, fatigue, dynamic stopping, EEG\n## References\nY. Han, Y. Ke, R. Wang, T. Wang, and D. Ming, \"Enhancing SSVEP-BCI Performance Under Fatigue State Using Dynamic Stopping Strategy,\" IEEE Trans. Neural Syst. Rehab. Eng., vol. 32, pp. 1407-1415, 2024. DOI: 10.1109/TNSRE.2024.3380635\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.4.3 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC BY 4.0",
+  "authors": [
+    "Yuheng Han",
+    "Yufeng Ke",
+    "Ruiyan Wang",
+    "Tao Wang",
+    "Dong Ming"
+  ],
+  "funding": [
+    "National Key Research and Development Program of China (Grant 2021YFF1200603)",
+    "National Natural Science Foundation of China (Grants 62276184, 61806141)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000124",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ssvep"
+  ],
+  "sessions": [
+    "0",
+    "1"
+  ],
+  "total_files": 48,
+  "size_bytes": 35490530374,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 24,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Dong Ming",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:17.229053+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-12 20:10:34"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000124",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000124",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Research Ethics Committee of Tianjin University"
+  ],
+  "references_and_links": [
+    "https://zenodo.org/records/10507229"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1109/TNSRE.2024.3380635",
+      "URL": "https://zenodo.org/records/10507229"
+    }
+  ],
+  "ingestion_fingerprint": "f14f28c8ce97ce79e5833eccc5f135f60e49bdda0dcc1e7125579b6d6722fd29"
+}

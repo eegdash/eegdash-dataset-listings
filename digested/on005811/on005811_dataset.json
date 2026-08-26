@@ -1,0 +1,128 @@
+{
+  "dataset_id": "on005811",
+  "name": "NOD-EEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005811-blue)](https://doi.org/10.82901/nemar.on005811)\n# Summary\nThe human brain can rapidly recognize meaningful objects from natural scenes encountered in everyday life. Neuroimaging with large-scale naturalistic stimuli is increasingly employed to elucidate these neural mechanisms of object recognition across these rich and daily natural scenes. However, most existing large-scale neuroimaging datasets with naturalistic stimuli primarily rely on functional magnetic resonance imaging (fMRI), which provides high spatial resolution to characterize spatial representation patterns but is limited in capturing the temporal dynamics inherent in visual cognitive processing.\nTo address this limitation, we extended our previously collected Natural Object Dataset-fMRI (NOD-fMRI) by collecting both magnetoencephalography (MEG) and electroencephalography (EEG) data from the same subjects while viewing the same set of naturalistic stimuli. As a result, the NOD uniquely integrates three different modalities\u2014fMRI, MEG, and EEG\u2014thus offering promising avenues to examine brain activity induced by naturalistic stimuli with both high spatial and high temporal resolutions. Additionally, the NOD encompasses a diverse array of naturalistic stimuli and a broader subject pool, enabling researchers to explore differences in neural activation patterns across both stimuli and subjects.\nWe anticipate that the NOD dataset will serve as a valuable resource for advancing our understanding of the cognitive and neural mechanisms underlying object recognition.\nThe MEG data's accession number is `ds005810`.\n---\n# Data Records\n## Directory Structure\nThe raw data from each subject are stored in the `sub-subID` directory, while preprocessed data and epoch data are stored in the following directories:\n- **Preprocessed Data:** `derivatives/preprocessed/raw`\n- **Epoch Data:** `derivatives/preprocessed/epochs`\n### Stimulus Images\nThe stimulus images used for MEG and EEG are identical and are stored in the `stimuli/ImageNet` directory. Images within this folder are named in the `synsetID_imageID.JPEG` Where:\n- `synsetID` is the ILSVRC category information.\n- `imageID` is the unique number for the image within that category.\nThe image metadata, including category information, is available in the table files under the `stimuli/metadata` directory.\n### Raw Data\nRaw EEG data are stored in BIDS format. Each subject's directory contains multiple session folders, designated as `ses-sesID`. Comprehensive trial information for each subject is documented in the file: `derivatives/detailed_events/sub-subID_events.csv` Where each row corresponds to a trial, and each column contains metadata for that trial, including the session and run number, category information of the stimuli, and subject response.\n### Preprocessed Data\nThe full time series data of preprocessed data are archived in the `derivatives/raw` directory, named as: `sub-subID_ses-sesID_task-ImageNet_run-runID_eeg_clean.fif`. The epoch data derived from preprocessed data are stored within the `derivatives/epochs` directory. In this directory, all data for each subject are concatenated into a single file, labeled as: `sub-subID_epo.fif`\nThe trial information within each subject's epochs data can be accessed via the metadata of the epochs data, which are aligned with the content of the subject's `sub-subID_events.csv` file.\n---\n# References\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A., and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. *Journal of Open Source Software, 4*(1896). [https://doi.org/10.21105/joss.01896](https://doi.org/10.21105/joss.01896)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.1",
+  "license": "CC0",
+  "authors": [
+    "Guohao Zhang",
+    "Ming Zhou",
+    "Shuyi Zhen",
+    "Shaohua Tang",
+    "Zheng Li",
+    "Zonglei Zhen"
+  ],
+  "funding": [
+    "Beijing Natural Science Foundation (#L247010)",
+    "National Natural Science Foundation of China (#62433015, #31771251)",
+    "STI 2030-436 Major Projects of the Ministry of Science and Technology of China437 (#2021ZD0200407)"
+  ],
+  "dataset_doi": "10.82901/nemar.on005811",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ImageNet"
+  ],
+  "sessions": [
+    "ImageNet01",
+    "ImageNet02",
+    "ImageNet03",
+    "ImageNet04"
+  ],
+  "total_files": 448,
+  "size_bytes": 26111926213,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [
+      22,
+      21,
+      25,
+      21,
+      22,
+      24,
+      19,
+      21,
+      26,
+      21,
+      21,
+      21,
+      18,
+      20,
+      20,
+      21,
+      22,
+      18,
+      21
+    ],
+    "age_min": 18,
+    "age_max": 26,
+    "age_mean": 21.263157894736842,
+    "species": null,
+    "sex_distribution": {
+      "f": 8,
+      "m": 11
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Zonglei Zhen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:21.431180+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-28 00:55:13"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005811",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005811",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by Beijing Natural Science Foundation (L247010), National Natural Science Foundation of China (62433015, 31771251) and STI 2030-Major Projects of the Ministry of Science and Technology of China (2021ZD0200407). The funders had no role in the study design; data collection, analysis, and interpretation; writing of the manuscript; or the decision to submit the article for publication.",
+  "how_to_acknowledge": "https://doi.org/10.1038/s41597-025-05174-7",
+  "ethics_approvals": [
+    "name: Beijing Normal University",
+    "number: ICBIR_A_0111_001_02"
+  ],
+  "references_and_links": [
+    "NOD-fMRI: doi:10.18112/openneuro.ds004496"
+  ],
+  "generated_by": [
+    {
+      "Name": "mne",
+      "Version": "1.7.1"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004496"
+    },
+    {
+      "DOI": "doi:10.18112/openneuro.ds005811.v1.0.9"
+    }
+  ],
+  "ingestion_fingerprint": "11012819b906e1c042d850f51c259a5f3c746b130a229c908c25f4c85770031a"
+}

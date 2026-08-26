@@ -1,0 +1,92 @@
+{
+  "dataset_id": "on003568",
+  "name": "Mood induction in MDD and healthy adolescents",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003568-blue)](https://doi.org/10.82901/nemar.on003568)\nThis dataset contains the MEG and structural MRI data from the \"Electrophysiological correlates of mood and reward dynamics in human adolescents\" pre-registered analysis (https://www.biorxiv.org/content/10.1101/2021.03.04.433969v1).\nThe task-mmi3 data corresponds to the monetary gambling mood induction task described in the paper. Task-mmi3 data has been pre-processed marking bad channels and bad segments (motion > 5mm or/and noise artifacts).\nTask-rest data is unprocessed 10 minutes resting state scan acquired during the same scanning session.\nAnatomical MRIs have been defaced and co-registered fiducial coordinates are available in the anatomical json files.\nData from four confirmatory subjects are not made available because of missing data sharing consent.\nsub-22658 and sub-24247 do not have an available structural scan.",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.0",
+  "license": "CC0",
+  "authors": [
+    "Lucrezia Liuzzi",
+    "Katharine Chang",
+    "Hanna Keren",
+    "Charles Zheng",
+    "Dipta Saha",
+    "Dylan Nielson",
+    "Argyris Stringaris"
+  ],
+  "funding": [
+    "Intramural Research Program of the National Institute of Mental Health National Institutes of Health (NIH) (Grant No. ZIA-MH002957-01 [to AS])"
+  ],
+  "dataset_doi": "10.82901/nemar.on003568",
+  "associated_paper_doi": null,
+  "tasks": [
+    "mmi3",
+    "rest"
+  ],
+  "sessions": [],
+  "total_files": 118,
+  "size_bytes": 132520003991,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 51,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 19,
+      "f": 32
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Argyris Stringaris",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:44.287423+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 05:16:49"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003568",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003568",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by the Intramural Research Program of the National Institute of Mental Health National Institutes of Health (NIH). This work used the computational resources of the NIH HPC (high-performance computing) Biowulf cluster (http://hpc.nih.gov).",
+  "how_to_acknowledge": "Please cite: Lucrezia Liuzzi, Katharine Chang, Hanna Keren, Charles Zheng, Dipta Saha,Dylan Nielson and Argyris Stringaris, Electrophysiological correlates of mood and reward dynamics in human adolescents, BioRxiv 2021",
+  "ethics_approvals": [
+    "NIH Institutional Review Board"
+  ],
+  "references_and_links": [
+    "https://www.biorxiv.org/content/10.1101/2021.03.04.433969v1"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003568.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "48b7eed99eb50743568a330671793f71f75e77f5b2c377cf7e4397de0e79495f"
+}

@@ -1,0 +1,99 @@
+{
+  "dataset_id": "on004457",
+  "name": "Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004457-blue)](https://doi.org/10.82901/nemar.on004457)\n# Basis Profile Curve identification in the human ventral temporal cortex\nThis dataset contains intracranial EEG recordings from five patients during single pulse electrical stimulation as described in:\n* H Huang, NM Gregg, G Ojeda Valencia, BH Brinkmann, BN Lundstrom, GA Worrell, KJ Miller, and D Hermes (2022) Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex. (Under Review)\nPlease cite this work when using the data. These data were recorded at the Mayo Clinic in Rochester, MN, as part of the NIH Brain Initiative supported project R01 MH122258 \"CRCNS: Processing speed in the human connectome across the lifespan\". Research reported in this publication was supported by the National Institute Of Mental Health of the National Institutes of Health under Award Number R01MH122258 and by the National Institute of General Medical Sciences of the National Institutes of Health under Award Number T32GM065841. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The data was collected by Harvey Huang, Dora Hermes, Nick Gregg, Brian Lundstrom, Cindy Nelson, Gregg Worrell and Kai J. Miller. The BIDS formatting was performed by Harvey Huang, Dora Hermes and Gabriela Ojeda Valencia.\nData can be analyzed using the Matlab code at:\n* https://github.com/hharveygit/VTCBPC_JNS_Manu\n## Format\nData are formatted according to BIDS version 1.9.9\n## Single pulse stimulation\nThe patient were resting in the hospital bed, while single pulse stimulation was performed with a frequency of ~0.2 Hz. The stimulation had a duration of 200 microseconds, was biphasic and had an amplitude of 6mA.\n## Contact\nPlease contact Dora Hermes (hermes.dora@mayo.edu) for questions.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v 1.9.9",
+  "license": "CC0",
+  "authors": [
+    "Harvey Huang",
+    "Nicholas M Gregg",
+    "Gabriela Ojeda Valencia",
+    "Benjamin H Brinkmann",
+    "Brian N Lundstrom",
+    "Gregory A Worrell",
+    "Kai J Miller",
+    "Dora Hermes"
+  ],
+  "funding": [
+    "R01 MH122258 CRCNS: Processing speed in the human connectome across the lifespan",
+    "T32 GM065841: Medical Scientist Training Program at Mayo Clinic"
+  ],
+  "dataset_doi": "10.82901/nemar.on004457",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ccep"
+  ],
+  "sessions": [
+    "ieeg01"
+  ],
+  "total_files": 5,
+  "size_bytes": 12258420918,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 5,
+    "ages": [
+      13,
+      30,
+      20,
+      46,
+      18
+    ],
+    "age_min": 13,
+    "age_max": 46,
+    "age_mean": 25.4,
+    "species": null,
+    "sex_distribution": {
+      "f": 3,
+      "m": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Dora Hermes",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:12.959142+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 09:42:58"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004457",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv",
+      "task-ccep_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004457",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Cindy Nelson, Karla Crockett",
+  "how_to_acknowledge": "This dataset is part of the paper on 'Electrical stimulation of temporal and limbic circuitry produces distinct responses in human ventral temporal cortex' by H Huang, NM Gregg, G Ojeda Valencia, BH Brinkmann, BN Lundstrom, GA Worrell, KJ Miller, and D Hermes. This project is funded by the National Institute Of Mental Health of the National Institutes of Health under Award Number R01MH122258 to Dora Hermes (Mayo Clinic) and by the National Institute of General Medical Sciences of the National Institutes of Health under Award Number T32GM065841 to the Medical Scientist Training Program at Mayo Clinic. The data was collected by Harvey Huang (Mayo Clinic), Dora Hermes (Mayo Clinic), Nick Gregg (Mayo Clinic), Brian Lundstrom (Mayo Clinic) and Cindy Nelson (Mayo Clinic). The BIDS formatting was performed by Harvey Huang (Mayo Clinic), Dora Hermes (Mayo Clinic) and Gabriela Ojeda Valencia (Mayo Clinic). The iEEG data collection was facilitated by Gregory Worrell and Kai J. Miller (Mayo Clinic)",
+  "references_and_links": [
+    "https://doi.org/10.1101/2022.07.06.498994"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004457.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "2d5c14e67c0378ae62e5299b96c56b42611c1ead31d2941fa192408e86c07639"
+}

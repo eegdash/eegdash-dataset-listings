@@ -1,0 +1,100 @@
+{
+  "dataset_id": "nm000233",
+  "name": "BCI Competition 2020 Track 4 \u2014 Upper-limb grasping motor imagery",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000233-blue)](https://doi.org/10.82901/nemar.nm000233)\n# BCI Competition 2020 Track 4 \u2014 Upper-limb grasping motor imagery\n## Overview\nBCIComp2020UpperLimb is a preprocessed derivative EEG dataset from BCI Competition 2020 Track 4 comprising motor imagery recordings of three grasping tasks (cylindrical, spherical, lumbrical) from 15 healthy subjects across three sessions. The dataset contains 60-channel EEG data sampled at 250 Hz with 450 trials per subject (150 trials per session). This is a processed version of the original BCI Competition 2020 data, designed to evaluate session-to-session transfer learning in brain-computer interface applications. Original 10 s trials (3 s rest, 3 s visual cue, 4 s motor imagery) have been preprocessed with 60 Hz notch filtering and cue-aligned epoching, with the 4 s motor imagery window extracted for analysis.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 15 |\n| Channels | 60 |\n| Classes | 3 |\n| Trial length | 4 s |\n| Sampling frequency | 250 Hz |\n| Sessions | 3 |\n| Total trials | 6750 |\n| Paradigm | MotorImagery |\n## Data Collection Methods\nEEG data were acquired using a BrainAmp system (BrainProducts GmbH) with 60 channels at 250 Hz sampling rate, referenced to FCz with Fpz as ground. Subjects performed cue-based motor imagery of three right-arm grasping tasks in three sessions separated by 7 days. Each trial consisted of a 3 s rest period, 3 s visual cue, and 4 s motor imagery window. Data were preprocessed with 60 Hz notch filtering and cue-aligned epoching. The 4 s motor imagery window (corresponding to seconds 6-10 of each original 10 s trial) was extracted by the loader for analysis.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import BCIComp2020UpperLimb\nfrom moabb.paradigms import MotorImagery\nparadigm = MotorImagery()\ndataset = BCIComp2020UpperLimb()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BCIComp2020UpperLimb.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.3389/fnhum.2022.898300](https://doi.org/10.3389/fnhum.2022.898300)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Ji-Hoon Jeong",
+    "Jeong-Hyun Cho",
+    "Young-Eun Lee",
+    "Seo-Hyun Lee",
+    "Gi-Hwan Shin",
+    "Young-Seok Kweon",
+    "Jose del R. Millan",
+    "Klaus-Robert Muller",
+    "Seong-Whan Lee"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000233",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2"
+  ],
+  "total_files": 42,
+  "size_bytes": 2967900379,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 14,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Seong-Whan Lee",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:03:19.989106+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:17:08"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000233",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000233",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://osf.io/pq7vb/",
+    "10.3389/fnhum.2022.898300"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnhum.2022.898300",
+      "URL": "https://osf.io/pq7vb/"
+    },
+    {
+      "DOI": "doi:10.3389/fnhum.2022.898300"
+    }
+  ],
+  "ingestion_fingerprint": "88a6960cf603609087e32060f551817100082760e305337c4f04f559c75888b1"
+}

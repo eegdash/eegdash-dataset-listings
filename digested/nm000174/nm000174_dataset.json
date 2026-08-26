@@ -1,0 +1,97 @@
+{
+  "dataset_id": "nm000174",
+  "name": "Imagined Speech EEG dataset comparing paradigm designs (Aguilera-Rodriguez et al. 2025)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000174-blue)](https://doi.org/10.82901/nemar.nm000174)\n# Imagined Speech EEG dataset comparing paradigm designs (Aguilera-Rodriguez et al. 2025)\n## Overview\nAn EEG dataset of imagined speech from 15 healthy participants comparing traditional cue-based and gamified (Pac-Man maze) paradigms for brain-computer interface applications. The dataset comprises 1,800 trials across four Spanish directional commands (avanzar, retroceder, derecha, izquierda) recorded at 500 Hz from 24 electrodes using the mBrainTrain Smarting system. This derivative dataset enables systematic evaluation of paradigm design effects on imagined speech decoding performance.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 15 |\n| Channels | 24 |\n| Classes | 4 |\n| Trial length | 4 s |\n| Sampling frequency | 500 Hz |\n| Sessions | 1 |\n| Total trials | 1800 |\n| Paradigm | MotorImagery |\n## Data Collection Methods\nEEG data were acquired from 15 healthy participants (8 male, 7 female, ages 18-27) using a 24-channel mBrainTrain Smarting system at 500 Hz sampling rate with FCz reference and Fpz ground. Two experimental paradigms were compared: (1) traditional cue-based with visual and auditory cues (5 beeps at 1.4s rhythm) followed by 7 imagined speech repetitions, with the last 3 repetitions extracted for analysis, and (2) gamified paradigm using a Pac-Man maze interface with 1.4s periods for movement decision, imagined speech, and vocalized speech. Each participant completed 2 sessions with 120 trials per session (30 per class), yielding 450 trials per class across the dataset. The final dataset contains the last 3 imagined speech repetitions per trial from the traditional paradigm.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import AguileraRodriguez2025\nfrom moabb.paradigms import MotorImagery\nparadigm = MotorImagery()\ndataset = AguileraRodriguez2025()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.AguileraRodriguez2025.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.1038/s41597-025-05926-5](https://doi.org/10.1038/s41597-025-05926-5)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "Edgar Aguilera-Rodriguez",
+    "Alma Cuevas-Romero",
+    "Santiago Mendoza-Franco",
+    "Jonathan Wornovitzky-Green",
+    "Eduardo Rivera-Cerros",
+    "David Villanueva-Cazares",
+    "Luis Alberto Munoz-Ubando",
+    "David Ibarra-Zarate",
+    "Luz Maria Alonso-Valerdi"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000174",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "1",
+    "2"
+  ],
+  "total_files": 30,
+  "size_bytes": 1633047048,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 15,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Luz Maria Alonso-Valerdi",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:51.999098+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:15:04"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000174",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000174",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "10.1038/s41597-025-05926-5"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1038/s41597-025-05926-5"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-025-05926-5"
+    }
+  ],
+  "ingestion_fingerprint": "75fa9135254d1252264f8e45ea8bc89dd97aef6c4e71053ed55f2fb4211965ca"
+}

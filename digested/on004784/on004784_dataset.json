@@ -1,0 +1,84 @@
+{
+  "dataset_id": "on004784",
+  "name": "Phantom EEG Dataset with Motion, Muscle, and Eye Artifacts and Example Scripts",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004784-blue)](https://doi.org/10.82901/nemar.on004784)\nThis phantom experiment contains data collected from a an\nelectrically conductive head phantom. Six conditions were\ntested: brain-only [no artifacts], or  brain with eye,\njaw muscle, neck muscle, or motion artifacts present,\nor brain with all artifacts simultaneously present.\nAlso contained is a copy of the iCanClean plugin for EEGLAB\nand a set of other helpful scripts that enable parameter sweep\ntesting and validation with ground truth knowledge of the brain\nsignals of interest. Please see derivatives folder and\nread the How To document within.\nA copy of iCanClean plugin is in derivatives->Scripts->plugins\nPlease see reference for methodological details\nhttps://doi.org/10.3390/s23198214\n- Ryan Downey (December 20, 2023)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Ryan J. Downey",
+    "Daniel P. Ferris"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004784",
+  "associated_paper_doi": null,
+  "tasks": [
+    "All",
+    "Brain",
+    "Eyes",
+    "Facial",
+    "Neck",
+    "Walking"
+  ],
+  "sessions": [],
+  "total_files": 6,
+  "size_bytes": 11621463236,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Daniel P. Ferris",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:08:24.890541+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-25 12:10:14"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004784",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-phantom_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004784",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Downey, R.J.; Ferris, D.P. iCanClean Removes Motion, Muscle, Eye, and Line-Noise Artifacts from Phantom EEG. Sensors 2023, 23, 8214. https://doi.org/10.3390/s23198214",
+  "references_and_links": [
+    "https://doi.org/10.3390/s23198214"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004784.v1.0.4"
+    }
+  ],
+  "ingestion_fingerprint": "90acbbb1823b22136b55eb77cea836fb86e2dc48b347f5fbc3f5e335baa7d4d5"
+}

@@ -1,0 +1,98 @@
+{
+  "dataset_id": "nm000184",
+  "name": "BCI Competition 2020 Track 5 \u2014 ERP during walking (scalp, ear-EEG, and IMU)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000184-blue)](https://doi.org/10.82901/nemar.nm000184)\n# BCI Competition 2020 Track 5 \u2014 ERP during walking (scalp, ear-EEG, and IMU)\n## Overview\nThis dataset comprises EEG recordings from 15 healthy participants performing a visual P300 oddball task while walking on a treadmill at 1.6 m/s. The study includes simultaneous scalp-EEG (46 channels), ear-EEG (14 channels, 7 per ear), electrooculography (4 channels), and inertial measurement unit recordings (6 channels: 3-axis accelerometer and gyroscope) sampled at 100 Hz. Data were collected as part of BCI Competition 2020 Track 5 to evaluate brain-computer interface performance under ambulatory conditions, with trials temporally divided into training, validation, and test sets.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 15 |\n| Channels | 46 |\n| Classes | 2 |\n| Trial length | 1 s |\n| Sampling frequency | 100 Hz |\n| Sessions | 1 |\n| Total trials | 4500 |\n| Paradigm | P300 |\n## Data Collection Methods\nParticipants performed a visual oddball P300 paradigm with target ('OOO') and non-target ('XXX') stimuli (target ratio 0.2) while walking on a treadmill at 1.6 m/s. EEG was recorded from 46 scalp channels (standard 10-20 montage) plus 14 ear-EEG channels (7 per ear), 4 EOG channels, and 6 IMU channels (3-axis accelerometer and gyroscope) at 100 Hz sampling rate. Data were epoched from -190 ms to +800 ms around stimulus onset.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import BCIComp2020WalkingERP\nfrom moabb.paradigms import P300\nparadigm = P300()\ndataset = BCIComp2020WalkingERP()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.BCIComp2020WalkingERP.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.3389/fnhum.2022.898300](https://doi.org/10.3389/fnhum.2022.898300)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Ji-Hoon Jeong",
+    "Jeong-Hyun Cho",
+    "Young-Eun Lee",
+    "Seo-Hyun Lee",
+    "Gi-Hwan Shin",
+    "Young-Seok Kweon",
+    "Jose del R. Millan",
+    "Klaus-Robert Muller",
+    "Seong-Whan Lee"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000184",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 45,
+  "size_bytes": 234465112,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 15,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Seong-Whan Lee",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:02:02.176022+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:18:03"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000184",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000184",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://osf.io/pq7vb/",
+    "10.3389/fnhum.2022.898300"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnhum.2022.898300",
+      "URL": "https://osf.io/pq7vb/"
+    },
+    {
+      "DOI": "doi:10.3389/fnhum.2022.898300"
+    }
+  ],
+  "ingestion_fingerprint": "369ea900aef8240008cffdcf88478542ee1f7e34d8b62887442de69cbe1800d8"
+}

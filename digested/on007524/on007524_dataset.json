@@ -1,0 +1,136 @@
+{
+  "dataset_id": "on007524",
+  "name": "LittlePrince_MEG_French_Read_Pallier2025",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007524-blue)](https://doi.org/10.82901/nemar.on007524)\n## Summary\nThis dataset contains magnetoencephalography (MEG) recordings collected while participants read the French text of *Le Petit Prince* presented using a rapid serial visual presentation (RSVP) paradigm.\nA separate dataset containing MEG recordings from the auditory listening paradigm is available on OpenNeuro (accession number: ds007523).\nThis data is analyzed in:\nd\u2019Ascoli, S., Bel, C., Rapin, J. et al. Towards decoding individual words from non-invasive brain recordings. Nature Communications 16, 10521 (2025). https://doi.org/10.1038/s41467-025-65499-0\n------------------------------------------------------------------------\n## Participants\nFifty healthy adults participated in the reading experiment (10 females; mean age = 28.4 years, SD = 5.7 years).\nAll participants were native French speakers, right-handed, and reported no history of neurological disorders. Written informed consent was obtained prior to participation. The study was approved by the relevant local ethics committee.\n------------------------------------------------------------------------\n## Stimuli\nThe stimulus consisted of the French text of *Le Petit Prince*.\nThe text was presented using a rapid serial visual presentation (RSVP) paradigm:\n- Words were displayed individually in white font on a black background\n- Word duration: 225 ms\n- Inter-word interval: 50 ms (black screen)\n- Sentence-final pause: 500 ms\nTiming parameters were selected based on pilot testing to maintain attention and reading fluency.\nThe text was segmented into 9 parts corresponding to the 9 experimental runs.\n- Mean run duration: 8min10s\n- SD: 40s\n- Range: 7min10s to 9min\n------------------------------------------------------------------------\n## Experimental Procedure\nAfter informed consent and familiarization with the MEG environment, participants were seated in the MEG chair inside a magnetically shielded room facing a projection screen.\nViewing distance was fixed at 100 cm. Words appeared sequentially at the center of the screen. Participants were instructed to maintain fixation and read attentively while minimizing movement.\nThe experiment consisted of 9 runs. Short breaks were provided between runs. After each run, participants completed 4 multiple-choice comprehension questions to assess engagement (behavioral responses are not included in this release).\n------------------------------------------------------------------------\n## Acquisition\n### MEG\nMEG data for all three tasks were recorded inside the same magnetically shielded room using a whole-head Elekta Neuromag TRIUX MEG system (Elekta Oy, Helsinki, Finland), equipped with 102 magnetometers and 204 planar gradiometers. Data were recorded continuously with a sampling rate of 1000 Hz and an online low-pass filter at 330 Hz and high-pass filter at 0.1 Hz.\nVertical and horizontal electrooculograms (EOG) and an electrocardiogram (ECG) were recorded simultaneously using bipolar electrodes to monitor eye movements and heartbeats.\n### Anatomical MRI\nFor each participant, a high-resolution T1-weighted anatomical MRI scan was acquired using a 3T Siemens Magnetom Prisma MRI scanner (Siemens Healthcare, Erlangen, Germany).\nA standard MPRAGE sequence was used. MRI scans were typically acquired right after the MEG recording. Scans were used for coregistration and cortical surface reconstruction for source analysis.\n------------------------------------------------------------------------\n## Data Organization\n### Raw Data\nThe root directory includes:\n- `dataset_description.json`\n- `participants.tsv` and `participants.json`\n- `task-read_events.json`\n- `sub-01` to `sub-50`\n- `sourcedata/`\n- `derivatives/`\nEach subject directory (`sub-XX`) contains one session (`ses-01`) with:\n- `anat/`: T1-weighted MRI (`sub-XX_ses-01_T1w.nii.gz`) and corresponding JSON sidecar\n- `meg/`: 9 MEG runs (`task-read_run-01` to `run-09`), each including:\n  - continuous MEG data (`*_meg.fif`)\n  - sidecar JSON files\n  - `events.tsv` and `channels.tsv` files\n  - coordinate system file (`*_coordsystem.json`)\n  - calibration and crosstalk files\n- `sub-XX_ses-01_scans.tsv`: scan-level metadata\nEach run corresponds to one text segment.\nAcquisition parameters are provided in the corresponding sidecar JSON files.\n### Derivatives\nThe `derivatives/` directory contains:\n- `freesurfer/`: subject-specific FreeSurfer reconstructions and morph maps\n- `preprocessed_data/`: preprocessed MEG data (including SSS-processed files), forward and inverse solutions, noise covariance matrices, source spaces, transformation files, evoked data, and source time courses.\n------------------------------------------------------------------------\n## Reference\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., & Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. *Scientific Data*, 5, 180110. https://doi.org/10.1038/sdata.2018.110",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Corentin Bel",
+    "Julie Bonnaire",
+    "Jean-R\u00e9mi King",
+    "Christophe Pallier"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007524",
+  "associated_paper_doi": null,
+  "tasks": [
+    "read"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 500,
+  "size_bytes": 321613286892,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 50,
+    "ages": [
+      43,
+      33,
+      33,
+      33,
+      33,
+      33,
+      34,
+      24,
+      33,
+      34,
+      20,
+      33,
+      43,
+      24,
+      24,
+      33,
+      24,
+      24,
+      33,
+      33,
+      33,
+      23,
+      24,
+      30,
+      23,
+      33,
+      24,
+      36,
+      28,
+      33,
+      24,
+      23,
+      24,
+      24,
+      24,
+      24,
+      32,
+      23,
+      33,
+      24,
+      23,
+      22,
+      32,
+      24,
+      28,
+      21,
+      30,
+      22,
+      22,
+      45
+    ],
+    "age_min": 20,
+    "age_max": 45,
+    "age_mean": 28.7,
+    "species": null,
+    "sex_distribution": {
+      "m": 40,
+      "f": 10
+    },
+    "handedness_distribution": {
+      "r": 50
+    }
+  },
+  "senior_author": "Christophe Pallier",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:29.653901+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-14 07:28:02"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007524",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "LICENSE",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-read_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007524",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007524.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "6ea65e853a3ae37a428130a2621dc3c6379b8d96f9991256e83a9cdee88895e5"
+}

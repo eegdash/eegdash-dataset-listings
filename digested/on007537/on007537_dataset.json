@@ -1,0 +1,103 @@
+{
+  "dataset_id": "on007537",
+  "name": "A multimodal dataset of EEG, eye-tracking, and physiological signals during smartphone interaction",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007537-blue)](https://doi.org/10.82901/nemar.on007537)\nThis dataset contains multimodal physiological recordings acquired during smartphone interaction and video viewing conditions. The dataset includes simultaneous electroencephalography (EEG), eye-tracking, photoplethysmography (PPG), and galvanic skin response (GSR) signals.\n## **Experimental Protocol**\nParticipants complete two experimental conditions while wearing a 64-channel EEG cap and a head-mounted eye tracker, with simultaneous PPG and GSR recordings:\n**Smartphone Monitor condition (10 min):**\nParticipants engage in naturalistic smartphone use using their personal devices. They are instructed to interact freely with one of their most frequently used applications (e.g., browsing, reading, or app interaction). No constraints are imposed on interaction style.\n**Video Monitor  condition (5 min):**\nParticipants view a standardized video presented on a monitor.\n## **Participants**\nNumber of participants: 23 (sub-01 to sub-23)\nParticipants are healthy adults. Detailed demographic and experimental information (age, sex, and smartphone application type) is provided on participants.tsv at the root of the dataset.\n## **Hardware Synchronization and Event Markers**\nSession boundaries are marked using hardware-based transistor\u2013transistor logic (TTL) synchronization pulses. Five TTL pulses are delivered at ~1-second intervals to mark session onset and offset. Additional TTL pulses are generated every 20 seconds during the session. These triggers are embedded in both EEG and eye-tracking data streams, enabling precise temporal alignment across all modalities.\nEEG event markers are defined for two conditions: Smartphone Monitor (onset: S 12; offset: S 13) and Video Monitor (onset: S 22; offset: S 23).\nIn the eye-tracking data, session boundaries are identified using TTL bursts consisting of five pulses occuring at ~1-second intervals\nwith pulse characteristics (Type: sig; Direction: in; Value: 1.0). Additional synchronization pulses are present at ~20-second intervals during sessions.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.0.0",
+  "license": "CC0",
+  "authors": [
+    "Prakash Mishra",
+    "Tapan K. Gandhi",
+    "Saurabh R. Gandhi"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007537",
+  "associated_paper_doi": null,
+  "tasks": [
+    "phoneuse"
+  ],
+  "sessions": [],
+  "total_files": 23,
+  "size_bytes": 6566443477,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 23,
+    "ages": [
+      28,
+      27,
+      25,
+      26,
+      22,
+      22,
+      23,
+      23,
+      22,
+      21,
+      20,
+      25,
+      20,
+      23,
+      22,
+      24,
+      25,
+      25,
+      26,
+      24,
+      23,
+      30,
+      32
+    ],
+    "age_min": 20,
+    "age_max": 32,
+    "age_mean": 24.26086956521739,
+    "species": null,
+    "sex_distribution": {
+      "m": 15,
+      "f": 8
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Saurabh R. Gandhi",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:35.694207+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 12:08:42"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007537",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "datacite.yml",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007537",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007537.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "c2594263d066a6920044aea18edc088c2554595a14a836f5241a2f4ddcec27e8"
+}

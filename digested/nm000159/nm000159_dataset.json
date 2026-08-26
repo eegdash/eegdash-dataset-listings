@@ -1,0 +1,113 @@
+{
+  "dataset_id": "nm000159",
+  "name": "MUniverse Avrillon et al 2024",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000159-blue)](https://doi.org/10.82901/nemar.nm000159)\n# Avrillon et al 2024: HDsEMG recordings\nBIDS-formatted version of the HDsEMG dataset published in *[Avrillon et al. 2024](https://doi.org/10.7554/eLife.97085.3)*.\nTwo experimental sessions consisted of either a series of submaximal (10-80 percent MVC)\nisometric ankle dorsiflexions or isometric knee extensions. EMG signals were recorded from\neither the tibialis anterior (TA) or the vastus lateralis (VL) muscles using four arrays\nof 64 surface electrodes for a total of 256 electrodes.\n### Population\n16 young individuals volunteered to participate either in the experiment on the\ntibialis anterior (n=8; age: 27 +/- 3) or on the vastus lateralis (n=8; age: 27 +/- 10).\n### Electrode placement\nSurface EMG signals were recorded from the TA or the VL using 4 two-dimensional arrays of\n64 electrodes (GR04MM1305 for the TA; GR08MM1305 for the VL, 13\u00d75 gold-coated electrodes with\none electrode absent on a corner; interelectrode distance: 4 and 8 mm, respectively; OT Bioelettronica, Italy).\nThe grids were positioned over the muscle bellies to cover the largest surface while staying away from\nthe boundaries of the muscle identified by manual palpation. Before placing the electrodes, the\nskin was shaved and cleaned with an abrasive pad and water. A biadhesive foam layer was used to\nhold each array of electrodes onto the skin, and conductive paste filled the cavities of the\nadhesive layers to make skin-electrode contact.\n### Tibialis anterior: ankle dorsiflexions\nFor the session of ankle dorsiflexions, participants sat on a massage table with the\nhips flexed at 45 degree, 0 degree being the hip neutral position, and the knees fully extended.\nThe foot of the dominant leg (right in all participants) was fixed onto the pedal of an\nankle dynamometer (OT Bioelettronica, Turin, Italy) positioned at 30 degree in the plantarflexion\ndirection, 0 degree being the foot perpendicular to the shank. The thigh and the foot were\nfixed with inextensible Velcro straps. Force signals were recorded with a load cell\n(CCT Transducer s.a.s, Turin, Italy) connected in-series to the pedal using the same\nacquisition system as for the EMG recordings (EMG-Quattrocento; OT Bioelettronica, Italy).\n### Vastus lateralis: knee extensions\nFor the session of knee extensions, participants sat on an instrumented chair with the hips\nflexed at 85 degree, 0 degree being the hip neutral position, and the knees flexed at 85 degree,\n0 degree being the knees fully extended. The torso and the thighs were fixed to the chair with\nVelcro straps and the tibia were positioned against a rigid resistance connected to force sensors\n(Metitur, Jyvaskyla, Finland). The force signals were recorded using the same acquisition\nsystem as for the EMG recordings.\n### Coordinate systems\nAll electrode coordinates (reported in mm) have been converted to a common reference\nframe corresponding to the first EMG-array (*space-grid1*).\nThe positions of the reference and ground electrodes are reported in a seperate\ncoordinate system (*space-lowerLeg*) reported in percent of the lower leg length (knee-to-ankle).\n### Missing data\nContraction intensities 50, 60 and 70 % MVC are missing for subject 15.\n### Conversion\nThe dataset has been converted semi-automatically using the [*MUniverse*](https://github.com/dfarinagroup/muniverse/tree/main) software.\nSee *dataset_description.json* for further details.",
+  "recording_modality": [
+    "emg"
+  ],
+  "datatypes": [
+    "emg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.11.1",
+  "license": "CC0 BY 4.0",
+  "authors": [
+    "Simon Avrillon",
+    "Francois Hug",
+    "Roger M. Enoka",
+    "Arnault H. Caillet",
+    "Dario Farina"
+  ],
+  "funding": [
+    "Agence Nationale de la Recherche (ANR-16-IDEX-0007)",
+    "Biotechnology and Biological Sciences Research Council (BB/V00896X)",
+    "Engineering and Physical Sciences Research Council (EP/T020970)",
+    "Agence Nationale de la Recherche (ANR-24-CE17-5805)",
+    "European Research Council (#810346)",
+    "Future project managed by the French National Research Agency (ANR-15-IDEX-01)",
+    "National Multiple Sclerosis Society (RG-2206-39688)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000159",
+  "associated_paper_doi": null,
+  "tasks": [
+    "isometric10percentmvc",
+    "isometric20percentmvc",
+    "isometric30percentmvc",
+    "isometric40percentmvc",
+    "isometric50percentmvc",
+    "isometric60percentmvc",
+    "isometric70percentmvc",
+    "isometric80percentmvc"
+  ],
+  "sessions": [],
+  "total_files": 124,
+  "size_bytes": 5917498380,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 16,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Dario Farina",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:42.792391+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-01 15:56:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000159",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000159",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Imperial College London (Study 18IC4685)",
+    "Comite de Protection des Personnes Ouest III (Study 23.00453.000166)"
+  ],
+  "references_and_links": [
+    "Avrillon, S., Hug, F., Enoka, R. M., Caillet, A. H., & Farina, D. (2024). The identification of extensive samples of motor units in human muscles reveals diverse effects of neuromodulatory inputs on the rate coding. eLife, 13, eLife.97085.3.",
+    "https://doi.org/10.7554/eLife.97085.3"
+  ],
+  "generated_by": [
+    {
+      "Name": "MUniverse",
+      "Version": "1.0",
+      "CodeURL": "https://github.com/dfarinagroup/muniverse/scripts/",
+      "ScriptName": "avrillon2024_to_bids.py",
+      "Description": "Semi-automated conversion of the original data into BIDS format"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://doi.org/10.6084/m9.figshare.24640944",
+      "Version": "2023-11-27"
+    },
+    {
+      "DOI": "https://doi.org/10.7910/DVN/L9OQY7"
+    }
+  ],
+  "ingestion_fingerprint": "357fce42676238198eb7bd7cb41ba7f0ac10c321cc5cc05376148e5d643f083b"
+}

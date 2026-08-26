@@ -1,0 +1,93 @@
+{
+  "dataset_id": "nm000276",
+  "name": "SWEC iEEG Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000276-blue)](https://doi.org/10.82901/nemar.nm000276)\n# SWEC iEEG Dataset (BIDS)\nLong-term pre-surgical intracranial EEG (iEEG) from patients with\npharmacoresistant epilepsy, recorded at the Sleep-Wake-Epilepsy-Center (SWEC),\nDepartment of Neurology, Inselspital, University of Bern, in collaboration with\nthe Integrated Systems Laboratory, ETH Zurich.\n## Contents\n- Subjects: 40\n- Total recording: 5376 hours of continuous iEEG\n- Annotated electrographic seizures: 381\n- Task label: `ltm` (long-term monitoring; passive, no task)\n- Format: BrainVision (IEEE float32), data in microvolts (\u00b5V)\n## Recording & preprocessing (at source)\n- Intracranial strip, grid, and depth electrodes (mixed).\n- 16-bit analog-to-digital conversion.\n- Sampling rate 512 Hz or 1024 Hz (per subject; see participants.tsv).\n- Digitally band-pass filtered 0.5-150 Hz (4th-order Butterworth, forward-backward / zero-phase).\n- Channels with artifacts were removed at the source; remaining channels marked `good`.\n- Median reference across channels (per the SWEC-ETHZ long-term protocol).\n- Seizure onsets/offsets annotated by board-certified epileptologist Prof. Kaspar Schindler.\n## Anonymization \u2014 channels & electrodes\nThe public SWEC release is FULLY ANONYMIZED. Anatomical channel labels and\nelectrode locations are NOT disclosed (electrode coordinates + the implied\nimaging would be re-identifying for epilepsy-surgery patients). Channels are\ntherefore named `iEEG01..iEEGNN`, preserving the original recording order\n(1:1 with the source channel index 0..N-1). `electrodes.tsv` lists every\ncontact with coordinates set to `n/a`, and channel type is recorded as the\ngeneric intracranial `SEEG` (the per-contact strip/grid/depth type is not\ndisclosed). No locations were fabricated.\n## Provenance\nConverted to BIDS from the public HDF5 release at\nhttps://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg\n(authentic medical-blocks / artorg source). This BIDS dataset re-hosts the\n40-subject / 378-file public subset.\n## How to cite\nCarzaniga, F., Hersche, M., Sebastian, A., Schindler, K. & Rahimi, A.\n\"A foundation model with multi-variate parallel attention to generate neuronal\nactivity.\" arXiv:2506.20354 (2025). https://doi.org/10.48550/arXiv.2506.20354\nSWEC-ETHZ iEEG Database: http://ieeg-swez.ethz.ch/\n## License\nCommunity Data License Agreement \u2013 Permissive, Version 2.0 (CDLA-Permissive-2.0).",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CDLA-Permissive-2.0",
+  "authors": [
+    "Francesco Carzaniga",
+    "Michael Hersche",
+    "Abu Sebastian",
+    "Kaspar Schindler",
+    "Abbas Rahimi"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000276",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ltm"
+  ],
+  "sessions": [],
+  "total_files": 40,
+  "size_bytes": 3254808175422,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 40,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Abbas Rahimi",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:33.770977+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-07-10 16:27:26"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000276",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000276",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Intracranial EEG recorded at the Sleep-Wake-Epilepsy-Center (SWEC), Department of Neurology, Inselspital, University of Bern, in collaboration with the Integrated Systems Laboratory, ETH Zurich. Seizure onsets/offsets were annotated by board-certified epileptologist Prof. Kaspar Schindler.",
+  "how_to_acknowledge": "Please cite Carzaniga, Hersche, Sebastian, Schindler & Rahimi, 'A foundation model with multi-variate parallel attention to generate neuronal activity', arXiv:2506.20354 (2025), and the SWEC-ETHZ iEEG Database (http://ieeg-swez.ethz.ch/).",
+  "references_and_links": [
+    "https://doi.org/10.48550/arXiv.2506.20354",
+    "http://ieeg-swez.ethz.ch/",
+    "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg"
+  ],
+  "generated_by": [
+    {
+      "Name": "swec-bids-converter",
+      "Description": "Streaming HDF5 (data/ieeg, \u00b5V) -> BrainVision BIDS conversion; channels indexed in original order, seizures mapped to events, electrodes n/a (anonymized).",
+      "CodeURL": "https://github.com/IBM/multi-variate-parallel-transformer"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
+      "Version": "public_access"
+    }
+  ],
+  "ingestion_fingerprint": "ed17973fd0387cac0f3398916d4cd3cf45c9143fd9418394cca261776c1b881a"
+}

@@ -1,0 +1,175 @@
+{
+  "dataset_id": "on003876",
+  "name": "Epilepsy-iEEG-Interictal-Multicenter-Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003876-blue)](https://doi.org/10.82901/nemar.on003876)\nEpilepsy Interictal Dataset\n=====================\nThis dataset was updated and prepared for release as part of a manuscript by Bernabei & Li et al. (in preparation). A subset of the data has been featured in [1] and [2].\nSummary\n-------------\nThis dataset comprises of de-identified subjects with interictal iEEG recordings possibly with sleep or awake state annotated. The subjects come from the following centers:\n- National Institute of Health (NIH)\n- Johns Hopkins Hospital (JHH)\n- University of Miami Florida Jackson Memorial Hospital (UMF)\nIn the actual study, there is also data from Kansas University Medical Center (KUMC), University of Pittsburgh Medical Center and Cleveland Clinic, whose data is not shared due to restrictions imposed by the centers there.\nSome subjects, namely with the ``rns`` prefix in their subject ID were treated with RNS rather then surgical resection/ablation.\nDerivatives\n----------------\nThe processed data corresponding to the ``source-sink`` analysis and ``hfo`` comparisons are shown in the ``derivatives/`` folder. The HFO analysis consists of two folders, one is an RMS detector and the other is a Hilbert detector. See the paper for details.\nTies to Other Datasets\n--------------------------------\nNIH ``pt1, pt2, pt3``, JHH ``jh103, jh105`` subjects are also datasets in ``https://openneuro.org/datasets/ds003029``, where the ictal snapshots are stored. These correspond to the following:\n- pt1: pt01\n- pt2: pt2\n- pt3: pt3\n- jh103: jh103\n- jh105: jh105\nMoreover, the cclinic subjects are used in that study, but not open-access due to data sharing limitations at Cleveland Clinic. Those ictal datasets were analyzed in https://www.nature.com/articles/s41593-021-00901-w.\nReferences\n----------------\n[1] Li, A., Huynh, C., Fitzgerald, Z. et al. Neural fragility as an EEG marker of the seizure onset zone. Nat Neurosci 24, 1465\u00e2\u0080\u00931474 (2021). https://doi.org/10.1038/s41593-021-00901-w\n[2] Kristin M. Gunnarsdottir, Adam Li, Rachel J. Smith, Joon-Yi Kang, Nathan E. Crone, Anna Korzeniewska, Adam Rouse, Nathaniel Cameron, Iahn Cajigas, Sara Inati, Kareem A. Zaghloul, Varina L. Boerwinkle, Sarah Wyckoff, Nirav Barot, Jorge Gonzalez-Martinez, Sridevi V. Sarma. Source-sink connectivity: a novel resting-state EEG marker of the epileptogenic zone. bioRxiv 2021.10.15.464594; doi: https://doi.org/10.1101/2021.10.15.464594\n[3] Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00c3\u00b6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\n[4] Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., \u00e2\u0080\u00a6 Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Gunnarsdottir, Kristin",
+    "Li, Adam",
+    "Smith, Rachel",
+    "Kang, Joon",
+    "Korzeniewska, Anna",
+    "Crone, Nathan",
+    "Rouse, Adam",
+    "Cheng, Jennifer",
+    "Kinsman, Michael",
+    "Landazuri, Patrick",
+    "Uysal, Utku",
+    "Ulloa, Carol",
+    "Cameron, Nathaniel",
+    "Cajigas, Iahn",
+    "Jagid, Jonathan",
+    "Kanner, Andres",
+    "Elarjani, Turki",
+    "Bicchi, Manuel",
+    "Inati, Sara",
+    "Zaghloul, Kareem",
+    "Boerwinkle, Varina",
+    "Wyckoff, Sarah",
+    "Barot, Niravkumar",
+    "Gonzalez-Martinez, Jorge",
+    "Sarma, Sridevi"
+  ],
+  "funding": [
+    "NIH T32 EB003383",
+    "NSF GRFP (DGE-1746891)",
+    "ARCS Scholarship",
+    "Whitaker Fellowship",
+    "Chateaubriand Fellowship",
+    "NIH R21 NS103113",
+    "US NSF Career Award 1055560",
+    "Burroughs Well CASI Award 1007274"
+  ],
+  "dataset_doi": "10.82901/nemar.on003876",
+  "associated_paper_doi": null,
+  "tasks": [
+    "interictal",
+    "interictalasleep",
+    "interictalawake"
+  ],
+  "sessions": [
+    "extraoperative"
+  ],
+  "total_files": 54,
+  "size_bytes": 5520762343,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 39,
+    "ages": [
+      57,
+      25,
+      27,
+      31,
+      36,
+      39,
+      41,
+      20,
+      46,
+      37,
+      16,
+      62,
+      32,
+      24,
+      48,
+      23,
+      32,
+      35,
+      24,
+      35,
+      68,
+      22,
+      58,
+      35,
+      35,
+      31,
+      26,
+      57,
+      65,
+      27,
+      21,
+      30,
+      28,
+      45,
+      36,
+      21,
+      52,
+      23,
+      49,
+      48,
+      24,
+      25,
+      36,
+      27,
+      37,
+      39,
+      43,
+      23,
+      32
+    ],
+    "age_min": 16,
+    "age_max": 68,
+    "age_mean": 35.775510204081634,
+    "species": null,
+    "sex_distribution": {
+      "f": 24,
+      "m": 26
+    },
+    "handedness_distribution": {
+      "r": 25,
+      "l": 3
+    }
+  },
+  "senior_author": "Sarma, Sridevi",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:05.771746+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 20:08:42"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003876",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003876",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "MNE-BIDS was used for converting datasets to BIDS format. ",
+  "how_to_acknowledge": "Please cite the following papers: https://www.biorxiv.org/content/10.1101/2021.10.15.464594v1 and https://www.nature.com/articles/s41593-021-00901-w",
+  "ethics_approvals": [
+    "IRBs at JHH, NIH, KUMC, UMF, CClinic"
+  ],
+  "references_and_links": [
+    "https://www.nature.com/articles/s41593-021-00901-w",
+    "https://www.biorxiv.org/content/10.1101/2021.10.15.464594v1 "
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds003876.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "9d0bcce3fb5cac220bf50293f646954cd2a025ffc7d81a70aca184c62e20968e"
+}

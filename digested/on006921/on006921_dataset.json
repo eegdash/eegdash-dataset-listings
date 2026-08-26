@@ -1,0 +1,126 @@
+{
+  "dataset_id": "on006921",
+  "name": "High Density Resting State EEG of Phantom Limb Pain and Controls",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006921-blue)](https://doi.org/10.82901/nemar.on006921)\n# High Density Resting State EEG of Phantom Limb Pain and Controls\nThis dataset comprises resting state high density EEG data (64 or 128 channels) collected from three categories of subjects: amputees with phantom limb pain, amputees without phantom limb pain, and intact, pain free controls. The data has been organised according to the BIDS standard for more accessible reuse. Recordings are approximately 7 minutes long with eyes opened or closed, as indicated by task.\n## Usage\nFor loading and using the data in Matlab we recommend using pop_importbids by EEGLab, example usage here: https://eeglab.org/tutorials/11_Scripting/Analyzing_EEG_BIDS_data_in_EEGLAB.html\nFor a complete pipeline for resting state EEG preprocessing and feature extraction in Matlab we recommend DISCOVER-EEG:\nCristina Gil. (2024). crisglav/discover-eeg: 2.0.0 (2.0.0). Zenodo. https://doi.org/10.5281/zenodo.10797803\n## Phenotype data note\nSession-level questionnaire data are stored in `phenotype/pain-questionnaire_sessions.tsv` with descriptions of the corresponding questionnaire items in `phenotype/pain-questionnaire_sessions.json`. The phenotype files are currently ignored by the BIDS Validator due to incomplete support for phenotype indexing across multiple sessions.\n## License\nCC0",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Ramne, M.",
+    "Damercheli, S.",
+    "Apelgren, F.",
+    "Pettersson, I.",
+    "Lendaro, E."
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on006921",
+  "associated_paper_doi": null,
+  "tasks": [
+    "EYESCLOSED",
+    "EYESOPEN"
+  ],
+  "sessions": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "total_files": 152,
+  "size_bytes": 69692639273,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 38,
+    "ages": [
+      22,
+      28,
+      24,
+      28,
+      28,
+      24,
+      23,
+      24,
+      24,
+      25,
+      24,
+      26,
+      26,
+      25,
+      28,
+      25,
+      26,
+      27,
+      24,
+      47,
+      44,
+      46,
+      39,
+      77,
+      45,
+      35,
+      61,
+      45,
+      43,
+      57,
+      64,
+      38,
+      39,
+      51,
+      50,
+      66,
+      45,
+      27
+    ],
+    "age_min": 22,
+    "age_max": 77,
+    "age_mean": 36.8421052631579,
+    "species": null,
+    "sex_distribution": {
+      "m": 20,
+      "f": 18
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Lendaro, E.",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:39.842814+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 17:43:35"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006921",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006921",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006921.v1.1.1"
+    }
+  ],
+  "ingestion_fingerprint": "01da68272ffc8961e7c9d133b4ea1152fd1098a6edc261525593c416a3ab5998"
+}

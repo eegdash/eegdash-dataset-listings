@@ -1,0 +1,88 @@
+{
+  "dataset_id": "nm000105",
+  "name": "FRL Discrete Gestures: Hand Gesture Recognition from Surface Electromyography",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "# discrete_gestures: Discrete Hand Gesture Detection from EMG\n## Overview\n**Dataset**: discrete_gestures - Discrete hand gestures from wrist-based surface electromyography\n**Task**: Nine discrete hand gestures (pinches and swipes)\n**Participants**: 100 subjects\n**Sessions**: 100 total (1 per subject)\n**Publication**: Kaifosh et al., 2025 - \"A generic non-invasive neuromotor interface for human-computer interaction\" (Nature)\n### Purpose\nThis dataset captures wrist-based sEMG signals during prompted discrete hand gestures for navigation and activation tasks. The goal is to enable gesture-based computer control without cameras or visible hand movements, with applications in AR/VR, mobile interfaces, and accessibility.\nKey research objectives:\n- Generic models that work across users without calibration\n- Discrete gesture classification with high accuracy\n- Real-time gesture detection for interactive systems\n- Robustness to electrode placement variability\n## Dataset Details\n### Participants\n**Sample size**: 100 participants\n**Demographics**: Not available (age, sex, handedness marked as n/a)\n**Recording side**: Dominant wrist (assumed right-handed, varies by participant)\n**Sessions**: 1 session per participant\n### Hardware\n**Device**: sEMG Research Device (sEMG-RD)\n**Configuration**: Single wristband (dominant wrist)\n**Channels**: 16\n**Sampling rate**: 2000 Hz\n**Bit depth**: 12 bits\n**Dynamic range**: \u00b16.6 mV\n**Bandwidth**: 20-850 Hz\n**Connectivity**: Bluetooth\n**Electrode type**: Dry gold-plated differential pairs\n### Gestures\n**Nine discrete gestures**:\n**Thumb swipes** (4):\n- Left swipe\n- Right swipe\n- Up swipe\n- Down swipe\n**Pinches** (4):\n- Index-to-thumb pinch\n- Middle-to-thumb pinch\n- Ring-to-thumb pinch\n- Pinky-to-thumb pinch\n**Activation** (1):\n- Thumb tap\n### Recording Protocol\n1. Participant dons sEMG-RD on dominant wrist\n2. Gesture prompter displays gesture cue (scrolling left-to-right)\n3. Participant performs prompted gesture\n4. Randomized order with randomized inter-gesture intervals\n5. Multiple repetitions of each gesture type\n**Session duration**: Varies by participant\n**Total gestures**: 1900 prompted gestures across all participants\n**Stage boundaries**: 16 recording stages per session\n## Data Contents\n### Files per Session\n```\nsub-XXX/ses-XXX/emg/\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-discretegestures_emg.edf\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-discretegestures_emg.json\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-discretegestures_channels.tsv\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-discretegestures_events.tsv\n\u2514\u2500\u2500 sub-XXX_ses-XXX_electrodes.tsv\n```\n### Channel Configuration\n**Total channels**: 16 (EMG0-EMG15)\n**Channel naming**: Unique identifiers (EMG0-EMG15)\n**Electrode naming**: E0-E15 (physical positions)\n**Reference**: Bipolar (differential sensing)\n**channels.tsv columns**:\n- `name`: Channel identifier (EMG0-EMG15)\n- `type`: EMG\n- `units`: V\n- `signal_electrode`: Physical electrode name (E0-E15)\n- `reference`: bipolar\n**electrodes.tsv columns**:\n- `name`: Electrode identifier (E0-E15)\n- `x`, `y`, `z`: 3D coordinates (percent units, no decimals)\n### Events\n**events.tsv contains**:\n- **Gesture prompts**: Timestamped prompts for each gesture\n  - `type`: gesture_X (where X is the gesture name)\n  - `latency`: Sample index when gesture was prompted\n  - `gesture_type`: Specific gesture (e.g., \"index_pinch\", \"thumb_swipe_left\")\n- **Stage boundaries**: Recording session phases\n  - `type`: stage_boundary\n  - `stage_name`: Stage identifier\n**Total events**: 1916 (1900 gesture prompts + 16 stage boundaries)\n### Coordinate System\n**Single coordinate system** (no space entity):\n```\nEMGCoordinateSystem: Other\nEMGCoordinateUnits: percent\nX: USP \u2192 RSP (0-100%)\nY: Right-hand rule perpendicular (0-100%)\nZ: Radial offset (constant 10%)\n```\n**Anatomical landmarks**:\n- RSP: Radial Styloid Process\n- USP: Ulnar Styloid Process\n**Note**: Right-handed coordinate system for dominant wrist\n## Signal Processing\n### Preprocessing Applied\n1. **High-pass filtering**: 40 Hz cutoff\n2. **Clock drift correction**: Time synchronization\n3. **Irregular sampling handling**: Resampling when deviation >1% (up to 9290% deviation detected)\n### Signal Characteristics\n**Gesture patterns**:\n- Patterned activity across channels corresponding to flexor/extensor muscles\n- Fine differences across gesture instances\n- Channel activity correlates with muscle positions (Fig. 1 in paper)\n## Baseline Performance\n### Published Results (Kaifosh et al., 2025)\n**Offline Classification** (held-out participants):\n- Accuracy: >90% for gesture classification\n- False-negative rate improves with more training data\n- Generic models trained on hundreds of participants\n**Closed-loop Performance** (n=24 naive test users):\n- **First-hit probability**: Median improvement from 0.74 (practice) to 0.82 (evaluation block 2)\n- **Gesture completion rate**: Median 0.88 gestures/second (evaluation block 2)\n- **Baseline comparison**: Gaming controller achieves 1.45 completions/second\n**Model architecture**: 1D convolution \u2192 LSTM layers\n**Learning effects**: Participants improve from practice to evaluation blocks\n### Representation Analysis\n**Network learns**:\n- First layer filters resemble motor unit action potentials (MUAPs)\n- Deeper layers progressively separate gesture categories\n- Invariance to nuisance variables (participant ID, electrode placement, signal power)\n## Confusion Matrix\n**Common confusions** (from paper):\n- Index and middle holds sometimes released too early\n- Similar gestures (e.g., adjacent finger pinches) occasionally confused\n- Swipe directions generally well-separated\n**Note**: Some errors are behavioral (wrong gesture performed) not just decoding errors\n## Use Cases\n### Machine Learning\n- **Time series classification**: Discrete event detection\n- **Generic modeling**: Out-of-the-box cross-user generalization\n- **Representation learning**: Physiologically-grounded features\n- **Real-time prediction**: Low-latency gesture detection\n### Applications\n- **Grid navigation**: Discrete movement in 2D space\n- **Menu selection**: Activation gestures for UI elements\n- **Game control**: Gesture-based game inputs\n- **AR/VR interfaces**: Hands-free navigation\n- **Accessibility**: Alternative input modality\n## Known Issues and Limitations\n### By Design\n- **Single wrist**: Dominant hand only (not bilateral)\n- **Handedness unknown**: Assumed right-handed, varies by participant\n- **Gesture novelty**: Users needed coaching to learn effective gestures\n- **No demographic data**: Age, sex, handedness not collected\n### Technical\n- **Electrode placement**: Single session per user (less cross-session data than emg2qwerty)\n- **Signal amplitude**: Varies with gesture force\n- **Hardware unavailable**: sEMG-RD not commercially available\n### Data Quality\n- **Irregular sampling**: High deviation detected (up to 9290%), resampling applied\n- **Behavioral errors**: Not all errors are decoder errors (some user mistakes)\n## Comparison to Baselines\n**Nintendo Joy-Con controller**:\n- Median: 1.45 completions/second\n- sEMG decoder: 0.88 completions/second (66% slower)\n**However**: sEMG doesn't require hand-encumbering device\n### BIDS Format\n```\nPernet, C.R., et al. (2019). EEG-BIDS, an extension to the brain\nimaging data structure for electroencephalography.\nScientific Data, 6(1), 103.\n```\n## Access and Contact\n**Original data**: Part of Meta Reality Labs neuromotor interface research\n**BIDS conversion**: Custom MATLAB tools using EEGLAB BIDS plugin\n**Data curator**: Yahya Shirazi, SCCN (Swartz Center for Computational Neuroscience), INC (Institute for Neural Computation), UCSD\n**Contact**: See Nature paper for corresponding authors\n## License\nResearch and educational use. See original publication.\n## Citation\n```\nKaifosh, P., Reardon, T.R., & CTRL-labs at Reality Labs. (2025).\nA generic non-invasive neuromotor interface for human-computer interaction.\nNature, 645(8081), 702-711. https://doi.org/10.1038/s41586-025-09255-w\n```\n## Data Curator\n**Yahya Shirazi**\nSCCN (Swartz Center for Computational Neuroscience)\nINC (Institute for Neural Computation)\nUniversity of California San Diego\n## Version History\n**v1.0** (2025-10-01): Initial BIDS conversion\n---\n**BIDS Version**: 1.11 | **EMG-BIDS**: BEP-042 | **Updated**: Oct 1, 2025",
+  "recording_modality": [
+    "emg"
+  ],
+  "datatypes": [
+    "emg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.11.0",
+  "license": "CC-BY-NC 4.0",
+  "authors": [
+    "Patrick Kaifosh",
+    "Thomas R. Reardon",
+    "CTRL-labs at Reality Labs"
+  ],
+  "funding": [
+    "Meta Reality Labs"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000105",
+  "associated_paper_doi": null,
+  "tasks": [
+    "discretegestures"
+  ],
+  "sessions": [
+    "000"
+  ],
+  "total_files": 100,
+  "size_bytes": 22107418852,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 100,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "CTRL-labs at Reality Labs",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:02.961838+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-02-23 07:48:52"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000105",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "coordsystem.json",
+      "participants.json",
+      "participants.tsv",
+      "task-discretegestures_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000105",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Data collected by Meta Reality Labs. BIDS conversion was done at SCCN, INC, UCSD.",
+  "how_to_acknowledge": "Please cite: Kaifosh, P., Reardon, T.R., & CTRL-labs at Reality Labs. (2025). A generic non-invasive neuromotor interface for human-computer interaction. Nature, 645(8081), 702-711. https://doi.org/10.1038/s41586-025-09255-w",
+  "ethics_approvals": "Approved by independent external Institutional Review Board (IRB). Participation was voluntary, participants provided informed consent, and data have been de-identified.",
+  "references_and_links": [
+    "https://doi.org/10.1038/s41586-025-09255-w"
+  ],
+  "generated_by": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3",
+      "Description": "BIDS conversion tool"
+    }
+  ],
+  "ingestion_fingerprint": "20c6677603c303e4e5167305c650b62db86cb5656e66cb8f6bbe31e22a58976e"
+}

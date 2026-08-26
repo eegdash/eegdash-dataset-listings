@@ -1,0 +1,103 @@
+{
+  "dataset_id": "on004264",
+  "name": "Steer the Ship",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004264-blue)](https://doi.org/10.82901/nemar.on004264)\n# Steer the Ship\nTwenty-one participants learned to control the trajectory of a ship, represented by centrally presented rotating arrow. Prior to each round participants were cued about the degree of controller and environmental noise (\"wind\") they would experience. During the round, participants pressed the 'f' and 'j' keys to apply angular force in either a clockwise or counterclockwise direction. The goal of the task was to keep the ship closely oriented towards a target. Points were accumulated depending on the mean distance to target. The ship would crash if it strayed too far from the target (and the round would end). Each round lasted up to 1 minute. The underlying physics were based on the pole-and-cart problem (i.e., unstable).\nThere were four noise conditions:\n1: No noise\n2: Environmental noise only (ship occasionally moved on its own)\n3: Controller noise only (amount of force varied)\n4: Environmental and controller noise\nParticipant 12 should be excluded from event-locked analyses due to bad triggers (trigger cable was partially disconnected).\nAlso note that the RT for the first button press in each round is not recorded (but is recorded in the participantActions column).\nTrigger Modifiers (added to condition numbers)\nAdd 0: Condition cue\nAdd 10: Start of round\nAdd 20: Left button press\nAdd 30: Right button press\nAdd 40: Left button press (computer)\nAdd 50: Right button press (computer)\nAdd 60: Crash\nAdd 70: Success (reached 1 minute of play)\nAdd 80: Points displayed\n\ufeff",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Cameron D. Hassall",
+    "Yan Yan",
+    "Laurence T. Hunt"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004264",
+  "associated_paper_doi": null,
+  "tasks": [
+    "steertheship"
+  ],
+  "sessions": [],
+  "total_files": 21,
+  "size_bytes": 3546310945,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      23,
+      22,
+      23,
+      25,
+      27,
+      29,
+      26,
+      41,
+      33,
+      25,
+      24,
+      25,
+      24,
+      22,
+      28,
+      27,
+      21,
+      23,
+      24,
+      26,
+      24
+    ],
+    "age_min": 21,
+    "age_max": 41,
+    "age_mean": 25.80952380952381,
+    "species": null,
+    "sex_distribution": {
+      "f": 16,
+      "m": 5
+    },
+    "handedness_distribution": {
+      "r": 19,
+      "l": 2
+    }
+  },
+  "senior_author": "Laurence T. Hunt",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:36.484919+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 20:38:35"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004264",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004264",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004264.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "7de7db4c30f228008bd8750cd0724d5212fda100d8b7e6bb29e12405bcf1f5aa"
+}

@@ -1,0 +1,494 @@
+{
+  "dataset": "nm000135",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:27.403625+00:00",
+  "record_count": 5,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000135",
+      "data_name": "nm000135_sub-1_ses-4test_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000135/sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "4test",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "4test",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000135",
+        "raw_key": "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_events.tsv",
+          "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_events.json",
+          "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-4test/eeg/sub-1_ses-4test_task-imagery_run-0_eeg.bdf": "SHA256E-s4345802--4df0b3e621fe91b0e17eec0504eba61e96b3690d334ff86385e6b4e6aecddf2f.bdf"
+        }
+      },
+      "ch_names": [
+        "C3",
+        "Cz",
+        "C4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 474362,
+      "duration_seconds": 1897.448,
+      "digested_at": "2026-08-26T11:01:27.403625+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filtering, notch filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0,
+          "Type": "analog"
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "Easycap",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 1897.448,
+      "eeg_ground": "Fz",
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000135",
+      "data_name": "nm000135_sub-1_ses-2train_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000135/sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "2train",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "2train",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000135",
+        "raw_key": "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_events.tsv",
+          "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_events.json",
+          "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-2train/eeg/sub-1_ses-2train_task-imagery_run-0_eeg.bdf": "SHA256E-s4297733--ff2311c15926ea78d2d6db44b018b945390cbaffd4d92cea03bca26cd54e59e4.bdf"
+        }
+      },
+      "ch_names": [
+        "C3",
+        "Cz",
+        "C4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 469010,
+      "duration_seconds": 1876.04,
+      "digested_at": "2026-08-26T11:01:27.403625+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filtering, notch filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0,
+          "Type": "analog"
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "Easycap",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 1876.04,
+      "eeg_ground": "Fz",
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000135",
+      "data_name": "nm000135_sub-1_ses-3test_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000135/sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "3test",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "3test",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000135",
+        "raw_key": "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_events.tsv",
+          "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_events.json",
+          "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-3test/eeg/sub-1_ses-3test_task-imagery_run-0_eeg.bdf": "SHA256E-s4272554--a1f11162756cf01d58c72150589517e80835f7458652ca60eb38f1cdfb3eed1d.bdf"
+        }
+      },
+      "ch_names": [
+        "C3",
+        "Cz",
+        "C4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 466313,
+      "duration_seconds": 1865.252,
+      "digested_at": "2026-08-26T11:01:27.403625+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filtering, notch filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0,
+          "Type": "analog"
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "Easycap",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 1865.252,
+      "eeg_ground": "Fz",
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000135",
+      "data_name": "nm000135_sub-1_ses-0train_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000135/sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0train",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0train",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000135",
+        "raw_key": "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_events.tsv",
+          "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_events.json",
+          "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0train/eeg/sub-1_ses-0train_task-imagery_run-0_eeg.bdf": "SHA256E-s5540660--d0dd7b7972a5f510a4f2c8991433e308d4bf4bb6d3cb44b372186b2ba4bb0cb3.bdf"
+        }
+      },
+      "ch_names": [
+        "C3",
+        "Cz",
+        "C4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 604802,
+      "duration_seconds": 2419.208,
+      "digested_at": "2026-08-26T11:01:27.403625+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filtering, notch filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0,
+          "Type": "analog"
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "Easycap",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2419.208,
+      "eeg_ground": "Fz",
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000135",
+      "data_name": "nm000135_sub-1_ses-1train_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000135/sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "1train",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "1train",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000135",
+        "raw_key": "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_events.tsv",
+          "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_events.json",
+          "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-1train/eeg/sub-1_ses-1train_task-imagery_run-0_eeg.bdf": "SHA256E-s5059970--b4d1cad712f1091a53da4efc2c2ec0afc7d3d95e5bf80116f22d95e3394b05ad.bdf"
+        }
+      },
+      "ch_names": [
+        "C3",
+        "Cz",
+        "C4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 552451,
+      "duration_seconds": 2209.804,
+      "digested_at": "2026-08-26T11:01:27.403625+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "left mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "bandpass filtering, notch filtering"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "low_cutoff_hz": 0.5,
+          "high_cutoff_hz": 100.0,
+          "Type": "analog"
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.tec",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "Easycap",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2209.804,
+      "eeg_ground": "Fz",
+      "montage_hash": null
+    }
+  ]
+}

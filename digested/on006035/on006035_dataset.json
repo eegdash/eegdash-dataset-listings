@@ -1,0 +1,107 @@
+{
+  "dataset_id": "on006035",
+  "name": "somatomotor",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006035-blue)](https://doi.org/10.82901/nemar.on006035)\nAccession: #: ds006035\nDescription: Multi-subject, multi-modal (sMRI+MEG+EEG) neuroimaging dataset for median nerve stimulation and motor responses.\nThis dataset contains MRI (T1w), MEG, and EEG data for median nerve electrical stimuli delivered at the right wrist.\nThe task was to respond by lifting the left hand idex finger as quickly as possible after each right median nerve stimulus.\nmeg/\n----\nThree anatomical fiducials were digitized for aligning the MEG with the MRI:\n1. nasion (lowest depression between the eyes);\n2. left pre-auricular point;\n3. right pre-auricular point.\nThe following triggers are included in the .fif files and are also used in the \u201cvalue\u201d column of the meg events .tsv files:\nTrigger     Label                                        Simplified Label\n32             somatosensory stimulus      somatosensory\n16             finger lift response                finger\nIf you wish to publish any of these data, please acknowledge the authors.\nBIDS \ufeffReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110.https://doi.org/10.1038/sdata.2018.110",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Fa-Hsuan Lin",
+    "Deirdre Foxe von Pechmann",
+    "Kaisu Lankinen",
+    "Seppo Ahlfors",
+    "Bruce Rosen",
+    "Jyrki Ahveninen",
+    "Matti H\u00e4m\u00e4l\u00e4inen",
+    "Tommi Raij"
+  ],
+  "funding": [
+    "NIH P41RR014075, P41EB030006"
+  ],
+  "dataset_doi": "10.82901/nemar.on006035",
+  "associated_paper_doi": null,
+  "tasks": [
+    "somatomotor"
+  ],
+  "sessions": [
+    "meeg"
+  ],
+  "total_files": 15,
+  "size_bytes": 3295037739,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 5,
+    "ages": [
+      34,
+      25,
+      40,
+      30,
+      27
+    ],
+    "age_min": 25,
+    "age_max": 40,
+    "age_mean": 31.2,
+    "species": null,
+    "sex_distribution": {
+      "m": 3,
+      "f": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Tommi Raij",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:35.659026+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-28 10:07:55"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006035",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006035",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by the U.S. National Institutes of Health grants P41RR014075 and P41EB030006 (BR). The funders had no role in the study design; data collection, analysis, and interpretation; writing of the manuscript; or the decision to submit the data for publication.",
+  "ethics_approvals": [
+    "name: Massachusetts General Hospital",
+    "number: 1999P010946"
+  ],
+  "generated_by": [
+    {
+      "Name": "mne",
+      "Version": "1.7.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.TBD"
+    },
+    {
+      "DOI": "doi:10.18112/openneuro.ds006035.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "21512abbe5a5f93392958494634a240d16f648c1ecc428b2d729d0c2a320097c"
+}

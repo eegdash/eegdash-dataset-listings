@@ -1,0 +1,123 @@
+{
+  "dataset_id": "on005692",
+  "name": "SpinalExpect_NonInvasive",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005692-blue)](https://doi.org/10.82901/nemar.on005692)\nContact person:\nMax-Philipp Stenner, email: max-philipp.stenner@med.ovgu.de or max-philipp.stenner@lin-magdeburg.de, ORCID: 0000-0002-3694-1887\nBrief overview of the tasks in the experiment:\nThe goal was to reveal whether temporal expectation influences initial sensory processing in the human spinal cord. In each trial, subjects (n=30, healthy, young) received at least one electric median nerve stimulation on the left wrist. Their task was to silently count in how many (rare) trials in each block (~5 min) there were two median nerve stimuli in rapid succession (80 ms ISI), and to report that number at the end of each block. In each trial, the median nerve stimulation was preceded by an auditory cue. In alternating blocks, the time interval between the auditory cue and the (first) median nerve stimulation was either fixed at 1100 ms, or varied randomly (uniform distribution) between 100 and 2100 ms. Each subject (except for sub-24) completed two days of testing. Whether a session began with a constant-interval block or variable-interval block was counterbalanced across subjects.\nMontage:\nAdapted from/extended beyond Chander, B. S., Deliano, M., Aza\u00f1\u00f3n, E., B\u00fcntjen, L., & Stenner, M. P. (2022). Non-invasive recording of high-frequency signals from the human spinal cord. NeuroImage, 253, 119050, as follows. Electrodes were placed in three rings around the neck. \"Sr\" in the channel names stands for \"spinal ring\". There was a caudal, middle, and cranial ring of electrodes. The middle ring was connecting a point above the spinous process of the sixth cervical vertebra (SrC6), and a point above the thyroid cartilage (\"SrF\"). Between these two electrodes, the remaining six electrodes for the middle ring were evenly spaced around the neck. \"L\" in channel names means left, \"R\" means right, \"B\" means \"back\", \"F\" means front, and \"M\" means middle. For the caudal and cranial rings, electrodes were placed approximately 2 cm below (\"_b\") and 2 cm above (\"_a\") the corresponding electrodes of the middle ring, respectively.\nEvents:\nThere are three events of interest. \"S1\" is a keypress of the experimenter, to advance the task upon breaks. \"S1\" can therefore be used to identify the start of each new block. \"S70\" corresponds to the auditory cue. \"S130\" corresponds to median nerve stimulation. \"S99\" is a \"placeholder\" that corresponds to no stimulus at all. The placeholder was used to enable \"double stimuli\", i.e., a rapid succession of two median nerve stimulations with an ISI of 80 ms. Most trials follow a sequence of \"S70\" - \"S130\" - \"S99\". Deviant trials have \"S70\" - \"S130\" - \"S130\".",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6",
+  "license": "CC0",
+  "authors": [
+    "Max-Philipp Stenner",
+    "Cindy Marquez Nossa",
+    "Tino Zaehle",
+    "Elena Azanon",
+    "Hans-Jochen Heinze",
+    "Matthias Deliano",
+    "Lars Buentjen"
+  ],
+  "funding": [
+    "M.-P.S. was supported by a VolkswagenStiftung Freigeist Fellowship project-ID 92977.",
+    "M.-P.S. and E.A. received funding from a Deutsche Forschungsgemeinschaft Sonderforschungsbereich SFB-1436 TPC03 project-ID 425899996."
+  ],
+  "dataset_doi": "10.82901/nemar.on005692",
+  "associated_paper_doi": null,
+  "tasks": [
+    "countingDeviants"
+  ],
+  "sessions": [
+    "1",
+    "2"
+  ],
+  "total_files": 59,
+  "size_bytes": 99649240419,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 30,
+    "ages": [
+      27,
+      24,
+      21,
+      26,
+      29,
+      27,
+      24,
+      26,
+      25,
+      25,
+      24,
+      20,
+      28,
+      27,
+      26,
+      30,
+      27,
+      28,
+      32,
+      24,
+      31,
+      25,
+      31,
+      20,
+      24,
+      24,
+      26,
+      23,
+      23,
+      32
+    ],
+    "age_min": 20,
+    "age_max": 32,
+    "age_mean": 25.966666666666665,
+    "species": null,
+    "sex_distribution": {
+      "m": 18,
+      "f": 12
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Lars Buentjen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:06.224554+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-27 18:09:31"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005692",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005692",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We would like to thank Hans-Juergen Warmbold and Anne Katrin Baum for their technical support.",
+  "how_to_acknowledge": "Stenner, Marquez Nossa, Zaehle, Aza\u00f1on, Heinze, Deliano, and B\u00fcntjen, Prior Knowledge Changes Initial Sensory Processing in the Human Spinal Cord. Science Advances, accepted",
+  "ethics_approvals": [
+    "Ethics Committee at the Medical Faculty at Otto-von-Guericke University Magdeburg, Germany"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005692.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "d44f2db7092211d264fa0b5a9a4f4082e33b9721fee73fc7e5daaf78f7dc036e"
+}

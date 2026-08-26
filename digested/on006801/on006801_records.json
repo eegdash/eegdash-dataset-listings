@@ -1,0 +1,3453 @@
+{
+  "dataset": "on006801",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:13:28.569219+00:00",
+  "record_count": 42,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-17_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.json",
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.eeg",
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.vmrk",
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--e636a8f2f1beb0ed6e8c432bd3e20c8e3467bf89436dee94e7c03698bbf72e31.vhdr",
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.eeg": "SHA256E-s33848280--75373a688e6b5fa38bb931c33536d8d198f6b0d743e4986a2f90c560b8bb7c39.eeg",
+          "sub-17/ses-post/eeg/sub-17_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--1aa172566652fc38a32d58737637ec7e66c64e07e9ccee5c40cac00c2305abc6.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 272970,
+      "duration_seconds": 545.94,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-17_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.json",
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.eeg",
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.vmrk",
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--05e427cf95366245771af7e031e88ddda1d6eb6f16d8b8ef0176782107bc93cc.vhdr",
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.eeg": "SHA256E-s33790000--e5ef5f2c6a377598f916aea02e1357042da514654608dfd6f9b369f41e335320.eeg",
+          "sub-17/ses-pre/eeg/sub-17_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--053a1570d553345097c094e486a191f02a34e6b625104917303c0536fcd4e2ae.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 272500,
+      "duration_seconds": 545.0,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-14_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.json",
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.eeg",
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.vmrk",
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--394c5b1b6872b50a0003caf5b9d107de0c05ccea9cefef9b64408bf3cc2703ce.vhdr",
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.eeg": "SHA256E-s33568040--206b49c8454d0f9203997edd3debc3b3e8ea806ba148e10519f4fe19bd838c6d.eeg",
+          "sub-14/ses-post/eeg/sub-14_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--c4c71577f102ef5ab884e4ca724a2dabcf81d07d7fa9b82de4febd0be20b3070.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270710,
+      "duration_seconds": 541.42,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-14_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.json",
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.eeg",
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.vmrk",
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--6f97caf7336a7c9c2db37583533c87d61084dbcd43148ea5146340d5ac7a8918.vhdr",
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.eeg": "SHA256E-s33566800--f79c021cb143f45514f364fe46fa5e90a99d4cbd532c6a66c72be36527f7de99.eeg",
+          "sub-14/ses-pre/eeg/sub-14_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--04017d95ba423a086d66b092bba0442c4eff28b6c854736192cd41c5c5b59012.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270700,
+      "duration_seconds": 541.4,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-15_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.json",
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.eeg",
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.vmrk",
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--fb5d9923690496d65fc9605c14adb0050c2e130c94c1f0b3c67fb25419f1858c.vhdr",
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.eeg": "SHA256E-s33573000--24e6a3304b909ce71ea4001d773c98f3308073ec3c28a0274209a9227af660ff.eeg",
+          "sub-15/ses-post/eeg/sub-15_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--d9ec16002c5a8dd3d73183d7e58dc19a1152886e8fc56940111986020185f96e.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270750,
+      "duration_seconds": 541.5,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-15_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.json",
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.eeg",
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.vmrk",
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--cd6e8248f791c450a8985036ad623c946291572d645a4953f94320263202f3d2.vhdr",
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.eeg": "SHA256E-s33551920--37ff1fd1b53c21c2c03af865a33a03591b475575706e8c77157bdf1d7aeaeca8.eeg",
+          "sub-15/ses-pre/eeg/sub-15_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--50b5601d9844d78c365fa63fbf683057a3e6a1d6af172f282386c67dd3154b92.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270580,
+      "duration_seconds": 541.16,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-04_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.json",
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.eeg",
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.vmrk",
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--6b64d58247447a45436a265febb3f4c9e3b2ca9a7b6a2e730386b23e0672c69b.vhdr",
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.eeg": "SHA256E-s33662280--e293e1217d42dcde67a3e6aae90f26d397f600bddc74b84a1d4541c44580e50e.eeg",
+          "sub-04/ses-post/eeg/sub-04_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--99ab6b73ce1561ec00bbb0e7dd295f7b18582e513ab82ffa702f39839c151a3e.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271470,
+      "duration_seconds": 542.94,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-04_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.json",
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.eeg",
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.vmrk",
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--cf8af97715b39486c6e5d589a452483a4901aedb75738ca0e987a08cb64d009c.vhdr",
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.eeg": "SHA256E-s33564320--29e9015b5fa6a18ceae300d90b8a590e29d1150ed6d4887bcfa31cb77e31a9db.eeg",
+          "sub-04/ses-pre/eeg/sub-04_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--e92c749d99f2f94c05982a6a888cd6cabeadb97fa2de5efe572ab78b2493eab7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270680,
+      "duration_seconds": 541.36,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-13_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.json",
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.eeg",
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.vmrk",
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--2e1440d206f7e06346bd54f73d48582b6e5d9962b487c59ba0f5eb1fcce32bb1.vhdr",
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.eeg": "SHA256E-s33658560--ccb98617200d60cc4aad3a6e4f1ebaf48a328cded1a3cd83eb13b24f77604e1f.eeg",
+          "sub-13/ses-post/eeg/sub-13_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--590175dcb822435c8523eb844460277f1f2f231da7b7338c4258899460f8fcee.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271440,
+      "duration_seconds": 542.88,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-13_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.json",
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.eeg",
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.vmrk",
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--0ea6bd09ecce528314143312ac43483b01f7663f0b03041da387ef3f6a4bef3c.vhdr",
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.eeg": "SHA256E-s33570520--fb49dee97b7ae6010b8fc00733dcc2a534cc5e218b6ac2f0d439f34f644fc384.eeg",
+          "sub-13/ses-pre/eeg/sub-13_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--9872e39748e53c825a7ba8169149a90eb21f50da279b99b7371ae87a1e06eca3.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270730,
+      "duration_seconds": 541.46,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-05_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.json",
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.eeg",
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.vmrk",
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--dd5e8d56285446dbdd9db3deddc834904dff63e674c6485269032ab5f30ebf90.vhdr",
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.eeg": "SHA256E-s33582920--2aae2879692420f0f1c986c0da3c4cd1fdbf6cb6162af6311e4ba0fba3790f22.eeg",
+          "sub-05/ses-post/eeg/sub-05_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--127e57362857f1778b914c71657d215d4bf0f8039813eb96fb9ffd44bf2b217a.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270830,
+      "duration_seconds": 541.66,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-05_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.json",
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.eeg",
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.vmrk",
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--683d1ed7fbe2063e9565c584af4183b86246e9c2b53b535c478ef6656a21261c.vhdr",
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.eeg": "SHA256E-s33596560--b4577f8407d9069241e0941bac2aadc7df549cbff1e0bec17a66ae562c33aeb8.eeg",
+          "sub-05/ses-pre/eeg/sub-05_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--313a87ee7c31fe2bb9064617811e06ac9360972c65bf7eda06b5ab3247346ee4.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270940,
+      "duration_seconds": 541.88,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-18_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.json",
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.eeg",
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.vmrk",
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--bac41ed2bf01ad0468e4e855879bfbc56871f07125f45981c3ce43bbbf25ee27.vhdr",
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.eeg": "SHA256E-s34014440--bedbcae031faacdd8ff87b36c2d92ead3a6a68e3a22b52ea0852281f748c39c7.eeg",
+          "sub-18/ses-post/eeg/sub-18_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--b50cd545524cfe073ffc99fd2e00f90ad530f348c9541dcfa966bad2ee623433.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 274310,
+      "duration_seconds": 548.62,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-18_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.json",
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.eeg",
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.vmrk",
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--9de690a13017fb21abd5a5f67af7584a8ccc9aca0a99f27c184252364a2262ee.vhdr",
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.eeg": "SHA256E-s34320720--17cdf4205ca8ee603cba396c69809320de4f4243524a2a044c5722d125c7f141.eeg",
+          "sub-18/ses-pre/eeg/sub-18_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--93df045b35d6db2512bee1ef95dc2931d0181f2d3ec76bee0b576374ad15ce54.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 276780,
+      "duration_seconds": 553.56,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-12_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.json",
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.eeg",
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.vmrk",
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--16faf0054b2a9083fd5312d41618bb19d90ade9c5e9ada9492737e1848cfde5e.vhdr",
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.eeg": "SHA256E-s33546960--813d7f8aee7fa2908c2bb5d749d4e7611b53c50b8c07663c93c2474f0976b680.eeg",
+          "sub-12/ses-post/eeg/sub-12_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--8c42f958508ee476455df8a3dd50b3ec20418cb5d46e324bf590f050b96cf8f1.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270540,
+      "duration_seconds": 541.08,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-12_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.json",
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.eeg",
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.vmrk",
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--2ae1d28046df47626b60a11de8057ff686415bd7d044462ceec0c2ddd14555aa.vhdr",
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.eeg": "SHA256E-s33539520--111c10dfb89db9111fc287a8a86f1c0923e7d26f691f1f7bef0deddb9029fb14.eeg",
+          "sub-12/ses-pre/eeg/sub-12_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--1b8bc16d71dd7700d0283e275dfe22f386ea84c256cf0821206b62edb2d975c7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270480,
+      "duration_seconds": 540.96,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-11_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.json",
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.eeg",
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.vmrk",
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--49fd3a8efa39b445cab2b09e825b968499b02fd2244c84d1aaed5049152e213b.vhdr",
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.eeg": "SHA256E-s33626320--a558d825559e69ad904a223a97fbd134794255757e0c19f4bf3e6f51c28fd969.eeg",
+          "sub-11/ses-post/eeg/sub-11_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--2e4b19fd26990168b68cc1669ed95eba0a718cf104b771752d8b115000e61a9d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271180,
+      "duration_seconds": 542.36,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-11_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.json",
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.eeg",
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.vmrk",
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--bd83b17476d3eac09c4306b38c7974d29a31918852194d06e32dbb0d0e1744f7.vhdr",
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.eeg": "SHA256E-s33546960--9d09ebf1055e85aefab5fe290d58858e6b52079bdd69bc003b8fa290340fd28f.eeg",
+          "sub-11/ses-pre/eeg/sub-11_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--4d855b7a300c0a215bc7497ee0d6e0367f18dcbb8daad7a635f27541be00b2dc.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270540,
+      "duration_seconds": 541.08,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-03_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.json",
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.eeg",
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.vmrk",
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--d5f217b348716fca8313ad61bd79a2c275df572d6d4b444bc1e5cb913f799f6c.vhdr",
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.eeg": "SHA256E-s33658560--a1e28c295aaf200be3cd73fd3f97f8284d1b933c71278ad7b3837823c6edb962.eeg",
+          "sub-03/ses-post/eeg/sub-03_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--71eeabc0f326d9c9a1f7fdcd060dae66d9255c8cf8d831861d1bb843f6943324.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271440,
+      "duration_seconds": 542.88,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-03_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.json",
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.eeg",
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.vmrk",
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--0bfcdb87eee820638917e67cc178b5a2ddbe1a127f7dccf9d205ed2c271585d7.vhdr",
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.eeg": "SHA256E-s33627560--04b38dd3b0555842fc8c94110b46b8d0d9967600cc382e01ad86ed9dd1a05b93.eeg",
+          "sub-03/ses-pre/eeg/sub-03_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--ff1dde8070b28cffa1c5b194bf6cdc26b138364a42bf91db695467fc0454610f.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271190,
+      "duration_seconds": 542.38,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-06_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.json",
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.eeg",
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.vmrk",
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--07102d9e1e11df170886a1a846c225fa6665728a92a66ae1eb455477c7071fec.vhdr",
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.eeg": "SHA256E-s33565560--9d5bc915390dcb774a1d7cbbd8713fe42f90b1ceaf34dd7c6f62a210afb1fbac.eeg",
+          "sub-06/ses-post/eeg/sub-06_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--c0637adaff86977a270015aa8f04b4816c7363575053d75bdef0789f8e05ad00.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270690,
+      "duration_seconds": 541.38,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-06_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.json",
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.eeg",
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.vmrk",
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--d2e71941b9994345996a9a4787337bd64283cf67595b8735c16a127ae037c8b9.vhdr",
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.eeg": "SHA256E-s33596560--cd28d040051f16dd87eb12eaf26817d641867a3bb24e960ee8156cee9b206f1c.eeg",
+          "sub-06/ses-pre/eeg/sub-06_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--5c9e88d1eb7b2dce27b2e74d876015d6170762810c0049d3afa200352883e302.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270940,
+      "duration_seconds": 541.88,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-21_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.json",
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.eeg",
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.vmrk",
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--707cf78979494dd6e94477ecaec6fe226866b0865e9f719fe9ede68de9588170.vhdr",
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.eeg": "SHA256E-s33914000--c92638f5e6c02e01b17110c4d7eaf271c14a21a9eb56942323188236bff1ae7a.eeg",
+          "sub-21/ses-post/eeg/sub-21_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--839490b76a5c6420913bcb6e2bf0f707d1a77f284f4d27a4cbcea7478c411199.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 273500,
+      "duration_seconds": 547.0,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-21_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.json",
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.eeg",
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.vmrk",
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--071af97a2a7f5838df8c43986b18328b408499b447ebad0ec675e7a133be3dec.vhdr",
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.eeg": "SHA256E-s34044200--53b8393f7f00da89e3243e5a392ce5ab8b14ffa548d98ffdfdce2a9cc18ee63d.eeg",
+          "sub-21/ses-pre/eeg/sub-21_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--9020335dd9bb0a8457a8af5e6b4cae5272ea41fa40de977697159b14659d7bc3.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 274550,
+      "duration_seconds": 549.1,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-19_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.json",
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.eeg",
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.vmrk",
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--b381ed65c455d57f6ab3aebe98642bcb3c78548cf8e818b4a8caebf4b5e920e1.vhdr",
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.eeg": "SHA256E-s33917720--3286d6c118fb1980891ab9f11dd32dc4198e99611604b2a3dfd35fb44abc1308.eeg",
+          "sub-19/ses-post/eeg/sub-19_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--095e706286bcba3ce2ebc63c90550a2e75ff147eca5a2d364baebad48ea48b33.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 273530,
+      "duration_seconds": 547.06,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-19_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.json",
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.eeg",
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.vmrk",
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--8ba8fd7c77ef85b5fd236a614d5a33443bcd2a2ea6f0560f6f63adbd2c5eaef1.vhdr",
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.eeg": "SHA256E-s33860680--61117d5ed9bce2066675a22089c8cd60c80cc5cc8abb91e1142fb7ed3b062e34.eeg",
+          "sub-19/ses-pre/eeg/sub-19_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--673f7740aba3f1945c85d678977d1106337711d3b3e0ea4ef0ac782c4f861efa.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 273070,
+      "duration_seconds": 546.14,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-08_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.json",
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.eeg",
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.vmrk",
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--a15d66ebea16c00216c1dce9463b51edf58c8a675de8f893052b5b5c9ebe1fc5.vhdr",
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.eeg": "SHA256E-s33627560--452d15a6d0b88ef117d81543621df12425668aa04fe7d6976b61842f7dbdd05d.eeg",
+          "sub-08/ses-post/eeg/sub-08_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--ba2b31f1ea2832d0bc44964be0c5606419e12c33f9625d4d1aad08489dfe8be5.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271190,
+      "duration_seconds": 542.38,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-08_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.json",
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.eeg",
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.vmrk",
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--01b5d5f5e191c0d35eef077ce6e2ee392790f7ade6f836375c18366bf2864d17.vhdr",
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.eeg": "SHA256E-s33564320--495835fab6391320a8f4224462e8d4ccfc58a5e3173fea77942971c1ee7f7ce2.eeg",
+          "sub-08/ses-pre/eeg/sub-08_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--dce1c3db840ce458a70764e79899f60cfb5ac1accf0d77b6d55d7a3b1d8e664d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270680,
+      "duration_seconds": 541.36,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Passive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-10_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.json",
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.eeg",
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.vmrk",
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--f7426d6b149ce117294bd7963478b22c68544fce97845e68b1b91fc5a0ec2261.vhdr",
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.eeg": "SHA256E-s33560600--a61962ae5a8bf9c6580479d02abc15c9c4b2a50b499651ca7a5f75585446079d.eeg",
+          "sub-10/ses-post/eeg/sub-10_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--67eb6b13b85d5e1e603769dce00c4fff74247678d8eca9d124bf394de21618ec.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270650,
+      "duration_seconds": 541.3,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-10_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.json",
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.eeg",
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.vmrk",
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--dae3da12e87f180e5bc6910d687b4a15b442be29f55441edcc12a6787afe7e0d.vhdr",
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.eeg": "SHA256E-s33525880--0fa63712466b2d09e6e8ffef772fbf8b4b922a4e78a952dd5b9d635a5d505dd6.eeg",
+          "sub-10/ses-pre/eeg/sub-10_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--14020a3c8264759f006f836ae078fa73174f2ff6c19f68d2368f84ba09425d57.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270370,
+      "duration_seconds": 540.74,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-16_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.json",
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.eeg",
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.vmrk",
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--1154a9712b307a47a0f6bc6b14fe0d4193401fac4dd20ccbecbb7d5818bf89f8.vhdr",
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.eeg": "SHA256E-s33564320--55099e721f919b9f22aa0638afa910ad5e5e693c9eb05153668916aa1a81529f.eeg",
+          "sub-16/ses-post/eeg/sub-16_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--04f9856c61b05a1380f036ed9aa3807ba651a7d6afcd73d8836fbd864edf72ee.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270680,
+      "duration_seconds": 541.36,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-16_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.json",
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.eeg",
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.vmrk",
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--b11d484070e9d44c1747e4efc7264278d42c225ff43520be42bb0c84b36a0edf.vhdr",
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.eeg": "SHA256E-s33539520--af8cc95868a03503d7d3ce84808a50cabfe5a65338f7a1352886e54316f88011.eeg",
+          "sub-16/ses-pre/eeg/sub-16_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--b0be77dbfb5836b342fb49ca612de87eaba7b54065f54fabc879c39d6a402da1.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270480,
+      "duration_seconds": 540.96,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-07_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.json",
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.eeg",
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.vmrk",
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--b879605d1b793c0136a967f9bab0be3851f49f436d29a6cbbd13280d0fe9b450.vhdr",
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.eeg": "SHA256E-s33525880--6e4fa2637cb79a9f27925564e99f5442483d7ecca95e5184bc2de4d36c9c696c.eeg",
+          "sub-07/ses-post/eeg/sub-07_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--e1f40e52e23621be248b8dd94b5b3f6c41e60de24bc3b0af5106e887dde0c72e.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270370,
+      "duration_seconds": 540.74,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-07_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.json",
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.eeg",
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.vmrk",
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--4f5f9f3bf6dbedce4fb4d2b562dd2567069ed0111b41f7634a7de5a87a740712.vhdr",
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.eeg": "SHA256E-s33544480--f4139f8c837cf050071f751d709698ad3872bc4f6ddef9e18c09798dee723e91.eeg",
+          "sub-07/ses-pre/eeg/sub-07_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--88b7ab1b2d0a2a827434b5ec8fd83c7ce44f54210cc299864d9847d60485a33d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270520,
+      "duration_seconds": 541.04,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-09_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.json",
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.eeg",
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.vmrk",
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--f8920b3db87939569d19618351e37e78131f83c0c13ffc70372b51bb5ce9eee6.vhdr",
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.eeg": "SHA256E-s33549440--825805eed7a1ae7df914ef755f077ad23bc86f6426d38967f4f8973b5d76d03b.eeg",
+          "sub-09/ses-post/eeg/sub-09_ses-post_task-rest_eeg.vmrk": "SHA256E-s550--45e4cdbd39824e449244e22b2827ea3c7332bcb745cd3f12f4b7eecdaf26199a.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270560,
+      "duration_seconds": 541.12,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-09_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.json",
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.eeg",
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.vmrk",
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--abd52dde867abd501eb0634028ce85b4f50f91d95d781a280531a95891967976.vhdr",
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.eeg": "SHA256E-s33520920--79451fb820314c5c1001fc91c39c7aec83a719874ff9336a64312339a30bbe87.eeg",
+          "sub-09/ses-pre/eeg/sub-09_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--a85caefb8cf453b0c0f568ae4637ae28fa22e1bf50d76462f853bfc5dfddb00d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270330,
+      "duration_seconds": 540.66,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-02_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.json",
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.eeg",
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.vmrk",
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--123b30b99650de765150a068383c2bba77d722ad9319847d3e1528f3b42367f5.vhdr",
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.eeg": "SHA256E-s33770160--29b640acdf23e33f21ea525649de54acc616b23161c13a99632f650298711458.eeg",
+          "sub-02/ses-post/eeg/sub-02_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--fa73ae07ae4d75f0562f96e7fe7884d5a8ed5798fc2d7863d48bf62f7b7842c3.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 272340,
+      "duration_seconds": 544.68,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-02_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.json",
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.eeg",
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.vmrk",
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--94b4cdce565bb709b4ff4a39c53a978adcadfe035974a93fb1ab358903975953.vhdr",
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.eeg": "SHA256E-s33606480--401cb7cceb032f14efa223568aca9f10f4f0c4a0ab914398af63ec0fd9bc7b67.eeg",
+          "sub-02/ses-pre/eeg/sub-02_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--ade605fcac5769ebaad95159e9eed89a2abb0508d9323c5f24bfa2f1ae7073ba.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271020,
+      "duration_seconds": 542.04,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-22_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.json",
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.eeg",
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.vmrk",
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.vhdr": "SHA256E-s8030--ed248bb7eee17d7fdfb52ad5332c4d1b021fe9c240bd9f8b9286ce3185569c25.vhdr",
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.eeg": "SHA256E-s33853240--f104f875134f994c92cb6304df1ef6294df27323702fe1df3fd5f7c03f502483.eeg",
+          "sub-22/ses-post/eeg/sub-22_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--bb36f32c32b8b887e55f33d150844ae73c22840e5e5c960d493d895be9f3ca1c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 273010,
+      "duration_seconds": 546.02,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-22_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.json",
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.eeg",
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.vmrk",
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.vhdr": "SHA256E-s8028--5bc0bfee7002a985dfbd047acf0fd5699c0d9e9fb5526808b93bd3231502e90b.vhdr",
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.eeg": "SHA256E-s33812320--23c8a2e6d60ed99216b43f4e770530c99c06dda9590ca4e14469a4bb490c7481.eeg",
+          "sub-22/ses-pre/eeg/sub-22_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--9736f0d0a3f89befa5b812f33280fb14d1153c43e4e42ff36e5167a7490abef9.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 272680,
+      "duration_seconds": 545.36,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Control"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-01_ses-post_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": "post",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.json",
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.eeg",
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.vmrk",
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.vhdr": "SHA256E-s7989--cd5db278d1b723238c28654e064b17e7edf1bc90ddebfa8de927b5ab117f0f2d.vhdr",
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.eeg": "SHA256E-s33615160--d8a714cdc6773102faafce79be409ca4409cd6a8dfa0ab959b821b86d8fbb0a7.eeg",
+          "sub-01/ses-post/eeg/sub-01_ses-post_task-rest_eeg.vmrk": "SHA256E-s486--5283ca2ddf19225b913ecfeb0b07c601c426c6ed9aba2a14d3e7683040f7aed7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 271090,
+      "duration_seconds": 542.18,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006801",
+      "data_name": "on006801_sub-01_ses-pre_task-rest_eeg.vhdr",
+      "bidspath": "on006801/sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.vhdr",
+      "bids_relpath": "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": "pre",
+        "task": "rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006801",
+        "raw_key": "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.vhdr",
+        "dep_keys": [
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.json",
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.eeg",
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.vmrk",
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.vhdr": "SHA256E-s7987--3e7957065019e42492cbf6c455013f8efb26fc79461d548fb122899f56485fbf.vhdr",
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.eeg": "SHA256E-s33581680--54788d35a7e3076254d628596d30f678b776fdb3a659da3b15b059b1fcc8dceb.eeg",
+          "sub-01/ses-pre/eeg/sub-01_ses-pre_task-rest_eeg.vmrk": "SHA256E-s485--1774db1bba1ce6466cb4ce8fbf6ae6ec88261b370494fc0dd2bed89d6289aebc.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 500.0,
+      "nchans": 31,
+      "ntimes": 270820,
+      "duration_seconds": 541.64,
+      "digested_at": "2026-08-26T11:13:28.569219+00:00",
+      "participant_tsv": {
+        "group": "Active"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "Fz",
+      "software_filters": {
+        "HighPass": {
+          "TimeConstant_s": 0.31831
+        },
+        "LowPass": {
+          "Cutoff_Hz": 50
+        },
+        "Notch": {
+          "Frequencies_Hz": [
+            60
+          ]
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "eeg_placement_scheme": "international 10-20",
+      "cap_manufacturer": "Brain Products",
+      "cap_manufacturers_model_name": "actiCAP snap (CACS-32)",
+      "recording_type": "continuous",
+      "eeg_ground": "Gnd",
+      "montage_hash": null
+    }
+  ]
+}

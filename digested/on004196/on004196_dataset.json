@@ -1,0 +1,103 @@
+{
+  "dataset_id": "on004196",
+  "name": "Bimodal dataset on Inner speech",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004196-blue)](https://doi.org/10.82901/nemar.on004196)\nBimodal dataset on Inner Speech\nCode available: https://github.com/LTU-Machine-Learning/Inner_Speech_EEG_FMRI\nPublication available: https://www.nature.com/articles/s41597-023-02286-w\nAbstract:\nThe recognition of inner speech, which could give a `voice' to patients that have no ability to speak or move, is a challenge for brain-computer interfaces (BCIs). A shortcoming of the available datasets is that they do not combine modalities to increase the performance of inner speech recognition. Multimodal datasets of brain data enable the fusion of neuroimaging modalities with complimentary properties, such as the high spatial resolution of functional magnetic resonance imaging (fMRI) and the temporal resolution of electroencephalography (EEG), and therefore are promising for decoding inner speech. This paper presents the first publicly available bimodal dataset containing EEG and fMRI data acquired nonsimultaneously during inner-speech production.  Data were obtained from four healthy, right-handed participants during an inner-speech task with words in either a social or numerical category. Each of the 8-word stimuli were assessed with 40 trials, resulting in 320 trials in each modality for each participant.\nThe aim of this work is to provide a publicly available bimodal dataset on inner speech, contributing towards speech prostheses.\nShort Dataset description:\nThe dataset consists of 1280 trials in each modality (EEG, FMRI).\nThe stimuli contain 8 words,  selected from 2 different categories (social, numeric):\nSocial: child, daughter, father, wife\nNumeric: four, three, ten, six\nThere are 4 subjects in total: sub-01, sub-02, sub-03, sub-05. Initially, there were 5 participants, however, sub-04 data was rejected due to high fluctuations. Details of valid data are available in the file participants.tsv.\nFor questions please contact: foteini.liwicki@ltu.se",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4",
+  "license": "CC0",
+  "authors": [
+    "Foteini Liwicki",
+    "Vibha Gupta",
+    "Rajkumar Saini",
+    "Kanjar De",
+    "Nosheen Abid",
+    "Sumit Rakesh",
+    "Scott Wellington",
+    "Holly Wilson",
+    "Marcus Liwicki",
+    "Johan Eriksson"
+  ],
+  "funding": [
+    "This research was funded by the Grants for excellent research projects proposals of SRT.ai 2022."
+  ],
+  "dataset_doi": "10.82901/nemar.on004196",
+  "associated_paper_doi": null,
+  "tasks": [
+    "inner"
+  ],
+  "sessions": [
+    "EEG"
+  ],
+  "total_files": 4,
+  "size_bytes": 10022901529,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 4,
+    "ages": [
+      33,
+      36,
+      52,
+      38
+    ],
+    "age_min": 33,
+    "age_max": 52,
+    "age_mean": 39.75,
+    "species": null,
+    "sex_distribution": {
+      "m": 2,
+      "f": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Johan Eriksson",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:33.400302+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 15:41:02"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004196",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004196",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We would like to thank the Stockholm University Brain Imaging Centre (SUBIC) and more precisely Rita Almeida,  Patrik Andersson for giving us access to their facilities and for supporting us in this endeavor.\nPetter Kallioinen and Christoffer Schiehe-Forbes for their valuable support during the EEG data acquisition.\nFinally, we would also like to thank all participants for taking part in this study. ",
+  "how_to_acknowledge": "Foteini Simistira Liwicki, Vibha Gupta, Rajkumar Saini, Kanjar De, Nosheen Abid, Sumit Rakesh, Scott Wellington, Holly Wilson, Marcus Liwicki, Johan Eriksson (2022). Bimodal dataset on inner speech. OpenNeuro. [Dataset] doi:10.18112/openneuro.ds004196.v1.0.29",
+  "ethics_approvals": [
+    "Etikpr\u00f6vning myndigheden, ID:2021-06710-01"
+  ],
+  "references_and_links": [
+    "https://github.com/LTU-Machine-Learning/Inner_Speech_EEG_FMRI",
+    "https://www.biorxiv.org/content/10.1101/2022.05.24.492109v3"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004196.v2.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "397d7653c31127847e4f66d5c88af8bbe67d63d6038e276773cf8a883a033b8e"
+}

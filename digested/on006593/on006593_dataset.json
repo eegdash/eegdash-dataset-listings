@@ -1,0 +1,86 @@
+{
+  "dataset_id": "on006593",
+  "name": "cBCI Matrix Multimodal Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006593-blue)](https://doi.org/10.82901/nemar.on006593)\n# Multimodal Sensor Fusion for EEG-Based BCI Typing Systems\n## Dataset Overview\nThis dataset contains recordings of EEG and EyeTracking for a BCI spelling task. The data were collected in 2023 at Northeastern University.\n- N=21\n- Calibration task were proctored using BciPy [1]\n- The dataset is organized in accordance with the Brain Imaging Data Structure (BIDS) specification (version 1.7.0).\n## Methodology\nCalibration data were collected from control participants (n=21, mean age 23.6 \u00b1 3.1 years) in a quiet lab room at Northeastern University. EEG data were collected using the DSI-24, dry electrode cap (Wearable Sensing, San Diego CA) at a sampling rate of 300\u202fHz. The device employs a hardware filter permitting a collection bandwidth of 0.003\u2013150\u202fHz. Data were recorded from Fp1/2, Fz, F3/4, F7/8, Cz, C3/4, T7/T8, T3/T4, Pz, P3/P4, P7/P8, T5/T6, O1/2 with linked-ear reference (A1 and A2) and ground at A1. All data were collected using a Lenovo Legion 5 Pro Laptop with Windows 11, an Intel Core i7-11800H @ 2.30\u202fGHz, 16\u202fGB DDR4 RAM, and a NVIDIA GeForce RTX 3050. Trigger fidelity on the experiment laptop was verified using the Matrix Time Test Task in BciPy and a photodiode. The results of this timing test were used to determine static offsets between hardware and prevent experimentation with any timing violations greater than +/\u2212 10\u202fms. The Eyetracker data were collected using a portable eye tracker (Tobii Pro Nano) at a sampling rate of 60 Hz. The matrix paradigm and the data acquisition modules are developed in BciPy [1], which is a standalone application for experimental data collection. This work focuses on a specific BCI paradigm called single-character-presentation (SCP) based visual presentation, which consists of symbols presented in matrix form and individually highlighted in randomized order. Calibration task presented letter characters at a rate of 4\u202fHz, with 100 inquiries consisting of 10 letters each (1 target, 9 non-target). In 10% of the inquiries, only non-target characters were shown. The stimuli included all 26 letters of the English alphabet, as well as the characters \u201c_\u201d for space and \u201c<\u201c for backspace. The order of target stimuli was randomly distributed among the inquiries. Between inquiries, there was a two-second blank screen. Each inquiry consisted of a one-second prompt showing the target letter, followed by a 0.5s fixation, and then the presentation of 10 letters. The letters were displayed in the center of the screen, in white on a black background. Target prompts and stimuli were presented in white, while fixation crosses were rendered in red.\nThe experimental protocol was approved by the Northeastern University Institutional Review Board (IRB). All participants provided written informed consent prior to participation.\n## Directory Structure\nThe datasets follows the BIDS convention with the following structure: /sub-[subject]/ses-[session]/[eeg or et]. To load the BIDS formatted data into BciPy Simulator, please see the following directory: /sourcedata/bcipy_metadata. This directory contains the raw BciPy parameter files. It also contains the output of the matrix display (matrix.png) for eyetracking visualization.\n## Contact Information\nFor questions or issues regarding this dataset, please contact the corresponding author [Basak Celik](celik.b@northeastern.edu) via email.\n[1] Memmott T, Ko\u00e7anao\u011fullar\u0131 A, Lawhead M, Klee D, Dudy S, Fried-Oken M, Oken B. BciPy: brain-computer interface software in Python. Brain-Computer Interfaces, 8(4), 137-53, 2021.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Basak Celik",
+    "Tab Memmott",
+    "Matthew Lawhead",
+    "Srikar Ananthoju",
+    "Deniz Erdogmus"
+  ],
+  "funding": [
+    "This research was funded by the National Institutes of Health (DC009834)."
+  ],
+  "dataset_doi": "10.82901/nemar.on006593",
+  "associated_paper_doi": null,
+  "tasks": [
+    "MatrixCalibration"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 21,
+  "size_bytes": 646371250,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Deniz Erdogmus",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:23.411820+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 06:23:27"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006593",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006593",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "These studies were approved by the Northeastern IRB #10-05-2022. The studies were conducted in accordance with the local legislation and institutional requirements. The participants provided their written informed consent to participate in this study. We would like to thank Emma Sombers and Julia Gangemi for their assistance with data collection and preprocessing. We thank the Consortium of Accessible Multimodal Brain-Body Interfaces (CAMBI) for their insight and guidance over the course of the experiment. Additionally, we would like to thank all the participants for their time and effort in contributing to this research.",
+  "how_to_acknowledge": "Please cite the following paper if you use this dataset: Celik et al. Multimodal Sensor Fusion for EEG-Based BCI Typing Systems. Proc. 11th Int. Brain-Computer Interface Meeting. DOI:10.3217/978-3-99161-050-2-196. <br /> To cite BciPy, please use: Memmott T, Ko\u00e7anao\u011fullar\u0131 A, Lawhead M, Klee D, Dudy S, Fried-Oken M, Oken B. BciPy: brain-computer interface software in Python. Brain-Computer Interfaces, 8(4), 137-53, 2021.",
+  "ethics_approvals": [
+    "Northeastern University IRB #10-05-2022"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006593.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "e15de3e3997c27265e33e5d55fc23f6b53eb2fe136cc1d5bbd25ada50edda8e5"
+}

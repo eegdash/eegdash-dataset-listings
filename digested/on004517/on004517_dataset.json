@@ -1,0 +1,88 @@
+{
+  "dataset_id": "on004517",
+  "name": "EEG recordings for semantic decoding of imagined animals and tools during auditory imagery task",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004517-blue)](https://doi.org/10.82901/nemar.on004517)\n### Description\nThis dataset contains electroencephalography (EEG) signals recorded from 7 participants while performing an auditory imagery task. Participants were asked to imagine the sounds made by an object for 5 seconds.\n### EEG\nEEG data were acquired with a BioSemi ActiveTwo system with 64 electrodes positioned according to the international 10-20 system, plus one electrode on each earlobe as references ('EXG1' channel is the left ear electrode and 'EXG2' channel is the right ear electrode).\nElectrooculography (EOG) was also recorded to monitor eye movements. Two electrodes were placed above ('EXG7' channel) and below ('EXG8') the right eye to capture the vertical oculogram, while two more electrodes were placed near the canthus of each eye ('EXG5' by the left eye and 'EXG6' by the right eye) to record the horizontal oculogram.\nAdditionally, two electrodes were placed on the left ('EXG3') and right ('EXG4') wrists for additional physiological measurements (e.g., heart rate variability), and respiration was recorded using a belt placed around the waist ('Resp' channel).\nThe sampling rate was 2048 Hz.\n### Stimulus\nFolder 'stimuli' contains all images of the semantic categories of animals and tools presented to participants.\n### Example code\nWe have prepared an example script to demonstrate how to load the EEG data into Python using MNE and MNE-BIDS packages. This script is located in the 'code' directory.\n### References\nThis dataset was analyzed in the following publications:\n[1] Ryb\u00e1\u0159, M., Poli, R. and Daly, I., 2024. Using data from cue presentations results in grossly overestimating semantic BCI performance. Scientific Reports, 14(1), p.28003.\n[2] Ryb\u00e1\u0159, M., 2023. Towards EEG/fNIRS-based semantic brain-computer interfacing (Doctoral dissertation, University of Essex).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Milan Ryb\u00e1\u0159",
+    "Riccardo Poli",
+    "Ian Daly"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004517",
+  "associated_paper_doi": null,
+  "tasks": [
+    "eeg"
+  ],
+  "sessions": [],
+  "total_files": 7,
+  "size_bytes": 13611833951,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 7,
+    "ages": [
+      44,
+      33,
+      35,
+      37,
+      25,
+      37,
+      27
+    ],
+    "age_min": 25,
+    "age_max": 44,
+    "age_mean": 34.0,
+    "species": null,
+    "sex_distribution": {
+      "m": 5,
+      "f": 2
+    },
+    "handedness_distribution": {
+      "r": 7
+    }
+  },
+  "senior_author": "Ian Daly",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:22.151268+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 14:39:35"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004517",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004517",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004517.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "08102f27594b4713a2f74817fd33b83ed67b41184f1dd7deadad6f9ef2290182"
+}

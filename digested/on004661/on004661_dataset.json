@@ -1,0 +1,79 @@
+{
+  "dataset_id": "on004661",
+  "name": "ANDI",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004661-blue)](https://doi.org/10.82901/nemar.on004661)\nParticipants (N=17, all males) with an average age of 32.8 years performed a guided visual search task in parallel with a second binaurally presented auditory task (Ries, et al., 2016). EEG data from each participant were recorded using a 64-channel BioSemi ActiveTwo system digitized at 512 Hz. Four external electrodes were used to record bipolar horizontal and vertical EOG signals, and a single external electrode was placed on each of the left and right mastoids to provide the reference signals. Fourteen participants were included in the original study, with three additional participants later added, resulting in 17 participants.\nThe visual search task for this experiment required participants to follow a red annulus around the screen and press a button if the annulus stopped at a prespecified target. The auditory task for this experiment was an N-back matching task in which participants listened to a string of numbers presented at approximately 2 second intervals and were required to indicate whether the current number matched a previously presented number. For the N=0, this would be the number immediately prior. For N=1 this would be the number one level before that, and so on. In the example string \u201c1\u201d, \u201c1\u201d, \u201c2\u201d, \u201c1\u201d, \u201c3\u201d, \u201c2\u201d, the second \u201c1\u201d should generate a match in the N=0 condition, the third \u201c1\u201d should generate a match in the N=1 condition, and the second \u201c2\u201d should generate a match in the N=2 condition. The task was composed of a baseline condition in which participants were presented with both visual and auditory stimuli but were instructed to ignore the auditory component. Next, were three dual-task conditions with N-back levels of N=0, N=1, and N=2.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Tony Johnson",
+    "Stephen Gordon",
+    "Jon Touryan",
+    "Kevin King"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004661",
+  "associated_paper_doi": null,
+  "tasks": [
+    "nback"
+  ],
+  "sessions": [],
+  "total_files": 17,
+  "size_bytes": 1505578054,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 17,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Kevin King",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:08:07.702547+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-05-13 06:55:00"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004661",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv",
+      "task-nback_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004661",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    ""
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004661.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "12abe059e0b94b8ab24b50077a61f6c03dd93a1335a1cdd480f8de8d6112572c"
+}

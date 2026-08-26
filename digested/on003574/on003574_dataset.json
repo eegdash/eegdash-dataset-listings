@@ -1,0 +1,115 @@
+{
+  "dataset_id": "on003574",
+  "name": "Reward biases spontaneous neural reactivation during sleep",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003574-blue)](https://doi.org/10.82901/nemar.on003574)\nThe data included 18 participants that played at 2 different games during wakefulness in the 3T MRI: the FACE and the MAZE game, intermixed with periods of REST and period of preparation of each game (game session). The tasks were manipulated and at the end of the game session, one game was won (Reward game) and the second was lost (No Reward game), randomly assigned for each participant. Next, during the sleep session, 64 electrodes were placed on the head of the participants, before they slept in the MRI with EEG for 1-2 hours (sleep session). Participants can be separated according to the won game (face or maze) and according sleep depth (whether they reached N3 sleep in the MRI or only N2 sleep). A decoding classifier was trained on the data from the game session at wake and applied to the MRI data acquired during sleep (sleep session). Finally, a memory test was performed the next day on the 2 tasks (face and maze).\nFor any question related to the methods, please see the manuscript or contact Virginie Sterpenich (Virginie.Sterpenich@unige.ch)\nFiles includes are\n1) 2 EPI sessions for the tasks\n2) 1 EPI session during resting including wake and sleep (sleep session)\n3) 1 EEG file corresponding to the sleep session (including wake and sleep in the MRI)\n4) 1 T1 anatomical image",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.1",
+  "license": "CC0",
+  "authors": [
+    "Virginie Sterpenich",
+    "Mojca KM van Schie",
+    "Maximilien Catsiyannis",
+    "Avinash Ramyead",
+    "Stephen Perrig",
+    "Hee-Deok Yang",
+    "Dimitri Van De Ville",
+    "Sophie Schwartz"
+  ],
+  "funding": [
+    "Swiss National Science Foundation (51NF40-104897 - 320030-159862 - 320030-135653)",
+    "Mercier Foundation",
+    "National Research Foundation of Korea (NRF - 2017R1A2B4005305)"
+  ],
+  "dataset_doi": "10.82901/nemar.on003574",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest"
+  ],
+  "sessions": [],
+  "total_files": 18,
+  "size_bytes": 19286081824,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [
+      21,
+      20,
+      22,
+      25,
+      18,
+      23,
+      25,
+      24,
+      20,
+      25,
+      21,
+      26,
+      20,
+      20,
+      22,
+      25,
+      20,
+      21
+    ],
+    "age_min": 18,
+    "age_max": 26,
+    "age_mean": 22.11111111111111,
+    "species": null,
+    "sex_distribution": {
+      "m": 6,
+      "f": 12
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Sophie Schwartz",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:45.312224+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 06:09:31"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003574",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-game_bold.json",
+      "task-game_run-1_events.json",
+      "task-game_run-2_events.json",
+      "task-rest_bold.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003574",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by the National Center of Competence in Research (NCCR) Affective Sciences financed by the Swiss National Science Foundation (grant number: 51NF40-104897) and hosted by the University of Geneva, and the Swiss National Science Foundation (grant numbers: 320030-159862 and 320030-135653), and the Mercier Foundation. Hee-Deok Yang work was supported by the National Research Foundation of Korea (NRF) grant funded by the Korea government (MSIT) (No. NRF-2017R1A2B4005305) We also thank Ben Meuleman for statistical advice.",
+  "how_to_acknowledge": "Please cite the paper",
+  "references_and_links": [
+    "Reward biases spontaneous neural reactivation during sleep, Virginie Sterpenich,Mojca KM van Schie,Maximilien Catsiyannis,Avinash Ramyead,Stephen Perrig,Hee-Deok Yang,Dimitri Van De Ville,Sophie Schwartz, Nat. Comm., 2021"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003574.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "107ee65718a37192c436b7f2439385a09c305fc1d72c8a3f73dac9d61ee68be3"
+}

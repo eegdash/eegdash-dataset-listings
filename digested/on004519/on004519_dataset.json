@@ -1,0 +1,78 @@
+{
+  "dataset_id": "on004519",
+  "name": "Internal selective attention is delayed by competition between endogenous and exogenous factors",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004519-blue)](https://doi.org/10.82901/nemar.on004519)\nPreprocessed data files from \"Internal selective attention is delayed by competition between endogenous and exogenous factors\". A preprint describing the work can be found at https://www.biorxiv.org/content/10.1101/2022.07.05.498906v4.abstract, and analysis scripts can be found at https://osf.io/wat6d/. This study was conceptualized and analyzed before our lab made the switch to BIDS archival. If you want to use the analysis scripts linked above to analyze the BIDS data, you'll have to modify them to load the BIDS .set files rather than the .mat files we analyzed in our lab (the .set and .mat files, however, are identical). You will also need to modify the analysis scripts to load in the _behavSummary.mat files for alignment with the EEG data. If you have questions or run into problems, please e-mail the corresponding author of the study (eester@unr.edu)\"",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Edward Ester",
+    "Asal Nouri"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004519",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ProAntiCue"
+  ],
+  "sessions": [],
+  "total_files": 40,
+  "size_bytes": 13486850900,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 40,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Asal Nouri",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:23.167649+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 15:39:28"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004519",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-ProAntiCue_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004519",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://www.biorxiv.org/content/10.1101/2022.07.05.498906v4.abstract"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004519.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "9af89ab2996760929422b48e5d1c97e946f1739d94c06ec47782f40acdd840c4"
+}

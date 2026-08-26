@@ -1,0 +1,158 @@
+{
+  "dataset_id": "on007615",
+  "name": "LDAEP and resting-state EEG in healthy women",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007615-blue)](https://doi.org/10.82901/nemar.on007615)\n# LDAEP and resting-state EEG in healthy women\n## The dataset at a glance\n- 69 participants, all female.\n- Age range: 19-40 years, mean age 25.3 years (SD 4.2).\n- A single recording session comprising two paradigms: LDAEP (54 participants) and resting-state (eyes-open and eyes-closed; 69 participants).\n- 64 EEG channels and 4 auxiliary oculogram channels.\n- Signal sampling rate: 2048 Hz.\n- Additional data include hormonal contraceptive use, menstrual cycle phase, depressive symptoms (BDI-II), impulsivity (UPPS-P), and lifestyle factors.\n## Introduction\nThis dataset contains EEG recordings from 69 healthy women, acquired at the Department of Psychology, University of Oslo, Norway. The data were collected as part of a study investigating the relationship between hormonal contraceptive use and central serotonergic activity indexed by the loudness dependence of auditory evoked potentials (LDAEP).\nTwo paradigms were recorded per participant: a resting-state recording (four minutes eyes closed followed by four minutes eyes open) and na LDAEP paradigm (1000 Hz tones at five intensity levels: 55, 65, 75, 85, and 95 dB SPL; 80 trials per level). The resting-state recording was always conducted first to avoid auditory stimulus contamination. Resting-state data are available for all 69 participants. Due to a technical issue with the auditory stimulation equipment, LDAEP data are available for 54 of the 69 participants.\nThe data were recorded with a BioSemi ActiveTwo system, using 64 Ag-AgCl electrodes positioned according to the extended 10-20 system (10-10), at a sampling rate of 2048 Hz. Raw data are stored in BrainVision format (triplet of `*.eeg`, `*.vhdr`, `*.vmrk`).\nAlongside the EEG data, the dataset includes questionnaire data on hormonal contraceptive use, menstrual cycle, depressive symptoms (BDI-II), impulsivity (UPPS-P), and lifestyle factors.\n## Disclaimer\nThe dataset is provided \"as is\". The authors take no responsibility with regard to data quality. The user is solely responsible for ascertaining that the data used for publications or in other contexts fulfil the required quality criteria.\n## The data\n### Raw data files\nEach participant's EEG data are stored in the `sub-##/eeg/` directory in BrainVision format. Up to two tasks are included per participant:\n- `task-rest`: Eyes-closed (`acq-ec`) and eyes-open (`acq-eo`) resting-state (4 minutes each). Available for all 69 participants.\n- `task-ldaep`: LDAEP auditory stimulation paradigm. Available for 54 participants only.\nEach `task`/`acq` combination comprises three data files (`*.eeg`, `*.vhdr`, `*.vmrk`) and is accompanied by a sidecar metadata file (`*.json`), a channels information file (`*_channels.tsv`), and an events file (`*_events.tsv` with `*_events.json`). The data signals are unfiltered, except for a standard software anti-aliasing filter (recorded in Norway; the line noise frequency is 50 Hz).\nThe EOG channels \u2013 HOG1, HOG2, VOG1, VOG2 \u2013 are positioned near the outer canthi (1 = left, 2 = right) and above (1) and below (2) the right eye.\nPlease note that the data does not come with any pre-defined quality assessment. Whilst most data files are of high quality, individual files may vary. It is the user's responsibility to verify the quality of each data file. The dataset does not include quality assessment or preprocessing code. For an example LDAEP pipeline, please refer to the paper referenced below.\n### Participant and phenotype data\nCore demographic variables are provided in participants.tsv at the root level (age, sex, and hormonal contraceptive user group).\nAdditional participant-level data are organised in the `phenotype/` directory:\n- `hc_usage.tsv`: Hormonal contraceptive usage details and menstrual cycle data (26 variables). Includes contraceptive type, progestin type, duration of use, self-reported mood changes and side effects (coded yes/no), prior HC use history, pregnancy history, and menstrual cycle phase.\n- `lifestyle.tsv`: Medication use, nicotine use and type, alcohol consumption, and recreational drug use and frequency (7 variables).\n- `bdi.tsv`: Beck Depression Inventory-II total score, cognitive-affective subscale score, and somatic subscale score (4 variables). Subscales follow the female-specific factor structure of Dozois et al. (1998).\n- `upps.tsv`: UPPS-P Impulsive Behavior Scale subscale scores: lack of perseverance, urgency, lack of premeditation, and sensation seeking (5 variables).\nEach phenotype file is accompanied by a JSON sidecar with variable descriptions and coding schemes. To protect participant privacy, free-text questionnaire responses were excluded from the dataset; only coded categorical and numeric variables are provided.\n## How to cite\nAll use of this dataset in a publication context requires the following paper to be cited:\nNormannseth, H., Hatlestad-Hall, C., Rygvold, T. W., Hadzic, A., & Andersson, S. (2025). Hormonal contraceptive use is associated with reduced central serotonergic activity indexed by the loudness dependence of auditory evoked potentials. Frontiers in Human Neuroscience, 19, 1647425. https://doi.org/10.3389/fnhum.2025.1647425\nA dataset descriptor article is currently in works.\n## Contact\nQuestions regarding the dataset may be addressed to the corresponding author, Christoffer Hatlestad-Hall, Department of Neurology, Oslo University Hospital, Norway (chrihat (at) ous-research.no).\n## References\nThe dataset was standardised and organised in accordance with BIDS using [MNE-BIDS](https://mne.tools/mne-bids/):\nAppelhoff, S., Sanderson, M., Brooks, T., Van Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A., & Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software, 4(44), 1896. https://doi.org/10.21105/joss.01896\nThe relevant [BIDS specification](https://bids-specification.readthedocs.io/en/stable/) publications:\nGorgolewski, K. J., Auer, T., Calhoun, V. D., Craddock, R. C., Das, S., Duff, E. P., Flandin, G., Ghosh, S. S., Glatard, T., Halchenko, Y. O., Handwerker, D. A., Hanke, M., Keator, D., Li, X., Michael, Z., Maumet, C., Nichols, B. N., Nichols, T. E., Pellman, J., \u2026 Poldrack, R. A. (2016). The brain imaging data structure, a format for organizing and describing outputs of neuroimaging experiments. Scientific Data, 3(1), 160044. https://doi.org/10.1038/sdata.2016.44\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., & Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6(1), 103\u2013108. https://doi.org/10.1038/s41597-019-0104-8\nOther articles:\nDozois, D.J., Dobson, K.S., & Ahnberg, J.L. (1998). A psychometric evaluation of the Beck Depression inventory-II. Psychological Assessment, 10, 83-89. https://doi.org/10.1037/1040-3590.10.2.83",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Henrik Normannseth",
+    "Stein Andersson",
+    "Christoffer Hatlestad-Hall"
+  ],
+  "funding": [
+    "University of Oslo"
+  ],
+  "dataset_doi": "10.82901/nemar.on007615",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ldaep",
+    "rest"
+  ],
+  "sessions": [],
+  "total_files": 192,
+  "size_bytes": 37200497509,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 69,
+    "ages": [
+      20,
+      22,
+      21,
+      21,
+      25,
+      20,
+      24,
+      25,
+      26,
+      29,
+      25,
+      29,
+      24,
+      29,
+      27,
+      27,
+      29,
+      23,
+      26,
+      25,
+      27,
+      30,
+      22,
+      21,
+      23,
+      20,
+      20,
+      28,
+      24,
+      29,
+      19,
+      26,
+      28,
+      21,
+      23,
+      22,
+      23,
+      28,
+      25,
+      22,
+      33,
+      28,
+      25,
+      21,
+      25,
+      40,
+      25,
+      26,
+      28,
+      26,
+      28,
+      23,
+      26,
+      36,
+      23,
+      40,
+      23,
+      28,
+      29,
+      24,
+      23,
+      23,
+      26,
+      21,
+      21,
+      23,
+      24,
+      26,
+      21
+    ],
+    "age_min": 19,
+    "age_max": 40,
+    "age_mean": 25.26086956521739,
+    "species": null,
+    "sex_distribution": {
+      "f": 69
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Christoffer Hatlestad-Hall",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:46.818562+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 15:40:31"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007615",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007615",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Normannseth, H., Hatlestad-Hall, C., Rygvold, T. W., Hadzic, A., & Andersson, S. (2025). Hormonal contraceptive use is associated with reduced central serotonergic activity indexed by the loudness dependence of auditory evoked potentials. Frontiers in Human Neuroscience, 19, 1647425. https://doi.org/10.3389/fnhum.2025.1647425",
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.18.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007615.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "58141675802e3f4bdb8dafd0b123535e131b75f28142b8fb3796637e5aad157f"
+}

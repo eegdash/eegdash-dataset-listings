@@ -1,0 +1,4425 @@
+{
+  "dataset": "nm000260",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:04:18.500575+00:00",
+  "record_count": 46,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-17_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4979884--0c5c7a2c3ab45c27c3b50f58b84b97c00ef0a7f14c34df011177681ad25d050f.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 95615,
+      "duration_seconds": 746.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 746.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-17_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2431156--85389ccc11362bd5cd2773495e3b39c71bf33e9f2fa1495e0b3b328722e1ad28.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46463,
+      "duration_seconds": 362.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 746.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-14_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2377684--051b89b147f9a913032bf3fe8f5dacff697c947284f14177b0fc038de7d7f736.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 45439,
+      "duration_seconds": 354.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 730.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-14_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4888675--a453ae8dbba5495135019412e8b8e1351abee4de9eb0ed8490888c1d82e4c4d1.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 93567,
+      "duration_seconds": 730.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 730.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-6_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2415622--cb6dfb9b2b764b8f3667d4bc7a57c2ac2f187c03a82bd8e04c06c65e17269e4a.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46207,
+      "duration_seconds": 360.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 773.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-6_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5171314--79e13c96dd5a5aa0c329f2ffb100d2aed5fd9dfc00f66d17ad7a8891b0545a0e.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 99071,
+      "duration_seconds": 773.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 773.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-4_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s3228304--0bce8664846fb8d3800444392cd40f0917f597cadf0a415830affb8d0d3984eb.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 61951,
+      "duration_seconds": 483.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 483.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-4_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2449084--fdc55dc149b4c26ef236fb820e0740f983a6dd9feae21f2867dc9c07286b4d5c.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46975,
+      "duration_seconds": 366.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 483.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-24_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2402464--6a7392e77d8449d8e083197985444acb5535a764729b8e0d1e28540e29c3f78d.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46079,
+      "duration_seconds": 359.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 750.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-24_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5006524--9bbc5906592c25399efa10b553c85a71ed0b3689895f12ddb1600979f20396ae.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 96127,
+      "duration_seconds": 750.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 750.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-15_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4931044--c87ad6a1f2499a1d57e5157ef95b8bf532660ab3e5d8bf40ee4416315ec80304.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 94719,
+      "duration_seconds": 739.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 739.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-15_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2374756--1d81b173be14e28aaa4a102b1b6051c08fd1b5a44bbf16fd300e11220f10533f.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 45567,
+      "duration_seconds": 355.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 739.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-9_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2406784--a9c2b4ebf7a303aab87d74b456fef2b061e9c7f5877944adf1190c20f8331ddd.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46079,
+      "duration_seconds": 359.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 887.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-9_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5918944--a3eff68aedb9935916c1d6aedbe4f40928d12c8a62f782c376c6b349ec6e0a3d.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 113663,
+      "duration_seconds": 887.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 887.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-8_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2415622--deb1f2f6b566429e5992d256551fbefa209258134d8e98f1cf26706e090d81bc.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46207,
+      "duration_seconds": 360.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 697.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-8_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4653544--bb222b58cc0f16612af95c7104f8c676bf879d8d8d1100e78481f79ba25804c4.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 89343,
+      "duration_seconds": 697.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 697.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-13_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5175958--47fe01a1660472074495f9f50a68048cde64391613d63e0dc5b23f1c2996f313.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 99071,
+      "duration_seconds": 773.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 773.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-13_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2419042--5b680136bb0b53d85bd2ff4c02ed37c2aaa25244e01c6065c274db3a8811cee7.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46335,
+      "duration_seconds": 361.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 773.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-18_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2347789--6f46debd8f29dde150c0e13b3f9bfcc78ce50737c3b2f1b500c79796e4a24e82.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 44927,
+      "duration_seconds": 350.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 707.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-18_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4718020--947c613c443071a0ba7ea098ca5d5771728a657d96839bc9b597d78d6df971eb.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 90623,
+      "duration_seconds": 707.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 707.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-12_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2496877--a1894d32c61c77b2614daf60795d0ff9fdda0536ab80ba15fd17ff3e91d5aa51.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 47743,
+      "duration_seconds": 372.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 779.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-12_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5197324--a4ce46a310768d631db2a1dff2d84cc13a593b8178de0729c99512556ca5da97.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 99839,
+      "duration_seconds": 779.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 779.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-11_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2281039--e250593c27cc279e1dea04b3102e8a34a0cf887c895834eebba17ecea4216ec8.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 43647,
+      "duration_seconds": 340.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 837.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-11_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5585944--4e6131ad64b2cc92afe73e134ca2bf376f29b1d24e2c96f11c75f97d49577bc8.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 107263,
+      "duration_seconds": 837.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 837.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-7_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4951024--862290399af47bce05d86665d73b99e3c9d3080120fce733af2b98fa3f9778e7.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 94719,
+      "duration_seconds": 739.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 739.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-7_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2418871--15c8187d58e01f864d870b5360ff763a65ac50252ca61e7def8d133ffde6eec6.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46207,
+      "duration_seconds": 360.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 739.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-21_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2475724--3c08fdf7cfe86eae8bff8e4d7506c3c8eb70da017a365a92b1478031f4bd729e.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 47487,
+      "duration_seconds": 370.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 807.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-21_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5386144--d73875d9a6c87effb4849ec3c2065cb7c6e97fdd3a459219d6975b571fdf9481.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 103423,
+      "duration_seconds": 807.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 807.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-20_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2415784--d0cd586ed15658f2cd9f104d4bccc3143a30874e395e6824bb4aac80d2686cd1.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46335,
+      "duration_seconds": 361.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 848.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-20_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5659204--1779c805a0c0693b46a787693b8531e62552636aca04796013bded16bed413dd.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 108671,
+      "duration_seconds": 848.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 848.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-19_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2475724--c7e8282ea16e54df2318c0e4c70176d6b4a253325d556f2d410a8172ddf9cdec.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 47487,
+      "duration_seconds": 370.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 755.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-19_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5037556--92ed65cdd2b731483e90a54ade22bc33149401664eb181488b5309f3a7d274a0.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 96767,
+      "duration_seconds": 755.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 755.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-10_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2335864--a4c42fb9b6d54813ffbe0e95c4a6a95c25e938fde0421d16a2d79a858855530d.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 44799,
+      "duration_seconds": 349.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 823.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-10_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5512480--e3979a0b9b838f4de7bb5c431948ed56e640583f1b108d5194ba5f30f4edec13.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 105471,
+      "duration_seconds": 823.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 823.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-16_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5030899--4fed6ac63e5b1bfd2ffb3a6d409ba914ce0e3addff9a2ab96e2dc7436b46bc28.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 96639,
+      "duration_seconds": 754.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 754.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-16_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2410024--1fb38dad468c9515989fb16be7a3976f7d4346cfcfd3e23559dedb506691421f.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46079,
+      "duration_seconds": 359.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 754.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-25_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2307739--90d6d44d29cab60a27ea0066413573026b51edac4845aa150afa95cd6b461c52.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 44159,
+      "duration_seconds": 344.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 733.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-25_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4893304--025a7d90d89914cc12f9cad8317d60ce6dcbb2a9cb86ca354644b8555e212bbb.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 93951,
+      "duration_seconds": 733.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 733.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-3_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s5057527--11094d8e0702fbc7d21700e71ee7b8a0809e6889d7a0a4a580afd2350427d0c9.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 97151,
+      "duration_seconds": 758.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 758.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-3_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2462404--f9e1d0d117ec081ccd945c06f4dda44dd87a75e1d1ea297b8f0273021c2fdbc3.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 47231,
+      "duration_seconds": 368.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 758.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-5_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2548984--e353b8d250aa57e3b305335c5bffdd94b9d75a8a87bd8d0bba2fc9b760db686d.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 48895,
+      "duration_seconds": 381.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 745.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-5_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4973224--183024edf98519925d2758137c3078fb251968d16f304cde8f0700fd1b579419.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 95487,
+      "duration_seconds": 745.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 745.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-22_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4797904--99c69115d13c1dfa05cdbd496c6705921c673079dc802ee9f0f16d756bf092ed.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 92159,
+      "duration_seconds": 719.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 719.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-22_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2436748--d6934523826db3c45744ef2f2a97355a07bd2f51fcaac84250b78b2abadc6d11.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 46591,
+      "duration_seconds": 363.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 719.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-23_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bidspath": "nm000260/sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "bids_relpath": "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": "training"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_channels.tsv",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_events.tsv",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_events.json",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-training_run-0_eeg.bdf": "SHA256E-s2395588--c7c91061274594175cbfff84b65ed0443062ed7ee696cdbdb095bfc2dfdd1ed0.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 45823,
+      "duration_seconds": 357.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 733.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    },
+    {
+      "dataset": "nm000260",
+      "data_name": "nm000260_sub-23_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bidspath": "nm000260/sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "bids_relpath": "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": "0",
+        "task": "p300",
+        "run": "1",
+        "acquisition": "online"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000260",
+        "raw_key": "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_eeg.bdf",
+        "dep_keys": [
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_channels.tsv",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_events.tsv",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_events.json",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-p300_acq-online_run-1_eeg.bdf": "SHA256E-s4899910--f570ca1e6edfc41265afe0731356f00b4a0cd665d446bd453fdd6b03d6883882.bdf"
+        }
+      },
+      "ch_names": [
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 17,
+      "ntimes": 93951,
+      "duration_seconds": 733.9921875,
+      "digested_at": "2026-08-26T11:04:18.500575+00:00",
+      "participant_tsv": {
+        "age": 24.4,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "half played games occasionally (around 4.5 hours a week)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "hardware common average reference",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "NeXus-32 (MindMedia/TMSi)",
+      "manufacturers_model_name": "NeXus-32 (MindMedia/TMSi)",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "GIPSA-lab, CNRS, University Grenoble-Alpes, Grenoble INP",
+      "recording_type": "continuous",
+      "recording_duration": 733.9921875,
+      "eeg_ground": "FZ",
+      "montage_hash": "e87a2119ca618cee"
+    }
+  ]
+}

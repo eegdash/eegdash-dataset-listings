@@ -1,0 +1,102 @@
+{
+  "dataset_id": "on003458",
+  "name": "EEG: Three armed bandit gambling task",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003458-blue)](https://doi.org/10.82901/nemar.on003458)\nHealthy control college students.  23 subjects completed the 3-armed bandit task with oscillating probabilities.    For example, the 'blue' stim would slowly move from 20% reinforcing to 90% then back to 20 over many trials.  The other 'red' and 'green' stims would move similarly, but in different phase.  See Fig 1 of the paper.  This makes the task great for investigating reward processing & reward prediction error in the service of novel task set generation.\nTask included in Matlab programming language.\nData collected in 2014 in the Cognitive Rhythms and Computation Lab, University of New Mexico.\nI also collected Corrugator EMG (may be labeled EKG) and Skin Conductance on most people.  But quality was dubious so I never did much with it.  Check .xls sheet under code folder.\nSome pre-processing scripts are included in code folder as well.\n- James F Cavanagh 01/04/2021",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "James F Cavanagh  jcavanagh@unm.edu"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on003458",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ThreeArmedBandit"
+  ],
+  "sessions": [],
+  "total_files": 23,
+  "size_bytes": 5065253475,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 23,
+    "ages": [
+      20,
+      18,
+      20,
+      18,
+      21,
+      19,
+      19,
+      20,
+      19,
+      21,
+      19,
+      19,
+      18,
+      23,
+      21,
+      22,
+      19,
+      22,
+      24,
+      19,
+      19,
+      20,
+      19
+    ],
+    "age_min": 18,
+    "age_max": 24,
+    "age_mean": 19.956521739130434,
+    "species": null,
+    "sex_distribution": {
+      "o": 23
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "James F Cavanagh  jcavanagh@unm.edu",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:35.055016+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-07-02 04:28:02"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003458",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003458",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "PMID: 25676913"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003458.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "4a426a0cf29c04cc953c1912805959980fb75ccc77cfd93a73c23130804777ab"
+}

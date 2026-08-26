@@ -1,0 +1,84 @@
+{
+  "dataset_id": "on004554",
+  "name": "Forced Picture Naming Task",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004554-blue)](https://doi.org/10.82901/nemar.on004554)\nThis is the preprocessed dataset used for study \"Characterization of spatiotemporal dynamics in EEG data during picture naming with optical flow patterns\".\nThe Picture Naming Task study included sixteen native French-speaking men, ranging in age from 18 to 70 years old. The participants met the inclusion criteria, which required normal or corrected-to-normal vision and hearing, as well as right-handedness, as determined by a handedness questionnaire [Oldfield1971assessment]. Exclusion criteria were in place to ensure that participants had no history of neurological or psychiatric disorders, drug addiction, or head trauma. In total 20 subjects were included in the study. The four first subjects' data was excluded due to hardware failure.\nParticipants were required to name the pictures shown on a screen. Each event (random pictures) has three phases: [-2s, 0s] is the baseline (pre-visual-stimulation); at time 0 picture is shown on screen; then [0s, 1.5s] post-stimulation phase; [1.5s, 3s], naming phase. Pictures used in the task were selected from the Snodgrass & Vanderwart black-and-white line drawing corpus [Snodgrass1980standardized]. \"./code/experiment_schema.pdf\" showed the task design.\nData pre-processing pipeline is illustrated in \"./code/preprocess_pipeline.pdf\". In total, 270 trials each for the 16 subjects.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "V. Volpert",
+    "B. Xu",
+    "A. Tchechmedjiev",
+    "S. Harispe",
+    "A. Aksenov",
+    "Q. Mesnildrey and A. Beuter"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004554",
+  "associated_paper_doi": null,
+  "tasks": [
+    "picturenaming"
+  ],
+  "sessions": [],
+  "total_files": 16,
+  "size_bytes": 9432868624,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 16,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Q. Mesnildrey and A. Beuter",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:27.263977+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 18:38:44"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004554",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv",
+      "task-picturenaming_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004554",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "EEG data collection was approved by the ethical committee CER Grenoble Alpes-Avis-2020-09-01-3"
+  ],
+  "references_and_links": [
+    "Characterization of spatiotemporal dynamics in EEG data during picture naming with optical flow patterns. {Volpert, V.; Xu, B.; Tchechmedjiev, A.; Harispe, S.; Aksenov, A.; Mesnildrey, Q. & Beuter, A.}. {Mathematical Biosciences and Engineering, 2023, 20, 11429-11463}. https://doi.org/10.3934/mbe.2023507"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004554.v1.0.4"
+    }
+  ],
+  "ingestion_fingerprint": "82c51e682def6bdae8a50606df8f31d60eb264f0df9fae6792efd5eb486d4a4d"
+}

@@ -1,0 +1,147 @@
+{
+  "dataset_id": "nm000254",
+  "name": "Naturalistic viewing: An open-access dataset using simultaneous EEG-fMRI",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000254-blue)](https://doi.org/10.82901/nemar.nm000254)\nThis dataset is comprised of neuroimaging data collected at the Nathan Kline Institute (NKI). The dataset represents simultaneously collected electroencephalography (EEG) and function magnetic resonance imaging (fMRI) recordings obtained from 22 individuals between the ages of 23 and 51 years-old. EEG data contains 64-channel EEG recordings using a customized Brain Products BrainCapMR consisting of 61 cortical channels, two EOG channels placed below (channel 63) and above (channel 64) the left eye, and one ECG channel (channel 32) placed on the back. This dataset also contains eye tracking and physiological recordings. Eye tracking recordings were collected inside the scanner using EyeLink 1000 (SR Research Ltd.) with eye position and pupil dilation were recorded using an infrared based eye tracker. Physiological recordings were collected using BIOPAC MP150 (BIOPAC Systems, Inc.) using a respiratory transducer belt to monitor breathing. All individuals were consented in accordance and compliance with the Institutional Review Board (IRB) at NKI. Individuals provided demographic information and behavioral data. Behavioral data included participants filling out a survey on their last month of sleep (Pittsburgh Sleep Study), the amount of sleep they had the previous night, and their caffeine intake (if any) before the scan session. The primary goal of this study is to understand the neural underpinnings of brain function evaluating the correlation between electrical activity and hemodynamic fluctuations derived from neuroimaging data.\n## Original dataset / data paper\nThis is the NATVIEW simultaneous EEG-fMRI naturalistic-viewing dataset. Please cite the\noriginal data descriptor when using this dataset:\n> Telesford, Q. K., Gonzalez-Moreira, E., Xu, T., Tian, Y., Colcombe, S. J., Cloud, J.,\n> Russ, B. E., Falchier, A., Nentwich, M., Madsen, J., Parra, L. C., Schroeder, C. E.,\n> Milham, M. P., & Franco, A. R. (2023). *An open-access dataset of naturalistic viewing\n> using simultaneous EEG-fMRI.* **Scientific Data, 10, 554.**\n> https://doi.org/10.1038/s41597-023-02458-8\n- **DOI:** [10.1038/s41597-023-02458-8](https://doi.org/10.1038/s41597-023-02458-8)\n- **Source / project:** Nathan Kline Institute (NKI) / Child Mind Institute \u2014 INDI,\n  `s3://fcp-indi/data/Projects/natview_eegfmri`\nPlease credit the original creators (Telesford et al.) and cite the data paper above.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.0",
+  "license": null,
+  "authors": [
+    "Qawi K Telesford",
+    "Eduardo Gonzalez-Moreira",
+    "Ting Xu",
+    "Yiwen Tian",
+    "Stanley Colcombe",
+    "Jessica Cloud",
+    "Brian Edward Russ",
+    "Arnaud Falchier",
+    "Maximilian Nentwich",
+    "Jens Madsen",
+    "Lucas Parra",
+    "Charles Schroeder",
+    "Michael Milham",
+    "Alexandre Rosa Franco"
+  ],
+  "funding": [
+    "BRAIN Initiative Grant R24MH114806",
+    "National Institute of Mental Health Grant P50MH109429"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000254",
+  "associated_paper_doi": null,
+  "tasks": [
+    "checker",
+    "checkeroff",
+    "checkerout",
+    "dme",
+    "dmh",
+    "inscapes",
+    "monkey1",
+    "monkey2",
+    "monkey5",
+    "peer",
+    "rest",
+    "tp"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03"
+  ],
+  "total_files": 942,
+  "size_bytes": 274868366536,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 22,
+    "ages": [
+      23,
+      30,
+      42,
+      29,
+      51,
+      35,
+      50,
+      23,
+      44,
+      49,
+      35,
+      40,
+      24,
+      23,
+      40,
+      24,
+      41,
+      42,
+      49,
+      36,
+      44,
+      26
+    ],
+    "age_min": 23,
+    "age_max": 51,
+    "age_mean": 36.36363636363637,
+    "species": null,
+    "sex_distribution": {
+      "f": 11,
+      "m": 11
+    },
+    "handedness_distribution": {
+      "r": 18,
+      "l": 4
+    }
+  },
+  "senior_author": "Alexandre Rosa Franco",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:07.413120+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-08 03:46:33"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000254",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "events.json",
+      "last_night_sleep.json",
+      "last_night_sleep.tsv",
+      "nycq.json",
+      "nycq.tsv",
+      "participants.json",
+      "participants.tsv",
+      "psqi.json",
+      "psqi.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000254",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite: Telesford, Q. K. et al. (2023). An open-access dataset of naturalistic viewing using simultaneous EEG-fMRI. Scientific Data, 10, 554. https://doi.org/10.1038/s41597-023-02458-8",
+  "references_and_links": [
+    "https://doi.org/10.1038/s41597-023-02458-8"
+  ],
+  "source_datasets": [
+    {
+      "URL": "s3://fcp-indi/data/Projects/natview_eegfmri",
+      "Version": "2023 January 26"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-023-02458-8"
+    }
+  ],
+  "ingestion_fingerprint": "b8498effe853635b179d2c45b14a7eb987f9b90c1fa967065b8ca511ed855331"
+}

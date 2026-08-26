@@ -1,0 +1,1076 @@
+{
+  "dataset": "on006136",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:12:46.808035+00:00",
+  "record_count": 14,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU5_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU5/ieeg/sub-MU5_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU5/ieeg/sub-MU5_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU5",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU5",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU5/ieeg/sub-MU5_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU5/ieeg/sub-MU5_task-OWM_channels.tsv",
+          "sub-MU5/ieeg/sub-MU5_electrodes.tsv",
+          "sub-MU5/ieeg/sub-MU5_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU5/ieeg/sub-MU5_task-OWM_ieeg.edf": "SHA256E-s15394672--1e78232cf646386bfdbc1231b46f3295371e790a9f5469942761718714e80a3f.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-7",
+        "LMTG-8",
+        "LMTG-22",
+        "LMTG-78",
+        "LMTG-166",
+        "RMTG-159",
+        "LMFG-49",
+        "LMFG-105",
+        "LMFG-106",
+        "LMFG-107",
+        "LMFG-108"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 11,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "173dde5a7beaaca9"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU2_ses-02_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU2/ses-02/ieeg/sub-MU2_ses-02_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU2/ses-02/ieeg/sub-MU2_ses-02_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU2",
+        "session": "02",
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU2",
+        "session": "02",
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU2/ses-02/ieeg/sub-MU2_ses-02_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU2/ses-02/ieeg/sub-MU2_ses-02_task-OWM_channels.tsv",
+          "sub-MU2/ses-02/ieeg/sub-MU2_ses-02_electrodes.tsv",
+          "sub-MU2/ses-02/ieeg/sub-MU2_ses-02_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU2/ses-02/ieeg/sub-MU2_ses-02_task-OWM_ieeg.edf": "SHA256E-s9077930--f9faacc5ebeea1207602e1d45ba91c0924c2f7defbfa79754d60463940ee07da.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-16",
+        "LMTG-17",
+        "LMTG-18",
+        "LMTG-23",
+        "LMTG-24",
+        "LMTG-25",
+        "LMTG-97",
+        "LMTG-98",
+        "LMTG-99"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 9,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU2_ses-01_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU2/ses-01/ieeg/sub-MU2_ses-01_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU2/ses-01/ieeg/sub-MU2_ses-01_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU2",
+        "session": "01",
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU2",
+        "session": "01",
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU2/ses-01/ieeg/sub-MU2_ses-01_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU2/ses-01/ieeg/sub-MU2_ses-01_task-OWM_channels.tsv",
+          "sub-MU2/ses-01/ieeg/sub-MU2_ses-01_electrodes.tsv",
+          "sub-MU2/ses-01/ieeg/sub-MU2_ses-01_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU2/ses-01/ieeg/sub-MU2_ses-01_task-OWM_ieeg.edf": "SHA256E-s11008422--d1dd25770bddf768089bfa972866a62afd1e74084b2d712b2522cf1a9f5e165b.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-8",
+        "LMTG-16",
+        "LMTG-17",
+        "LMTG-18",
+        "LMTG-23",
+        "LMTG-38",
+        "LMTG-39",
+        "LMTG-40"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P3_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P3/ieeg/sub-P3_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P3/ieeg/sub-P3_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P3",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P3",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P3/ieeg/sub-P3_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P3/ieeg/sub-P3_task-OWM_channels.tsv",
+          "sub-P3/ieeg/sub-P3_electrodes.tsv",
+          "sub-P3/ieeg/sub-P3_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P3/ieeg/sub-P3_task-OWM_ieeg.edf": "SHA256E-s16454954--15948050d514d031386e25fa6576877fe28c3d8b465e03a2fc18dd21ead06637.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-18",
+        "LMTG-49",
+        "LMTG-50",
+        "LMTG-57",
+        "LMTG-58",
+        "LMFG-7",
+        "LMFG-15",
+        "LMFG-16"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "835f191f2f47fed2"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P5_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P5/ieeg/sub-P5_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P5/ieeg/sub-P5_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P5",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P5",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P5/ieeg/sub-P5_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P5/ieeg/sub-P5_task-OWM_channels.tsv",
+          "sub-P5/ieeg/sub-P5_electrodes.tsv",
+          "sub-P5/ieeg/sub-P5_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P5/ieeg/sub-P5_task-OWM_ieeg.edf": "SHA256E-s34556202--e44267b12378906a1c950c4c32416dd1188f246f61560b4949350cb4b055dc1e.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-7",
+        "LMTG-14",
+        "RMTG-52",
+        "RMTG-53",
+        "RMTG-54",
+        "RMTG-59",
+        "RMTG-60",
+        "RMTG-63",
+        "RMFG-24",
+        "RMFG-25",
+        "RMFG-26",
+        "RMFG-27",
+        "RMFG-41",
+        "RMFG-42"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 14,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "3d0e6e701b6dc50d"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU3_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU3/ieeg/sub-MU3_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU3/ieeg/sub-MU3_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU3",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU3",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU3/ieeg/sub-MU3_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU3/ieeg/sub-MU3_task-OWM_channels.tsv",
+          "sub-MU3/ieeg/sub-MU3_electrodes.tsv",
+          "sub-MU3/ieeg/sub-MU3_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU3/ieeg/sub-MU3_task-OWM_ieeg.edf": "SHA256E-s7101820--9365e58707b065b88f632b68a80ab4e9f132058f304edecd167034528c47ec41.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-124",
+        "LMTG-135",
+        "LMTG-136",
+        "RMFG-98",
+        "RMFG-99"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 5,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "ad2b6f7bb126dbe8"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P2_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P2/ieeg/sub-P2_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P2/ieeg/sub-P2_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P2",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P2",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P2/ieeg/sub-P2_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P2/ieeg/sub-P2_task-OWM_channels.tsv",
+          "sub-P2/ieeg/sub-P2_electrodes.tsv",
+          "sub-P2/ieeg/sub-P2_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P2/ieeg/sub-P2_task-OWM_ieeg.edf": "SHA256E-s21836662--298a2e2001beedf007306917a608a35daec7eac47e7d8b7755adc565257db6ed.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-27",
+        "LMTG-34",
+        "RMTG-49",
+        "RMTG-50",
+        "RMTG-51",
+        "RMTG-52",
+        "RMTG-53"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 7,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "29f80aa4a2953e7b"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU1_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU1/ieeg/sub-MU1_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU1/ieeg/sub-MU1_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU1",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU1",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU1/ieeg/sub-MU1_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU1/ieeg/sub-MU1_task-OWM_channels.tsv",
+          "sub-MU1/ieeg/sub-MU1_electrodes.tsv",
+          "sub-MU1/ieeg/sub-MU1_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU1/ieeg/sub-MU1_task-OWM_ieeg.edf": "SHA256E-s7246220--de97a5eaf1212d5cce7be04d5e19af8cd52b36ab240f5597b36acc2f8076eac6.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-26",
+        "LMTG-27",
+        "LMTG-28",
+        "LMTG-46",
+        "RMTG-107",
+        "LMFG-76"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 6,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "feaed54e2addc9fc"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU6_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU6/ieeg/sub-MU6_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU6/ieeg/sub-MU6_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU6",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU6",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU6/ieeg/sub-MU6_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU6/ieeg/sub-MU6_task-OWM_channels.tsv",
+          "sub-MU6/ieeg/sub-MU6_electrodes.tsv",
+          "sub-MU6/ieeg/sub-MU6_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU6/ieeg/sub-MU6_task-OWM_ieeg.edf": "SHA256E-s16618130--d227682c2e5c2bfb64aad25ee2954f79480c2272533817f1800261fdbd8f2114.edf"
+        }
+      },
+      "ch_names": [
+        "RMTG-6",
+        "RMTG-7",
+        "RMTG-8",
+        "RMTG-65",
+        "RMTG-66",
+        "RMTG-97",
+        "RMTG-98",
+        "RMTG-99",
+        "RMFG-110",
+        "RMFG-112",
+        "RMFG-113",
+        "RMFG-114"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 12,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "3f2d831da40bafe7"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P6_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P6/ieeg/sub-P6_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P6/ieeg/sub-P6_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P6",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P6",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P6/ieeg/sub-P6_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P6/ieeg/sub-P6_task-OWM_channels.tsv",
+          "sub-P6/ieeg/sub-P6_electrodes.tsv",
+          "sub-P6/ieeg/sub-P6_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P6/ieeg/sub-P6_task-OWM_ieeg.edf": "SHA256E-s47013956--de04acebbbb3d9a2790ee5ba98040e09579a700a7b5a216fc81575e1b6556337.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-50",
+        "RMTG-54",
+        "RMTG-55",
+        "RMTG-56",
+        "RMTG-57",
+        "RMTG-58",
+        "RMTG-59",
+        "RMTG-65",
+        "RMTG-66",
+        "RMTG-67",
+        "RMTG-68",
+        "LMFG-13",
+        "LMFG-14",
+        "LMFG-15",
+        "LMFG-16",
+        "LMFG-42",
+        "LMFG-43"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 17,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "7b7034f4e99315b1"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-MU4_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-MU4/ieeg/sub-MU4_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-MU4/ieeg/sub-MU4_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "MU4",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "MU4",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-MU4/ieeg/sub-MU4_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-MU4/ieeg/sub-MU4_task-OWM_channels.tsv",
+          "sub-MU4/ieeg/sub-MU4_electrodes.tsv",
+          "sub-MU4/ieeg/sub-MU4_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-MU4/ieeg/sub-MU4_task-OWM_ieeg.edf": "SHA256E-s9275202--c7cb4512e7079a7da1e8708e1bec1a2a2681f04cd990ec911042c547a5f124db.edf"
+        }
+      },
+      "ch_names": [
+        "RMTG-139",
+        "RMTG-140",
+        "LMFG-67",
+        "LMFG-89",
+        "LMFG-102",
+        "LMFG-103",
+        "LMFG-104"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 7,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "ca2cbfda0360962f"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P4_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P4/ieeg/sub-P4_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P4/ieeg/sub-P4_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P4",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P4",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P4/ieeg/sub-P4_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P4/ieeg/sub-P4_task-OWM_channels.tsv",
+          "sub-P4/ieeg/sub-P4_electrodes.tsv",
+          "sub-P4/ieeg/sub-P4_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P4/ieeg/sub-P4_task-OWM_ieeg.edf": "SHA256E-s14023052--e8a32c50e9c3ceec6595bd871feb5496c740557fc1512c7800735fc5fd71f3f8.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-32",
+        "LMTG-33",
+        "LMTG-34",
+        "LMTG-35",
+        "LMTG-36",
+        "RMFG-53",
+        "RMFG-54",
+        "RMFG-68",
+        "RMFG-69"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 9,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "c60749b243db4a8c"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P7_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P7/ieeg/sub-P7_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P7/ieeg/sub-P7_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P7",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P7",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P7/ieeg/sub-P7_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P7/ieeg/sub-P7_task-OWM_channels.tsv",
+          "sub-P7/ieeg/sub-P7_electrodes.tsv",
+          "sub-P7/ieeg/sub-P7_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P7/ieeg/sub-P7_task-OWM_ieeg.edf": "SHA256E-s36367496--45a026e034896842c060f82a86ec294df2a1ac603c0c266f4419ee02d316bbbe.edf"
+        }
+      },
+      "ch_names": [
+        "RMTG-43",
+        "RMTG-44",
+        "RMTG-45",
+        "RMTG-46",
+        "RMTG-61",
+        "RMTG-62",
+        "RMTG-63",
+        "RMTG-64",
+        "RMTG-65",
+        "RMFG-17",
+        "RMFG-18",
+        "RMFG-20"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 12,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "c2eeef39a7a5cdea"
+    },
+    {
+      "dataset": "on006136",
+      "data_name": "on006136_sub-P1_task-OWM_ieeg.edf",
+      "bidspath": "on006136/sub-P1/ieeg/sub-P1_task-OWM_ieeg.edf",
+      "bids_relpath": "sub-P1/ieeg/sub-P1_task-OWM_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "P1",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "P1",
+        "session": null,
+        "task": "OWM",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006136",
+        "raw_key": "sub-P1/ieeg/sub-P1_task-OWM_ieeg.edf",
+        "dep_keys": [
+          "sub-P1/ieeg/sub-P1_task-OWM_channels.tsv",
+          "sub-P1/ieeg/sub-P1_electrodes.tsv",
+          "sub-P1/ieeg/sub-P1_coordsystem.json"
+        ],
+        "annex_keys": {
+          "sub-P1/ieeg/sub-P1_task-OWM_ieeg.edf": "SHA256E-s53778866--9ac1cc911c5e8b96f149e3ecaf44093c958ffbb9e948fc8e8c918550a50a5371.edf"
+        }
+      },
+      "ch_names": [
+        "LMTG-23",
+        "LMTG-24",
+        "LMTG-25",
+        "LMTG-26",
+        "LMTG-27",
+        "RMTG-63",
+        "RMTG-64",
+        "RMTG-65",
+        "RMTG-66",
+        "LMFG-6",
+        "LMFG-7",
+        "LMFG-8",
+        "LMFG-9",
+        "RMFG-46",
+        "RMFG-47",
+        "RMFG-48",
+        "RMFG-49",
+        "RMFG-50"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 18,
+      "ntimes": 6499000,
+      "duration_seconds": 6499.0,
+      "digested_at": "2026-08-26T11:12:46.808035+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": "n/a",
+      "ieeg_reference": "bipolar",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 6499,
+      "montage_hash": "b2363e128bda20d9"
+    }
+  ]
+}

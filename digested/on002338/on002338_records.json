@@ -1,0 +1,5449 @@
+{
+  "dataset": "on002338",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:05:13.457540+00:00",
+  "record_count": 85,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp203_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp203",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp203",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.eeg",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.vhdr": "MD5E-s11686--64caaf7518d95d0374d81356ffc8a320.vhdr",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.eeg": "MD5E-s222528000--1dcd748c5af0ceb2b059b18a55bdcf16.eeg",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-02_eeg.vmrk": "MD5E-s11547--21ecd4799c7bd091b666c0f9cb9d3230.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1738500,
+      "duration_seconds": 347.7,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp203_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp203/eeg/sub-xp203_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp203",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp203",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.eeg",
+          "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.vmrk",
+          "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.vhdr": "MD5E-s11674--354e186376749038c266191b6f5af676.vhdr",
+          "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.eeg": "MD5E-s216345600--75baf875fb51590630934b2ea3ab3b4c.eeg",
+          "sub-xp203/eeg/sub-xp203_task-MIpre_eeg.vmrk": "MD5E-s11427--e86ff2728c2c653a899d6115ae579152.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1690200,
+      "duration_seconds": 338.04,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp203_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp203",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp203",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.eeg",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.vhdr": "MD5E-s11686--29e1938f94722feee7a9835415673838.vhdr",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.eeg": "MD5E-s215488000--5b2508a8223ebf4a7bb11d4664b52b98.eeg",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-03_eeg.vmrk": "MD5E-s11553--b5377307963a2a64c55dd17d465b52d7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1683500,
+      "duration_seconds": 336.7,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp203_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp203/eeg/sub-xp203_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp203",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp203",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.eeg",
+          "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.vmrk",
+          "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.vhdr": "MD5E-s11676--7425c8f756509933dc5c1c02a12d20ed.vhdr",
+          "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.eeg": "MD5E-s215961600--db9199490f392ae7882bbe34c663235e.eeg",
+          "sub-xp203/eeg/sub-xp203_task-MIpost_eeg.vmrk": "MD5E-s11457--e9663cb7e2a036101ccc98dd6347d7d9.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1687200,
+      "duration_seconds": 337.44,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp203_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp203",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp203",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.eeg",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.vhdr": "MD5E-s11686--069dc96198f75c4768b0efcb0917c579.vhdr",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.eeg": "MD5E-s222476800--2fa082a7ec834dbda78ae7cc1ce55046.eeg",
+          "sub-xp203/eeg/sub-xp203_task-1dNF_run-01_eeg.vmrk": "MD5E-s11578--69951a59712a040ec85ed499d8c69fdd.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1738100,
+      "duration_seconds": 347.62,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp217_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp217/eeg/sub-xp217_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp217",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp217",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.eeg",
+          "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.vmrk",
+          "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.vhdr": "MD5E-s11814--3a6e538014b6c9e17ffa4a4f4d64e724.vhdr",
+          "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.eeg": "MD5E-s222579200--2d45dfecd71abc8851f2b0807deb0873.eeg",
+          "sub-xp217/eeg/sub-xp217_task-MIpost_eeg.vmrk": "MD5E-s11684--33c82b3dd926ad052cfa9db825a6fb3d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1738900,
+      "duration_seconds": 347.78,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 36.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp217_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp217",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp217",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.eeg",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.vhdr": "MD5E-s11824--8271ed92759063499d9a2b839248308a.vhdr",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.eeg": "MD5E-s216640000--ff35fd42787d2c02099a3d3fe2f620fa.eeg",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-01_eeg.vmrk": "MD5E-s11652--373b1306bd0f7aa1b66caa1642711baa.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1692500,
+      "duration_seconds": 338.5,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 36.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp217_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp217",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp217",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.eeg",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.vhdr": "MD5E-s11824--e323cf8e98bc7e230af101d6dd1c13c1.vhdr",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.eeg": "MD5E-s219033600--d531333b15f37fd24e764061ba7dafcf.eeg",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-02_eeg.vmrk": "MD5E-s11598--6b9baaedf8afcbb661d329432638e559.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1711200,
+      "duration_seconds": 342.24,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 36.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp217_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp217/eeg/sub-xp217_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp217",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp217",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.eeg",
+          "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.vmrk",
+          "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.vhdr": "MD5E-s11812--db701be2bd06528f3bdc8266faf5fe9b.vhdr",
+          "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.eeg": "MD5E-s215782400--8fe9a6ee74aafbfe724b8493ae7cfda1.eeg",
+          "sub-xp217/eeg/sub-xp217_task-MIpre_eeg.vmrk": "MD5E-s11456--c3d8f0051c790aa65a2f6b461c9ea6de.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1685800,
+      "duration_seconds": 337.16,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 36.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp217_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp217",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp217",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.eeg",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.vhdr": "MD5E-s11824--8c60449eb2bd8d1c0f149763f9efc86c.vhdr",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.eeg": "MD5E-s216038400--c52af1a6d97ccf661224c380ff763f51.eeg",
+          "sub-xp217/eeg/sub-xp217_task-2dNF_run-03_eeg.vmrk": "MD5E-s11557--2adf2ec9bdacee80c100ca327da90bb3.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1687800,
+      "duration_seconds": 337.56,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 36.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp210_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp210",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp210",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.eeg",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.vhdr": "MD5E-s11824--3c66329560d5d490eae8c6df044c7da6.vhdr",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.eeg": "MD5E-s214451200--8a267415b40a9394c2ef733f8345bd43.eeg",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-03_eeg.vmrk": "MD5E-s11458--12b82490969f9858fe475128cb009fdf.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1675400,
+      "duration_seconds": 335.08,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp210_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp210",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp210",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.eeg",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.vhdr": "MD5E-s11824--7df2a93d7847d119e175c6248233bd54.vhdr",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.eeg": "MD5E-s213068800--75fa0b67d037c2e7cdba3858c5b81646.eeg",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-02_eeg.vmrk": "MD5E-s11547--ad1c646e621e46cd1bfce28d338b40cc.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1664600,
+      "duration_seconds": 332.92,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp210_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp210",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp210",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.eeg",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.vhdr": "MD5E-s11824--aa101d0deabfb69bad6db68298095a3f.vhdr",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.eeg": "MD5E-s213836800--fc62ab4188799547d9576fc7f87d2a7f.eeg",
+          "sub-xp210/eeg/sub-xp210_task-2dNF_run-01_eeg.vmrk": "MD5E-s11673--6d55ec3c3da316b7547cf09d362ee867.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1670600,
+      "duration_seconds": 334.12,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp210_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp210/eeg/sub-xp210_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp210",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp210",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.eeg",
+          "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.vmrk",
+          "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.vhdr": "MD5E-s11812--a2fa2850030ce757ee12ae4bb9c78e35.vhdr",
+          "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.eeg": "MD5E-s216064000--2e7acb81e4b2262a8b56e64cacdb45fa.eeg",
+          "sub-xp210/eeg/sub-xp210_task-MIpre_eeg.vmrk": "MD5E-s11427--6675f6d456645e6d49555755d66a2893.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1688000,
+      "duration_seconds": 337.6,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp210_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp210/eeg/sub-xp210_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp210",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp210",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.eeg",
+          "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.vmrk",
+          "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.vhdr": "MD5E-s11814--4cc5fa6d7798154fcd26a00bcfefb7a5.vhdr",
+          "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.eeg": "MD5E-s276185600--af2690ad7cd2a7384960c92a24b8c30f.eeg",
+          "sub-xp210/eeg/sub-xp210_task-MIpost_eeg.vmrk": "MD5E-s11692--8f2ea3431da8aa56c283aad28e518b9d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 2157700,
+      "duration_seconds": 431.54,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp202_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp202",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp202",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.eeg",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.vhdr": "MD5E-s11685--20e54a7afa7bd8bc8b3239c30cd95b1e.vhdr",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.eeg": "MD5E-s218099200--14a4dfb38f970597ed399f59ce38ae46.eeg",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-01_eeg.vmrk": "MD5E-s11656--8ce5283e295e784d57fff0fab8a62cff.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1703900,
+      "duration_seconds": 340.78,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp202_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp202",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp202",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.eeg",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.vhdr": "MD5E-s11685--9cbf3b34ddf5ad7bd5f649a5807e822f.vhdr",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.eeg": "MD5E-s227289600--d69f03afd77cae6daac2397846cb5faa.eeg",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-02_eeg.vmrk": "MD5E-s11554--ce094fdc9a5bc73d05edecb93893dcd0.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1775700,
+      "duration_seconds": 355.14,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp202_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp202",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp202",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.eeg",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.vhdr": "MD5E-s11685--428e9e30dae5397b1b4f7635929bebb6.vhdr",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.eeg": "MD5E-s222924800--51067ea5ad4f5effd281581f3e6076fc.eeg",
+          "sub-xp202/eeg/sub-xp202_task-1dNF_run-03_eeg.vmrk": "MD5E-s11670--6d0061f21faa9249ae9f2172feb01c01.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1741600,
+      "duration_seconds": 348.32,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp202_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp202/eeg/sub-xp202_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp202",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp202",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.eeg",
+          "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.vmrk",
+          "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.vhdr": "MD5E-s11675--04a76abe85dbd4ab0ed2868bda57099f.vhdr",
+          "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.eeg": "MD5E-s223833600--21c281434a1405d98cfa44e3d0a82edb.eeg",
+          "sub-xp202/eeg/sub-xp202_task-MIpost_eeg.vmrk": "MD5E-s11686--a4ccc7f50373735ef1a18d0309b455cc.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1748700,
+      "duration_seconds": 349.74,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp202_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp202/eeg/sub-xp202_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp202",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp202",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.eeg",
+          "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.vmrk",
+          "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.vhdr": "MD5E-s11673--49aec490297a65cf26a49eeb5b3c3a0b.vhdr",
+          "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.eeg": "MD5E-s242995200--7620ef16033a3b7312e097b1f894e9ed.eeg",
+          "sub-xp202/eeg/sub-xp202_task-MIpre_eeg.vmrk": "MD5E-s11687--26a926b330dc0f3944ae639357ae3109.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1898400,
+      "duration_seconds": 379.68,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp221_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp221/eeg/sub-xp221_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp221",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp221",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.eeg",
+          "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.vmrk",
+          "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.vhdr": "MD5E-s1867--1c5511142d5a8a38c2a4d309a4eb8738.vhdr",
+          "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.eeg": "MD5E-s214694400--1a47d6bf22b26b4ff0e115fef39b4ead.eeg",
+          "sub-xp221/eeg/sub-xp221_task-MIpost_eeg.vmrk": "MD5E-s11486--8d9398581d3b7364adac24643cff639c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1677300,
+      "duration_seconds": 335.46,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 42.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp221_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp221",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp221",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.eeg",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.vhdr": "MD5E-s11685--241286142736cd5b8c4cff27e5a7be92.vhdr",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.eeg": "MD5E-s227737600--9c7dcc88fb17fd567992c21addd64244.eeg",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-02_eeg.vmrk": "MD5E-s11713--efa67ac545b14239b5a05957219a422a.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1779200,
+      "duration_seconds": 355.84,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 42.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp221_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp221",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp221",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.eeg",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.vhdr": "MD5E-s11685--6369c9dcaf1fd6923352994b1b5907b2.vhdr",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.eeg": "MD5E-s216435200--31d05f2b8a26e7e447157486db046c3f.eeg",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-01_eeg.vmrk": "MD5E-s11526--bb6e5b9efbb9255abe74434e8523247c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1690900,
+      "duration_seconds": 338.18,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 42.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp221_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp221",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp221",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.eeg",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.vhdr": "MD5E-s11685--b5be76f31051e86d9bd78b96d2b1ced8.vhdr",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.eeg": "MD5E-s218022400--45ebeaf17976383e4491f675e9ed73f6.eeg",
+          "sub-xp221/eeg/sub-xp221_task-2dNF_run-03_eeg.vmrk": "MD5E-s11656--1f33484f283b7d55ab096f6e1ed51fdd.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1703300,
+      "duration_seconds": 340.66,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 42.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp221_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp221/eeg/sub-xp221_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp221",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp221",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.eeg",
+          "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.vmrk",
+          "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.vhdr": "MD5E-s11673--4e10a26aba8b3cadf529b9134ede8bdb.vhdr",
+          "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.eeg": "MD5E-s221593600--030404cf1600cb53fab64952527be6e5.eeg",
+          "sub-xp221/eeg/sub-xp221_task-MIpre_eeg.vmrk": "MD5E-s11796--05f9ee5fb486161ffbda24e8f0b6b78c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1731200,
+      "duration_seconds": 346.24,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 42.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp206_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp206/eeg/sub-xp206_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp206",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp206",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.eeg",
+          "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.vmrk",
+          "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.vhdr": "MD5E-s11673--66c825096a6d2d89bc68e0abc44b6227.vhdr",
+          "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.eeg": "MD5E-s218060800--0f1c8083c645fc9d3d3d94d1f73fadff.eeg",
+          "sub-xp206/eeg/sub-xp206_task-MIpre_eeg.vmrk": "MD5E-s11588--dff467e5bd22855df3c18033812b537d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1703600,
+      "duration_seconds": 340.72,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp206_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp206",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp206",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.eeg",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.vhdr": "MD5E-s11685--039794378108a9c74ce6305541eaadef.vhdr",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.eeg": "MD5E-s218892800--e5e3292e640e48877fc530831a9e0d05.eeg",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-03_eeg.vmrk": "MD5E-s11627--9b2007c51fe1a910c17e13ec74af98ff.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1710100,
+      "duration_seconds": 342.02,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp206_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp206",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp206",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.eeg",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.vhdr": "MD5E-s11685--156c31c418f2c8f79d60248240f15a8d.vhdr",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.eeg": "MD5E-s223833600--560259a716292978fee7fef02302c8a6.eeg",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-02_eeg.vmrk": "MD5E-s11691--3beff2067be7de1f5a0ea597cb4271f7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1748700,
+      "duration_seconds": 349.74,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp206_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp206",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp206",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.eeg",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.vhdr": "MD5E-s11685--93ab43747fe1a7c569e8ba51f8156a0f.vhdr",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.eeg": "MD5E-s215424000--2a6cff9e1e6c4d0da9f74b56e4e37065.eeg",
+          "sub-xp206/eeg/sub-xp206_task-1dNF_run-01_eeg.vmrk": "MD5E-s11555--8ee3f61bac0e8513b515fa100335b373.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1683000,
+      "duration_seconds": 336.6,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp206_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp206/eeg/sub-xp206_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp206",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp206",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.eeg",
+          "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.vmrk",
+          "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.vhdr": "MD5E-s11675--28963e7391058e66a6cf03376e9db3a0.vhdr",
+          "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.eeg": "MD5E-s225344000--f9526fdd38a8cb794c6624332a89a314.eeg",
+          "sub-xp206/eeg/sub-xp206_task-MIpost_eeg.vmrk": "MD5E-s11696--0b4c4f6eb41f7f907290eae07904a58c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1760500,
+      "duration_seconds": 352.1,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp218_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp218",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp218",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.eeg",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.vhdr": "MD5E-s11824--8423c5ab3782d81f185666e81979d45a.vhdr",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.eeg": "MD5E-s220121600--7cd36c4a8ff3a2a4cc2f41c37dbc0bb4.eeg",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-01_eeg.vmrk": "MD5E-s11691--646ba74e7ed59702346892a559cd9dc6.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1719700,
+      "duration_seconds": 343.94,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 46.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp218_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp218",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp218",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.eeg",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.vhdr": "MD5E-s11824--a02d25735f9b25d8cb0d9f4164ca6a42.vhdr",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.eeg": "MD5E-s214464000--96575d1d54cb01ad790c80d61cc8450c.eeg",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-02_eeg.vmrk": "MD5E-s11520--317c4e6a0ae55daecaebf2a199f9da7d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1675500,
+      "duration_seconds": 335.1,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 46.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp218_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp218/eeg/sub-xp218_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp218",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp218",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.eeg",
+          "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.vmrk",
+          "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.vhdr": "MD5E-s11814--e3b5dba89b6f9edeac9070fd47f1fa9d.vhdr",
+          "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.eeg": "MD5E-s233958400--4029536eb99cf528a424965d0d3820f3.eeg",
+          "sub-xp218/eeg/sub-xp218_task-MIpost_eeg.vmrk": "MD5E-s11688--b3bba1ef459e1cc520c73b1a153a98d5.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1827800,
+      "duration_seconds": 365.56,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 46.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp218_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp218",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp218",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.eeg",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.vhdr": "MD5E-s11824--aa8a45fc400bcb1736e3aba19c0ea98f.vhdr",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.eeg": "MD5E-s216268800--dd67b4f49cb2ccdea7a11b9e2bd573c7.eeg",
+          "sub-xp218/eeg/sub-xp218_task-1dNF_run-03_eeg.vmrk": "MD5E-s11619--ce3bad0a3c227d85b122f4b5ff2eed8e.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1689600,
+      "duration_seconds": 337.92,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 46.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp218_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp218/eeg/sub-xp218_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp218",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp218",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.eeg",
+          "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.vmrk",
+          "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.vhdr": "MD5E-s11812--4ac314d321c4cbbc8404ddceab33791b.vhdr",
+          "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.eeg": "MD5E-s213209600--8f6b336ae8f0225add9b4c11e16697ae.eeg",
+          "sub-xp218/eeg/sub-xp218_task-MIpre_eeg.vmrk": "MD5E-s11448--24c4f0b5426bd73bf9195dd5756ed5f6.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1665700,
+      "duration_seconds": 333.14,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 46.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp216_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp216/eeg/sub-xp216_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp216",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp216",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.eeg",
+          "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.vmrk",
+          "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.vhdr": "MD5E-s11673--87076456b453e4b61dcea218f68a877b.vhdr",
+          "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.eeg": "MD5E-s221324800--22dce4fb8bef996ee3ac112dc3bc315b.eeg",
+          "sub-xp216/eeg/sub-xp216_task-MIpre_eeg.vmrk": "MD5E-s11691--70a780c6e857af480ded1d2540e55857.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1729100,
+      "duration_seconds": 345.82,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp216_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp216",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp216",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.eeg",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.vhdr": "MD5E-s11824--9cd4603d7542a9783b3b48b2b7d61651.vhdr",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.eeg": "MD5E-s217715200--aa9bc55022cc1dbbb21d83759bdc6548.eeg",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-02_eeg.vmrk": "MD5E-s11685--2758830e61f2f42e8833c62e50408014.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1700900,
+      "duration_seconds": 340.18,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp216_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp216",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp216",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.eeg",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.vhdr": "MD5E-s11824--09f093a645dd63059eb990d15cdadbce.vhdr",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.eeg": "MD5E-s218636800--048f9dfb4bbfb55beb4a52068c11701f.eeg",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-01_eeg.vmrk": "MD5E-s11689--6e14176e7d2bbd98a3ce1dd3d1c22f94.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1708100,
+      "duration_seconds": 341.62,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp216_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp216",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp216",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.eeg",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.vhdr": "MD5E-s11824--b1c27935546e8623781bcc33760e4259.vhdr",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.eeg": "MD5E-s216588800--8d73eb562aa2ba534f52b8ff450cb0e7.eeg",
+          "sub-xp216/eeg/sub-xp216_task-2dNF_run-03_eeg.vmrk": "MD5E-s11681--42a9ad1ba8a0ebad7d584c795f39c546.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1692100,
+      "duration_seconds": 338.42,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp216_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp216/eeg/sub-xp216_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp216",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp216",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.eeg",
+          "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.vmrk",
+          "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.vhdr": "MD5E-s11814--9c4518a760994c385254ffbda1d6e778.vhdr",
+          "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.eeg": "MD5E-s232755200--91f65fd1275ea668b3fbb3801c7f7b41.eeg",
+          "sub-xp216/eeg/sub-xp216_task-MIpost_eeg.vmrk": "MD5E-s11690--d3739228217d63b81f6926c06e453463.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1818400,
+      "duration_seconds": 363.68,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp205_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp205",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp205",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.eeg",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.vhdr": "MD5E-s10508--18a6f1ae707276a383f687863a200475.vhdr",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.eeg": "MD5E-s224576000--1c695da5b35cf41f18c4187d9f3a2a52.eeg",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-01_eeg.vmrk": "MD5E-s11701--be878fcc253f2a0d4651178773b6b2f4.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1754500,
+      "duration_seconds": 350.9,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp205_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp205/eeg/sub-xp205_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp205",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp205",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.eeg",
+          "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.vmrk",
+          "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.vhdr": "MD5E-s12186--6bf3c21b61583b3148033d1fe1a4f5a9.vhdr",
+          "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.eeg": "MD5E-s469158400--a48b3de1cf906b3fa22adecd403df185.eeg",
+          "sub-xp205/eeg/sub-xp205_task-MIpre_eeg.vmrk": "MD5E-s11681--fe071465a85be3e4352143d4f6d60c59.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 3665300,
+      "duration_seconds": 733.06,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp205_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp205",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp205",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.eeg",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.vhdr": "MD5E-s10508--e73cdb0b1ea491870cfeedeef9421136.vhdr",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.eeg": "MD5E-s222873600--7abff7940fe78872c7fe464ac1595458.eeg",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-03_eeg.vmrk": "MD5E-s11610--46474a7f0685cac13b7f503f0ea20a95.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1741200,
+      "duration_seconds": 348.24,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp205_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp205/eeg/sub-xp205_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp205",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp205",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.eeg",
+          "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.vmrk",
+          "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.vhdr": "MD5E-s10498--d34c7e0bd21f5a90c0895992539509e1.vhdr",
+          "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.eeg": "MD5E-s257830400--1d3ea31a3cf66a6995a516ea9d872181.eeg",
+          "sub-xp205/eeg/sub-xp205_task-MIpost_eeg.vmrk": "MD5E-s11684--e1fba5563ad7bfb4f6efeace6d8f43bc.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 2014300,
+      "duration_seconds": 402.86,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp205_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp205",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp205",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.eeg",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.vhdr": "MD5E-s10508--c1788c8daf7a6ac962176406e0258bfa.vhdr",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.eeg": "MD5E-s219878400--d0c3cb1d8ce660a5e6e1b279ecf9e9c4.eeg",
+          "sub-xp205/eeg/sub-xp205_task-2dNF_run-02_eeg.vmrk": "MD5E-s11536--6097394f6c1846411bfc28824b0a368c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1717800,
+      "duration_seconds": 343.56,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp222_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp222",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp222",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.eeg",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.vhdr": "MD5E-s11824--644cdf694e2227c853cfd7b593842ee4.vhdr",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.eeg": "MD5E-s215680000--efa5248862630c8bdeee3cd65b8a6ba1.eeg",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-01_eeg.vmrk": "MD5E-s11555--3b1fab775e419e645a852f35f336dfc2.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1685000,
+      "duration_seconds": 337.0,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp222_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp222",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp222",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.eeg",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.vhdr": "MD5E-s11824--643586bdc31cb4cd350bd64d4e8af67e.vhdr",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.eeg": "MD5E-s237196800--b85608b717658d2a0a8fa2f402dfc3f3.eeg",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-02_eeg.vmrk": "MD5E-s11724--bec4fb11cb19988568b1a1b243e00c00.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1853100,
+      "duration_seconds": 370.62,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp222_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp222/eeg/sub-xp222_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp222",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp222",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.eeg",
+          "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.vmrk",
+          "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.vhdr": "MD5E-s1867--957439ec8560b331104452e924abe45f.vhdr",
+          "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.eeg": "MD5E-s215398400--2d8ca32b0a5951df26856b16ea52f344.eeg",
+          "sub-xp222/eeg/sub-xp222_task-MIpost_eeg.vmrk": "MD5E-s11486--df9cbf47bc4d2d7a5fd94d7fbe92ada7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1682800,
+      "duration_seconds": 336.56,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp222_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp222/eeg/sub-xp222_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp222",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp222",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.eeg",
+          "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.vmrk",
+          "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.vhdr": "MD5E-s11812--2ec3e97e3d0f913cd2c00d7c502e863b.vhdr",
+          "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.eeg": "MD5E-s250060800--694123482fa4bd260293977e99062c10.eeg",
+          "sub-xp222/eeg/sub-xp222_task-MIpre_eeg.vmrk": "MD5E-s11693--9775e1a1c0c06738cc8085d4e90ef31e.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1953600,
+      "duration_seconds": 390.72,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp222_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp222",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp222",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.eeg",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.vhdr": "MD5E-s1877--90191517cf6c970224a319999f302873.vhdr",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.eeg": "MD5E-s219545600--7a830db7a9ba1bd38cf58ac36d979b95.eeg",
+          "sub-xp222/eeg/sub-xp222_task-1dNF_run-03_eeg.vmrk": "MD5E-s11598--e3aba95883d8cea3482caa7d8aef9312.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1715200,
+      "duration_seconds": 343.04,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp204_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp204",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp204",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.eeg",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.vhdr": "MD5E-s11686--b01aa59a2281bcee0064f775c05ee3af.vhdr",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.eeg": "MD5E-s239014400--3484ca754bc3d93421cd8d3fa08df1d6.eeg",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-01_eeg.vmrk": "MD5E-s11693--4f8d78abbdac7e3d5051aa02bc3dfce9.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1867300,
+      "duration_seconds": 373.46,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp204_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp204",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp204",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.eeg",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.vhdr": "MD5E-s11686--e7949b43cb0b7d28af0d128dfb938e3d.vhdr",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.eeg": "MD5E-s232512000--11fbccc7a83b8eb2e2cf29008ebee7df.eeg",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-02_eeg.vmrk": "MD5E-s11697--5a86f959f4dbf104830997d00395b0b3.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1816500,
+      "duration_seconds": 363.3,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp204_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp204/eeg/sub-xp204_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp204",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp204",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.eeg",
+          "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.vmrk",
+          "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.vhdr": "MD5E-s11674--fbca50cfe74bc2417d4a5920ca1960e3.vhdr",
+          "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.eeg": "MD5E-s248204800--fe03d51774eae6cda94cfb64e73c9db5.eeg",
+          "sub-xp204/eeg/sub-xp204_task-MIpre_eeg.vmrk": "MD5E-s11666--6409d9b8feafe447d83082a8d5a794ce.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1939100,
+      "duration_seconds": 387.82,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp204_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp204",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp204",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.eeg",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.vhdr": "MD5E-s11686--0fc5fd28125a7b4718b8c50e63706013.vhdr",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.eeg": "MD5E-s216448000--e3ef2dc6e99fd94c03077ad80a740d11.eeg",
+          "sub-xp204/eeg/sub-xp204_task-2dNF_run-03_eeg.vmrk": "MD5E-s11588--0eaf478444d47ca07de336e3e0e91681.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1691000,
+      "duration_seconds": 338.2,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp204_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp204/eeg/sub-xp204_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp204",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp204",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.eeg",
+          "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.vmrk",
+          "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.vhdr": "MD5E-s11676--02272bb1a15cc6d9d2104fb96563aa1f.vhdr",
+          "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.eeg": "MD5E-s248832000--fb07bb13d54ed1aae7522b93e9b9a72f.eeg",
+          "sub-xp204/eeg/sub-xp204_task-MIpost_eeg.vmrk": "MD5E-s11690--458d6f5242a683f729dec18fe79bad68.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1944000,
+      "duration_seconds": 388.8,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "F",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp211_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp211/eeg/sub-xp211_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp211",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp211",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.eeg",
+          "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.vmrk",
+          "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.vhdr": "MD5E-s11814--a486839c8dabeb7bc60830f1a38dfeb9.vhdr",
+          "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.eeg": "MD5E-s224371200--3d53f570b17277f1fa7de0683cba7ae7.eeg",
+          "sub-xp211/eeg/sub-xp211_task-MIpost_eeg.vmrk": "MD5E-s11690--109d194fae3f7fcbb9df44747de573bb.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1752900,
+      "duration_seconds": 350.58,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 50.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp211_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp211",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp211",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.eeg",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.vhdr": "MD5E-s11824--c17903a025e4aa8d151974e0113170a3.vhdr",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.eeg": "MD5E-s217958400--72a2e9519ed681feb8b28ae0ec8acd1d.eeg",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-03_eeg.vmrk": "MD5E-s11501--74fd6896d995ca2554c49581ec3730a3.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1702800,
+      "duration_seconds": 340.56,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 50.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp211_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp211/eeg/sub-xp211_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp211",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp211",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.eeg",
+          "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.vmrk",
+          "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.vhdr": "MD5E-s11812--79d79fa7352edc8308d15cddd218c6fb.vhdr",
+          "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.eeg": "MD5E-s221491200--3ae91f9249c85249f157f27fe758f5c1.eeg",
+          "sub-xp211/eeg/sub-xp211_task-MIpre_eeg.vmrk": "MD5E-s11687--50c46410077cb567ed9ea5bd7b33229c.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1730400,
+      "duration_seconds": 346.08,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 50.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp211_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp211",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp211",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.eeg",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.vhdr": "MD5E-s11824--12c47ce871673ccff503daf0ef04e5f5.vhdr",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.eeg": "MD5E-s221312000--9808a4aab2b46db6e38f47407824e2ee.eeg",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-01_eeg.vmrk": "MD5E-s11693--bd04b4a94feec74a5fe871c750ee39d6.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1729000,
+      "duration_seconds": 345.8,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 50.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp211_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp211",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp211",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.eeg",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.vhdr": "MD5E-s11824--530a5ad8b17e2e9737d6004407b98606.vhdr",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.eeg": "MD5E-s223462400--7e4e19f47afde33b68a3eb99a9b792a9.eeg",
+          "sub-xp211/eeg/sub-xp211_task-1dNF_run-02_eeg.vmrk": "MD5E-s11612--c80d19ca0706542e4160c40163da371e.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1745800,
+      "duration_seconds": 349.16,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 50.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp220_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp220",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp220",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.eeg",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.vhdr": "MD5E-s11685--e4f5b83ada4050c5893f6e33837a968e.vhdr",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.eeg": "MD5E-s211852800--b1fcb748e6d7c36663cf80c319a9243b.eeg",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-03_eeg.vmrk": "MD5E-s11574--dffc9b3212ca50aa413069e7745aab58.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1655100,
+      "duration_seconds": 331.02,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 66.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp220_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp220",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp220",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.eeg",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.vhdr": "MD5E-s11685--da47ffefd19c0bc8b3e7695549b3978b.vhdr",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.eeg": "MD5E-s225600000--2bfd5d8bf9d036ce4827a3ed9eec250c.eeg",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-01_eeg.vmrk": "MD5E-s11697--c67a92d3c3eb66dc558ff00caee6589f.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1762500,
+      "duration_seconds": 352.5,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 66.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp220_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp220/eeg/sub-xp220_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp220",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp220",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.eeg",
+          "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.vmrk",
+          "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.vhdr": "MD5E-s11673--7ff88c0f039518f3748ee813afe86c8d.vhdr",
+          "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.eeg": "MD5E-s224755200--c7ba405093acdfd9e00b2a8d5ecfc7b3.eeg",
+          "sub-xp220/eeg/sub-xp220_task-MIpre_eeg.vmrk": "MD5E-s11693--a71cf54d881f1ed5454fd20c3597d825.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1755900,
+      "duration_seconds": 351.18,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 66.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp220_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp220",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp220",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.eeg",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.vhdr": "MD5E-s11685--293fb8987130b84560c0dab951bbd8d5.vhdr",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.eeg": "MD5E-s219046400--3426ae6930d38cd408367f2c2c0ffea3.eeg",
+          "sub-xp220/eeg/sub-xp220_task-1dNF_run-02_eeg.vmrk": "MD5E-s11687--e7d214c8b0fa9e6eac6408aea63e78e2.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1711300,
+      "duration_seconds": 342.26,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 66.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp220_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp220/eeg/sub-xp220_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp220",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp220",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.eeg",
+          "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.vmrk",
+          "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.vhdr": "MD5E-s11675--4484217f130c15fd0a3c47721eccbe60.vhdr",
+          "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.eeg": "MD5E-s211494400--51de3f544425d1de57165a888a81aa61.eeg",
+          "sub-xp220/eeg/sub-xp220_task-MIpost_eeg.vmrk": "MD5E-s11443--ee8ea4500d453cf2ee37949be2f68c6d.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1652300,
+      "duration_seconds": 330.46,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 66.0,
+        "sex": "M",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp201_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp201/eeg/sub-xp201_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp201",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp201",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.eeg",
+          "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.vmrk",
+          "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.vhdr": "MD5E-s11676--cf5ddbbf15fdd2a64a15598000887f14.vhdr",
+          "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.eeg": "MD5E-s228339200--3cfed8cef97c021b13676703d6820b6f.eeg",
+          "sub-xp201/eeg/sub-xp201_task-MIpost_eeg.vmrk": "MD5E-s11694--51162680578384511e9ec879fc3c2fa7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1783900,
+      "duration_seconds": 356.78,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 41.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp201_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp201",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp201",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.eeg",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.vhdr": "MD5E-s11686--a7e2efa4387342b631ab488db857ccd9.vhdr",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.eeg": "MD5E-s230566400--2027c9a402ab6b14ae41ed801da8aa98.eeg",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-01_eeg.vmrk": "MD5E-s11718--57c67f05ad9669619600d7975425b939.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1801300,
+      "duration_seconds": 360.26,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 41.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp201_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp201",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp201",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.eeg",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.vhdr": "MD5E-s11686--3934c1bef04d372de4660291b22e8020.vhdr",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.eeg": "MD5E-s217779200--7afd983e0ed9bb8dac05b9b5334a278c.eeg",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-03_eeg.vmrk": "MD5E-s11592--1e6b34d9eb616585dc46f1dac90ea500.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1701400,
+      "duration_seconds": 340.28,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 41.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp201_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp201",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp201",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.eeg",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.vhdr": "MD5E-s11686--c04035a3f0b0f3fd6d7897e09cbc8b2d.vhdr",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.eeg": "MD5E-s229670400--d79b660298db00e43e6f009f0265e24f.eeg",
+          "sub-xp201/eeg/sub-xp201_task-1dNF_run-02_eeg.vmrk": "MD5E-s11707--d8d77d23dec0243b0060514da0e562ed.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1794300,
+      "duration_seconds": 358.86,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 41.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp201_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp201/eeg/sub-xp201_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp201",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp201",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.eeg",
+          "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.vmrk",
+          "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.vhdr": "MD5E-s11674--5496e3a9276175bd63b6168db475ccf5.vhdr",
+          "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.eeg": "MD5E-s218534400--7bac6d0bd8230e58b460f7a810ccac96.eeg",
+          "sub-xp201/eeg/sub-xp201_task-MIpre_eeg.vmrk": "MD5E-s11590--d84792f2bed9aa010edfa3f5a3c483b4.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1707300,
+      "duration_seconds": 341.46,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 41.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp219_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp219/eeg/sub-xp219_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp219",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp219",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.eeg",
+          "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.vmrk",
+          "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.vhdr": "MD5E-s11675--392860411a7efc3a3ebe584aa0897967.vhdr",
+          "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.eeg": "MD5E-s219187200--653c8af28c37d8f4ada67aaaf3c214de.eeg",
+          "sub-xp219/eeg/sub-xp219_task-MIpost_eeg.vmrk": "MD5E-s11469--f58585fe90c9394bbc604b3cb239d4c5.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1712400,
+      "duration_seconds": 342.48,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp219_task-1dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp219",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp219",
+        "session": null,
+        "task": "1dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.eeg",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.vmrk",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.vhdr": "MD5E-s11685--4ea1a09d883dc4ba178ca543af587b89.vhdr",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.eeg": "MD5E-s223232000--9bb875a5ed5aff5dc1d278b2397442c8.eeg",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-03_eeg.vmrk": "MD5E-s11693--fcdcb207ec5ae3d02b100811cebaad77.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1744000,
+      "duration_seconds": 348.8,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp219_task-1dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp219",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp219",
+        "session": null,
+        "task": "1dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.eeg",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.vmrk",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.vhdr": "MD5E-s11685--b58161c4698f2ae4908b609265188cce.vhdr",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.eeg": "MD5E-s266700800--4163173029dd4b865b915c530095ddb9.eeg",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-01_eeg.vmrk": "MD5E-s11711--5f5e6d4b5452a2ceb0b8164820ffb85f.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 2083600,
+      "duration_seconds": 416.72,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp219_task-1dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp219",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp219",
+        "session": null,
+        "task": "1dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.eeg",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.vmrk",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.vhdr": "MD5E-s11685--5d7a963d74b9a4f7b495fb53f243778c.vhdr",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.eeg": "MD5E-s229286400--6cf0eee74aac0ef948d26dd9629a7de4.eeg",
+          "sub-xp219/eeg/sub-xp219_task-1dNF_run-02_eeg.vmrk": "MD5E-s11621--35be15f3014334769eefdc06aa6ddf06.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1791300,
+      "duration_seconds": 358.26,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp219_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp219/eeg/sub-xp219_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp219",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp219",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.eeg",
+          "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.vmrk",
+          "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.vhdr": "MD5E-s11673--ee11c357d3781cdaf3e1c78c3b1affbd.vhdr",
+          "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.eeg": "MD5E-s224115200--ad750bb7b234bbcdbb45b48b931eaced.eeg",
+          "sub-xp219/eeg/sub-xp219_task-MIpre_eeg.vmrk": "MD5E-s11685--66cf675222d1452ca31722efc4ba3041.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1750900,
+      "duration_seconds": 350.18,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "feedback_type": "1d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp213_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp213/eeg/sub-xp213_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp213",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp213",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.eeg",
+          "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.vmrk",
+          "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.vhdr": "MD5E-s11812--992d0b09effe0f73bdccd08c524c61d9.vhdr",
+          "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.eeg": "MD5E-s222873600--e59115b8a18052d7f84b5a6d32c854e6.eeg",
+          "sub-xp213/eeg/sub-xp213_task-MIpre_eeg.vmrk": "MD5E-s11606--505122bdc7f13c8284e6785384280e77.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1741200,
+      "duration_seconds": 348.24,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp213_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp213",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp213",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.eeg",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.vhdr": "MD5E-s11824--b758e8c6570f373ea5ead32ebf0065ed.vhdr",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.eeg": "MD5E-s224256000--2a9bb21b0b0f8a8a121f4339559b32d0.eeg",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-01_eeg.vmrk": "MD5E-s11654--244a0604692fc60a532e110023ed34a7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1752000,
+      "duration_seconds": 350.4,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp213_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp213",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp213",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.eeg",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.vhdr": "MD5E-s11824--6f16737df3f1f1511d20e6f895021609.vhdr",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.eeg": "MD5E-s233484800--95f7f359bb3bb2b6ae177460cb008cbe.eeg",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-02_eeg.vmrk": "MD5E-s11722--dbf852f7c5f9e2a39b0fa7d5b0ee8db0.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1824100,
+      "duration_seconds": 364.82,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp213_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp213/eeg/sub-xp213_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp213",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp213",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.eeg",
+          "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.vmrk",
+          "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.vhdr": "MD5E-s1867--65a5f8f44311e6dd48388a656b5413ef.vhdr",
+          "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.eeg": "MD5E-s218713600--7f8f84cd3fbb4fcb549e3e147b38d5a6.eeg",
+          "sub-xp213/eeg/sub-xp213_task-MIpost_eeg.vmrk": "MD5E-s11622--b9b752342b68153948a0bf13b8e375b2.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1708700,
+      "duration_seconds": 341.74,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp213_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp213",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp213",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.eeg",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.vhdr": "MD5E-s1877--8a0fc80be8e2bff73df6ecc6aca19f2c.vhdr",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.eeg": "MD5E-s218227200--dbeba61b63b6f86f7e2808270f5bf5d2.eeg",
+          "sub-xp213/eeg/sub-xp213_task-2dNF_run-03_eeg.vmrk": "MD5E-s11563--75b4dd4fdfd0d7189d08400070c69936.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1704900,
+      "duration_seconds": 340.98,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp207_task-2dNF_run-02_eeg.vhdr",
+      "bidspath": "on002338/sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.vhdr",
+      "bids_relpath": "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp207",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp207",
+        "session": null,
+        "task": "2dNF",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.eeg",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.vmrk",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.vhdr": "MD5E-s11685--5ed40ca5592948d46bd1e55b1f603be4.vhdr",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.eeg": "MD5E-s229632000--aae2311ba7bec02e313ae6ef18c1fee3.eeg",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-02_eeg.vmrk": "MD5E-s11715--f00649aa9f21f1775bfaf42630cd0de7.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1794000,
+      "duration_seconds": 358.8,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp207_task-MIpost_eeg.vhdr",
+      "bidspath": "on002338/sub-xp207/eeg/sub-xp207_task-MIpost_eeg.vhdr",
+      "bids_relpath": "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp207",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp207",
+        "session": null,
+        "task": "MIpost",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.eeg",
+          "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.vmrk",
+          "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.vhdr": "MD5E-s1867--b4de614bfe5aa8ff18a68647242d93bc.vhdr",
+          "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.eeg": "MD5E-s223116800--95c7cac710b1a8d4c96b6668735608d5.eeg",
+          "sub-xp207/eeg/sub-xp207_task-MIpost_eeg.vmrk": "MD5E-s11574--3effb58148523d11327d5e883f427ffa.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1743100,
+      "duration_seconds": 348.62,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp207_task-2dNF_run-03_eeg.vhdr",
+      "bidspath": "on002338/sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.vhdr",
+      "bids_relpath": "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp207",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp207",
+        "session": null,
+        "task": "2dNF",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.eeg",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.vmrk",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.vhdr": "MD5E-s11685--3f8cca5a280037936110621b88f2d359.vhdr",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.eeg": "MD5E-s238041600--63b9585105abf6430edf372700a0a6ec.eeg",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-03_eeg.vmrk": "MD5E-s11572--6a8ad8111f533499d6a72adcb09fd0e9.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1859700,
+      "duration_seconds": 371.94,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp207_task-MIpre_eeg.vhdr",
+      "bidspath": "on002338/sub-xp207/eeg/sub-xp207_task-MIpre_eeg.vhdr",
+      "bids_relpath": "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp207",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp207",
+        "session": null,
+        "task": "MIpre",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.eeg",
+          "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.vmrk",
+          "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.vhdr": "MD5E-s11673--654ecd8a035602749370d9e75a8f811f.vhdr",
+          "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.eeg": "MD5E-s215219200--b37c9ed7ec69df6ef3a7bdb20cca0cd9.eeg",
+          "sub-xp207/eeg/sub-xp207_task-MIpre_eeg.vmrk": "MD5E-s11423--f80e5a4837803355facec14e510df84f.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1681400,
+      "duration_seconds": 336.28,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    },
+    {
+      "dataset": "on002338",
+      "data_name": "on002338_sub-xp207_task-2dNF_run-01_eeg.vhdr",
+      "bidspath": "on002338/sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.vhdr",
+      "bids_relpath": "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.vhdr",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "xp207",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "xp207",
+        "session": null,
+        "task": "2dNF",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on002338",
+        "raw_key": "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.vhdr",
+        "dep_keys": [
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.eeg",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.vmrk",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.dat"
+        ],
+        "annex_keys": {
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.vhdr": "MD5E-s11685--63373f8bb0103538afe75dc5a5cf43b8.vhdr",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.eeg": "MD5E-s219264000--903cffee1b39f7faaf32ff856dd5b152.eeg",
+          "sub-xp207/eeg/sub-xp207_task-2dNF_run-01_eeg.vmrk": "MD5E-s11629--58ff36ff33b007b4c885d81b8b7eec02.vmrk"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 5000.0,
+      "nchans": 64,
+      "ntimes": 1713000,
+      "duration_seconds": 342.6,
+      "digested_at": "2026-08-26T11:05:13.457540+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "feedback_type": "2d"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "modality_sidecar",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "FCz",
+      "software_filters": "n/a",
+      "montage_hash": null
+    }
+  ]
+}

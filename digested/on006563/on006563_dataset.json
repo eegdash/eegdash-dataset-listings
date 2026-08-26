@@ -1,0 +1,83 @@
+{
+  "dataset_id": "on006563",
+  "name": "Dimension-based attention modulates early visual processing",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006563-blue)](https://doi.org/10.82901/nemar.on006563)\n## Overview\nThis dataset was originally published in\nGramann, K., T\u00f6llner, T. and M\u00fcller, H.J. (2010), Dimension-based attention modulates early visual processing. Psychophysiology, 47: 968-978. https://doi.org/10.1111/j.1469-8986.2010.00998.x\nIt was subsequently used to investigate automatic labeling of independent components in ICA and is referred to as the \"Cue\" dataset:\nFr\u00f8lich, L., Andersen, T.S. and M\u00f8rup, M. (2015), Multi-class classification of ICS of EEG. Psychophysiol, 52: 32-45. https://doi.org/10.1111/psyp.12290\n\"64 scalp channels \u201creferenced to Cz and re-referenced off-line to linked mastoids\u201d from 12 subjects during a visual task (Gramann et\u2009al., 2010). ICA was performed with the implementation of the ICA infomax algorithm in the Brain Vision Analyzer software from Brain Products GmbH.2 The data sets we had access to were between 56 and 66\u2009min long for the different subjects.\" After contacting the above authors, Laura Fr\u00f8lich provided a copy of the data. With Klaus Gramann's permission, this was converted to BIDS format by Austin J. Brockmeier and Carlos H. Mendoza-Cardenas.\nContinuous EEG from 12 with ICA weights.\n### Subjects\n\"Twelve observers took part in the Experiment (2 female; age range 21\u201325 years). All were right-handed, had normal or corrected-to-normal vision, and reported no history of neurological disorder. Observers were either paid or received course credit for participating. All observers provided written informed consent, and the experimental procedure was approved by the ethics committee of the Department of Psychology, University of Munich, in accordance with the Code of Ethics of the World Medical Association (Declaration of Helsinki).\"\n## Expert-annotated Independent Components (ICs)\nThe expert-annotated labels of the ICs can be found in the field `expert_ica_labels`, and the class names in `ica_classes`. `expert_ica_labels(i)` is the Matlab-index of `ica_classes` for the i-th IC. ICs can be computed using the fields `data`, `icasphere`, and `icaweights` (e.g., `icaact = icaweights * icasphere * data`).\n## Details related to access to the data\nCC-BY\nContact persons:\nklaus.gramann@tu-berlin.de  https://orcid.org/0000-0003-2673-1832\najbrock@udel.edu https://orcid.org/0000-0002-7293-8140",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Klaus Gramann, Thomas T\u00f6llner, Hermann J. M\u00fcller"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on006563",
+  "associated_paper_doi": null,
+  "tasks": [
+    "DimensionDiscrimination"
+  ],
+  "sessions": [],
+  "total_files": 12,
+  "size_bytes": 6045377400,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 12,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Klaus Gramann, Thomas T\u00f6llner, Hermann J. M\u00fcller",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:22.374931+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 05:08:51"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006563",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-DimensionDiscrimination_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006563",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "Gramann, K., T\u00f6llner, T. and M\u00fcller, H.J. (2010), Dimension-based attention modulates early visual processing. Psychophysiology, 47: 968-978. https://doi.org/10.1111/j.1469-8986.2010.00998.x"
+  ],
+  "generated_by": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.2"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006563.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "1c404f3950095308a735c3411c644cd2e82b79149f76f241be6b299dfe525f30"
+}

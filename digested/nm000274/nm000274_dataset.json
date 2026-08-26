@@ -1,0 +1,114 @@
+{
+  "dataset_id": "nm000274",
+  "name": "BEETL Competition 2021 Motor Imagery Dataset B \u2014 transfer learning benchmark",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000274-blue)](https://doi.org/10.82901/nemar.nm000274)\n# BEETL Competition 2021 Motor Imagery Dataset B \u2014 transfer learning benchmark\n## Overview\nBeetl2021-B is a preprocessed EEG dataset from the NeurIPS 2021 BEETL competition focused on transfer learning for motor imagery decoding. The dataset contains 32-channel EEG recordings from 2 healthy subjects performing 4-class motor imagery tasks (left hand, right hand, feet, and rest) sampled at 200 Hz. Designed to address the critical challenge of cross-subject and cross-dataset generalization in brain-computer interfaces, this dataset supports benchmarking of transfer learning and domain adaptation algorithms for motor imagery classification.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 2 |\n| Channels | 32 |\n| Classes | 4 |\n| Trial length | 4 s |\n| Sampling frequency | 200 Hz |\n| Sessions | 1 |\n| Total trials | 1590 |\n| Paradigm | MotorImagery |\n## Data Collection Methods\nEEG data acquired at 200 Hz sampling rate using 32 channels positioned around the motor cortex (standard 1005 montage). Online bandpass filtering (1-100 Hz) applied during acquisition. Data preprocessed with frequency-domain bandpass filtering (1-100 Hz) and organized into 4-second trials. Motor imagery paradigm with visual cues for four classes: left hand, right hand, feet, and rest. Block-wise 5-fold cross-validation employed for evaluation with cross-subject and cross-dataset assessment.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Beetl2021_B\nfrom moabb.paradigms import MotorImagery\nparadigm = MotorImagery()\ndataset = Beetl2021_B()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Beetl2021_B.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.48550/arXiv.2202.12950](https://doi.org/10.48550/arXiv.2202.12950)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Xiaoxi Wei",
+    "A. Aldo Faisal",
+    "Moritz Grosse-Wentrup",
+    "Alexandre Gramfort",
+    "Sylvain Chevallier",
+    "Vinay Jayaram",
+    "Camille Jeunet",
+    "Stylianos Bakas",
+    "Siegfried Ludwig",
+    "Konstantinos Barmpas",
+    "Mehdi Bahri",
+    "Yannis Panagakis",
+    "Nikolaos Laskaris",
+    "Dimitrios A. Adamos",
+    "Stefanos Zafeiriou",
+    "William C. Duong",
+    "Stephen M. Gordon",
+    "Vernon J. Lawhern",
+    "Maciej \u015aliwowski",
+    "Vincent Rouanne",
+    "Piotr Tempczyk"
+  ],
+  "funding": [
+    "UKRI Turing AI Fellowship Grant (EP/V025449/1)",
+    "ANR BrAIN AI chair (ANR-20-CHIA-0016)",
+    "CEA NUMERICS program",
+    "European Union Horizon 2020 Marie Sklodowska-Curie grant No 800945",
+    "Facebook Reality Labs",
+    "BCI Society"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000274",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 4,
+  "size_bytes": 2135466246,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Piotr Tempczyk",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:32.739825+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-20 19:21:09"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000274",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000274",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://beetl.ai/data",
+    "10.48550/arXiv.2202.12950"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "n/a",
+      "URL": "https://beetl.ai/data"
+    }
+  ],
+  "ingestion_fingerprint": "1da9b157b1dbeb7cde34ee8f950ac0044268f587c4aac6a75a466e4c63a78edd"
+}

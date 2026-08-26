@@ -1,0 +1,1577 @@
+{
+  "dataset": "nm000141",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:33.499104+00:00",
+  "record_count": 14,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--638334d306f323f8593c10491842f3db4424a795a4fb2eeca6dcdfa5d468b127.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--37a2eaca86b82c3fe0917427ef2474dca54df2c9febeb903ff4ec1e196a70bc3.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s39553008--31636715527c4677db46be62b49ecfccb935c5f7edea9e31db9a5ecc798da3ab.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 693083,
+      "duration_seconds": 676.8388671875,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 676.8388671875,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--24f38d628d077ffb336b042e1f9ef0073ed040be0d0d78d66049116106baf764.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--0954b32e03e88b6f0b085422e7a4baeedc563690cb675ba310c4886ea0bcd4ea.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--f81d18f59de87d54c0a7cd682e86162f9141a76e09a2299b7c2d27b2780dbef1.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--41a53c8bfaaf712dd52533c0ded395d46d2c6bc28b2cfbad8c1924eafdf2654b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--1e8d72c019b7c4ddfde14c8986a4602bd4dac2213fa4d77a961e83314205872b.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--57357ef16a4c070a75519ce277d82239855e9e6a9fab488099447c98a0c45f1f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--b14affd09034bb6fb0b11c3cc77d56b4a30fda57eb9aadba2aa56fe72f437f90.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--e02eb55de1d97fe4b831807c13ec2c29c6836cab76bd41b053130a2532d2893a.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--48b743d49e639d030384a1a6efbe8b7d43de5fd18b26cc7cde07e67a348479a1.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s42761496--0c66e5bf43733f26959c61f818d32c423e86ac373d88b76b8b43ae329d54da27.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 749279,
+      "duration_seconds": 731.7177734375,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 731.7177734375,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    },
+    {
+      "dataset": "nm000141",
+      "data_name": "nm000141_sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000141/sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000141",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s37450032--9987e92b4667ec3686622caf7587b8942321f4e41fcb1149a3ce3deacd65d20f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 19,
+      "ntimes": 655619,
+      "duration_seconds": 640.2529296875,
+      "digested_at": "2026-08-26T11:01:33.499104+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": "naive"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "FCz",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "DC offset removal, 0.5 Hz high-pass filter, 50 Hz notch filter, 60 Hz low-pass filter, ICA artifact removal (EEGLAB infomax), trial segmentation (-3 to +3 s around movement onset)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.5,
+          "HighCutoffFrequency": 60.0
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50.0
+          ]
+        }
+      },
+      "manufacturer": "Deymed TruScan 32",
+      "manufacturers_model_name": "Deymed TruScan 32",
+      "eeg_placement_scheme": "10-20 system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "University of Reading",
+      "recording_type": "continuous",
+      "recording_duration": 640.2529296875,
+      "eeg_ground": "AFz",
+      "montage_hash": "142719d3dd89ff43"
+    }
+  ]
+}

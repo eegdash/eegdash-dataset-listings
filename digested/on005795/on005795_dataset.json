@@ -1,0 +1,138 @@
+{
+  "dataset_id": "on005795",
+  "name": "MULTI-CLARID (Multimodal Category Learning and Resting-state Imaging Data)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005795-blue)](https://doi.org/10.82901/nemar.on005795)\nOverview\nThe study comprises data of a combined fMRI/EEG experiment. The EEG files contain 63 head channels, ECG, EOG, facial EMG and skin conductance data. A physio file contains respiration and finger-pulse data. In addition, a T1 weighted whole-brain anatomical MR scan, a PD weighted (UTE) scan for electrode localization is provided (defacing was performed using https://github.com/cbinyu/pydeface). Additional data of the participants (T2 weighted images, button press dynamics, hearing threshold, hearing abilities, and personality traits (NEO-FFI, BIS/BAS, SVF, ERQ, MMG) are available on request.\nThe study was conducted at the Combinatorial NeuroImaging (CNI) core facility of the Leibniz Institute for Neurobiology (LIN) Magdeburg and was approved by the ethics committee of the University of Magdeburg, Germany. All participants gave written informed consent.\nCurrently you will only find 5 data-sets that include the multi-dimensional category learning experiment (cf. Wolff & Brechmann, Cerebral Cortex, 2023) because of the copyright policy of OpenNeuro (i.e. CC0). If you are interested in the remaining data-sets, please contact brechmann@lin-magdeburg.de. Collaboration is highly welcome!\nDetails of the learning task\nThe auditory category learning experiment comprised 180 trials for which 160 different frequency modulated sounds were presented in pseudo-randomized order with a jittered inter-trial interval of 6, 8, or 10 s plus 19-95 ms in steps of 19 ms in order to ensure a pseudo-random jitter of the sound onset with the onset of the acquisition of an MR volume. Each sound had five different binary features, i.e. duration (short: 400\u00a0ms, long 800\u00a0ms), direction of the frequency modulation (rising, falling), intensity (soft: 76\u201381\u00a0dB, loud: 86\u201391\u00a0dB), speed of the frequency modulation (slow: 0.25\u00a0octaves/s, fast: 0.5\u00a0octaves/s), and frequency range (low: 500\u2013831\u00a0Hz, high: 1630\u20132639\u00a0Hz with 5 different ranges each). Participants had to learn a target category defined by a combination of the features duration and direction (i.e. long/rising, long/falling, short/rising, or short/falling) by trial and error. In each trial, participants had to indicate via button press whether they thought a sound belonged to the target category (right index finger) or not (right middle finger). They received feedback about the correctness of the response by a prerecorded, female voice in standard German; e.g., \"ja\" (yes) or \"richtig\" (right) following correct responses, \"nein\" (no) or \"falsch\" (wrong) following incorrect responses. In 90% of the trials the feedback immediately followed the button press, in 10% it was delayed by 1500 ms. If participants failed to respond within 2\u00a0seconds after FM tone onset, a timeout feedback (\"zu sp\u00e4t\", too late) was presented. During the ~27 min learning experiment, participants were asked to fixate a white cross on grey background and avoid any movements. For the 10 min rs-fMRI, they were asked to close their eyes.\nTechnical details\nMR data were acquired with a 3 Tesla MRI scanner (Philips Achieva dStream) equipped with a 32-channel head coil. The MR scanner generates a trigger signal used to synchronize the multimodal data acquisition. The timing of stimulus events and the participants' responses were controlled by the software Presentation (Neurobehavioral Systems) running on a Windows stimulation-PC.\nAuditory stimuli were presented via a Mark II+ (MR-Confon, Magdeburg, Germany) audio control unit to MR compatible electrodynamic headphones with integrated ear muffs that provide passive damping of ambient scanner noise by ~24 dB. Earplugs (Bilsom 303) further reduce the noise by ~29 dB (SNR).\nButton presses of the participants were recorded with the ResponseBox 2.0 by Covilex (Magdeburg, Germany) that includes a response pad with two buttons. The device delivers continuous 8-bit data at a sampling rate of 500 Hz. The Teensy converts left and right button presses that exceed a defined threshold into USB keyboard events handled by the stimulation-PC.\nRespiration and heart rate was recorded with Invivo MRI Sensors at a sampling rate of 100 Hz and stored on the MRI acquisition PC at 496 Hz sampling rate.\n64-channel EEG (including ECG) was recorded at 5 kHz using two 32-channel amplifiers BrainAmp MRplus (Brain Products GmbH, Gilching, Germany). The amplifier's discriminative resolution was set to 0.5 \u00b5V/bit (range of +/-16.38 mV) and the signals were hardware-filtered in the frequency band between 0.01 Hz and 250 Hz. A bipolar 16-channel amplifier BrainAmp ExG MR was used to record 2 EOG, 4 EMG (Corrugator, Zygomaticus) channels as well as signals from 4 carbon wire loops (CWL) for correcting pulse and motion related artifacts. Another BrainAmp ExG MR amplifier with an ExG AUX box was used to record the skin conductance (GSR) at the index finger of the participant's non-dominant hand. All signals are synchronized with the MR trigger via a Sync box and two USB2 adapter. All data were recorded and stored with the BrainVision Recorder software. Preprocessing (MR-artifact correction, bandpass filtering between 0.3 and 125 Hz, downsampling to 500 Hz with subsequent CWL correction) and export of the EEG-data was performed in BrainVision Analyzer 2.3. Raw data for optimized artifact correction are available upon request.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "J\u00f6rg Stadler",
+    "Torsten St\u00f6ter",
+    "Nicole Angenstein",
+    "Andreas F\u00fcgner",
+    "Marcel Lommerzheim",
+    "Artur Mathysiak",
+    "Anke Michalsky",
+    "Gabriele Sch\u00f6ps",
+    "Johann van der Meer",
+    "Susann Wolff",
+    "Andr\u00e9 Brechmann"
+  ],
+  "funding": [
+    "German Science Foundation (BR2267/9-1)"
+  ],
+  "dataset_doi": "10.82901/nemar.on005795",
+  "associated_paper_doi": null,
+  "tasks": [
+    "learning",
+    "rest"
+  ],
+  "sessions": [],
+  "total_files": 39,
+  "size_bytes": 6902192180,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 34,
+    "ages": [
+      22,
+      31,
+      30,
+      18,
+      36,
+      23,
+      23,
+      23,
+      21,
+      29,
+      28,
+      21,
+      23,
+      21,
+      27,
+      24,
+      24,
+      21,
+      25,
+      32,
+      32,
+      19,
+      25,
+      32,
+      19,
+      30,
+      27,
+      18,
+      23,
+      24,
+      27,
+      32,
+      19,
+      25
+    ],
+    "age_min": 18,
+    "age_max": 36,
+    "age_mean": 25.11764705882353,
+    "species": null,
+    "sex_distribution": {
+      "m": 23,
+      "f": 11
+    },
+    "handedness_distribution": {
+      "r": 32,
+      "l": 1
+    }
+  },
+  "senior_author": "Andr\u00e9 Brechmann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:14.306409+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-27 19:08:18"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005795",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "physio.json",
+      "scans.json",
+      "task-learning_bold.json",
+      "task-learning_events.json",
+      "task-rest_bold.json",
+      "task-rest_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005795",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": " ",
+  "how_to_acknowledge": "Data was provided by the human brain imaging group of the Combinatorial NeuroImaging (CNI) core facility at the Leibniz Institute for Neurobiology (LIN) Magdeburg.",
+  "references_and_links": [
+    "www.lin-magdeburg.de/cni"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005795.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "4bf105593fa0e8eb17b0bfa1d882a0d1297428df97b1fb2a4bcdbcbace7b36ac"
+}

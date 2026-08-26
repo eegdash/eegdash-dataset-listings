@@ -1,0 +1,5437 @@
+{
+  "dataset": "nm000151",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:39.663404+00:00",
+  "record_count": 46,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-1_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_events.tsv",
+          "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_events.json",
+          "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-3/eeg/sub-1_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74150812--1617f0eb47fb1aa15d1a3183b9542ed2748a0e0d4f64b9288d93f878101cbe24.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 771159,
+      "duration_seconds": 771.159,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 771.159,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_events.tsv",
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_events.json",
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-1/eeg/sub-1_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74919124--b9a017546cadd690788e73f8cc2294f00ed1488b9a068f91da5564568be2e3d2.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 779439,
+      "duration_seconds": 779.439,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 779.439,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-1_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_events.tsv",
+          "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_events.json",
+          "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-2/eeg/sub-1_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s73766656--acf9b346fab146f7584483a8004c96ace25c01b94dd2ea73e510f56f0d701812.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 767999,
+      "duration_seconds": 767.999,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 767.999,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74438929--54ce6fd8a8badb0433123698bcf8b0fcd1dc692c7d6c8dc68caa451dcb1c4818.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 774919,
+      "duration_seconds": 774.919,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 774.919,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-6_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_events.tsv",
+          "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_events.json",
+          "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-3/eeg/sub-6_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s75207241--b1852b909303fa4b53bacf7f3f49bbb1fa011b6f37f2dcc9c12e42b94e4b024d.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 782239,
+      "duration_seconds": 782.239,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 782.239,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_events.tsv",
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_events.json",
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-1/eeg/sub-6_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74823085--0d7433a1d0182985c7b78f0cfb8b3a823376d985a2e9fd29ccafb91c84f94ff1.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 778079,
+      "duration_seconds": 778.079,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 778.079,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-6_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_events.tsv",
+          "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_events.json",
+          "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-2/eeg/sub-6_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74823085--f2edb69bab8495b75b8e1e4172a5093bd5a077552b28ea342ed3fafa518b8009.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 778799,
+      "duration_seconds": 778.799,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 778.799,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74150812--b5ea9978cab80307b4e7e15b1a8f39b2ac626451da10dcc040654eb102cbb417.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 771039,
+      "duration_seconds": 771.039,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 771.039,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-4_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_events.tsv",
+          "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_events.json",
+          "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-3/eeg/sub-4_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74823085--f73d7fb51868a052e3e474eb426c74312e0a70439b0f9c6ccbcd4c299790f0b9.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 778279,
+      "duration_seconds": 778.279,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 778.279,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_events.tsv",
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_events.json",
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-1/eeg/sub-4_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74246851--e14dcb7a50de80e0c641345b3dd3341607db0880ce3638e79101afb7c4f8eb95.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 772879,
+      "duration_seconds": 772.879,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 772.879,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-4_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_events.tsv",
+          "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_events.json",
+          "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-2/eeg/sub-4_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74246851--72e2294600cdd706a9dd99d66c0bc32a5a95c9779587fca690cf5295398ef013.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 772879,
+      "duration_seconds": 772.879,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 772.879,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s73862695--749518c7c0ba34c65de90b77a75c035502f8651892a43882264072412eee75f3.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 768759,
+      "duration_seconds": 768.759,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 768.759,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-9_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_events.tsv",
+          "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_events.json",
+          "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-3/eeg/sub-9_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74534968--c4363b34c2bbaa6555bfebb07d032b51078a02f8889f77391fc41eafb16f4887.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 775519,
+      "duration_seconds": 775.519,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 775.519,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_events.tsv",
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_events.json",
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-1/eeg/sub-9_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74054773--b1a736c5839dba934e57e17ed771f212984f3e33be2ff2c8c331b555f6c3e9bc.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 770999,
+      "duration_seconds": 770.999,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 770.999,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-9_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_events.tsv",
+          "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_events.json",
+          "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-2/eeg/sub-9_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74438929--d82dbcda6dbf27497cb5a261089b733e820207fcd8227a69912bd18f0172e636.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 774079,
+      "duration_seconds": 774.079,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 774.079,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74823085--e49e3781aac7dbd9e97ee774b07a0c788f11e2ce2eab1fae8a73666f765c78ba.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 778479,
+      "duration_seconds": 778.479,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 778.479,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-8_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_events.tsv",
+          "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_events.json",
+          "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-3/eeg/sub-8_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74631007--53548bc5b1c4021eac381d0764c82489b8f6122c4e1cbe58691fc05eb45bff71.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 776039,
+      "duration_seconds": 776.039,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 776.039,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_events.tsv",
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_events.json",
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-1/eeg/sub-8_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s73478539--667db6704349e57fa5710d2ad32690f9a1ec4eee5462d44654a1b3d1edf98588.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 764839,
+      "duration_seconds": 764.839,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 764.839,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-8_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_events.tsv",
+          "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_events.json",
+          "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-2/eeg/sub-8_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74727046--49e0f333a0d5b3af81feca24afd93c0354638c0fd449e5057c3e2afad99f75f1.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 777559,
+      "duration_seconds": 777.559,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 777.559,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74438929--3f2f3e620962f11c9e5af1869e25d68d8c7b325118cd4dc279cc2c81e68a013e.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 774639,
+      "duration_seconds": 774.639,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 774.639,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-12_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_events.tsv",
+          "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_events.json",
+          "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-3/eeg/sub-12_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74631007--b214987e0ae5365e016c0ed37db929316cc5c9d2d807f02403620a4650e68904.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 776599,
+      "duration_seconds": 776.599,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 776.599,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-12_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_events.tsv",
+          "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_events.json",
+          "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-1/eeg/sub-12_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74534968--7824627c42042d2ba411854a8e7455777dd48cb0414a4b684e12d9b93bd63c96.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 775199,
+      "duration_seconds": 775.199,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 775.199,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-12_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_events.tsv",
+          "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_events.json",
+          "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-2/eeg/sub-12_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s73958734--83e01241f3db1e3772d48af6343116ead0c0fc69e3a3ef33f3e4fac13c4063e5.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 769799,
+      "duration_seconds": 769.799,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 769.799,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74150812--03fbaa3cecf8c474303bee5132743e56b9a78a7831f4a41727d2a4c05f0a66e3.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 771599,
+      "duration_seconds": 771.599,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 771.599,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-11_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_events.tsv",
+          "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_events.json",
+          "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-3/eeg/sub-11_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74727046--8ae79861f1179681c9a87e3a6bf85f4ba1a9dea1a1a02e2cfd65bc30e3d0ca57.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 777159,
+      "duration_seconds": 777.159,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 777.159,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-11_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_events.tsv",
+          "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_events.json",
+          "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-1/eeg/sub-11_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s73958734--88fbec2f1f4997b9ccdf4e2fe3383eefb42e095e2a3b5d71ef38f07ab67a98c9.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 769799,
+      "duration_seconds": 769.799,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 769.799,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-11_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_events.tsv",
+          "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_events.json",
+          "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-2/eeg/sub-11_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74727046--8dccbc55cdf1478ad9a003aec7b2bd979549a2963eff80bbc18f4b1577df7cc3.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 777919,
+      "duration_seconds": 777.919,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 777.919,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74727046--a0397eeaaa4c8601fab4e3b8e059f5a10330feb4c8f7f7509b096cca08ba4efc.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 777679,
+      "duration_seconds": 777.679,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 777.679,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-7_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_events.tsv",
+          "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_events.json",
+          "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-3/eeg/sub-7_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74150812--d925e620f768b85919dfb5cd2ee276fefeefc6a0f1ed4c0a144ba543f1101d14.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 771159,
+      "duration_seconds": 771.159,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 771.159,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_events.tsv",
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_events.json",
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-1/eeg/sub-7_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74150812--96364a84a90a66ddc8477d0ec3e55514f6d6b0df79638c65c1e85588fa5ab6d2.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 771719,
+      "duration_seconds": 771.719,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 771.719,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-7_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_events.tsv",
+          "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_events.json",
+          "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-2/eeg/sub-7_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74727046--e2585f604f6c7c4cdd2de3f8610b376f358728e25724bec73ae581bcf3f8186e.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 777319,
+      "duration_seconds": 777.319,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 777.319,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74919124--5ccd7037cede61d12b6bd38ec46d01b8dac9bb4a78bf11de4ab0093778446e3f.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 779919,
+      "duration_seconds": 779.919,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 779.919,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-10_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_events.tsv",
+          "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_events.json",
+          "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-3/eeg/sub-10_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74246851--cc8c5b20f0aefe7059c0f670acae0dfd3b45bb430d2a4afffd17c240e0be9c4d.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 772599,
+      "duration_seconds": 772.599,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 772.599,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-10_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_events.tsv",
+          "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_events.json",
+          "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-1/eeg/sub-10_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74342890--46474467732d307076bab94cebe073d8e626540418593d697704b7847e8a46dc.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 773359,
+      "duration_seconds": 773.359,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 773.359,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-10_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_events.tsv",
+          "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_events.json",
+          "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-2/eeg/sub-10_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74631007--6f64e1c04c742740b533737b914316aba65c82ce62114225d1c871bc9e9e72ca.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 776199,
+      "duration_seconds": 776.199,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 776.199,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s75207241--d9c15b246a20d79e86ef051cbc3e4ef305cb1e186e8f920b7f5ab8450371e756.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 782559,
+      "duration_seconds": 782.559,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 782.559,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-3_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_events.tsv",
+          "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_events.json",
+          "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-3/eeg/sub-3_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74919124--b03165a75c88a7d611a7308b9e9c3eebd7afd2b2dc0ae08471043ca182c0d6e8.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 779199,
+      "duration_seconds": 779.199,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 779.199,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_events.tsv",
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_events.json",
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-1/eeg/sub-3_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74631007--996f3f534c02a9ef69197981f1b68994822aeae9fa1c0ed3b6288bf7b1d3c23d.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 776919,
+      "duration_seconds": 776.919,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 776.919,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-3_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_events.tsv",
+          "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_events.json",
+          "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-2/eeg/sub-3_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74342890--907c5aad8a171b6a95fa6b81c98bf4fbbfd11979d2a97c3b31f665d364edc39c.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 773639,
+      "duration_seconds": 773.639,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 773.639,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-5_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_events.tsv",
+          "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_events.json",
+          "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-3/eeg/sub-5_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s74054773--3f4faf74b9b4f9705254c72549402b05782aca30452ba178f137a9280a7ce6a3.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 770399,
+      "duration_seconds": 770.399,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 770.399,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_events.tsv",
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_events.json",
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-1/eeg/sub-5_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74631007--0306fa9d4f57156cc3dc2c42f7d13367bb8f751048588b12fb964b2527f0101b.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 776759,
+      "duration_seconds": 776.759,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 776.759,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-5_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_events.tsv",
+          "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_events.json",
+          "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-2/eeg/sub-5_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74438929--8659385fabf6da87a41a39e36611b0c37c8d8f850ed503ce0ff681e0b0ce0d0e.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 774879,
+      "duration_seconds": 774.879,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 774.879,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.bdf": "SHA256E-s74342890--2e2bfe5302ce5dc49d5648e5eaaf84b90b16a5aca422706613300c31e4cb0cef.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 773359,
+      "duration_seconds": 773.359,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 773.359,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-2_ses-3_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "3",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_events.tsv",
+          "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_events.json",
+          "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-3/eeg/sub-2_ses-3_task-imagery_run-0_eeg.bdf": "SHA256E-s75111202--7c3ba199f4c161ae8fb37b8ef45a60bf2bbf7b2c2cf8931ce232137e60bd34f2.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 781919,
+      "duration_seconds": 781.919,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 781.919,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "1",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_events.tsv",
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_events.json",
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-1/eeg/sub-2_ses-1_task-imagery_run-0_eeg.bdf": "SHA256E-s74631007--689234a13a83af6a840964239f8778b4670fc63147d41c059729c4cba016e779.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 776679,
+      "duration_seconds": 776.679,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 776.679,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    },
+    {
+      "dataset": "nm000151",
+      "data_name": "nm000151_sub-2_ses-2_task-imagery_run-0_eeg.bdf",
+      "bidspath": "nm000151/sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "2",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000151",
+        "raw_key": "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_events.tsv",
+          "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_events.json",
+          "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-2/eeg/sub-2_ses-2_task-imagery_run-0_eeg.bdf": "SHA256E-s74150812--0952a506f5dd41f6eccd685e2e4fa34270756dbbb15af7184f9844b965b8a24e.bdf"
+        }
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 771519,
+      "duration_seconds": 771.519,
+      "digested_at": "2026-08-26T11:01:39.663404+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": null,
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60.0,
+      "eeg_reference": "Cz",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HardwareFilter": {
+          "bandpass": [
+            0.1,
+            100
+          ]
+        }
+      },
+      "manufacturer": "Electrical Geodesics",
+      "manufacturers_model_name": "EGI Geodesic Net Amps 400 series",
+      "eeg_placement_scheme": "GSN-HydroCel-32",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Simon Fraser University",
+      "recording_type": "continuous",
+      "recording_duration": 771.519,
+      "eeg_ground": "n/a",
+      "montage_hash": "d274f19faa4b57fc"
+    }
+  ]
+}

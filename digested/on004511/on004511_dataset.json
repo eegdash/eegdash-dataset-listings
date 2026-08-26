@@ -1,0 +1,128 @@
+{
+  "dataset_id": "on004511",
+  "name": "Deception_data",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004511-blue)](https://doi.org/10.82901/nemar.on004511)\n# Overview\nThis dataset was collected in 2020 and comprises electroencephalography, physiological and behavioural data. The dataset includes both resting-state (eyes closed) and task-related neurophysiological signals acquired from 44 healthy individuals (ages: 21-40). The tasks administered to subjects include a spontaneous deception task (Gambling Game; GG) as well as a task assessing cognitive control (CC).\n# Task Description\n## Spontaneous Deception Task (GG)\nParticipants were informed that the GG task aimed to study a player's behaviour during a gambling game. They were given SGD 50 at the start of the game. They were to undergo 144 rounds of making a prediction about the outcome of a dice roll. They were to also place a bet ranging from 10 cents to 80 cents for each prediction; they win the bet if the prediction was true and lose it if it was false.\nParticipants were also informed that they were the only ones who knew the outcome of the dice roll and were responsible for reporting if their predictions were true to the system, and were debriefed at the end regarding this cover story.\n## Cognitive Control (CC)\nParticipants performed 60 trials of a simple processing speed task, 80 trials of a simple response selection task, 160 trials of a response inhibition task, and 160 trials of a conflict resolution task. See details of the task https://github.com/neuropsychology/CognitiveControl.\n# Data acquisition\n## EEG data acquisition\nEEG signals were recorded using the TruScan 128 Research EEG system and TruScan Aquisition software (DeyMed Diagnostics s.r.o). Electrodes were placed on the EEG cap according to the standard 10-5 system of electrode placement (Oostenveld & Praamsrta, 2001) and impedance was kept below 20 kOhm for each subject. The ground electrode was placed on the zygomatic bone and two electrodes were fixed on the mastoids to be used as references. During recording, the sampling rate was 3000Hz. Note that channels 124 and 125 were placed above and below the eyes respectively for vertical EOG signals.\n### Note\nsub-S200203 does not have any EEG acquisition file pertaining to the Gambling Game task due to technical errors during the recording.\n## Physiological data acquisition\nParticipants' physiological signals, that is their electrocardiogram (*ECG*), respiration signals (*RSP*), electrodermal activity (*EDA*) and electromyography (*EMG*), were obtained at a sampling frequency of 4000Hz. All physiological signals were recorded via the BioPac MP160 system (BioPac Systems Inc., USA) and the AcqKnowledge 5.0 software.\nECG was collected using three ECG electrodes placed according to a modified Lead II configuration, and RSP was acquired using a respiration belt tightened over participants' upper abdomen. EDA, a measure of skin conductance, was acquired using electrodes placed on the middle and index fingers of subjects' non-dominant hands and EMG was obtained by measuring the electrical activity of the corrugator muscles.\n### Note\nWith regards to the Cognitive Control task, physiological data was collected over 2 sessions for sub-S200303 as a result of technical errors during the recording.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Makowski, Dominique",
+    "Pham, Tam",
+    "Lau, Zen Juen"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004511",
+  "associated_paper_doi": null,
+  "tasks": [
+    "CC",
+    "GG",
+    "Rest"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 134,
+  "size_bytes": 217194713013,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 45,
+    "ages": [
+      22,
+      23,
+      22,
+      23,
+      26,
+      22,
+      22,
+      21,
+      24,
+      25,
+      25,
+      23,
+      22,
+      20,
+      23,
+      23,
+      21,
+      21,
+      21,
+      24,
+      22,
+      24,
+      22,
+      24,
+      35,
+      25,
+      23,
+      25,
+      30,
+      33,
+      23,
+      40,
+      22,
+      31,
+      23,
+      23,
+      24,
+      28,
+      30,
+      29,
+      22,
+      28,
+      43,
+      26
+    ],
+    "age_min": 20,
+    "age_max": 43,
+    "age_mean": 25.181818181818183,
+    "species": null,
+    "sex_distribution": {
+      "f": 21,
+      "m": 23
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Lau, Zen Juen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:20.102470+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 13:23:43"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004511",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004511",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Special thanks to An-Shu Te for helping with formatting this dataset in BIDS",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004511.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "2529ab99e5475863723abccbb0c51e01bc7d0321efb837e239a42d77394862f6"
+}

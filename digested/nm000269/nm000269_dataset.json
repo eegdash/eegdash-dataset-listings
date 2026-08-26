@@ -1,0 +1,93 @@
+{
+  "dataset_id": "nm000269",
+  "name": "BigP3BCI Study A \u2014 P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000269-blue)](https://doi.org/10.82901/nemar.nm000269)\n# BigP3BCI Study A \u2014 P300 BCI EEG dataset (13 healthy subjects, Mainsah et al. 2025)\n## Overview\nMainsah2025-A is a derivative P300 brain-computer interface dataset containing EEG recordings from 13 healthy subjects (1 session each) performing a visual speller task using a 6x6 checkerboard stimulus paradigm. The dataset comprises 32-channel EEG data sampled at 256 Hz with binary classification of target and non-target events, annotated using HED 8.4.0 schema. This dataset represents Study A of the BigP3BCI collection (10.13026/0byy-ry86), the largest public P300 BCI dataset, and is processed using the MOABB (Mother of All BCI Benchmarks) framework.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 13 |\n| Channels | 32 |\n| Classes | 2 |\n| Trial length | 1 s |\n| Sampling frequency | 256 Hz |\n| Sessions | 1 |\n| Paradigm | P300 |\n## Data Collection Methods\nEEG data were acquired using a g.USBamp amplifier (g.tec) with 32 channels arranged in a standard 10-20 montage, sampled at 256 Hz with a 60 Hz line frequency notch. Subjects performed a visual P300 speller task using a 6x6 checkerboard stimulus paradigm with row-column and random presentation modes. Trial intervals were defined from 0 to 1.0 seconds post-stimulus, with binary classification of target and non-target events.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Mainsah2025_A\nfrom moabb.paradigms import P300\nparadigm = P300()\ndataset = Mainsah2025_A()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Mainsah2025_A.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.13026/0byy-ry86](https://doi.org/10.13026/0byy-ry86)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Boyla Mainsah",
+    "Chance Fleeting",
+    "Thomas Balmat",
+    "Eric Sellers",
+    "Leslie Collins"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000269",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 389,
+  "size_bytes": 4144672486,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 13,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Leslie Collins",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:25.654107+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:19:15"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000269",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000269",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://physionet.org/content/bigp3bci/1.0.0/"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.13026/0byy-ry86",
+      "URL": "https://physionet.org/content/bigp3bci/1.0.0/"
+    },
+    {
+      "DOI": "doi:10.13026/0byy-ry86"
+    }
+  ],
+  "ingestion_fingerprint": "b2f9194eb33296795f722ce883491a3de90c7296fc05a00d113a60a15dc6e3c5"
+}

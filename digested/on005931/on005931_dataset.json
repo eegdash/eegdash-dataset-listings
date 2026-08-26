@@ -1,0 +1,100 @@
+{
+  "dataset_id": "on005931",
+  "name": "Visuomotor_task",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005931-blue)](https://doi.org/10.82901/nemar.on005931)\nDataset of intracranial EEG from human epilepsy patients performing a visuomotor task\nDescription:\nWe present an electrophysiological dataset recorded from ten subjects during a visuomotor task. Subjects were epilepsy patients undergoing intracranial monitoring for localization of epileptic seizures. Subjects completed five sessions of Speed Match - a visuomotor on the Lumosity platform (https://www.lumosity.com/; Lumos Labs, Inc, San Francisco, CA) - during interictal EEG recording.\nRepository structure:\nMain directory (interictal EEG from children during gameplay): Contains interictal EEG files of each participant in the study. Folders are explained below.\nSubfolders:\nsub-/: Contains folders for each subject, named sub-.\nsub-/ses-: Contains folders for visuomotor task.\nsub-/ses-/ieeg/: Contains the raw iEEG data in .edf format for each subject. Each subject performed visuomotor task (ses-task). Each *ieeg.edf file contains continuous iEEG data during the visuomotor task. Details about the channels are given in the corresponding .tsv file. We also provide the information on the timing of the finger tapping on ieeg/edf file by specifying the start and end sample of each trial. (101 is for finger tapping).",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Riyo Ueda",
+    "Eishi Asano"
+  ],
+  "funding": [
+    "N/A"
+  ],
+  "dataset_doi": "10.82901/nemar.on005931",
+  "associated_paper_doi": null,
+  "tasks": [
+    "game"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 16,
+  "size_bytes": 857383843,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      11,
+      16,
+      20,
+      9,
+      16,
+      14,
+      15,
+      19
+    ],
+    "age_min": 9,
+    "age_max": 20,
+    "age_mean": 15.0,
+    "species": null,
+    "sex_distribution": {
+      "m": 4,
+      "f": 4
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Eishi Asano",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:30.514664+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-28 06:07:45"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on005931",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on005931",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "N/A",
+  "ethics_approvals": [
+    "IRB of Wayne State University"
+  ],
+  "references_and_links": [
+    "",
+    "",
+    ""
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds005931.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "2f5c26a4d9eff0e384495a4b285fb1a5c0ba3d930d91b565d0bf25e994af7dc1"
+}

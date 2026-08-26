@@ -1,0 +1,96 @@
+{
+  "dataset_id": "on004703",
+  "name": "sEEG Passive listening to natural speech",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004703-blue)](https://doi.org/10.82901/nemar.on004703)\nCONTACT\nFor questions about this data set, please contact Anna Mai (anna.mai@mpi.nl; ORCiD 0000-0002-8343-9216).\nPERMISSIONS\nThese data may not be used for commericial purposes, including but not limited to use in any kind of training set for commercial machine learning applications.\nThese data may not be used in any way that either in part or in whole disambiguates participant identity, including but not limited to attempts at 3D facial reconstruction.\nRECORDING SETUP\nThese data were collected from June 2018 to August 2019.\nFor all patients, a scalp electrode was used for referencing and ground. These were 13mm, 2.5M single lead subdermal electrodes made by Rochester Electro-Medical with serial number S81025-A-24RM.\nDepth electrodes were manufactured by Ad-Tech and are Spencer Probe depth electrodes. Each electrode has 10 leads evenly spaced 3-7mm apart.\nWith the exception of patients SD012 and SD022, all implants are depth electrodes. Patients SD012 and SD022 had grid and strip electrodes implanted in addition to several depth electrodes.\nAny channel names beginning with ``C'' were not used and should be dropped from analyses.\nTASK\nParticipants passively listened to 30-45s passages of conversational speech and  verbally answered a 2AC content question after each passage. 6 blocks with 7 passages per block.\nMISSING DATA\nAnatomical scans for particpant SD012 are not available due to excessive movement artifacts.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Anna Mai",
+    "Stephanie Ries",
+    "Sharona Ben-Haim",
+    "Jerry Shih",
+    "Timothy Gentner"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004703",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PassiveListen"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 11,
+  "size_bytes": 14173353331,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 10,
+    "ages": [
+      28,
+      32,
+      25,
+      43,
+      55,
+      21,
+      42,
+      21,
+      33,
+      23
+    ],
+    "age_min": 21,
+    "age_max": 55,
+    "age_mean": 32.3,
+    "species": null,
+    "sex_distribution": {
+      "m": 6,
+      "f": 4
+    },
+    "handedness_distribution": {
+      "r": 7,
+      "l": 2
+    }
+  },
+  "senior_author": "Timothy Gentner",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:08:11.745170+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-25 08:12:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004703",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004703",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004703.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "667186fcdb602ed85a476a32e5f210e954bc6babda884e785c5277f12d276c7b"
+}

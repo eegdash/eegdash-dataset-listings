@@ -1,0 +1,117 @@
+{
+  "dataset_id": "on007640",
+  "name": "Dataset of emotion recognition using validated video stimuli with large-scale behavioral survey and MEG recordings",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007640-blue)](https://doi.org/10.82901/nemar.on007640)\n# Dataset of Emotion Recognition Using Validated Video Stimuli with Large-scale Behavioral Survey and MEG Recordings\n## General Description\nThis dataset was developed as part of research focused on brain signal-based emotion recognition by capturing high-fidelity Magnetoencephalography (MEG) signals during induced different emotional states. The dataset is organized into three primary components:\n1. **Phenotype (Online Survey)**: Stored within the 'phenotype' directory, this component contains the results of a large-scale subjective emotional assessment of the set of 40 video stimuli. It includes responses from 500 participants, providing robust behavioral baseline.\n2. **Source Data (Head Digitization)**: Located in 'sourcedata' directory, this component contains head position information measured prior to each recording session. The resulting configuration files ('.cfg') store the 3D spatial coordinates (x, y, z) for anatomical landmarks and Head Position Indicator (HPI) coils, essential for accurate co-registration.\n3. **MEG Recording**: Comprehensive MEG neural recordings from 23 participants, who viewed the same 40 validated video clips used in the online survey. These recordings enable the investigation of emotion-specific neural signal patterns and are organized into subject-specific directories (e.g., 'sub-01').\nTo capture the richness of emotional experiences, we employed a multi-faceted assessment paradigm. Beyond the standard Self-Assessment Manikin (SAM) responses for Valence and Arousal, our labels include discrete emotion categories (PrEmo) and temporal highlight scene selections, providing a more granular \u2018ground truth\u2019 for affective states.\n## Citation\nFor a detailed description of the stimulus selection, experimental design, and data acquisition process, please refer to the publication listed below. We kindly request that any research utilizing this dataset cites the following paper:\n[Add on Reference/DOI]\nIn addition, please cite the OpenNeuro dataset itself using its DOI:\ndoi:10.18112/openneuro.ds007640.v1.0.0",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "TBD",
+  "license": "CC0",
+  "authors": [
+    "Moon-A Yoo",
+    "Dong-Uk Kim",
+    "Soo-In Choi",
+    "Min-Young Kim",
+    "Sung-Phil Kim"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007640",
+  "associated_paper_doi": null,
+  "tasks": [
+    "HAHV",
+    "HALV",
+    "LAHV",
+    "LALV"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "total_files": 94,
+  "size_bytes": 95398037825,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 23,
+    "ages": [
+      24,
+      40,
+      24,
+      26,
+      34,
+      26,
+      23,
+      24,
+      30,
+      22,
+      22,
+      28,
+      25,
+      22,
+      28,
+      22,
+      33,
+      32,
+      25,
+      24,
+      33,
+      25,
+      21
+    ],
+    "age_min": 21,
+    "age_max": 40,
+    "age_mean": 26.652173913043477,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 11
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Sung-Phil Kim",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:48.852117+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 16:48:59"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007640",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007640",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by the Challengeable Future Defense Technology Research and Development Program through the Agency For Defense Development (ADD) funded by the Defense Acquisition Program Administration (DAPA) in 2022-2025(No.915061201)",
+  "how_to_acknowledge": "TBD (Paper Citation)",
+  "ethics_approvals": [
+    "The research protocol and experimental design received approval from the Korea Research Institute of Standards and Science Institutional Review Board (KRISS-IRB-2025-03)"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007640.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "f5662b31baa854568b01d300570ce02ad90a42127d4e3f10ddf34b64b24ee04c"
+}

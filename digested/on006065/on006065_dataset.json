@@ -1,0 +1,92 @@
+{
+  "dataset_id": "on006065",
+  "name": "TSS_iEEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006065-blue)](https://doi.org/10.82901/nemar.on006065)\n# iEEG Dataset: Theta-synchronized Stimulation of Human Hippocampal Networks\n## Information\nThis folder contains intracranial EEG (iEEG) data from **7 participants** undergoing closed-loop stimulation as part of a study on hippocampal network connectivity, as used in the following publication:\n**Kragel et al., 2025, Nature Communications:**\n*\u201cClosed-loop control of theta oscillations enhances human hippocampal network connectivity\u201d*\nFor questions or further information, contact:\n- **James Kragel:** [jkragel@uchicago.edu](mailto:jkragel@uchicago.edu)\n- **Joel Voss:** [joelvoss@uchicago.edu](mailto:joelvoss@uchicago.edu)\n---\n## License\nThis dataset is made available under the **Public Domain Dedication and License v1.0**.\nFull text: [http://www.opendatacommons.org/licenses/pddl/1.0](http://www.opendatacommons.org/licenses/pddl/1.0)\n---\n## Dataset and Protocol\nThe data are organized according to the **Brain Imaging Data Structure (BIDS)** iEEG specification, a community-driven standard for organizing neurophysiology data along with its metadata.\n### Structure\nEach subject folder contains the raw iEEG data for that subject, segmented into different periods of the stimulation protocol:\n- **Pre-stimulation evoked potentials**\n- **Post-stimulation evoked potentials**\n- **Pre-stimulation rest**\n- **Post-stimulation rest**\n- **Closed-loop stimulation**\n- **Control stimulation**\n---\n## Raw Data\nThe raw data are stored in **BrainVision format** (`vhdr`, `vmrk`, and `eeg` files). You can read these files into memory using the following tools:\n- **MATLAB:** [FieldTrip toolbox](https://www.fieldtriptoolbox.org/getting_started/eeg/brainvision/)\n- **Python:** [`pybv` package](https://github.com/bids-standard/pybv)\n### Electrode Coordinates\nElectrode coordinates are provided in **MNI space**, registered to the **MNI152 2009c asymmetrical template**.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8",
+  "license": "CC0",
+  "authors": [
+    "James Kragel",
+    "Joel Voss"
+  ],
+  "funding": [
+    "This research was funded by the National Institute Of Neurological Disorders and Stroke under Award Number R01NS113804"
+  ],
+  "dataset_doi": "10.82901/nemar.on006065",
+  "associated_paper_doi": null,
+  "tasks": [
+    "cl",
+    "clcontrol",
+    "epcontrolpost",
+    "epcontrolpre",
+    "eppost",
+    "eppre",
+    "restcontrolpost",
+    "restcontrolpre",
+    "restpost",
+    "restpre"
+  ],
+  "sessions": [],
+  "total_files": 45,
+  "size_bytes": 10343284795,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 7,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Joel Voss",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:12:37.709019+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-28 12:09:10"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006065",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006065",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "Name": "FieldTrip",
+      "Version": "7018a7700",
+      "Description": "data2bids converter",
+      "URI": "https://www.fieldtriptoolbox.org"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006065.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "c10526226b1818d758825c308a8858f00c7b30f8d9145785f21a7a29a9bc53bd"
+}

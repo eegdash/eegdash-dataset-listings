@@ -1,0 +1,5904 @@
+{
+  "dataset": "nm000178",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:01:55.065869+00:00",
+  "record_count": 45,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-17_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_events.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_events.json",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s52247086--05486e6dfac7c37a1caf18841d91bf5630c41c433237159bdd5981a8f1a731f7.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 814335,
+      "duration_seconds": 3180.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3180.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-14_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s61683676--27d02a70c2ec81d808c9264bd777384a0a93d3121fe1730534b4e8620d2826e8.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 530943,
+      "duration_seconds": 2073.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2073.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-1_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s74023286--90e2e3b206cb2c83f79bc072b43c67e7cf9a54bca9b511d3da6505f796c3d655.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 637183,
+      "duration_seconds": 2488.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2488.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-6_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s69949728--760e8003ca6962da72cb9f573906ff743fcea15e0aa99cc41f3a1b6226d217fe.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 602111,
+      "duration_seconds": 2351.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2351.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-41_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "41",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "41",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_events.tsv",
+          "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_events.json",
+          "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-41/ses-0/eeg/sub-41_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s16991720--4bf16c05a227ec834f9d4581f3dbc0a704e124f47ab0a568a3a8cffab0b1b1a4.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 703487,
+      "duration_seconds": 2747.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2747.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-39_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "39",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "39",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_events.tsv",
+          "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_events.json",
+          "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-39/ses-0/eeg/sub-39_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s17133906--7bebdd6daa57a53c6293b5346e5dffbd61e573aea20f1a2850fd272cf4879b48.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 709375,
+      "duration_seconds": 2770.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2770.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-26_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "26",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "26",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_events.tsv",
+          "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_events.json",
+          "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-26/ses-0/eeg/sub-26_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s54447634--1cb734f7402ed3166f1c045788e2dfd09e9d35d6e50e1684bd8bb210e767e0e4.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 848639,
+      "duration_seconds": 3314.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3314.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-4_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s79821416--4107ec1ecd01074e607d50d329ce4c2fc7ca1d9e332d5a3cc1725a5fa6731b95.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 687103,
+      "duration_seconds": 2683.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2683.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-27_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_events.tsv",
+          "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_events.json",
+          "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-27/ses-0/eeg/sub-27_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s47977366--2a444f0746574dd6d5fc83e39b4dad6b2f17690ed8113ce769690b229b6e38d7.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 747775,
+      "duration_seconds": 2920.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2920.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-24_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_events.tsv",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_events.json",
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-24/ses-0/eeg/sub-24_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s54940294--98d4e76087d447a9e6443a01f2f4de44c7ce57161b4a03bbb2d1c4f8a7fd4a88.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 856319,
+      "duration_seconds": 3344.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3344.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-37_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "37",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "37",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_events.tsv",
+          "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_events.json",
+          "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-37/ses-0/eeg/sub-37_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s17702650--39413775e8ba7b9e44c2ee6c00c2ddd220000b03ba7c5997eeca3ddb7e32a5cc.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 732927,
+      "duration_seconds": 2862.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2862.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-15_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_events.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_events.json",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s89841774--f1c2526a3074d08bdd5b0827cc8119e0393f48f967702b1412de5bf30d7e71af.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 773375,
+      "duration_seconds": 3020.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3020.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-9_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s70038930--d4818c2ff01ad72384bbba7bda7a32604288f91f35e6607871c4c3dc77135178.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 602879,
+      "duration_seconds": 2354.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2354.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-8_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s80118756--78ad5953eb06d393f2a814fabdf5ec312b3990772a091fc649686aeb1445fdeb.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 689663,
+      "duration_seconds": 2693.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2693.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-40_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "40",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "40",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_events.tsv",
+          "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_events.json",
+          "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-40/ses-0/eeg/sub-40_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s17541918--27f2e5d7f2b0ca0012070c98ff1e4aa84145d5967372083e28a67bea9e255855.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 726271,
+      "duration_seconds": 2836.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2836.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-13_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s81902796--8a91abf216e22cbffd4714551092c087f06c72efbdf18fcf7d0ecea9631133ad.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 705023,
+      "duration_seconds": 2753.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2753.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-44_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "44",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "44",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_events.tsv",
+          "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_events.json",
+          "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-44/ses-0/eeg/sub-44_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s18500128--2ed6536a768a23ccaa252222daabf6c02b6edd107d6435e5329712a75d3e50f8.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 765951,
+      "duration_seconds": 2991.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2991.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-18_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_events.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_events.json",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s52115710--f1b5d31b00e11c7d8dbe6dc5e5928b9216fae46cce4a37e416df077afb3e3494.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 812287,
+      "duration_seconds": 3172.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3172.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-33_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_events.tsv",
+          "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_events.json",
+          "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-33/ses-0/eeg/sub-33_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s22456608--80a3415425fe7c1735b73463b75a53bfee358efd3993d3e583b8f7da4a0a4e3c.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 929791,
+      "duration_seconds": 3631.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3631.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-12_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s81248648--834ae9109a54cc0bff421f3f2fcfb391d4f02efee629430b28202f1cbe7e6b0f.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 699391,
+      "duration_seconds": 2731.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2731.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-30_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_events.tsv",
+          "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_events.json",
+          "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-30/ses-0/eeg/sub-30_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s53987818--64b4c5718aa02304eccd988665e9f86263886b970769fc981fd0d9b029397658.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 841471,
+      "duration_seconds": 3286.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3286.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-11_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s82289338--022067e88e1807d9856c1a762a1d4920ddc2651991ec7ca5623295849f8ac6a6.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 708351,
+      "duration_seconds": 2766.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2766.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-7_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s84013910--e9f61f271fba530e9fcf5f7cef2a8626c106f022d65bd3b95224b020ebe3d275.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 723199,
+      "duration_seconds": 2824.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2824.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-21_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_events.tsv",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_events.json",
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-21/ses-0/eeg/sub-21_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s50785528--cc4b338a517067486bda81aca309bfc40f90e6d0d48a34f2ce26ed52b49e7c8e.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 791551,
+      "duration_seconds": 3091.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3091.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-20_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_events.tsv",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_events.json",
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-20/ses-0/eeg/sub-20_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s52887544--43025c34504debf8ef4ca3dae9d9555fda9c4beacd355fbffd4c72c97feaa74b.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 824319,
+      "duration_seconds": 3219.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3219.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-32_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_events.tsv",
+          "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_events.json",
+          "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-32/ses-0/eeg/sub-32_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s19532522--e7c3130911b79babc3bcc706330e0e1cbf27d8c842da433e8f14dc67e7db21d6.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 808703,
+      "duration_seconds": 3158.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3158.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-36_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "36",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "36",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_events.tsv",
+          "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_events.json",
+          "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-36/ses-0/eeg/sub-36_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s20379456--1797346f147378ec57f73b34bff6d0fcb8d8d2c44890004231716e67dceefe89.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 843775,
+      "duration_seconds": 3295.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3295.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-35_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "35",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "35",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_events.tsv",
+          "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_events.json",
+          "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-35/ses-0/eeg/sub-35_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s23649734--79c102f36c52f5552eb0b6b8681a0ef5ebc1068b02a4b026563d3a90bd48ff50.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 979199,
+      "duration_seconds": 3824.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3824.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-19_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_events.tsv",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_events.json",
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-19/ses-0/eeg/sub-19_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s49915162--63f3ae9bbb5136b1dcbbc835759b1c0754f39c553f11057bc2c5829ca337e09e.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 777983,
+      "duration_seconds": 3038.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3038.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-10_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s76283070--b825ce1f672bcd3b1a0b5d2cb780bd17353c19f5dbbececc884870aaca4ad918.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 656639,
+      "duration_seconds": 2564.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2564.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-45_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "45",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "45",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_events.tsv",
+          "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_events.json",
+          "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-45/ses-0/eeg/sub-45_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s18271394--333674b215785dd79e74163a3655f8adb4d9c33635bcb75ebd2fbce84f77acdd.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 756479,
+      "duration_seconds": 2954.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2954.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-16_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_events.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_events.json",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s51163234--4bbaef570528a8af4b9a8f258a6205f6d622bd89e6ca4ba3dbcc18ce8f44899f.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 797439,
+      "duration_seconds": 3114.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3114.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-25_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_events.tsv",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_events.json",
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-25/ses-0/eeg/sub-25_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s47780302--9c0a90e6fafe584691930ba6182a16d5027ab1caab3670f810c6df504eb9c9a0.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 744703,
+      "duration_seconds": 2908.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2908.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-42_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "42",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "42",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_events.tsv",
+          "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_events.json",
+          "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-42/ses-0/eeg/sub-42_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s16379702--03e2ecfd171cff7108af3690ce1777113368236bb884015efd129741ece32831.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 678143,
+      "duration_seconds": 2648.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2648.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-34_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_events.tsv",
+          "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_events.json",
+          "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-34/ses-0/eeg/sub-34_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s18796864--2bbdefddf0804a87b124f7c1fe10fa9df3382e7e75737473ceefc1ccc923900f.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 778239,
+      "duration_seconds": 3039.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3039.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-29_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_events.tsv",
+          "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_events.json",
+          "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-29/ses-0/eeg/sub-29_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s45497644--c9b30a9ac751460050d25e800c6619ab40f11dab71ff516e01bc1217fd92afef.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 709119,
+      "duration_seconds": 2769.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2769.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-43_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "43",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "43",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_events.tsv",
+          "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_events.json",
+          "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-43/ses-0/eeg/sub-43_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s19241968--07041d78c6e3160fa72eb378c905443bd24ad54d9c1cb44f5224b7745530cf2a.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 796671,
+      "duration_seconds": 3111.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3111.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-3_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s96502190--c7bcd88772644a566f17d226d2992cc85658ee590cee7a50a12ac547a98b6483.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 830719,
+      "duration_seconds": 3244.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3244.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-5_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s70425472--e93c7fdd2d45d00dbedc1287357e9ec956bba3fa37e63e3f54828a0cd10f41eb.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 606207,
+      "duration_seconds": 2367.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2367.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-31_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_events.tsv",
+          "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_events.json",
+          "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-31/ses-0/eeg/sub-31_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s20237270--c6a4affeb64150276ae7d59477ebca2c908df109a12c5f167c6c80f5b7d79228.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 837887,
+      "duration_seconds": 3272.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3272.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-22_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_events.tsv",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_events.json",
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-22/ses-0/eeg/sub-22_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s54693964--5b3af1dea3055c665f0181bac2fc5d3851e71efbf1fcf9472906c833cadbef88.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 852479,
+      "duration_seconds": 3329.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3329.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-28_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "28",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "28",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_events.tsv",
+          "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_events.json",
+          "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-28/ses-0/eeg/sub-28_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s55761394--24e7178420832d6c3bf79c6bffbded69715f819cdf4f1b25f1407094960d119e.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 869119,
+      "duration_seconds": 3394.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3394.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-23_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_events.tsv",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_events.json",
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-23/ses-0/eeg/sub-23_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s54464056--77e89641a8b1b355c0ecc1885d789e450079d63c5ab63d1eaab06feebe802f30.edf"
+        }
+      },
+      "ch_names": [
+        "AFz",
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 848895,
+      "duration_seconds": 3315.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3315.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f179237788a6045b"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-38_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "38",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "38",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_events.tsv",
+          "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_events.json",
+          "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-38/ses-0/eeg/sub-38_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s20033264--9cf1e1720fc92bfa549efcb76d4f88431a06cdfa05df53a787a3daef3a047936.edf"
+        }
+      },
+      "ch_names": [
+        "FC3",
+        "FCz",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CPz",
+        "CP4",
+        "A2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 829439,
+      "duration_seconds": 3239.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 3239.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1f7f95e44dd4e59e"
+    },
+    {
+      "dataset": "nm000178",
+      "data_name": "nm000178_sub-2_ses-0_task-imagery_run-0_eeg.edf",
+      "bidspath": "nm000178/sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.edf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "imagery",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000178",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.edf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-imagery_run-0_eeg.edf": "SHA256E-s71020152--e92b0204e39bd7247d0e032d8c9a783510e50525fde1652601eef64d9aa57c29.edf"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F1",
+        "Fz",
+        "F2",
+        "F4",
+        "FFC3h",
+        "FFC1h",
+        "FFC2h",
+        "FFC4h",
+        "FC5",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "FC6",
+        "FCC5h",
+        "FCC3h",
+        "FCC1h",
+        "FCC2h",
+        "FCC4h",
+        "FCC6h",
+        "C5",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "C6",
+        "CCP5h",
+        "CCP3h",
+        "CCP1h",
+        "CCP2h",
+        "CCP4h",
+        "CCP6h",
+        "CP5",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "CP6",
+        "CPP5h",
+        "CPP3h",
+        "CPP1h",
+        "CPP2h",
+        "CPP4h",
+        "CPP6h",
+        "P5",
+        "P3",
+        "P1",
+        "Pz",
+        "P2",
+        "P4",
+        "P6",
+        "PPO1h",
+        "PPO2h",
+        "POz"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 58,
+      "ntimes": 611327,
+      "duration_seconds": 2387.99609375,
+      "digested_at": "2026-08-26T11:01:55.065869+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right earlobe",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "zero-phase 4th order Butterworth bandpass filter (0.3-60 Hz), extended infomax ICA for eye artifact removal, artifact rejection by amplitude threshold (>125 \u00b5V), artifact rejection by abnormal joint probability (4 SD threshold), artifact rejection by abnormal kurtosis (4 SD threshold)"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 0.3,
+          "HighCutoffFrequency": 60.0,
+          "Type": "Butterworth",
+          "Order": 4
+        },
+        "Notch": {
+          "CutoffFrequency": [
+            50
+          ]
+        }
+      },
+      "manufacturer": "g.tec USBamp/g.tec Ladybird",
+      "manufacturers_model_name": "g.tec USBamp/g.tec Ladybird",
+      "eeg_placement_scheme": "5% grid system",
+      "cap_manufacturer": "n/a",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Institute of Neural Engineering, Graz University of Technology",
+      "recording_type": "continuous",
+      "recording_duration": 2387.99609375,
+      "eeg_ground": "AFz",
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "944acb7dd3a8fd3d"
+    }
+  ]
+}

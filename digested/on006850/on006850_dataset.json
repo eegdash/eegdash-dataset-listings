@@ -1,0 +1,164 @@
+{
+  "dataset_id": "on006850",
+  "name": "Urban Appraisal: Physiological Recording during Rating of Different Urban Environments",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006850-blue)](https://doi.org/10.82901/nemar.on006850)\n# README\n## Details related to access to the data\n- [ ] Data user agreement\nThe EEG dataset is licensed under the [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/) license. You are free to use, share, and adapt the data, provided appropriate credit is given.\nPlease ensure compliance with any applicable ethical and institutional guidelines.\nEthical approval for the data collection was obtained from the Ethics Board of the Institute of Psychology and Ergonomics at Technische Universit\u00e4t Berlin (ethics protocol BPN_GRA_230,415).\n- [ ] Contact person\nIsabelle Sander\nisabelle.sander@tu-berlin.de\nORCID: 0009-0006-0304-7690\n- [ ] Practical information to access the data\nNA\n## Overview\n- [ ] Project name (if relevant)\nUrban Appraisal\n- [ ] Year(s) that the project ran\nData was collected between April and July 2024.\n- [ ] Brief overview of the tasks in the experiment\nThe data was recorded to investigate the influence of different urban environments and their elements on urban appraisals and neural responses.\nParticipants were presented with and rated Streetview images of different urban environments on a desktop PC.\n- [ ] Description of the contents of the dataset\nContinuous EEG, ECG and EDA (GSR) Data from 63 participants. The data is separated into two block, during which participants took a break.\nECG and EDA data was recorded using ExG amplifier by BrainProducts and is thus included in the eeg datasets as additional channels.\nNote: While EDA data is labeled as being recorded in microVolts, the actual unit is microSiemens!\n- [ ] Independent variables\n56 different Streetview images (available via github.com/BeMoBIL/urban_appraisal_experiment) being presented in combination with 9 different prompts & scales. Semantic segmentation was used to extract area of images covered by buildings, greenery, cars, sky and people to use as predictors for subjective and neural responses.\n- [ ] Dependent variables\nStimulus-Onset ERPs (P1, N1 at occipital electrode cluster POz, Oz, O1, and O2 and P3, LPP at parietal cluster CPz, Pz, P3, and P4) as well as subjective ratings on 9 scales.\n- [ ] Control variables\nExperiment was performed in the same room with the same set up and under the same lighting conditions.\n- [ ] Quality assessment of the data\nData is of generally good quality. For used preprocessing steps see publication.\n## Methods\n### Subjects\nSubjects were recruited from the participant pool of TU Berlin and consisted of students who participated for course credit as well as citizens of Berlin who participated for monetary renumeration. 63 subjects included (age M = 29.16 years, SD = 7.53, range = 19\u201361 years; 29 male, 33 female, 1 non-binary)\nRemember that `Control` or `Patient` status should be defined in the `participants.tsv`\nusing a group column.\n### Apparatus\nParticipants were seated. The experiment was presented on a 27\u201d (diagonal) monitor with a 60hz refresh rate at a resolution of 2560x1440p using Psychtoolbox (Brainard, 1997; Kleiner et al., 2007) for MATLAB (The Mathworks Inc., Version 2023b).\n64-channel EEG data with actively amplified wet electrodes in 10-20 System using FCz as reference.\nECG data was collected using one electrode at the right clavicle, one the left shinbone.\nEDA data was recorded from middle and ring fingers of the non-dominant hand.\nThe data was sampled at 500 Hz with a 16-bit resolution using BrainAmp DC amplifiers from BrainProducts (BrainProducts GmbH, Gilching, Germany) with a 0.016 Hz high-pass filter during data acquisition\n### Initial setup\nParticipants signed consent and were then prepped for EEG. Electrodes were gelled and impedances kept under 10 kOhm. Pre-gelled ECG electrodes were applied after skin was shaved and cleaned using alcohol. EDA velcro electrodes were applied and gelled with isotonic gel.\n### Task organization\nTwo sessions (pre and post break): Stimuli were separated into 28 pre and 28 post break. Within blocks, stimulus x scale presentations were randomized.\n### Task details\nDuring the experiment, participants were presented with different urban stimuli and had to subsequently rate them on the nine subjective rating scales (arousal, valence, dominance, stress, openness, safety, beauty, hominess, and fascination). Each of the 56 stimuli were rated on each of the nine scales resulting in 504 trials. The stimulus-scale combinations were randomized individually for each participant and presented across two blocks of 28 stimuli each, separated by a break. Each experimental trial consisted of participants being presented with a word pair for 1000ms priming them to the scale they would be presented with (arousal: excited \u2013 calm; valence: happy \u2013 unhappy; dominance: controlled \u2013 in control; stress: relaxed \u2013 stressful; openness: narrow \u2013 open; safety: unsafe \u2013 safe; beauty: ugly \u2013 beautiful; hominess: alienated \u2013 at home; fascination: boring \u2013 fascinating). Subsequently, a fixation cross appeared for 500ms, followed by a stimulus for 3000ms. After the stimulus disappeared, the rating scale was presented until participants logged a rating using the computer mouse. At the beginning and end of the experiment there was a 3 min baseline recording in which participants kept their eyes open and looking at the screen.\n### Additional data acquired\nSubjective rating data on the 9 scales per stimulus as well as sociodemographic data of participants (extraversion, emotional stability, size of the city they spent the first 15 years of their life in) was also collected. This data is also available under TBA.\nStimuli used are available under TBA.\n### Experimental location\nSmall Lab in BeMoBIL at TU Berlin\n### Missing data\nNA\n### Notes\nData was recorded by Carolina Z\u00e4hme, Kim Aljoscha Bressem and Isabelle Sander.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "unofficial extension",
+  "license": "CC0",
+  "authors": [
+    "Carolina Zaehme",
+    "Isabelle Sander",
+    "Klaus Gramann"
+  ],
+  "funding": [
+    "This Study was realized by funding from the Berlin University Alliance."
+  ],
+  "dataset_doi": "10.82901/nemar.on006850",
+  "associated_paper_doi": null,
+  "tasks": [
+    "UrbanAppraisal"
+  ],
+  "sessions": [
+    "a",
+    "b"
+  ],
+  "total_files": 126,
+  "size_bytes": 37239052373,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 63,
+    "ages": [
+      27,
+      28,
+      31,
+      28,
+      25,
+      39,
+      26,
+      26,
+      24,
+      25,
+      24,
+      25,
+      24,
+      26,
+      26,
+      26,
+      26,
+      30,
+      40,
+      25,
+      28,
+      32,
+      24,
+      31,
+      40,
+      29,
+      24,
+      26,
+      43,
+      40,
+      27,
+      26,
+      23,
+      27,
+      21,
+      25,
+      27,
+      25,
+      27,
+      24,
+      46,
+      26,
+      32,
+      26,
+      36,
+      19,
+      27,
+      45,
+      25,
+      21,
+      27,
+      24,
+      26,
+      30,
+      50,
+      41,
+      26,
+      61,
+      25,
+      32,
+      38,
+      23,
+      26
+    ],
+    "age_min": 19,
+    "age_max": 61,
+    "age_mean": 29.396825396825395,
+    "species": null,
+    "sex_distribution": {
+      "f": 33,
+      "m": 29,
+      "o": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Klaus Gramann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:32.676290+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 14:11:10"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006850",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-UrbanAppraisal_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006850",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Thanks to Kim Aljoscha Bressem for his help with data collection",
+  "ethics_approvals": [
+    "IPA TU Berlin ethics protocol BPN_GRA_230,415"
+  ],
+  "references_and_links": [
+    "n/a"
+  ],
+  "generated_by": [
+    {
+      "Name": "FieldTrip",
+      "Version": "unknown",
+      "Description": "data2bids converter",
+      "URI": "https://www.fieldtriptoolbox.org"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006850.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "cc2152163827f6e328330c18746efa1bb3b85fd8ac43ac36b59026f6d024e7f8"
+}

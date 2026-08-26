@@ -1,0 +1,101 @@
+{
+  "dataset_id": "nm000190",
+  "name": "BNCI 2015-012 PASS2D P300 dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000190-blue)](https://doi.org/10.82901/nemar.nm000190)\n# BNCI 2015-012 PASS2D P300 dataset\nBNCI 2015-012 PASS2D P300 dataset.\n## Dataset Overview\n- **Code**: BNCI2015-012\n- **Paradigm**: p300\n- **DOI**: 10.3389/fnins.2011.00099\n- **Subjects**: 10\n- **Sessions per subject**: 1\n- **Events**: Target=1, NonTarget=2\n- **Trial interval**: [0, 0.8] s\n- **Runs per session**: 2\n- **Session IDs**: session_1\n- **File format**: gdf\n- **Data preprocessed**: True\n- **Contributing labs**: Berlin Institute of Technology, Fraunhofer FIRST\n## Acquisition\n- **Sampling rate**: 250.0 Hz\n- **Number of channels**: 63\n- **Channel types**: eeg=63\n- **Channel names**: AF3, AF4, AF7, AF8, C1, C2, C3, C4, C5, C6, CP1, CP2, CP3, CP4, CP5, CP6, CPz, Cz, F1, F10, F2, F3, F4, F5, F6, F7, F8, F9, FC1, FC2, FC3, FC4, FC5, FC6, FCz, FT7, FT8, Fp1, Fp2, Fz, O1, O2, Oz, P1, P10, P2, P3, P4, P5, P6, P7, P8, P9, PO3, PO4, PO7, PO8, POz, Pz, T7, T8, TP7, TP8\n- **Montage**: 10-20\n- **Hardware**: Brain Products\n- **Software**: Matlab\n- **Reference**: nose\n- **Sensor type**: wet Ag/AgCl electrodes\n- **Line frequency**: 50.0 Hz\n- **Online filters**: 0.1-250 Hz analog bandpass, then 40 Hz lowpass\n- **Cap manufacturer**: EasyCap GmbH\n- **Cap model**: Fast'n Easy Cap\n- **Electrode type**: wet Ag/AgCl electrodes\n- **Electrode material**: Ag/AgCl\n- **Auxiliary channels**: EOG (1 ch)\n## Participants\n- **Number of subjects**: 10\n- **Health status**: patients\n- **Clinical population**: Healthy\n- **Age**: mean=25.1, min=21, max=34\n- **Gender distribution**: male=9, female=3\n- **BCI experience**: mostly naive\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: p300\n- **Task type**: auditory ERP speller\n- **Number of classes**: 2\n- **Class labels**: Target, NonTarget\n- **Tasks**: text spelling, counting task\n- **Study design**: Nine-class auditory ERP paradigm with predictive text entry system (PASS2D). Users focus attention on two-dimensional auditory stimuli varying in pitch (high/medium/low) and direction (left/middle/right) presented via headphones.\n- **Study domain**: communication\n- **Feedback type**: visual\n- **Stimulus type**: auditory tones\n- **Stimulus modalities**: auditory, visual\n- **Primary modality**: auditory\n- **Synchronicity**: synchronous\n- **Mode**: online\n- **Training/test split**: True\n- **Instructions**: Focus on target stimuli while ignoring all non-target stimuli. Minimize eye movements and muscle artifacts. Count targets during calibration. Spell sentences during online phase.\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  Target\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Target\n  NonTarget\n    \u251c\u2500 Sensory-event\n    \u251c\u2500 Experimental-stimulus\n    \u251c\u2500 Visual-presentation\n    \u2514\u2500 Non-target\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: p300\n- **Stimulus frequencies**: [708.0, 524.0, 380.0] Hz\n- **Number of targets**: 9\n- **Number of repetitions**: 15\n- **Inter-stimulus interval**: 125.0 ms\n- **Stimulus onset asynchrony**: 225.0 ms\n## Data Structure\n- **Trials**: 27\n- **Trials context**: total across all calibration runs (3 runs \u00d7 9 trials per run)\n## Preprocessing\n- **Data state**: filtered and downsampled\n- **Preprocessing applied**: True\n- **Steps**: analog bandpass filter, lowpass filter, downsampling, artifact rejection\n- **Highpass filter**: 0.1 Hz\n- **Lowpass filter**: 40.0 Hz\n- **Bandpass filter**: {'low_cutoff_hz': 0.1, 'high_cutoff_hz': 250.0}\n- **Filter type**: analog bandpass then digital lowpass\n- **Artifact methods**: threshold rejection\n- **Re-reference**: nose\n- **Downsampled to**: 100.0 Hz\n- **Epoch window**: [-0.15, 0.8]\n- **Notes**: Epochs with peak-to-peak voltage difference exceeding 100 \u03bcV in any channel were rejected during calibration. No artifact correction applied in online runs.\n## Signal Processing\n- **Classifiers**: FDA, Fisher discriminant analysis\n- **Feature extraction**: mean amplitude in discriminative intervals\n- **Spatial filters**: shrinkage regularization\n## Cross-Validation\n- **Method**: cross-validation\n- **Evaluation type**: within_session\n## Performance (Original Study)\n- **Accuracy**: 72.5%\n- **Itr**: 3.4 bits/min\n- **Characters Per Minute**: 0.8\n- **Spelling Speed Chars Per Min**: 0.8\n## BCI Application\n- **Applications**: speller, communication\n- **Environment**: laboratory\n- **Online feedback**: True\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Auditory\n- **Type**: ERP, P300\n## Documentation\n- **Description**: A novel 9-class auditory ERP paradigm driving a predictive text entry system\n- **DOI**: 10.3389/fnins.2011.00099\n- **Associated paper DOI**: 10.3389/fnins.2011.00112\n- **License**: CC-BY-NC-ND-4.0\n- **Investigators**: Johannes H\u00f6hne, Martijn Schreuder, Benjamin Blankertz, Michael Tangermann\n- **Senior author**: Michael Tangermann\n- **Contact**: j.hoehne@tu-berlin.de\n- **Institution**: Berlin Institute of Technology\n- **Department**: Machine Learning Laboratory\n- **Address**: Franklinstr. 28/19, 10587 Berlin, Germany\n- **Country**: Germany\n- **Repository**: BNCI Horizon\n- **Publication year**: 2011\n- **Keywords**: brain\u2013computer interface, BCI, auditory ERP, P300, N200, spatial auditory stimuli, T9, user-centered design\n## Abstract\nBrain\u2013computer interfaces (BCIs) based on event related potentials (ERPs) strive for offering communication pathways which are independent of muscle activity. While most visual ERP-based BCI paradigms require good control of the user's gaze direction, auditory BCI paradigms overcome this restriction. The present work proposes a novel approach using auditory evoked potentials for the example of a multiclass text spelling application. To control the ERP speller, BCI users focus their attention to two-dimensional auditory stimuli that vary in both, pitch (high/medium/low) and direction (left/middle/right) and that are presented via headphones. The resulting nine different control signals are exploited to drive a predictive text entry system. It enables the user to spell a letter by a single nine-class decision plus two additional decisions to confirm a spelled word. This paradigm \u2013 called PASS2D \u2013 was investigated in an online study with 12 healthy participants. Users spelled with more than 0.8 characters per minute on average (3.4 bits/min) which makes PASS2D a competitive method. It could enrich the toolbox of existing ERP paradigms for BCI end users like people with amyotrophic lateral sclerosis disease in a late stage.\n## Methodology\nParticipants performed a single session lasting 3-4 hours consisting of calibration phase and online spelling task. Calibration: 3 runs (plus 1 practice run), each with 9 trials covering all 9 stimuli as targets. Each trial had 13-14 pseudo-random sequences of all 9 auditory stimuli (108 subtrials total, 12 target + 96 non-target). Online spelling: 2 runs spelling German sentences using T9-style predictive text system with 9-class decisions. Each trial consisted of 135 subtrials (15 iterations of 9 stimuli). Binary classification using linear FDA with shrinkage regularization on 2-4 amplitude values per channel from discriminative intervals (N200 at 230-300ms and P300 at 350+ ms). Multiclass decision based on one-sided t-test with unequal variances across 15 classifier outputs per key.\n## References\nSchreuder, M., Rost, T., & Tangermann, M. (2011). Listen, you are writing! Speeding up online spelling with a dynamic auditory BCI. Frontiers in neuroscience, 5, 112. https://doi.org/10.3389/fnins.2011.00112\nNotes\n.. versionadded:: 1.2.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-ND-4.0",
+  "authors": [
+    "Johannes H\u00f6hne",
+    "Martijn Schreuder",
+    "Benjamin Blankertz",
+    "Michael Tangermann"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000190",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 20,
+  "size_bytes": 8183746330,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 10,
+    "ages": [
+      26,
+      25,
+      21,
+      25,
+      23,
+      34,
+      23,
+      23,
+      24,
+      24
+    ],
+    "age_min": 21,
+    "age_max": 34,
+    "age_mean": 24.8,
+    "species": null,
+    "sex_distribution": {
+      "m": 8
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Michael Tangermann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:02:13.278983+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:15:31"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000190",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000190",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "10.3389/fnins.2011.00112"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnins.2011.00099"
+    }
+  ],
+  "ingestion_fingerprint": "81f8bd1f0271323cb8474d511fd75bf1e893ec9b778d4752b9896bcea438a131"
+}

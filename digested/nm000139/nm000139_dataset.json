@@ -1,0 +1,119 @@
+{
+  "dataset_id": "nm000139",
+  "name": "BNCI 2014-001 Motor Imagery dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000139-blue)](https://doi.org/10.82901/nemar.nm000139)\n# BNCI 2014-001 Motor Imagery dataset\nBNCI 2014-001 Motor Imagery dataset.\n## Dataset Overview\n- **Code**: BNCI2014-001\n- **Paradigm**: imagery\n- **DOI**: 10.3389/fnins.2012.00055\n- **Subjects**: 9\n- **Sessions per subject**: 2\n- **Events**: left_hand=1, right_hand=2, feet=3, tongue=4\n- **Trial interval**: [2, 6] s\n- **Runs per session**: 6\n- **File format**: GDF\n- **Data preprocessed**: True\n## Acquisition\n- **Sampling rate**: 250.0 Hz\n- **Number of channels**: 25\n- **Channel types**: eeg=22, eog=3\n- **Channel names**: C1, C2, C3, C4, C5, C6, CP1, CP2, CP3, CP4, CPz, Cz, EOG1, EOG2, EOG3, FC1, FC2, FC3, FC4, FCz, Fz, P1, P2, POz, Pz\n- **Montage**: custom\n- **Hardware**: BrainAmp MR plus\n- **Software**: BCI2000\n- **Reference**: left mastoid\n- **Ground**: unknown\n- **Sensor type**: Ag/AgCl\n- **Line frequency**: 50.0 Hz\n- **Online filters**: bandpass 0.05-200 Hz\n- **Cap manufacturer**: EASYCAP GmbH\n## Participants\n- **Number of subjects**: 9\n- **Health status**: healthy\n- **Species**: human\n## Experimental Protocol\n- **Paradigm**: imagery\n- **Number of classes**: 4\n- **Class labels**: left_hand, right_hand, feet, tongue\n- **Trial duration**: 4.0 s\n- **Study design**: Two-class motor imagery (selected from left hand, right hand, and foot) with asynchronous/continuous control periods\n- **Feedback type**: none\n- **Stimulus type**: arrow_cue\n- **Stimulus modalities**: visual, auditory\n- **Primary modality**: multisensory\n- **Synchronicity**: asynchronous\n- **Mode**: offline\n- **Instructions**: Subjects instructed to perform motor imagery during cued periods\n## HED Event Annotations\nSchema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n```\n  left_hand\n    \u251c\u2500 Sensory-event\n    \u2502  \u251c\u2500 Experimental-stimulus\n    \u2502  \u251c\u2500 Visual-presentation\n    \u2502  \u2514\u2500 Leftward, Arrow\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Left, Hand\n  right_hand\n    \u251c\u2500 Sensory-event\n    \u2502  \u251c\u2500 Experimental-stimulus\n    \u2502  \u251c\u2500 Visual-presentation\n    \u2502  \u2514\u2500 Rightward, Arrow\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Right, Hand\n  feet\n    \u251c\u2500 Sensory-event\n    \u2502  \u251c\u2500 Experimental-stimulus\n    \u2502  \u251c\u2500 Visual-presentation\n    \u2502  \u2514\u2500 Downward, Arrow\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine, Move, Foot\n  tongue\n    \u251c\u2500 Sensory-event\n    \u2502  \u251c\u2500 Experimental-stimulus\n    \u2502  \u251c\u2500 Visual-presentation\n    \u2502  \u2514\u2500 Upward, Arrow\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine, Move, Tongue\n```\n## Paradigm-Specific Parameters\n- **Detected paradigm**: motor_imagery\n- **Imagery tasks**: left_hand, right_hand, foot\n- **Cue duration**: 4.0 s\n- **Imagery duration**: 4.0 s\n## Data Structure\n- **Trials**: {'training': 200, 'test': 240}\n- **Blocks per session**: 6\n- **Trials context**: per subject (2 training runs + 4 test runs)\n## Preprocessing\n- **Data state**: minimally preprocessed (bandpass and notch filtered)\n- **Preprocessing applied**: True\n- **Steps**: bandpass filtering\n- **Highpass filter**: 0.05 Hz\n- **Lowpass filter**: 200 Hz\n- **Bandpass filter**: {'low_cutoff_hz': 0.05, 'high_cutoff_hz': 200.0}\n- **Filter type**: analog\n- **Re-reference**: none\n- **Downsampled to**: 100.0 Hz\n- **Notes**: Data provided in two versions: original at 1000 Hz and downsampled to 100 Hz (with Chebyshev Type II filter order 10, stop band ripple 50 dB, stop band edge 49 Hz)\n## Signal Processing\n- **Classifiers**: LDA, SVM, Neural Network, Naive Bayes, RBF Neural Network\n- **Feature extraction**: CSP, FBCSP, Bandpower, ERD, ERS\n- **Frequency bands**: mu=[8, 12] Hz; beta=[16, 24] Hz\n## Cross-Validation\n- **Method**: train-test split\n- **Evaluation type**: within_session\n## Performance (Original Study)\n- **Mse**: 0.382\n## BCI Application\n- **Applications**: cursor_control, communication\n- **Environment**: laboratory\n- **Online feedback**: False\n## Tags\n- **Pathology**: Healthy\n- **Modality**: Motor\n- **Type**: Motor\n## Documentation\n- **Description**: Review of the BCI competition IV - Data set 1: Asynchronous Motor Imagery\n- **DOI**: 10.3389/fnins.2012.00055\n- **License**: CC-BY-ND-4.0\n- **Investigators**: Michael Tangermann, Klaus-Robert M\u00fcller, Ad Aertsen, Niels Birbaumer, Christoph Braun, Clemens Brunner, Robert Leeb, Carsten Mehring, Kai J. Miller, Gernot R. M\u00fcller-Putz, Guido Nolte, Gert Pfurtscheller, Hubert Preissl, Gerwin Schalk, Alois Schl\u00f6gl, Carmen Vidaurre, Stephan Waldert, Benjamin Blankertz\n- **Senior author**: Michael Tangermann\n- **Contact**: michael.tangermann@tu-berlin.de\n- **Institution**: Berlin Institute of Technology\n- **Department**: Machine Learning Laboratory\n- **Address**: FR 6-9, Franklinstr. 28/29, 10587 Berlin, Germany\n- **Country**: AT\n- **Repository**: BNCI Horizon\n- **Data URL**: http://www.bbci.de/competition/iv/\n- **Publication year**: 2012\n- **Keywords**: brain-computer interface, BCI, competition\n## References\nTangermann, M., Muller, K.R., Aertsen, A., Birbaumer, N., Braun, C., Brunner, C., Leeb, R., Mehring, C., Miller, K.J., Mueller-Putz, G. and Nolte, G., 2012. Review of the BCI competition IV. Frontiers in neuroscience, 6, p.55.\nNotes\n.. note::\n``BNCI2014_001`` was previously named ``BNCI2014001``. ``BNCI2014001`` will be removed in version 1.1.\n.. versionadded:: 0.4.0\nThis is one of the most widely used motor imagery datasets in BCI research, commonly referred to as \"BCI Competition IV Dataset 2a\". It serves as a standard benchmark for 4-class motor imagery classification algorithms.\nThe dataset is particularly useful for:\n- Multi-class motor imagery classification (4 classes) - Transfer learning studies (9 subjects, 2 sessions each) - Cross-session variability analysis\nSee Also\nBNCI2014_004 : BCI Competition 2008 2-class motor imagery (Dataset B) BNCI2003_004 : BCI Competition III 2-class motor imagery\nExamples\n>>> from moabb.datasets import BNCI2014_001 >>> dataset = BNCI2014_001() >>> dataset.subject_list [1, 2, 3, 4, 5, 6, 7, 8, 9]\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.4.3 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-ND-4.0",
+  "authors": [
+    "Michael Tangermann",
+    "Klaus-Robert M\u00fcller",
+    "Ad Aertsen",
+    "Niels Birbaumer",
+    "Christoph Braun",
+    "Clemens Brunner",
+    "Robert Leeb",
+    "Carsten Mehring",
+    "Kai J. Miller",
+    "Gernot R. M\u00fcller-Putz",
+    "Guido Nolte",
+    "Gert Pfurtscheller",
+    "Hubert Preissl",
+    "Gerwin Schalk",
+    "Alois Schl\u00f6gl",
+    "Carmen Vidaurre",
+    "Stephan Waldert",
+    "Benjamin Blankertz"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000139",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0train",
+    "1test"
+  ],
+  "total_files": 108,
+  "size_bytes": 1485047253,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 9,
+    "ages": [
+      22,
+      24,
+      26,
+      24,
+      24,
+      23,
+      25,
+      23,
+      17
+    ],
+    "age_min": 17,
+    "age_max": 26,
+    "age_mean": 23.11111111111111,
+    "species": null,
+    "sex_distribution": {
+      "f": 4,
+      "m": 5
+    },
+    "handedness_distribution": {
+      "r": 9
+    }
+  },
+  "senior_author": "Benjamin Blankertz",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:31.467133+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:14:33"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000139",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000139",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "http://www.bbci.de/competition/iv/"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.4.3"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3389/fnins.2012.00055",
+      "URL": "http://www.bbci.de/competition/iv/"
+    }
+  ],
+  "ingestion_fingerprint": "3bf6d1dececd549e8abddc39814b98c3be92e65579b26b1cbbe372b298142cc8"
+}

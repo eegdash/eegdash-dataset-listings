@@ -1,0 +1,89 @@
+{
+  "dataset_id": "nm000107",
+  "name": "FRL Wrist Control: Wrist Movement Decoding from Surface Electromyography",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "# wrist: Wrist Movement Control from EMG\n## Overview\n**Dataset**: wrist - Wrist posture and movement from wrist-based surface electromyography\n**Task**: 1D continuous cursor control via wrist flexion/extension\n**Participants**: 100 subjects\n**Sessions**: 100 total (1 per subject)\n**Publication**: Kaifosh et al., 2025 - \"A generic non-invasive neuromotor interface for human-computer interaction\" (Nature)\n### Purpose\nThis dataset captures wrist-based sEMG signals during wrist movements for continuous cursor control. Motion capture provides ground-truth wrist angles. The goal is to enable gesture-free control through wrist posture alone, demonstrating sEMG's ability to decode motor intent before visible movement occurs.\n## Dataset Details\n### Participants\n- **Sample size**: 100 participants\n- **Demographics**: Not available (marked as n/a)\n- **Recording side**: Dominant wrist\n- **Sessions**: 1 per participant\n### Hardware\n- **Device**: sEMG-RD (single wristband)\n- **Channels**: 16 (EMG0-EMG15)\n- **Sampling rate**: 2000 Hz\n- **Reference**: Bipolar differential\n- **Ground truth**: Motion capture wrist angles\n### Recording Protocol\n1. Participant wears sEMG-RD on dominant wrist\n2. Motion capture tracks wrist angles in real-time\n3. Participant controls horizontal cursor position with wrist flexion/extension\n4. Target acquisition task: Navigate to targets and hold for 500ms\n## Data Contents\n### Files per Session\n```\nsub-XXX/ses-XXX/emg/\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-wrist_emg.edf\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-wrist_emg.json\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-wrist_channels.tsv\n\u251c\u2500\u2500 sub-XXX_ses-XXX_task-wrist_events.tsv\n\u2514\u2500\u2500 sub-XXX_ses-XXX_electrodes.tsv\n```\n### Events\n- **Stage boundaries**: Task phases and movement trials\n### Coordinate System\nSingle coordinate system at root (dominant wrist, percent units, no decimals)\n## Signal Processing\n**Note**: This dataset has significant data quality issues:\n- Duplicate timestamps found in many sessions (up to 88% duplicates)\n- Irregular sampling requiring resampling (up to 916% deviation)\n- Post-processing: Duplicate removal followed by resampling to regular 2000 Hz\n## Baseline Performance\n### Published Results (Kaifosh et al., 2025)\n**Offline Evaluation**:\n- Wrist angle velocity error: <13\u00b0/s\n- Error decreases with more training participants\n**Closed-loop Performance** (n=17 naive test users):\n- **Target acquisition time**: Median 1.51s (sEMG decoder)\n- **Dial-in time**: Time to re-acquire after premature exit\n- **Learning effects**: Improvement from practice to evaluation blocks\n**Comparison**:\n- Motion capture ground truth: 0.96s\n- MacBook trackpad: 0.68s\n- sEMG decoder: 1.51s (2.2\u00d7 slower than trackpad)\n**Model architecture**: MPF features + LSTM\n## Key Findings\n- **Predictive signals**: sEMG precedes movement by tens of milliseconds\n- **Generic models work**: Out-of-the-box cross-user generalization\n- **Continuous control**: Demonstrates feasibility of gesture-free interfaces\n- **Room for improvement**: Performance gap vs traditional inputs\n## Use Cases\n- **Continuous control**: Cursor/pointer movement\n- **AR/VR navigation**: Hands-free interface\n- **Low-effort control**: Minimal visible movement required\n- **Predictive decoding**: Intent detection before motion completion\n## Known Limitations\n- Single degree of freedom (1D control only)\n- Single wrist (dominant hand)\n- Duplicate timestamps (data quality issue)\n- Performance below traditional inputs\n- Extension to 2D control not demonstrated\n## Citation\n```\nKaifosh, P., Reardon, T.R., & CTRL-labs at Reality Labs. (2025).\nA generic non-invasive neuromotor interface for human-computer interaction.\nNature, 645(8081), 702-711. https://doi.org/10.1038/s41586-025-09255-w\n```\n## Data Curator\n**Yahya Shirazi**\nSCCN (Swartz Center for Computational Neuroscience)\nINC (Institute for Neural Computation)\nUniversity of California San Diego\n## Version History\n**v1.0** (2025-10-01): Initial BIDS conversion\n---\n**BIDS Version**: 1.11 | **EMG-BIDS**: BEP-042 | **Updated**: Oct 1, 2025",
+  "recording_modality": [
+    "emg"
+  ],
+  "datatypes": [
+    "emg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.11.0",
+  "license": "CC-BY-NC 4.0",
+  "authors": [
+    "Patrick Kaifosh",
+    "Thomas R. Reardon",
+    "CTRL-labs at Reality Labs"
+  ],
+  "funding": [
+    "Meta Reality Labs"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000107",
+  "associated_paper_doi": null,
+  "tasks": [
+    "wrist"
+  ],
+  "sessions": [
+    "000",
+    "001"
+  ],
+  "total_files": 182,
+  "size_bytes": 26684658756,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 100,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "CTRL-labs at Reality Labs",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:02.983579+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-02-23 07:48:55"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000107",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "coordsystem.json",
+      "participants.json",
+      "participants.tsv",
+      "task-wrist_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000107",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Data collected by Meta Reality Labs. BIDS conversion was done at SCCN, INC, UCSD.",
+  "how_to_acknowledge": "Please cite: Kaifosh, P., Reardon, T.R., & CTRL-labs at Reality Labs. (2025). A generic non-invasive neuromotor interface for human-computer interaction. Nature, 645(8081), 702-711. https://doi.org/10.1038/s41586-025-09255-w",
+  "ethics_approvals": "Approved by independent external Institutional Review Board (IRB). Participation was voluntary, participants provided informed consent, and data have been de-identified.",
+  "references_and_links": [
+    "https://doi.org/10.1038/s41586-025-09255-w"
+  ],
+  "generated_by": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3",
+      "Description": "BIDS conversion tool"
+    }
+  ],
+  "ingestion_fingerprint": "380f48b10436fe2be7e4bebb44047dcbc7a81c975cb7a9de4a66154f8d51641d"
+}

@@ -1,0 +1,156 @@
+{
+  "dataset_id": "on007353",
+  "name": "HAD-MEEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007353-blue)](https://doi.org/10.82901/nemar.on007353)\nHuman action recognition is a core component of social cognition, engaging spatially distributed and temporally evolving neural responses that encode visual information and infer intention. To map the brain\u2019s spatial organization supporting this process, we previously released the Human Action Dataset (HAD), a functional magnetic resonance imaging (fMRI) resource. However, fMRI\u2019s limited temporal resolution constrains its ability to capture rapid neural dynamics. Here, we present the HAD-MEEG dataset, which extends HAD-fMRI, leveraging the millisecond-level temporal resolution of magnetoencephalography (MEG) and electroencephalography (EEG). HAD-MEEG were recorded in the same participants and with the same stimuli as HAD-fMRI, in which 30 participants viewed 21,600 video clips spanning 180 categories of human action. By integrating the temporal precision of M/EEG with the spatial precision of fMRI, HAD enables comprehensive spatiotemporal investigation of the neural mechanisms underlying human action recognition.",
+  "recording_modality": [
+    "eeg",
+    "meg"
+  ],
+  "datatypes": [
+    "eeg",
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.1",
+  "license": "CC0",
+  "authors": [
+    "Guohao Zhang",
+    "Sai Ma",
+    "Ming Zhou",
+    "Shaohua Tang",
+    "Shuyi Zhen",
+    "Zheng Li",
+    "Zonglei Zhen"
+  ],
+  "funding": [
+    "Beijing Natural Science Foundation (#L247010)",
+    "National Natural Science Foundation of China (#62433015, #31771251)",
+    "STI 2030-436 Major Projects of the Ministry of Science and Technology of China437 (#2021ZD0200407)"
+  ],
+  "dataset_doi": "10.82901/nemar.on007353",
+  "associated_paper_doi": null,
+  "tasks": [
+    "action",
+    "noise"
+  ],
+  "sessions": [
+    "20211104",
+    "20211108",
+    "20211109",
+    "20211110",
+    "20211111",
+    "20211112",
+    "20211114",
+    "20211117",
+    "20211118",
+    "eeg",
+    "meg"
+  ],
+  "total_files": 473,
+  "size_bytes": 237300545996,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 32,
+    "ages": [
+      21,
+      24,
+      21,
+      22,
+      21,
+      21,
+      21,
+      19,
+      18,
+      24,
+      24,
+      20,
+      22,
+      22,
+      25,
+      20,
+      24,
+      24,
+      22,
+      19,
+      23,
+      25,
+      21,
+      24,
+      20,
+      24,
+      29,
+      22,
+      23,
+      20,
+      31
+    ],
+    "age_min": 18,
+    "age_max": 31,
+    "age_mean": 22.451612903225808,
+    "species": null,
+    "sex_distribution": {
+      "m": 14,
+      "f": 17
+    },
+    "handedness_distribution": {
+      "r": 31
+    }
+  },
+  "senior_author": "Zonglei Zhen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:11.500129+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 07:20:05"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007353",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "datacite.yml",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007353",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by Beijing Natural Science Foundation (L247010), National Natural Science Foundation of China (62433015, 31771251) and STI 2030-Major Projects of the Ministry of Science and Technology of China (2021ZD0200407). The funders had no role in the study design; data collection, analysis, and interpretation; writing of the manuscript; or the decision to submit the article for publication.",
+  "how_to_acknowledge": "Please cite this paper.TODO: add doi",
+  "ethics_approvals": [
+    "name: Beijing Normal University",
+    "number: ICBIR_A_0111_001_02"
+  ],
+  "references_and_links": [
+    "HAD-fMRI: https://openneuro.org/datasets/ds004488/versions/2.0.0",
+    "Github: https://github.com/colehank/HAD-MEEG"
+  ],
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004488.v2.0.0"
+    },
+    {
+      "DOI": "doi:10.18112/openneuro.ds007353.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "afe43dbe040e637218ddec048fb5eaae9a7b8cd8c15c4279fd01fdc31dce0971"
+}

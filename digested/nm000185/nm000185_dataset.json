@@ -1,0 +1,197 @@
+{
+  "dataset_id": "nm000185",
+  "name": "Sleep-EDF Expanded: Whole-Night PSG Recordings",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000185-blue)](https://doi.org/10.82901/nemar.nm000185)\nSleep-EDF Expanded: Whole-Night PSG Recordings\n================================================\n197 whole-night PSG recordings from PhysioNet Sleep-EDF Expanded.\n- Cassette study: 78 healthy subjects, ambulatory 48h recordings\n- Telemetry study: 22 subjects, Temazepam drug study\nChannels: EEG Fpz-Cz, EEG Pz-Oz (100 Hz), EOG horizontal, EMG submental\n(+ respiration, temperature in some recordings)\nSleep staging: Expert-annotated 30-second epochs in _events.tsv files.\nStages: Wake, N1, N2, N3 (combines original S3+S4 per AASM), REM, Unknown.\nOriginal Rechtschaffen & Kales stages preserved in 'original_stage' column.\nReference: Kemp et al. (2000) IEEE TBME 47(9), 1185-1194.\nPhysioNet: https://physionet.org/content/sleep-edfx/1.0.0/",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "ODbL v1.0",
+  "authors": [
+    "Bob Kemp",
+    "Aeilko H. Zwinderman",
+    "Bert Tuk",
+    "Hilbert A.C. Kamphuisen",
+    "Josefien J.L. Oberye"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000185",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep"
+  ],
+  "sessions": [
+    "night1",
+    "night2"
+  ],
+  "total_files": 197,
+  "size_bytes": 8715555276,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 100,
+    "ages": [
+      33,
+      33,
+      26,
+      26,
+      34,
+      28,
+      31,
+      30,
+      25,
+      25,
+      26,
+      26,
+      26,
+      27,
+      27,
+      31,
+      32,
+      31,
+      28,
+      28,
+      51,
+      51,
+      56,
+      50,
+      54,
+      56,
+      51,
+      54,
+      56,
+      51,
+      50,
+      54,
+      57,
+      60,
+      54,
+      57,
+      51,
+      52,
+      51,
+      67,
+      66,
+      69,
+      73,
+      74,
+      66,
+      66,
+      73,
+      67,
+      67,
+      71,
+      70,
+      69,
+      67,
+      73,
+      71,
+      72,
+      66,
+      67,
+      67,
+      89,
+      101,
+      95,
+      91,
+      85,
+      88,
+      88,
+      87,
+      89,
+      88,
+      88,
+      97,
+      92,
+      96,
+      90,
+      85,
+      54,
+      57,
+      56,
+      60,
+      35,
+      18,
+      32,
+      35,
+      51,
+      66,
+      47,
+      20,
+      21,
+      21,
+      22,
+      20,
+      66,
+      79,
+      48,
+      53,
+      28,
+      24,
+      34,
+      56,
+      48
+    ],
+    "age_min": 18,
+    "age_max": 101,
+    "age_mean": 54.7,
+    "species": null,
+    "sex_distribution": {
+      "f": 48,
+      "m": 52
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Josefien J.L. Oberye",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:02:03.200314+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-02 01:11:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000185",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000185",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Kemp et al. (2000) IEEE TBME 47(9) and PhysioNet.",
+  "references_and_links": [
+    "https://physionet.org/content/sleep-edfx/1.0.0/",
+    "https://doi.org/10.1109/10.867928"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_kemp2000.py (EEGDash)",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://physionet.org/content/sleep-edfx/1.0.0/"
+    },
+    {
+      "DOI": "doi:10.13026/C2X676"
+    }
+  ],
+  "ingestion_fingerprint": "290f8f6bf3e464cc934dcc32d3fcb5ad6752dc59c25c663211b1057d0a653d26"
+}

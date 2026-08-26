@@ -1,0 +1,122 @@
+{
+  "dataset_id": "nm000281",
+  "name": "emg2pose: Surface EMG and Hand Pose",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000281-blue)](https://doi.org/10.82901/nemar.nm000281)\nemg2pose: Surface EMG and Hand Pose\nThis dataset is a NEMAR re-host and EMG-BIDS conversion of the public Meta\nemg2pose release. The original benchmark is described in:\nSalter, Warren, Schlager et al. \"emg2pose: A Large and Diverse Benchmark for\nSurface Electromyographic Hand Pose Estimation.\" NeurIPS 2024 Datasets and\nBenchmarks Track. arXiv:2412.02725. DOI: 10.48550/arXiv.2412.02725.\nThe source paper describes emg2pose as a wrist surface electromyography\nbenchmark for hand pose estimation. It contains 2 kHz, 16-channel sEMG\nrecordings paired with hand pose labels captured by a 26-camera motion-capture\nrig. The public release spans 193 users, 370 hours, 29 behavioral stages, and\napproximately 80 million labeled frames.\nConversion notes\n----------------\nThe upstream HDF5 recordings were converted using a fast parallel adaptation of\nfacebookresearch/emg2pose PR #6, contributed by Alexandre Gramfort\n(@agramfort). Each recording is stored as an EMG-BIDS BDF file under\nsub-*/ses-*/emg. Each BDF contains:\n- 16 EMG channels named emg0 through emg15.\n- 20 joint-angle channels named joint0 through joint19.\n- Joint-angle channels are represented as radian-valued MISC channels.\n- BAD_IK annotations mark samples where inverse-kinematics labels are all zero.\n- The BIDS recording entity stores the source hand side, left or right.\nThe original upstream tarball is preserved in sourcedata as\nsourcedata/emg2pose_dataset.tar. The arXiv PDF and source bundle for the paper\nare preserved under sourcedata/paper for provenance.\nKnown limitations\n-----------------\nExact anatomical electrode coordinates are not provided by the public release,\nso EMGPlacementScheme is recorded as Other. The BDF writer pads the final data\nrecord with edge values when a recording length is not an exact multiple of the\nBDF data-record duration; this is a format-level requirement and does not alter\nthe original samples before the final padded block.",
+  "recording_modality": [
+    "emg"
+  ],
+  "datatypes": [
+    "emg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.11.1",
+  "license": "CC-BY-NC-SA-4.0",
+  "authors": [
+    "Sasha Salter",
+    "Richard Warren",
+    "Collin Schlager",
+    "Adrian Spurr",
+    "Shangchen Han",
+    "Rohin Bhasin",
+    "Yujun Cai",
+    "Peter Walkington",
+    "Anuoluwapo Bolarinwa",
+    "Robert Wang",
+    "Nathan Danielson",
+    "Josh Merel",
+    "Eftychios Pnevmatikakis",
+    "Jesse Marshall",
+    "Alexandre Gramfort"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000281",
+  "associated_paper_doi": null,
+  "tasks": [
+    "emg2pose"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09"
+  ],
+  "total_files": 25253,
+  "size_bytes": 794721598637,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 193,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Alexandre Gramfort",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:35.954103+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-26 05:19:52"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000281",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-emg2pose_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000281",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Reality Labs, Meta. This NEMAR re-host preserves the public emg2pose release and converts it to EMG-BIDS using the upstream PR #6 MNE/MNE-BIDS approach contributed by Alexandre Gramfort (@agramfort).",
+  "how_to_acknowledge": "Please cite: Salter, Warren, Schlager et al. emg2pose: A Large and Diverse Benchmark for Surface Electromyographic Hand Pose Estimation. NeurIPS 2024 Datasets and Benchmarks Track. arXiv:2412.02725.",
+  "ethics_approvals": [
+    "The source publication states that participant recruitment and on-boarding followed an external IRB-approved protocol, that participants reviewed and signed an IRB-reviewed consent form before study initiation, and that all data were de-identified to remove personally identifiable metadata."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.48550/arXiv.2412.02725",
+    "https://arxiv.org/abs/2412.02725",
+    "https://arxiv.org/pdf/2412.02725",
+    "https://github.com/facebookresearch/emg2pose",
+    "https://github.com/facebookresearch/emg2pose/pull/6",
+    "https://fb-ctrl-oss.s3.amazonaws.com/emg2pose/emg2pose_dataset.tar"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_emg2pose_pr6_fast.py",
+      "Version": "0.1",
+      "Description": "Fast parallel adaptation of facebookresearch/emg2pose PR #6. The converter writes BDF files with 16 EMG channels and 20 radian joint-angle channels, plus BIDS sidecars."
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://fb-ctrl-oss.s3.amazonaws.com/emg2pose/emg2pose_dataset.tar",
+      "DOI": "10.48550/arXiv.2412.02725",
+      "Version": "public emg2pose release used by arXiv:2412.02725"
+    },
+    {
+      "DOI": "n/a"
+    }
+  ],
+  "ingestion_fingerprint": "604a95e5abe2ec337a1433e83f1aa19a9b7dce7164fc9e5d71dc185b7b903f6a"
+}

@@ -1,0 +1,117 @@
+{
+  "dataset_id": "on007763",
+  "name": "BCCWJ-MEG",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007763-blue)](https://doi.org/10.82901/nemar.on007763)\n## Overview\nThis dataset includes MEG recordings from Japanese native speakers who read Japanese newspaper articles word by word. This dataset is part of BCCWJ-Brain; three types of brain data (fMRI, MEG, and EEG) were acquired from separate groups of participants using the same stimuli, enabling cross-modality comparisons of language processing with high spatial and temporal resolution respectively.\nThe BCCWJ-Brain collection consists of the following datasets:\n- BCCWJ-fMRI: ds007752 ([https://openneuro.org/datasets/ds007752](https://openneuro.org/datasets/ds007752))\n- BCCWJ-MEG: ds007763 ([https://openneuro.org/datasets/ds007763](https://openneuro.org/datasets/ds007763))\n- BCCWJ-EEG: ds007753 ([https://openneuro.org/datasets/ds007753](https://openneuro.org/datasets/ds007753))\n## Participants\nData from thirty-five participants were included in the dataset (13 females and 22 males; mean age= 21.7 (SD = 2.75)). All participants were right-handed, had no neurological illness, and had normal or corrected-to-normal vision.\n## Data Acquisition\nContinuous MEG was recorded with a 200-channel whole-head MEG system with axial gradiometers (RIOCH Ltd., Tokyo, Japan) in a shielded room at a sampling rate of 1,000 Hz with an online low-pass filter of 200 Hz. T1-weighted images were also collected;  slice thickness of 1 mm, field of view of 256 \u00d7 25699 mm, matrix size of 368 \u00d7 368, repetition time (TR) of 1,100 ms, and echo time (TE) of 5.1ms. Facial structures were removed from T1-weighted images using PyDeface (Gulban et al., 2022).\n## Experiment Procedure\nTwenty Japanese newspaper articles were used as stimuli. Stimuli were presented word by word using rapid serial visual presentation (RSVP) implemented in PsychoPy (Peirce, 2007, 2009). Each stimulus was presented for 500 ms, followed by a 500 ms blank screen. The order of the newspaper articles were randomized.\n## Data Preprocessing\nMEG data were preprocessed using MNE-Python (v1.9.0; Gramfort et al., 2013) and Eelbrain (v0.40.3; Brodbeck et al., 2023). We applied Continuously Adjusted least Square Method (CALM) filter (Adachi et al., 2001), then the continuous MEG data were combined with digitized files and converted into raw.fif files for further analysis. Independent component analysis (ICA) was then applied, and components reflecting ocular artifacts were identified and removed. The ICA decomposition was subsequently applied to the 0.1\u201340 Hz bandpass filtered data. Data were then segmented into epochs from \u2212100 to 1,000 ms relative to word onset and downsampled to 200 Hz. Baseline correction was applied using the pre-stimulus interval (\u2212100 to 0 ms). The preprocessed files are in `derivatives`.\n```\nderivatives/\n\u251c\u2500\u2500 meg/\n    \u251c\u2500\u2500 sub-XX_task-BCCWJreading_meg_clm_raw.fif (raw data converted to fif files, applying CALM filter, without downsampling (1,000Hz))\n    \u251c\u2500\u2500 sub-XX_task-BCCWJreading_meg_0.1-40-ica_raw.fif (preprocessed files)\n    \u2514\u2500\u2500 sub-XX_task-BCCWJreading_meg_0.1-40-ica_ave.fif (evoked files)\n```\n## Notes\nSince the BCCWJ texts are not copyright-free, texts for the experiment is not included in this dataset. To obtain the text, users must register for access to BCCWJ ([https://bccwj-data.ninjal.ac.jp/](https://bccwj-data.ninjal.ac.jp/)) separately.  See [https://clrd.ninjal.ac.jp/bccwj/en/subscription.html](https://clrd.ninjal.ac.jp/bccwj/en/subscription.html) for the details. Once access is granted, we provide a script to incorporate the text into the corresponding ``events.tsv`` files.\n## References\nAdachi, Y., Shimogawara, M., Higuchi, M., Haruta, Y., & Ochiai, M. (2001). Reduction of non-periodic environmental magnetic noise in MEG measurement by continuously adjusted least squares method. IEEE Transactions on Applied Superconductivity, 11(1), 669\u2013672. https://doi.org/10.1109/77.919433\nBrodbeck, C., Das, P., Gillis, M., Kulasingham, J. P., Bhattasali, S., Gaston, P., Resnik, P., & Simon, J. Z. (2023). Eelbrain, a Python toolkit for time-continuous analysis with temporal response functions. eLife, 12, e85012. https://doi.org/10.7554/eLife.85012\nGulban, O. F., Nielson, D., Poldrack, Lee, J., R., Gorgolewski, C., Vanessasaurus, & Ghosh, S. (2022). poldracklab/pydeface: v2.0.2 [Computer software]. Zenodo. https://doi.org/10.5281/zenodo.3524401\nGramfort, A., Luessi, M., Larson, E., Engemann, D. A., Strohmeier, D., Brodbeck, C., Goj, R., Jas, M., Brooks, T., Parkkonen, L., & H\u00e4m\u00e4l\u00e4inen, M. (2013). MEG and EEG data analysis with MNE-Python. Frontiers in Neuroinformatics, 7, 267. https://doi.org/10.3389/fnins.2013.00267\nMaekawa, K., Yamazaki, M., Ogiso, T., Maruyama, T., Ogura, H., Kashino, W., Koiso, H., Yamaguchi, M., Tanaka, M., & Den, Y. (2014). Balanced corpus of contemporary written Japanese. Language Resources and Evaluation, 48, 345\u2013371. https://doi.org/10.1007/s10579-013-9261-0\nPeirce, J. W. (2007). PsychoPy\u2014Psychophysics software in Python. Journal of Neuroscience Methods, 162(1\u20132), 8\u201313. https://doi.org/10.1016/j.jneumeth.2006.11.017\nPeirce, J. W. (2009). Generating stimuli for neuroscience using PsychoPy. Frontiers in Neuroinformatics, 2, 10. https://doi.org/10.3389/neuro.11.010.2008",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Yushi Sugimoto",
+    "Masayuki Asahara",
+    "Hyeonjeong Jeong",
+    "Akitake Kanno",
+    "Masatoshi Koizumi",
+    "Yohei Oseki"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007763",
+  "associated_paper_doi": null,
+  "tasks": [
+    "BCCWJreading"
+  ],
+  "sessions": [],
+  "total_files": 35,
+  "size_bytes": 177737930062,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 35,
+    "ages": [
+      24,
+      23,
+      19,
+      31,
+      31,
+      21,
+      19,
+      20,
+      18,
+      21,
+      24,
+      21,
+      21,
+      22,
+      23,
+      22,
+      22,
+      21,
+      20,
+      21,
+      23,
+      22,
+      19,
+      22,
+      20,
+      22,
+      22,
+      20,
+      19,
+      20,
+      22,
+      22,
+      22,
+      19,
+      22
+    ],
+    "age_min": 18,
+    "age_max": 31,
+    "age_mean": 21.714285714285715,
+    "species": null,
+    "sex_distribution": {
+      "m": 22,
+      "f": 13
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Yohei Oseki",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:59.068353+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-07-06 02:43:47"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007763",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007763",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007763.v1.1.1"
+    }
+  ],
+  "ingestion_fingerprint": "388edaa50d6ed3253b25895f21c7b194153c8fadd31aba25824ce4a54e15dac8"
+}

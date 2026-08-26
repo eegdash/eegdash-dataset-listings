@@ -1,0 +1,162 @@
+{
+  "dataset_id": "nm000179",
+  "name": "LEMON: MPI Leipzig Mind-Brain-Body EEG (Resting State)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000179-blue)](https://doi.org/10.82901/nemar.nm000179)\nLEMON: MPI Leipzig Mind-Brain-Body EEG Dataset (Resting State)\n===============================================================\nOverview\n--------\nResting-state EEG from 215 healthy participants (young and old adults) from\nthe Leipzig Study for Mind-Body-Emotion Interactions (LEMON). Subjects\nalternated between eyes-closed (EC) and eyes-open (EO) blocks of ~60 seconds\neach for approximately 16 minutes total.\nDemographics: Young adults (20-35 years, N=153) and older adults (59-77 years,\nN=74). All right-handed, normal or corrected-to-normal vision, no history of\nneurological or psychiatric disorders.\nRecording Setup\n---------------\n- Amplifier: BrainVision actiCHamp (Brain Products GmbH)\n- Channels: 62 EEG (standard 10-20 extended, ActiCAP)\n- Online reference: FCz\n- Ground: AFz (inferred from BrainVision convention)\n- Sampling rate: 2500 Hz\n- Impedance: < 5 kOhm (active electrodes)\n- Recording duration: ~16 min per subject\nTask\n----\nResting state with alternating eyes-open (EO) and eyes-closed (EC) blocks.\n- Eyes-open: fixate on LED (off state), eyes open\n- Eyes-closed: close eyes, fixate on LED (off state)\n- Block duration: ~60 seconds each\n- Event markers: S200 = eyes open onset, S210 = eyes closed onset\nKnown Issues\n------------\n- Subjects sub-010020, sub-010044, sub-010193, sub-010219 have incorrect .vhdr\n  file paths that were fixed during conversion\n- Subject sub-010203 has no marker file (.vmrk)\n- 5 subjects (sub-010235, sub-010237, sub-010259, sub-010281, sub-010293)\n  are absent from the dataset (not recorded)\nReference\n---------\nBabayan, A. et al. (2019). A mind-brain-body dataset of MRI, EEG, cognition,\nemotion, and peripheral physiology in young and old adults. Scientific Data, 6,\n180308. https://doi.org/10.1038/sdata.2018.308\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC BY 4.0",
+  "authors": [
+    "Anahit Babayan",
+    "Miray Erbey",
+    "Deniz Kumral",
+    "Janis D. Reinelt",
+    "Andrea M.F. Reiter",
+    "Josefin R\u00f6bbig",
+    "H. Lina Schaare",
+    "Marie Uhlig",
+    "Alfred Anwander",
+    "Pierre-Louis Bazin",
+    "Annette Horstmann",
+    "Leonie Lampe",
+    "Vadim V. Nikulin",
+    "Hadas Okon-Singer",
+    "Sven Preusser",
+    "Andre Pampel",
+    "Christiane S. Rohr",
+    "Julia Sacher",
+    "Angelika Thone-Otto",
+    "Sabrina Trapp",
+    "Till Nierhaus",
+    "Denise Altmann",
+    "Katrin Arelin",
+    "Maria Blochl",
+    "Edith Bongartz",
+    "Patric Breig",
+    "Elena Cesnaite",
+    "Sufang Chen",
+    "Roberto Cozatl",
+    "Saskia Czerwonatis",
+    "Gabriele Dambrauskaite",
+    "Maria Dreyer",
+    "Jessica Enders",
+    "Melina Engelhardt",
+    "Marie Michele Fischer",
+    "Norman Forschack",
+    "Johannes Golchert",
+    "Laura Golz",
+    "C. Alexandrina Guran",
+    "Susanna Hedrich",
+    "Nicole Hentschel",
+    "Daria I. Hoffmann",
+    "Julia M. Huntenburg",
+    "Rebecca Jost",
+    "Anna Kosatschek",
+    "Stella Kunzendorf",
+    "Hannah Lammers",
+    "Mark E. Lauckner",
+    "Keyvan Mahjoory",
+    "Natacha Mendes",
+    "Ramona Menger",
+    "Enzo Morino",
+    "Karina Nathe",
+    "Jennifer Neubauer",
+    "Handan Noyan",
+    "Sabine Oligschlager",
+    "Patricia Panczyszyn-Trzewik",
+    "Dorothee Poehlchen",
+    "Nadine Putzke",
+    "Sabrina Roski",
+    "Marie-Catherine Schaller",
+    "Anja Schieferbein",
+    "Benito Schlaak",
+    "Hanna Maria Schmidt",
+    "Robert Schmidt",
+    "Anne Schrimpf",
+    "Sylvia Stasch",
+    "Maria Voss",
+    "Anett Wiedemann",
+    "Daniel S. Margulies",
+    "Michael Gaebler",
+    "Arno Villringer"
+  ],
+  "funding": [
+    "Max Planck Society",
+    "German Research Foundation (CRC 1052 Obesity Mechanisms)",
+    "European Union (ERC-2016-StG-Self-Control-677804)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000179",
+  "associated_paper_doi": null,
+  "tasks": [
+    "resting"
+  ],
+  "sessions": [],
+  "total_files": 215,
+  "size_bytes": 136284426977,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 215,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Arno Villringer",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:55.086513+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-01 23:16:55"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000179",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000179",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite: Babayan, A. et al. (2019). A mind-brain-body dataset of MRI, EEG, cognition, emotion, and peripheral physiology in young and old adults. Scientific Data, 6, 180308.",
+  "references_and_links": [
+    "https://doi.org/10.1038/sdata.2018.308",
+    "https://ftp.gwdg.de/pub/misc/MPI-Leipzig_Mind-Brain-Body-LEMON/"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_lemon.py (EEGDash)",
+      "Description": "Restructured from GWDG FTP BrainVision files to BIDS-EEG layout.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://ftp.gwdg.de/pub/misc/MPI-Leipzig_Mind-Brain-Body-LEMON/EEG_MPILMBB_LEMON/EEG_Raw_BIDS_ID/"
+    },
+    {
+      "DOI": "doi:10.1038/sdata.2018.308"
+    }
+  ],
+  "ingestion_fingerprint": "cf49fb32578a5b0984131f635f5b0480d57e0e2240a451ade8e4839765694ce6"
+}

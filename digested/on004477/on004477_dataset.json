@@ -1,0 +1,102 @@
+{
+  "dataset_id": "on004477",
+  "name": "PES - Pandemic Emergency Scenario",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004477-blue)](https://doi.org/10.82901/nemar.on004477)\nExperiment:\nPES is a complex and strategic decision-making \"Pandemic\" Experiment. In this experiment, users were shown a map that gives a description of the spread of a pandemic emergency situation in various locations within the map. Resources (in terms, medicines, personnels) are allocated to few cities in the beginning. The user must allocate more resources to new cities that are displayed on the map. The user must keep in mind that the resources are limited and handing over all resources could mean that new cities (if displayed) might not get any resources.\nIn this experiment, 9 participants are paired with an artificial agent and they have to decide resource allocation on this scenario, providing their reported confidences for each decision.  The experiment is divided in 64 sequences.\nNeurophysiological markers and behavioural information is obtained for each participant as they provide the number of allocated resources and their own subjective perception of the accuracy of each response for each trial. There is a span of 10 seconds where the Participant can press the mouse button (the Hold Response event), drag the mouse upwards while keeping the mouse-button pressed, thereby increasing the number of plus symbols that appear around the city icon, or downwards to decrease them, and finally release the mouse button when the decision is made (the Release Response event). Immediately after that, there is an additional span of 5 seconds where the participant reports the confidence in their decision by moving the mouse wheel. After that (the End-of-trial event) a black screen replaces the map, and the responses from the other players are shown for 2 seconds.\nEach participant sat comfortably at about 1 meter from an LCD monitor; each participant wore an EEG cap connected to a Biosemi ActiveTwo system. Wet electrodes were used and recordings were performed with 64 electrodes in the International 10-20 System. Eight additional external channels were also included, two measuring the electrocardiogram (ECG), while 4 measured the electrooculogram (EOG) signal. The EEG data was sampled at 2048 Hz.\nEthical Statement:\nThe study complied at all times with the Declaration of Helsinki ethical guidelines for research involving human subjects;  formal ethical approval was granted by the Ministry of Defence Research Ethics Committee MoDREC \u2013 Application No:  983/MoDREC/19 first approved on 5th September 2019, with revisions (ver. 3) approved on the 3rd of June 2021.\nAcknowledgment:\nThis research was supported by the Defence Science and Technology Laboratory (Dstl) on behalf of the UK Ministry of Defence (MOD) via funding from US/UK DoD Bilateral Academic Research Initiative (BARI).\nCode: https://github.com/BCI-NE/PES",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Tasos Papastylianou",
+    "Rodrigo Ramele",
+    "Luca Citi",
+    "Caterina Cinel",
+    "Riccardo Poli"
+  ],
+  "funding": [
+    "UK Ministry of Defence (MOD) via funding from US/UK DoD BARI"
+  ],
+  "dataset_doi": "10.82901/nemar.on004477",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PES"
+  ],
+  "sessions": [],
+  "total_files": 9,
+  "size_bytes": 23990306747,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 9,
+    "ages": [
+      33,
+      30,
+      31,
+      27,
+      26,
+      21,
+      30,
+      22,
+      38
+    ],
+    "age_min": 21,
+    "age_max": 38,
+    "age_mean": 28.666666666666668,
+    "species": null,
+    "sex_distribution": {
+      "f": 6,
+      "m": 3
+    },
+    "handedness_distribution": {
+      "r": 9
+    }
+  },
+  "senior_author": "Riccardo Poli",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:07:16.017998+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-24 11:11:32"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004477",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004477",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported by the Defence Science and Technology Laboratory (Dstl) on behalf of the UK Ministry of Defence (MOD) via funding from US/UK DoD Bilateral Academic Research Initiative (BARI). ",
+  "ethics_approvals": [
+    "The study complied at all times with the Declaration of Helsinki ethical guidelines for research involving human subjects; formal ethical approval was granted by the Ministry of Defence Research Ethics Committee MoDREC - Application No: 983/MoDREC/19 first approved on 5th September 2019, with revisions (ver. 3) approved on the 3rd of June 2021."
+  ],
+  "references_and_links": [
+    "https://www.essex.ac.uk/research-projects/adaptive-joint-cognitive-systems",
+    "https://www.defense.gov/News/Releases/Release/Article/1644263/dod-announces-bari-award-for-us-uk-collaboration-on-human-machine-teaming/"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004477.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "7fa6a6ea7932f31d15d9fd86b3495a4912911c3e4b1c7d6b2aa9bc55b659876d"
+}

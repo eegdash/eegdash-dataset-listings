@@ -1,0 +1,105 @@
+{
+  "dataset_id": "nm000177",
+  "name": "Multi-session longitudinal motor imagery EEG dataset (Kumar et al. 2024)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000177-blue)](https://doi.org/10.82901/nemar.nm000177)\n# Multi-session longitudinal motor imagery EEG dataset (Kumar et al. 2024)\n## Overview\nA longitudinal motor imagery EEG dataset from 18 BCI-naive subjects across 6 sessions (1 offline + 5 online) demonstrating transfer learning for brain-computer interface skill acquisition. The study compares two domain adaptation frameworks\u2014Generic Recentering (unsupervised) and Personally Assisted Recentering (supervised)\u2014for calibration-free BCI training using left/right hand motor imagery with visual feedback. Data were acquired at 512 Hz using 22 EEG channels and processed with Riemannian geometry-based classifiers.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 18 |\n| Channels | 22 |\n| Classes | 2 |\n| Trial length | 5 s |\n| Sampling frequency | 512 Hz |\n| Sessions | 6 |\n| Total trials | 7156 |\n| Paradigm | MotorImagery |\n## Data Collection Methods\nEEG data were recorded from 18 healthy subjects (age mean=23.22\u00b13.59 years) across 6 sessions using ANT Neuro eego mylab hardware with 22 EEG channels and 3 EOG channels at 512 Hz sampling rate. Subjects performed cue-based left/right hand motor imagery tasks with continuous visual feedback across bar-feedback runs and car racing games. Session 1 consisted of 4 offline runs (80 trials); sessions 2-6 included 3-4 online runs each. EEG signals were bandpass filtered at 8-30 Hz using second-order Butterworth filters. Features were extracted as covariance matrices and classified using Riemannian Minimum Distance to Mean decoder.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Kumar2024\nfrom moabb.paradigms import MotorImagery\nparadigm = MotorImagery()\ndataset = Kumar2024()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Kumar2024.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.1093/pnasnexus/pgae076](https://doi.org/10.1093/pnasnexus/pgae076)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Satyam Kumar",
+    "Hussein Alawieh",
+    "Frigyes Samuel Racz",
+    "Rawan Fakhreddine",
+    "Jose del R. Millan"
+  ],
+  "funding": [
+    "Coleman Fung Foundation",
+    "Sinclair Foundation"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000177",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "total_files": 360,
+  "size_bytes": 15492967507,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Jose del R. Millan",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:01:53.053136+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-20 19:22:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000177",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000177",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "The University of Texas at Austin (Protocol 2020-03-0073)"
+  ],
+  "references_and_links": [
+    "https://zenodo.org/records/10694880",
+    "10.1093/pnasnexus/pgae076"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1093/pnasnexus/pgae076",
+      "URL": "https://zenodo.org/records/10694880"
+    },
+    {
+      "DOI": "doi:10.1093/pnasnexus/pgae076"
+    }
+  ],
+  "ingestion_fingerprint": "2dd32363b1cb2870787e6df769687d8b56e25194c6969e6e5ba9f86bd8283f23"
+}

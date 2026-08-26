@@ -1,0 +1,104 @@
+{
+  "dataset_id": "nm000251",
+  "name": "He et al. 2025 \u2014 VocalMind: A Stereotactic EEG Dataset for Vocalized, Mimed, and Imagined Speech in Tonal Language",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000251-blue)](https://doi.org/10.82901/nemar.nm000251)\n# VocalMind: a stereotactic EEG (sEEG) dataset for vocalized, mimed, and imagined speech in a tonal language\n## Summary\nVocalMind is a **stereotactic EEG (sEEG / intracranial EEG)** dataset for speech\ndecoding research. Intracranial recordings were obtained while the participant produced\nspeech in a **tonal language (Mandarin Chinese)** under three speech modes \u2014 **vocalized**,\n**mimed**, and **imagined** speech \u2014 supporting research on speech brain\u2013computer\ninterfaces (BCI) and neural decoding of overt and covert speech.\nThe BIDS conversion in this NEMAR record contains intracranial EEG data organised under\nthe `ieeg/` modality, with three tasks corresponding to the speech modes:\n`task-vocalized`, `task-mimed`, and `task-imagined`. It currently includes **1 subject**\n(`sub-01`).\n## Modality and paradigm\n- **Modality:** Intracranial / stereotactic EEG (sEEG, iEEG-BIDS)\n- **Tasks / paradigms:** Vocalized, mimed, and imagined speech in a tonal language\n  (`task-vocalized`, `task-mimed`, `task-imagined`)\n- **Application:** Speech decoding, speech BCI, tonal-language phonetics\n## Participants\nThis BIDS dataset includes **1 subject** (`sub-01`). See `participants.tsv` and the data\npaper for clinical/recording details.\n## Original dataset / data paper\nPlease cite the original Scientific Data descriptor when using this dataset:\n> He, T., Wei, M., Wang, R., Wang, R., Du, S., Cai, S., Tao, W., & Li, H. (2025).\n> *VocalMind: A Stereotactic EEG Dataset for Vocalized, Mimed, and Imagined Speech in\n> Tonal Language.* **Scientific Data, 12, 657.**\n> https://doi.org/10.1038/s41597-025-04741-2\n- **DOI:** [10.1038/s41597-025-04741-2](https://doi.org/10.1038/s41597-025-04741-2)\n- **Source data:** [Zenodo record 14696348](https://zenodo.org/records/14696348)\n- **Project page:** https://tianyu-h42.github.io/sEEG_speechDecoding/\n## Data structure / BIDS conversion\nRaw per-trial recordings (1000 Hz) were converted to BIDS iEEG (BrainVision) format with\nthe EEGDash conversion pipeline; per-trial files are concatenated per speech-mode/task\nwith `events.tsv` marking each stimulus onset.\n## Attribution\nAll data were collected by the original authors (Tianyu He and colleagues). Please credit\nthe original creators and cite the data paper above. This NEMAR record redistributes the\ndataset in BIDS format; MNE-BIDS / iEEG-BIDS and related BIDS tools were used only for\nstandardisation, not as the source of the data.\n## License\nCC BY 4.0 (see `dataset_description.json`).",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC BY 4.0",
+  "authors": [
+    "Tianyu He",
+    "Mingyi Wei",
+    "Ruicong Wang",
+    "Renzhi Wang",
+    "Shiwei Du",
+    "Siqi Cai",
+    "Wei Tao",
+    "Haizhou Li"
+  ],
+  "funding": [
+    "National Natural Science Foundation of China",
+    "Shenzhen Science and Technology Innovation Program"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000251",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagined",
+    "mimed",
+    "vocalized"
+  ],
+  "sessions": [],
+  "total_files": 6,
+  "size_bytes": 2030748722,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Haizhou Li",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:04.339326+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-17 20:54:56"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000251",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000251",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite: He, T. et al. (2025). VocalMind: A Stereotactic EEG Dataset for Vocalized, Mimed, and Imagined Speech in Tonal Language. Scientific Data, 12, 657. https://doi.org/10.1038/s41597-025-04741-2",
+  "ethics_approvals": [
+    "Ethics Committee of South China Hospital, Shenzhen University (HNLS20231229003-A)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1038/s41597-025-04741-2",
+    "https://zenodo.org/records/14696348",
+    "https://tianyu-h42.github.io/sEEG_speechDecoding/"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_vocalmind.py (EEGDash)",
+      "Description": "Converted Original_sEEG CSV files (raw 1000 Hz) to BIDS-iEEG BrainVision format. Per-trial CSV files are concatenated per speech-mode/task-type with events.tsv marking each stimulus onset.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://zenodo.org/records/14696348",
+      "DOI": "doi:10.5281/zenodo.14696348"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-025-04741-2"
+    }
+  ],
+  "ingestion_fingerprint": "989422490325fd40fdb12e0f525ae1674999ce4588014fecd1a1e99c60a779db"
+}

@@ -1,0 +1,110 @@
+{
+  "dataset_id": "on007338",
+  "name": "EEGEyeNet Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007338-blue)](https://doi.org/10.82901/nemar.on007338)\nThis is a BIDS standardized version of simultaneously collected EEG and eye-tracking data, taken from one subject from the [EEGEYENET](https://osf.io/ktv7m/) dataset.\nAcknowledgements go to Martyna Beata P\u0142omecka, Ard Kastrati, and Nicolas Langer who designed the study, collected the data, and published the dataset to Open Science Framework.\nFor access to the full dataset, please refer to the dataset DOI.\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Martyna Beata P\u0142omecka",
+    "Ard Kastrati",
+    "Nicolas Langer"
+  ],
+  "funding": [
+    "Velux Stiftung Project No. 1126",
+    "Schweizerischer Nationalfonds zur F\u00f6rderungder Wissenschaftlichen Forschung (SNF) Grant 100014175875"
+  ],
+  "dataset_doi": "10.82901/nemar.on007338",
+  "associated_paper_doi": null,
+  "tasks": [
+    "dots"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 1,
+  "size_bytes": 47148448,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Nicolas Langer",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:14:10.407082+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-30 05:37:48"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007338",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007338",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank the authors of the original EEGEyeNet paper for Making this dataset available.",
+  "how_to_acknowledge": "Kastrati, A., P\u0142omecka, M. B., Pascual, D., Wolf, L., Gillioz, V., Wattenhofer, R., & Langer, N. (2021). EEGEyeNet: A Simultaneous Electroencephalography and Eye-tracking Dataset and Benchmark for Eye Movement Prediction (Version 2). arXiv. https://doi.org/10.48550/ARXIV.2111.05100",
+  "ethics_approvals": [
+    "The study was approved by the Institutional Review Board of Canton Zurich(BASEC-Nr. 2017-00226)"
+  ],
+  "references_and_links": [
+    "Kastrati",
+    "A.",
+    "P\u0142omecka",
+    "M. B.",
+    "Pascual",
+    "D.",
+    "Wolf",
+    "L.",
+    "Gillioz",
+    "V.",
+    "Wattenhofer",
+    "R.",
+    "& Langer",
+    "N. (2021). EEGEyeNet: A Simultaneous Electroencephalography and Eye-tracking Dataset and Benchmark for Eye Movement Prediction (Version 2). arXiv. https://doi.org/10.48550/ARXIV.2111.05100"
+  ],
+  "generated_by": [
+    {
+      "Name": "https://github.com/scott-huberty/example-bids-dataset-eegeyenet.git"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://osf.io/ktv7m/",
+      "DOI": "10.17605/OSF.IO/KTV7M"
+    },
+    {
+      "DOI": "doi:10.18112/openneuro.ds007338.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "c53efa3d1135232826b258e725876b821973b53c0d7c4444d60748e402cf61ec"
+}

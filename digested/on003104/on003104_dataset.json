@@ -1,0 +1,82 @@
+{
+  "dataset_id": "on003104",
+  "name": "MNE-somato-data-bids (anonymized)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003104-blue)](https://doi.org/10.82901/nemar.on003104)\nMNE-somato-data-bids\n====================\nThis dataset contains the MNE-somato-data in BIDS format.\nThe conversion can be reproduced through the Python script stored in the\n`/code` directory of this dataset. See the README in that directory.\nThe `/derivatives` directory contains the outputs of running the FreeSurfer\npipeline `recon-all` on the MRI data with no additional commandline options\n(only defaults were used):\n$ recon-all -i sub-01_T1w.nii.gz -s 01 -all\nAfter the `recon-all` call, there were further FreeSurfer calls from the MNE\nAPI:\n$ mne make_scalp_surfaces -s 01 --force\n$ mne watershed_bem -s 01\nThe derivatives also contain the forward model `*-fwd.fif`, which was produced\nusing the source space definition, a `*-trans.fif` file, and the boundary\nelement model (=conductor model) that lives in\n`freesurfer/subjects/01/bem/*-bem-sol.fif`.\nThe `*-trans.fif` file is not saved, but can be recovered from the anatomical\nlandmarks in the `sub-01/anat/T1w.json` file and MNE-BIDS' function\n`get_head_mri_transform`.\nSee: https://github.com/mne-tools/mne-bids for more information.\nNotes on FreeSurfer\n===================\nthe FreeSurfer pipeline `recon-all` was run new for the sake of converting the\nsomato data to BIDS format. This needed to be done to change the \"somato\"\nsubject name to the BIDS subject label \"01\". Note, that this is NOT \"sub-01\",\nbecause in BIDS, the \"sub-\" is just a prefix, whereas the \"01\" is the subject\nlabel.",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Lauri Parkkonen",
+    "Stefan Appelhoff",
+    "Alexandre Gramfort",
+    "Mainak Jas",
+    "Richard H\u00f6chenberger"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on003104",
+  "associated_paper_doi": null,
+  "tasks": [
+    "somato"
+  ],
+  "sessions": [],
+  "total_files": 1,
+  "size_bytes": 761228965,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Richard H\u00f6chenberger",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:28.879904+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-21 17:38:15"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003104",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003104",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://mne.tools/stable/overview/datasets_index.html#somatosensory"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds003104.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "039ed39094624a76df32d8b6cd9c195ea7df28b3ce52b137b78d65b0bcf8baba"
+}

@@ -1,0 +1,2036 @@
+{
+  "dataset": "on003800",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:05:59.636206+00:00",
+  "record_count": 24,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-001_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-001/eeg/sub-001_task-Rest_eeg.set",
+      "bids_relpath": "sub-001/eeg/sub-001_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-001/eeg/sub-001_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-001/eeg/sub-001_electrodes.tsv",
+          "sub-001/eeg/sub-001_coordsystem.json",
+          "sub-001/eeg/sub-001_task-Rest_eeg.json",
+          "sub-001/eeg/sub-001_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-001/eeg/sub-001_task-Rest_eeg.set": "MD5E-s2332352--2045ee1a9bdfedaae5a5eb8b3742728f.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 65.0,
+        "Group": null,
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-001_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_events.json",
+          "sub-001/eeg/sub-001_electrodes.tsv",
+          "sub-001/eeg/sub-001_coordsystem.json",
+          "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-001/eeg/sub-001_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285792--1be16ed932eec011a191f685d3615ddf.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 65.0,
+        "Group": null,
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-007_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-007/eeg/sub-007_task-Rest_eeg.set",
+      "bids_relpath": "sub-007/eeg/sub-007_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-007/eeg/sub-007_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-007/eeg/sub-007_electrodes.tsv",
+          "sub-007/eeg/sub-007_coordsystem.json",
+          "sub-007/eeg/sub-007_task-Rest_eeg.json",
+          "sub-007/eeg/sub-007_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-007/eeg/sub-007_task-Rest_eeg.set": "MD5E-s2332352--e6f9cba4a07e37fffa681669bc93bdb6.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 89.0,
+        "Group": null,
+        "MMSE": 19.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-007_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_events.json",
+          "sub-007/eeg/sub-007_electrodes.tsv",
+          "sub-007/eeg/sub-007_coordsystem.json",
+          "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-007/eeg/sub-007_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--981435ddd937fe2a38c0ccd3d4f99089.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 89.0,
+        "Group": null,
+        "MMSE": 19.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-009_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "009",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "009",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_events.json",
+          "sub-009/eeg/sub-009_electrodes.tsv",
+          "sub-009/eeg/sub-009_coordsystem.json",
+          "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-009/eeg/sub-009_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--852cc6152554488e76a51035efc20389.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 57.0,
+        "Group": null,
+        "MMSE": 26.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-004_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-004/eeg/sub-004_task-Rest_eeg.set",
+      "bids_relpath": "sub-004/eeg/sub-004_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-004/eeg/sub-004_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-004/eeg/sub-004_electrodes.tsv",
+          "sub-004/eeg/sub-004_coordsystem.json",
+          "sub-004/eeg/sub-004_task-Rest_eeg.json",
+          "sub-004/eeg/sub-004_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-004/eeg/sub-004_task-Rest_eeg.set": "MD5E-s2332352--94158d499112276f567511ad623239d3.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 82.0,
+        "Group": null,
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-004_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_events.json",
+          "sub-004/eeg/sub-004_electrodes.tsv",
+          "sub-004/eeg/sub-004_coordsystem.json",
+          "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-004/eeg/sub-004_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--31e8147fb6ea214c4768344e374e69d0.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 82.0,
+        "Group": null,
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-011_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-011/eeg/sub-011_task-Rest_eeg.set",
+      "bids_relpath": "sub-011/eeg/sub-011_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "011",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "011",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-011/eeg/sub-011_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-011/eeg/sub-011_electrodes.tsv",
+          "sub-011/eeg/sub-011_coordsystem.json",
+          "sub-011/eeg/sub-011_task-Rest_eeg.json",
+          "sub-011/eeg/sub-011_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-011/eeg/sub-011_task-Rest_eeg.set": "MD5E-s2332352--3f0ed4a3e9044db65330ccc3c3fbbcc8.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 88.0,
+        "Group": null,
+        "MMSE": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-011_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "011",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "011",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_events.json",
+          "sub-011/eeg/sub-011_electrodes.tsv",
+          "sub-011/eeg/sub-011_coordsystem.json",
+          "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-011/eeg/sub-011_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285640--f2f72bd70fcb23e821b36f1a52db9dbd.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 88.0,
+        "Group": null,
+        "MMSE": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-002_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-002/eeg/sub-002_task-Rest_eeg.set",
+      "bids_relpath": "sub-002/eeg/sub-002_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "002",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "002",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-002/eeg/sub-002_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-002/eeg/sub-002_electrodes.tsv",
+          "sub-002/eeg/sub-002_coordsystem.json",
+          "sub-002/eeg/sub-002_task-Rest_eeg.json",
+          "sub-002/eeg/sub-002_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-002/eeg/sub-002_task-Rest_eeg.set": "MD5E-s2332352--ebf9c5a53406aba8e1aa478a375d520b.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 70.0,
+        "Group": null,
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-002_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "002",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "002",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_events.json",
+          "sub-002/eeg/sub-002_electrodes.tsv",
+          "sub-002/eeg/sub-002_coordsystem.json",
+          "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-002/eeg/sub-002_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--448e74a8c6d48f12daba6d0bab08c37f.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 70.0,
+        "Group": null,
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-008_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-008/eeg/sub-008_task-Rest_eeg.set",
+      "bids_relpath": "sub-008/eeg/sub-008_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-008/eeg/sub-008_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-008/eeg/sub-008_electrodes.tsv",
+          "sub-008/eeg/sub-008_coordsystem.json",
+          "sub-008/eeg/sub-008_task-Rest_eeg.json",
+          "sub-008/eeg/sub-008_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-008/eeg/sub-008_task-Rest_eeg.set": "MD5E-s2332352--e30f8fe0cad053f154ab8521a787e5d8.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 70.0,
+        "Group": null,
+        "MMSE": 24.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-008_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_events.json",
+          "sub-008/eeg/sub-008_electrodes.tsv",
+          "sub-008/eeg/sub-008_coordsystem.json",
+          "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-008/eeg/sub-008_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--72c54ef38907dee843542e2493f41dfd.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 70.0,
+        "Group": null,
+        "MMSE": 24.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-012_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "012",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "012",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_events.json",
+          "sub-012/eeg/sub-012_electrodes.tsv",
+          "sub-012/eeg/sub-012_coordsystem.json",
+          "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-012/eeg/sub-012_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285640--24acf125e9662b17729a4f612c730d4b.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 63.0,
+        "Group": null,
+        "MMSE": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-012_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-012/eeg/sub-012_task-Rest_eeg.set",
+      "bids_relpath": "sub-012/eeg/sub-012_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "012",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "012",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-012/eeg/sub-012_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-012/eeg/sub-012_electrodes.tsv",
+          "sub-012/eeg/sub-012_coordsystem.json",
+          "sub-012/eeg/sub-012_task-Rest_eeg.json",
+          "sub-012/eeg/sub-012_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-012/eeg/sub-012_task-Rest_eeg.set": "MD5E-s2332352--744e9d7447f2ce1ae3fd7bad4ad82269.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 63.0,
+        "Group": null,
+        "MMSE": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-005_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "005",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "005",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_events.json",
+          "sub-005/eeg/sub-005_electrodes.tsv",
+          "sub-005/eeg/sub-005_coordsystem.json",
+          "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-005/eeg/sub-005_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--700e6b4e111a9eee1ca20a30d9656a7b.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 75.0,
+        "Group": null,
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-005_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-005/eeg/sub-005_task-Rest_eeg.set",
+      "bids_relpath": "sub-005/eeg/sub-005_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "005",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "005",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-005/eeg/sub-005_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-005/eeg/sub-005_electrodes.tsv",
+          "sub-005/eeg/sub-005_coordsystem.json",
+          "sub-005/eeg/sub-005_task-Rest_eeg.json",
+          "sub-005/eeg/sub-005_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-005/eeg/sub-005_task-Rest_eeg.set": "MD5E-s2332352--c505c497e0dc05c2886dd0605b615289.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 75.0,
+        "Group": null,
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-010_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-010/eeg/sub-010_task-Rest_eeg.set",
+      "bids_relpath": "sub-010/eeg/sub-010_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "010",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "010",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-010/eeg/sub-010_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-010/eeg/sub-010_electrodes.tsv",
+          "sub-010/eeg/sub-010_coordsystem.json",
+          "sub-010/eeg/sub-010_task-Rest_eeg.json",
+          "sub-010/eeg/sub-010_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-010/eeg/sub-010_task-Rest_eeg.set": "MD5E-s2332352--95084dc859df93579926841872ded2d6.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 81.0,
+        "Group": null,
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-010_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "010",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "010",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_events.json",
+          "sub-010/eeg/sub-010_electrodes.tsv",
+          "sub-010/eeg/sub-010_coordsystem.json",
+          "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-010/eeg/sub-010_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285640--798066cd7975bcedf86b54df1463c1d2.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 81.0,
+        "Group": null,
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-013_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "013",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "013",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_events.json",
+          "sub-013/eeg/sub-013_electrodes.tsv",
+          "sub-013/eeg/sub-013_coordsystem.json",
+          "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-013/eeg/sub-013_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285688--a371587394e4ec0431b4e2b9f5d39143.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 60.0,
+        "Group": null,
+        "MMSE": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-003_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_events.json",
+          "sub-003/eeg/sub-003_electrodes.tsv",
+          "sub-003/eeg/sub-003_coordsystem.json",
+          "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-003/eeg/sub-003_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--5b0cdba32752a6680d96f6321145f403.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 75.0,
+        "Group": null,
+        "MMSE": 27.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-003_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-003/eeg/sub-003_task-Rest_eeg.set",
+      "bids_relpath": "sub-003/eeg/sub-003_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-003/eeg/sub-003_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-003/eeg/sub-003_electrodes.tsv",
+          "sub-003/eeg/sub-003_coordsystem.json",
+          "sub-003/eeg/sub-003_task-Rest_eeg.json",
+          "sub-003/eeg/sub-003_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-003/eeg/sub-003_task-Rest_eeg.set": "MD5E-s2332352--dff091ab4ff0c0bd80cfb085242bd0fa.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 75.0,
+        "Group": null,
+        "MMSE": 27.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-006_task-AuditoryGammaEntrainment_eeg.set",
+      "bidspath": "on003800/sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": null,
+        "task": "AuditoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_channels.tsv",
+          "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_events.tsv",
+          "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_events.json",
+          "sub-006/eeg/sub-006_electrodes.tsv",
+          "sub-006/eeg/sub-006_coordsystem.json",
+          "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_eeg.json",
+          "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-006/eeg/sub-006_task-AuditoryGammaEntrainment_eeg.set": "MD5E-s13285632--1ef4aaefdbdd05cb558a7781763d8ad4.set"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 85000,
+      "duration_seconds": 340.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 69.0,
+        "Group": null,
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    },
+    {
+      "dataset": "on003800",
+      "data_name": "on003800_sub-006_task-Rest_eeg.set",
+      "bidspath": "on003800/sub-006/eeg/sub-006_task-Rest_eeg.set",
+      "bids_relpath": "sub-006/eeg/sub-006_task-Rest_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": null,
+        "task": "Rest",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on003800",
+        "raw_key": "sub-006/eeg/sub-006_task-Rest_eeg.set",
+        "dep_keys": [
+          "sub-006/eeg/sub-006_electrodes.tsv",
+          "sub-006/eeg/sub-006_coordsystem.json",
+          "sub-006/eeg/sub-006_task-Rest_eeg.json",
+          "sub-006/eeg/sub-006_task-Rest_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-006/eeg/sub-006_task-Rest_eeg.set": "MD5E-s2332352--60d41795a42d2c05f44ae9050a140a11.set"
+        }
+      },
+      "ch_names": null,
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 15000,
+      "duration_seconds": 60.0,
+      "digested_at": "2026-08-26T11:05:59.636206+00:00",
+      "participant_tsv": {
+        "Gender": "F",
+        "Age": 69.0,
+        "Group": null,
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": null,
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 340,
+      "montage_hash": "02c0b639dfe52427"
+    }
+  ]
+}

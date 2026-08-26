@@ -1,0 +1,2169 @@
+{
+  "dataset": "nm000219",
+  "source": "nemar",
+  "digested_at": "2026-08-26T11:02:46.741183+00:00",
+  "record_count": 18,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-17_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_channels.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_events.tsv",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_events.json",
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-17/ses-0/eeg/sub-17_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--f7949a36ee3187766755b99661f466d1fe5748477ad8cc23870e932ca84ca2ff.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-14_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_channels.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_events.tsv",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_events.json",
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-14/ses-0/eeg/sub-14_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--11add173026762fa4962907281a4a7f7ba102b8c9135a1830ef210036f01b431.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-1_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_channels.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_events.tsv",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_events.json",
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-1/ses-0/eeg/sub-1_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s43265792--a64241ce770494d126e60cfb659e7cd5ce7017897a857805a34e20d43fe96c09.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 479999,
+      "duration_seconds": 1919.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 1919.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-6_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_channels.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_events.tsv",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_events.json",
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-6/ses-0/eeg/sub-6_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--baad19af93a84ecde6e509dd1c77c40a661a37306606d8da31c6af5dddbe2d40.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-4_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_channels.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_events.tsv",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_events.json",
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-4/ses-0/eeg/sub-4_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--8123752eca1ba9b6e7e69d1da96d575119ee17438182bd533b95b97b28775936.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-15_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_channels.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_events.tsv",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_events.json",
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-15/ses-0/eeg/sub-15_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--f697d3864ed59447c31449fd607f080de822b68d2b0044e59e0bac772e5d84a8.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-9_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_channels.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_events.tsv",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_events.json",
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-9/ses-0/eeg/sub-9_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--0981defab2d795f4e377e3a67f51034ca7d09916f419a1f4a9db82588a2c70ad.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-8_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_channels.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_events.tsv",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_events.json",
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-8/ses-0/eeg/sub-8_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--2d55832b49816900da21b710da9853367594a9942a0c556aa9d2bfff32eeb53d.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-13_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_channels.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_events.tsv",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_events.json",
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-13/ses-0/eeg/sub-13_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--d7b0ac1482298680e62e5f869e88812b6d708b3d50c01c2ed2126fd31c522de2.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 18.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-18_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_channels.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_events.tsv",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_events.json",
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-18/ses-0/eeg/sub-18_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--5d9266090e1db8d49c03243d8602a0d013a2dabd7d967fe5d0c4f404ac1cc65d.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-12_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_channels.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_events.tsv",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_events.json",
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-12/ses-0/eeg/sub-12_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--ac7d1498b0ac8f6456ed6c08216e9e32fa1daf9e1930a332e7101678ff3e062f.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-11_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_channels.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_events.tsv",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_events.json",
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-11/ses-0/eeg/sub-11_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--2f70b5be490b28f07a7f09070027df1a0d4d71db3b7d3d865192ec2bc7dc1a10.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-7_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_channels.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_events.tsv",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_events.json",
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-7/ses-0/eeg/sub-7_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--790a2cd123de2057bb336d7e81876e3bdf8d99af07809cf78c75a3a0a1a6be36.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-10_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_channels.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_events.tsv",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_events.json",
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-10/ses-0/eeg/sub-10_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--2002006ebb427e60ade0f4b068769a4f2df9721d14482fe47b0b5bbf90d75688.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 29.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-16_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_channels.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_events.tsv",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_events.json",
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-16/ses-0/eeg/sub-16_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--75e08f67e8c21b78be174064f6fa4d38c506cc0ad09fda68e7db3c99c17bd9c7.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-3_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_channels.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_events.tsv",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_events.json",
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-3/ses-0/eeg/sub-3_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--72d5755833efdca815d25b6946e0e8e6a77fd0bef61f1f9a5640ae44942b29ff.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": "F",
+        "hand": "L",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-5_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_channels.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_events.tsv",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_events.json",
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-5/ses-0/eeg/sub-5_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--a82624f787a900bfbf7f840f7919afaa153e06a55343556e6be35a65afc6944e.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    },
+    {
+      "dataset": "nm000219",
+      "data_name": "nm000219_sub-2_ses-0_task-p300_run-0_eeg.bdf",
+      "bidspath": "nm000219/sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_eeg.bdf",
+      "bids_relpath": "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": "0",
+        "task": "p300",
+        "run": "0",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000219",
+        "raw_key": "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_eeg.bdf",
+        "dep_keys": [
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_channels.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_events.tsv",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_events.json",
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_eeg.json"
+        ],
+        "annex_keys": {
+          "sub-2/ses-0/eeg/sub-2_ses-0_task-p300_run-0_eeg.bdf": "SHA256E-s60568832--a02202b8d1031d2d09aea72eb0af19b4d86a54ba69306e91eeefbfe51f7123a9.bdf"
+        }
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "FC1",
+        "FC2",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "O9",
+        "CP1",
+        "CP2",
+        "O10",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "PO7",
+        "PO3",
+        "Oz",
+        "PO4",
+        "PO8",
+        "LMAST",
+        "IZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 30,
+      "ntimes": 671999,
+      "duration_seconds": 2687.996,
+      "digested_at": "2026-08-26T11:02:46.741183+00:00",
+      "participant_tsv": {
+        "age": 37.0,
+        "sex": "M",
+        "hand": "R",
+        "weight": null,
+        "height": null,
+        "group": "healthy",
+        "species": "human",
+        "bci_experience": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50.0,
+      "eeg_reference": "right mastoid",
+      "software_filters": {
+        "preprocessing_steps": {
+          "Description": "re-referenced to average of left and right mastoid, 4th order zero-phase IIR Butterworth bandpass filter (1.0-12.5 Hz), resampled to 50 Hz, epoched from stimulus onset to 750 ms after"
+        }
+      },
+      "hardware_filters": {
+        "Bandpass": {
+          "LowCutoffFrequency": 1.0,
+          "HighCutoffFrequency": 12.5,
+          "Type": "Butterworth IIR",
+          "Order": 4
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "BrainAmp DC Amplifier",
+      "eeg_placement_scheme": "extended 10-20",
+      "cap_manufacturer": "Brain Products GmbH",
+      "cap_manufacturers_model_name": "n/a",
+      "institution_name": "Leibniz Institute for Neurobiology",
+      "recording_type": "continuous",
+      "recording_duration": 2687.996,
+      "eeg_ground": "n/a",
+      "montage_hash": "c338abb28d32b7a7"
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "dataset_id": "on003374",
+  "name": "Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003374-blue)](https://doi.org/10.82901/nemar.on003374)\n# Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation\n## Summary\nWe present an electrophysiological dataset collected from the amygdalae of nine subjects attending a visual dynamic stimulation of emotional aversive content. The subjects were patients affected by epilepsy who underwent preoperative invasive monitoring in the mesial temporal lobe. Subjects were presented with dynamic visual sequences of fearful faces (aversive condition), interleaved with sequences of neutral landscapes (neutral condition).\nWe provide the recordings of intracranial EEG (iEEG) and metadata related to the task, subjects, sessions and electrodes in the BIDS standard.\nWe also provide a more extended version of the dataset that includes neuronal spike times and waveforms in the NIX standard under the folder \"bidsignore/data_NIX\". This extended dataset is also available in G-Node at https://gin.g-node.org/USZ_NCH/Human_Amygdala_MUA_sEEG_FearVideo/.\nThis dataset allows the investigation of amygdalar response to dynamic aversive stimuli at multiple spatial scales, from the macroscopic EEG to the neuronal firing in the human brain.\n## Repository structure\n### Main directory\nContains metadata in the BIDS standard.\n### Directories sub-**\nContains folders for each subject, named sub-<subject number>.\n### Directory bidsignore\nContains data in the NIX standard, and metadata files. Subject_Characteristics.pdf describes subjects and NIX_File_Structure.pdf describes the structure of the NIX files.\n#### Directory code_MATLAB\nContains MATLAB code for loading the data and generating the publication figures. Main_Load_NIX_Data.m contains code snippets for reading NIX data and task related information. Main_Plot_Figures.m uses the functions Figure_2.m and Figure_3.m to generate figures.\nRequired dependencies to run the script Main_Load_NIX_Data.m:\n*  [Nix-mx v1.4.1](https://github.com/G-Node/nix-mx/)\nRequired dependencies to run the script Main_Plot_Figures.m:\n*  [Nix-mx v1.4.1](https://github.com/G-Node/nix-mx/)\n*  [Gramm](https://github.com/piermorel/gramm/)\n*  [FieldTrip](http://www.fieldtriptoolbox.org/download/)\n#### Directory data_NIX\nContains nix files for each session of the task. Each file is named with the format:\nData\\_Subject\\_\\<subject number>\\_Session\\_\\<session number>.h5\n## Support\nFor questions on the dataset or the task, contact Johannes Sarnthein at [johannes.sarnthein@usz.ch](johannes.sarnthein@usz.ch).",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Tommaso Fedele",
+    "Ece Boran",
+    "Valeri Chirkov",
+    "Peter Hilfiker",
+    "Thomas Grunwald",
+    "Lennart Stieglitz",
+    "Hennric Jokeit",
+    "Johannes Sarnthein"
+  ],
+  "funding": [
+    "Swiss National Science Foundation, SNSF 320030_156029",
+    "Mach-Gaensslen Stiftung",
+    "Stiftung f\u00fcr wissenschaftliche Forschung an der Universit\u00e4t Z\u00fcrich",
+    "Forschungskredit der Universit\u00e4t Z\u00fcrich",
+    "Russian Federation for Basic Research, RFBR 20-015-00176 A"
+  ],
+  "dataset_doi": "10.82901/nemar.on003374",
+  "associated_paper_doi": null,
+  "tasks": [
+    "jokeit"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 18,
+  "size_bytes": 311482939,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 9,
+    "ages": [
+      31,
+      48,
+      19,
+      22,
+      34,
+      23,
+      39,
+      27,
+      22
+    ],
+    "age_min": 19,
+    "age_max": 48,
+    "age_mean": 29.444444444444443,
+    "species": null,
+    "sex_distribution": {
+      "m": 7,
+      "f": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Johannes Sarnthein",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:32.979168+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-21 18:38:39"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003374",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003374",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank the physicians and the staff at Schweizerische Epilepsie-Klinik for their assistance and the subjects for their participation. We acknowledge grants awarded by the Swiss National Science Foundation (SNSF 320030_156029 to J.S.), Mach-Gaensslen Stiftung (to J.S.), Stiftung f\u00fcr wissenschaftliche Forschung an der Universit\u00e4t Z\u00fcrich (to J.S.), Forschungskredit der Universit\u00e4t Z\u00fcrich (to T.F.) and Russian Foundation for Basic Research (RFBR 20-015-00176 A to T.F.). The funders had no role in the design or analysis of the study.",
+  "how_to_acknowledge": "Please cite this paper:  https://doi.org/10.1016/j.neuroimage.2020.116705",
+  "ethics_approvals": [
+    "Kantonale Ethikkommission Z\u00fcrich (PB-2016-02055)"
+  ],
+  "references_and_links": [
+    "Fedele, T., Tzovara, A., Steiger, B., Hilfiker, P., Grunwald, T., Stieglitz, L., Jokeit, H., Sarnthein, J., 2020. The relation between neuronal firing, local field potentials and hemodynamic activity in the human amygdala in response to aversive dynamic visual stimuli. Neuroimage 213, 116705. https://doi.org/10.1016/j.neuroimage.2020.116705",
+    "Fedele, T., Boran, E., Chirkov, V., Hilfiker, P., Grunwald, T., Stieglitz, L., Jokeit, H., Sarnthein, J., 2020. Dataset of neurons and intracranial EEG from human amygdala during aversive dynamic visual stimulation. G-node. https://gin.g-node.org/USZ_NCH/Human_Amygdala_MUA_sEEG_FearVideo"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003374.v1.1.1"
+    }
+  ],
+  "ingestion_fingerprint": "29a9c14087e54c9a9caa2fa6dac89246db75d3fe965e26251427cb3102a84217"
+}

@@ -1,0 +1,113 @@
+{
+  "dataset_id": "nm000262",
+  "name": "P300 BCI EEG dataset (Chailloux Peguero et al. 2020)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000262-blue)](https://doi.org/10.82901/nemar.nm000262)\n# P300 BCI EEG dataset (Chailloux Peguero et al. 2020)\n## Overview\nA P300 brain-computer interface dataset comprising EEG recordings from 19 healthy participants across 3 sessions each. The study investigates how visual stimulation conditions (standard flash vs. cartoon face stimuli) affect P300-BCI performance using an 8-channel montage sampled at 256 Hz. Data were collected using a P300 paradigm with 5 grid sizes (4-9 symbols) and include target and non-target event classifications.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 19 |\n| Channels | 8 |\n| Classes | 2 |\n| Trial length | 1 s |\n| Sampling frequency | 256 Hz |\n| Sessions | 3 |\n| Paradigm | P300 |\n## Data Collection Methods\nEEG data were acquired using a g.USBamp amplifier (g.tec) with 8 passive g.SCARABEO electrodes positioned at Fz, Cz, P3, Pz, P4, PO7, PO8, and Oz according to the standard 10-20 montage. Sampling rate was 256 Hz with right earlobe reference and AFz ground. Line frequency was 60 Hz. The P300 paradigm employed visual stimulation with two stimulus types (standard flash and cartoon face) across 5 grid sizes (4-9 symbols), with an inter-stimulus interval of 75 ms and stimulus onset asynchrony of 150 ms.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Chailloux2020\nfrom moabb.paradigms import P300\nparadigm = P300()\ndataset = Chailloux2020()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Chailloux2020.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.3390/s20247198](https://doi.org/10.3390/s20247198)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "J. David Chailloux Peguero",
+    "Omar Mendoza-Montoya",
+    "Javier M. Antelis"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000262",
+  "associated_paper_doi": null,
+  "tasks": [
+    "p300"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2"
+  ],
+  "total_files": 280,
+  "size_bytes": 505889476,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25,
+      25
+    ],
+    "age_min": 25,
+    "age_max": 25,
+    "age_mean": 25.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Javier M. Antelis",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:19.548270+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 12:59:58"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000262",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000262",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://openneuro.org/datasets/ds003190"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.3390/s20247198",
+      "URL": "https://openneuro.org/datasets/ds003190"
+    },
+    {
+      "DOI": "doi:10.3390/s20247198"
+    }
+  ],
+  "ingestion_fingerprint": "4736ee1b76883106025c1c65a4466cdd6c4cd06d1da1e67b19fdb632b73ad3bf"
+}

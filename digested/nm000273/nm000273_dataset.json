@@ -1,0 +1,90 @@
+{
+  "dataset_id": "nm000273",
+  "name": "OpenBMI SSVEP EEG dataset (Lee et al. 2019)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000273-blue)](https://doi.org/10.82901/nemar.nm000273)\n# OpenBMI SSVEP EEG dataset (Lee et al. 2019)\n## Overview\nA derivative dataset of SSVEP (steady-state visually evoked potential) recordings processed and organized using the Mother of All BCI Benchmarks (MOABB) framework. This dataset represents EEG data formatted according to BIDS standards, enabling standardized analysis and benchmarking of brain-computer interface paradigms based on steady-state visual stimulation. The dataset is derived from the Lee2019 source dataset (DOI: 10.5524/100542) and has been converted to BIDS format using MNE-BIDS tools. The dataset contains EEG recordings from multiple subjects across multiple sessions with SSVEP stimulation paradigms.\n## Dataset Summary\n| Property | Value |\n|---|---|\n| Subjects | 54 |\n| Channels | 62 |\n| Classes | 4 |\n| Trial length | 4 s |\n| Sampling frequency | 1000 Hz |\n| Sessions | 2 |\n| Total trials | 21600 |\n| Paradigm | SSVEP |\n## Data Collection Methods\nSee the primary publication for details on data collection and experimental protocol.\n## How to Access via MOABB\nInstall MOABB and load this dataset directly:\n```python\nfrom moabb.datasets import Lee2019_SSVEP\nfrom moabb.paradigms import SSVEP\nparadigm = SSVEP()\ndataset = Lee2019_SSVEP()\nX, y, metadata = paradigm.get_data(dataset)\n```\nFor more details see the [MOABB documentation](https://moabb.neurotechx.com/) and the\n[MOABB dataset page](https://moabb.neurotechx.com/docs/generated/moabb.datasets.Lee2019_SSVEP.html).\n## Citation\nIf you use this dataset please cite the primary publication:\n> DOI: [10.1093/gigascience/giz002](https://doi.org/10.1093/gigascience/giz002)\n## NEMAR / MOABB Benchmark Collection\nThis BIDS-formatted dataset was converted from the original data using the\n[MOABB](https://moabb.neurotechx.com/) pipeline and re-hosted on\n[NEMAR](https://nemar.org/) as part of the MOABB benchmark collection.\nThe original data and license terms apply \u2014 see `dataset_description.json` for details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Min-Ho Lee",
+    "O-Yeon Kwon",
+    "Yong-Jeong Kim",
+    "Hong-Kyung Kim",
+    "Young-Eun Lee",
+    "John Williamson",
+    "Siamac Fazli",
+    "Seong-Whan Lee"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000273",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ssvep"
+  ],
+  "sessions": [
+    "0",
+    "1"
+  ],
+  "total_files": 108,
+  "size_bytes": 77741113248,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 54,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Seong-Whan Lee",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:31.723220+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:20:00"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000273",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000273",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.2.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.5524/100542"
+    }
+  ],
+  "ingestion_fingerprint": "06187f256e2dce79e08a9c3256afdaccd8c49be42e4082dc12e674a6e6e75e2d"
+}

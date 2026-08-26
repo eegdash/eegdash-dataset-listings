@@ -1,0 +1,119 @@
+{
+  "dataset_id": "nm000343",
+  "name": "Hinss et al. 2021 \u2014 Open multi-session and multi-task EEG cognitive Dataset for passive brain-computer Interface Applications",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000343-blue)](https://doi.org/10.82901/nemar.nm000343)\nHinss2021\n=========\nNeuroergonomic 2021 dataset.\nDataset Overview\n----------------\n  Code: Hinss2021\n  Paradigm: rstate\n  DOI: 10.1038/s41597-022-01898-y\n  Subjects: 15\n  Sessions per subject: 2\n  Events: rs=1, easy=2, medium=3, diff=4\n  Trial interval: [0, 2] s\n  File format: set\nAcquisition\n-----------\n  Sampling rate: 500.0 Hz\n  Number of channels: 62\n  Channel types: eeg=62\n  Channel names: AF3, AF4, AF7, AF8, AFz, C1, C2, C3, C4, C5, C6, CP1, CP2, CP3, CP4, CP5, CP6, CPz, F1, F2, F3, F4, F5, F6, F7, F8, FC1, FC2, FC3, FC4, FC5, FC6, FCz, FT10, FT7, FT8, FT9, Fp1, Fp2, Fz, O1, O2, Oz, P1, P2, P3, P4, P5, P6, P7, P8, PO3, PO4, PO7, PO8, POz, Pz, T7, T8, TP7, TP8\n  Montage: standard_1020\n  Hardware: ActiCHamp (Brain Products Gmbh)\n  Reference: Fpz\n  Sensor type: active Ag/AgCl\n  Line frequency: 50.0 Hz\n  Impedance threshold: 25 kOhm\n  Auxiliary channels: ecg\nParticipants\n------------\n  Number of subjects: 15\n  Health status: healthy\n  Age: mean=23.9\n  Gender distribution: female=11, male=18\nExperimental Protocol\n---------------------\n  Paradigm: rstate\n  Number of classes: 4\n  Class labels: rs, easy, medium, diff\n  Study design: Passive BCI neuroergonomics dataset with resting state and 3 difficulty levels of MATB-II task (easy, medium, difficult). The MOABB loader provides resting state and MATB conditions only.\n  Feedback type: none\n  Stimulus type: visual display\n  Training/test split: False\nHED Event Annotations\n---------------------\n  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n  rs\n    \u251c\u2500 Experiment-structure\n    \u2514\u2500 Rest\n  easy\n    \u251c\u2500 Experiment-structure\n    \u2514\u2500 Label/easy\n  medium\n    \u251c\u2500 Experiment-structure\n    \u2514\u2500 Label/medium\n  diff\n    \u251c\u2500 Experiment-structure\n    \u2514\u2500 Label/difficult\nParadigm-Specific Parameters\n----------------------------\n  Detected paradigm: resting_state\nData Structure\n--------------\n  Trials: 90\n  Trials context: total\nPreprocessing\n-------------\n  Data state: raw\n  Preprocessing applied: False\nSignal Processing\n-----------------\n  Classifiers: MDM, Riemannian\n  Feature extraction: Bandpower, Covariance/Riemannian, ICA\n  Frequency bands: alpha=[8.0, 13.0] Hz; theta=[4.0, 8.0] Hz\nCross-Validation\n----------------\n  Method: 5-fold\n  Folds: 5\n  Evaluation type: cross_subject, cross_session, transfer_learning\nPerformance (Original Study)\n----------------------------\n  Accuracy: 70.67%\nBCI Application\n---------------\n  Applications: neuroergonomics, mental_workload_estimation\n  Environment: laboratory\nTags\n----\n  Pathology: Healthy\n  Modality: Cognitive\n  Type: Research\nDocumentation\n-------------\n  DOI: 10.1038/s41597-022-01898-y\n  License: CC-BY-SA-4.0\n  Investigators: Marcel F. Hinss, Emilie S. Jahanpour, Bertille Somon, Lou Pluchon, Fr\u00e9d\u00e9ric Dehais, Rapha\u00eblle N. Roy\n  Senior author: Rapha\u00eblle N. Roy\n  Contact: marcel.hinss@isae-supaero.fr\n  Institution: ISAE-SUPAERO, Universit\u00e9 de Toulouse\n  Department: Department of Information Processing and Systems\n  Address: Toulouse, France\n  Country: FR\n  Repository: Zenodo\n  Data URL: https://doi.org/10.5281/zenodo.6874128\n  Publication year: 2023\n  Funding: ERASMUS program; ANITI (Artificial and Natural Intelligence Toulouse Institute)\n  Ethics approval: Comit\u00e9 d'\u00c9thique de la Recherche (CER), Universit\u00e9 de Toulouse (CER number 2021-342)\n  Acknowledgements: This research was supported in part by the ERASMUS program (which funded Mr Hinss' internship), and by ANITI (Artificial and Natural Intelligence Toulouse Institute), Toulouse, France.\n  How to acknowledge: Please cite: Hinss et al. (2023). Open multi-session and multi-task EEG cognitive dataset for passive brain-computer interface applications. Scientific Data, 10, 85. https://doi.org/10.1038/s41597-022-01898-y\nReferences\n----------\n.. [Hinss2021] M. Hinss, B. Somon, F. Dehais & R. N. Roy (2021) Open EEG Datasets for Passive Brain-Computer Interface Applications: Lacks and Perspectives. IEEE Neural Engineering Conference.\n.. [Hinss2023] M. F. Hinss, et al. (2023) An EEG dataset for cross-session mental workload estimation: Passive BCI competition of the Neuroergonomics Conference 2021. Scientific Data, 10, 85. https://doi.org/10.1038/s41597-022-01898-y\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.5.0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-SA-4.0",
+  "authors": [
+    "Marcel F. Hinss",
+    "Emilie S. Jahanpour",
+    "Bertille Somon",
+    "Lou Pluchon",
+    "Fr\u00e9d\u00e9ric Dehais",
+    "Rapha\u00eblle N. Roy"
+  ],
+  "funding": [
+    "ERASMUS program",
+    "ANITI (Artificial and Natural Intelligence Toulouse Institute)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000343",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rstate"
+  ],
+  "sessions": [
+    "1",
+    "2"
+  ],
+  "total_files": 225,
+  "size_bytes": 4342455343,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 15,
+    "ages": [
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23,
+      23
+    ],
+    "age_min": 23,
+    "age_max": 23,
+    "age_mean": 23.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Rapha\u00eblle N. Roy",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:55.082293+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-18 18:20:28"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000343",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000343",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This research was supported in part by the ERASMUS program (which funded Mr Hinss' internship), and by ANITI (Artificial and Natural Intelligence Toulouse Institute), Toulouse, France.",
+  "how_to_acknowledge": "Please cite: Hinss et al. (2023). Open multi-session and multi-task EEG cognitive dataset for passive brain-computer interface applications. Scientific Data, 10, 85. https://doi.org/10.1038/s41597-022-01898-y",
+  "ethics_approvals": [
+    "Comit\u00e9 d'\u00c9thique de la Recherche (CER), Universit\u00e9 de Toulouse (CER number 2021-342)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.5281/zenodo.6874128"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.5.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.1038/s41597-022-01898-y",
+      "URL": "https://doi.org/10.5281/zenodo.6874128"
+    },
+    {
+      "DOI": "doi:10.1038/s41597-022-01898-y"
+    }
+  ],
+  "ingestion_fingerprint": "7253a8ab0d57e94d1f50679e460710f20750ee90a66722fa9dfd72cde56e2ea5"
+}

@@ -1,0 +1,112 @@
+{
+  "dataset_id": "on003420",
+  "name": "HD-EEGtask(Dataset 1)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003420-blue)](https://doi.org/10.82901/nemar.on003420)\n#    Dataset 1\n##   Presentation\n     This dataset was collected between 2012 and 2013 in Rennes (France) during two conditions (visual naming and spelling tasks).\n     The dataset consists of naming and spelling the names of visually presented objects. The data was collected in the Rennes University Hospital. This experiment was approved by an independent ethics committee and authorized by the French institutional review board (IRB): \"Comite de Protection des Personnes dans la Recherche Biomedicale Ouest V\" (CCPPRB-Ouest V).\n     This study was registered under the name \"conneXion\" and the agreement number: 2012- A01227-36.\n###  Participants\n     Twenty-three right-handed healthy volunteers of whom 12 females, with an age range between\n     19 and 40 years (mean age 28 year),and 11 males with an age range between 19 and 33 years (mean age 23 years) participated in this study. (See participants.json and participants.tsv for more details)\n#### Experiment\n     * The experiment begins with the verification of inclusion/exclusion criteria.\n     * The participants read the information notice and the consent form.\n     * Then they sign two questionnaires.\n     * One subject -->Two conditions (naming and spelling)--> two runs for each condition.\n     * Each run contains 74 stimuli.\n     * The spelling task always follow the naming task and its instruction was not given before the naming task was completed to avoid any reminiscence of words orthographic structures\n     * Each run contains balanced numbers of animals and objects as well as long and short words.\n     * Pictures are presented on a screen using a computer and the experimental paradigm is presented using E-prime Psychology Software Tools.\n     * The responses produced by the participants were collected via a Logitech microphone and analyzed to detect onsets of speech using Praat v5.3.13(University of Amsterdam, 1012VT Amsterdam, The Netherlands).\n#### EEG acquisition\n     * HD-EEG system (EGI, Electrical Geodesic Inc., 256 electrodes)\n     * Sampling frequency: 1000Hz\n     * Impedances were kept below 5k\n## Contact\n     * If you have any questions or comments, please contact:\n     * Ahmad Mheich: mheich.ahmad@gmail.com",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2",
+  "license": "CC0",
+  "authors": [
+    "Ahmad Mheich",
+    "Olivier Dufor",
+    "Sahar Yassine",
+    "Aya Kabbara",
+    "Arnaud Biraben",
+    "Fabrice Wendling",
+    "Mahmoud Hassan"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on003420",
+  "associated_paper_doi": null,
+  "tasks": [],
+  "sessions": [
+    "naming",
+    "spelling"
+  ],
+  "total_files": 92,
+  "size_bytes": 97113793837,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 23,
+    "ages": [
+      23,
+      31,
+      19,
+      23,
+      24,
+      30,
+      19,
+      22,
+      34,
+      19,
+      26,
+      21,
+      20,
+      33,
+      20,
+      30,
+      40,
+      27,
+      24,
+      39,
+      33,
+      25,
+      23
+    ],
+    "age_min": 19,
+    "age_max": 40,
+    "age_mean": 26.304347826086957,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Mahmoud Hassan",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:34.022506+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-21 19:40:20"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003420",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003420",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "The dataset 1 has received a French government support granted to the CominLabs excellence laboratory and managed by the National Research Agency in the Investing for the Future program under reference ANR-10-LABX-07-01. We also thank the European Research Council for the ERC-2011-ADG - Grant Agreement N 290901 ? Acronym NEUCOD. Dataset 1 and dataset 2 were also supported by the Rennes University Hospital (dataset 1 COREC Project named conneXion, 2012-14; dataset 2: COREC Project named BrainGraph, 2015-17). The study was also funded by the National Council for Scientific Research (CNRS) in Lebanon. Authors would also like to thank the Lebanese Association for Scientific Research (LASER) for its support and the Institute of Clinical Neuroscience of Rennes (project named EEGCog).",
+  "references_and_links": [
+    "Kabbara, A., Falou, W. E., Khalil, M., Wendling, F. & Hassan, M. The dynamic functional core network of the human brain at rest. Sci. Rep. 7, 2936 (2017)",
+    "Hassan, M. et al. Dynamic reorganization of functional brain networks during picture naming. Cortex 73, 276?288 (2015).",
+    "Mheich, A. et al. Spatiotemporal analysis of brain functional connectivity. in 6th European Conference of the International Federation for Medical and Biological Engineering 934?937 (Springer, 2015).",
+    "Mheich, A. et al. SimiNet A Novel Method for Quantifying Brain Network Similarity. IEEE Trans. Pattern Anal. Mach. Intell. 40, 2238?2249 (2018).",
+    "Rizkallah, J. et al. Dynamic reshaping of functional brain networks during visual object recognition. J. Neural Eng. 15, 056022 (2018)."
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds003420.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "0393008938d1278573ac63030808dfc4da4e7afaa1cb9ee149c86622a019f1c3"
+}

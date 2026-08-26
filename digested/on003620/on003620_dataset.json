@@ -1,0 +1,144 @@
+{
+  "dataset_id": "on003620",
+  "name": "Runabout: A mobile EEG study of auditory oddball processing in laboratory and real-world conditions",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003620-blue)](https://doi.org/10.82901/nemar.on003620)\n### Overview\nThis dataset contains raw and pre-processed EEG data from a mobile EEG study investigating the effects of cognitive task demands, motor demands, and environmental complexity on attentional processing (see below for experiment details).\nAll preprocessing and analysis code is deposited in the `code` directory. The entire MATLAB pipeline can be reproduced by executing the `run_pipeline.m` script. In order to run these scripts, you will need to ensure you have the required MATLAB toolboxes and R packages on your system. You will also need to adapt `def_local.m` to specify local paths to MATLAB and EEGLAB. Descriptive statistics and mixed-effects models can be reproduced in R by running the `stat_analysis.R` script.\nSee below for software details.\n### Citing this dataset\nIn addition to citing this dataset, please cite the original manuscript reporting data collection and experimental procedures.\nFor more information, see the `dataset_description.json` file.\n### License\nODC Open Database License (ODbL). For more information, see the `LICENCE` file.\n### Format\nDataset is formatted according to the EEG-BIDS extension (Pernet et al., 2019) and the BIDS extension proposal for common electrophysiological derivatives (BEP021) v0.0.1, which can be found here:\nhttps://docs.google.com/document/d/1PmcVs7vg7Th-cGC-UrX8rAhKUHIzOI-uIOh69_mvdlw/edit#heading=h.mqkmyp254xh6\nNote that BEP021 is still a work in progress as of 2021-03-01.\nGenerally, you can find data in the .tsv files and descriptions in the\naccompanying .json files.\nAn important BIDS definition to consider is the \"Inheritance Principle\" (see 3.5 in the BIDS specification: http://bids.neuroimaging.io/bids_spec.pdf), which states:\n> Any metadata file (.json, .bvec, .tsv, etc.) may be defined at any directory level. The values from the top level are inherited by all lower levels unless they are overridden by a file at the lower level.\n### Details about the experiment\nForty-four healthy adults aged 18-40 performed an oddball task involving complex tone (piano and horn) stimuli in three settings:\n(1) sitting in a quiet room in the lab (LAB);\n(2) walking around a sports field (FIELD);\n(3) navigating a route through a university campus (CAMPUS).\nParticipants performed each environmental condition twice: once while attending to oddball stimuli (i.e. counting the number of presented deviant tones; COUNT), and once while disregarding or ignoring the tone stimuli (IGNORE).\nEEG signals were recorded from 32 active electrodes using a Brain Vision LiveAmp 32 amplifier. See manuscript for further details.\n### MATLAB software details\nMATLAB Version: 9.7.0.1319299 (R2019b) Update 5\nMATLAB License Number: 678256\nOperating System: Microsoft Windows 10 Enterprise Version 10.0 (Build 18363)\nJava Version: Java 1.8.0_202-b08 with Oracle Corporation Java HotSpot(TM) 64-Bit Server VM mixed mode\n* MATLAB (v9.7)\n* Simulink (v10.0)\n* Curve Fitting Toolbox (v3.5.10)\n* DSP System Toolbox (v9.9)\n* Image Processing Toolbox (v11.0)\n* MATLAB Compiler (v7.1)\n* MATLAB Compiler SDK (v6.7)\n* Parallel Computing Toolbox (v7.1)\n* Signal Processing Toolbox (v8.3)\n* Statistics and Machine Learning Toolbox (v11.6)\n* Symbolic Math Toolbox (v8.4)\n* Wavelet Toolbox (v5.3)\n**The following toolboxes/helper functions were also used:**\n* EEGLAB (v2019.1)\n* ERPLAB (v8.10)\n* ICLabel (v1.3)\n* clean_rawdata (v2.3)\n* bids-matlab-tools (v5.2)\n* dipfit (v3.4)\n* firfilt (v2.4)\n* export_fig (v3.12)\n* ColorBrewer (v3.1.0)\n### R software details\n**R version 3.6.2 (2019-12-12)**\n**Platform:** x86_64-w64-mingw32/x64 (64-bit)\n**locale:**\n_LC_COLLATE=English_Australia.1252_, _LC_CTYPE=English_Australia.1252_, _LC_MONETARY=English_Australia.1252_, _LC_NUMERIC=C_ and _LC_TIME=English_Australia.1252_\n**attached base packages:**\n* stats\n* graphics\n* grDevices\n* utils\n* datasets\n* methods\n* base\n**other attached packages:**\n* sjPlot(v.2.8.7)\n* emmeans(v.1.5.1)\n* car(v.3.0-10)\n* carData(v.3.0-4)\n* lme4(v.1.1-23)\n* Matrix(v.1.2-18)\n* data.table(v.1.13.0)\n* forcats(v.0.5.0)\n* stringr(v.1.4.0)\n* dplyr(v.1.0.2)\n* purrr(v.0.3.4)\n* readr(v.1.4.0)\n* tidyr(v.1.1.2)\n* tibble(v.3.0.4)\n* ggplot2(v.3.3.2)\n* tidyverse(v.1.3.0)\n**loaded via a namespace (and not attached):**\n* nlme(v.3.1-149)\n* pbkrtest(v.0.4-8.6)\n* fs(v.1.5.0)\n* lubridate(v.1.7.9)\n* insight(v.0.12.0)\n* httr(v.1.4.2)\n* numDeriv(v.2016.8-1.1)\n* tools(v.3.6.2)\n* backports(v.1.1.10)\n* utf8(v.1.1.4)\n* R6(v.2.4.1)\n* sjlabelled(v.1.1.7)\n* DBI(v.1.1.0)\n* colorspace(v.1.4-1)\n* withr(v.2.3.0)\n* tidyselect(v.1.1.0)\n* curl(v.4.3)\n* compiler(v.3.6.2)\n* performance(v.0.5.0)\n* cli(v.2.1.0)\n* rvest(v.0.3.6)\n* xml2(v.1.3.2)\n* sandwich(v.3.0-0)\n* labeling(v.0.3)\n* bayestestR(v.0.7.2)\n* scales(v.1.1.1)\n* mvtnorm(v.1.1-1)\n* digest(v.0.6.25)\n* foreign(v.0.8-76)\n* minqa(v.1.2.4)\n* rio(v.0.5.16)\n* pkgconfig(v.2.0.3)\n* dbplyr(v.1.4.4)\n* rlang(v.0.4.8)\n* readxl(v.1.3.1)\n* rstudioapi(v.0.11)\n* farver(v.2.0.3)\n* generics(v.0.0.2)\n* zoo(v.1.8-8)\n* jsonlite(v.1.7.1)\n* zip(v.2.1.1)\n* magrittr(v.1.5)\n* parameters(v.0.8.6)\n* Rcpp(v.1.0.5)\n* munsell(v.0.5.0)\n* fansi(v.0.4.1)\n* abind(v.1.4-5)\n* lifecycle(v.0.2.0)\n* stringi(v.1.4.6)\n* multcomp(v.1.4-14)\n* MASS(v.7.3-53)\n* plyr(v.1.8.6)\n* grid(v.3.6.2)\n* blob(v.1.2.1)\n* parallel(v.3.6.2)\n* sjmisc(v.2.8.6)\n* crayon(v.1.3.4)\n* lattice(v.0.20-41)\n* ggeffects(v.0.16.0)\n* haven(v.2.3.1)\n* splines(v.3.6.2)\n* pander(v.0.6.3)\n* sjstats(v.0.18.1)\n* hms(v.0.5.3)\n* knitr(v.1.30)\n* pillar(v.1.4.6)\n* boot(v.1.3-25)\n* estimability(v.1.3)\n* effectsize(v.0.3.3)\n* codetools(v.0.2-16)\n* reprex(v.0.3.0)\n* glue(v.1.4.2)\n* modelr(v.0.1.8)\n* vctrs(v.0.3.4)\n* nloptr(v.1.2.2.2)\n* cellranger(v.1.1.0)\n* gtable(v.0.3.0)\n* assertthat(v.0.2.1)\n* xfun(v.0.18)\n* openxlsx(v.4.2.2)\n* xtable(v.1.8-4)\n* broom(v.0.7.1)\n* coda(v.0.19-4)\n* survival(v.3.2-7)\n* lmerTest(v.3.1-3)\n* statmod(v.1.4.34)\n* TH.data(v.1.0-10)\n* ellipsis(v.0.3.1)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4",
+  "license": "CC0",
+  "authors": [
+    "Magnus Liebherr",
+    "Andrew W. Corcoran",
+    "Phillip M. Alday",
+    "Scott Coussens",
+    "Valeria Bellan",
+    "Caitlin A. Howlett",
+    "Maarten A. Immink",
+    "Mark Kohler",
+    "Matthias Schlesewsky",
+    "Ina Bornkessel-Schlesewsky"
+  ],
+  "funding": [
+    "FT160100437"
+  ],
+  "dataset_doi": "10.82901/nemar.on003620",
+  "associated_paper_doi": null,
+  "tasks": [
+    "oddball"
+  ],
+  "sessions": [],
+  "total_files": 100,
+  "size_bytes": 95807761920,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 44,
+    "ages": [
+      23,
+      25,
+      21,
+      21,
+      39,
+      19,
+      26,
+      19,
+      21,
+      24,
+      22,
+      22,
+      22,
+      30,
+      30,
+      18,
+      22,
+      39,
+      24,
+      22,
+      18,
+      28,
+      30,
+      34,
+      23,
+      21,
+      23,
+      22,
+      18,
+      27,
+      22,
+      32,
+      22,
+      19,
+      19,
+      18,
+      19,
+      21,
+      19,
+      24,
+      22,
+      18,
+      19,
+      19
+    ],
+    "age_min": 18,
+    "age_max": 39,
+    "age_mean": 23.318181818181817,
+    "species": null,
+    "sex_distribution": {
+      "f": 29,
+      "m": 15
+    },
+    "handedness_distribution": {
+      "r": 40,
+      "l": 1
+    }
+  },
+  "senior_author": "Ina Bornkessel-Schlesewsky",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:05:46.338722+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-22 07:12:36"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on003620",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "LICENSE",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on003620",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "AWC and CAH are supported by Australian Government Research Training Program (RTP) scholarships. IBS acknowledges the support of an Australian Research Council Future Fellowship (FT160100437). This research was funded by the University of South Australia under the Research Themes Investment Scheme. We would also like to thank the undergraduate students in course BEHL 3021 ('Cognitive Neuroscience') at the University of South Australia who participated in this study and helped with data collection as part of their class project.",
+  "how_to_acknowledge": "In addition to citing this OpenNeuro dataset, please cite the accompanying manuscript (linked below).",
+  "ethics_approvals": [
+    "0000034991"
+  ],
+  "references_and_links": [
+    "Liebherr, Corcoran, et al. (2021). EEG and behavioral correlates of attentional processing while walking and navigating naturalistic environments. Sci Rep 11, 22325. doi: 10.1038/s41598-021-01772-8"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds003620.v1.1.1"
+    }
+  ],
+  "ingestion_fingerprint": "e483f76b9133923cba3a377f4e37e59dd5af431a91ec6af8eb10eabec12f8925"
+}

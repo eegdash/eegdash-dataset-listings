@@ -1,0 +1,76 @@
+{
+  "dataset_id": "on006394",
+  "name": "Electrophysiological markers of surprise-induced failures of visual and auditory awareness",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on006394-blue)](https://doi.org/10.82901/nemar.on006394)\nThis is the dataset for Leong et al. (in prep). 33 participants completed both a visual and auditory surprise task in counterbalanced order. Methodological details are contained in the manuscript.\nCertain participants were excluded at various stages of the analyses. Their data and event lists are included up to the stage of processing that their data reached.\nDue to incorrect settings specific to OpenBCI GUI v5.0.1, indicated EEG values are 24 times larger than what they should be. The units (also specified in the channels.tsv files) are thus in microvolts / 24.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "En-Lin Leong",
+    "Yun Da Chua",
+    "Takashi Obana",
+    "Christopher L. Asplund"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on006394",
+  "associated_paper_doi": null,
+  "tasks": [
+    "SiB",
+    "SiD"
+  ],
+  "sessions": [],
+  "total_files": 60,
+  "size_bytes": 560819646,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 33,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Christopher L. Asplund",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:02.094008+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-28 23:38:41"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on006394",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on006394",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds006394.v1.0.3"
+    }
+  ],
+  "ingestion_fingerprint": "c2d9054462dd098bbd4247f57ada98aa5717faa79204d2d946747ebcca939cc8"
+}

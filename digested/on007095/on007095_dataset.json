@@ -1,0 +1,180 @@
+{
+  "dataset_id": "on007095",
+  "name": "RNS_Epilepsy-iBIDS",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007095-blue)](https://doi.org/10.82901/nemar.on007095)\nDataset of long-term iEEG invasively recorded in epilepsy patients implanted with responsive neurostimulation system  (RNS)\n----------\nWe provided a long-term intracranial electroencephalography (iEEG) dataset of 8 epilepsy patients implanted with responsive neurostimulation (RNS) devices. The dataset was constituted by iEEG data recorded from bilateral epileptic lesion areas.\nEach recording contains 90 seconds of dual-channel iEEG around each stimulation, 60 seconds before the start of the stimulation, and about 30 seconds after the end of the stimulation. The stimulation markers are contained in the events.tsv files, including the onset and duration for each stimulus. The ieeg.json files contain the electrical stimulation parameters for the current session, which were set by the neurosurgeon during each regular clinical follow-up of epilepsy patients.\nThe iEEG data were saved in EDF format, stored as the Brain Imaging Data Structure (BIDS), and published on the OpenNeuro. The criterion for including patients in this dataset is to intracranially record the seizure events for more than six months. For each subject, one week is considered as a session, which includes all seizures within a day with high frequency seizure onset during that week.\nThe dataset can be used to evaluate the alterations of seizure onset pattern during the development of epilepsy, as well as the changes in iEEG characteristics after the electrical stimulation. We have technically validated the dataset through specific signal analysis, such as power spectral analysis, calculation of envelop length, and calculation of phase locking value.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Chen Feng",
+    "Haoqi Ni",
+    "Zhoule Zhu",
+    "Hongjie Jiang",
+    "Zhe Zheng",
+    "Wenjie Ming",
+    "Shuang Wang",
+    "Kedi Xu",
+    "Junming Zhu"
+  ],
+  "funding": [
+    "National Science and Technology Major Project (2025ZD0215100)",
+    "Science and Technology Innovation 2030-Major Project (2021ZD0200404)",
+    "National Natural Science Foundation of China (Grant No. 82272112)",
+    "Outstanding Youth Program of Zhejiang Natural Science Foundation (LR23H180002)"
+  ],
+  "dataset_doi": "10.82901/nemar.on007095",
+  "associated_paper_doi": null,
+  "tasks": [
+    "seizure"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20",
+    "21",
+    "22",
+    "23",
+    "24",
+    "25",
+    "26",
+    "27",
+    "28",
+    "29",
+    "30",
+    "31",
+    "32",
+    "33",
+    "34",
+    "35",
+    "36",
+    "37",
+    "38",
+    "39",
+    "40",
+    "41",
+    "42",
+    "43",
+    "44",
+    "45",
+    "46",
+    "47",
+    "48",
+    "49",
+    "50",
+    "51",
+    "52",
+    "53",
+    "54",
+    "55",
+    "56",
+    "57",
+    "58",
+    "59",
+    "60",
+    "61",
+    "62",
+    "63",
+    "64",
+    "65",
+    "66",
+    "67",
+    "68"
+  ],
+  "total_files": 6019,
+  "size_bytes": 521945886,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      39,
+      55,
+      33,
+      41,
+      30,
+      54,
+      30,
+      24
+    ],
+    "age_min": 24,
+    "age_max": 55,
+    "age_mean": 38.25,
+    "species": null,
+    "sex_distribution": {
+      "m": 4,
+      "f": 4
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Junming Zhu",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:13:53.052412+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-29 23:18:22"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007095",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007095",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "ChiCTR2200055247"
+  ],
+  "references_and_links": [
+    ""
+  ],
+  "generated_by": [
+    {
+      "Name": "FieldTrip",
+      "Version": "20250114",
+      "Description": "data2bids converter",
+      "URI": "https://www.fieldtriptoolbox.org"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007095.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "dbf815662439147de3b5aafc0102b89b219a8ed0e1350ea5a8ce7921dd67def3"
+}

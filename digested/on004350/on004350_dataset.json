@@ -1,0 +1,91 @@
+{
+  "dataset_id": "on004350",
+  "name": "Executive Functionning Study for Assessing the Effect of Neurofeedback",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004350-blue)](https://doi.org/10.82901/nemar.on004350)\n## Executive Functioning Tasks\nThe data of this dataset was collected as part of an executive functioning battery consisting of three separate tasks:\n1) N-Back (NB)\n2) Sustained Attention to Response Task (SART)\n3) Local Global (LG)\nThe original experiment details in which these tasks were conducted in addition to can be read about here (https://doi.org/10.3389/fnhum.2020.00246).\n**Experiment Design:** Two sessions of each task were conducted on the first and last day of the neurofeedback experiment with 24 participants (mentioned above).\n**[N-Back (NB)]** Participants performed a visual sequential letter n-back working memory task, with memory load ranging from 1-back to 3-back. The visual stimuli consisted of a sequence of 4 letters (A, B, C, D) presented black on a gray background. Participants observed stimuli on a visual display and responded using the spacebar on a provided keyboard. In the 1-back condition, the target was any letter identical to the trial immediately preceding one. In the 2-back and 3-back conditions, the target was any letter that was presented two or three trials back, respectively. The stimuli were presented on a screen for a duration of 1 s, after which a fixation cross was presented for 500 ms. Participants responded to each stimulus by pressing the spacebar with their right hand upon target presentation. If no spacebar was pressed within 1500 ms of the stimulus presentation, a new stimulus was presented. Each n-back condition (1, 2, and 3-back) consisted of the presentation of 280 stimuli selected randomly in the 4-letter pool.\n**[Sustained Attention to Response Task (SART)]** Participants were presented with a series of single numerical digits (randomly selected from 0 to 9 - the same digit could not be presented twice in a row) and instructed to press the spacebar for each digit, except for when presented with the digit 3. Each number was presented for 400 ms in white on a gray background. The inter-stimulus interval was 2 s irrespective of the button press and a fixation cross was present at all times except for when the digits were presented. Participants performed the SART for approximately 10 minutes corresponding to 250 digit presentations.\n**[Local Global (LG)]** Participants were shown large letters (H and T) on a computer screen. The large letters were made up of an aggregate of smaller letters that could be congruent (i.e large H made of small Hs or large T made of small Ts) or incongruent (large H made of small Ts or large T made of small Hs) with respect to the large letter. The small letters were 0.8 cm high and the large letters were 8 cm high on the computer screen. A fixation cross was present at all times except when the stimulus letters were presented. Letters were shown on the computer screen until the subject responded. After each subject's response, there was a delay of 1 s before the next stimulus was presented. Before each sequence of letters, instructions were shown on a computer screen indicating to participants whether they should respond to the presence of small (local condition) or large (global condition) letters. The participants were instructed to categorize specifically large letters or small letters and to press the letter H or T on the computer keyboard to indicate their choice.\n**Data Processing:** Data processing was performed in Matlab and EEGLAB. The EEG data was average referenced and down-sampled from 2048 to 256 Hz. A high-pass filter at 1 HZ using an elliptical non-linear filter was applied and the data was then average referenced.\n**Note:** The data files in this dataset were converted into the .set format for EEGLAB. The .bdf files that were converted for each of the tasks can be found in the sourcedata folder.\n**Exclusion Note:** The second run of NB in session 1 of sub-11 and the run of SART in session 1 of sub-18 were both excluded due to issues with conversion to .set format. However, the .bdf files of these runs can be found in the sourcedata folder.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Arnaud Delorme",
+    "Tracy Brandmeyer"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004350",
+  "associated_paper_doi": null,
+  "tasks": [
+    "LG",
+    "NB1",
+    "NB2",
+    "NB3",
+    "SART"
+  ],
+  "sessions": [
+    "post",
+    "pre"
+  ],
+  "total_files": 240,
+  "size_bytes": 28810758043,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 24,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Tracy Brandmeyer",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:06:40.647115+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-01 17:42:04"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004350",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004350",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://www.frontiersin.org/articles/10.3389/fnhum.2020.00246/full"
+  ],
+  "generated_by": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "8.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004350.v2.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "4cfefd2e25ff2fe5e312a1d238708b97e32df2867c87593d6406a1ebce211d82"
+}

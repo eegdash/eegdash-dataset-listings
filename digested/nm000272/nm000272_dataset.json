@@ -1,0 +1,86 @@
+{
+  "dataset_id": "nm000272",
+  "name": "Romani et al. 2025 \u2014 BrainForm: a Serious Game for BCI Training and Data Collection (P300 ERP, University of Trento)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000272-blue)](https://doi.org/10.82901/nemar.nm000272)\n# BrainForm: a P300 ERP EEG dataset from a serious game for BCI training and data collection\n## Summary\nThis dataset contains scalp electroencephalography (EEG) recordings collected with\n**BrainForm**, a gamified (serious-game) **P300 event-related potential (ERP)**\nbrain\u2013computer interface (BCI) designed for scalable data collection using consumer\nhardware and a minimal setup. Participants completed repeated runs of a P300 spelling /\nselection task, enabling study of BCI skill acquisition across sessions and of the\nperceptual/performance effects of different visual stimulation textures.\nThe BIDS conversion in this NEMAR record contains EEG data for **22 participants**\n(`sub-*` folders), organised under the `eeg/` modality with a P300 task (`task-p300`).\n## Modality and paradigm\n- **Modality:** EEG (scalp electroencephalography)\n- **Task / paradigm:** P300 ERP oddball / speller within a serious game (`task-p300`)\n- **Focus:** BCI training, human factors, machine learning on ERP data\n## Participants\nThis BIDS dataset includes **22 subjects**. The original study used a within-subject\ndesign with multiple runs and two task complexities. Refer to `participants.tsv` and the\npaper for details.\n## Original dataset / data paper\nPlease cite the original paper when using this dataset:\n> Romani, M., Zanoni, D., Farella, E., & Turchet, L. (2025). *BrainForm: a Serious Game\n> for BCI Training and Data Collection.* arXiv:2510.10169.\n> https://doi.org/10.48550/arXiv.2510.10169\n- **DOI / preprint:** [arXiv:2510.10169](https://doi.org/10.48550/arXiv.2510.10169)\n- **Source / project:** University of Trento and Fondazione Bruno Kessler (FBK)\n- **Related record:** https://zenodo.org/records/17225966\n## Attribution\nAll data were collected by the original authors (Michele Romani and colleagues,\nUniversity of Trento / FBK). Please credit the original creators and cite the paper\nabove. This NEMAR record redistributes the dataset in BIDS format; EEG-BIDS and related\nBIDS tools were used only for standardisation, not as the source of the data.\n## License\nCC-BY-4.0 (see `dataset_description.json`).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Michele Romani",
+    "Devis Zanoni",
+    "Elisabetta Farella",
+    "Luca Turchet"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000272",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ERP",
+    "p300"
+  ],
+  "sessions": [
+    "0cb",
+    "0grain",
+    "1cb",
+    "1grain",
+    "2cbExtra",
+    "2grainExtra"
+  ],
+  "total_files": 181,
+  "size_bytes": 248663467,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 45,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Luca Turchet",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-26T11:04:30.706502+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-08-20 19:22:15"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000272",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000272",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "University of Trento and Fondazione Bruno Kessler",
+  "references_and_links": [
+    "https://doi.org/10.48550/arXiv.2510.10169",
+    "https://zenodo.org/records/17225966"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.48550/arXiv.2510.10169"
+    }
+  ],
+  "ingestion_fingerprint": "8c9e83d65129dcbad6ca5764067ba30917f4bd6dfc170549f6273508a6694ce6"
+}
