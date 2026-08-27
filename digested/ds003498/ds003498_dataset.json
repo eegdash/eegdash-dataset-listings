@@ -1,0 +1,99 @@
+{
+  "dataset_id": "ds003498",
+  "name": "interictal iEEG during slow-wave sleep with HFO markings",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Zurich iEEG HFO Dataset\n====================\nThis dataset was obtained from the publication [1].\nThere are 20 subjects with HFO events. We converted the dataset into BIDS format.\nThe original uploader: adam2392 obtained explicit permission from the authors of the dataset to upload this to openneuro. Adam worked on an open-source Python implementation of HFO detection algorithms, and uses this dataset in validation. Even though the publication involves a ``Morphology`` HFO detector, we have implemented our interpretation of the RMS, LineLength and Hilbert detectors in the [mne-hfo repository] (https://github.com/adam2392/mne-hfo) [2].For more information, visit: https://github.com/adam2392/mne-hfo.\n# Note from the paper\n\"We excluded all electrode contacts where electrical stimulation evoked motor or language responses (Table S1).\nIn TLE patients, we included only the 3 most mesial bipolar channels\".\nBIDS Conversion\n-----------------------\nMNE-BIDS was used to convert the dataset into BIDS format. The code inside `code/` was used to generate the\ndata.\nHFO Events From Original Paper\n---------------------------------------------\nThe HFO events from the original paper that were validated and detected are stored in the `*events.tsv` file per dataset run. The format is similar to ``mne-hfo`` and can be easily read in using ``mne-bids`` and/or ``mne-python``.\nEach row in the events.tsv file corresponds to a HFO detected in the original source dataset. The ``trial_type`` column stores the information pertaining type of HFO (e.g. ``ripple``, ``fr`` for fast ripple, or ``frandr`` for fast ripple and ripple). The channel name (possibly in bipolar reference) is `\"-\"` character delimited and appended to the type of HFO with a `\"_\"` separating. For example: ``<hfo_type>_<channel_name>`` is the form.\nReference Dataset\n--------------------------\nThe following website was where the original data was downloaded.\nhttp://crcns.org/data-sets/methods/ieeg-1\nReferences\n---------------\n[1] Fedele T, Burnos S, Boran E, Krayenb\u00fchl N, Hilfiker P, Grunwald T, Sarnthein J.\nResection of high frequency oscillations predicts seizure outcome in the individual patient.\nScientific Reports. 2017;7(1):13836.\nhttps://www.nature.com/articles/s41598-017-13064-1\ndoi:10.1038/s41598-017-13064-1\n[2] Dataset meta analysis with mne-hfo. 10.5281/zenodo.4485036\n[3] Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\n[4] Holdgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., \u2026 Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Fedele T",
+    "Krayenb\u00fchl N",
+    "Hilfiker P",
+    "Adam Li",
+    "Sarnthein J."
+  ],
+  "funding": [],
+  "dataset_doi": "10.18112/openneuro.ds003498.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [],
+  "sessions": [
+    "interictalsleep"
+  ],
+  "total_files": 385,
+  "size_bytes": 48030875385,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      33,
+      20,
+      20,
+      40,
+      48,
+      25,
+      21,
+      52,
+      37,
+      36,
+      49,
+      17,
+      46,
+      31,
+      17,
+      30,
+      40,
+      38,
+      17
+    ],
+    "age_min": 17,
+    "age_max": 52,
+    "age_mean": 32.473684210526315,
+    "species": null,
+    "sex_distribution": {
+      "m": 13,
+      "f": 6
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Sarnthein J.",
+  "contact_info": [
+    "Adam Li",
+    "Johannes Sarnthein"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:49.104847+00:00",
+    "dataset_created_at": "2021-02-01T13:44:55.139Z",
+    "dataset_modified_at": "2023-09-26T00:54:04.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003498",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003498",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Adam Li (github: adam2392) converted the dataset from the original format into BIDS. He used mne-bids to do so, and uses the dataset to validate mne-hfo, a Python open-source implementation of HFO detection algorithms. See 10.5281/zenodo.4485036.",
+  "ingestion_fingerprint": "72524f1249a509581ca4e4cd46a6565847ffdd9476d214a87753f8a7e110ff41"
+}

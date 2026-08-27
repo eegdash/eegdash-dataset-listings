@@ -1,0 +1,81 @@
+{
+  "dataset_id": "ds005021",
+  "name": "Tilt Illusion by Phase",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Overview\nThis is the \"Tilt Illusion\" dataset.\nIn brief, it contains EEG data for 36 subjects responding to the percieved orientation\nof a central target grating, that is titrated to appear vertical on average, and is\nsurrounded by an anular grating of +-30 degrees. We then looked at the prestimulus\nEEG correlates of an increased or decreased tilt illusion.\n# Citing this dataset\nPlease cite as follows:\n> Williams, J.G., Harrison, W.J., Beale, H.A., Mattingley, J.B., & Harris, A.M. (2024). Effects of alpha oscillation power and phase on discrimination performance in a visual tilt illusion. Current Biology.\nFor more information, see the `dataset_description.json` file.\n# License\nThe `tilt illusion` dataset is made available under the CC BY 4.0 license.\nCopyright (c) 2024, Jessica Williams, William Harrison, Henry Beale, Jason Mattingley, & Anthony Harris\nA human readable information can be found at:\nhttps://creativecommons.org/licenses/by/4.0/deed.en\n# Format\nThe dataset is formatted according to the Brain Imaging Data Structure (BIDS).\nSee the `dataset_description.json` file for the specific version used.\nGenerally, you can find metadata in the `.tsv` files and documentation thereof in the accompanying `.json` files.\nAn important BIDS definition to consider is the \"Inheritance Principle\", which\nis described in the BIDS specification under the following link:\nhttps://bids-specification.readthedocs.io/en/latest/common-principles.html#the-inheritance-principle\nIn brief, the Inheritance Pinciple states that any metadata file (such as `.json`, `.tsv`)\nmay be defined at any directory level, but no more than one applicable file may be defined at a given level [...],\nand the values from the top level are inherited by all lower levels --\nunless they are overridden by a file at the lower level.\n# Details about the experiment\nFor a detailed description of the task, see Williams et al. (2024)\nWhat follows is a brief summary.\nParticipants were seated in front of a computer screen placed on a desk.\nOn each trial they were presented with a central target grating, surrounded by\nan annular grating of +-30 degrees. This induced a 'tilt illusion' whereby the\npercieved angle of the central grating was biased away from the angle of the\nsurround. We first titrated the angle of the central grating to each participant's\npercieved vertical angle, separately for each surround. Percieved vertical was\ndefined as the angle at which the participant reported the grating as tilted\nleftward and rightward equally often. Participants responded with their right\nhand by pressing the left and right arrow keys on a standard USB keyboard. Stimuli\nwere presented very briefly (8.3ms) at 60% contrast, and were clearly visible.\nBetween trials, a mask made from the combination of several gratings was presented\nto prevent the buildup of tilt aftereffects across trials.\nThroughout the experiment, EEG data was recorded using a Biosemi Active 2 system\nwith 64 scalp electrods and 6 EOG electrodes (left and right HEOG, VEOG on left\neye, and left and right mastoids - in positions EXG 3-8).\nFor more information, you can also consult the events.tsv and events.json files.\nThe original data was recorded in `.bdf` format using Actiview. It is stored in\nthe `/sourcedata` directory. To comply with the BIDS format, the .bdf format was\nconverted to EEGLab format, constituting a '.set' file and a 'fdt' file for each\ndataset.\nParticipant 1's data was corrupted by large artefacts that could not be corrected.\nParticipants 8, 16, and 28 had no EEG data recorded, as their pre-task titration\nfailed to converge. As such, the data for these 4 participants are not included\nin this dataset.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Jessica G. Williams",
+    "William J. Harrison",
+    "Henry A. Beale",
+    "Jason B. Mattingley",
+    "Anthony M. Harris"
+  ],
+  "funding": [
+    "Australian Research Council (DE190100136)",
+    "Australian Research Council (DE220101019)",
+    "National Health and Medical Research Council (NHMRC) Australia Investigator Grant (GNT2010141)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005021.v1.2.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "tiltillusion"
+  ],
+  "sessions": [],
+  "total_files": 36,
+  "size_bytes": 51007318536,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 36,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Anthony M. Harris",
+  "contact_info": [
+    "Anthony Harris"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:47:50.884103+00:00",
+    "dataset_created_at": "2024-03-09T01:46:15.605Z",
+    "dataset_modified_at": "2024-03-11T03:54:44.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005021",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "task-tiltillusion_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005021",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite Williams, Harrison, Beale, Mattingley, & Harris (2024). Effects of alpha oscillation power and phase on discrimination performance in a visual tilt illusion. Current Biology",
+  "ethics_approvals": [
+    "All experimental procedures were approved by the Human Research Ethics Committee at The University of Queensland (2021/HE002284). "
+  ],
+  "ingestion_fingerprint": "e6676faea4973b6a2b48f533d15595e8c7b9829f24febc9fc843a8f620db8da0"
+}

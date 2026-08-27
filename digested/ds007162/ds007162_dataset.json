@@ -1,0 +1,80 @@
+{
+  "dataset_id": "ds007162",
+  "name": "Adaptive recruitment of cortex-wide recurrence for visual object recognition (EEG)",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Dataset Description\nThis dataset contains the EEG data accompanying the study\n**\"Adaptive recruitment of cortex-wide recurrence for visual object recognition\"** (Link to preprint: https://www.biorxiv.org/content/10.1101/2025.10.17.682937v2).\nPlease cite the above paper if you use this data.\n---\n## Dataset Overview\n- 34 participants, each with 1 session\n---\n## Experimental Design\nThe EEG experiment used a stimulus set of 242 images (121 \u201cchallenge\u201d and 121 \u201ccontrol\u201d images) derived from comparisons between human behavioural performance and AlexNet.\n- **Main task:** Each trial consisted of a single image presented for 200 ms followed by a 100 ms blank. Trials were grouped into sequences of 14 images. At the end of each sequence, participants reported whether a paper clip appeared anywhere in that sequence.\n---\n## Derivatives\nThe derivatives/ folder contains outputs from the decoding analyses, including time-resolved decoding accuracy matrices for object identity.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "[Unspecified1]",
+    "[Unspecified2]"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007162.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rcor"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 69,
+  "size_bytes": 65339062772,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 34,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "[Unspecified2]",
+  "contact_info": [
+    "Pablo Oyarzo"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:56:38.903079+00:00",
+    "dataset_created_at": "2026-01-04T08:52:41.695Z",
+    "dataset_modified_at": "2026-01-05T12:41:00.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007162",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007162",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "ingestion_fingerprint": "158cc54f9fcdf72ee218b6bb976e6f5fdf1af629e46a6d8bd1646ced87fef3b4"
+}

@@ -1,0 +1,106 @@
+{
+  "dataset_id": "ds008446",
+  "name": "Random and Sequential Order Finger Motor Imagery ",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Random and Sequential Order Finger Motor Imagery\n## Description\nThis dataset contains EEG recordings from 20 participants performing a novel paradigm with finger cues for motor imagery execution cued in random and sequential blocks. Starting order was counterbalanced.\n## Acquisition\n- **EEG system:** g.tec GmbH\n- **Sampling frequency:** 512 Hz\n- **65 Channels:**\n    - 62 EEG Channels\n    - 2 Reference Channels\n    - 1 Marker Channel\n## Format\nData is stored in BIDS-compliant format with:\n- EEG recordings in EDF format\n- Channel information in `_channels.tsv` files\n- Metadata in `_eeg.json` sidecars\n## Participants\n- 20 participants\n- Counterbalanced block order conditions\n- Age range: 19-57 years\n## Marker Identification\n- 1 = White Screen\n- 2 = Focus Cross\n- 3 = Thumb\n- 4 = Index Finger\n- 5 = Middle Finger\n- 6 = Ring Finger\n- 7 = Pinky Finger\n## Tasks\n| Condition | Code |\n|-----------|------|\n| Random Cue Order | OR |\n| Sequential Cue Order | OS |\n## Block Assignment\nEach participant completed both conditions in either first or second block position, counterbalanced across subjects.\n## References\n- BIDS Version: 1.6.0\n- Dataset processed from original ERDS Study CSV exports\n## License\nSee LICENSE file for usage terms.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Damm, Laura Marie",
+    "Jiang, Dai",
+    "Demosthenous, Andreas"
+  ],
+  "funding": [
+    "Engineering and Physical Sciences Research Council (EPSRC) grant EP/S022139/1"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds008446.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "random",
+    "sequential"
+  ],
+  "sessions": [],
+  "total_files": 80,
+  "size_bytes": 5756328014,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      21,
+      24,
+      31,
+      27,
+      28,
+      57,
+      25,
+      19,
+      35,
+      28,
+      30,
+      23,
+      25,
+      31,
+      27,
+      33,
+      26,
+      28,
+      24,
+      24
+    ],
+    "age_min": 19,
+    "age_max": 57,
+    "age_mean": 28.3,
+    "species": null,
+    "sex_distribution": {
+      "m": 4,
+      "f": 13,
+      "o": 3
+    },
+    "handedness_distribution": {
+      "r": 18,
+      "l": 2
+    }
+  },
+  "senior_author": "Demosthenous, Andreas",
+  "contact_info": [
+    "Laura Marie Damm"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T09:00:46.183741+00:00",
+    "dataset_created_at": "2026-07-21T16:52:24.199Z",
+    "dataset_modified_at": "2026-07-23T14:35:55.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds008446",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds008446",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "UCL Humanities, Arts and Sciences Research Ethics Committee; Approval Number: 26907/001"
+  ],
+  "ingestion_fingerprint": "6071fd4cbfdac538c8902138a4e0b36d35d6eb6ef4f201dc82fd50eaa6303f2a"
+}

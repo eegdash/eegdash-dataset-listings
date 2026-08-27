@@ -1,0 +1,94 @@
+{
+  "dataset_id": "ds004483",
+  "name": "ABSeqMEG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset contains the MEG data from the article entitled Compression of binary sound sequences in human working memory https://www.biorxiv.org/content/10.1101/2022.10.15.512361v1\nAccording to the language of thought hypothesis, regular sequences are compressed in human working memory using recursive loops akin to a mental program that predicts future items. We tested this theory by probing working memory for 16-item sequences made of two sounds. We recorded brain activity with functional MRI and magneto-encephalography (MEG) while participants listened to a hierarchy of sequences of variable complexity, whose minimal description required transition probabilities, chunking, or nested structures. Occasional deviant sounds probed the participants\u2019 knowledge of the sequence. We predicted that task difficulty and brain activity would be proportional to minimal description length (MDL) in our formal language. Furthermore, activity should increase with MDL for learned sequences, and decrease with MDL for deviants. These predictions were upheld in both fMRI and MEG, indicating that sequence predictions are highly dependent on sequence structure and become weaker and delayed as complexity increases. The proposed language recruited bilateral superior temporal, precentral, anterior intraparietal and cerebellar cortices. These regions overlapped extensively with a localizer for mathematical calculation, and much less with spoken or written language processing. We propose that these areas collectively encode regular sequences as repetitions with variations and their recursive composition into nested structures.",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Samuel Planton*",
+    "Fosca Al Roumi*",
+    "Liping Wang",
+    "Stanislas Dehaene"
+  ],
+  "funding": [
+    "European Research Council (ERC, https://erc.europa.eu/) grant to S.D. (NeuroSyntax, ID: 695403)."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004483.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "abseq"
+  ],
+  "sessions": [],
+  "total_files": 282,
+  "size_bytes": 25146610011,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [
+      21,
+      29,
+      35,
+      24,
+      18,
+      28,
+      27,
+      22,
+      22,
+      34,
+      24,
+      20,
+      29,
+      26
+    ],
+    "age_min": 18,
+    "age_max": 35,
+    "age_mean": 25.642857142857142,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Stanislas Dehaene",
+  "contact_info": [
+    "Fosca Al Roumi"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:45:29.737258+00:00",
+    "dataset_created_at": "2023-02-08T23:22:49.117Z",
+    "dataset_modified_at": "2023-02-13T14:53:45.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004483",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004483",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite our preprint at https://www.biorxiv.org/content/10.1101/2022.10.15.512361v1 or the published version of this paper",
+  "references_and_links": [
+    ""
+  ],
+  "ingestion_fingerprint": "fbe157c42d34040528258d449fb817396a79a7b6dd1bf7274d41bf2739620376"
+}

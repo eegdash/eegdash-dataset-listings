@@ -1,0 +1,100 @@
+{
+  "dataset_id": "ds004152",
+  "name": "Drum Trainer",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Drum Trainer\nTwenty-one participants learned to play two drumming patterns (pattern 1: AABA, pattern 2: AAABAA) at three different tempos (fast: 150 bpm, medium: 100 bpm, slow: 60 bpm). Responses were recorded using the f and j keys on a standard keyboard. Visual feedback in the form of a coloured circle coincided with each button press and indicated whether the response was early, on time, or late. Feedback was determined by comparing the response time, relative to the previous response, to a window around the target duration. The window was adapted trial-by-trial to ensure that roughly half the outcomes were \"on time\".\nParticipant 12 should be excluded from event-locked analyses due to bad triggers (trigger cable was partially disconnected).\nTiming\nRepeat for 72 trials: fixation dot (until response) -> feedback circle (50 ms)\nCondition Codes\n1: \"Fast, pattern 1, left-hand start\"\n2: \"Fast, pattern 1, right-hand start\"\n3: \"Fast, pattern 2, left-hand start\"\n4: \"Fast, pattern 2, right-hand start\"\n5: \"Medium, pattern 1, left-hand start\"\n6: \"Medium, pattern 1, right-hand start\"\n7: \"Medium, pattern 2, left-hand start\"\n8: \"Medium, pattern 2, right-hand start\"\n9: \"Slow, pattern 1, left-hand start\"\n10: \"Slow, pattern 1, right-hand start\"\n11: \"Slow, pattern 2, left-hand start\"\n12: \"Slow, pattern 2, right-hand start\"\nTrigger Modifiers\nAdd 0: Metronome beat (pre-block)\nAdd 20: Ready screen (pre-block)\nAdd 40: First response (can't be early, on time, or late)\nAdd 60: Early response\nAdd 80: On time response\nAdd 100: Late response\nAdd 120: Red X (wrong key pressed)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Cameron D. Hassall",
+    "Yan Yan",
+    "Laurence T. Hunt"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004152.v1.1.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "drumtrainer"
+  ],
+  "sessions": [],
+  "total_files": 21,
+  "size_bytes": 5118532675,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      23,
+      22,
+      23,
+      25,
+      27,
+      29,
+      26,
+      41,
+      33,
+      25,
+      24,
+      25,
+      24,
+      22,
+      28,
+      27,
+      21,
+      23,
+      24,
+      26,
+      24
+    ],
+    "age_min": 21,
+    "age_max": 41,
+    "age_mean": 25.80952380952381,
+    "species": null,
+    "sex_distribution": {
+      "f": 16,
+      "m": 5
+    },
+    "handedness_distribution": {
+      "r": 19,
+      "l": 2
+    }
+  },
+  "senior_author": "Laurence T. Hunt",
+  "contact_info": [
+    "Cameron Hassall"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:43:59.119201+00:00",
+    "dataset_created_at": "2022-06-14T13:44:05.404Z",
+    "dataset_modified_at": "2022-09-07T12:48:48.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004152",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004152",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "a84cb02650f75fe7a802b88af4cc26eee7f9f4ca65689ede899a8714d1d167ae"
+}

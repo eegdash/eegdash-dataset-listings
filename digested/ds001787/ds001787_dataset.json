@@ -1,0 +1,107 @@
+{
+  "dataset_id": "ds001787",
+  "name": "EEG meditation study",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This meditation experiment contains 24 subjects. Subjects were\nmeditating and were interupted about every 2 minutes to indicate\ntheir level of concentration and mind wandering. The scientific\narticle (see Reference) contains all methodological details.\nNote that although the original files were recorded at 2048 Hz, they were downsampled to 256 Hz using the BDF decimator provided by BIOSEMI (https://www.biosemi.com/download.htm).\n- Arnaud Delorme (October 17, 2018; updated June 2024)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "Arnaud Delorme",
+    "Tracy Brandmeyer"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds001787.v1.1.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "meditation"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03"
+  ],
+  "total_files": 40,
+  "size_bytes": 6112012191,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 24,
+    "ages": [
+      32,
+      35,
+      41,
+      29,
+      34,
+      32,
+      32,
+      32,
+      43,
+      33,
+      62,
+      65,
+      47,
+      52,
+      78,
+      77,
+      32,
+      42,
+      41,
+      41,
+      31,
+      50,
+      38
+    ],
+    "age_min": 29,
+    "age_max": 78,
+    "age_mean": 43.43478260869565,
+    "species": null,
+    "sex_distribution": {
+      "m": 12,
+      "f": 12
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Tracy Brandmeyer",
+  "contact_info": [
+    "Arnaud Delorme"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:40:40.436969+00:00",
+    "dataset_created_at": "2019-03-09T00:48:05.425Z",
+    "dataset_modified_at": "2024-06-17T01:24:01.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds001787",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-meditation_channels.tsv",
+      "task-meditation_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds001787",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://www.ncbi.nlm.nih.gov/pubmed/27815577"
+  ],
+  "ingestion_fingerprint": "917fb7b37d323019bcf826a159b9b288ab4926b1ccd495146189f00565978493"
+}

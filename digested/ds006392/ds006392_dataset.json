@@ -1,0 +1,84 @@
+{
+  "dataset_id": "ds006392",
+  "name": "HED schema library for SCORE annotations example",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# BIDS example with HED-SCORE schema library annotations\nThe HED schema library for the Standardized Computer-based Organized Reporting of EEG (SCORE) can be used to add annotations for BIDS datasets. The annotations are machine readable and validated with the BIDS and HED validators.\nThis example is related to the following preprint:\nDora Hermes, Tal Pal Attia, S\u00e1ndor Beniczky, Jorge Bosch-Bayard, Arnaud Delorme, Brian Nils Lundstrom, Christine Rogers, Stefan Rampp, Seyed Yahya Shirazi, Dung Truong, Pedro Valdes-Sosa, Greg Worrell, Scott Makeig, Kay Robbins. Hierarchical Event Descriptor library schema for EEG data annotation. arXiv preprint arXiv:2310.15173. 2024 Oct 27.\n# General information\nThis BIDS example dataset includes iEEG data from one subject that were measured during clinical photic stimulation. Intracranial EEG data were collected at Mayo Clinic Rochester, MN under IRB#: 15-006530.\n# Events\nThe events are annotated according to the HED-SCORE schema library. Data are annotated by adding a column for annotations in the _events.tsv. The levels and annotations in this column are defined in the _events.json sidecar as HED tags.\n# More information\nHED: https://www.hedtags.org/\nHED schema library for SCORE: https://github.com/hed-standard/hed-schema-library\n# Contact\nDora Hermes: hermes.dora@mayo.edu",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Tal Pal Attia",
+    "Kay Robbins",
+    "Dora Hermes"
+  ],
+  "funding": [
+    "National Institute of Health Grant R01MH126700 (SM)",
+    "National Institute of Health Grant R01MH122258 (DH)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006392.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "photicstim"
+  ],
+  "sessions": [
+    "ieeg01"
+  ],
+  "total_files": 1,
+  "size_bytes": 33603727,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Dora Hermes",
+  "contact_info": [
+    "Dora Hermes"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:00.059480+00:00",
+    "dataset_created_at": "2025-06-25T20:49:36.890Z",
+    "dataset_modified_at": "2025-06-25T20:57:50.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006392",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006392",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Kay Robbins, Dung Truong, Arnaud Delorme, and Scott Makeig",
+  "references_and_links": [
+    "https://github.com/hed-standard/hed-schema-library",
+    "https://www.hedtags.org/",
+    "Robbins, Kay, Dung Truong, Stefan Appelhoff, Arnaud Delorme, and Scott Makeig. 'Capturing the nature of events and event context using Hierarchical Event Descriptors (HED).' NeuroImage 245 (2021): 118766.",
+    "Robbins, Kay, Dung Truong, Alexander Jones, Ian Callanan, and Scott Makeig. 'Building FAIR functionality: Annotating events in time series data using Hierarchical Event Descriptors (HED).' Neuroinformatics (2021): 1-19."
+  ],
+  "ingestion_fingerprint": "8c751c177923ad86c8d65da2d54ce8c7094d1c3dc694968c18cc876f8811afac"
+}

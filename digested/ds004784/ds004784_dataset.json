@@ -1,0 +1,83 @@
+{
+  "dataset_id": "ds004784",
+  "name": "Phantom EEG Dataset with Motion, Muscle, and Eye Artifacts and Example Scripts",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This phantom experiment contains data collected from a an\nelectrically conductive head phantom. Six conditions were\ntested: brain-only [no artifacts], or  brain with eye,\njaw muscle, neck muscle, or motion artifacts present,\nor brain with all artifacts simultaneously present.\nAlso contained is a copy of the iCanClean plugin for EEGLAB\nand a set of other helpful scripts that enable parameter sweep\ntesting and validation with ground truth knowledge of the brain\nsignals of interest. Please see derivatives folder and\nread the How To document within.\nA copy of iCanClean plugin is in derivatives->Scripts->plugins\nPlease see reference for methodological details\nhttps://doi.org/10.3390/s23198214\n- Ryan Downey (December 20, 2023)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Ryan J. Downey",
+    "Daniel P. Ferris"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004784.v1.0.4",
+  "associated_paper_doi": null,
+  "tasks": [
+    "All",
+    "Brain",
+    "Eyes",
+    "Facial",
+    "Neck",
+    "Walking"
+  ],
+  "sessions": [],
+  "total_files": 6,
+  "size_bytes": 1084178641,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Daniel P. Ferris",
+  "contact_info": [
+    "Annalisa Salazar",
+    "Arnaud Delorme",
+    "Ryan Downey"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:46:58.397880+00:00",
+    "dataset_created_at": "2023-09-29T18:42:55.889Z",
+    "dataset_modified_at": "2023-12-21T18:58:48.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004784",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-phantom_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004784",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Downey, R.J.; Ferris, D.P. iCanClean Removes Motion, Muscle, Eye, and Line-Noise Artifacts from Phantom EEG. Sensors 2023, 23, 8214. https://doi.org/10.3390/s23198214",
+  "references_and_links": [
+    "https://doi.org/10.3390/s23198214"
+  ],
+  "ingestion_fingerprint": "3a80062911d44b02d197b3c48e2392368781a5d188d05b3b78f2d046a8010be7"
+}

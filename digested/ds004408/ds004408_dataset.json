@@ -1,0 +1,73 @@
+{
+  "dataset_id": "ds004408",
+  "name": "EEG responses to continuous naturalistic speech\n",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "The data in one study [^1] and then added to by another [^2] and contains EEG responses of healthy, neurotypical adults who listened to naturalistic speech. The subjects listened to segments from an audio book version of \"The Old Man and the Sea\" and their brain activity was recorded using a 128-channel ActiveTwo EEG system (BioSemi).\nThe stimuli folder contains .wav files of the presented audiobook segments as well as a .TextGrid file for each segment, containng the timing of  words and phonemes in that segment. The text grids were generated using the forced-alignment software Prosodylab-Aligner [^3] and inspected by eye. Each subject's folder contains one EEG-recording per audio segment and their starts are aligned (the EEG recordings are longer than the audio to a varying extent).  The recordings are unfiltered, unreferenced and sampled at 512 Hz.\n[^1]: Di Liberto, G. M., O\u2019sullivan, J. A., & Lalor, E. C. (2015). Low-frequency cortical entrainment to speech reflects phoneme-level processing. Current Biology, 25(19), 2457-2465.\n[^2]: Broderick, M. P., Anderson, A. J., Di Liberto, G. M., Crosse, M. J., & Lalor, E. C. (2018). Electrophysiological correlates of semantic dissimilarity reflect the comprehension of natural, narrative speech. Current Biology, 28(5), 803-809.\n[^3]: Gorman, K., Howell, J., & Wagner, M. (2011). Prosodylab-aligner: A tool for forced alignment of laboratory speech. Canadian Acoustics, 39(3), 192-193.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Giovanni M Di Liberto",
+    "Michael P Broderick",
+    "Ole Bialas",
+    "Edmund C Lalor"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004408.v1.0.8",
+  "associated_paper_doi": null,
+  "tasks": [
+    "listening"
+  ],
+  "sessions": [],
+  "total_files": 380,
+  "size_bytes": 20083249467,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Edmund C Lalor",
+  "contact_info": [
+    "Ole Bialas"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:59.612824+00:00",
+    "dataset_created_at": "2023-01-17T16:49:36.606Z",
+    "dataset_modified_at": "2023-08-01T14:47:06.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004408",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004408",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "ea17872e5946886cf39c2791707490803a1793aa62997eecbd9773c5c5632047"
+}

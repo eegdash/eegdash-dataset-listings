@@ -1,0 +1,95 @@
+{
+  "dataset_id": "ds005691",
+  "name": "SpinalExpect_Invasive",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Contact person:\nMax-Philipp Stenner, email: max-philipp.stenner@med.ovgu.de or max-philipp.stenner@lin-magdeburg.de, ORCID: 0000-0002-3694-1887\nBrief overview of the tasks in the experiment:\nThe goal was to reveal whether temporal expectation influences initial sensory processing in the human spinal cord. In each trial, subjects (included n=8, patients with neuropathic pain following epidural electrode implantation into the cervical spinal canal, dorsal to the spinal cord) received at least one electric median nerve stimulation on the left wrist. Their task was to silently count in how many (rare) trials in each block (~5 min) there were two median nerve stimuli in rapid succession (80 ms ISI), and to report that number at the end of each block. In each trial, the median nerve stimulatino was preceded by an auditory cue. In alternating blocks, the time interval between the auditory cue and the (first) median nerve stimulation was either fixed at 1100 ms, or varied randomly (uniform distribution) between 100 and 2100 ms.\nMontage:\nLead placement alongside the cervical spinal cord varied across patients. In each patient, we recorded from eight epidural contacts (3 mm length, 1 mm spacing) placed alongside the dorsal cervical spinal cord. The fourth contact (counted from the most caudal contact) served as a reference. The ground was an extra wire twisted around the wire for the sixth contact (counted from the most caudal contact).\nEvents:\nThere are three events of interest. \"S1\" is a keypress of the experimenter, to advance the task upon breaks. \"S1\" can therefore be used to identify the start of each new block. \"S70\" corresponds to the auditory cue. \"S130\" corresponds to median nerve stimulation. \"S99\" is a \"placeholder\" that corresponds to no stimulus at all. The placeholder was used to enable \"double stimuli\", i.e., a rapid succession of two median nerve stimulations with an ISI of 80 ms. Most trials follow a sequence of \"S70\" - \"S130\" - \"S99\". Deviant trials have \"S70\" - \"S130\" - \"S130\".",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6",
+  "license": "CC0",
+  "authors": [
+    "Max-Philipp Stenner",
+    "Cindy Marquez Nossa",
+    "Tino Zaehle",
+    "Elena Azanon",
+    "Hans-Jochen Heinze",
+    "Matthias Deliano",
+    "Lars Buentjen"
+  ],
+  "funding": [
+    "M.-P.S. was supported by a VolkswagenStiftung Freigeist Fellowship project-ID 92977.",
+    "M.-P.S. and E.A. received funding from a Deutsche Forschungsgemeinschaft Sonderforschungsbereich SFB-1436 TPC03 project-ID 425899996."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005691.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "countingDeviants"
+  ],
+  "sessions": [],
+  "total_files": 8,
+  "size_bytes": 758159062,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      51,
+      33,
+      34,
+      58,
+      49,
+      40,
+      64,
+      45
+    ],
+    "age_min": 33,
+    "age_max": 64,
+    "age_mean": 46.75,
+    "species": null,
+    "sex_distribution": {
+      "f": 7,
+      "m": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Lars Buentjen",
+  "contact_info": [
+    "Max-Philipp Stenner"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:07.294142+00:00",
+    "dataset_created_at": "2024-12-03T08:55:55.749Z",
+    "dataset_modified_at": "2024-12-03T09:21:25.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005691",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005691",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We would like to thank Hans-Juergen Warmbold and Anne Katrin Baum for their technical support.",
+  "how_to_acknowledge": "Paper to be cited: Stenner, Marquez Nossa, Zaehle, Aza\u00f1on, Heinze, Deliano, and B\u00fcntjen. Prior Knowledge Changes Initial Sensory Processing in the Human Spinal Cord. Science Advances, accepted",
+  "ethics_approvals": [
+    "Ethics Committee at the Medical Faculty at Otto-von-Guericke University Magdeburg, Germany"
+  ],
+  "ingestion_fingerprint": "11395401ea308fe0b875603447c41c51ed75def3eddd9d1b5597ea2eaed5030f"
+}

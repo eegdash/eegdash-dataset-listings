@@ -1,0 +1,76 @@
+{
+  "dataset_id": "ds003190",
+  "name": "Assesment of the visual stimuli properties in P300 paradigm",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Dataset description:\nThe database consists of a total of 382 electroencephalographic files from 19 participants. All recordings were collected on channels Fz, Cz, P3, Pz,P4, PO7, PO8 and Oz, according to the 10-20 EEG electrode placement standard, grounded to AFz channel and referenced to right mastoid (M2).\n\u2022Each participant (S1-S19) performed 3 experimental sessions (Session01-Session03) and in each session there are 7 data files.\n\u2022The filenames for these data files are \u2019Training 4\u2019, \u2019Training 5 - SF\u2019, \u2019Training 5 - CF\u2019, \u2019Training 6\u2019, \u2019Training 7\u2019, \u2019Training 8\u2019, and \u2019Training 9\u2019.\n\u2022The number accompanying the filename indicates the number of stimuli, whereas letters SF and CF for data files with 5 stimuli indicate the type of flash, SF for Standard-Flash of the stimulus and CF for superimposing a yellow smiling Cartoon Face.\n\u2022Note that filenames for data-files with 4, 6, 7, 8, and 9 stimuli do not have a letter and were recorded with the type of flash that provided the greater classification accuracy when using 5 stimuli.\n\u2022Each data file contains the data stream in a 2D matrix where rows correspond to channels and columns correspond to time samples with sampling frequency of 256Hz.\n\u2022There are 10 rows, 1 to 8 for each EEG electrode (in descending order Fz, Cz, P3, Pz, P4, PO7, PO8 and Oz), 9 for time stamps, and 10 for a marker that encode information about the execution of theexperiment.\nThe marker encodes this information as follows:\n\u2022(i)marker numbers 101, 200, 201, 202 and 203, indicate the beginning and end of the five phases in a block\n\u2022(ii)marker numbers 1, 2, 3, 4, 5, 6, 7, 8 and 9, indicate the symbol that is activated on the screen\n\u2022(iii)each phase of the experiment block is identified with a marker\n\u2022(iv)the phases of one block of the experiment are: Fixation, Target Presentation, Preparation, Stimulation and Rest\n\u2022(iv)in particular the Stimulation phase has a start marker and an end marker",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2",
+  "license": "CC0",
+  "authors": [
+    "Omar Mendoza-Montoya",
+    "Javier M. Antelis"
+  ],
+  "funding": [],
+  "dataset_doi": "10.18112/openneuro.ds003190.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "cnos",
+    "ctos"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03"
+  ],
+  "total_files": 384,
+  "size_bytes": 1079425010,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Javier M. Antelis",
+  "contact_info": [
+    "Juan David Chailloux Peguero"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:29.938325+00:00",
+    "dataset_created_at": "2020-09-25T22:01:52.624Z",
+    "dataset_modified_at": "2020-10-06T01:17:50.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003190",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "LICENSE",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003190",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "5c7d7639043cd5e823e6842c296efd4b6090f938715edcc08a688adc7c1e5545"
+}

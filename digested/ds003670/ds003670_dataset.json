@@ -1,0 +1,126 @@
+{
+  "dataset_id": "ds003670",
+  "name": "Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation - BIDS",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "**Synopsis**\nThis is the **GX dataset** formatted to comply with [BIDS](https://bids.neuroimaging.io/) standard format.\nThe tES/EEG/CTT/Vigilance experiment contains 19 unique participants (some repeated experiments).\nOver a 70 min period EEG/ECG/EOG were recorded concurrently with a [CTT](https://sccn.ucsd.edu/~scott/pdf/COMPTRACK.pdf)\nwhere participants maintained a ball at the center of the screen\nand were periodically stimulated (with low-intensity noninvasive brain stimulation) for 30 secs with combinations of 9 stimulation montages.\nFor the **raw data** please see: https://zenodo.org/record/4456079\nFor methodological details please see corresponding article titled:\n    **Dataset of concurrent EEG, ECG, and behavior with multiple doses of transcranial Electrical Stimulation**\n**Data Descriptor Abstract**\nWe present a dataset combining human-participant high-density electroencephalography (EEG) with physiological and continuous behavioral metrics during transcranial electrical stimulation (tES). Data include within participant application of nine High-Definition tES (HD-tES) types, targeting three cortical regions (frontal, motor, parietal) with three stimulation waveforms (DC, 5 Hz, 30 Hz); more than 783 total stimulation trials over 62 sessions with EEG, physiological (ECG, EOG), and continuous behavioral vigilance/alertness metrics. Experiment 1 and 2 consisted of participants performing a continuous vigilance/alertness task over three 70-minute and two 70.5-minute sessions, respectively. Demographic data were collected, as well as self-reported wellness questionnaires before and after each session. Participants received all 9 stimulation types in Experiment 1, with each session including three stimulation types, with 4 trials per type. Participants received 2 stimulation types in Experiment 2, with 20 trials of a given stimulation type per session. Within-participant reliability was tested by repeating select sessions. This unique dataset supports a range of hypothesis testing including interactions of tDCS/tACS location and frequency, brain-state, physiology, fatigue, and cognitive performance.\nFor more details please see the full data descriptor article.\nCode used to import and process this dataset can be found here:\n**GitHub** : https://github.com/ngebodh/GX_tES_EEG_Physio_Behavior\nFor downsampled data please see:\n**Experiment 1** : https://doi.org/10.5281/zenodo.3840615\n**Experiment 2** : https://doi.org/10.5281/zenodo.3840617\n- Nigel Gebodh (May 26th, 2021)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "Nigel Gebodh",
+    "Zeinab Esmaeilpour",
+    "Abhishek Datta",
+    "Marom Bikson"
+  ],
+  "funding": [
+    "X (formerly Google X)",
+    "NIH R01NS095123",
+    "NIH R01NS101362",
+    "NIH R01NS112996",
+    "NIH R01MH111896",
+    "NIH R01MH109289",
+    "NIH-G-RISE T32GM136499"
+  ],
+  "dataset_doi": "10.18112/openneuro.ds003670.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "GXtESCTT"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "total_files": 62,
+  "size_bytes": 77549594582,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 25,
+    "ages": [
+      43,
+      40,
+      31,
+      33,
+      32,
+      31,
+      20,
+      22,
+      19,
+      22,
+      21,
+      20,
+      28,
+      36,
+      30,
+      29,
+      35,
+      30,
+      20,
+      31,
+      30,
+      29,
+      29,
+      29,
+      30,
+      30
+    ],
+    "age_min": 19,
+    "age_max": 43,
+    "age_mean": 28.846153846153847,
+    "species": null,
+    "sex_distribution": {
+      "m": 18,
+      "f": 8
+    },
+    "handedness_distribution": {
+      "r": 19,
+      "l": 7
+    }
+  },
+  "senior_author": "Marom Bikson",
+  "contact_info": [
+    "Nigel Gebodh"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:42:15.339110+00:00",
+    "dataset_created_at": "2021-05-29T22:23:51.732Z",
+    "dataset_modified_at": "2021-06-17T20:13:01.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003670",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003670",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Portions of this study were funded by X (formerly Google X), the Moonshot Factory. The funding source had no influence on study conduction or result evaluation. MB is further supported by grants from the National Institutes of Health: R01NS101362, R01NS095123, R01NS112996, R01MH111896, R01MH109289, and (to NG) NIH-G-RISE T32GM136499.\n\nWe would like to thank Yuxin Xu and Michaela Chum for all their technical assistance. \n",
+  "how_to_acknowledge": "**Raw Data Use**\nGebodh, Nigel, Esmaeilpour, Zeinab, Datta, Abhishek, & Bikson, Marom. (2020). Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation (Version V2) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3837212",
+  "references_and_links": [
+    "Gebodh, Nigel, Esmaeilpour, Zeinab, Datta, Abhishek, & Bikson, Marom. (2020). Dataset of Concurrent EEG, ECG, and Behavior with Multiple Doses of transcranial Electrical Stimulation (Version All) [Data set]. Zenodo. http://doi.org/10.5281/zenodo.3837212"
+  ],
+  "ingestion_fingerprint": "27a4eb608c1d1423ac6178fac350093a7c30fe42f3cf097706e97cd54821572c"
+}

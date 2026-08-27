@@ -1,0 +1,3124 @@
+{
+  "dataset": "ds005048",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:47:51.918129+00:00",
+  "record_count": 35,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-17_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-17/eeg/sub-17_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 65.0,
+        "Group": "MCI",
+        "MMSE": 25.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-14_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-14/eeg/sub-14_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 79.0,
+        "Group": "Mild AD",
+        "MMSE": 18.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-26_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "26",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "26",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-26/eeg/sub-26_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 54.0,
+        "Group": "Normal",
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-27_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-27/eeg/sub-27_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 64.0,
+        "Group": "MCI",
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-24_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-24/eeg/sub-24_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 81.0,
+        "Group": "Moderate AD",
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-15_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-15/eeg/sub-15_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 77.0,
+        "Group": "Mild AD",
+        "MMSE": 19.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-04_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-04/eeg/sub-04_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 82.0,
+        "Group": "Mild AD",
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-13_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-13/eeg/sub-13_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 60.0,
+        "Group": "-",
+        "MMSE": "-"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-05_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-05/eeg/sub-05_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 75.0,
+        "Group": "Mild AD",
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-18_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-18/eeg/sub-18_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 76.0,
+        "Group": "MCI",
+        "MMSE": 18.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-33_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-33/eeg/sub-33_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 83.0,
+        "Group": "Mild AD",
+        "MMSE": 15.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-12_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-12/eeg/sub-12_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 63.0,
+        "Group": "Normal",
+        "MMSE": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-30_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-30/eeg/sub-30_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 71.0,
+        "Group": "Mild AD",
+        "MMSE": 22.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-11_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-11/eeg/sub-11_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 88.0,
+        "Group": "Mild AD",
+        "MMSE": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-03_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-03/eeg/sub-03_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 75.0,
+        "Group": "Normal",
+        "MMSE": 27.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-06_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-06/eeg/sub-06_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 69.0,
+        "Group": "-",
+        "MMSE": "-"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-21_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-21/eeg/sub-21_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 78.0,
+        "Group": "Mild AD",
+        "MMSE": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-20_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-20/eeg/sub-20_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 82.0,
+        "Group": "Mild AD",
+        "MMSE": 13.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-32_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-32/eeg/sub-32_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 71.0,
+        "Group": "MCI",
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-35_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "35",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "35",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-35/eeg/sub-35_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 77.0,
+        "Group": "Mild AD",
+        "MMSE": 21.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-19_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-19/eeg/sub-19_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 82.0,
+        "Group": "MCI",
+        "MMSE": 13.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-08_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-08/eeg/sub-08_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 70.0,
+        "Group": "Normal",
+        "MMSE": 24.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-10_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-10/eeg/sub-10_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 81.0,
+        "Group": "Normal",
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-16_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-16/eeg/sub-16_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 68.0,
+        "Group": "Mild AD",
+        "MMSE": 25.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-25_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-25/eeg/sub-25_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 68.0,
+        "Group": "Normal",
+        "MMSE": 24.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-34_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-34/eeg/sub-34_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 78.0,
+        "Group": "Mild AD",
+        "MMSE": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-07_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-07/eeg/sub-07_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 89.0,
+        "Group": "Mild AD",
+        "MMSE": 19.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-09_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-09/eeg/sub-09_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 57.0,
+        "Group": "Normal",
+        "MMSE": 26.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-02_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-02/eeg/sub-02_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 70.0,
+        "Group": "Mild AD",
+        "MMSE": 23.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-29_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-29/eeg/sub-29_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 85.0,
+        "Group": "Mild AD",
+        "MMSE": 16.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-31_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-31/eeg/sub-31_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 59.0,
+        "Group": "Normal",
+        "MMSE": 26.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-22_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-22/eeg/sub-22_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 67.0,
+        "Group": "Normal",
+        "MMSE": 29.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-01_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-01/eeg/sub-01_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 87500,
+      "duration_seconds": 350.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 65.0,
+        "Group": "Normal",
+        "MMSE": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 350,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-28_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "28",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "28",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-28/eeg/sub-28_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Male",
+        "Age": 60.0,
+        "Group": "MCI",
+        "MMSE": 26.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005048",
+      "data_name": "ds005048_sub-23_task-40HzAuditoryEntrainment_eeg.set",
+      "bidspath": "ds005048/sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_eeg.set",
+      "bids_relpath": "sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": null,
+        "task": "40HzAuditoryEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005048",
+        "raw_key": "sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_channels.tsv",
+          "sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_events.tsv",
+          "sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_eeg.json",
+          "sub-23/eeg/sub-23_task-40HzAuditoryEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 19,
+      "ntimes": 147500,
+      "duration_seconds": 590.0,
+      "digested_at": "2026-08-27T08:47:51.918129+00:00",
+      "participant_tsv": {
+        "Gender": "Female",
+        "Age": 75.0,
+        "Group": "Mild AD",
+        "MMSE": 14.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Ziaeian Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 590,
+      "montage_hash": null
+    }
+  ]
+}

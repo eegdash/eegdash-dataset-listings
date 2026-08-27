@@ -1,0 +1,96 @@
+{
+  "dataset_id": "ds005106",
+  "name": "200 Objects Infants EEG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Data and code for the paper:\nTijl Grootswagers, Genevieve Quek, Zhen Zeng, & Manuel Varlet. 2025. \u201cHuman Infant EEG Recordings for 200 Object Images Presented in Rapid Visual Streams.\u201d Scientific Data. https://doi.org/10.1038/s41597-025-04744-z\nSee the linked paper for details.\nThe \"code\" directory contains all the code to reproduce the figures in the paper.\nIt requires fieldtrip and cosmomvpa, change the paths to these toolboxes at the top of each script (or remove the lines and add them to the path manually).\nThen run the scripts to reproduce each step reported in the paper:\n1. run_preprocessing.m (preprocess and epoch data)\n2. run_rsa.m (makes the individual RDMs)\n3. stats_rsa.m (computes the RSA correlations)\n4. plot_design.m (produces Figure 1 in the paper)\n5. plot_peaks.m (produces Figure 2 in the paper)\n6. plot_rsa.m (produces Figure 3 in the paper)\nEach script can also run standalone, as intermediate results are saved in the derivates folder",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "Tijl Grootswagers",
+    "Genevieve Quek",
+    "Zhen Zeng",
+    "Manuel Varlet"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005106.v1.5.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "fix"
+  ],
+  "sessions": [],
+  "total_files": 42,
+  "size_bytes": 1331391470,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 42,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 26,
+      "f": 16
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Manuel Varlet",
+  "contact_info": [
+    "Tijl Grootswagers"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:48:06.016573+00:00",
+    "dataset_created_at": "2024-04-24T00:00:26.817Z",
+    "dataset_modified_at": "2025-03-05T22:48:06.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005106",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-fix_eeg.json",
+      "task-fix_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005106",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Tijl Grootswagers, Genevieve Quek, Zhen Zeng, Manuel Varlet. 2025. \u201cHuman Infant EEG Recordings for 200 Object Images Presented in Rapid Visual Streams.\u201d Scientific Data",
+  "references_and_links": [
+    "https://osf.io/preprints/psyarxiv/dzrkq",
+    "https://doi.org/10.31234/osf.io/dzrkq",
+    "https://doi.org/10.1038/s41597-025-04744-z"
+  ],
+  "generated_by": [
+    {
+      "Name": "PsychoPy",
+      "Version": "2023.3.1",
+      "Description": "Used to program and run the experiment."
+    },
+    {
+      "Name": "Python",
+      "Version": "3.9.13",
+      "Description": "Used for scripting and experiment control."
+    }
+  ],
+  "ingestion_fingerprint": "475174f7836d5369d4251f1bfc82fc2bba80b63ee75284e2f891ab86acf675d5"
+}

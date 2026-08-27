@@ -1,0 +1,98 @@
+{
+  "dataset": "ds003805",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:42:45.547522+00:00",
+  "record_count": 1,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds003805",
+      "data_name": "ds003805_sub-1_task-MultisensoryGammaEntrainment_eeg.set",
+      "bidspath": "ds003805/sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_eeg.set",
+      "bids_relpath": "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "1",
+        "session": null,
+        "task": "MultisensoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "1",
+        "session": null,
+        "task": "MultisensoryGammaEntrainment",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003805",
+        "raw_key": "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_eeg.set",
+        "dep_keys": [
+          "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_channels.tsv",
+          "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_electrodes.tsv",
+          "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_coordsystem.json",
+          "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_eeg.json",
+          "sub-1/eeg/sub-1_task-MultisensoryGammaEntrainment_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "Fp1",
+        "Fp2",
+        "F7",
+        "F3",
+        "Fz",
+        "F4",
+        "F8",
+        "T7",
+        "C3",
+        "Cz",
+        "C4",
+        "T8",
+        "P7",
+        "P3",
+        "Pz",
+        "P4",
+        "P8",
+        "O1",
+        "O2"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 19,
+      "ntimes": 60000,
+      "duration_seconds": 120.0,
+      "digested_at": "2026-08-27T08:42:45.547522+00:00",
+      "participant_tsv": {
+        "Gender": "M",
+        "Age": 23.0,
+        "Group": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "average",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "1Hz high pass filter, 50Hz notch filter"
+        }
+      },
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Sharif University of Technology (SUT)",
+      "recording_type": "epoched",
+      "recording_duration": 120,
+      "montage_hash": "02c0b639dfe52427"
+    }
+  ]
+}

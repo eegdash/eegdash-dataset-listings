@@ -1,0 +1,146 @@
+{
+  "dataset_id": "ds005907",
+  "name": "EEG: RL Task (3-Armed Bandit) with alcohol cues in hazardous drinkers and ctls",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": " RL task (3-armed bandit) with alcohol vs. beverage cues in N=53 Community participants.   Data collected from 2019-2021 in the CRCL at UNM.   The paper [Campbell, E., Singh, G., Claus, E.D., Witkiewitz,K., Costa, V.D., Hogeveen, J; & Cavanagh, J.F. Electrophysiological markers of aberrant cue-specific exploration in hazardous drinkers]  Should be coming out in print soonish.  Your best bet for understanding this task  would be to read that paper first.   For more info on triggers and outputs, see BEH_EXPLAIN.m file in code folder.  - James F Cavanagh 03/06/2023",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "Ethan Campbell",
+    "James F Cavanagh"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005907.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ThreeArmedBandit"
+  ],
+  "sessions": [],
+  "total_files": 53,
+  "size_bytes": 6062770483,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 53,
+    "ages": [
+      43,
+      50,
+      22,
+      18,
+      31,
+      24,
+      44,
+      38,
+      32,
+      54,
+      37,
+      51,
+      33,
+      50,
+      28,
+      36,
+      44,
+      27,
+      34,
+      49,
+      49,
+      30,
+      29,
+      44,
+      28,
+      45,
+      37,
+      44,
+      45,
+      25,
+      55,
+      24,
+      34,
+      30,
+      31,
+      34,
+      24,
+      22,
+      27,
+      33,
+      26,
+      50,
+      32,
+      47,
+      40,
+      42,
+      48,
+      43,
+      53,
+      44,
+      47,
+      52,
+      48
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "age_mean": 37.867924528301884,
+    "species": null,
+    "sex_distribution": {
+      "f": 30,
+      "m": 23
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "James F Cavanagh",
+  "contact_info": [
+    "Arnaud Delorme"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:50.543819+00:00",
+    "dataset_created_at": "2025-02-06T23:20:31.333Z",
+    "dataset_modified_at": "2025-02-07T00:07:46.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005907",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-ThreeArmedBandit_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005907",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "pending"
+  ],
+  "generated_by": [
+    {
+      "Name": "NEMAR-pipeline",
+      "Description": "A validated EEG pipeline",
+      "Version": "bcb79cb",
+      "CodeURL": "https://github.com/sccn/NEMAR-pipeline/blob/main/eeg_nemar_preprocess.m"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://openneuro.org/datasets/ds004595/versions/1.0.0",
+      "DOI": "doi:10.18112/openneuro.ds004595.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "0a59d27415cb51e9f4875d832833c7ac83e8cdeca34731ac359281d6a1282e87"
+}

@@ -1,0 +1,134 @@
+{
+  "dataset_id": "ds002893",
+  "name": "Auditory-Visual Shift Study",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "## Audio-Visual Attention Shift Experiment\n**Project name:** [Sensory processing in aging]\n**Years the project ran:** 2007-2008\n**Brief overview of experiment task:**\nThe purpose of this Auditory-Visual Attention Shift study was to explore the effects of aging on selective\nattending and responding to auditory and visual stimulus differences using an interleaved dual-oddball\naudio-visual task design. EEG and EOG channels were acquired.\n**Data collection.** Scalp EEG data were collected from 33 scalp electrode channels, each referred to a\nright mastoid electrode, within an analogue passband of 0.1 to 60 Hz.\n**Contact person:**   Scott Makeig <smakeig@ucsd.edu>, ORCID: 0000-0002-9048-8438.\n**Access information:**  Contributed to OpenNeuro.org and NEMAR.org in BIDS format following annotation using HED 8.0.0 in April, 2022.\n**Independent variables:** Stimulus stream (visual, auditory, cue); stimulus stream identity (target, standard); task condition (FA, FV, SH)\n**Dependent variables:**  Participant response (correct/incorrect). Button press response attributes (task time window and post-target latency).\n**Participant pool:** The dataset includes data collected from 19 younger adult subjects\n(8 male, 11 female, ages 20?40 years) and 30 older adult subjects (11 male, 19 female, ages 49-73 years).\nThe subjects were cognitively intact and had normal or adjusted to normal hearing and vision.\n**Initial setup:** EEG data were collected from 33 EEG channels using the 10-20 placement and referenced to the right mastoid.\nThe left mastoid and two EOG channels were also included in the collection.  The data was acquired at a sampling rate of 250 Hz\nwith an analog pass band of 0.01 to 60 Hz (SA Instrumentation, San Diego). Input impedances were brought under 5 kilo-ohms\nby careful scalp preparation.\n**Task conditions:**\n- **Focus Visual (FV):** participants pressed the response button only in response to target visual stimuli.\n- **Focus Auditory (FA):** participants pressed the same button only in response to target auditory stimuli.\n- **Shift Focus (SF):** participants shifted between performing the FV and FA tasks as cued by the preceding\n(Look/Hear) cue stimulus.\n**Task organization:** The stimuli were presented in blocks of 264 for a duration of 2.64.\nIn each block there were 12 \"Hear\" and 12 \"Look\" cues.  A total of 20 blocks were presented for each session.\nEach experiment began with two non-shift blocks (one each of auditory focus FA and visual focus FV counter-balanced across sessions).\nThese were followed by 12 SF shift blocks. Finally an auditory focus FA group (3 blocks) and a visual focus FV group (3 blocks) were\npresented. The order of these groups was counter-balanced across experiments. Brief rest periods occur between task blocks. The task condition in the next block was given verbally to the participant during the pre-block rest period.\n**Task details:** Participants respond by finger button press selectively to auditory (brief tones) and\nvisual (colored squares) stimuli constituting distinct, interleaved auditory and visual oddball stimulus streams\nwhose stimuli are presented in randomly interleaved order with stimulus-onset asynchronies (SOAs) varying randomly\nbetween 200 and 800 ms.\n- **Visual stimuli:** were (infrequent, 10%) dark blue target or (frequent, 90%) light blue standard 8.4-cm2 squares presented for 100 ms.\n- **Auditory stimuli:** were (infrequent, 10%) 550-Hz target or (frequent, 90%) 500-Hz tones with 100 msec duration and 63 dB SPL intensity.\n- **Task cue stimuli:** interspersed in the stimulus sequence at mean 5-sec intervals and consisting of the simultaneous spoken and printed display of one of the words *Look* or *Hear* each presented for 200 msec.\n**Additional data acquired:** Participants had no history of major neurological, psychiatric, or medical disorders. All had normal or adjusted to normal vision and hearing (none wore hearing aids). Verbal and performance IQ were assessed using the WASI-III (Wechsler, 1997). There were no significant differences between the groups in IQ measures or years of education. Participants in the Older group received a battery of neuropsychological tests to assure normal cognitive functioning, including the Mini Mental State Exam (MMSE) (Folstein et al., 1975), Dementia Rating Scale (DRS) (Mattis, 1988), Wechsler Memory Scale.\n**Experiment location:**  Department of Psychiatry laboratory of Jeanne Townsend, University of California San Diego, La Jolla CA (USA).\n**Note 1**:  ERP measure results for the FA and FV conditions only were presented in Ceponiene, R., Westerfield, M., Torki, M. and Townsend, J., 2008. Modality-specificity of sensory aging in vision and audition: evidence from event-related potentials.?Brain research,?1215, pp.53-68. Some unpublished results by Christian Kothe and Scott Makeig on the SH condition may be available from the authors <christiankothe@gmail.com> <smakeig@ucsd.edu>.\n**Note 2**: The code subdirectory has several auxilliary files that were produced during\nthe curation process. The curation was done using a series of Jupyter notebooks\nthat are available as run in the code/curation_notebooks subdirectory.\nDuring the running of these curation notebooks information about the status was logged\nusing the HEDLogger. The output of the logging process is in code/curation_logs.\nUpdated versions of the curation notebooks can be found at:\nhttps://github.com/hed-standard/hed-examples/tree/main/hedcode/jupyter_notebooks/dataset_specific_processing/attention_shift.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Marissa Westerfield (data, curation)",
+    "Scott Makeig (data, curation)",
+    "Dung Truong (curation)",
+    "Kay Robbins (curation)",
+    "Arno Delorme (curation)"
+  ],
+  "funding": [
+    "National Institutes of Health National Institute on Aging (R01-AG18030)."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds002893.v2.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "AuditoryVisualShift"
+  ],
+  "sessions": [],
+  "total_files": 52,
+  "size_bytes": 8262777491,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 49,
+    "ages": [
+      20,
+      23,
+      22,
+      37,
+      28,
+      20,
+      30,
+      24,
+      27,
+      22,
+      22,
+      34,
+      22,
+      21,
+      23,
+      22,
+      40,
+      25,
+      59,
+      63,
+      64,
+      59,
+      64,
+      53,
+      59,
+      56,
+      50,
+      65,
+      71,
+      74,
+      71,
+      77,
+      71,
+      78,
+      72,
+      73,
+      70,
+      69,
+      67,
+      69,
+      75,
+      66,
+      73,
+      65,
+      49
+    ],
+    "age_min": 20,
+    "age_max": 78,
+    "age_mean": 49.86666666666667,
+    "species": null,
+    "sex_distribution": {
+      "f": 30,
+      "m": 19
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Arno Delorme (curation)",
+  "contact_info": [
+    "Dung Truong",
+    "Arnaud Delorme",
+    "Clement Lee",
+    "Kay Robbins",
+    "Annalisa Salazar"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:19.836955+00:00",
+    "dataset_created_at": "2020-06-15T06:04:46.675Z",
+    "dataset_modified_at": "2022-06-18T20:41:02.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds002893",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-AuditoryVisualShift_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds002893",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite this paper: https://pubmed.ncbi.nlm.nih.gov/18482717/ and consider including the following message: 'This data was obtained from the OpenNeuro database. Its accession number is ds002893'",
+  "references_and_links": [
+    "Ceponiene R., Westerfield M., Torki M., and Townsend J.(2008). Modality-specificity of sensory aging in vision and audition: Evidence from event-related potentials, Brain Research, vol. 1215, 53-68. DOI: 10.1016/j.brainres.2008.02.010."
+  ],
+  "ingestion_fingerprint": "f93c2d026de40940c4f9369c75d1c39ebfee81f12556245adf593808c5c1fed7"
+}

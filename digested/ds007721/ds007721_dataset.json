@@ -1,0 +1,107 @@
+{
+  "dataset_id": "ds007721",
+  "name": "Bone conducted responses using the parallel auditory brainstem response (pABR) paradigm",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "README\n------\nDetails related to access to the data\n-------------------------------------\nPlease contact the following author for further information:\n    Melissa Polonenko(email: mpolonen@umn.edu)\nOverview\n--------\nThis is the dataset for the paper\nPolonenko MJ & Maddox RK (2026), with citation listed below.\nEar and Hearing:\nPolonenko, MJ, & Maddox, RK. Bone conducted responses using the parallel\nauditory brainstem response (pABR) paradigm. Accepted March 27, 2026.\nBioRxiv:\nPolonenko, MJ, & Maddox, RK. Bone conducted responses using the parallel\nauditory brainstem response (pABR) paradigm. bioRxiv [Preprint].\n2025 Oct 7:2025.10.07.680974. doi: 10.1101/2025.10.07.680974.\nData was collected from October to November 2024.\nAim: This study aimed to confirm the feasibility of bone conduction pABR.\n1) Create normative values for bone conducted pABR stimuli.\n2) Compare ABRs to air- and bone-conducted stimuli.\nThe details of the experiment can be found in the bioRxiv pre-print and article\ncited above.\nStimuli for EEG:\n    pABR stimuli with 500, 1000, 2000, 4000, 8000 Hz tone pips.\n    AC only: dichotic presentation with 40 Hz stimulation rate\n    BC: BC stimuli at 40 Hz presentation rate; contralateral masking presented\n        via AC at 400 Hz stimulation rate\n    Levels: 20, 40, 60, 70, 50, 30 dB peSPL\n    600 x 1 s trials for each level for each task (AC, BC)\n    Total of 3,600 trials for each task x 2 tasks = 7,200 trials total\n    Total of 60 minutes per task for a total of 120 minutes EEG recording.\nStimuli for BEH:\n    pABR stimuli with 500, 1000, 2000, 4000, 8000 Hz tone pips\n    Tone pips presented separately\n    Stimulation rates: 20, 40, 60, 80 Hz\nThe code for analyses is available in this dataset.\nFormat\n------\nThe EEG dataset is formatted according to the EEG Brain Imaging Data Structure.\nIt  includes EEG recording in raw brainvision format (.eeg, .vhdr, .vmrk)\nand stimuli files in format of .hdf5. The stimuli files contain the audio ('x')\nand the pulses ('x_pulse'), the latter of which is used to create the pulse\ninds for the regressors [take indices where abs(x_pulse) > 0.5] in the cross-\ncorrelation.\nGenerally, you can find detailed event data in the .tsv files and descriptions\nin the accompanying .json files. Raw eeg files are provided in the Brain\nProducts format.\nThe BEH dataset has a .log and .tab file with the data from the trackers that\ncan be recontructed using the expyfun package. This data is provided on GitHub\nat https://github.com/polonenkolab/pabr_bc_poc\nParticipants\n------------\n22 participants, mean \u00b1 SD age of 22.8 \u00b1 2.7 years (19-31 years)\nNote: participants 15 & 21 do not have EEG data;\n      participants 3 & 4 do not have BEH data\nInclusion criteria:\n    1) Age between 18-40 years\n    2) Normal hearing: audiometric thresholds <25 dB HL from 500 to 8000 Hz\nPlease see participants.tsv for more information.\nApparatus\n---------\nParticipants sat in a darkened sound-isolating booth and rested while listening\nto the stimuli. They were encouraged to sleep. Stimuli were presented through\nER-2 insert earphones (AC) and a B-81 vibrator (BC) plugged into an RME\nDigiface USB digital sound card. Custom python scripts using expyfun were used\nto control the experiment and stimulus presentation.\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Polonenko & Maddox (2026) and the\nsupplied `task-f0s_eeg.json` file. The levels for each task were interleaved\ninterleaved.\nTrigger onset times are not corrected for the delay of the insert earphones,\nbut the tsv files have both the uncorrected and corrected samples.\nTriggers with values of \"1\" were recorded to the onset of the 1 s audio, and\nshortly after triggers with values of \"4\" or \"8\" were stamped to indicate the\nwhich of the runs (levels) and tokens was played. This was done by converting\nthe decimal trial number to bits, denoted b, then calculating 2 ** (b + 2).\nWe've specified the metadata of the events in each of the '*_eeg_events.tsv\"\nfile, which is sufficient to know which trial corresponded to run and which\nstimulus file to use and which token index to use.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Melissa J. Polonenko",
+    "Ross K. Maddox"
+  ],
+  "funding": [
+    "National Institute on Deafness and Other Communication Disorders (NIDCD) of the National Institutes of Health: R01 DC017962"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds007721.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ac",
+    "bc"
+  ],
+  "sessions": [],
+  "total_files": 40,
+  "size_bytes": 23629296981,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      26,
+      21,
+      24,
+      22,
+      24,
+      22,
+      22,
+      28,
+      31,
+      24,
+      19,
+      21,
+      21,
+      21,
+      21,
+      21,
+      22,
+      21,
+      21,
+      22,
+      24,
+      23
+    ],
+    "age_min": 19,
+    "age_max": 31,
+    "age_mean": 22.772727272727273,
+    "species": null,
+    "sex_distribution": {
+      "f": 19,
+      "m": 2,
+      "o": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Ross K. Maddox",
+  "contact_info": [
+    "Melissa Polonenko"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:59:31.647982+00:00",
+    "dataset_created_at": "2026-04-28T07:56:28.902Z",
+    "dataset_modified_at": "2026-04-28T15:19:01.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007721",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007721",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "All research was performed under a single IRB protocol approved by the University of Michigan IRBMED (PI: Ross Maddox, HUM00252149) with a site-specific protocol approved by the University of Minnesota IRB (PI: Melissa Polonenko, SITE00000908 for IRBMED and SITE00001873 UMN)"
+  ],
+  "references_and_links": [
+    "bioRxiv [Preprint]. 2025 Oct 7:2025.10.07.680974. doi: 10.1101/2025.10.07.680974."
+  ],
+  "ingestion_fingerprint": "d301fef652b9f4442f9b0791df1a50cba84f373ab07625d8d67941321eba8406"
+}

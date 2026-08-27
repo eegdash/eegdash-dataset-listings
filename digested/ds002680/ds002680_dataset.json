@@ -1,0 +1,80 @@
+{
+  "dataset_id": "ds002680",
+  "name": "Go-nogo categorization and detection task",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Participants seated in a dimly lit room at 110 cm from a computer screen piloted from a PC computer. Two tasks alternated: a categorization task and a recognition task. In both tasks, target images and non-target images were equally likely presented. Participants were tested in two recording phases. The first day was composed of 13 series, the second day of 12 series, with 100 images per series (see details of the series below). To start a series, subjects had to press a touch-sensitive button. A small fixation point (smaller than 0.1 degree of visual angle) was drawn in the middle of a black screen. Then, an 8 bit color vertical photograph (256 pixels wide by 384 pixels high which roughly correspond to 4.5 degree of visual angle in width and 6.5 degree in height) was flashed for 20 ms (2 frames of a 100 Hz SVGA screen) using a programmable graphic board (VSG 2.1, Cambridge Research Systems). This short presentation time avoid that subjects use exploratory eye movement to respond. Participants gave their responses following a go/nogo paradigm. For each target, they had to lift their finger from the button as quickly and accurately as possible (releasing the button restored a focused light beam between an optic fiber led and its receiver; the response latency of this apparatus was under 1 ms). Participants were given 1000 ms to respond, after what any response was considered as a nogo response. The stimulus onset asynchrony (SOA) was 2000 ms plus or minus a random delay of 200 ms. For each distractor, participants had to keep pressing the button during at least 1000 ms (nogo response).\nMore specifically, in the animal categorization task, participants had to respond whenever there was an animal in the picture. In the recognition task, the session started with a learning phase. A probe image was flashed 15 times during 20 ms intermixed with two presentations of 1000 ms after the fifth and the tenth flashes, allowing an ocular exploration of the image; with an inter-stimulus of 1000 ms. Participants were instructed to carefully examine and learn the probe image in order to recognize it in the following series. The test phase started immediately after the learning phase. The probe image constituted the unique target of the series. Both tasks were organized in series of 100 images; 50 targets images were mixed with 50 non-targets in the animal categorization task; 50 copies of an unique photographs were mixed at random with 50 non-targets in the recognition task.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Arnaud Delorme"
+  ],
+  "funding": [],
+  "dataset_doi": "10.18112/openneuro.ds002680.v1.2.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "gonogo"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 350,
+  "size_bytes": 9902131689,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 14,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "f": 7,
+      "m": 7
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Arnaud Delorme",
+  "contact_info": [
+    "Arnaud Delorme"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:06.634888+00:00",
+    "dataset_created_at": "2020-04-02T20:23:47.774Z",
+    "dataset_modified_at": "2021-10-19T16:26:43.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds002680",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds002680",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://www.ncbi.nlm.nih.gov/pubmed/11244543, https://www.ncbi.nlm.nih.gov/pubmed/15019707, https://papers.cnl.salk.edu/PDFs/From%20Single-Trial%20EEG%20to%20Brain%20Area%20Dynamics%202002-3661.pdf "
+  ],
+  "ingestion_fingerprint": "cf7946e4accc08444932c91650ed63b15703f75963037887c0f0118d92428a72"
+}

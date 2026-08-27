@@ -1,0 +1,121 @@
+{
+  "dataset_id": "ds005932",
+  "name": "PWIe",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Data collection took place at the NeuroCognition Laboratory (NCL) in San Diego, California under the supervision of Dr. Phillip Holcomb. This project followed the San Diego State University\u2019s IRB guidelines.\nParticipants sat in a comfortable chair in a darkened sound attenuated room throughout the experiment and wore 32 head and face electrodes (left mastoid reference). They were given a gamepad for button pressing and wore a lightweight headset to record their verbal responses. They were instructed to watch the LCD video monitor that was at a viewing distance of 150cm. All stimuli were less than 2\u00b0 of horizontal and vertical visual angle.\nParticipants were presented with 100 unique simple black on white to-be-named line drawings, with 50 pictures in the Semantic category and 50 in the Identity category. Each picture was presented twice, once preceded by an unrelated English distractor word and once by a related English distractor word (2000 ms duration). Prime \"distractor\" words were presented before the picture for 200 ms and were either semantically related, were the same name as the picture, or were unrelated to the picture. Participants were told to name each picture as quickly as possible in English. Their voice response was digitized online. The experiment was self-paced and participants pressed a button after each trial when ready to go on.\nEEG was sampled continuously at 500 Hz with a bandpass of DC to 200 Hz. Event markers were stored with the EEG data for later ERP averaging. The raw EEG data were imported into EEGLab and saved as .set files. A key to the event code structure is contained in the PWIe bdf files for each subject.                                                                                                                                                                                                                                                                                                                                                                                                                                           \u0000",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Phillip J. Holcomb",
+    "Jacklyn Jardel",
+    "Katherine J. Midgley",
+    "and Karen Emmorey"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005932.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PictureWordInterference"
+  ],
+  "sessions": [],
+  "total_files": 29,
+  "size_bytes": 2446718661,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 29,
+    "ages": [
+      29,
+      20,
+      22,
+      23,
+      24,
+      21,
+      25,
+      20,
+      21,
+      20,
+      19,
+      20,
+      23,
+      22,
+      27,
+      29,
+      35,
+      35,
+      29,
+      20,
+      25,
+      26,
+      31,
+      30,
+      20,
+      26,
+      25,
+      22,
+      19
+    ],
+    "age_min": 19,
+    "age_max": 35,
+    "age_mean": 24.413793103448278,
+    "species": null,
+    "sex_distribution": {
+      "f": 19,
+      "m": 10
+    },
+    "handedness_distribution": {
+      "r": 28,
+      "l": 1
+    }
+  },
+  "senior_author": "and Karen Emmorey",
+  "contact_info": [
+    "Jacklyn Jardel",
+    "Phillip Holcomb",
+    "Phillip Holcomb"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:53.578075+00:00",
+    "dataset_created_at": "2025-02-19T01:35:23.604Z",
+    "dataset_modified_at": "2025-11-05T20:18:42.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005932",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-PictureWordInterference_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005932",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    ""
+  ],
+  "generated_by": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "8.0"
+    }
+  ],
+  "ingestion_fingerprint": "583355835e6c2df177468e87c56419c00ef547f65873cb39968a15640d13e1f9"
+}

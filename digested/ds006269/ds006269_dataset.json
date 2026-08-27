@@ -1,0 +1,96 @@
+{
+  "dataset_id": "ds006269",
+  "name": "Tethered EEG Recordings in Syngap1 rats",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset consists of 6-hour long EEG recordings in wildtype (WT) and rats Syngap+/\u0394\u2212GAP (HET) rats (male, 12-16 weeks old) starting at zeitgeber time (ZT) 3 to 9 (under a 12 light hr:12 dark hr schedule with lights on at 07:00 am). Associated with each rat is two 6-hour recording files, expect for those which only underwent one recording session (S7020, , S7025, S7030, S7031, S7032, 39, S7040, S7041). Recordings were acquired with an OpenEphys acquisition system (OpenEphys, Portugal) and head-mounted 32-channel EEG array probe (H32-EEG\u2014NeuroNexus, USA) with accelerometers (NeuroNexus, USA), at a sampling rate of 1 kHz. For more detailed methods, please see our associated publication doi: 10.1016/j.celrep.2024.114733.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Lucy Pritchard",
+    "Ingrid Buller-Peralta",
+    "Sally M Till",
+    "Peter C Kind",
+    "Alfredo Gonzalez-Sulser"
+  ],
+  "funding": [
+    "The work performed here was funded by The Simons Initiative for the Developing Brain."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006269.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest",
+    "test"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 40,
+  "size_bytes": 114536455305,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 24,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 24
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Alfredo Gonzalez-Sulser",
+  "contact_info": [
+    "Lucy  Pritchard"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:54:50.947747+00:00",
+    "dataset_created_at": "2025-05-30T08:23:30.047Z",
+    "dataset_modified_at": "2025-05-30T14:42:58.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006269",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.txt",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006269",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "An immense thanks to all contributors for their support.",
+  "how_to_acknowledge": "Please cite: Katsanevaki D, Till SM, Buller-Peralta I, Nawaz MS, Louros SR, Kapgal V, Tiwari S, Walsh D, Anstey NJ, Petrovi\u0107 NG, Cormack A, Salazar-Sanchez V, Harris A, Farnworth-Rowson W, Sutherland A, Watson TC, Dimitrov S, Jackson AD, Arkell D, Biswal S, Dissanayake KN, Mizen LAM, Perentos N, Jones MW, Cousin MA, Booker SA, Osterweil EK, Chattarji S, Wyllie DJA, Gonzalez-Sulser A, Hardt O, Wood ER, Kind PC. Key roles of C2/GAP domains in SYNGAP1-related pathophysiology. Cell Rep. 2024 Sep 24;43(9):114733. doi: 10.1016/j.celrep.2024.114733. Epub 2024 Sep 12. PMID: 39269903.",
+  "ethics_approvals": [
+    "All animal procedures were undertaken in accordance with the University of Edinburgh animal welfare committee regulations and were performed under a United Kingdom Home Office project license."
+  ],
+  "references_and_links": [
+    "Katsanevaki D, Till SM, Buller-Peralta I, Nawaz MS, Louros SR, Kapgal V, Tiwari S, Walsh D, Anstey NJ, Petrovi\u0107 NG, Cormack A, Salazar-Sanchez V, Harris A, Farnworth-Rowson W, Sutherland A, Watson TC, Dimitrov S, Jackson AD, Arkell D, Biswal S, Dissanayake KN, Mizen LAM, Perentos N, Jones MW, Cousin MA, Booker SA, Osterweil EK, Chattarji S, Wyllie DJA, Gonzalez-Sulser A, Hardt O, Wood ER, Kind PC. Key roles of C2/GAP domains in SYNGAP1-related pathophysiology. Cell Rep. 2024 Sep 24;43(9):114733. doi: 10.1016/j.celrep.2024.114733. Epub 2024 Sep 12. PMID: 39269903"
+  ],
+  "generated_by": [
+    {
+      "Name": "Open Ephys GUI",
+      "Version": "0.6.1",
+      "Description": "Used for electrophysiology acquisition with headstage and amplifier setup."
+    }
+  ],
+  "ingestion_fingerprint": "830a1b3493140f76f4f18fe04b9df9c16028e015e1f2dd7da5104af95515a147"
+}

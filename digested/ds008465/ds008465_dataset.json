@@ -1,0 +1,121 @@
+{
+  "dataset_id": "ds008465",
+  "name": "NeuralEcho MACS high-density communication-related EEG dataset",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "NeuralEcho MACS high-density communication-related EEG dataset\n================================================================\nOverview\n--------\nThis dataset contains high-density EEG recordings from 30 healthy,\nright-handed, native Chinese-speaking adults. Participants performed imagined\nand executed vocalization and writing tasks involving four Chinese strokes\n(heng, shu, pie and na) and four English letters (a, b, c and d).\nExperimental design\n-------------------\nEach participant completed eight runs of 64 trials. The factorial design\ncrossed task mode (motor imagery or motor execution), action (read/speak or\nwrite), script (Chinese or English) and token identity, yielding 32 event-coded\nconditions and 15,360 task events.\nData organization\n-----------------\nThe BIDS root contains BrainVision EEG data and metadata. Proprietary Neuroscan\nsource recordings are under sourcedata/. EEGLAB preprocessing derivatives and\nsubject-level machine-learning exports are under derivatives/. Those two\ndirectories are intentionally listed in .bidsignore because they are shared\nfor reuse but are not part of raw-BIDS validation.\nElectrode coordinates and reference\n-----------------------------------\nThe electrodes.tsv files contain a shared 127-channel cap-layout template\nderived from Code/127cn.csv. Coordinates are expressed in millimetres using\nthe EEGLAB ALS convention: positive x points anteriorly, positive y points to\nthe participant's left and positive z points superiorly. These are template\ncoordinates repeated across participants, not participant-specific digitized\npositions. Trigger is an acquisition channel and is therefore excluded from\nelectrodes.tsv. The continuous recordings used the bilateral mastoid\nelectrodes M1 and M2 as the EEG reference.\nAuthors and contributors\n------------------------\nHuang Jinfeng; Kangqiao Liu; Li Zhongjie; Jin Yongdong.\nData were collected and curated collaboratively by Tianjin University,\nShenzhen University and NeuralEcho Technology Co., Ltd.\nReferences\n----------\nAppelhoff, S. et al. MNE-BIDS: Organizing electrophysiological data into the\nBIDS format and facilitating their analysis. Journal of Open Source Software\n4, 1896 (2019). https://doi.org/10.21105/joss.01896\nPernet, C. R. et al. EEG-BIDS, an extension to the brain imaging data structure\nfor electroencephalography. Scientific Data 6, 103 (2019).\nhttps://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Huang Jinfeng",
+    "Kangqiao Liu",
+    "Li Zhongjie",
+    "Jin Yongdong"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds008465.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "comm"
+  ],
+  "sessions": [
+    "exp1"
+  ],
+  "total_files": 240,
+  "size_bytes": 3069949,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 30,
+    "ages": [
+      23,
+      28,
+      19,
+      30,
+      27,
+      22,
+      24,
+      26,
+      29,
+      20,
+      21,
+      25,
+      30,
+      23,
+      28,
+      27,
+      22,
+      19,
+      26,
+      24,
+      25,
+      30,
+      29,
+      28,
+      20,
+      21,
+      23,
+      22,
+      24,
+      26
+    ],
+    "age_min": 19,
+    "age_max": 30,
+    "age_mean": 24.7,
+    "species": null,
+    "sex_distribution": {
+      "m": 15,
+      "f": 15
+    },
+    "handedness_distribution": {
+      "r": 30
+    }
+  },
+  "senior_author": "Jin Yongdong",
+  "contact_info": [
+    "Jinfeng HUANG"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T09:00:47.218491+00:00",
+    "dataset_created_at": "2026-07-24T03:44:23.604Z",
+    "dataset_modified_at": "2026-08-07T02:47:13.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds008465",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-comm_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds008465",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Data collection and curation were conducted collaboratively by Tianjin University, Shenzhen University and NeuralEcho Technology Co., Ltd.",
+  "how_to_acknowledge": "Please cite the accompanying Scientific Data Data Descriptor.",
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "ingestion_fingerprint": "a1d5bc5ccf2359835a8868114a15ef87e85fbeb352983ae226d11569354eb953"
+}

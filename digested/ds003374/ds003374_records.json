@@ -1,0 +1,1442 @@
+{
+  "dataset": "ds003374",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:41:31.990310+00:00",
+  "record_count": 18,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-04_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_events.json",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL",
+        "SOZ_electrodes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "1313d30de5f5e402"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-05_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_events.json",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "e25f181015a198af"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-03_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_events.json",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL",
+        "SOZ_electrodes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "8d9dd3b1dff5117a"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-06_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_events.json",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-08_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_events.json",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "pathology": "astrocytoma",
+        "implanted_electrodes": "AL",
+        "SOZ_electrodes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "c0632ee228744069"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-07_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_events.json",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "pathology": "gliosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "f31bab85fa8b127e"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-09_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_events.json",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AL, AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "da8e482045db874e"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-02_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_events.json",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 48.0,
+        "sex": "M",
+        "pathology": "gliosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "4405b018c074b2b6"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-01_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bidspath": "ds003374/sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "bids_relpath": "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_events.json",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.eeg",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.vmrk",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.dat"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "9722b7955ce92395"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-04_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-04/ses-01/ieeg/sub-04_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL",
+        "SOZ_electrodes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "1313d30de5f5e402"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-05_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-05/ses-01/ieeg/sub-05_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 34.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "e25f181015a198af"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-03_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-03/ses-01/ieeg/sub-03_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "F",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL",
+        "SOZ_electrodes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "8d9dd3b1dff5117a"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-06_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-06/ses-01/ieeg/sub-06_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-08_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-08/ses-01/ieeg/sub-08_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "pathology": "astrocytoma",
+        "implanted_electrodes": "AL",
+        "SOZ_electrodes": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "c0632ee228744069"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-07_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-07/ses-01/ieeg/sub-07_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 39.0,
+        "sex": "M",
+        "pathology": "gliosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "f31bab85fa8b127e"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-09_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-09/ses-01/ieeg/sub-09_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AL, AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "da8e482045db874e"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-02_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-02/ses-01/ieeg/sub-02_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 48.0,
+        "sex": "M",
+        "pathology": "gliosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "4405b018c074b2b6"
+    },
+    {
+      "dataset": "ds003374",
+      "data_name": "ds003374_sub-01_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bidspath": "ds003374/sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.edf",
+      "bids_relpath": "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": "01",
+        "task": "jokeit",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003374",
+        "raw_key": "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_ieeg.edf",
+        "dep_keys": [
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_channels.tsv",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_events.tsv",
+          "sub-01/ses-01/ieeg/sub-01_ses-01_task-jokeit_run-01_events.json"
+        ]
+      },
+      "ch_names": [
+        "mAL1",
+        "mAL2",
+        "mAR1",
+        "mAR2"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 1044000,
+      "duration_seconds": 522.0,
+      "digested_at": "2026-08-27T08:41:31.990310+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "M",
+        "pathology": "sclerosis",
+        "implanted_electrodes": "AL, AR",
+        "SOZ_electrodes": "AR"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "intracranial depth electrode, not included with data",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 0.5
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 5000
+        }
+      },
+      "manufacturer": "Neuralynx ATLAS",
+      "manufacturers_model_name": "Neuralynx ATLAS",
+      "institution_name": "Universit\u00e4tsspital Z\u00fcrich",
+      "recording_type": "epoched",
+      "recording_duration": 522,
+      "montage_hash": "9722b7955ce92395"
+    }
+  ]
+}

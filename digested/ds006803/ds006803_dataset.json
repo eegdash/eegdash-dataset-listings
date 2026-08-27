@@ -1,0 +1,154 @@
+{
+  "dataset_id": "ds006803",
+  "name": "NeuroTechs Dataset for Stem Skills",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# README\n## Details related to access to the data]\n- [ ] Contact person\nJuan Pablo Rosado A\u00edza jprosadoa@gmail.com\nORCID 0009-0004-5690-1753\n- [ ] Practical information to access the data\nThe data units are in microvolts, transformed from raw Unicorn API for Python values.\n## Overview\nEvaluating STEM skills in students\n- [ ] Year(s) that the project ran\n2025 May - July\n- [ ] Brief overview of the tasks in the experiment\nParticipants answered a computer test through psychopy. The paradigm includes a 2 minute basal state (minute 1 with eyes closed, minute 2 with eyes open) and sections for each skill evaluated. 4 math sections, 1 per basic operation (sum, subtraction, multiplication and division), 1 programming section and 1 spatial ability section. The sections ran until either time or questions ran out. There was a 30 second break between sections.\nThe event markers with each question, answer and time can be found within each subject folder. The point of the paradigm is to compare different class groups and their global performance. The point of the EEG data is to image the brain for potential analysis of band activity to help explain differences in the groups. the experimental group took classes using interactive tools like Google Colab during class.\n- [ ] Description of the contents of the dataset\n8 Channel EEG data for 63 subjects, 23 experimental \"intervention\" subjects and 40 control subjects. You can find both raw (Session 1) and preprocessed (Session 2) data. All EEG data starts at second 3, since seconds (0-3) were cut in preprocessing. The timestamps in all event markers are in this time signature (Timestamp in second 3 corresponds to sample 1, second 4 is sample 251).\n- [ ] Independent variables\nGroups for the subjects.\n- [ ] Dependent variables\nPerformance, EEG data.\n- [ ] Control variables\nTime of participation (End of semester), place for data acquisition, status as student.\n## Methods\n### Subjects\nAll subjects are either experimental or control, whose ID is in the format XXc for control and XXe for experimental.\n[ ] Subject inclusion/exclusion criteria (if relevant)\nOnly students enrolled in the course at hand.\nParticipants 1e, 3e, 4e, 6e, 9e, 10e, 12e, 14e, 15e, 24e, 25e, 33e, 34e, 36e, 37e, 39e, 40e, 41e, 14c and 16c were outliers on RMS voltage.\n### Apparatus\nthe room was performed in a closed room with a single researcher there to give instructions and answer any questions. There was a laptop and the EEG device was mounted using conductive gel.\n### Initial setup\nSigning consent on paper was the first thing that was done, afterwards impedance measurements using UHB recorder software were made until all signals were \"good\" on the sofware.\nThe subjects then answered the test.\n### Task organization\nThe test's sections are not randomized nor counterbalanced, the order is as described above. The questions within each section were randomized.\n### Task details\nEach question answered has a code, an answer and a timestamp, which can be found in the corresponding main section file for each subject. The questions themselves with codes and correct answers can be found in the stimuli folder.\n### Additional data acquired\nAverage cycle data for female subjects was calculated for each group, anonymously. Refer to extra_metadata.xlsx.\n### Experimental location\nAll data collection was collected in a controlled environment.\n### Missing data\nSubject 17c, 30e, 32e and 35e where lost in the process of acquisition. All records start at second 3, instead of second 0, to eliminate connectivity noise and drift at the beginning. The basal state lasted 123 seconds to account for this, so the first 120 seconds correspond to the basal states.\nAll responses to \"OR4\" in the spatial ability sections are invalid, given that the correct answer is not among the options. It was excluded from all calculations shown in extra_metadata.xlsx.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Tania Yareni Pech-Canul",
+    "Roberto Guajardo",
+    "Luis Fernando Acosta-Soto",
+    "M\u00f3nica Sof\u00eda Margoya-Constantino",
+    "Juan Pablo Rosado-A\u00edza",
+    "Luz Mar\u00eda Alonso-Valerdi"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds006803.v1.1.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "STEMSKILLS"
+  ],
+  "sessions": [
+    "1",
+    "2"
+  ],
+  "total_files": 126,
+  "size_bytes": 1497259364,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 63,
+    "ages": [
+      19,
+      19,
+      19,
+      20,
+      19,
+      20,
+      20,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      21,
+      19,
+      20,
+      19,
+      19,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      20,
+      21,
+      19,
+      18,
+      20,
+      19,
+      19,
+      18,
+      20,
+      19,
+      19,
+      20,
+      19,
+      20,
+      19,
+      24,
+      20,
+      19,
+      21,
+      20,
+      18,
+      20,
+      20,
+      20,
+      20,
+      19,
+      19,
+      19,
+      19,
+      19,
+      19,
+      20,
+      19,
+      20,
+      19,
+      22,
+      19
+    ],
+    "age_min": 18,
+    "age_max": 24,
+    "age_mean": 19.53968253968254,
+    "species": null,
+    "sex_distribution": {
+      "m": 26,
+      "f": 37
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Luz Mar\u00eda Alonso-Valerdi",
+  "contact_info": [
+    "Juan Pablo Rosado-A\u00edza"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:43.446634+00:00",
+    "dataset_created_at": "2025-10-16T23:52:02.995Z",
+    "dataset_modified_at": "2026-01-27T00:11:07.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006803",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006803",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    ""
+  ],
+  "generated_by": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3"
+    }
+  ],
+  "ingestion_fingerprint": "1b96263f6d93b750b0253ea742cbdccc21f5b65d6ee514d1bcb5a8332880034d"
+}

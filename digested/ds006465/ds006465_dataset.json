@@ -1,0 +1,105 @@
+{
+  "dataset_id": "ds006465",
+  "name": "3M-CPSEED\uff1aAn EEG-based Dataset for Chinese Pinyin Production in Overt, Silent-intended, and Imagined Speech",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Overview\nThis dataset, named 3M-CPSEED, consists of electroencephalogram (EEG) recordings obtained from 20 participants engaged in imagined speech tasks. 3M-CPSEED holds significant implications for speech neurophysiology research, not only facilitating exploration of neural activity differences across pinyin articulations but also enabling robust transfer learning studies for other alphabetic languages.\nData Collection\nParticipants: 20 healthy, right-handed individuals (average age: 24.55 years, standard deviation: 2.58 years; 11 females, 9 males) who are native Chinese speakers.\nMaterials: To strike a balance between comprehensively capturing the articulatory features of the Chinese phonological system and maintaining a concise, controllable set of stimuli, we selected this set of Pinyin sounds: Finals: \"a, i, u, \u00fc\"; Initials: \"m, f, j, l, k, ch\".\nProcedure: Participants read Pinyin displayed on a screen at 'speak', 'Silently articulated' and 'imagined' phase. Each participant completed 4 blocks of 1600 trials in total.\nData Structure\nThe dataset is organized according to the BIDS standard:\nMain Folder:\ndataset_description.json: Description of the dataset.\nparticipants.tsv: Participant information.\nparticipants.json: Details of columns in participants.tsv.\nREADME: General information about the dataset.\ndata_all.mat: Labeled EEG data of all subjects in MAT format.\nDerivative Data:\npreproc/: Preprocessed data, including subfolders for each subject (sub-01, etc.), with data in .mat formats .\nAcknowledgments\nThis work was supported by a 1.3.5 project for disciplines of excellence from West China Hospital (#ZYYC22001).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Xinyu Ma",
+    "Jiang Yi",
+    "Ning Jiang"
+  ],
+  "funding": [
+    "a 1.3.5 project for disciplines of excellence from West China Hospital (#ZYYC22001)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006465.v2.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imaginedspeech"
+  ],
+  "sessions": [
+    "1",
+    "2",
+    "3",
+    "4"
+  ],
+  "total_files": 80,
+  "size_bytes": 8768486080,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      25,
+      25,
+      29,
+      27,
+      23,
+      25,
+      30,
+      26,
+      21,
+      23,
+      24,
+      21,
+      27,
+      25,
+      24,
+      25,
+      24,
+      19,
+      24,
+      24
+    ],
+    "age_min": 19,
+    "age_max": 30,
+    "age_mean": 24.55,
+    "species": null,
+    "sex_distribution": {
+      "m": 9,
+      "f": 11
+    },
+    "handedness_distribution": {
+      "r": 20
+    }
+  },
+  "senior_author": "Ning Jiang",
+  "contact_info": [
+    "Xinyu Ma"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:06.159476+00:00",
+    "dataset_created_at": "2025-07-12T08:34:49.595Z",
+    "dataset_modified_at": "2025-10-29T03:31:08.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006465",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006465",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "56ebe9b8fd91e165c9ec5e398a8324c4856ba74e0446e98a85c10385f9781ce2"
+}

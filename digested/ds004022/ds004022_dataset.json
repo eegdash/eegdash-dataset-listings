@@ -1,0 +1,92 @@
+{
+  "dataset_id": "ds004022",
+  "name": "Multimodal EEG and fNIRS Biosignal Acquisition during Motor Imagery Tasks in Patients with Orthopedic Impairment",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset consists of raw 18-channel EEG and functional near infrareds(fNIRS) from 7 human paticipants with orthopedic Impairment during motor imagery(MI).  The participants performed a series of MI-related trials across three sessions. These sessions comprised 40 trials, of which four different MI tasks were presented in random order (e.g., Reach \u2192 Twist \u2192 Lift \u2192 Reach \u2192 Grasp \u2192 Grasp \u2192 Twist \u2192 Reach \u2192 Lift \u2192 Reach). Each trial began with 3 s of fixation cross. The monitor then displayed a 4 s visual cue, followed by 3 s of letters indicating the ready state with a gray screen to eliminate the afterimage. The participants were then instructed to perform the imaginary movement for 5 s in the given order.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.0.2",
+  "license": "CC0",
+  "authors": [
+    "Seho Lee",
+    "Hee Ra Jung",
+    "In-Nea Wang",
+    "Min-Kyung Jung",
+    "Hakseung Kim",
+    "Dong-Joo Kim"
+  ],
+  "funding": [
+    "",
+    "",
+    ""
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004022.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "motorimagery"
+  ],
+  "sessions": [],
+  "total_files": 21,
+  "size_bytes": 646522651,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 7,
+    "ages": [
+      75,
+      48,
+      78,
+      83,
+      77,
+      79,
+      55
+    ],
+    "age_min": 48,
+    "age_max": 83,
+    "age_mean": 70.71428571428571,
+    "species": null,
+    "sex_distribution": {
+      "m": 3,
+      "f": 4
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Dong-Joo Kim",
+  "contact_info": [
+    "\u200d\uae40\ub3d9\uc8fc[ \ubd80\uad50\uc218 / \ub1cc\uacf5\ud559\uacfc ]"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:43:20.828859+00:00",
+    "dataset_created_at": "2022-02-11T05:01:21.503Z",
+    "dataset_modified_at": "2022-02-09T22:23:15.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004022",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task_motorimagery_eeg.json",
+      "task_motorimagery_nirs.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004022",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "5941c34b7636b9001201e7988cdb4224e6059448ec6f35ef855055bdaaa6a44e"
+}

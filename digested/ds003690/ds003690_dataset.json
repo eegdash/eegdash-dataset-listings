@@ -1,0 +1,159 @@
+{
+  "dataset_id": "ds003690",
+  "name": "EEG, ECG and pupil data from young and older adults: rest and auditory cued reaction time tasks",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Age-related differences in EEG, ECG and pupilography during auditory cued reaction time tasks\nIn this study, we acquired the electroencephalogram (EEG), pupilogram and electrocardiogram (ECG) while a group of young (N = 36) and a group of older (N = 39) adults were engaged in auditory cued reaction time tasks (active tasks) or passively listening to the auditory stimulus used as temporal cue, presented with the same frequency as in the active tasks (passive task - 4 minutes acquired at the beginning of the session).\nThe active tasks were a cued simple reaction time task and a cued go/no-go task. In the active tasks, 16% of the trials were cue only trials (the cue was presented but no target followed).\nThe order of the active tasks was counterbalanced across participants and were acquired in two runs of 8 minutes per task. In each task, we acquired 120 trials. In the simple reaction time task, 100 trials were cue-target trials and 20 trials were cue-only. In the go/no-go task, 80 trials were cue-go trials, 20 were cue-no-go trials, and 20 trials were cue-only trials.\nParticipants were fixating a grey computer screen with a lighter grey fixation cross at the center. The auditory stimuli were single-frequency signals (pure tones) with duration 250 ms, with the following frequencies: cue 1500 Hz; go stimulus 1700 Hz; no-go stimulus 1300 Hz; and error feedback signal 1000 Hz.\nThe sounds were played at around 67 dB(A) from a hi-fi speakers system. All stimuli were suprathreshold.\nEEG signal was recorded using a 64-channel Neuroscan system with scalp electrodes placed according to the International 10-20 electrode placement standard, with reference between the electrodes CPz and Cz and ground between FPz and Fz. Acquisition rate was 500 Hz. Vertical and horizontal electrooculograms were recorded to monitor eye movements and blinks. Bipolar electrocardiogram (ECG) electrodes were placed on the chest. During data acquisition, the participants head was stabilized with a chin and forehead rest. Consequently, the electrodes on the forehead, FP1, FPz, and FP2, displayed signal fluctuation artifacts due to the pressure on the forehead rest. These were excluded from the recordings.\nElectrode positions were measured using a 3D-digitizer Fastrak (Polhemus, VT, USA) and imported into the EEGLAB files.\nPupil data was acquired with iView X Hi-Speed 1250 system from SMI with a sampling rate of 240 Hz. Pupil data was imported into the EEG dataset with the EYE-EEG EEGLAB plugin.\nSynchronized EEG, ECG and pupil data are included in separate channels in the EEGLAB .set files.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Maria J. Ribeiro",
+    "Miguel Castelo-Branco"
+  ],
+  "funding": [
+    "This work was funded by Funda\u00e7\u00e3o para a Ci\u00eancia e a Tecnologia (Grants: SFRH/BPD/102188/2014 and UID/NEU/04539/2013-COMPETE, POCI-01-0145-FEDER-00 7440, PACeMEDPERSYST, POCI-01-0145-FEDER-30852, POCI-01-0145-FEDER-016428, BIGDATIMAGE, CENTRO-01-0145-FEDER-000016, financed by Centro 2020 FEDER, COMPETE)."
+  ],
+  "dataset_doi": "10.18112/openneuro.ds003690.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "gonogo",
+    "passive",
+    "simpleRT"
+  ],
+  "sessions": [],
+  "total_files": 375,
+  "size_bytes": 23043388712,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 75,
+    "ages": [
+      21,
+      23,
+      22,
+      21,
+      23,
+      23,
+      24,
+      21,
+      19,
+      20,
+      27,
+      21,
+      21,
+      22,
+      21,
+      20,
+      21,
+      21,
+      26,
+      23,
+      23,
+      20,
+      20,
+      29,
+      23,
+      27,
+      23,
+      24,
+      30,
+      21,
+      24,
+      24,
+      24,
+      25,
+      29,
+      27,
+      66,
+      52,
+      58,
+      58,
+      55,
+      56,
+      55,
+      68,
+      68,
+      59,
+      57,
+      70,
+      61,
+      62,
+      65,
+      62,
+      66,
+      65,
+      57,
+      68,
+      55,
+      69,
+      56,
+      59,
+      59,
+      66,
+      58,
+      64,
+      56,
+      65,
+      59,
+      64,
+      53,
+      54,
+      59,
+      53,
+      53,
+      65,
+      61
+    ],
+    "age_min": 19,
+    "age_max": 70,
+    "age_mean": 42.52,
+    "species": null,
+    "sex_distribution": {
+      "f": 60,
+      "m": 15
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Miguel Castelo-Branco",
+  "contact_info": [
+    "Maria Jos\u00e9 Ribeiro"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:42:19.374336+00:00",
+    "dataset_created_at": "2021-06-09T12:14:21.638Z",
+    "dataset_modified_at": "2021-06-10T08:30:11.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003690",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003690",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "For EEG and pupil data, please cite: Ribeiro M.J. and Castelo-Branco M. 2019 Age-related differences in event-related potentials and pupillary responses in cued reaction time tasks. Neurobiology of Aging. Vol. 73: 177-189 PMID: 30366291 DOI: 10.1016/j.neurobiolaging.2018.09.028. For ECG data, please cite: Ribeiro MJ, Castelo-Branco M. 2019. Neural correlates of anticipatory cardiac deceleration and its association with the speed of perceptual decision-making, in young and older adults. Neuroimage. Jun 5;199:521-533. PMID: 31173904 DOI: 10.1016/j.neuroimage.2019.06.004",
+  "references_and_links": [
+    "Ribeiro M.J. and Castelo-Branco M. 2019 Age-related differences in event-related potentials and pupillary responses in cued reaction time tasks. Neurobiology of Aging. Vol. 73: 177-189 PMID: 30366291 DOI: 10.1016/j.neurobiolaging.2018.09.028 ",
+    "Ribeiro MJ, Castelo-Branco M. 2019. Neural correlates of anticipatory cardiac deceleration and its association with the speed of perceptual decision-making, in young and older adults. Neuroimage. Jun 5;199:521-533. PMID: 31173904 DOI: 10.1016/j.neuroimage.2019.06.004"
+  ],
+  "ingestion_fingerprint": "9c16e688b3e93b619f90127d8ebb0b5b032e34d27115f123492f76a158746fe1"
+}

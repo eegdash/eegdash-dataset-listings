@@ -1,0 +1,72 @@
+{
+  "dataset_id": "ds007558",
+  "name": "EEG Pre/Post Intervention Dataset",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Dataset Description\n## Overview\nThis dataset contains EEG recordings from a study investigating neural activity changes before and after an intervention. The data are organized following the Brain Imaging Data Structure (BIDS) specification.\nThe dataset includes multiple participant groups and timepoints:\n- Group 1, Group 2, Group 3\n- Pre-intervention (pre) and Post-intervention (post)\n## Participants\nParticipants are labeled using anonymized IDs (e.g., sub-001, sub-002, etc.). Demographic and session-related information are provided in the corresponding TSV files where applicable.\n## Data Structure\nThe dataset follows the BIDS format:\n- `sub-XXX/`\n  - `ses-pre/` or `ses-post/`\n    - `eeg/`\n      - EEG recordings (.edf)\n      - Metadata files (.json)\n      - Events files (.tsv)\nEach subject contains EEG recordings organized by session (pre/post).\n## Experimental Design\nThe study compares neural activity before and after an intervention. Participants are divided into different groups to evaluate potential differences in outcomes.\n## Data Acquisition\nEEG data were recorded using standard acquisition systems. Detailed acquisition parameters are stored in the accompanying JSON sidecar files.\n## Data Processing\nThe dataset has been reorganized into BIDS format. File naming, metadata, and structure have been standardized to ensure compatibility with BIDS-compliant tools.\n## Known Issues\n- Some warnings may appear during BIDS validation but do not affect data usability.\n- All critical validation errors have been resolved.\n## Usage Notes\nThis dataset can be used for:\n- EEG signal analysis\n- Functional connectivity studies\n- Pre/post intervention comparisons\n## License\nPlease refer to the dataset repository for licensing information.\n## Acknowledgements\nWe thank all participants and researchers involved in data collection and processing.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Mengsha Qi"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007558.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest"
+  ],
+  "sessions": [
+    "post",
+    "pre"
+  ],
+  "total_files": 121,
+  "size_bytes": 719738454,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 67,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Mengsha Qi",
+  "contact_info": [
+    "Mengsha Qi"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:58:24.366689+00:00",
+    "dataset_created_at": "2026-03-25T11:00:03.607Z",
+    "dataset_modified_at": "2026-03-25T11:14:07.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007558",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007558",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "de8078d37cc1fbad3133d2809fe2fccd9e80f106642a5f6f9ff117fde2f5e0f1"
+}

@@ -1,0 +1,115 @@
+{
+  "dataset_id": "ds004460",
+  "name": "EEG and motion capture data set for a full-body/joystick rotation task",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "An EEG + motion capture data set, analyzed and published in \"Gramann, K., Hohlefeld, F. U., Gehrke, L., & Klug, M. (2021). Human cortical dynamics during full-body heading changes. Scientific Reports, 11(1), 18186\".\nUsed as a BIDS-example data set for EEG + motion : https://github.com/bids-standard/bids-examples/tree/master/motion_spotrotation\nOverview\n--------\nThis is the \"Spot rotation\" dataset.\nIt contains EEG and motion data collected from 20 subjects\ncollected at the Berlin Mobile Brain-Body Imaging Lab,\nwhile they rotated their heading in physical space or on flat screen using a joystick.\nDetailed description of the paradigm can be found in the following reference:\nGramann.K, Hohlefeld, F. U., Gehrke, L., and Klug, M.\n\"Human cortical dynamics during full-body heading changes\".\nScientific Reports 11, 18186 (2021).\nhttps://doi.org/10.1038/s41598-021-97749-8\nCiting this dataset\n-------------------\nPlease cite as follows:\nGramann, K., Hohlefeld, F.U., Gehrke, L. et al. Human cortical dynamics during full-body heading changes. Sci Rep 11, 18186 (2021). https://doi.org/10.1038/s41598-021-97749-8\nFor more information, see the `dataset_description.json` file.\nLicense\n-------\nThis motion_spotrotation dataset is made available under the Creative Commons CC0 license.\nInformation on CC0 can be found here : https://creativecommons.org/share-your-work/public-domain/cc0/\nFormat\n------\nThe dataset is formatted according to the Brain Imaging Data Structure. See the\n`dataset_description.json` file for the specific version used.\nGenerally, you can find data in the .tsv files and descriptions in the\naccompanying .json files.\nAn important BIDS definition to consider is the \"Inheritance Principle\", which\nis described in the BIDS specification under the following link:\nhttps://bids-specification.rtfd.io/en/stable/02-common-principles.html#the-inheritance-principle\nThe section states that:\n> Any metadata file (such as .json, .bvec or .tsv) may be defined at any directory level,\n> but no more than one applicable file may be defined at a given level [...]\n> The values from the top level are inherited by all lower levels unless\n> they are overridden by a file at the lower level.\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Gramann et al. (2021).\nWhat follows is a brief summary.\nData were collected from 20 healthy adults (11 females) with a mean age of 30.25 years\n(SD\u2009=\u20097.68, ranging from ages 20 to 46) who received 10\u20ac/h or course credit for compensation.\nAll participants reported normal or corrected to normal vision and no history of neurological disease.\nEighteen participants reported being right-handed (two left-handed).\nTo control for the effects of different reference frame proclivities on neural dynamics,\nthe online version of the spatial reference frame proclivity test (RFPT44, 45)\nwas administered prior to the experiment.\nParticipants had to consistently use an ego- or allocentric reference frame\nin at least 80% of their responses.\nOf the 20 participants, nine preferentially used an egocentric reference frame,\nnine used an allocentric reference frame, and two used a mixed strategy.\nOne participant (egocentric reference frame) dropped out of the experiment\nafter the first block due to motion sickness and was removed from further data analyses.\nThe reported results are based on the remaining 19 participants.\nThe experimental procedures were approved by the local ethics committee\n(Technische Universit\u00e4t Berlin, Germany)\nand the research was performed in accordance with the ethics guidelines.\nThe study was conducted in accordance to the Declaration of Helsinki\nand all participants signed a written informed consent.\nParticipants performed a spatial orientation task in a sparse virtual environment\n(WorldViz Vizard, Santa Barbara, USA) consisting of an infinite floor granulated in green and black.\nThe experiment was self-paced and participants advanced the experiment\nby starting and ending each trial with a button press using the index finger of the dominant hand.\nA trial started with the onset of a red pole, which participants had to face and align with.\nOnce the button was pressed the pole disappeared\nand was immediately replaced by a red sphere floating at eye level.\nThe sphere automatically started to move around the participant\nalong a circular trajectory at a fixed distance (30 m)\nwith one of two different velocity profiles.\nParticipants were asked to rotate on the spot and to follow the sphere,\nkeeping it in the center of their visual field (outward rotation).\nThe sphere stopped unpredictably at varying eccentricity between 30\u00b0 and 150\u00b0 and turned blue,\nwhich indicated that participants had to rotate back to the initial heading (backward rotation).\nWhen participants had reproduced their estimated initial heading,\nthey confirmed their heading with a button press and the red pole reappeared for reorientation.\nThe participants completed the experimental task twice,\nusing (i) a traditional desktop 2D setup (visual flow controlled through joystick movement; \u201cjoyR\u201d),\nand (ii) equipped with a MoBI setup\n(visual flow controlled through active physical rotation with the whole body; \u201cphysR\u201d).\nThe condition order was balanced across participants.\nTo ensure the comparability of both rotation conditions,\nparticipants carried the full motion capture system at all times.\nIn the joyR condition participants stood in the dimly lit experimental hall in front of a standard TV monitor\n(1.5 m viewing distance, HD resolution, 60 Hz refresh rate, 40\u2033 diagonal size)\nand were instructed to move as little as possible.\nThey followed the sphere by tilting the joystick\nand were thus only able to use visual flow information to complete the task.\nIn the physical rotation condition participants were situated in a 3D virtual reality environment\nusing a head mounted display (HTC Vive; 2\u2009\u00d7\u20091080\u2009\u00d7\u20091200 resolution, 90 Hz refresh rate, 110\u00b0 field of view).\nParticipants\u2019 movements were unconstrained,\ni.e., in order to follow the sphere they physically rotated on the spot,\nthus enabling them to use motor and kinesthetic information (i.e., vestibular input and proprioception)\nin addition to the visual flow for completing the task.\nIf participants diverged from the center position as determined through motion capture of the head position,\nthe task automatically halted and participants were asked to regain center position,\nindicated by a yellow floating sphere, before continuing with the task.\nEach movement condition was preceded by recording a three-minute baseline,\nduring which the participants were instructed to stand still and to look straight ahead.\nData Recordings: EEG.\nEEG data was recorded from 157 active electrodes with a sampling rate of 1000 Hz\nand band-pass filtered from 0.016 Hz to 500 Hz (BrainAmp Move System, Brain Products, Gilching, Germany).\nUsing an elastic cap with an equidistant design (EASYCAP, Herrsching, Germany),\n129 electrodes were placed on the scalp, and 28 electrodes were placed around the neck\nusing a custom neckband (EASYCAP, Herrsching, Germany) in order to record neck muscle activity.\nData were referenced to an electrode located closest to the standard position FCz.\nImpedances were kept below 10k\u03a9 for standard locations on the scalp, and below 50k\u03a9 for the neckband.\nElectrode locations were digitized using an optical tracking system (Polaris Vicra, NDI, Waterloo, ON, Canada).\nData Recordings: Motion Capture.\nTwo different motion capture data sources were used: 19 red active light-emitting diodes (LEDs) were captured\nusing 31 cameras of the Impulse X2 System (PhaseSpace Inc., San Leandro, CA, USA) with a sampling rate of 90 Hz.\nThey were placed on the feet (2 x 4 LEDs), around the hips (5 LEDs), on the shoulders (4 LEDs),\nand on the HTC Vive (2 LEDs; to account for an offset in yaw angle between the PhaseSpace and the HTC Vive tracking).\nExcept for the two LEDs on the HTC Vive, they were subsequently grouped together\nto form rigid body parts of feet, hip, and shoulders, enabling tracking with\nsix degrees of freedom (x, y, and z position and roll, yaw, and pitch orientation) per body part.\nHead motion capture data (position and orientation) was acquired using the HTC Lighthouse tracking system\nwith 90Hz sampling rate, since it was also used for the positional tracking of the virtual reality view.\nThe original data was recorded in `.xdf` format using labstreaminglayer\n(https://github.com/sccn/labstreaminglayer). It is stored in the `/sourcedata`\ndirectory. To comply with the BIDS format, the .xdf format was converted to\nBrainVision format (see the `.eeg` file for binary eeg data, the `.vhdr` as a\ntext header filer containing meta data, and the `.vmrk` as a text file storing\nthe eeg markers).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "n/a",
+  "license": "CC0",
+  "authors": [
+    "Gramann, K.",
+    "Hohlefeld, F.U.",
+    "Gehrke, L.",
+    "Klug, M"
+  ],
+  "funding": [
+    "the German Research Foundation (DFG) Grant No. GR 2627/8-1, Open Access funding enabled and organized by Projekt DEAL."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004460.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "Rotation"
+  ],
+  "sessions": [
+    "body",
+    "joy"
+  ],
+  "total_files": 40,
+  "size_bytes": 63428693430,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      30,
+      22,
+      23,
+      34,
+      25,
+      21,
+      28,
+      28,
+      24,
+      25,
+      30,
+      22,
+      23,
+      34,
+      25,
+      21,
+      28,
+      28,
+      24,
+      25
+    ],
+    "age_min": 21,
+    "age_max": 34,
+    "age_mean": 26.0,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 8
+    },
+    "handedness_distribution": {
+      "r": 18,
+      "l": 2
+    }
+  },
+  "senior_author": "Klug, M",
+  "contact_info": [
+    "Sein Jeung"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:45:20.688994+00:00",
+    "dataset_created_at": "2023-02-02T13:27:50.705Z",
+    "dataset_modified_at": "2024-02-08T15:02:55.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004460",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-Rotation_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004460",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We gratefully acknowledge the help of Jonna J\u00fcrs and Yiru Chen with the data acquisition and pre-processing.",
+  "how_to_acknowledge": "Please cite as \"Gramann, K., Hohlefeld, F. U., Gehrke, L., & Klug, M. (2021). Human cortical dynamics during full-body heading changes. Scientific Reports, 11(1), 18186\"",
+  "ethics_approvals": [
+    "The experimental procedures were approved by the local ethics committee (Technische Universit\u00e4t Berlin, Germany) and the research was performed in accordance with the ethics guidelines. The study was conducted in accordance to the Declaration of Helsinki and all participants signed a written informed consent."
+  ],
+  "references_and_links": [
+    "Human cortical dynamics during full-body heading changes",
+    "https://doi.org/10.1038/s41598-021-97749-8"
+  ],
+  "ingestion_fingerprint": "8b82794c6e23287173e8f55dea01b1dc43e7d0d5b5b9be1a3a37c7f95b66189d"
+}

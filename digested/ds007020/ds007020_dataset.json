@@ -1,0 +1,75 @@
+{
+  "dataset_id": "ds007020",
+  "name": "EEG Mortality Dataset in Parkinson's Disease",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset contains de-identified resting-state EEG recordings from individuals with Parkinson\u2019s disease (PD) and age-matched healthy control subjects. All EEG data were recorded using standard clinical EEG systems at Neurology Clinic.\nDataset Purpose:\nThis dataset was originally used to evaluate whether resting-state EEG can help distinguish subjects who were later deceased from those who remained living (mortality classification). Only de-identified EEG data and mortality labels are included.\nParticipant Information:\n- Participants are labeled as either \"living\" or \"deceased\" in participants.tsv\n- No other demographic or clinical information (age, cognition, UPDRS, disease duration, etc.) is included per data-sharing guidelines.\n- All participant IDs are anonymized following BIDS convention (e.g., sub-PD1301).\nEEG Acquisition Details:\n- Recording type: Resting-state EEG (eyes open)\n- Device: Clinical BrainVision EEG system\n- File formats: .vhdr, .eeg, .vmrk\n- Sampling rate: 500 Hz\n- Montage: Standard 10\u201320 international system\n- Recording condition: \u201ctask-rest\u201d (no task)\nData Organization:\nData are structured following the BIDS (Brain Imaging Data Structure) EEG standard:\n    sub-<ID>/\n        ses-01/\n            eeg/\n                sub-<ID>_ses-01_task-rest_eeg.vhdr\n                sub-<ID>_ses-01_task-rest_eeg.eeg\n                sub-<ID>_ses-01_task-rest_eeg.vmrk\nMortality Label Format:\n- Living subjects: survival_status = \"living\"\n- Deceased subjects: survival_status = \"deceased\"\nEthics & Privacy:\nAll subjects provided consent for EEG recording at the University of Iowa Hospitals and Clinics. The publicly shared version here is fully de-identified and contains no clinical or personal health information other than mortality classification.\nSuggested Use:\nThis dataset can be used to explore EEG biomarkers of mortality risk, EEG signal characteristics in PD, or to build machine learning models for classification.\nQuestions or requests:\nPlease contact nandakumar-narayanan@uiowa.edu.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Simin Jamshidi",
+    "Arturo Espinoza",
+    "Soura Dasgupta",
+    "Nandakumar Narayanan"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007020.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 94,
+  "size_bytes": 1870056562,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 94,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Nandakumar Narayanan",
+  "contact_info": [
+    "Simin J. Visser"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:56:17.710329+00:00",
+    "dataset_created_at": "2025-12-02T04:13:14.727Z",
+    "dataset_modified_at": "2025-12-02T04:32:19.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007020",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007020",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "212c9a816896882c652db04dce9ecd1aff1db73274228bbe6eb8db3afd314002"
+}

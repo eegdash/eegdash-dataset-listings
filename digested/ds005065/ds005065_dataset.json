@@ -1,0 +1,88 @@
+{
+  "dataset_id": "ds005065",
+  "name": "Heuristics in risky decision-making relate to preferential representation of information MEG data",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "The task consisted of 13 scanner runs (except for subject 1 who completed 5 rather than 3 localizer runs). Runs 1-3 (1-5 for subject 1) are the localizer task. Runs 4-5 are non-analyzed data from the 'probability learning' task. Runs 6-13 (8-15 for subject 1) are the risky decision-making task.\nEvent times were recorded with a photodiode, which is accessible as a MEG channel. This has been processed so that event times are listed in derivatives/Event_Info_Tables. Raw times of events in the scan are in column \"onset_time\". The corresponding index into the unprocessed MEG data is in column \"scanner_onset_idx\". The onset into the downsampled data is in \"onset_idx_ds\". In the table, each row corresponds to an event. Block number denotes which scanner run that event belongs to. For the localizer task (denoted in phase column), events are image onsets. \"image_type\" specifies the role of that image in the task (\"CHOICE\" or \"OUTCOME\") and \"image_number\" denotes which choice or outcome it is (see paper Fig. 1). Finally, \"image_name\" denotes which image category was shown (e.g. \"Hand\"). For the task, events correspond to gamble information onset (Info), Probability stimulus presentation (\"Choice\"), response (\"Gamble Response\") and outcome onset (\"Outcome\"). Columns denote which image was shown and what the response was (accept).\nderivatives/Epoched_Data contains epoched preprocessed data for each subject for the localizer task and then around each choice in the main choice task. Both are epoched from from 0-500 ms following the event.\nCode to analyze the data along with additional behavioral data is available at https://github.com/evanrussek/MEG_Heuristics_Risk_Preferential_Information",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v1.5.0",
+  "license": "CC0",
+  "authors": [
+    "Evan M. Russek",
+    "Rani Moran",
+    "Yunzhe Liu",
+    "Ray Dolan",
+    "Quentin Huys"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005065.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "RiskyDecision"
+  ],
+  "sessions": [],
+  "total_files": 275,
+  "size_bytes": 457153490815,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Quentin Huys",
+  "contact_info": [
+    "Evan Russek"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:47:52.941855+00:00",
+    "dataset_created_at": "2024-04-07T02:26:32.589Z",
+    "dataset_modified_at": "2024-04-09T01:21:46.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005065",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005065",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Daniel Bates for assistance with data collection. We acknowledge funding from the Open Research Fund of the State Key Laboratory of Cognitive Neuroscience and Learning to Y.L. and a Wellcome Trust Investigator Award (098362/Z/12/Z) to R.J.D. This work was carried out whilst R.J.D. was in receipt of a Lundbeck 20 Visiting Professorship (R290-2018-2804) to the Danish Research Centre for Magnetic Resonance. The Max Planck UCL Centre is supported by UCL and the Max Planck Society. The Wellcome Centre for Human Neuroimaging (WCHN) is supported by core funding from the Wellcome Trust (203147/Z/16/Z).",
+  "ethics_approvals": [
+    "UCL ethics board (ID: 9929/002)"
+  ],
+  "references_and_links": [
+    "https://osf.io/preprints/psyarxiv/kb6ew"
+  ],
+  "generated_by": [
+    {
+      "Name": "FieldTrip",
+      "Version": "unknown",
+      "Description": "data2bids converter",
+      "URI": "https://www.fieldtriptoolbox.org"
+    }
+  ],
+  "ingestion_fingerprint": "765549ff825e057bcb35e92470d348826234776071123fb80a873f3d96b74753"
+}

@@ -1,0 +1,133 @@
+{
+  "dataset_id": "ds005411",
+  "name": "Free Recall of Word Lists with Repeated Items",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "### Free Recall of Word Lists with Repeated Items\n#### Description\nThis dataset contains behavioral events and intracranial electrophysiological recordings from a repated item free recall task.  The experiment consists of participants studying a list of words, presented visually one at a time, and then freely recalling the words from the just-presented list in any order. On each list, there is a 7-second delay period between the encoding and recall phases.  The data were collected at clinical sites across the country as part of a collaboration with the Computational Memory Lab at the University of Pennsylvania.\nThe main manipulation in this paradigm is the repetition of items in the studied list. In total, each list contains 27 encoding events, but only 12 unique words: 3 are presented one time, 3 are presented two times, and 6 are presented three times.\n#### To Note\n* The duration of the encoding events (i.e., length of word presentation) varies among sessions.  For some sessions, the words remained on screen from 750 ms, while in other sessions presentation lasted for 1600 ms. The `duration` column of the events tsv files contains this information.\n* The iEEG recordings are labeled either \"monopolar\" or \"bipolar.\"  The monopolar recordings are referenced (typically a mastoid reference), but should always be re-referenced before analysis.  The bipolar recordings are referenced according to a paired scheme indicated by the accompanying bipolar channels tables.\n* Each subject has a unique montage of electrode locations.  MNI and Talairach coordinates are provided when available.\n* Recordings done with the Blackrock system are in units of 250 nV, while recordings done with the Medtronic system are estimated through testing to have units of 0.1 uV.  We have completed the scaling to provide values in V.\n#### Contact\nFor questions or inquiries, please contact sas-kahana-sysadmin@sas.upenn.edu.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Haydn G. Herrema",
+    "Michael J. Kahana"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005411.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "RepFR1"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6"
+  ],
+  "total_files": 193,
+  "size_bytes": 168961242901,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 47,
+    "ages": [
+      25,
+      32,
+      46,
+      40,
+      29,
+      24,
+      32,
+      31,
+      34,
+      39,
+      38,
+      43,
+      31,
+      24,
+      30,
+      31,
+      43,
+      37,
+      38,
+      35,
+      55,
+      31,
+      20,
+      23,
+      52,
+      57,
+      39,
+      37,
+      35,
+      36,
+      34,
+      49,
+      55,
+      40,
+      36,
+      42,
+      62,
+      24,
+      62,
+      40,
+      23,
+      43,
+      30,
+      56,
+      45,
+      34,
+      22
+    ],
+    "age_min": 20,
+    "age_max": 62,
+    "age_mean": 37.53191489361702,
+    "species": null,
+    "sex_distribution": {
+      "f": 26,
+      "m": 22
+    },
+    "handedness_distribution": {
+      "r": 41,
+      "l": 4
+    }
+  },
+  "senior_author": "Michael J. Kahana",
+  "contact_info": [
+    "Haydn Herrema"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:50:15.577521+00:00",
+    "dataset_created_at": "2024-08-13T16:37:26.160Z",
+    "dataset_modified_at": "2024-08-14T14:45:19.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005411",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005411",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "4f6d6e1b4e10b7c835eb9086dfb73a1f6287b11c42c609d29e8f269571e6ef1a"
+}

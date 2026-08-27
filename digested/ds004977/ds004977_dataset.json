@@ -1,0 +1,96 @@
+{
+  "dataset_id": "ds004977",
+  "name": "CARLA: Adjusted common average referencing for cortico-cortical evoked potential data",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# CARLA: Adjusted common average referencing for cortico-cortical evoked potential data\nThis dataset contains intracranial EEG recordings from four patients during single pulse electrical stimulation as described in:\n* H Huang, G Ojeda Valencia, NM Gregg, GM Osman, MN Montoya, GA Worrell, KJ Miller, and D Hermes. (2024). CARLA: Adjusted common average referencing for cortico-cortical evoked potential data. Journal of Neuroscience Methods, 110153. DOI: https://doi.org/10.1016/j.jneumeth.2024.110153.\nCurrently, this dataset contains the raw data needed to generate all results EXCEPT for those pertaining to figures 7 and 8 (unavailable data samples are censored with 0). The complete data are currently being used to answer other scientific questions, and will be released in time with other manuscripts.\nPlease cite this work when using the data. These data were recorded at the Mayo Clinic in Rochester, MN, as part of the NIH Brain Initiative supported project R01 MH122258 \"CRCNS: Processing speed in the human connectome across the lifespan\". Research reported in this publication was supported by the National Institute Of Mental Health of the National Institutes of Health under Award Number R01MH122258, by the National Institute of General Medical Sciences of the National Institutes of Health under Award Number T32GM145408, and by the American Epilepsy Society under award number 937450. The project was also supported by the Mayo Clinic DERIVE Office and the Mayo Clinic Center for Biomedical Discovery. The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. The data were collected by Harvey Huang, Dora Hermes, Nicholas M. Gregg, Gamaleldin M. Osman, and Cindy Nelson. The BIDS formatting was performed by Harvey Huang, Dora Hermes, Gabriela Ojeda Valencia, and Morgan Montoya. The iEEG data collection was facilitated by Gregory A. Worrell and Kai J. Miller.\nData can be analyzed using the Matlab code at:\n* https://github.com/hharveygit/CARLA_JNM\n## Format\nData are formatted according to BIDS version 1.14.0\n## Single pulse stimulation\nThe patient were resting in the hospital bed, while single pulse stimulation was performed with a frequency of ~0.2 Hz. The stimulation had a duration of 200 microseconds, was biphasic and had an amplitude of 6mA.\n## Contact\nPlease contact Harvey Huang (huang.harvey@mayo.edu) or Dora Hermes (hermes.dora@mayo.edu) for questions.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v 1.14.0",
+  "license": "CC0",
+  "authors": [
+    "Harvey Huang",
+    "Gabriela Ojeda Valencia",
+    "Nicholas M Gregg",
+    "Gamaleldin M Osman",
+    "Morgan N Montoya",
+    "Gregory A Worrell",
+    "Kai J Miller",
+    "Dora Hermes"
+  ],
+  "funding": [
+    "R01 MH122258 CRCNS: Processing speed in the human connectome across the lifespan",
+    "T32 GM145408: Medical Scientist Training Program at Mayo Clinic",
+    "937450: AES Predoctoral Research Fellowship"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004977.v1.2.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ccep"
+  ],
+  "sessions": [
+    "ieeg01"
+  ],
+  "total_files": 6,
+  "size_bytes": 1604950022,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 4,
+    "ages": [
+      18,
+      19,
+      19,
+      16
+    ],
+    "age_min": 16,
+    "age_max": 19,
+    "age_mean": 18.0,
+    "species": null,
+    "sex_distribution": {
+      "m": 2,
+      "f": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Dora Hermes",
+  "contact_info": [
+    "Harvey Huang"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:47:42.823730+00:00",
+    "dataset_created_at": "2024-02-19T19:52:02.163Z",
+    "dataset_modified_at": "2024-05-13T17:47:41.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004977",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv",
+      "task-ccep_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004977",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Cindy Nelson, Karla Crockett",
+  "how_to_acknowledge": "This dataset is part of the paper on 'CARLA: Adjusted common average referencing for cortico-cortical evoked potential data' by H Huang, G Ojeda Valencia, NM Gregg, GM Osman, MN Montoya, GA Worrell, KJ Miller, and D Hermes. This project is funded by the National Institute Of Mental Health of the National Institutes of Health under Award Number R01MH122258 to Dora Hermes (Mayo Clinic), by the National Institute of General Medical Sciences of the National Institutes of Health under Award Number T32GM145408 to the Medical Scientist Training Program at Mayo Clinic, and by the American Epilepsy Society under award number 937450 to Harvey Huang (Mayo Clinic). The project was also supported by the Mayo Clinic DERIVE Office and the Mayo Clinic Center for Biomedical Discovery. The data were collected by Harvey Huang (Mayo Clinic), Dora Hermes (Mayo Clinic), Nicholas M. Gregg (Mayo Clinic), Gamaleldin M. Osman (UTHealth Houston), and Cindy Nelson (Mayo Clinic). The BIDS formatting was performed by Harvey Huang (Mayo Clinic), Dora Hermes (Mayo Clinic), Gabriela Ojeda Valencia (Mayo Clinic), and Morgan Montoya (Mayo Clinic). The iEEG data collection was facilitated by Gregory A. Worrell (Mayo Clinic) and Kai J. Miller (Mayo Clinic)",
+  "references_and_links": [
+    "https://doi.org/10.48550/arXiv.2310.00185"
+  ],
+  "ingestion_fingerprint": "8d8357d4dab560189cb8bc625770616e937163e8b0aed81deda777f64ba9545a"
+}

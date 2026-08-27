@@ -1,0 +1,82 @@
+{
+  "dataset_id": "ds007081",
+  "name": "Passive but accessible:  Studied information is not actively stored in working memory, yet attended regardless of anticipated load",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Each trial began with a fixation dot presented for a jittered intertrial interval (ITI) between 600 and 1000 ms.\nThe first memory screen (1000 ms) showed two objects on one lateral side that participants were instructed to memorize (indicated by a wedge cue), and two objects on the opposite side to balance visual input.\nDepending on the block condition, the to-be-memorized objects on the first screen could be studied (learned in the learning phase) or novel/unstudied.\nAfter a 1400 ms interstimulus interval, a second memory screen (1000 ms) presented additional items vertically around fixation (one above and one below fixation); these items were always novel/unstudied and were placed near fixation to avoid influencing lateral EEG indices from the first screen.\nIn the extra-load expectation condition, additional second-screen items appeared on 80% of trials (and were omitted on 20% of trials), whereas in the low-load expectation condition this probability was reversed (20% appear, 80% omitted).\nAfter a 400 ms interstimulus interval, a probe from either the first or second memory screen was presented and participants reported the probed object's color by moving the mouse; the probe color updated continuously along an invisible color wheel whose orientation was randomly rotated on each trial.\nAfter the response, absolute angular error feedback was displayed for 400 ms; for studied objects, if the error exceeded 40\u00b0, the correct color was displayed for 1000 ms as corrective feedback.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.1",
+  "license": "CC0",
+  "authors": [
+    "Yakup Y\u0131lmaz",
+    "Nursena Ataseven \u00d6zdemir",
+    "Wouter Kruijne",
+    "Elkan Aky\u00fcrek",
+    "Eren G\u00fcnseli"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007081.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PassiveAccessible"
+  ],
+  "sessions": [],
+  "total_files": 41,
+  "size_bytes": 12129532986,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 41,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Eren G\u00fcnseli",
+  "contact_info": [
+    "Yakup Y\u0131lmaz"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:56:24.780897+00:00",
+    "dataset_created_at": "2025-12-14T15:48:28.314Z",
+    "dataset_modified_at": "2025-12-14T17:28:23.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007081",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007081",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://osf.io/bjud9"
+  ],
+  "generated_by": [
+    {
+      "Name": "EEG-BIDS",
+      "Version": "10.3"
+    }
+  ],
+  "ingestion_fingerprint": "dff177f9863c0eac4b767b59829951e30f238b887070c6c18e043b506ec237a5"
+}

@@ -1,0 +1,115 @@
+{
+  "dataset_id": "ds007816",
+  "name": "Visual Semantic Encoding and Identification of Naturalistic Movies via High-Density Diffuse Optical Tomography",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <meta charset=\"UTF-8\">\n</head>\n<body>\n<p><strong>Overview</strong></p>\n<p>This dataset contains high-density diffuse optical tomography (HD-DOT) and functional MRI (fMRI) data from six healthy adult participants. DOT data were collected across three imaging sessions, and fMRI data were collected in a separate fourth session. Participants passively viewed silent natural movie clips, totaling 120 minutes of unique training content and 90 minutes of repeated test content (10 minutes per run). All movie stimuli were drawn from Nishimoto et al. (2011); the semantic labels were drawn from Huth et al. (2012). The test set contains a 1-minute deviation from the original Nishimoto et al. (2011) stimulus set (clip 8, seconds 421\u2013480), for which semantic labels were generated separately following the annotation methods described in Huth et al. (2012).</p>\n<p>Data were acquired on a custom-built, whole-head Very High-Density Diffuse Optical Tomography (VHD-DOT) system Fogarty et al. (2025) at Washington University in St. Louis, USA. The continuous-wave system included 255 source positions (685 and 830 nm) and 252 avalanche photodiode detectors coupled to the head using optic fiber bundles. The imaging cap provided a first-nearest-neighbor separation of \u223c9.75 mm, yielding 9,160 possible measurements with source-detector separations \u226440 mm across both wavelengths. </p>\n<p><strong>Stimuli and task design</strong></p>\n<p>Training movies comprised 12 unique 10-minute runs (Trn001\u2013Trn012). Event files (events.tsv) label these as TRAINMOVIE.</p>\n<p>Test movies comprised nine unique 1-minute clips, each repeated 10 times across three sessions. Each session covered three consecutive clips: session 1 covered clips 1\u20133, session 2 clips 4\u20136, and session 3 clips 7\u20139, with 3\u20134 repetitions per run. In filenames, test movie runs are labeled Val<em>S</em>c<em>N</em> where <em>S</em> is the session number (1\u20133) and <em>N</em> is the clip index within that session (1\u20133); for example, Val2c1 refers to the first clip of session 2 (clip 4 of the full test set). Event files use the session-relative labels TESTMOVIECLIP1, TESTMOVIECLIP2, TESTMOVIECLIP3, which map to the same indexing.</p>\n<p>Localizer tasks used a block design and included two runs per session: an auditory word list task (HW) and a visual checkerboard task with left and right stimulation (AC).</p>\n<p><strong>Data organization</strong></p>\n<p>Data are organized in BIDS format.</p>\n<ul>\n  <li><code>sub-*/</code>: Raw HD-DOT and fMRI data; defaced T1w anatomical scans.</li>\n  <li><code>derivatives/Processed_fMRI/</code>: Fully preprocessed fMRI data (.mat and .nii).</li>\n  <li><code>derivatives/freesurfer/</code>: FreeSurfer segmentation masks (aseg). Masks were generated using both T1w and T2w images; T2w scans are not included in this release.</li>\n  <li><code>derivatives/reconDOT/</code>: Reconstructed HD-DOT images (HbO and HbR) in image space, one .mat file per run. Each file includes an <code>info.paradigm</code> field encoding task events as pulse indices: Pulse 1 = rest; HW Pulse 2 = word list onset; AC Pulse 2 = right and Pulse 3 = left checkerboard onset; Trn Pulse 2 = movie onset; Val Pulse 2\u20134 = clips 1\u20133 onset (session-relative, as described above). The <code>info.movName</code> field contains the run label (e.g., <code>Val001c1</code>, <code>Trn001</code>).</li>\n  <li><code>derivatives/Amats/</code>: A-matrices used for DOT image reconstruction (.mat).</li>\n  <li><code>derivatives/Viz/</code>: Field-of-view and cortical surface files per participant.</li>\n  <li><code>derivatives/DOT_MovieData_Full/</code>: Concatenated HD-DOT responses. TrainFull: 7200\u00d7nVox; TestFull: 10\u00d7540\u00d7nVox.</li>\n  <li><code>derivatives/SemanticLabels/</code>: Binary semantic annotation matrices. X_test: 540\u00d71708; X_train: 7200\u00d71708. Category labels are in <code>utils/wordnet_categories.txt</code>.</li>\n  <li><code>derivatives/Stimulus/</code>: Movie stimuli at 15 Hz. TestMovies: 512\u00d7512\u00d73\u00d78100; TrainMovies: 512\u00d7512\u00d73\u00d7108000.</li>\n</ul>\n<p><strong>Notes</strong></p>\n<ul>\n  <li>Model weights and analysis scripts accompanying this work are available at the associated G-Node GIN repository, <a href=\"https://gin.g-node.org/wfehner/visual-semantic-hddot\">https://gin.g-node.org/wfehner/visual-semantic-hddot</a> (<a href=\"https://doi.org/10.12751/g-node.qf5ttf\">DOI: 10.12751/g-node.qf5ttf</a>).</li>\n  <li>See the associated preprint for full acquisition and preprocessing details.</li>\n  <li><strong>Associated preprint.</strong> Fehner, W., Fogarty, M., Tang, J., Wilhelm, D., Bajracharya, A., Markow, Z. E., Hines, A., Trobaugh, J. W., Huth, A. G., &amp; Culver, J. P. (2025). Visual Semantic Encoding and Identification of Naturalistic Movies via High-Density Diffuse Optical Tomography. <a href=\"https://doi.org/10.64898/2025.12.03.692158\">https://doi.org/10.64898/2025.12.03.692158</a></li>\n</ul>\n<p><strong>References</strong></p>\n<p>Fogarty, M., Rafferty, S. M., Markow, Z. E., O\u2019Sullivan, A. C., Svoboda, C. F., George, T., King, K., Wilhelm, D., Tripathy, K., Mugler, E. M., Naufel, S., Yin, A., Trobaugh, J. W., Eggebrecht, A. T., Richter, E. J., & Culver, J. P. (2025). Functional brain mapping using whole-head very high-density diffuse optical tomography. <em>Imaging Neuroscience</em>, 3. <a\nhref=\"https://doi.org/10.1162/imag.a.54\">https://doi.org/10.1162/imag.a.54</a>\u200c</p>\n<p>Huth, A. G., Nishimoto, S., Vu, A. T., &amp; Gallant, J. L. (2012). A continuous semantic space describes the representation of thousands of object and action categories across the human brain. <em>Neuron</em>, 76(6), 1210\u20131224. <a href=\"https://doi.org/10.1016/j.neuron.2012.10.014\">https://doi.org/10.1016/j.neuron.2012.10.014</a></p>\n<p>Nishimoto, S., Vu, A. T., Naselaris, T., Benjamini, Y., Yu, B., &amp; Gallant, J. L. (2011). Reconstructing visual experiences from brain activity evoked by natural movies. <em>Curr Biol</em>, 21(19), 1641\u20131646. <a href=\"https://doi.org/10.1016/j.cub.2011.08.031\">https://doi.org/10.1016/j.cub.2011.08.031</a></p>\n</body>\n</html>",
+  "recording_modality": [
+    "fnirs"
+  ],
+  "datatypes": [
+    "fnirs"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "",
+  "license": "CC0",
+  "authors": [
+    "Wiete Fehner",
+    "Morgan Fogarty",
+    "Jerry Tang",
+    "Dana Wilhelm",
+    "Aahana Bajracharya",
+    "Zachary E. Markow",
+    "Amelia M. Hines",
+    "Jason W. Trobaugh",
+    "Alexander G. Huth",
+    "Joseph P. Culver"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007816.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "AC001",
+    "AC002",
+    "AC003",
+    "AC004",
+    "AC005",
+    "HW001",
+    "HW002",
+    "HW003",
+    "HW004",
+    "HW005",
+    "HW006",
+    "HW007",
+    "HW008",
+    "Trn001",
+    "Trn002",
+    "Trn003",
+    "Trn004",
+    "Trn005",
+    "Trn006",
+    "Trn007",
+    "Trn008",
+    "Trn009",
+    "Trn010",
+    "Trn011",
+    "Trn012",
+    "Val001c1",
+    "Val001c2",
+    "Val001c3",
+    "Val002c1",
+    "Val002c2",
+    "Val002c3",
+    "Val003c1",
+    "Val003c2",
+    "Val003c3"
+  ],
+  "sessions": [
+    "1",
+    "2",
+    "3"
+  ],
+  "total_files": 178,
+  "size_bytes": 138184244544,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 6,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Joseph P. Culver",
+  "contact_info": [
+    "Wiete  Fehner",
+    "Morgan Fogarty"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:59:57.776888+00:00",
+    "dataset_created_at": "2026-05-19T17:54:54.622Z",
+    "dataset_modified_at": "2026-08-02T10:14:10.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007816",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007816",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "9725ffd845d5ef58f6f3a7b05f26ba9accc849d09511edc3560f523825d5573e"
+}

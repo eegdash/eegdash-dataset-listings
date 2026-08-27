@@ -1,0 +1,3838 @@
+{
+  "dataset": "ds004944",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:47:38.770444+00:00",
+  "record_count": 44,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-17_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_events.json",
+          "sub-17/ses-SITUATION2A/ieeg/sub-17_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 459999,
+      "duration_seconds": 229.9995,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 3.0,
+        "sex": "F",
+        "etiology": "FCD 2a",
+        "outcome": 3.0,
+        "follow_up": 36.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 229.9995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-17_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_events.json",
+          "sub-17/ses-SITUATION1A/ieeg/sub-17_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 244330,
+      "duration_seconds": 122.165,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 3.0,
+        "sex": "F",
+        "etiology": "FCD 2a",
+        "outcome": 3.0,
+        "follow_up": 36.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 122.165,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-14_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_events.json",
+          "sub-14/ses-SITUATION2A/ieeg/sub-14_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 516000,
+      "duration_seconds": 258.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 7.0,
+        "sex": "F",
+        "etiology": "FCD 2b",
+        "outcome": 1.0,
+        "follow_up": 16.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 258,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-14_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_events.json",
+          "sub-14/ses-SITUATION1A/ieeg/sub-14_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 2,
+      "ntimes": 340000,
+      "duration_seconds": 170.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 7.0,
+        "sex": "F",
+        "etiology": "FCD 2b",
+        "outcome": 1.0,
+        "follow_up": 16.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 170,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-15_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_events.json",
+          "sub-15/ses-SITUATION2A/ieeg/sub-15_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5",
+        "5-6"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 5,
+      "ntimes": 714381,
+      "duration_seconds": 357.1905,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 17.0,
+        "sex": "M",
+        "etiology": "FCD 3",
+        "outcome": 5.0,
+        "follow_up": 35.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 357.1905,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-15_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_events.json",
+          "sub-15/ses-SITUATION1A/ieeg/sub-15_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 244330,
+      "duration_seconds": 122.165,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 17.0,
+        "sex": "M",
+        "etiology": "FCD 3",
+        "outcome": 5.0,
+        "follow_up": 35.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 122.165,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-04_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_events.json",
+          "sub-04/ses-SITUATION2A/ieeg/sub-04_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "25-26",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 464000,
+      "duration_seconds": 232.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 22.0,
+        "sex": "M",
+        "etiology": "Ganglioglioma",
+        "outcome": 1.0,
+        "follow_up": 18.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 232,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-04_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_events.json",
+          "sub-04/ses-SITUATION1A/ieeg/sub-04_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "22-23",
+        "23-24",
+        "25-26",
+        "26-27",
+        "27-28",
+        "28-29",
+        "29-30",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 25,
+      "ntimes": 188000,
+      "duration_seconds": 94.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 22.0,
+        "sex": "M",
+        "etiology": "Ganglioglioma",
+        "outcome": 1.0,
+        "follow_up": 18.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 94,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-13_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_events.json",
+          "sub-13/ses-SITUATION2A/ieeg/sub-13_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "5-6",
+        "6-7",
+        "7-8"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 338540,
+      "duration_seconds": 169.27,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 42.0,
+        "sex": "F",
+        "etiology": "Cavernoma",
+        "outcome": 5.0,
+        "follow_up": 29.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 169.27,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-13_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_events.json",
+          "sub-13/ses-SITUATION1A/ieeg/sub-13_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "5-6",
+        "6-7",
+        "7-8"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 5,
+      "ntimes": 316061,
+      "duration_seconds": 158.0305,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 42.0,
+        "sex": "F",
+        "etiology": "Cavernoma",
+        "outcome": 5.0,
+        "follow_up": 29.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 158.0305,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-05_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_events.json",
+          "sub-05/ses-SITUATION2A/ieeg/sub-05_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "17-18",
+        "18-19",
+        "23-24",
+        "25-26",
+        "26-27",
+        "27-28",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 19,
+      "ntimes": 270000,
+      "duration_seconds": 135.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 20.0,
+        "sex": "F",
+        "etiology": "FCD 2a",
+        "outcome": 1.0,
+        "follow_up": 13.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 135,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-05_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_events.json",
+          "sub-05/ses-SITUATION1A/ieeg/sub-05_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "25-26",
+        "26-27",
+        "27-28",
+        "29-30",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 23,
+      "ntimes": 840000,
+      "duration_seconds": 420.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 20.0,
+        "sex": "F",
+        "etiology": "FCD 2a",
+        "outcome": 1.0,
+        "follow_up": 13.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 420,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-18_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_events.json",
+          "sub-18/ses-SITUATION2A/ieeg/sub-18_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "9-10",
+        "10-11",
+        "11-12"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 6,
+      "ntimes": 624000,
+      "duration_seconds": 312.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 4.0,
+        "sex": "M",
+        "etiology": "FCD 1a",
+        "outcome": 5.0,
+        "follow_up": 38.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 312,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-18_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_events.json",
+          "sub-18/ses-SITUATION1A/ieeg/sub-18_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "9-10",
+        "10-11",
+        "11-12"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 6,
+      "ntimes": 399999,
+      "duration_seconds": 199.9995,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 4.0,
+        "sex": "M",
+        "etiology": "FCD 1a",
+        "outcome": 5.0,
+        "follow_up": 38.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 199.9995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-12_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_events.json",
+          "sub-12/ses-SITUATION2A/ieeg/sub-12_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "3-4",
+        "4-5",
+        "5-6"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 296013,
+      "duration_seconds": 148.0065,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 38.0,
+        "sex": "M",
+        "etiology": "Anaplastic astrocytoma (WHO III)",
+        "outcome": 1.0,
+        "follow_up": 14.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 148.0065,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-12_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_events.json",
+          "sub-12/ses-SITUATION1A/ieeg/sub-12_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 244330,
+      "duration_seconds": 122.165,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 38.0,
+        "sex": "M",
+        "etiology": "Anaplastic astrocytoma (WHO III)",
+        "outcome": 1.0,
+        "follow_up": 14.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 122.165,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-11_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_events.json",
+          "sub-11/ses-SITUATION2A/ieeg/sub-11_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 672000,
+      "duration_seconds": 336.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 36.0,
+        "sex": "F",
+        "etiology": "Ependymoma (WHO II)",
+        "outcome": 1.0,
+        "follow_up": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 336,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-11_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_events.json",
+          "sub-11/ses-SITUATION1A/ieeg/sub-11_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 4,
+      "ntimes": 494000,
+      "duration_seconds": 247.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 36.0,
+        "sex": "F",
+        "etiology": "Ependymoma (WHO II)",
+        "outcome": 1.0,
+        "follow_up": 28.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 247,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-03_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_events.json",
+          "sub-03/ses-SITUATION2A/ieeg/sub-03_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "18-19",
+        "26-27"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 10,
+      "ntimes": 404000,
+      "duration_seconds": 202.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 17.0,
+        "sex": "M",
+        "etiology": "Sturge Weber",
+        "outcome": 1.0,
+        "follow_up": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 202,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-03_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_events.json",
+          "sub-03/ses-SITUATION1A/ieeg/sub-03_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "25-26",
+        "26-27",
+        "27-28",
+        "28-29"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 21,
+      "ntimes": 180000,
+      "duration_seconds": 90.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 17.0,
+        "sex": "M",
+        "etiology": "Sturge Weber",
+        "outcome": 1.0,
+        "follow_up": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 90,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-06_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_events.json",
+          "sub-06/ses-SITUATION2A/ieeg/sub-06_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "23-24",
+        "27-28",
+        "28-29",
+        "29-30",
+        "30-31"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 23,
+      "ntimes": 414000,
+      "duration_seconds": 207.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 3.0,
+        "sex": "F",
+        "etiology": "Sturge Weber",
+        "outcome": 3.0,
+        "follow_up": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 207,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-06_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_events.json",
+          "sub-06/ses-SITUATION1A/ieeg/sub-06_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "23-24",
+        "25-26",
+        "26-27",
+        "27-28",
+        "28-29",
+        "29-30",
+        "30-31"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 27,
+      "ntimes": 472000,
+      "duration_seconds": 236.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 3.0,
+        "sex": "F",
+        "etiology": "Sturge Weber",
+        "outcome": 3.0,
+        "follow_up": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 236,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-21_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_events.json",
+          "sub-21/ses-SITUATION2A/ieeg/sub-21_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "9-10",
+        "10-11",
+        "11-12"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 6,
+      "ntimes": 497762,
+      "duration_seconds": 248.881,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 41.0,
+        "sex": "M",
+        "etiology": "Cavernoma",
+        "outcome": 5.0,
+        "follow_up": 35.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 248.881,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-21_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_events.json",
+          "sub-21/ses-SITUATION1A/ieeg/sub-21_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "9-10",
+        "10-11",
+        "11-12"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 6,
+      "ntimes": 127800,
+      "duration_seconds": 63.9,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 41.0,
+        "sex": "M",
+        "etiology": "Cavernoma",
+        "outcome": 5.0,
+        "follow_up": 35.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 63.9,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-20_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_events.json",
+          "sub-20/ses-SITUATION2A/ieeg/sub-20_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-4",
+        "4-2",
+        "2-3"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 397800,
+      "duration_seconds": 198.9,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 4.0,
+        "sex": "M",
+        "etiology": "FCD 1c",
+        "outcome": 1.0,
+        "follow_up": 38.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 198.9,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-20_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_events.json",
+          "sub-20/ses-SITUATION1A/ieeg/sub-20_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-4",
+        "4-2",
+        "2-3"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 443800,
+      "duration_seconds": 221.9,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 4.0,
+        "sex": "M",
+        "etiology": "FCD 1c",
+        "outcome": 1.0,
+        "follow_up": 38.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 221.9,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-19_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_events.json",
+          "sub-19/ses-SITUATION2A/ieeg/sub-19_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "5-6",
+        "6-7",
+        "7-8",
+        "13-14",
+        "14-15",
+        "15-16"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 6,
+      "ntimes": 354634,
+      "duration_seconds": 177.317,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 17.0,
+        "sex": "M",
+        "etiology": "Hippocampal sclerosis",
+        "outcome": 5.0,
+        "follow_up": 40.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 177.317,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-19_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_events.json",
+          "sub-19/ses-SITUATION1A/ieeg/sub-19_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "5-6",
+        "6-7",
+        "7-8",
+        "13-14",
+        "14-15",
+        "15-16"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 6,
+      "ntimes": 359999,
+      "duration_seconds": 179.9995,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 17.0,
+        "sex": "M",
+        "etiology": "Hippocampal sclerosis",
+        "outcome": 5.0,
+        "follow_up": 40.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 179.9995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-08_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_events.json",
+          "sub-08/ses-SITUATION2A/ieeg/sub-08_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "06-07",
+        "07-08",
+        "09-10",
+        "14-15",
+        "15-16",
+        "19-20",
+        "20-21",
+        "23-24",
+        "27-28",
+        "28-29",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 11,
+      "ntimes": 412000,
+      "duration_seconds": 206.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 23.0,
+        "sex": "F",
+        "etiology": "FCD 2a",
+        "outcome": 1.0,
+        "follow_up": 12.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 206,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-08_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_events.json",
+          "sub-08/ses-SITUATION1A/ieeg/sub-08_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "03-04",
+        "06-07",
+        "07-08",
+        "09-10",
+        "11-12",
+        "13-14",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "23-24",
+        "27-28",
+        "28-29",
+        "29-30",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 436000,
+      "duration_seconds": 218.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 23.0,
+        "sex": "F",
+        "etiology": "FCD 2a",
+        "outcome": 1.0,
+        "follow_up": 12.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 218,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-10_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_events.json",
+          "sub-10/ses-SITUATION2A/ieeg/sub-10_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 5,
+      "ntimes": 390000,
+      "duration_seconds": 195.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 15.0,
+        "sex": "F",
+        "etiology": "Sturge Weber syndrome",
+        "outcome": 3.0,
+        "follow_up": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 195,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-10_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_events.json",
+          "sub-10/ses-SITUATION1A/ieeg/sub-10_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 5,
+      "ntimes": 440000,
+      "duration_seconds": 220.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 15.0,
+        "sex": "F",
+        "etiology": "Sturge Weber syndrome",
+        "outcome": 3.0,
+        "follow_up": 30.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 220,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-16_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_events.json",
+          "sub-16/ses-SITUATION2A/ieeg/sub-16_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5",
+        "5-6"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 5,
+      "ntimes": 295558,
+      "duration_seconds": 147.779,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 67.0,
+        "sex": "F",
+        "etiology": "ODG (WHO II)",
+        "outcome": 1.0,
+        "follow_up": 31.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 147.779,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-16_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_events.json",
+          "sub-16/ses-SITUATION1A/ieeg/sub-16_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4",
+        "4-5",
+        "5-6"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 5,
+      "ntimes": 179999,
+      "duration_seconds": 89.9995,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 67.0,
+        "sex": "F",
+        "etiology": "ODG (WHO II)",
+        "outcome": 1.0,
+        "follow_up": 31.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 89.9995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-07_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_events.json",
+          "sub-07/ses-SITUATION2A/ieeg/sub-07_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "08-09",
+        "09-10",
+        "10-11",
+        "16-17",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "23-24",
+        "24-25",
+        "25-26"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 710000,
+      "duration_seconds": 355.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 34.0,
+        "sex": "M",
+        "etiology": "Astrocytoma",
+        "outcome": 1.0,
+        "follow_up": 29.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 355,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-07_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_events.json",
+          "sub-07/ses-SITUATION1A/ieeg/sub-07_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "08-09",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "15-16",
+        "16-17",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "23-24",
+        "24-25",
+        "25-26"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 23,
+      "ntimes": 602000,
+      "duration_seconds": 301.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 34.0,
+        "sex": "M",
+        "etiology": "Astrocytoma",
+        "outcome": 1.0,
+        "follow_up": 29.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 301,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-09_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_events.json",
+          "sub-09/ses-SITUATION2A/ieeg/sub-09_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 1500000,
+      "duration_seconds": 750.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 1.0,
+        "sex": "M",
+        "etiology": "FCD 2",
+        "outcome": 1.0,
+        "follow_up": 43.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 750,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-09_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_events.json",
+          "sub-09/ses-SITUATION1A/ieeg/sub-09_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 600000,
+      "duration_seconds": 300.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 1.0,
+        "sex": "M",
+        "etiology": "FCD 2",
+        "outcome": 1.0,
+        "follow_up": 43.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 300,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-02_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_events.json",
+          "sub-02/ses-SITUATION2A/ieeg/sub-02_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "06-07",
+        "07-08",
+        "09-10",
+        "10-11",
+        "11-12",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "22-23",
+        "23-24",
+        "25-26",
+        "26-27",
+        "27-28",
+        "28-29",
+        "29-30",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 22,
+      "ntimes": 1390000,
+      "duration_seconds": 695.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 7.0,
+        "sex": "F",
+        "etiology": "FCD 2b",
+        "outcome": 1.0,
+        "follow_up": 24.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 695,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-02_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_events.json",
+          "sub-02/ses-SITUATION1A/ieeg/sub-02_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "23-24",
+        "25-26",
+        "26-27"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 19,
+      "ntimes": 592000,
+      "duration_seconds": 296.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 7.0,
+        "sex": "F",
+        "etiology": "FCD 2b",
+        "outcome": 1.0,
+        "follow_up": 24.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 296,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-22_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_events.json",
+          "sub-22/ses-SITUATION2A/ieeg/sub-22_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 567999,
+      "duration_seconds": 283.9995,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 5.0,
+        "sex": "F",
+        "etiology": "Fibrillary astrocytoma (WHO II)",
+        "outcome": 1.0,
+        "follow_up": 40.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 283.9995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-22_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_events.json",
+          "sub-22/ses-SITUATION1A/ieeg/sub-22_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "1-2",
+        "2-3",
+        "3-4"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 3,
+      "ntimes": 1199999,
+      "duration_seconds": 599.9995,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 5.0,
+        "sex": "F",
+        "etiology": "Fibrillary astrocytoma (WHO II)",
+        "outcome": 1.0,
+        "follow_up": 40.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 599.9995,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-01_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": "SITUATION2A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_channels.tsv",
+          "sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_events.tsv",
+          "sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_events.json",
+          "sub-01/ses-SITUATION2A/ieeg/sub-01_ses-SITUATION2A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "13-14",
+        "14-15",
+        "15-16",
+        "22-23",
+        "23-24",
+        "27-28",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 15,
+      "ntimes": 340000,
+      "duration_seconds": 170.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 15.0,
+        "sex": "F",
+        "etiology": "DNET",
+        "outcome": 1.0,
+        "follow_up": 33.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 170,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds004944",
+      "data_name": "ds004944_sub-01_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bidspath": "ds004944/sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_ieeg.edf",
+      "bids_relpath": "sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_ieeg.edf",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": "SITUATION1A",
+        "task": "acute",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004944",
+        "raw_key": "sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_ieeg.edf",
+        "dep_keys": [
+          "sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_channels.tsv",
+          "sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_events.tsv",
+          "sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_events.json",
+          "sub-01/ses-SITUATION1A/ieeg/sub-01_ses-SITUATION1A_task-acute_electrodes.tsv"
+        ]
+      },
+      "ch_names": [
+        "01-02",
+        "02-03",
+        "03-04",
+        "04-05",
+        "05-06",
+        "06-07",
+        "07-08",
+        "09-10",
+        "10-11",
+        "11-12",
+        "12-13",
+        "13-14",
+        "14-15",
+        "15-16",
+        "17-18",
+        "18-19",
+        "19-20",
+        "20-21",
+        "21-22",
+        "22-23",
+        "23-24",
+        "25-26",
+        "26-27",
+        "27-28",
+        "28-29",
+        "29-30",
+        "30-31",
+        "31-32"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 28,
+      "ntimes": 1000000,
+      "duration_seconds": 500.0,
+      "digested_at": "2026-08-27T08:47:38.770444+00:00",
+      "participant_tsv": {
+        "session": "1A,2A",
+        "age": 15.0,
+        "sex": "F",
+        "etiology": "DNET",
+        "outcome": 1.0,
+        "follow_up": 33.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "common intracranial reference",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "HighpassFilter": {
+          "CutoffFrequency": 1
+        },
+        "LowpassFilter": {
+          "CutoffFrequency": 800
+        }
+      },
+      "manufacturer": "Natus Medical Inc. Nicolet",
+      "manufacturers_model_name": "Nicolet CSeries amplifier",
+      "institution_name": "Neurochirurgie, Universit\u00e4tsSpital Z\u00fcrich",
+      "recording_type": "continuous",
+      "recording_duration": 500,
+      "montage_hash": null
+    }
+  ]
+}

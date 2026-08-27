@@ -1,0 +1,95 @@
+{
+  "dataset_id": "ds005178",
+  "name": "Ear-EEG Sleep Monitoring 2023 (EESM23)",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Ear-EEG Sleep Monitoring 2023 (EESM23) data set\n**Overview**\nThis dataset was collected as part of a research project on ear-EEG sleep monitoring which took place in 2020-2022.\nThe data set contains nightly EEG recordings from 10 healthy participants ('subjects'). The first two recordings consist of polysomnogrpahy (PSG) measurements and ear-EEG measurements. The remaining ten recordings consist of only ear-EEG measurements, though a few subjects were asked to repeat a recording. Only the accepted recordings can be found in the BIDS formatted data set.\nEach file consists of a video sequence followed by a sleep sequence. After the video sequence, the subject sent triggers to distinguish between the two sequences. Due to potential variability in triggering the device, the sequences remain in one file though it should be possible to manually sort the file into distinct video and sleep sequences.\nThere are no events.tsv files for Ear-EEG.\n**Task description**\nThe patient performed tasks prior to going to bed. These recordings are labeled with 'video' as task. After his, the real recording started, which took place during the night and began when the subject went to bed. These recordings are labeled as having task 'sleep'.\nFor the first two recordings, the recording equipment was mounted in the afternoon. For the remaining recordings, the subject mounted the ear-EEG equipment by themselves immediately prior to going to bed. All recordings took place at the subject's home.\nAs can be seen in the diaries accompanying the recordings, the subjects wrote down recording start, electrode test start, when they went to bed, lights-out and recording end, and marked these in the data files using the trigger button on the equipment.\n**Format**\nThe dataset is formatted according to the Brain Imaging Data Structure. See the 'dataset_description.json' file for the specific BIDS version used. The EEG data format chosen is the '.set' format of EEGLAB.\nFor more information, see the following link:\nhttps://bids-specification.readthedocs.io/en/stable/01-introduction.html\n**Contact**\nFor questions regarding this data set, contact:\nPreben Kidmose, pki@ece.au.dk, https://orcid.org/0000-0001-8628-8057\nKaare Mikkelsen, Mikkelsen.kaare@ece.au.dk, https://orcid.org/0000-0002-7360-8629",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Yousef Rezaei Tabar",
+    "Kaare Mikkelsen",
+    "Laura Birch",
+    "Nelly Shenton",
+    "Simon L Kappel",
+    "Astrid R Bertelsen",
+    "Reza Nikbakht",
+    "Hans O Toft",
+    "Chris H Henriksen",
+    "Martin C Hemmsen",
+    "Mike L Rank",
+    "Marit Otto",
+    "Preben Kidmose"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005178.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep"
+  ],
+  "sessions": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012"
+  ],
+  "total_files": 140,
+  "size_bytes": 27636341897,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 10,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Preben Kidmose",
+  "contact_info": [
+    "kaare mikkelsen"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:48:29.115840+00:00",
+    "dataset_created_at": "2024-05-24T08:18:02.675Z",
+    "dataset_modified_at": "2024-05-31T23:06:26.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005178",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "task-sleep_acq-earEEGRecordingFailures_events.json",
+      "task-sleep_acq-scoring_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005178",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "9f081db7da274a7e63a0364d477f49c12b3075e880bf06490d1692de038b9a44"
+}

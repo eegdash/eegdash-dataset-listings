@@ -1,0 +1,112 @@
+{
+  "dataset_id": "ds004011",
+  "name": " The nature of neural object representations during dynamic occlusion",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "The main folder contains the raw MEG data for all participants in standard bids format. See references.\nThe \u2018sourcedata\u2019 folder contains the behavioural data collected during the MEG session as well as the eyetracking data. The data in this folder follows the following trial structure:\n- sourcedata\n\t- beh\n\t\t- sub-[participant number]\n\t\t\t- sub-[participant number]_task-occlusion_run-[run number]_events.csv: contains all the events for each trial in the MEG session, detailing what was shown on the screen.\n\t\t\t- sub-[participant number]_task-occlusion_run-[run number]_occframes.csv: contains all the stimulus positions for each occlusion trial in the MEG session.\n\t\t\t- sub-[participant number]_task-occlusion_run-[run number]_disframes.csv: contains all the stimulus positions for each disappearance trial in the MEG session.\n\t- eyetracking\n\t\t- sub-[participant number]_Occ.edf: edf file containing the eye positions during the MEG session.\nThe \u2018derivatives\u2019 folder contains the pre-processed MEG data for each participant. The data in this folder follows the following trial structure:\n- derivatives\n\t- preprocessed\n\t\t- cosmo_p[participant number].mat: cosmomvpa formatted file with the pre-processed data, epoched for each trial, containing the following variables:\n\t\t\t- ds_diss: cosmo data struct containing the disappearance trials epoched relative to stimulus onset (MEG channels)\n\t\t\t- ds_occ: cosmo data struct containing the disappearance trials epoched relative to stimulus onset (MEG channels)\n\t\t\t- ds_loc: cosmo data struct containing the unpredictable position stream trials epoched relative to stimulus onset (MEG channels)\n\t\t\t- ds_eyes_diss: cosmo data struct containing the disappearance trials epoched relative to stimulus onset (eye-x, eye-y, pupil size)\n\t\t\t- ds_eyes_occ: cosmo data struct containing the disappearance trials epoched relative to stimulus onset (eye-x, eye-y, pupil size)\n\t\t\t- ds_eyes_loc: cosmo data struct containing the unpredictable position stream trials epoched relative to stimulus onset (eye-x, eye-y, pupil size)\n\t\t- \u00a0cosmo_p[participant number]_position_epochs.mat: cosmomvpa formatted file with the pre-processed data, epoched relative to each position change, containing the following variables:\n\t\t\t- ds_tiny: cell with two entries. First entry contains the disappearance trials epoched relative to position change. Second entry contains the occlusion trials epoched relative to position change. (MEG channels)\n\t\t\t- ds_tiny_eyes: cell with two entries. First entry contains the disappearance trials epoched relative to position change. Second entry contains the occlusion trials epoched relative to position change. (eye-x, eye-y, pupil size)\n------------\nReferences:\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110. https://doi.org/10.1038/sdata.2018.110",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Lina Teichmann",
+    "Denise Moerel",
+    "Anina Rich",
+    "Chris Baker"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004011.v1.0.3",
+  "associated_paper_doi": null,
+  "tasks": [
+    "occlusion"
+  ],
+  "sessions": [],
+  "total_files": 132,
+  "size_bytes": 212729784057,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 22,
+    "ages": [
+      25,
+      23,
+      22,
+      23,
+      33,
+      27,
+      23,
+      24,
+      31,
+      23,
+      23,
+      31,
+      22,
+      22,
+      22,
+      41,
+      22,
+      22,
+      24,
+      22,
+      25,
+      22,
+      22,
+      23,
+      23,
+      23,
+      23
+    ],
+    "age_min": 22,
+    "age_max": 41,
+    "age_mean": 24.666666666666668,
+    "species": null,
+    "sex_distribution": {
+      "f": 19,
+      "m": 8
+    },
+    "handedness_distribution": {
+      "l": 3,
+      "r": 24
+    }
+  },
+  "senior_author": "Chris Baker",
+  "contact_info": [
+    "Lina Teichmann",
+    "Denise Moerel"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:43:16.763440+00:00",
+    "dataset_created_at": "2022-01-26T23:26:00.152Z",
+    "dataset_modified_at": "2022-04-08T01:32:29.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004011",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004011",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "Teichmann, L., Moerel, D., Rich, A. N., & Baker, C. I. (2021, April 24). The nature of neural object representations during dynamic occlusion. Retrieved from osf.io/tp2ad",
+    "Teichmann, L., Moerel, D., Rich, A. N., & Baker, C. I. (2022, January 24). The nature of neural object representations during dynamic occlusion . Retrieved from osf.io/hc25w"
+  ],
+  "ingestion_fingerprint": "18a0fc8b5266defd5cbaf738fcd8f0c31a9f37d211a749ee5902db0b56f23f41"
+}

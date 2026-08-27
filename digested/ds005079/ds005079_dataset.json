@@ -1,0 +1,116 @@
+{
+  "dataset_id": "ds005079",
+  "name": "The Effects of Directed Therapeutic Intent on Live and Damaged Cells",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "**Summary**: In this case study, a self-described practitioner of energy medicine (PEM) participated in a study, engaging in multiple (n=60) treatment and control (non-treatment) sessions under double-blind conditions.\n**Protocol:**Data were collected during 40 sessions over 10 days, with ten sessions of about 25 minutes daily. Each session was comprised of one file divided into five segments. First, there was a 2-minute control period where the PEM rested in the absence of cells (BaselinePre) for 2 minutes. Next, the cells (alive or control) were brought in, and the PEM conducted a 5-minute treatment of the cells while remaining still (TreatmentFirst5min). Next, the PEM performed another 5-minute treatment of the cells, but movement was allowed (Treatment 2). During a third treatment period (TreatmentMid5min), the PEM remained still while treating the cells, as in first treatment period (TreatmentLast5min). Finally, the cells were removed from the PEM's vicinity, and physiology data were collected for another 2-minute control period (BaselinePost). The PEM was fully blind to the type of cells presented to him, and cell type presentation to the PEM was randomized. The experimenter presenting the cell to the PEM was also blind to the type of cells. In 40 sessions, live cells were presented to the PEM (CellPresent condition). In 10 sessions, no cells (medium only) were presented to the PEM. In the other ten sessions, dead cells (x-rayed) were presented to the PEM (Control1 and Control2 conditions). In order to have control samples for the cellular outcomes and control for the passage of time and potential effects of the equipment, 40 matching set of cells were treated in a different location by a sham therapist (these are available in the behavioral files (BEH) as control cell measures.\nData curators: Data acquired at the MD Anderson Cancer Research Center",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "v1.2.1",
+  "license": "CC0",
+  "authors": [
+    "Lorenzo Cohen",
+    "Arnaud Delorme",
+    "Peiying Yang",
+    "Andrew Cusimano",
+    "Sharmistha Chakraborty",
+    "Phuong Nguyen",
+    "Defeng Deng",
+    "Shafaqmuhammad Iqbal",
+    "Monica Nelson",
+    "Chris Fields"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005079.v2.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "BaselinePostCellPresent",
+    "BaselinePostControl1",
+    "BaselinePostControl2",
+    "BaselinePreCellPresent",
+    "BaselinePreControl1",
+    "BaselinePreControl2",
+    "TreatmentFirst5minCellPresent",
+    "TreatmentFirst5minControl1",
+    "TreatmentFirst5minControl2",
+    "TreatmentLast5minCellPresent",
+    "TreatmentLast5minControl1",
+    "TreatmentLast5minControl2",
+    "TreatmentMid5minCellPresent",
+    "TreatmentMid5minControl1",
+    "TreatmentMid5minControl2"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12"
+  ],
+  "total_files": 60,
+  "size_bytes": 1809231507,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Chris Fields",
+  "contact_info": [
+    "Arnaud Delorme"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:47:54.953965+00:00",
+    "dataset_created_at": "2024-04-09T20:37:10.318Z",
+    "dataset_modified_at": "2024-07-01T21:21:53.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005079",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-biofieldtherapy_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005079",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "No bibliographic reference other than the DOI for this dataset"
+  ],
+  "generated_by": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "8.0"
+    }
+  ],
+  "ingestion_fingerprint": "ae94d384444ef89f60ecdb6db2faf935745295bdfebe6d9bf7438d42e4d4818b"
+}

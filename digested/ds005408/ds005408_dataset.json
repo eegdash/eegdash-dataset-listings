@@ -1,0 +1,110 @@
+{
+  "dataset_id": "ds005408",
+  "name": "The effect of speech masking on the human subcortical response to continuous speech",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "README\n------\nDetails related to access to the data\n-------------------------------------\nPlease contact the following authors for further information:\n    Melissa Polonenko (email: mpolonen@umn.edu) [corresponding author]\n    Ross Maddox (email: rkmaddox@med.umich.edu)\nOverview\n--------\nThis is the \"peaky_snr\" dataset for the paper by\nPolonenko MJ & Maddox RK, with citation listed below.\neNeuro: Polonenko, M. J., & Maddox, R. K. (2025). The effect of speech masking on the human subcortical response to continuous speech. eNeuro 24 March 2025, 12 (4) ENEURO.0561-24.2025; https://doi.org/10.1523/ENEURO.0561-24.2025\nBioRxiv: https://www.biorxiv.org/content/10.1101/2024.12.10.627771v1\nAuditory brainstem responses (ABRs) were derived to continuous peaky speech\nfrom between one up to five simultaneously presented talkers and from clicks.\nData was collected from June to July 2021.\nGoal: To better understand masking\u2019s effects on the subcortical neural encoding\nof naturally uttered speech in human listeners.\nTo do this we leveraged our recently developed method for determining the\nauditory brainstem response (ABR) to speech (Polonenko and Maddox, 2021).\nWhereas our previous work was aimed at encoding of single talkers, here we\ndetermined the ABR to speech in quiet as well as in the presence of varying\nnumbers of other talkers.\nThe details of the experiment can be found at Polonenko & Maddox (2024).\nStimuli:\n    1) randomized click trains at an average rate of 40 Hz,\n    60 x 10 s trials for a total of 10 minutes;\n    2) peaky speech for up to 5 male narrators. 30 minutes of each SNR\n    (clean, 0 dB, -3 dB, -6 dB), corresponding to 1, 2, 3, and 5 talkers\n    presented simultaneously, each set to 65 dB.\n    NOTE: files for each story were completely randomized. Random combinations\n    were created so that each story was equally represented in the data.\nThe code for stimulus preprocessing and EEG analysis is available on Github:\n    https://github.com/polonenkolab/peaky_snr\nFormat\n------\nThe dataset is formatted according to the EEG Brain Imaging Data Structure. It\nincludes EEG recording from participant 01 to 25 in raw brainvision format\n(3 files: .eeg, .vhdr, .vmrk) and stimuli files in format of .hdf5. The stimuli\nfiles contain the audio ('audio'), and regressors for the deconvolution\n('pinds' are the pulse indices, 'anm' is an auditory nerve model regressor,\n which was used during analyses but was not included as part of the article).\nGenerally, you can find detailed event data in the .tsv files and descriptions\nin the accompanying .json files. Raw eeg files are provided in the Brain\nProducts format.\nParticipants\n------------\n25 participants, mean \u00b1 SD age of 23.4 \u00b1 5.5 years (19-37 years)\nInclusion criteria:\n    1) Age between 18-40 years\n    2) Normal hearing: audiometric thresholds 20 dB HL or better from 500 to 8000 Hz\n    3) Speak English as their primary language\nPlease see participants.tsv for more information.\nApparatus\n---------\nParticipants sat in a darkened sound-isolating booth and rested or watched\nsilent videos with closed captioning. Stimuli were presented at an average level\nof 65 dB SPL (per story; total for 5 talkers = 71 dB) and a sampling rate of\n48 kHz through ER-2 insert earphones plugged into an RME Babyface Pro digital\nsound card. Custom python scripts using expyfun were used to control the\nexperiment and stimulus presentation.\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Polonenko & Maddox (2024) and the\nsupplied `task-peaky_snr_eeg.json` file. The 4 SNR speech conditions and the\nstory tokens were randomized. This means that the participant would not be able\nto follow the stories. For clicks the trials were not randomized\n(already random clicks).\nTrigger onset times in the tsv files have already been corrected for the tubing\ndelay of the insert earphones (but not in the events of the raw files).\nTriggers with values of \"1\" were recorded to the onset of the 10 s audio, and\nshortly after triggers with values of \"4\" or \"8\" were stamped to indicate info\nabout the trial. This was done by converting the decimal trial number to bits,\ndenoted b, then calculating 2 ** (b + 2). We've specified these trial triggers\nand more metadata of the events in each of the '*_eeg_events.tsv\" file, which\nis sufficient to know which trial corresponded to which type of stimulus\n(clicks or speech), snr, and which files of which stories were presented.\ne.g., alice_000_peaky_diotic_regress.hdf5 for the first file of the story\ncalled 'alice' (Alice in Wonderland).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Melissa J. Polonenko",
+    "Ross K. Maddox"
+  ],
+  "funding": [
+    "NIDCD R01DC017962"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005408.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "peakysnr"
+  ],
+  "sessions": [],
+  "total_files": 29,
+  "size_bytes": 40639242081,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 25,
+    "ages": [
+      37,
+      37,
+      19,
+      26,
+      19,
+      20,
+      35,
+      20,
+      20,
+      21,
+      21,
+      22,
+      19,
+      20,
+      25,
+      20,
+      20,
+      28,
+      23,
+      22,
+      22,
+      20,
+      28,
+      19,
+      21
+    ],
+    "age_min": 19,
+    "age_max": 37,
+    "age_mean": 23.36,
+    "species": null,
+    "sex_distribution": {
+      "f": 16,
+      "m": 9
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Ross K. Maddox",
+  "contact_info": [
+    "Melissa Polonenko"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:50:09.548029+00:00",
+    "dataset_created_at": "2024-08-10T00:49:48.180Z",
+    "dataset_modified_at": "2026-04-07T15:26:48.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005408",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-peakysnr_eeg.json",
+      "task-peakysnr_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005408",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Approved by the University of Rochester Subjects Review Board (#1227)"
+  ],
+  "references_and_links": [
+    "Polonenko, M. J., & Maddox, R. K. (2025). The effect of speech masking on the human subcortical response to continuous speech. eNeuro 24 March 2025, 12 (4) ENEURO.0561-24.2025; https://doi.org/10.1523/ENEURO.0561-24.2025"
+  ],
+  "ingestion_fingerprint": "2c6319492d5dccf5ed9b5c15406914fb875bfb1955f9aabc22fd494098ca384e"
+}

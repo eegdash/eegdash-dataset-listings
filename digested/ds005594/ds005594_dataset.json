@@ -1,0 +1,105 @@
+{
+  "dataset_id": "ds005594",
+  "name": "Alphabetic Decision Task (Arial Light Font)",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Generated from raw data by MNE-BIDS (Appelhoff et al., 2019) and custom code to join to behavioural data, stimulus information, and metadata.\n## Notes on the Data\nFor full details on this dataset, see our preprint: Taylor et al. (2024) https://doi.org/10.1101/2024.11.11.622929\nGeneral notes:\n* An issue during recording meant that sub-05 completed the first block without data being saved. The experiment was restarted from the beginning for this participant. This participant was not included in our analyses, but the data are included in this dataset. They are also identified with the `recording_restarted` field in `participants.tsv`.\n* A separate issue during recording meant that EEG data for some trials were lost for `sub-01`, though enough trials were recorded in total to meet our criteria for inclusion in the analysis. The raw data comprised two separate recordings. In this dataset, the two recordings are concatenated end-to-end into one file. The point at which the files are joined is marked with a boundary event. This participant is identified with the `recording_interrupted` field in `participants.tsv`.\n* During the course of the experiment, we identified an issue with the wiring in one splitter box, which meant that voltages from channels FT7 and FC3 were swapped in the raw recorded data. We elected to keep the wiring as it was for the duration of the experiment, and then swapped the data from the two channels in the code that generated this BIDS dataset. This means that this issue has been corrected in this BIDS version of the data.\n* \"BAD\" periods (MNE term) for key presses and break periods are included in the events files.\n* Recording dates/times have been anonymised by shifting all recordings backwards in time by a constant number of days (same constant for all participants). This obscures information that may be used to identify participants, but preserves time-of-day information, and the relative times elapsed between different recordings.\n## References\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Jack E. Taylor",
+    "Rasmus Sinn",
+    "Cosimo Iaia",
+    "Christian J. Fiebach"
+  ],
+  "funding": [
+    "Goethe University Fokus"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005594.v1.0.3",
+  "associated_paper_doi": null,
+  "tasks": [
+    "alphabeticdecision"
+  ],
+  "sessions": [],
+  "total_files": 16,
+  "size_bytes": 11695588974,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 16,
+    "ages": [
+      20,
+      25,
+      26,
+      24,
+      21,
+      20,
+      24,
+      26,
+      20,
+      26,
+      24,
+      20,
+      20,
+      21,
+      27,
+      25
+    ],
+    "age_min": 20,
+    "age_max": 27,
+    "age_mean": 23.0625,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 4
+    },
+    "handedness_distribution": {
+      "r": 16
+    }
+  },
+  "senior_author": "Christian J. Fiebach",
+  "contact_info": [
+    "Jack E. Taylor"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:52:56.161772+00:00",
+    "dataset_created_at": "2024-10-24T11:03:30.698Z",
+    "dataset_modified_at": "2024-11-12T09:42:30.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005594",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005594",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Taylor, J.E., Sinn, R., Iaia, C., & Fiebach, C. J. (2024). Beyond Letters: Optimal Transport as a Model for Sub-Letter Orthographic Processing. https://doi.org/10.1101/2024.11.11.622929",
+  "ethics_approvals": [
+    "Goethe University Ethics Commission for Psychology and Sport Science 2023-43"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1101/2024.11.11.622929",
+    "https://gin.g-node.org/JackEdTaylor/lettersim-ot-rsa"
+  ],
+  "ingestion_fingerprint": "2f0545c6c13b46a0596c10bc385214457395fe5a2833a22a7b0a0b814c737e0e"
+}

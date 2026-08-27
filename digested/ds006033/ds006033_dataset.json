@@ -1,0 +1,101 @@
+{
+  "dataset_id": "ds006033",
+  "name": "Synchronous EEG and fMRI dataset on inner speech",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Inner Speech EEG-fMRI Dataset\n## Description\nThis dataset contains simultaneous EEG-fMRI recordings for inner speech experiments. Data were collected using a 3T MRI scanner and 64-channel BrainProducts EEG system. The EEG data have undergone preprocessing, including pulse artifact removal, using the BrainVision Analyzer software. No further data transformations have been applied to ensure the dataset remains BIDS-compliant as \"raw\".\n## Subjects\n- Number of subjects: 3\n- Sessions per subject: 2\n- Tasks: Inner speech\n## Experimental Protocol\n- Each trial includes a fixation period (2s), stimulus display (2s), and rest (12s).\n- 8 words were presented in random order, each repeated 40 times.\n- EEG sampled at 5000 Hz, fMRI acquired with TR=2s.\n## Data Organization\n- Functional MRI data: `sub-xx/ses-xx/func/`\n- EEG data: `sub-xx/ses-xx/eeg/`\n- Event markers: `events.tsv`\n- BIDS-compatible metadata included in JSON sidecars.\n## Contact\nFor inquiries, contact: Foteini Simistira Liwicki (Foteini.liwicki@ltu.se)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Foteini Simistira Liwicki"
+  ],
+  "funding": [
+    "Kompetensutveckling till professor, Lulea University of Technology, Sweden [LTU-154-2023]",
+    "Labbfonden Medel f\u00f6r infrastruktur vid Lule\u00e5 tekniska universitet, 2023 [LTU-4908-2022]",
+    "Kempe Foundation, Sweden [JCSMK23-0102]"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006033.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "innerspeech"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 5,
+  "size_bytes": 16449271220,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 3,
+    "ages": [
+      35,
+      35,
+      25
+    ],
+    "age_min": 25,
+    "age_max": 35,
+    "age_mean": 31.666666666666668,
+    "species": null,
+    "sex_distribution": {
+      "m": 2,
+      "f": 1
+    },
+    "handedness_distribution": {
+      "r": 3
+    }
+  },
+  "senior_author": "Foteini Simistira Liwicki",
+  "contact_info": [
+    "Foteini Simistira Liwicki"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:54:06.701639+00:00",
+    "dataset_created_at": "2025-03-19T10:16:24.423Z",
+    "dataset_modified_at": "2025-05-08T09:02:04.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006033",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006033",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank the participants and research staff involved in data collection.",
+  "how_to_acknowledge": "Please cite: [Your Publication or DOI]",
+  "ethics_approvals": [
+    "The study was approved by the Swedish Ethical Review Authority (Etikpr\u00f6vning myndigheden, ID: 2023-05177-01) (https://etikprovningsmyndigheten.se/) in accordance with the Swedish Ethical Review Act (SFS 2003:460). "
+  ],
+  "references_and_links": [
+    " https://your-lab-website.com"
+  ],
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.12",
+      "Description": "BIDS conversion of EEG data."
+    }
+  ],
+  "ingestion_fingerprint": "95027ae3889b238118f3ac198e597ec4e88ba8496971679ff9c71ce1df107b18"
+}

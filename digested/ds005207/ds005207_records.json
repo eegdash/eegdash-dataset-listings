@@ -1,0 +1,3017 @@
+{
+  "dataset": "ds005207",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:48:39.152473+00:00",
+  "record_count": 39,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-001_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "ECG II",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "C4:A1",
+        "O2:A1",
+        "F4:A1",
+        "C3:A2",
+        "O1:A2",
+        "F3:A2",
+        "EOG1:A2",
+        "EOG2:EOG1",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "EOG2:A1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 15,
+      "ntimes": 11026432,
+      "duration_seconds": 43071.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43071.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-001_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-001/ses-001/eeg/sub-001_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 21,
+      "ntimes": 11022000,
+      "duration_seconds": 44087.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43071.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-007_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 20,
+      "ntimes": 10612750,
+      "duration_seconds": 42450.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 41237.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-007_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-007/ses-001/eeg/sub-007_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3:A2",
+        "F4:A1",
+        "C3:A2",
+        "C4:A1",
+        "O1:A2",
+        "O2:A1",
+        "EOG1:A2",
+        "EOG2:A1",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "ECG II",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "EOG1",
+        "EOG2",
+        "C3",
+        "C4",
+        "A1",
+        "A2",
+        "O1",
+        "O2",
+        "F3",
+        "F4"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 24,
+      "ntimes": 10556928,
+      "duration_seconds": 41237.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 41237.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-009_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "009",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "009",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "ECG II",
+        "C4:A1",
+        "O2:A1",
+        "F4:A1",
+        "C3:A2",
+        "O1:A2",
+        "F3:A2",
+        "EOG1:A2",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "EOG2:A1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 11,
+      "ntimes": 10334464,
+      "duration_seconds": 40368.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 40368.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-009_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "009",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "009",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-009/ses-001/eeg/sub-009_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 18,
+      "ntimes": 2867750,
+      "duration_seconds": 11470.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 40368.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-004_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R3",
+        "R2",
+        "L8",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 20,
+      "ntimes": 10963250,
+      "duration_seconds": 43852.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43169.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-004_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-004/ses-001/eeg/sub-004_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "ECG II",
+        "C4:A1",
+        "O2:A1",
+        "F4:A1",
+        "C3:A2",
+        "O1:A2",
+        "F3:A2",
+        "EOG1:A2",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "EOG2:A1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 11,
+      "ntimes": 11051520,
+      "duration_seconds": 43169.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43169.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-011_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "011",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "011",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "C3",
+        "C4",
+        "O1",
+        "O2",
+        "A1",
+        "A2",
+        "F3",
+        "F4",
+        "EOG1",
+        "EOG2",
+        "EMG1:EMG3",
+        "EMG2:EMG3",
+        "ECG II",
+        "C4:A1",
+        "O2:A1",
+        "F4:A1",
+        "EOG2:A1",
+        "C3:A2",
+        "O1:A2",
+        "F3:A2",
+        "EOG1:A2",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "F3:C3",
+        "F4:C4",
+        "EOG2:EOG1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 27,
+      "ntimes": 10751744,
+      "duration_seconds": 41998.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 41998.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-011_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "011",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "011",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-011/ses-001/eeg/sub-011_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 24,
+      "ntimes": 10121750,
+      "duration_seconds": 40486.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 41998.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-014_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "014",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "014",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:A1",
+        "C4:A1",
+        "O1:A2",
+        "EOG1:A2",
+        "EOG2:A1",
+        "F3:A2",
+        "C3:A2",
+        "O2:A1",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "ECG II",
+        "EOG1",
+        "EOG2",
+        "C3",
+        "C4",
+        "A1",
+        "A2",
+        "O1",
+        "O2",
+        "F3",
+        "F4",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "F3:C3",
+        "F4:C4",
+        "EOG2:EOG1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 27,
+      "ntimes": 11037440,
+      "duration_seconds": 43114.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43114.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-014_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "014",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "014",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-014/ses-001/eeg/sub-014_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 20,
+      "ntimes": 11376500,
+      "duration_seconds": 45505.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43114.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-015_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "015",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "015",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R3",
+        "R2",
+        "R1",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 20,
+      "ntimes": 10916500,
+      "duration_seconds": 43665.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42520.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-015_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "015",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "015",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-015/ses-001/eeg/sub-015_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 10885376,
+      "duration_seconds": 42520.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42520.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-025_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "025",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "025",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 11037952,
+      "duration_seconds": 43116.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43116.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-025_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "025",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "025",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-025/ses-001/eeg/sub-025_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 24,
+      "ntimes": 8482000,
+      "duration_seconds": 33927.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43116.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-029_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "029",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "029",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 24,
+      "ntimes": 10810250,
+      "duration_seconds": 43240.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43153.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-029_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "029",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "029",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-029/ses-001/eeg/sub-029_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 11047424,
+      "duration_seconds": 43153.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43153.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-028_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "028",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "028",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 24,
+      "ntimes": 8244750,
+      "duration_seconds": 32978.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 38205.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-028_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "028",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "028",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-028/ses-001/eeg/sub-028_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 9780736,
+      "duration_seconds": 38205.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 38205.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-026_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "026",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "026",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 11041792,
+      "duration_seconds": 43131.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43131.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-026_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "026",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "026",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-026/ses-001/eeg/sub-026_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R5",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 21,
+      "ntimes": 10841746,
+      "duration_seconds": 43368.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43131.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-008_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "EOG2:A1",
+        "EOG1:A2",
+        "F4:A1",
+        "F3:A2",
+        "C3:A2",
+        "C4:A1",
+        "O2:A1",
+        "O1:A2",
+        "EMG1:EMG3",
+        "EMG2:EMG3",
+        "ECG II"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 11,
+      "ntimes": 10961408,
+      "duration_seconds": 42817.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42817.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-008_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-008/ses-001/eeg/sub-008_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R5",
+        "R3",
+        "R2",
+        "R1",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 21,
+      "ntimes": 4760250,
+      "duration_seconds": 19040.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42817.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-019_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "019",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "019",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 11051776,
+      "duration_seconds": 43170.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43170.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-019_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "019",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "019",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-019/ses-001/eeg/sub-019_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 23,
+      "ntimes": 10801250,
+      "duration_seconds": 43204.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43170.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-024_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "024",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "024",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R5",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 18,
+      "ntimes": 10800000,
+      "duration_seconds": 43199.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42675.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-024_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "024",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "024",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-024/ses-001/eeg/sub-024_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 10925056,
+      "duration_seconds": 42675.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42675.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-012_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "012",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "012",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-012/ses-001/eeg/sub-012_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "EOG2:A1",
+        "EOG1:A2",
+        "F4:A1",
+        "F3:A2",
+        "C3:A2",
+        "C4:A1",
+        "O2:A1",
+        "O1:A2",
+        "EMG1:EMG3",
+        "EMG2:EMG3",
+        "ECG II"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 11,
+      "ntimes": 10699520,
+      "duration_seconds": 41794.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 41794.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-027_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "027",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "027",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R3",
+        "R2",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 22,
+      "ntimes": 1045500,
+      "duration_seconds": 4181.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43017.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-027_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "027",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "027",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-027/ses-001/eeg/sub-027_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:M1",
+        "C4:M1",
+        "O1:M2",
+        "E1:M2",
+        "E2:M1",
+        "F3:M2",
+        "C3:M2",
+        "O2:M1",
+        "ECG II",
+        "E1",
+        "E2",
+        "EMG2:EMG3",
+        "EMG1:EMG3"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 13,
+      "ntimes": 11012608,
+      "duration_seconds": 43017.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43017.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-010_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "010",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "010",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:A1",
+        "C4:A1",
+        "O1:A2",
+        "EOG1:A2",
+        "EOG2:A1",
+        "F3:A2",
+        "C3:A2",
+        "O2:A1",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "ECG II",
+        "EOG1",
+        "EOG2",
+        "C3",
+        "C4",
+        "A1",
+        "A2",
+        "O1",
+        "O2",
+        "F3",
+        "F4",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "F3:C3",
+        "F4:C4",
+        "EOG2:EOG1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 27,
+      "ntimes": 10971136,
+      "duration_seconds": 42855.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42855.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-010_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "010",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "010",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-010/ses-001/eeg/sub-010_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 20,
+      "ntimes": 10942250,
+      "duration_seconds": 43768.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42855.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-013_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "013",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "013",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 24,
+      "ntimes": 3904500,
+      "duration_seconds": 15617.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42011.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-013_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "013",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "013",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-013/ses-001/eeg/sub-013_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "EOG2:A1",
+        "EOG1:A2",
+        "F4:A1",
+        "F3:A2",
+        "C3:A2",
+        "C4:A1",
+        "O2:A1",
+        "O1:A2",
+        "EMG1:EMG3",
+        "EMG2:EMG3",
+        "ECG II"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 11,
+      "ntimes": 10755072,
+      "duration_seconds": 42011.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 42011.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-003_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R5",
+        "R4",
+        "R3",
+        "R2",
+        "R1",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 18,
+      "ntimes": 10930000,
+      "duration_seconds": 43719.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43160.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-003_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-003/ses-001/eeg/sub-003_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "ECG II",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "C4:A1",
+        "O2:A1",
+        "F4:A1",
+        "C3:A2",
+        "O1:A2",
+        "F3:A2",
+        "EOG1:A2",
+        "EOG2:EOG1",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "EOG2:A1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 15,
+      "ntimes": 11049216,
+      "duration_seconds": 43160.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 43160.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-006_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bidspath": "ds005207/sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_eeg.set",
+      "bids_relpath": "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_eeg.set",
+        "dep_keys": [
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_channels.tsv",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_events.tsv",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_eeg.json",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-PSG_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F4:A1",
+        "C4:A1",
+        "O1:A2",
+        "EOG1:A2",
+        "EOG2:A1",
+        "F3:A2",
+        "C3:A2",
+        "O2:A1",
+        "EMG1",
+        "EMG2",
+        "EMG3",
+        "ECG II",
+        "EOG1",
+        "EOG2",
+        "C3",
+        "C4",
+        "A1",
+        "A2",
+        "O1",
+        "O2",
+        "F3",
+        "F4",
+        "EMG2:EMG3",
+        "EMG1:EMG3",
+        "F3:C3",
+        "F4:C4",
+        "EOG2:EOG1"
+      ],
+      "sampling_frequency": 128.0,
+      "nchans": 27,
+      "ntimes": 10001152,
+      "duration_seconds": 39066.99609375,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 39066.99609375,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005207",
+      "data_name": "ds005207_sub-006_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bidspath": "ds005207/sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "bids_relpath": "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": "001",
+        "task": "sleep",
+        "run": null,
+        "acquisition": "cEEGrid"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005207",
+        "raw_key": "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-cEEGrid_eeg.set",
+        "dep_keys": [
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-cEEGrid_channels.tsv",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-cEEGrid_eeg.json",
+          "sub-006/ses-001/eeg/sub-006_ses-001_task-sleep_acq-cEEGrid_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "R8",
+        "R7",
+        "R6",
+        "R5",
+        "R3",
+        "R2",
+        "R1",
+        "L8",
+        "L7",
+        "L6",
+        "L5",
+        "L4A",
+        "L4B",
+        "L4",
+        "L3",
+        "L2",
+        "L1",
+        "GyroX",
+        "GyroY",
+        "GyroZ",
+        "AccelerX",
+        "AccelerY",
+        "AccelerZ"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 23,
+      "ntimes": 9961500,
+      "duration_seconds": 39845.996,
+      "digested_at": "2026-08-27T08:48:39.152473+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "A1, A2",
+      "software_filters": "n/a",
+      "eeg_placement_scheme": "10/20",
+      "institution_name": "University of Oxford",
+      "recording_duration": 39066.99609375,
+      "montage_hash": null
+    }
+  ]
+}

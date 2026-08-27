@@ -1,0 +1,95 @@
+{
+  "dataset_id": "ds006576",
+  "name": "The role of REM sleep in neural differentiation of memories in the hippocampus",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset contains the fMRI and EEG data for E.A. McDevitt, G. Kim, N.B. Turk-Browne, K.A. Norman (2026). The role of rapid eye movement sleep in neural differentiation of memories in the hippocampus. Journal of Cognitive Neuroscience, 10.1162/jocn.a.82\nPlease refer to the paper for detailed methods.\nThe dataset includes 69 participants with three fMRI scans and one EEG session per participant. Depending on the participant's condition, the EEG session either contains sleep data from a nap or data recorded during a quiet wake session.\nPlease contact Elizabeth McDevitt (emcdevitt@princeton.edu) if you have any questions.\nNotes about the dataset:\nThe following subjects/sessions do not include a T1w anatomical scan: sub-160 ses-00; sub-170 ses-00; sub-178 ses-01\n- sub-107/ses-02/func: There are three runs of the decision task included instead of two. During decision_run-01, the participant did not respond to 'B' trials (coded in column trial_type). Therefore, there are many trials with no response_accuracy or response_times recorded in task-decision_run-01_events.tsv. Immediately following this run, the same task was re-run as decision_run-03 to collect behavioral responses; therefore the data associated with task-decision_run-03 can be considered a \"repeat\" of task-decision_run-01. Decision_run-02 was run as expected during the second cycle of the reward prediction task.\n- sub-108_ses-02_task-reward_run-01_events.tsv: Many trials have no response_accuracy or response_time recorded. The participant misunderstood instructions and did not respond on trials where they predicted a \"neutral\" outcome.\n- sub-182_ses-01_task-study_run-01_events.tsv: There was an issue with Matlab not recording \"2\" button presses during this run of the task. The experimenter recoded all \"no response\" trials as \"2\" and used this to code response_accuracy. However, there were no response_times recorded for these trials.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Elizabeth A. McDevitt",
+    "Ghootae Kim",
+    "Nicholas B. Turk-Browne",
+    "Kenneth A. Norman"
+  ],
+  "funding": [
+    "NIMH R01-MH069456",
+    "NIMH K99-MH126154"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006576.v1.0.5",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest"
+  ],
+  "sessions": [],
+  "total_files": 67,
+  "size_bytes": 697755198425,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 67,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "f": 37,
+      "m": 32
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Kenneth A. Norman",
+  "contact_info": [
+    "Elizabeth McDevitt"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:30.307905+00:00",
+    "dataset_created_at": "2025-08-20T17:53:27.091Z",
+    "dataset_modified_at": "2026-04-16T17:23:56.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006576",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-decision_bold.json",
+      "task-decision_events.json",
+      "task-familiarization_bold.json",
+      "task-familiarization_events.json",
+      "task-localizer_bold.json",
+      "task-localizer_events.json",
+      "task-postfaces_bold.json",
+      "task-postfaces_events.json",
+      "task-postscenes_bold.json",
+      "task-postscenes_events.json",
+      "task-reward_bold.json",
+      "task-reward_events.json",
+      "task-study_bold.json",
+      "task-study_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006576",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Funding for the acquisition of the data was provided in part by the Regina and John Scully \u201966 Center for the Neuroscience of Mind and Behavior.",
+  "how_to_acknowledge": "Please cite: \nE.A. McDevitt, G. Kim, N.B. Turk-Browne, K.A. Norman (2026). The role of rapid eye movement sleep in neural differentiation of memories in the hippocampus. Journal of Cognitive Neuroscience, 10.1162/jocn.a.82",
+  "ingestion_fingerprint": "6f33af917ed84f6680abfd403a116375291c933bf2a5c1809d5c5c29e72d1cd9"
+}

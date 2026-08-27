@@ -1,0 +1,88 @@
+{
+  "dataset_id": "ds004398",
+  "name": "planmemreplay",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "The MEG files contain a channel with triggers necessary for event marking and timing. Separate event files with onsets are provided in the participant directories for completeness only; the MEG triggers should be used for actual onsets in analysis. The delay between the trigger and the visual onset of an on-screen event sent by the projector is approximately 20 ms, as estimated using a photodiode.\nLocalizer phase triggers: [Info to be added]\nStruct and Rew phase triggers: [Info to be added]\nPost triggers:  [Info to be added]",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "",
+  "license": "CC0",
+  "authors": [
+    "G. Elliott Wimmer",
+    "Yunzhe Liu",
+    "Daniel C. McNamee",
+    "Raymond J. Dolan"
+  ],
+  "funding": [
+    "G.E.W. was supported by a fellowship from the Deutsche Forschungsgemeinschaft (DFG) and an MRC Career Development Award (MR/V032429/1)",
+    "R.D. is supported by Wellcome Trust Investigator Award 098362/ Z/12/Z.",
+    "Y.L. was supported by the Open Research Fund of the State Key Laboratory of Cognitive Neuroscience and Learning.",
+    "D.C.M. was supported by a Sir Henry Wellcome Trust Postdoctoral Research Fellowship Q: (110257/Z/15/Z).",
+    "The Wellcome Centre for Human Neuroimaging is supported by core funding from the Wellcome Trust (203147/Z/16/Z).",
+    "The Max Planck University College London Centre is a joint initiative supported by University College London and the Max Planck Society."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004398.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "loc"
+  ],
+  "sessions": [],
+  "total_files": 1,
+  "size_bytes": 1373056065,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Raymond J. Dolan",
+  "contact_info": [
+    "Elliott Wimmer"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:58.586978+00:00",
+    "dataset_created_at": "2023-01-11T14:18:04.348Z",
+    "dataset_modified_at": "2023-01-25T04:25:53.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004398",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "task-loc_events.json",
+      "task-post_events.json",
+      "task-rew_events.json",
+      "task-struct_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004398",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite https://doi.org/10.1101/2021.11.08.467745 (update to PNAS)",
+  "references_and_links": [
+    "https://github.com/gewimmer-neuro/multistep-replay",
+    "https://osf.io/szjxp/",
+    "https://doi.org/10.1101/2021.11.08.467745 (update to PNAS)"
+  ],
+  "ingestion_fingerprint": "dbf1c584c13739dc4a5e38d2d65c4b707abef1b193578f60435b2642afe85b24"
+}

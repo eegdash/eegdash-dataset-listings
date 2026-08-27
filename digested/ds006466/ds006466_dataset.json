@@ -1,0 +1,100 @@
+{
+  "dataset_id": "ds006466",
+  "name": "HeartBEAM: Older Adult Resting State and Auditory Oddball Task EEG Data",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Older Adult Resting State and Auditory Oddball Task EEG Data\n## What is included\n- This dataset includes resting state and auditory oddball task EEG data for two conditions: control and arousal (under threat of unpredictable shock).\n## Event labels\n100 - 5 minutes eyes open resting, control condition, begin\n101 - 5 minutes eyes open resting, control condition, end\n102 - 5 minutes eyes closed resting, control condition, begin\n103 - 5 minutes eyes closed resting, control condition, end\n104 - passive auditory oddball task, control condition, run begin\n105 - passive auditory oddball task, control condition, trial start\n106 - passive auditory oddball task, control condition, standard tone\n107 - passive auditory oddball task, control condition, target tone\n108 - passive auditory oddball task, control condition, distractor tone\n109 - passive auditory oddball task, control condition, trial end\n110 - passive auditory oddball task, control condition, run end\n111 - active auditory oddball task, control condition, run begin\n112 - active auditory oddball task, control condition, trial start\n113 - active auditory oddball task, control condition, standard tone\n114 - active auditory oddball task, control condition, target tone\n115 - active auditory oddball task, control condition, distractor tone\n116 - active auditory oddball task, control condition, start of response period\n117 - active auditory oddball task, control condition, manual button response recorded\n118 - active auditory oddball task, control condition, run end\n119 - 5 minutes eyes open resting, shock condition, begin\n120 - 5 minutes eyes open resting, shock condition, end\n121 - 5 minutes eyes closed resting, shock condition, begin\n122 - 5 minutes eyes closed resting, shock condition, end\n123 - passive auditory oddball task, shock condition, run begin\n124 - passive auditory oddball task, shock condition, trial start\n125 - passive auditory oddball task, shock condition, standard tone\n126 - passive auditory oddball task, shock condition, target tone\n127 - passive auditory oddball task, shock condition, distractor tone\n128 - passive auditory oddball task, shock condition, trial end\n129 - passive auditory oddball task, shock condition, run end\n130 - active auditory oddball task, shock condition, run begin\n131 - active auditory oddball task, shock condition, trial start\n132 - active auditory oddball task, shock condition, standard tone\n133 - active auditory oddball task, shock condition, target tone\n134 - active auditory oddball task, shock condition, distractor tone\n135 - active auditory oddball task, shock condition, start of response period\n136 - active auditory oddball task, shock condition, manual button response recorded\n137 - active auditory oddball task, shock condition, run end\n## Citations\nNashiro, K., Yoo, H. J., Cho, C., Kim, A. J., Nasseri, P., Min, J., ... & Mather, M. (2024). Heart rate and breathing effects on attention and memory (HeartBEAM): Study protocol for a randomized controlled trial in older adults. Trials, 25(1), 190.\nKim, A. J., Morales, S., Senior, J., & Mather, M. (2025). Electroencephalography, pupillometry, and behavioral evidence for locus coeruleus-noradrenaline system related tonic hyperactivity in older adults. Preprint: doi.org/10.1101/2025.10.02.680040",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "Andy Jeesu Kim",
+    "Santiago Morales",
+    "Joshua Senior",
+    "Mara Mather"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds006466.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "active",
+    "activeS",
+    "passive",
+    "passiveS",
+    "resting",
+    "restingS"
+  ],
+  "sessions": [
+    "post",
+    "pre"
+  ],
+  "total_files": 1257,
+  "size_bytes": 126131448388,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 66,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Mara Mather",
+  "contact_info": [
+    "Andy Jeesu Kim"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:07.177969+00:00",
+    "dataset_created_at": "2025-07-12T17:05:31.158Z",
+    "dataset_modified_at": "2025-10-06T18:46:57.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006466",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "task-activeS_channels.tsv",
+      "task-activeS_eeg.json",
+      "task-activeS_events.json",
+      "task-active_channels.tsv",
+      "task-active_eeg.json",
+      "task-active_events.json",
+      "task-passiveS_channels.tsv",
+      "task-passiveS_eeg.json",
+      "task-passiveS_events.json",
+      "task-passive_channels.tsv",
+      "task-passive_eeg.json",
+      "task-passive_events.json",
+      "task-restingS_channels.tsv",
+      "task-restingS_eeg.json",
+      "task-restingS_events.json",
+      "task-resting_channels.tsv",
+      "task-resting_eeg.json",
+      "task-resting_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006466",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "Kim, A. J., Morales, S., Senior, J., & Mather, M. (2025). Electroencephalography, pupillometry, and behavioral evidence for locus coeruleus-noradrenaline system related tonic hyperactivity in older adults. Preprint: doi.org/10.1101/2025.10.02.680040"
+  ],
+  "ingestion_fingerprint": "ed9387cc4705384891e728f332c66aaed6c1d0c22cb10b5d37bc334cff325c93"
+}

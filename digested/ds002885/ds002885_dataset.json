@@ -1,0 +1,81 @@
+{
+  "dataset_id": "ds002885",
+  "name": "DBS Phantom Recordings",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset is a part of the data used for the study: 'Kandemir, A.L., Litvak, V., Florin, E., 2020. The comparative performance of DBS artefact rejection methods for MEG recordings, NeuroImage, 2020, https://doi.org/10.1016/j.neuroimage.2020.117057.'\nPlease use the latest version of the dataset.\nFor detailed information about measurement protocol please refer to https://doi.org/10.1016/j.neuroimage.2020.117057. Additional information about CTF Phantom measurement is provided below.\nThe customized Matlab code for artefact rejection methods is available at:  https://gitlab.com/lkandemir/dbs-artefact-rejection.\n--------------\nCTF Phantom Measurement\nStimulation reference signal is captured with EEG001\nMovement trigger is captured with UPPT001\nDipole activity is captured with HADC006",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2",
+  "license": "CC0",
+  "authors": [
+    "Ahmet Levent Kandemir",
+    "Vladimir Litvak",
+    "Esther Florin"
+  ],
+  "funding": [
+    "Volkswagen Foundation (Lichtenberg program 89387)"
+  ],
+  "dataset_doi": "10.18112/openneuro.ds002885.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "DMW",
+    "DSMW",
+    "EmptyRoom",
+    "Reference"
+  ],
+  "sessions": [],
+  "total_files": 7,
+  "size_bytes": 21543178912,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Esther Florin",
+  "contact_info": [
+    "Ahmet Levent Kandemir"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:17.825960+00:00",
+    "dataset_created_at": "2020-06-05T12:06:29.489Z",
+    "dataset_modified_at": "2020-06-24T07:29:11.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds002885",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds002885",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "EF gratefully acknowledges support by the Volkswagen Foundation (Lichtenberg program 89387). The Wellcome Centre for Human Neuroimaging is supported by core funding from the Wellcome (203147/Z/16/Z). We thank David Bradbury, Peter Aston, Alphonso Reid and Daniel Bates for technical assistance with the phantom recording. The authors would like to thank Johannes Pfeifer, Jan Hirschmann, and Markus Butz for their critical review of the manuscript and fruitful discussions.",
+  "how_to_acknowledge": "Please acknowledge the authors and cite the following reference: Ahmet Levent Kandemir, Vladimir Litvak, Esther Florin, The comparative performance of DBS artefact rejection methods for MEG recordings, NeuroImage, 2020, 117057, ISSN 1053-8119, https://doi.org/10.1016/j.neuroimage.2020.117057.",
+  "references_and_links": [
+    "Kandemir, A.L., Litvak, V., Florin, E., 2020. The comparative performance of DBS artefact rejection methods for MEG recordings, NeuroImage, 2020, https://doi.org/10.1016/j.neuroimage.2020.117057."
+  ],
+  "ingestion_fingerprint": "098baf79add1219bed0d37cc1d5d4cb7469046de9749608fb76ff3e1704cc59a"
+}

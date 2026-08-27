@@ -1,0 +1,116 @@
+{
+  "dataset_id": "ds004212",
+  "name": "THINGS-MEG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# THINGS-MEG\nUnderstanding object representations visual and semantic processing of objects requires a broad, comprehensive sampling of the objects in our visual world\nwith dense measurements of brain activity and behavior. This densely sampled fMRI dataset is part of THINGS-data, a multimodal collection\nof large-scale datasets comprising functional MRI, magnetoencephalographic recordings, and 4.70 million behavioral judgments in response to thousands of photographic images\nfor up to 1,854 object concepts. THINGS-data is unique in its breadth of richly-annotated objects, allowing for testing countless novel hypotheses at scale while assessing\nthe reproducibility of previous findings. The multimodal data allows for studying both the temporal and spatial dynamics of object representations and their relationship\nto behavior and additionally provides the means for combining these datasets for novel insights into object processing. THINGS-data constitutes the core release of\nthe [THINGS initiative](https://things-initiative.org) for bridging the gap between disciplines and the advancement of cognitive neuroscience.\n# Dataset overview\nWe collected extensively sampled object representations using magnetoencephalography (MEG). To this end, we drew on the THINGS database [(Hebart et al., 2019)](https://doi.org/10.1371/journal.pone.0223792),\na richly-annotated database of 1,854 object concepts representative of the American English language which contains 26,107 manually-curated naturalistic object images.\nDuring the fMRI experiment, participants were shown a representative subset of THINGS images, spread across 12 separate sessions (N=4, 22,448 unique images of 1,854 objects).\nImages were shown in fast succession (1.5\u00b10.2s), and participants were instructed to maintain central fixation. To ensure engagement, participants performed an oddball detection task\nresponding to occasional artificially-generated images. A subset of images (n=200) were shown repeatedly in each session.\nBeyond the core functional imaging data in response to THINGS images, we acquired T1-weighted MRI scans to allow for cortical source localization.\nEye movements were monitored in the MEG to ensure participants maintained central fixation.",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.21",
+  "license": "CC0",
+  "authors": [
+    "Martin N. Hebart",
+    "Oliver Contier",
+    "Lina Teichmann",
+    "Adam H. Rockter",
+    "Charles Zheng",
+    "Alexis Kidder",
+    "Anna Corriveau",
+    "Maryam Vaziri-Pashkam",
+    "Chris I. Baker"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004212.v3.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "main"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "20190501",
+    "20190508",
+    "20190517",
+    "20190520",
+    "20190522",
+    "20190524",
+    "20190530",
+    "20190605",
+    "20190618",
+    "20190624",
+    "20190705",
+    "20190709",
+    "20190712",
+    "20190715",
+    "20190726",
+    "20190730"
+  ],
+  "total_files": 500,
+  "size_bytes": 255218599475,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 5,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "m": 2,
+      "f": 2,
+      "o": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Chris I. Baker",
+  "contact_info": [
+    "Oliver Contier",
+    "Lina Teichmann"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:07.198780+00:00",
+    "dataset_created_at": "2022-07-14T15:47:41.319Z",
+    "dataset_modified_at": "2025-05-29T20:15:29.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004212",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-main_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004212",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "NIH Institutional Review Board as part of the study protocol 93-M-0170 (NCT00001360)"
+  ],
+  "ingestion_fingerprint": "e711f3154ac8aad1938e8c11add2a808302294d7998975fbbee83b6a41015d24"
+}

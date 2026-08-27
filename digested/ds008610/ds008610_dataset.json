@@ -1,0 +1,82 @@
+{
+  "dataset_id": "ds008610",
+  "name": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Raw Macaque Electrophysiology Dataset\n\n## Overview\nThis dataset contains intracranial electrophysiology recordings from macaque VPL thalamus, acquired with a NeuroNexus V1x32-Edge (Vector Array) single-shank probe (32 sites, 100 \u00b5m pitch, 177 \u00b5m\u00b2 iridium sites) on a Blackrock Cerebus system, during two conditions:\n\n- Focused ultrasound (FUS) neuromodulation, with sonication targeted at either:\n  - VPL thalamus (co-located with the recording array), or\n  - insular cortex (recording remains in VPL)\n- Tactile stimulation of the hand contralateral to the recording hemisphere (right-hemisphere VPL array \u2192 left-hand stimulation, unless a session notes otherwise)\n\nFUS target (VPL vs insular cortex) and tactile stimulation side are recorded in each run\u2019s `events.tsv` `stim_site` column\u2014treat that as the authoritative per-trial record.\n\nThe data support the following publication:\nZheng, N., Yang, P.F., Phipps, M.A. et al. Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus. *Nat Commun* (2026). https://doi.org/10.1038/s41467-026-75826-8\n\n## Subjects\nSpecies: *Macaca fascicularis* and *Macaca mulatta*  \nSubject identifiers have been anonymized.  \nAdditional subject information is provided in `participants.tsv`.\n\n## Experimental design\nExtracellular electrophysiology was recorded from: VPL  \nFocused ultrasound was targeted to: VPL or insular cortex  \n\nThe experiment included the following conditions:\n- Focused ultrasound stimulation\n- Tactile stimulation\n\nEvent timing and stimulation parameters are provided in the corresponding `events.tsv` files.\n\n## Electrophysiology acquisition\nRecording system: Blackrock Microsystems  \nRecording hardware: CerePlex Direct with CerePlex M headstage  \nElectrode/probe: NeuroNexus V1x32-Edge  \nNumber of channels: 32  \nSampling frequency: 30 kHz (spikes), 1 kHz (LFP)  \nRecording hemisphere: Right  \nRecording location: VPL  \n\n## Data format\nRaw Blackrock files were read with NPMK (`openNSx`, `openNEV`) in MATLAB and written to NWB using MatNWB.\n\nFile types may include:\n- `.nwb`: raw electrophysiology recording and metadata\n- `.tsv`: participant, channel, electrode, and event tables\n- `.json`: metadata describing corresponding files\n\n## Data included\nsub-01:\n- Spikes dataset: FUS stimulation in VPL (`ses-ieeg01`)\n- LFP dataset: FUS stimulation in VPL (`ses-ieeg02`)\n- Tactile stimulation (left hand) (`ses-ieeg03`)\n\nsub-02:\n- Spikes dataset: FUS stimulation in VPL (`ses-ieeg01`)\n- LFP dataset: FUS stimulation in VPL (`ses-ieeg02`)\n- Spikes dataset: FUS stimulation in insular cortex (`ses-ieeg03`)\n- Tactile stimulation (left hand) (`ses-ieeg04`)\n\n## Funding\nThis work was supported by NIH grants:\n- NINDS RF1 NS126144\n- NIBIB 1U18EB02935\n\n## Contact\nLi Min Chen  \nVanderbilt University Institute of Imaging Science, Vanderbilt University  \nlimin.chen@vanderbilt.edu\n\nLi Min Chen\nDepartment of Radiology and Radiological Sciences, Vanderbilt University Medical Center\nlimin.chen@vumc.org\n\n## License\nCC0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "eeg",
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": null,
+  "license": "CC0",
+  "authors": [
+    "Ning Zheng",
+    "Pai-Feng Yang",
+    "M. Anthony Phipps",
+    "Jiro Kusunose",
+    "Arabinda Mishra",
+    "Jixin Xia",
+    "William Rodriguez",
+    "Allen T. Newton",
+    "Benoit M. Dawant",
+    "John C. Gore",
+    "Charles F. Caskey",
+    "Li Min Chen"
+  ],
+  "funding": [
+    "NIH/NINDS RF1 NS126144",
+    "NIH/NIBIB 1U18EB02935"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds008610.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "FUS",
+    "Tactile"
+  ],
+  "sessions": [
+    "ieeg01",
+    "ieeg02",
+    "ieeg03",
+    "ieeg04"
+  ],
+  "total_files": 353,
+  "size_bytes": null,
+  "data_processed": null,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 3,
+    "ages": [
+      19,
+      15
+    ],
+    "age_min": 15,
+    "age_max": 19,
+    "age_mean": 17.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": null,
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-08-27T09:00:49.245743+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": null
+  },
+  "storage": null,
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds008610/versions/1.0.0",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "4ae349ece1285bfdbb79a95e1596c5b378d10e63330d373cb14d0d5e131db7a5"
+}

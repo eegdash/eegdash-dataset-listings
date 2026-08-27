@@ -1,0 +1,92 @@
+{
+  "dataset_id": "ds005574",
+  "name": "The \"Podcast\" ECoG dataset",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "The \"Podcast\" ECoG dataset for modeling neural activity during natural story listening.\nWe introduce the \u201cPodcast\u201d electrocorticography (ECoG) dataset for modeling neural activity supporting natural narrative comprehension. This dataset combines the exceptional spatiotemporal resolution of human intracranial electrophysiology with a naturalistic experimental paradigm for language comprehension. In addition to the raw data, we provide a minimally preprocessed version in the high-gamma spectral band to showcase a simple pipeline and to make it easier to use. Furthermore, we include the auditory stimuli, an aligned word-level transcript, and linguistic features ranging from low-level acoustic properties to large language model (LLM) embeddings. We also include tutorials replicating previous findings and serve as a pedagogical resource and a springboard for new research. The dataset comprises 9 participants with 1,330 electrodes, including grid, depth, and strip electrodes. The participants listened to a 30-minute story with over 5,000 words. By using a natural story with high-fidelity, invasive neural recordings, this dataset offers a unique opportunity to investigate language comprehension.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "Zaid Zada",
+    "Samuel A. Nastase",
+    "Bobbi Aubrey",
+    "Itamar Jalon",
+    "Ariel Goldstein",
+    "Sebastian Michelmann",
+    "Haocheng Wang",
+    "Liat Hasenfratz",
+    "Werner Doyle",
+    "Daniel Friedman",
+    "Patricia Dugan",
+    "Lucia Melloni",
+    "Sasha Devore",
+    "Orrin Devinsky",
+    "Adeen Flinker",
+    "Uri Hasson"
+  ],
+  "funding": [
+    "National Institutes of Health grant DP1HD091948",
+    "National Institutes of Health grant R01NS109367"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005574.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "podcast"
+  ],
+  "sessions": [],
+  "total_files": 9,
+  "size_bytes": 3483284760,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 9,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Uri Hasson",
+  "contact_info": [
+    "Zaid Zada"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:52:51.128507+00:00",
+    "dataset_created_at": "2024-10-15T20:04:55.411Z",
+    "dataset_modified_at": "2025-02-17T13:52:37.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005574",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005574",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://hassonlab.github.io/podcast-ecog-tutorials",
+    "https://github.com/hassonlab/podcast-ecog-paper"
+  ],
+  "ingestion_fingerprint": "c795fba73adb54921af76f40ac09f4db729ba3a316427aeaf65743898dd94c0b"
+}

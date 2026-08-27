@@ -1,0 +1,147 @@
+{
+  "dataset_id": "ds004771",
+  "name": "EEG/ERP data from a Python Reading Task",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "EEG data for the Python reading task (acceptability judgments) described in [Kuo, C-H. and Prat, C.S. Programmers show distinct, language-like brain responses to violations in form and meaning when reading code], pending submission to Nature Communications.\nThis study recruited 62 total subjects. 1 subject did not complete the EEG session and was removed from all analyses and is not included in this dataset. The remaining 61 individuals' EEG data are included. The participants info file contains information regarding which individuals were included in the final analyses (per artifact rejection criteria detailed in the article).\nThe stimuli for this study was administered in Presentation; as such, the files are in the formats compatible with this program.\nThe provided code was used for processing the EEG data. All statistics were run in Jamovi, an R-based open source software; feel free to reach out for the original files if you are interested.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Chu-Hsuan Kuo",
+    "Chantel S. Prat"
+  ],
+  "funding": [
+    "Office of Naval Research, Cognitive Science of Learning program (N00014-20-1-2393)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004771.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PY"
+  ],
+  "sessions": [],
+  "total_files": 61,
+  "size_bytes": 1462175616,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 61,
+    "ages": [
+      33,
+      22,
+      27,
+      18,
+      20,
+      22,
+      20,
+      22,
+      22,
+      22,
+      23,
+      21,
+      24,
+      23,
+      22,
+      25,
+      25,
+      28,
+      19,
+      28,
+      22,
+      19,
+      28,
+      24,
+      24,
+      25,
+      25,
+      32,
+      26,
+      24,
+      24,
+      28,
+      24,
+      23,
+      23,
+      20,
+      20,
+      23,
+      24,
+      23,
+      18,
+      23,
+      25,
+      19,
+      19,
+      22,
+      18,
+      23,
+      21,
+      18,
+      21,
+      21,
+      20,
+      20,
+      21,
+      18,
+      20,
+      20,
+      19,
+      20,
+      21
+    ],
+    "age_min": 18,
+    "age_max": 33,
+    "age_mean": 22.524590163934427,
+    "species": null,
+    "sex_distribution": {
+      "f": 33,
+      "m": 27,
+      "o": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Chantel S. Prat",
+  "contact_info": [
+    "Iris Kuo"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:46:56.373448+00:00",
+    "dataset_created_at": "2023-09-25T03:25:26.570Z",
+    "dataset_modified_at": "2023-09-25T03:47:45.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004771",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-PY_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004771",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Thank you to Mark Pettet for assistance with data analysis and the conversion of data to BIDS format.",
+  "ethics_approvals": [
+    "All experimental procedures were approved by the University of Washington Institutional Review Board"
+  ],
+  "references_and_links": [
+    "See manuscript"
+  ],
+  "ingestion_fingerprint": "c835c54ca8c455005b9b62c6e6d964ed9e84ad8231107a7d0e661d5dc62e5389"
+}

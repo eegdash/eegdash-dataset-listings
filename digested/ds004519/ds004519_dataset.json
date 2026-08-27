@@ -1,0 +1,75 @@
+{
+  "dataset_id": "ds004519",
+  "name": "Internal selective attention is delayed by competition between endogenous and exogenous factors",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Preprocessed data files from \"Internal selective attention is delayed by competition between endogenous and exogenous factors\". A preprint describing the work can be found at https://www.biorxiv.org/content/10.1101/2022.07.05.498906v4.abstract, and analysis scripts can be found at https://osf.io/wat6d/. This study was conceptualized and analyzed before our lab made the switch to BIDS archival. If you want to use the analysis scripts linked above to analyze the BIDS data, you'll have to modify them to load the BIDS .set files rather than the .mat files we analyzed in our lab (the .set and .mat files, however, are identical). You will also need to modify the analysis scripts to load in the _behavSummary.mat files for alignment with the EEG data. If you have questions or run into problems, please e-mail the corresponding author of the study (eester@unr.edu)\"",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Edward Ester",
+    "Asal Nouri"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004519.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ProAntiCue"
+  ],
+  "sessions": [],
+  "total_files": 40,
+  "size_bytes": 13486847571,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 40,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Asal Nouri",
+  "contact_info": [
+    "Edward Ester"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:45:51.840234+00:00",
+    "dataset_created_at": "2023-03-03T23:49:01.001Z",
+    "dataset_modified_at": "2023-03-04T19:46:39.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004519",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-ProAntiCue_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004519",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://www.biorxiv.org/content/10.1101/2022.07.05.498906v4.abstract"
+  ],
+  "ingestion_fingerprint": "5fdd3c62d9a46e5d4f5f7989a728d9e2bc1814a7f9faae905f02b7f9b4938e52"
+}

@@ -1,0 +1,189 @@
+{
+  "dataset_id": "ds005662",
+  "name": "A comprehensive EEG dataset for investigating\nvisual touch perception",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Data collection took place at The MARCS Institute for Brain, Behaviour and Development in Sydney, Australia. The study was approved by the Western Sydney University Ethics Committee.\nWe recorded EEG data while participants viewed rapid streams of videos adapted from the Validated Touch-Video Database (Smit & Rich, 2025) depicting touch to a hand. Both the adapted videos used in this project, and original videos and validation data, are available on OSF (https://osf.io/jvkqa/).\nThere were 32 sequences in total with a total of 2880 non-target trials (90 unique videos, each presented 8 times) alongside a variable number of target trials (showing touch to an object). Between trials there was an inter-trial-interval of 200ms. The experimental task lasted approximately 55 minutes including breaks. We also recorded questionnaire responses.\nWhole brain 64-channel EEG data were recorded using an Active Two Biosemi system (Biosemi, Inc.) at 2048Hz and 10-20 standard caps. Stimuli were presented using Python and PsychoPy software version 2023.3.1.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.0.0",
+  "license": "CC0",
+  "authors": [
+    "Sophie Smit",
+    "Almudena Ram\u00edrez-Haro",
+    "Manuel Varlet",
+    "Denise Moerel",
+    "Genevieve L. Quek",
+    "Tijl Grootswagers"
+  ],
+  "funding": [
+    "This research was supported by Australian Research Council grants DP220103047 (MV) and DE230100380 (TG)."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005662.v2.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "video"
+  ],
+  "sessions": [],
+  "total_files": 80,
+  "size_bytes": 115754787329,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 80,
+    "ages": [
+      34,
+      24,
+      35,
+      30,
+      36,
+      22,
+      33,
+      23,
+      32,
+      22,
+      30,
+      27,
+      22,
+      44,
+      26,
+      18,
+      28,
+      35,
+      21,
+      24,
+      20,
+      51,
+      21,
+      37,
+      18,
+      45,
+      29,
+      42,
+      18,
+      20,
+      19,
+      18,
+      19,
+      23,
+      40,
+      26,
+      21,
+      20,
+      39,
+      40,
+      24,
+      37,
+      38,
+      23,
+      35,
+      53,
+      76,
+      25,
+      32,
+      38,
+      19,
+      23,
+      21,
+      30,
+      21,
+      25,
+      53,
+      52,
+      18,
+      19,
+      48,
+      44,
+      37,
+      24,
+      28,
+      33,
+      22,
+      22,
+      34,
+      42,
+      21,
+      40,
+      31,
+      23,
+      26,
+      32,
+      21,
+      20,
+      33,
+      31
+    ],
+    "age_min": 18,
+    "age_max": 76,
+    "age_mean": 30.075,
+    "species": null,
+    "sex_distribution": {
+      "f": 54,
+      "m": 24,
+      "o": 2
+    },
+    "handedness_distribution": {
+      "a": 3
+    }
+  },
+  "senior_author": "Tijl Grootswagers",
+  "contact_info": [
+    "Sophie Smit",
+    "Tijl Grootswagers"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:04.243438+00:00",
+    "dataset_created_at": "2024-11-27T04:56:45.541Z",
+    "dataset_modified_at": "2026-02-06T01:59:03.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005662",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.txt",
+      "participants.json",
+      "participants.tsv",
+      "task-video_eeg.json",
+      "task-video_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005662",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank our participants and funding sources.",
+  "how_to_acknowledge": "Please cite Smit et al. (2025) when using this dataset.",
+  "ethics_approvals": [
+    "Approval from the Western Sydney University Ethics Committee (project number: H15644)"
+  ],
+  "generated_by": [
+    {
+      "Name": "PsychoPy",
+      "Version": "2023.3.1",
+      "Description": "Used to program and run the experiment."
+    },
+    {
+      "Name": "Python",
+      "Version": "3.9.13",
+      "Description": "Used for scripting and experiment control."
+    },
+    {
+      "Name": "MNE-Python",
+      "Version": "1.7",
+      "Description": "Used for preprocessing and subsequent data analyses."
+    }
+  ],
+  "ingestion_fingerprint": "8d879632bb50d7fbf9eb9e7ab3a183789a690482174906b03b2eca3b057d2654"
+}

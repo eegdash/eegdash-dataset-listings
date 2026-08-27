@@ -1,0 +1,116 @@
+{
+  "dataset_id": "ds004389",
+  "name": "Somatosensory evoked potentials in the human spinal cord to mixed and sensory nerve stimulation",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Description\n--------\nThis is a data set consisting of simultaneous electroencephalography (EEG), electrospinography (ESG), electroneurography (ENG), and electromyography (EMG) recordings from 26 participants. There were nine different recording conditions: i) resting state with eyes open, ii) mixed median nerve stimulation (arm nerve), iii) mixed tibial nerve stimulation (leg nerve), iv) sensory nerve stimulation of the index finger, v) sensory nerve stimulation of the middle finger, vi) simultaneous senory nerve stimulation of the index and middle finger, vii) sensory nerve stimulation to the first toe, viii) sensory nerve stimulation to the second toe, ix) simultaneous senory nerve stimulation to the first and second toe. For each participant, there is i) the simultaneous EEG-ESG-ENG-EMG-recording which also includes electrocardiographic and respiratory signals, ii) ESG electrode positions. For a detailed description please see the following article: XXX. This study was pre-registered on OSF: https://osf.io/mjdha.\nCiting this dataset\n--------\nShould you make use of this data set in any publication, please cite the following article: XXXX\nLicense\n-------\nThis data set is made available under the Creative Commons CC0 license. For more information, see https://creativecommons.org/share-your-work/public-domain/cc0/\nData set\n-------\nThis data set is organized according to the Brain Imaging Data Structure specification. For more information on this data specification, see https://bids-specification.readthedocs.io/en/stable/\nEach participant's data are in one subdirectory (e.g., 'sub-001'), which contains the raw data in eeglab format.\nPlease note that the EEG channel Fz was referenced to i) the EEG reference (right mastoid, RM, channel name: Fz) and ii) the ESG reference (6th thoracic vertebra, TH6, channel name: Fz-TH6).\nShould you have any questions about this data set, please contact nierula@cbs.mpg.de or eippert@cbs.mpg.de.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Birgit Nierula",
+    "Tilman Stephani",
+    "Merve Kaptan",
+    "Andr\u00e9 Moruaux",
+    "Burkhard Maess",
+    "Gabriel Curio",
+    "Vadim V. Nikulin",
+    "Falk Eippert"
+  ],
+  "funding": [
+    "n/a"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004389.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "medianmixed",
+    "mediansensory",
+    "tibialmixed",
+    "tibialsensory"
+  ],
+  "sessions": [],
+  "total_files": 260,
+  "size_bytes": 404264478546,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 26,
+    "ages": [
+      21,
+      19,
+      19,
+      31,
+      23,
+      26,
+      21,
+      21,
+      35,
+      26,
+      24,
+      20,
+      20,
+      26,
+      19,
+      21,
+      27,
+      20,
+      25,
+      19,
+      31,
+      27,
+      27,
+      28,
+      29,
+      22
+    ],
+    "age_min": 19,
+    "age_max": 35,
+    "age_mean": 24.115384615384617,
+    "species": null,
+    "sex_distribution": {
+      "f": 14,
+      "m": 12
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Falk Eippert",
+  "contact_info": [
+    "Falk Eippert"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:54.559473+00:00",
+    "dataset_created_at": "2023-01-04T13:15:45.996Z",
+    "dataset_modified_at": "2023-07-06T19:26:09.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004389",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004389",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This data was acquired with the help of our student research assistants Janek Haschke, Pia-Lena Baisch, Paula Kosel, Max Braune, Samuel Simeon, and Marleen L\u00f6ffler.",
+  "references_and_links": [
+    "https://osf.io/mjdha"
+  ],
+  "ingestion_fingerprint": "453dc168c1e7bd8fa9fffca7c688a91c3bfafed930d7e55fca6a852fd92fe55f"
+}

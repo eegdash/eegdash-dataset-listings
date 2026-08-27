@@ -1,0 +1,136 @@
+{
+  "dataset_id": "ds005095",
+  "name": "STERNBERG DIFFICULT",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Overview\nThis is the \"Sternberg Difficult\" dataset contain RAW EEG data. Raven Progressive Standard Matrices scores for each participant are provided in participants.tsv\n# Task\nParticipants completed a version of the Sternberg task (Sternberg, 1966; Fig 1) during EEG recording. Stimuli were all consonants of the Russian alphabet letters, except for \u201c\u0449\u201d[sch] and \u201c\u0439\u201d [ij], presented in sets of 3, 6, 9, 12, and 15 letters. No letter repeated within a set. Each trial was preceded by a 500-1000 ms fixation cross. Encoding (letter set), retention (blank screen), and retrieval (probe letter) phases were allocated 1500ms, 2000ms and 1500ms, respectively. After 1500 ms period, the probe letter disappeared from the screen. Participants were asked to recall whether the probe letter was in the letter set presented during encoding phase. They had unlimited time to respond by pressing a button: the \u201cleft arrow\u201d for \u201cno\u201d and the \u201cright arrow\u201d for \u201cyes\u201d. The trial concluded immediately after a response was made, regardless of the reaction time. Participants completed 200 trials in total with 40 trials in difficulty blocks corresponding to each particular set size (i.e., 3, 6, 9, 12, and 15 letters) with an opportunity to take a break after each block. The order of blocks was random, and the number of positive and negative probes was equal in each block. All stimuli were presented and responses were recorded using Psychopy2.\n# Event triggers\nImportant: Triggers in the dataset correspond only to the beginning of the stimulus presentation. No additional triggers were implemented to mark the onset of the retention and retrieval periods. However, these timepoints can be computed based on the experimental design. Each sample was presented for 1500 ms, meaning that the retention time occurred strictly 1500 ms after the trigger point appeared in the data. Similarly, the time of retrieval (when participants had to explicitly state whether a new letter had been shown previously) could be marked at 3500 ms relative to the trial onset.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Natalia Zhozhikashvili",
+    "Maria Protopova",
+    "Tatiana Shkurenko",
+    "Marie Arsalidou",
+    "Ilya Zakharov",
+    "Boris Kotchoubey",
+    "Sergey Malykh",
+    "Yuri Pavlov"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005095.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "STERNBERG"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 48,
+  "size_bytes": 15336170094,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 48,
+    "ages": [
+      23,
+      20,
+      21,
+      21,
+      19,
+      19,
+      19,
+      23,
+      19,
+      22,
+      22,
+      24,
+      20,
+      32,
+      20,
+      21,
+      21,
+      21,
+      20,
+      20,
+      21,
+      20,
+      20,
+      20,
+      21,
+      21,
+      21,
+      21,
+      20,
+      20,
+      22,
+      21,
+      20,
+      20,
+      19,
+      20,
+      20,
+      21,
+      21,
+      22,
+      23,
+      19,
+      20,
+      27,
+      22,
+      21,
+      21,
+      21
+    ],
+    "age_min": 19,
+    "age_max": 32,
+    "age_mean": 21.083333333333332,
+    "species": null,
+    "sex_distribution": {
+      "f": 33,
+      "m": 15
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Yuri Pavlov",
+  "contact_info": [
+    "Natalia Zhozhikashvili",
+    "Yuri G. Pavlov"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:47:58.003302+00:00",
+    "dataset_created_at": "2024-04-18T15:53:16.585Z",
+    "dataset_modified_at": "2026-03-25T16:01:21.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005095",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005095",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "https://doi.org/10.1016/j.ijpsycho.2024.112355",
+  "ethics_approvals": [
+    "Ethics committee of the Psychological Institute of Russian Academy of Education"
+  ],
+  "ingestion_fingerprint": "96270d28b75d5810fec8ed37f168bc0bba4a8d34a0c1bc3922e85c24d0104047"
+}

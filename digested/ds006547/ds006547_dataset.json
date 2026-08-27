@@ -1,0 +1,80 @@
+{
+  "dataset_id": "ds006547",
+  "name": "Visual EEG Study (BrainVision \u2192 BIDS)",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset contains high-density EEG recordings collected during a visual stimulation task.\nFiles are organized according to the EEG-BIDS specification. Raw data are BrainVision (.vhdr/.vmrk/.eeg).\nTask: visual\nSession: ses-01\nProvenance: Converted from c:/shared/raw_eeg with this helper script.\nNo acquisition-time filters applied (offline preprocessing not included here).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Sanaz Ghaffari",
+    "Arian Yavari",
+    "Sara Bonyadian",
+    "Arsalan Ghofrani",
+    "Russell Butler"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds006547.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "visual"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 31,
+  "size_bytes": 18921502382,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 31,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Russell Butler",
+  "contact_info": [
+    "Russell Butler"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:25.271465+00:00",
+    "dataset_created_at": "2025-08-12T10:31:23.086Z",
+    "dataset_modified_at": "2025-08-12T11:19:42.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006547",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-visual_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006547",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "CIUSSS de l\u2019Estrie \u2013 CHUS"
+  ],
+  "ingestion_fingerprint": "23d7e17bfadc2586e3d3b42e26c990872d838c013a51ea5106f0b7a0c922729f"
+}

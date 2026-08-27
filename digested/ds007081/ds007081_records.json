@@ -1,0 +1,4027 @@
+{
+  "dataset": "ds007081",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:56:24.780897+00:00",
+  "record_count": 41,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-037_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-037/eeg/sub-037_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-037/eeg/sub-037_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "037",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "037",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-037/eeg/sub-037_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-037/eeg/sub-037_task-PassiveAccessible_channels.tsv",
+          "sub-037/eeg/sub-037_task-PassiveAccessible_eeg.json",
+          "sub-037/eeg/sub-037_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-039_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-039/eeg/sub-039_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-039/eeg/sub-039_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "039",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "039",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-039/eeg/sub-039_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-039/eeg/sub-039_task-PassiveAccessible_channels.tsv",
+          "sub-039/eeg/sub-039_task-PassiveAccessible_eeg.json",
+          "sub-039/eeg/sub-039_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-043_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-043/eeg/sub-043_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-043/eeg/sub-043_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "043",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "043",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-043/eeg/sub-043_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-043/eeg/sub-043_task-PassiveAccessible_channels.tsv",
+          "sub-043/eeg/sub-043_task-PassiveAccessible_eeg.json",
+          "sub-043/eeg/sub-043_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-020_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-020/eeg/sub-020_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-020/eeg/sub-020_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "020",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "020",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-020/eeg/sub-020_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-020/eeg/sub-020_task-PassiveAccessible_channels.tsv",
+          "sub-020/eeg/sub-020_task-PassiveAccessible_eeg.json",
+          "sub-020/eeg/sub-020_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-042_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-042/eeg/sub-042_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-042/eeg/sub-042_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "042",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "042",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-042/eeg/sub-042_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-042/eeg/sub-042_task-PassiveAccessible_channels.tsv",
+          "sub-042/eeg/sub-042_task-PassiveAccessible_eeg.json",
+          "sub-042/eeg/sub-042_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-053_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-053/eeg/sub-053_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-053/eeg/sub-053_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "053",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "053",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-053/eeg/sub-053_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-053/eeg/sub-053_task-PassiveAccessible_channels.tsv",
+          "sub-053/eeg/sub-053_task-PassiveAccessible_eeg.json",
+          "sub-053/eeg/sub-053_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2314200,
+      "duration_seconds": 2314.2,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2314.2,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-041_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-041/eeg/sub-041_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-041/eeg/sub-041_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "041",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "041",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-041/eeg/sub-041_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-041/eeg/sub-041_task-PassiveAccessible_channels.tsv",
+          "sub-041/eeg/sub-041_task-PassiveAccessible_eeg.json",
+          "sub-041/eeg/sub-041_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-046_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-046/eeg/sub-046_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-046/eeg/sub-046_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "046",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "046",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-046/eeg/sub-046_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-046/eeg/sub-046_task-PassiveAccessible_channels.tsv",
+          "sub-046/eeg/sub-046_task-PassiveAccessible_eeg.json",
+          "sub-046/eeg/sub-046_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-044_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-044/eeg/sub-044_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-044/eeg/sub-044_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "044",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "044",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-044/eeg/sub-044_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-044/eeg/sub-044_task-PassiveAccessible_channels.tsv",
+          "sub-044/eeg/sub-044_task-PassiveAccessible_eeg.json",
+          "sub-044/eeg/sub-044_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2314200,
+      "duration_seconds": 2314.2,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2314.2,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-018_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-018/eeg/sub-018_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-018/eeg/sub-018_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "018",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "018",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-018/eeg/sub-018_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-018/eeg/sub-018_task-PassiveAccessible_channels.tsv",
+          "sub-018/eeg/sub-018_task-PassiveAccessible_eeg.json",
+          "sub-018/eeg/sub-018_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-016_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-016/eeg/sub-016_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-016/eeg/sub-016_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "016",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "016",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-016/eeg/sub-016_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-016/eeg/sub-016_task-PassiveAccessible_channels.tsv",
+          "sub-016/eeg/sub-016_task-PassiveAccessible_eeg.json",
+          "sub-016/eeg/sub-016_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-022_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-022/eeg/sub-022_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-022/eeg/sub-022_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "022",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "022",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-022/eeg/sub-022_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-022/eeg/sub-022_task-PassiveAccessible_channels.tsv",
+          "sub-022/eeg/sub-022_task-PassiveAccessible_eeg.json",
+          "sub-022/eeg/sub-022_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2317100,
+      "duration_seconds": 2317.1,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2317.1,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-059_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-059/eeg/sub-059_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-059/eeg/sub-059_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "059",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "059",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-059/eeg/sub-059_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-059/eeg/sub-059_task-PassiveAccessible_channels.tsv",
+          "sub-059/eeg/sub-059_task-PassiveAccessible_eeg.json",
+          "sub-059/eeg/sub-059_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-052_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-052/eeg/sub-052_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-052/eeg/sub-052_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "052",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "052",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-052/eeg/sub-052_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-052/eeg/sub-052_task-PassiveAccessible_channels.tsv",
+          "sub-052/eeg/sub-052_task-PassiveAccessible_eeg.json",
+          "sub-052/eeg/sub-052_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2151800,
+      "duration_seconds": 2151.8,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2151.8,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-025_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-025/eeg/sub-025_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-025/eeg/sub-025_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "025",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "025",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-025/eeg/sub-025_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-025/eeg/sub-025_task-PassiveAccessible_channels.tsv",
+          "sub-025/eeg/sub-025_task-PassiveAccessible_eeg.json",
+          "sub-025/eeg/sub-025_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-021_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-021/eeg/sub-021_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-021/eeg/sub-021_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "021",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "021",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-021/eeg/sub-021_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-021/eeg/sub-021_task-PassiveAccessible_channels.tsv",
+          "sub-021/eeg/sub-021_task-PassiveAccessible_eeg.json",
+          "sub-021/eeg/sub-021_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-029_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-029/eeg/sub-029_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-029/eeg/sub-029_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "029",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "029",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-029/eeg/sub-029_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-029/eeg/sub-029_task-PassiveAccessible_channels.tsv",
+          "sub-029/eeg/sub-029_task-PassiveAccessible_eeg.json",
+          "sub-029/eeg/sub-029_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-028_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-028/eeg/sub-028_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-028/eeg/sub-028_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "028",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "028",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-028/eeg/sub-028_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-028/eeg/sub-028_task-PassiveAccessible_channels.tsv",
+          "sub-028/eeg/sub-028_task-PassiveAccessible_eeg.json",
+          "sub-028/eeg/sub-028_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2317100,
+      "duration_seconds": 2317.1,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2317.1,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-060_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-060/eeg/sub-060_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-060/eeg/sub-060_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "060",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "060",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-060/eeg/sub-060_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-060/eeg/sub-060_task-PassiveAccessible_channels.tsv",
+          "sub-060/eeg/sub-060_task-PassiveAccessible_eeg.json",
+          "sub-060/eeg/sub-060_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-035_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-035/eeg/sub-035_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-035/eeg/sub-035_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "035",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "035",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-035/eeg/sub-035_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-035/eeg/sub-035_task-PassiveAccessible_channels.tsv",
+          "sub-035/eeg/sub-035_task-PassiveAccessible_eeg.json",
+          "sub-035/eeg/sub-035_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-054_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-054/eeg/sub-054_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-054/eeg/sub-054_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "054",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "054",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-054/eeg/sub-054_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-054/eeg/sub-054_task-PassiveAccessible_channels.tsv",
+          "sub-054/eeg/sub-054_task-PassiveAccessible_eeg.json",
+          "sub-054/eeg/sub-054_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2308400,
+      "duration_seconds": 2308.4,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2308.4,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-023_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-023/eeg/sub-023_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-023/eeg/sub-023_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "023",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "023",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-023/eeg/sub-023_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-023/eeg/sub-023_task-PassiveAccessible_channels.tsv",
+          "sub-023/eeg/sub-023_task-PassiveAccessible_eeg.json",
+          "sub-023/eeg/sub-023_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2163400,
+      "duration_seconds": 2163.4,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2163.4,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-017_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-017/eeg/sub-017_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-017/eeg/sub-017_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "017",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "017",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-017/eeg/sub-017_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-017/eeg/sub-017_task-PassiveAccessible_channels.tsv",
+          "sub-017/eeg/sub-017_task-PassiveAccessible_eeg.json",
+          "sub-017/eeg/sub-017_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-034_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-034/eeg/sub-034_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-034/eeg/sub-034_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "034",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "034",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-034/eeg/sub-034_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-034/eeg/sub-034_task-PassiveAccessible_channels.tsv",
+          "sub-034/eeg/sub-034_task-PassiveAccessible_eeg.json",
+          "sub-034/eeg/sub-034_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-064_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-064/eeg/sub-064_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-064/eeg/sub-064_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "064",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "064",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-064/eeg/sub-064_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-064/eeg/sub-064_task-PassiveAccessible_channels.tsv",
+          "sub-064/eeg/sub-064_task-PassiveAccessible_eeg.json",
+          "sub-064/eeg/sub-064_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-062_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-062/eeg/sub-062_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-062/eeg/sub-062_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "062",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "062",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-062/eeg/sub-062_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-062/eeg/sub-062_task-PassiveAccessible_channels.tsv",
+          "sub-062/eeg/sub-062_task-PassiveAccessible_eeg.json",
+          "sub-062/eeg/sub-062_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-026_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-026/eeg/sub-026_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-026/eeg/sub-026_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "026",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "026",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-026/eeg/sub-026_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-026/eeg/sub-026_task-PassiveAccessible_channels.tsv",
+          "sub-026/eeg/sub-026_task-PassiveAccessible_eeg.json",
+          "sub-026/eeg/sub-026_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-040_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-040/eeg/sub-040_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-040/eeg/sub-040_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "040",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "040",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-040/eeg/sub-040_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-040/eeg/sub-040_task-PassiveAccessible_channels.tsv",
+          "sub-040/eeg/sub-040_task-PassiveAccessible_eeg.json",
+          "sub-040/eeg/sub-040_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-024_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-024/eeg/sub-024_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-024/eeg/sub-024_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "024",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "024",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-024/eeg/sub-024_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-024/eeg/sub-024_task-PassiveAccessible_channels.tsv",
+          "sub-024/eeg/sub-024_task-PassiveAccessible_eeg.json",
+          "sub-024/eeg/sub-024_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-061_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-061/eeg/sub-061_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-061/eeg/sub-061_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "061",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "061",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-061/eeg/sub-061_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-061/eeg/sub-061_task-PassiveAccessible_channels.tsv",
+          "sub-061/eeg/sub-061_task-PassiveAccessible_eeg.json",
+          "sub-061/eeg/sub-061_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-027_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-027/eeg/sub-027_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-027/eeg/sub-027_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "027",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "027",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-027/eeg/sub-027_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-027/eeg/sub-027_task-PassiveAccessible_channels.tsv",
+          "sub-027/eeg/sub-027_task-PassiveAccessible_eeg.json",
+          "sub-027/eeg/sub-027_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-065_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-065/eeg/sub-065_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-065/eeg/sub-065_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "065",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "065",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-065/eeg/sub-065_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-065/eeg/sub-065_task-PassiveAccessible_channels.tsv",
+          "sub-065/eeg/sub-065_task-PassiveAccessible_eeg.json",
+          "sub-065/eeg/sub-065_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-036_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-036/eeg/sub-036_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-036/eeg/sub-036_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "036",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "036",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-036/eeg/sub-036_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-036/eeg/sub-036_task-PassiveAccessible_channels.tsv",
+          "sub-036/eeg/sub-036_task-PassiveAccessible_eeg.json",
+          "sub-036/eeg/sub-036_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2314200,
+      "duration_seconds": 2314.2,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2314.2,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-030_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-030/eeg/sub-030_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-030/eeg/sub-030_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "030",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "030",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-030/eeg/sub-030_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-030/eeg/sub-030_task-PassiveAccessible_channels.tsv",
+          "sub-030/eeg/sub-030_task-PassiveAccessible_eeg.json",
+          "sub-030/eeg/sub-030_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-048_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-048/eeg/sub-048_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-048/eeg/sub-048_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "048",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "048",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-048/eeg/sub-048_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-048/eeg/sub-048_task-PassiveAccessible_channels.tsv",
+          "sub-048/eeg/sub-048_task-PassiveAccessible_eeg.json",
+          "sub-048/eeg/sub-048_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-031_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-031/eeg/sub-031_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-031/eeg/sub-031_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "031",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "031",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-031/eeg/sub-031_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-031/eeg/sub-031_task-PassiveAccessible_channels.tsv",
+          "sub-031/eeg/sub-031_task-PassiveAccessible_eeg.json",
+          "sub-031/eeg/sub-031_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-058_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-058/eeg/sub-058_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-058/eeg/sub-058_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "058",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "058",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-058/eeg/sub-058_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-058/eeg/sub-058_task-PassiveAccessible_channels.tsv",
+          "sub-058/eeg/sub-058_task-PassiveAccessible_eeg.json",
+          "sub-058/eeg/sub-058_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-033_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-033/eeg/sub-033_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-033/eeg/sub-033_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "033",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "033",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-033/eeg/sub-033_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-033/eeg/sub-033_task-PassiveAccessible_channels.tsv",
+          "sub-033/eeg/sub-033_task-PassiveAccessible_eeg.json",
+          "sub-033/eeg/sub-033_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-056_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-056/eeg/sub-056_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-056/eeg/sub-056_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "056",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "056",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-056/eeg/sub-056_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-056/eeg/sub-056_task-PassiveAccessible_channels.tsv",
+          "sub-056/eeg/sub-056_task-PassiveAccessible_eeg.json",
+          "sub-056/eeg/sub-056_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2308400,
+      "duration_seconds": 2308.4,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2308.4,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-063_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-063/eeg/sub-063_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-063/eeg/sub-063_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "063",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "063",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-063/eeg/sub-063_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-063/eeg/sub-063_task-PassiveAccessible_channels.tsv",
+          "sub-063/eeg/sub-063_task-PassiveAccessible_eeg.json",
+          "sub-063/eeg/sub-063_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    },
+    {
+      "dataset": "ds007081",
+      "data_name": "ds007081_sub-038_task-PassiveAccessible_eeg.set",
+      "bidspath": "ds007081/sub-038/eeg/sub-038_task-PassiveAccessible_eeg.set",
+      "bids_relpath": "sub-038/eeg/sub-038_task-PassiveAccessible_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "038",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "038",
+        "session": null,
+        "task": "PassiveAccessible",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007081",
+        "raw_key": "sub-038/eeg/sub-038_task-PassiveAccessible_eeg.set",
+        "dep_keys": [
+          "sub-038/eeg/sub-038_task-PassiveAccessible_channels.tsv",
+          "sub-038/eeg/sub-038_task-PassiveAccessible_eeg.json",
+          "sub-038/eeg/sub-038_task-PassiveAccessible_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11",
+        "E12",
+        "E13",
+        "E14",
+        "E15",
+        "E16",
+        "E17",
+        "E18",
+        "E19",
+        "E20",
+        "E21",
+        "E22",
+        "E23",
+        "E24",
+        "E25",
+        "E26",
+        "E27",
+        "E28",
+        "E29",
+        "E30",
+        "E31",
+        "E32"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 2320000,
+      "duration_seconds": 2320.0,
+      "digested_at": "2026-08-27T08:56:24.780897+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "Average of left and right mastoids (TP9/TP10); implemented by subtracting TP10/2 after initial left-mastoid reference.",
+      "software_filters": {
+        "BandpassFilter": {
+          "HighpassCutoffHz": 0.05,
+          "LowpassCutoffHz": 40,
+          "Implementation": "EEGLAB pop_basicfilter"
+        }
+      },
+      "manufacturer": "Brain Products",
+      "manufacturers_model_name": "actiCHamp",
+      "institution_name": "Sabanci University",
+      "recording_type": "epoched",
+      "recording_duration": 2320,
+      "montage_hash": "b98b8dddce1e7dee"
+    }
+  ]
+}

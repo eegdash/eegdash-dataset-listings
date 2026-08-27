@@ -1,0 +1,142 @@
+{
+  "dataset_id": "ds004279",
+  "name": "Large Spanish EEG\n",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "EEG: silent and perceive speech on 30 Spanish sentences\nLarge Spanish Speech EEG dataset\nAuthors\n<ul>\n  <li>Carlos Valle</li>\n  <li>Carolina Mendez-Orellana</li>\n  <li>Mar\u00eda Rodr\u00edguez-Fern\u00e1ndez</li>\n</ul>\nResources:\n<ul>\n    <li>Code availaible at: https://github.com/cgvalle/Large_Spanish_EEG</li>\n    <li>Publication: Valle, C., Mendez-Orellana, C., Herff, C., & Rodriguez-Fernandez, M. (2024). Identification of perceived sentences using deep neural networks in EEG. Journal of neural engineering, 21(5), 056044. </li>\n</ul>\nAbstract:\nDecoding speech from brain activity can enable communication for individuals with speech disorders. Deep neural networks have shown great potential for speech decoding applications, but the large data sets required for these models are usually not available for neural recordings of speech impaired subjects. Harnessing data from other participants would thus be ideal to create speech neuroprostheses without the need of patient-specific training data.\nIn this study, we recorded 60 sessions from 56 healthy participants using 64 EEG channels and developed a neural network capable of subject-independent classification of perceived sentences. We found that sentence identity can be decoded from subjects without prior training achieving higher accuracy than mixed-subject models.\nThe development of subject-independent models eliminates the need to collect data from a target subject, reducing time and data collection costs during deployment. These results open new avenues for creating speech neuroprostheses when subjects cannot provide training data.\nExperiment Design:\nWe investigated the neural signals recorded using a 64-channel EEG system during speech perception and silent speech production tasks involving 30 daily use sentences in Spanish. The participants were instructed to listen to a spoken sentence from an audio recording and then silently repeat the sentence without any motor action.\nThe experimental design, a modified version of a previous study (Dash, et al), comprises four segments: rest, perception, preparation, and silent speech production. The rest segment lasted five seconds, presenting a fixation cross (+) before the stimulus onset.\nDuring the perception section, the participants listened to the stimulus. Prior to subject S18, the perception section lasted 4 s, with each sentence being repeated 7 times. From subject S19 onward, the duration of the perception segment was increased to 5 s to match the duration of the silent speech production segment and the number of repetitions per sentence was decreased to 6 in order to maintain the overall length of the experiment. The preparation segment lasted one second and presented a blank screen, serving as a separation marker between the perception and silent speech production tasks. In the silent speech production segment lasting five seconds, subjects were instructed to silently repeat the previously heard stimulus without motor action only once. It is important to note that this study exclusively focuses on the outcomes derived from the speech perception task.\nTrials for each block of the 30 stimuli were presented in a randomized order to prevent anticipation and learning biases.\nContact:\nPlease contact us at this e-mail address if you have any question: cgvalle@uc.cl",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Carlos Valle Araya",
+    "Carolina Mendez-Orellana",
+    "Maria Rodriguez-Fernandez"
+  ],
+  "funding": [
+    "Doctoral scholarship N 21211883 (2021)383 by Agencia Nacional de Investigacion y Desarrollo (ANID Chile)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004279.v1.1.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sentences"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "total_files": 60,
+  "size_bytes": 27082275332,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 56,
+    "ages": [
+      23,
+      19,
+      25,
+      20,
+      21,
+      21,
+      20,
+      19,
+      26,
+      26,
+      25,
+      25,
+      29,
+      20,
+      22,
+      25,
+      26,
+      23,
+      22,
+      21,
+      21,
+      19,
+      23,
+      22,
+      22,
+      21,
+      21,
+      24,
+      24,
+      22,
+      21,
+      19,
+      19,
+      22,
+      22,
+      21,
+      22,
+      24,
+      28,
+      21,
+      23,
+      20,
+      20,
+      22,
+      26,
+      23,
+      20,
+      20,
+      19,
+      25,
+      21,
+      27,
+      27,
+      23,
+      23,
+      24
+    ],
+    "age_min": 19,
+    "age_max": 29,
+    "age_mean": 22.482142857142858,
+    "species": null,
+    "sex_distribution": {
+      "f": 31,
+      "m": 25
+    },
+    "handedness_distribution": {
+      "r": 56
+    }
+  },
+  "senior_author": "Maria Rodriguez-Fernandez",
+  "contact_info": [
+    "Carlos Valle Araya"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:37.267738+00:00",
+    "dataset_created_at": "2022-09-26T14:52:36.708Z",
+    "dataset_modified_at": "2024-11-29T15:37:16.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004279",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004279",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Andrea Sanchez and Amaro silva for their help during data collection.",
+  "ingestion_fingerprint": "881c0862b8c80e4832fc9a655578d8d57e57aadf892022aa12e4a22d4e4da28c"
+}

@@ -1,0 +1,6266 @@
+{
+  "dataset": "ds003343",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:41:30.968423+00:00",
+  "record_count": 59,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-17_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_channels.tsv",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_events.tsv",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_events.json",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 188000,
+      "duration_seconds": 376.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 389,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-17_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_channels.tsv",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_events.tsv",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_events.json",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185000,
+      "duration_seconds": 370.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 389,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-17_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_channels.tsv",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_events.tsv",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_events.json",
+          "sub-17/ses-01/eeg/sub-17_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 194500,
+      "duration_seconds": 389.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 389,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-14_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_channels.tsv",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_events.tsv",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_events.json",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 196000,
+      "duration_seconds": 392.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 371,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-14_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_channels.tsv",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_events.tsv",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_events.json",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 253000,
+      "duration_seconds": 506.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 371,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-14_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_channels.tsv",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_events.tsv",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_events.json",
+          "sub-14/ses-01/eeg/sub-14_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185500,
+      "duration_seconds": 371.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 371,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-27_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_channels.tsv",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_events.tsv",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_events.json",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 194000,
+      "duration_seconds": 388.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 388,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-27_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_channels.tsv",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_events.tsv",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_events.json",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 196500,
+      "duration_seconds": 393.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 388,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-27_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_channels.tsv",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_events.tsv",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_events.json",
+          "sub-27/ses-01/eeg/sub-27_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 197500,
+      "duration_seconds": 395.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 388,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-24_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_channels.tsv",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_events.tsv",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_events.json",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185500,
+      "duration_seconds": 371.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-24_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_channels.tsv",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_events.tsv",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_events.json",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 187500,
+      "duration_seconds": 375.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-24_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_channels.tsv",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_events.tsv",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_events.json",
+          "sub-24/ses-01/eeg/sub-24_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185000,
+      "duration_seconds": 370.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-15_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_channels.tsv",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_events.tsv",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_events.json",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 187500,
+      "duration_seconds": 375.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 368,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-15_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_channels.tsv",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_events.tsv",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_events.json",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 184000,
+      "duration_seconds": 368.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 368,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-15_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_channels.tsv",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_events.tsv",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_events.json",
+          "sub-15/ses-01/eeg/sub-15_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 192000,
+      "duration_seconds": 384.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 32.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 368,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-13_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_channels.tsv",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_events.tsv",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_events.json",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 198500,
+      "duration_seconds": 397.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 397,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-13_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_channels.tsv",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_events.tsv",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_events.json",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 187500,
+      "duration_seconds": 375.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 397,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-13_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_channels.tsv",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_events.tsv",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_events.json",
+          "sub-13/ses-01/eeg/sub-13_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 202000,
+      "duration_seconds": 404.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 397,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-18_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_channels.tsv",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_events.tsv",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_events.json",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 189000,
+      "duration_seconds": 378.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 378,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-18_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_channels.tsv",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_events.tsv",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_events.json",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 187000,
+      "duration_seconds": 374.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 378,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-18_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_channels.tsv",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_events.tsv",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_events.json",
+          "sub-18/ses-01/eeg/sub-18_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 183500,
+      "duration_seconds": 367.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 31.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 378,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-33_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_channels.tsv",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_events.tsv",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_events.json",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 201500,
+      "duration_seconds": 403.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 550,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-33_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_channels.tsv",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_events.tsv",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_events.json",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 201500,
+      "duration_seconds": 403.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 550,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-33_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_channels.tsv",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_events.tsv",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_events.json",
+          "sub-33/ses-01/eeg/sub-33_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 275000,
+      "duration_seconds": 550.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 550,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-30_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_channels.tsv",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_events.tsv",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_events.json",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 199000,
+      "duration_seconds": 398.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 398,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-30_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_channels.tsv",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_events.tsv",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_events.json",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 202000,
+      "duration_seconds": 404.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 398,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-30_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_channels.tsv",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_events.tsv",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_events.json",
+          "sub-30/ses-01/eeg/sub-30_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 198500,
+      "duration_seconds": 397.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 398,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-21_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_channels.tsv",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_events.tsv",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_events.json",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 188500,
+      "duration_seconds": 377.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 380,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-21_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_channels.tsv",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_events.tsv",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_events.json",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 194000,
+      "duration_seconds": 388.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 380,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-21_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_channels.tsv",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_events.tsv",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_events.json",
+          "sub-21/ses-01/eeg/sub-21_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 190000,
+      "duration_seconds": 380.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 380,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-20_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_channels.tsv",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_events.tsv",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_events.json",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 190500,
+      "duration_seconds": 381.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-20_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_channels.tsv",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_events.tsv",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_events.json",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 264000,
+      "duration_seconds": 528.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-20_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_channels.tsv",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_events.tsv",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_events.json",
+          "sub-20/ses-01/eeg/sub-20_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185000,
+      "duration_seconds": 370.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-32_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_channels.tsv",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_events.tsv",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_events.json",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 196500,
+      "duration_seconds": 393.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 396,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "FC1",
+        "TRIG1"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-32_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_channels.tsv",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_events.tsv",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_events.json",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 198000,
+      "duration_seconds": 396.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 396,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "FC1",
+        "TRIG1"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-32_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_channels.tsv",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_events.tsv",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_events.json",
+          "sub-32/ses-01/eeg/sub-32_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 199000,
+      "duration_seconds": 398.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 396,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "FC1",
+        "TRIG1"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-19_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_channels.tsv",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_events.tsv",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_events.json",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185000,
+      "duration_seconds": 370.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-19_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_channels.tsv",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_events.tsv",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_events.json",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 186500,
+      "duration_seconds": 373.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-19_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_channels.tsv",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_events.tsv",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_events.json",
+          "sub-19/ses-01/eeg/sub-19_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 183500,
+      "duration_seconds": 367.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 370,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-16_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_channels.tsv",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_events.tsv",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_events.json",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 185000,
+      "duration_seconds": 370.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 388,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-16_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_channels.tsv",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_events.tsv",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_events.json",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 192000,
+      "duration_seconds": 384.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 388,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-16_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_channels.tsv",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_events.tsv",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_events.json",
+          "sub-16/ses-01/eeg/sub-16_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 194000,
+      "duration_seconds": 388.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 388,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-25_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_channels.tsv",
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_events.tsv",
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_events.json",
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 192500,
+      "duration_seconds": 385.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 392,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-25_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_channels.tsv",
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_events.tsv",
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_events.json",
+          "sub-25/ses-01/eeg/sub-25_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 196000,
+      "duration_seconds": 392.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 392,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-34_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_channels.tsv",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_events.tsv",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_events.json",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 200000,
+      "duration_seconds": 400.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 404,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-34_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_channels.tsv",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_events.tsv",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_events.json",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 202000,
+      "duration_seconds": 404.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 404,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-34_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_channels.tsv",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_events.tsv",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_events.json",
+          "sub-34/ses-01/eeg/sub-34_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 200500,
+      "duration_seconds": 401.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 404,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-29_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_channels.tsv",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_events.tsv",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_events.json",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 197500,
+      "duration_seconds": 395.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 399,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-29_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_channels.tsv",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_events.tsv",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_events.json",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 199500,
+      "duration_seconds": 399.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 399,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-29_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_channels.tsv",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_events.tsv",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_events.json",
+          "sub-29/ses-01/eeg/sub-29_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 198500,
+      "duration_seconds": 397.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 21.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 399,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-31_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_channels.tsv",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_events.tsv",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_events.json",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 203000,
+      "duration_seconds": 406.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 400,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-31_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_channels.tsv",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_events.tsv",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_events.json",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 203000,
+      "duration_seconds": 406.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 400,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-31_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_channels.tsv",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_events.tsv",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_events.json",
+          "sub-31/ses-01/eeg/sub-31_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 200000,
+      "duration_seconds": 400.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 27.0,
+        "sex": "M",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 400,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-22_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_channels.tsv",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_events.tsv",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_events.json",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 187000,
+      "duration_seconds": 374.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 367,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-22_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_channels.tsv",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_events.tsv",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_events.json",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 191000,
+      "duration_seconds": 382.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 367,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-22_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_channels.tsv",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_events.tsv",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_events.json",
+          "sub-22/ses-01/eeg/sub-22_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 183500,
+      "duration_seconds": 367.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 367,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-23_ses-01_task-fps_run-03_eeg.bdf",
+      "bidspath": "ds003343/sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.bdf",
+      "bids_relpath": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": "01",
+        "task": "fps",
+        "run": "03",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.bdf",
+        "dep_keys": [
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_channels.tsv",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_events.tsv",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_events.json",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-03_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 183000,
+      "duration_seconds": 366.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 380,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-23_ses-01_task-fps_run-02_eeg.bdf",
+      "bidspath": "ds003343/sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.bdf",
+      "bids_relpath": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": "01",
+        "task": "fps",
+        "run": "02",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.bdf",
+        "dep_keys": [
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_channels.tsv",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_events.tsv",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_events.json",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-02_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 187000,
+      "duration_seconds": 374.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 380,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    },
+    {
+      "dataset": "ds003343",
+      "data_name": "ds003343_sub-23_ses-01_task-fps_run-01_eeg.bdf",
+      "bidspath": "ds003343/sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.bdf",
+      "bids_relpath": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.bdf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".bdf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": "01",
+        "task": "fps",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds003343",
+        "raw_key": "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.bdf",
+        "dep_keys": [
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_channels.tsv",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_events.tsv",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_events.json",
+          "sub-23/ses-01/eeg/sub-23_ses-01_task-fps_run-01_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fz",
+        "FC3",
+        "FC1",
+        "FCz",
+        "FC2",
+        "FC4",
+        "C3",
+        "C1",
+        "Cz",
+        "C2",
+        "C4",
+        "CP3",
+        "CP1",
+        "CPz",
+        "CP2",
+        "CP4",
+        "TRIG1",
+        "TRIG2",
+        "TRIG3",
+        "STATUS"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 20,
+      "ntimes": 190000,
+      "duration_seconds": 380.0,
+      "digested_at": "2026-08-27T08:41:30.968423+00:00",
+      "participant_tsv": {
+        "age": 22.0,
+        "sex": "F",
+        "handedness": "R",
+        "stimulated_side": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "right ear",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "Bandpassfilter": {
+          "LowCutoff_Hz_": 0.01,
+          "HighCutoff_Hz_": 100,
+          "Roll_off": "6dB/Octave"
+        },
+        "NotchFilter": {
+          "CenterFrequency_Hz_": 50,
+          "Roll_off": "6dB/Octave"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus",
+      "eeg_placement_scheme": "10-10",
+      "cap_manufacturer": "g.tec",
+      "cap_manufacturers_model_name": "g.GAMMAsys",
+      "institution_name": "Centre Hospitalier Universitaire Vaudois (CHUV)",
+      "recording_type": "continuous",
+      "recording_duration": 380,
+      "eeg_ground": "FPz",
+      "bad_channels": [
+        "TRIG1"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": "792daaf0d1e8fc88"
+    }
+  ]
+}

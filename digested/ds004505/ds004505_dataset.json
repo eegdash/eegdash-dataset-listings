@@ -1,0 +1,109 @@
+{
+  "dataset_id": "ds004505",
+  "name": "Real World Table Tennis",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Our dataset contains high-density, dual-layer electroencephalography (EEG), neck electromyography (EMG), inertial measurement unit (IMU) acceleration, T1 structural MR images, and video data from 25 participants playing real-world table tennis. Participants played 60 minutes of table tennis (in total) with a ball machine and a human player, with an additional 10 minutes of standing baseline. For 17 of the participants, we also include video data of all trials. The Adobe Premiere project files (linked to each video) have the timing of hit events marked.\nData in the main subject folders have been processed. We include the ICA decomposition and dipole model in EEG.etc. The components retained in our analyses are shown in EEG.etc.KeepComponents. The raw data can be found in the sourcedata folder.\nPlease refer to our publication for more details.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "Amanda Studnicki",
+    "Daniel P. Ferris"
+  ],
+  "funding": [
+    "National Science Foundation Division of Behavioral and Cognitive Sciences (BCS-1835317)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004505.v1.0.4",
+  "associated_paper_doi": null,
+  "tasks": [
+    "TableTennis"
+  ],
+  "sessions": [],
+  "total_files": 25,
+  "size_bytes": 37123164373,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 25,
+    "ages": [
+      26,
+      26,
+      27,
+      23,
+      25,
+      29,
+      24,
+      21,
+      22,
+      18,
+      18,
+      18,
+      22,
+      21,
+      30,
+      20,
+      18,
+      22,
+      26,
+      20,
+      18,
+      18,
+      18,
+      21,
+      18
+    ],
+    "age_min": 18,
+    "age_max": 30,
+    "age_mean": 21.96,
+    "species": null,
+    "sex_distribution": {
+      "m": 15,
+      "f": 10
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Daniel P. Ferris",
+  "contact_info": [
+    "Amanda Studnicki"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:45:45.783283+00:00",
+    "dataset_created_at": "2023-02-17T17:44:35.724Z",
+    "dataset_modified_at": "2023-06-28T14:10:07.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004505",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004505",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Thank-you to the Human Neuromechanics Lab and to all the undergraduate research assistants who helped with data collections: Christina Collings, Corey Orlando, Sebastian Huerta, and Juan De La Espriella.",
+  "ethics_approvals": [
+    "University of Florida Institutional Review Board (IRB201801727)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.3390/s22155867"
+  ],
+  "ingestion_fingerprint": "4730db086a059c927f91e3b84e5bb51dc22e909201dccfc0a7cf40cb2dc9aa74"
+}

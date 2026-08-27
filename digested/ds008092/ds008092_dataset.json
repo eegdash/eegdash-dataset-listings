@@ -1,0 +1,164 @@
+{
+  "dataset_id": "ds008092",
+  "name": "Food-image categorization with consumer EEG (vegetarian vs. meat)",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Food-image categorization with consumer EEG (vegetarian vs. meat)\n## Overview\n14-channel EEG (EMOTIV EPOC X / EPOC+, scalp positions AF3 F7 F3 FC5 T7 P7 O1\nO2 P8 T8 FC6 F4 F8 AF4) recorded while participants categorized prepared-food\nimages as meat or vegetarian. Each recording also includes a short eyes-open /\neyes-closed resting baseline that precedes the task.\nThese data were collected within longer sessions that also recorded other\nmeasures (reported elsewhere). Only the categorization paradigm and its resting\nbaseline are released here.\n## Task\nThe same set of 37 prepared-food images was presented twice (up to ~74 trials).\nOn each trial a participant pressed M (meat) or X (vegetarian). Response times\nwere recorded.\nIn the events files:\n- `stim_category` is the displayed image's true category: m (meat) or v (vegetarian).\n- `response_key` is the physical key pressed: M or X.\n- `response` is that key mapped back to category (m/v) so it lines up with `stim_category`.\n- `accuracy` is 1 when `response` matches `stim_category`.\n## Files\n- `participants.tsv` / `participants.json`: one row per participant, with\n  demographics, baseline questionnaire, derived dietary indicators, and per-subject\n  task summaries. `.tsv` is tab-separated and opens like a CSV.\n- `sub-NN/eeg/`: the trimmed recording (`_eeg.edf`), `_events.tsv`,\n  `_channels.tsv` (with per-channel contact-quality), and `_eeg.json` sidecar.\n## Data quality\nData are released minimally processed: no filtering, no artifact rejection, no\nICA. Per-channel EMOTIV contact-quality values are provided in each\n`channels.tsv` so re-users can apply their own quality criteria. The resting\nbaseline supports a per-participant eyes-closed alpha-reactivity check.\n## Notes for re-use\n- EEG is unfiltered (sidecars report `SoftwareFilters: n/a`).\n- All recordings are sampled at 128 Hz.\n- Event labels are embedded in each EDF as EDF+ annotations (rest_eyesopen, rest_eyesclosed,\n  categorize/meat, categorize/veg), so any reader displays them directly. The events.tsv holds\n  the full trial-level record (response, response time, accuracy).\n- Resting segments were advanced by participant button-press; a fixed 30 s window\n  inside each instructed eyes-open and eyes-closed segment is released.\n- Recording timestamps have been removed; recordings carry a neutral fixed date.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "[ADD AUTHORS]"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds008092.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "foodcat"
+  ],
+  "sessions": [],
+  "total_files": 77,
+  "size_bytes": 75215717,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 77,
+    "ages": [
+      33,
+      44,
+      44,
+      26,
+      42,
+      32,
+      24,
+      44,
+      35,
+      49,
+      36,
+      33,
+      28,
+      30,
+      28,
+      28,
+      27,
+      32,
+      37,
+      25,
+      39,
+      19,
+      19,
+      26,
+      25,
+      30,
+      30,
+      26,
+      26,
+      26,
+      39,
+      38,
+      21,
+      35,
+      44,
+      33,
+      33,
+      36,
+      21,
+      38,
+      23,
+      26,
+      32,
+      37,
+      40,
+      27,
+      22,
+      27,
+      24,
+      30,
+      40,
+      24,
+      26,
+      27,
+      25,
+      33,
+      32,
+      31,
+      25,
+      27,
+      29,
+      37,
+      35,
+      35,
+      34,
+      24,
+      28,
+      36,
+      30,
+      20,
+      21,
+      20,
+      21,
+      20,
+      23,
+      22,
+      21
+    ],
+    "age_min": 19,
+    "age_max": 49,
+    "age_mean": 30.064935064935064,
+    "species": null,
+    "sex_distribution": {
+      "m": 51,
+      "f": 26
+    },
+    "handedness_distribution": {
+      "a": 2
+    }
+  },
+  "senior_author": "[ADD AUTHORS]",
+  "contact_info": [
+    "Attila Pohlmann"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T09:00:37.071624+00:00",
+    "dataset_created_at": "2026-07-02T16:13:50.399Z",
+    "dataset_modified_at": "2026-07-02T16:25:22.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds008092",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "datacite.yml",
+      "participants.json",
+      "participants.tsv",
+      "task-foodcat_channels.json",
+      "task-foodcat_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds008092",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "[OPTIONAL]",
+  "how_to_acknowledge": "[ADD CITATION / DOI AFTER UPLOAD]",
+  "ethics_approvals": [
+    "[ADD ETHICS APPROVAL NUMBER]"
+  ],
+  "references_and_links": [
+    "[ADD ASSOCIATED ARTICLE DOI]"
+  ],
+  "ingestion_fingerprint": "0c9313babbd05c4580e903ce22ee3be6b438c487405f6423b89670c3e63c0508"
+}

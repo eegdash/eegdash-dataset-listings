@@ -1,0 +1,129 @@
+{
+  "dataset_id": "ds004388",
+  "name": "Somatosensory evoked potentials in the human spinal cord to mixed nerve stimulation",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Description\n--------\nThis is a data set consisting of simultaneous electroencephalography (EEG), electrospinography (ESG), electroneurography (ENG), and electromyography (EMG) recordings from 40 participants. There were four different recording conditions: i) resting state with eyes open, ii) mixed median nerve stimulation (arm nerve), iii) mixed tibial nerve stimulation (leg nerve), and iv) alternating mixed median or tibial nerve stimulation. For each participant, there is i) the simultaneous EEG-ESG-ENG-EMG-recording which also includes electrocardiographic and respiratory signals, ii) ESG electrode positions. For a detailed description please see the following article: XXX. This study was pre-registered on OSF: https://osf.io/sgptzt.\nCiting this dataset\n--------\nShould you make use of this data set in any publication, please cite the following article: XXXX\nLicense\n-------\nThis data set is made available under the Creative Commons CC0 license. For more information, see https://creativecommons.org/share-your-work/public-domain/cc0/\nData set\n-------\nThis data set is organized according to the Brain Imaging Data Structure specification. For more information on this data specification, see https://bids-specification.readthedocs.io/en/stable/\nEach participant's data are in one subdirectory (e.g., 'sub-001'), which contains the raw data in eeglab format.\nPlease note that the EEG channel Fz was referenced to i) the EEG reference (right mastoid, RM, channel name: Fz) and ii) the ESG reference (6th thoracic vertebra, TH6, channel name: Fz-TH6).\nShould you have any questions about this data set, please contact nierula@cbs.mpg.de or eippert@cbs.mpg.de.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Birgit Nierula",
+    "Tilman Stephani",
+    "Merve Kaptan",
+    "Andr\u00e9 Moruaux",
+    "Burkhard Maess",
+    "Gabriel Curio",
+    "Vadim V. Nikulin",
+    "Falk Eippert"
+  ],
+  "funding": [
+    "n/a"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004388.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "alternating",
+    "median",
+    "tibial"
+  ],
+  "sessions": [],
+  "total_files": 399,
+  "size_bytes": 732876216370,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 40,
+    "ages": [
+      27,
+      33,
+      26,
+      21,
+      30,
+      22,
+      25,
+      24,
+      23,
+      22,
+      21,
+      24,
+      30,
+      26,
+      26,
+      25,
+      28,
+      23,
+      22,
+      20,
+      23,
+      23,
+      31,
+      27,
+      26,
+      22,
+      29,
+      27,
+      26,
+      26,
+      30,
+      19,
+      32,
+      23,
+      30,
+      27,
+      30,
+      31,
+      22,
+      27
+    ],
+    "age_min": 19,
+    "age_max": 33,
+    "age_mean": 25.725,
+    "species": null,
+    "sex_distribution": {
+      "f": 21,
+      "m": 19
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Falk Eippert",
+  "contact_info": [
+    "Falk Eippert"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:53.542104+00:00",
+    "dataset_created_at": "2023-01-04T13:11:50.245Z",
+    "dataset_modified_at": "2023-07-06T19:24:02.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004388",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004388",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This data was acquired with the help of our student researcg assistants Janek Haschke, Pia-Lena Baisch, Paula Kosel, Max Braune, Samuel Simeon, and Marleen L\u00f6ffler.",
+  "references_and_links": [
+    "https://osf.io/sgptzt"
+  ],
+  "ingestion_fingerprint": "779b8af6f88324a411f88c76a8d59eb23e5dbddc630c102e58b726742ae0506f"
+}

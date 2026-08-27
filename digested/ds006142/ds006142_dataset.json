@@ -1,0 +1,106 @@
+{
+  "dataset_id": "ds006142",
+  "name": "Essex EEG Movie Memory dataset",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "\ufeff# Essex EEG Movie Memory Dataset\nAuthors: Ana Matran-Fernandez and Sebastian Halder\n### Description\nThis dataset contains raw electroencephalography (EEG) signals recorded from 27 participants while watching 10-second long clips\nextracted from movies that they had previously watched. For each clip, participants were asked whether they recognised the movie it belonged to,\nand if so, whether they remembered having watched it previously or not.\nIf a participant reported recognising or remembering a clip, it was shown a second time to capture (via a mouse click) time annotations\nof the instants that prompted this recognition.\n### EEG\nEEG data were acquired with a BioSemi ActiveTwo system with 64 electrodes positioned according to the international 10-20 system.\nThe sampling rate was 2048 Hz.\n### Stimuli\nThe clips used in the study were originally annotated in terms of their memorability by Cohendet et al (see References).\nThis dataset can be requested from the authors.\n### Example code\nWe have prepared an example script to demonstrate how to load the EEG data into Python using MNE and MNE-BIDS packages.\nThis script is located in the 'code' directory.\n### References\nRomain Cohendet, Karthik Yadati, Ngoc Q. K. Duong, and Claire-H\u00e9l\u00e8ne Demarty. 2018. Annotating, Understanding, and Predicting Long-term Video Memorability. In Proceedings of the 2018 ACM on International Conference on Multimedia Retrieval (ICMR '18). Association for Computing Machinery, New York, NY, USA, 178\u2013186. https://doi.org/10.1145/3206025.3206056\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896).https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103.https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Ana Matran-Fernandez",
+    "Sebastian Halder"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds006142.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "MovieMemory"
+  ],
+  "sessions": [],
+  "total_files": 27,
+  "size_bytes": 26073650133,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 27,
+    "ages": [
+      25,
+      24,
+      47,
+      26,
+      29,
+      21,
+      29,
+      31,
+      31,
+      30,
+      26,
+      32,
+      28,
+      29,
+      23,
+      29,
+      33,
+      25,
+      29,
+      30,
+      23,
+      27,
+      23,
+      25,
+      34,
+      22,
+      22
+    ],
+    "age_min": 21,
+    "age_max": 47,
+    "age_mean": 27.88888888888889,
+    "species": null,
+    "sex_distribution": {
+      "m": 19,
+      "f": 8
+    },
+    "handedness_distribution": {
+      "r": 25,
+      "l": 2
+    }
+  },
+  "senior_author": "Sebastian Halder",
+  "contact_info": [
+    "Ana Matran-Fernandez",
+    "Sebastian Halder"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:54:34.852326+00:00",
+    "dataset_created_at": "2025-04-17T12:18:55.249Z",
+    "dataset_modified_at": "2025-09-03T07:40:31.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006142",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006142",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "038df33d006fd1630b4e572bd4f5ea232d44faaf3c6ed43a5f72b14e7b86e4b8"
+}

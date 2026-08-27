@@ -1,0 +1,131 @@
+{
+  "dataset_id": "ds005841",
+  "name": "EEG Experiment measuring ERPs in VR",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# EEG Experiment Measuring ERPs in VR\nThis dataset contains EEG recordings from a study investigating event-related potentials (ERPs) during different visual tasks in virtual reality.\n## Study Design\n- **Participants**: 48 participants\n- **Tasks**:\n  - Lumfront\n  - Lumperp\n  - Regfront\n  - Regperp\n  - Signalscreen\n  - Signalvr\n- **Modality**: EEG (512 Hz sampling rate)\n## Dataset Organization\nThe dataset follows the BIDS specification (version 1.6.0). Each subject folder contains EEG recordings and associated metadata.\n## Funding and Acknowledgements\nThis study was supported by a doctoral studentship awarded to EK. We thank the participants for their time.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Elena Karakashevska",
+    "Alexis Makin",
+    "Michael Batterley"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005841.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "lumfront",
+    "lumperp",
+    "regfront",
+    "regperp",
+    "signalscreen",
+    "signalvr"
+  ],
+  "sessions": [],
+  "total_files": 288,
+  "size_bytes": 7889278693,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 48,
+    "ages": [
+      18,
+      18,
+      18,
+      18,
+      18,
+      19,
+      19,
+      18,
+      19,
+      18,
+      19,
+      18,
+      18,
+      26,
+      18,
+      18,
+      55,
+      18,
+      21,
+      19,
+      21,
+      26,
+      18,
+      18,
+      19,
+      26,
+      38,
+      18,
+      18,
+      19,
+      18,
+      19,
+      18,
+      19,
+      18,
+      18,
+      18,
+      18,
+      18,
+      18,
+      26,
+      19,
+      19,
+      18,
+      19,
+      20,
+      27,
+      19
+    ],
+    "age_min": 18,
+    "age_max": 55,
+    "age_mean": 20.479166666666668,
+    "species": null,
+    "sex_distribution": {
+      "f": 39,
+      "m": 9
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Michael Batterley",
+  "contact_info": [
+    "Elena Karakashevska"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:33.446407+00:00",
+    "dataset_created_at": "2025-01-14T13:48:40.783Z",
+    "dataset_modified_at": "2025-01-14T18:15:10.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005841",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005841",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Thanks to all participants and collaborators.",
+  "ingestion_fingerprint": "155f3fc5afa074b8ce76690c5883854b9ef76b9eb0c7e75bd882633891197461"
+}

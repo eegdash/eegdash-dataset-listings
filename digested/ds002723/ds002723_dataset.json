@@ -1,0 +1,85 @@
+{
+  "dataset_id": "ds002723",
+  "name": "A dataset recorded during development of an affective brain-computer music interface: testing session",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "0. Sections\n------------\n1. Project\n2. Dataset\n3. Terms of Use\n4. Contents\n5. Method and Processing\n1. PROJECT\n------------\nTitle: Brain-Computer Music Interface for Monitoring and Inducing Affective States (BCMI-MIdAS)\nDates: 2012-2017\nFunding organisation: Engineering and Physical Sciences Research Council (EPSRC)\nGrant no.: EP/J003077/1\n2. DATASET\n------------\nEEG data from an affective Music Brain-Computer: online real-time control.\nDescription: This dataset accompanies the publication by Daly et al. (2018) and has been analysed in Daly et al. (2016) (please see Section 5 for full references). The purpose of the research activity in which the data were collected was to investigate the performance of a real-time and online brain-computer interface that identified the user\u2019s emotional state and modified music on-the-fly in order to induce a target emotional state. For this purpose, participants listened to 60 s music clips targeting different affective states, as defined by valence and arousal. The music clips were generated using a synthetic music generator. The dataset contains the EEG data from 8 healthy adult participants during real-time control of the system while listening to the music clips, together with the reported affective state (valence and arousal values).\nThis dataset is connected to 2 additional datasets:\n1.\tEEG data from an affective Music Brain-Computer Interface: system calibration. doi:\n2.\tEEG data from an affective Music Brain-Computer: offline training data to induce target emotional states. doi:\nPlease note that the number of participants varies between datasets; however, participant codes are the same across all three datasets.\nPublication Year: 2018\nCreators: Nicoletta Nicolaou, Ian Daly.\nContributors: Isil Poyraz Bilgin, James Weaver, Asad Malik, Alexis Kirke, Duncan Williams.\nPrincipal Investigator: Slawomir Nasuto (EP/J003077/1).\nCo-Investigator: Eduardo Miranda (EP/J002135/1).\nOrganisation: University of Reading\nRights-holders: University of Reading\nSource: The synthetic generator used to generate the music clips was presented in Williams et al., \u201cAffective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System\u201d, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005.\n3. TERMS OF USE\n-----------------\nCopyright University of Reading, 2018. This dataset is licensed by the rights-holder(s) under a Creative Commons Attribution 4.0 International Licence: https://creativecommons.org/licenses/by/4.0/.\n4. CONTENTS\n------------\nThe dataset comprises data from 8 subjects. The sampling rate is 1 kHz and the music listening task corresponding to a music clip is 60 s long (clip duration). During the first 20 s, the music clip places the listener in emotional state A, while for the remaining 40 s the music clip targets the affective trajectory from emotional state B to C.\nWithin a 60s music listening epoch there are two target affective states. In the first 20s the music is generated to target one affective state (target A), for the next 20s the BCMI attempts to (a) work out what affective state the participant is actually in, and (b) generate music to move them from this affective state to the next targetted affective state (target B), which is targetted for the last 20s of the 60s music listening epoch.\n5. METHOD and PROCESSING\n--------------------------\nThis information is available in the following publications:\n[1] Daly, I., Nicolaou, N., Williams, D., Hwang, F., Kirke, A., Miranda, E., Nasuto, S.J., \u201cNeural and physiological data from participants listening to affective music\u201d, Scientific Data, 2018.\n[2] Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Weaver, J., Miranda, E. R., Nasuto, S. J., \u201cAffective Brain-Computer Music Interfacing\u201d, Journal of Neural Engineering, 13:4, July 2016. http://dx.doi.org/10.1088/1741-2560/13/4/046022\nIf you use this dataset in your study please cite these references, as well as the following reference:\n[3] Williams, D., Kirke, A., Miranda, E.R., Daly, I., Hwang, F., Weaver, J., Nasuto, S.J., \u201cAffective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System\u201d, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005\nThank you for your interest in our work.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.0.2",
+  "license": "CC0",
+  "authors": [
+    "Ian Daly",
+    "Nicoletta Nicolaou",
+    "Duncan Williams",
+    "Faustina Hwang",
+    "Alexis Kirke",
+    "Eduardo Miranda",
+    "Slawomir J. Nasuto"
+  ],
+  "funding": [],
+  "dataset_doi": "10.18112/openneuro.ds002723.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [],
+  "sessions": [],
+  "total_files": 44,
+  "size_bytes": 2789434877,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      22,
+      22,
+      21,
+      20,
+      23,
+      23,
+      19,
+      30
+    ],
+    "age_min": 19,
+    "age_max": 30,
+    "age_mean": 22.5,
+    "species": null,
+    "sex_distribution": {
+      "f": 6,
+      "m": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Slawomir J. Nasuto",
+  "contact_info": [
+    "Ian Daly"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:12.722892+00:00",
+    "dataset_created_at": "2020-04-22T21:34:22.870Z",
+    "dataset_modified_at": "2020-04-23T11:34:51.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds002723",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds002723",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "f67969ae5a197828ef9a61b324f2262f60c3e72f2fe0f490e4143b12acdf1eb1"
+}

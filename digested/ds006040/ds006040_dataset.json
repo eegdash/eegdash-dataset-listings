@@ -1,0 +1,106 @@
+{
+  "dataset_id": "ds006040",
+  "name": "Sustained Attention Task (gradCPT) Dataset using simultaneous EEG-fMRI and DTI",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset includes simultaneous recordings of electroencephalography (EEG), functional magnetic resonance imaging (fMRI), and diffusion-weighted imaging (DWI) from 28 participants aged 19 to 42 years. The fMRI and DWI data were acquired using a 3T MRI scanner (Siemens Magnetom Prisma), and the EEG was recorded using 64 channels (Brain Product BrainCap MR with Multirodes).\nThe following tasks were performed: resting state (eyes open and closed), checkerboard (15Hz), gradCPT, and imagery task. Raw files can be found in the subfolders, while preprocessed files are available in the derivatives folder. For more detailed information about the file structure, please refer to the readme files.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Younghwa Cha",
+    "Yeji Lee",
+    "Eunhee Ji",
+    "SoHyun Han",
+    "Sunhyun Min",
+    "Hyoungkyu Kim",
+    "Minseo Cho",
+    "Hae Seong Lee",
+    "Youngjai Park",
+    "Joon-Young Moon"
+  ],
+  "funding": [
+    "The Institute for Basic Science of Korea (IBS, IBS-R015-Y3)",
+    "The National Research Foundation of Korea (NRF, RS-2023-00272652)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006040.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "CBOFF",
+    "CBON",
+    "ECOFF",
+    "ECON",
+    "EOOFF",
+    "EOON",
+    "GRADOFF",
+    "GRADON",
+    "IMAGON",
+    "IMGRADON"
+  ],
+  "sessions": [],
+  "total_files": 392,
+  "size_bytes": 185217929633,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 28,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Joon-Young Moon",
+  "contact_info": [
+    "Younghwa Cha"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:54:10.759021+00:00",
+    "dataset_created_at": "2025-03-24T00:18:30.864Z",
+    "dataset_modified_at": "2026-03-16T02:32:01.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006040",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "BFI_short_form.tsv",
+      "CHANGES",
+      "Demographic_Information.tsv",
+      "GradCPT_behavior_read_me.json",
+      "README",
+      "README_dataset.txt",
+      "datacite.yml",
+      "demographic_information_read_me.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006040",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "The authors thank Suji Jeong and Boohee Choi (MR technical staffs) for the set-up and maintenance of the fMRI experiment. We express our gratitude to Jihyang Jun for providing the experimental codes for the gradCPT task. Our thanks also go to Qawi K. Telesford and Ting Xu for their guidance on the simultaneous EEG-fMRI recording experiment. We appreciate the valuable advice of Min-Suk Kang on the overall experimental pipeline and manuscript. We are grateful to Kyeong-Jin Tark and Yoonjung Lee for their insights on the gradCPT task. Lately, we extend our gratitude to Eun Sil Choi and her team for sharing the Korean version of the Big Five short form questionnaire. ",
+  "ethics_approvals": [
+    "All experiments were conducted with the approval of the Institutional Review Board of Sungkyunkwan University (South Korea), and written informed consent was obtained from all participants prior to the experiment. Additionally, all participants' structural MRI images were defaced to ensure anonymity."
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds006040.v1.0.0",
+      "URL": "https://doi.org/10.18112/openneuro.ds006040.v1.0.0",
+      "Version": "1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "980a840c2e4659a9677d06af91a2b3b7ddcba5a7a92dbf341b1028af60c35b77"
+}

@@ -1,0 +1,153 @@
+{
+  "dataset_id": "ds007181",
+  "name": "Structural MRI, Resting-state fMRI, and PSG/EEG Dataset of Zoster-associated Neuralgia",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Structural MRI, Resting-state fMRI, and PSG/EEG Dataset of Zoster-associated Neuralgia\n**Summary**\nThis dataset includes anatomical T1-weighted MRI and raw multi-echo resting-state fMRI, as well as PSG data from a study investigating the difference between healthy controls (HC) and zoster-associated neuralgia (ZAN) patients.\nMRI and PSG data were partially overlapping across participants. Participants with available data in at least one modality were included in the dataset, following the BIDS specification.\n- For project code and full analysis pipelines (including between-subject comparisons, functional connectivity analyses, and correlation-based statistical modeling), see:\n  [project-zan-neuro](https://github.com/ellebai/zan-neuro)\n**Participants**\n- 29 healthy adults (HC) and 27 zoster-associated neuralgia adults (ZAN) for MRI data.\n- 32 healthy adults and 27 zoster-associated neuralgia adults for PSG data.\n- See `participants.tsv` for sex, age, group (HC vs. ZAN)\n**Tasks**\n- Functional scans are resting-state.\n**What\u2019s included**\n- `sub-*/anat/`\n  - Defaced T1w MRI: `sub-XX_T1w.nii.gz` (+ JSON sidecar if available).\n- `sub-*/func/`\n  - Raw multi-echo BOLD: `sub-XX_task-rest_bold.nii.gz`.\n- `sub-*/eeg/`\n  - Defaced T1w MRI: `sub-XX_task-sleep_acq-PSG_eeg.edf`, `sub-XX_task-sleep_acq-PSG_channels.tsv`, `sub-XX_task-sleep_acq-PSG_events.tsv`.\n- Top-level: `participants.tsv`, `task-rest_bold.json`, `README.md`.\n**Notes on data quality & privacy**\n- T1w images were defaced prior to sharing.\n- Functional files are raw (converted with dcm2niix); files with SPM-style prefixes (r/w/y/s*) were excluded.\n- Sleep stages were manually scored based on polysomnography (PSG) data according to the criteria of the American Academy of Sleep Medicine (AASM). Sleep staging followed the standard AASM classification system, including Wake (W), Non-REM stages N1, N2, N3, and Rapid Eye Movement (REM) sleep. Stage N3 corresponds to slow-wave sleep as defined in the AASM manual; no separate N4 stage was used.\n- EEG signals were recorded with reference to linked mastoids (M1/M2), and channel names reflect the referenced configuration (e.g., Fp1\u2013M2).\n**Folder conventions (BIDS)**\n```\nzan/\n  sub-01/\n    anat/sub-01_T1w.nii.gz\n    func/sub-01_task-rest_bold.nii.gz\n  sub-02/\n    anat/sub-02_T1w.nii.gz\n    func/sub-02_task-rest_bold.nii.gz\n    eeg/ sub-02_task-sleep_acq-PSG_eeg.edf\n  sub-03/ ...\n```\n**How to cite**\nThese data are associated with a manuscript currently under revision. Please cite the dataset DOI when using these data.\n**Contacts**\n- Haolei Bai \u2014 ellebai83@gmail.com\n(You may also contact the corresponding author from the manuscript.)\n**License**\nThis dataset is shared under **CC0**.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Li Li",
+    "Qi Han",
+    "Haolei Bai",
+    "Xiaolong Zhang",
+    "Yong Liu",
+    "Chao He"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007181.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep"
+  ],
+  "sessions": [],
+  "total_files": 59,
+  "size_bytes": 63514978596,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 59,
+    "ages": [
+      55,
+      61,
+      55,
+      68,
+      67,
+      55,
+      58,
+      67,
+      58,
+      67,
+      60,
+      58,
+      63,
+      64,
+      66,
+      65,
+      66,
+      59,
+      58,
+      53,
+      65,
+      56,
+      61,
+      57,
+      56,
+      61,
+      68,
+      60,
+      65,
+      59,
+      66,
+      55,
+      68,
+      61,
+      64,
+      68,
+      60,
+      67,
+      49,
+      44,
+      67,
+      60,
+      70,
+      69,
+      69,
+      66,
+      61,
+      60,
+      61,
+      67,
+      68,
+      56,
+      70,
+      62,
+      61,
+      56,
+      65,
+      61,
+      55,
+      54,
+      67,
+      55,
+      70,
+      51,
+      56,
+      50
+    ],
+    "age_min": 44,
+    "age_max": 70,
+    "age_mean": 61.21212121212121,
+    "species": null,
+    "sex_distribution": {
+      "m": 31,
+      "f": 35
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Chao He",
+  "contact_info": [
+    "Haolei Bai"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:57:16.991282+00:00",
+    "dataset_created_at": "2026-01-09T07:39:40.341Z",
+    "dataset_modified_at": "2026-01-16T09:25:32.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007181",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-rest_bold.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007181",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "These data are associated with a manuscript currently under revision. Please cite the dataset DOI when using these data.",
+  "ethics_approvals": [
+    "Medical Ethics Committee of Second Affiliated Hospital of Army Medical University, PLA\u2013approved protocol for human-subjects research involving neuroimaging and electrophysiological data (Approval No. 2021-045-01)."
+  ],
+  "references_and_links": [
+    "Code for data preprocessing and analysis: https://github.com/ellebai/zan-neuro"
+  ],
+  "ingestion_fingerprint": "e0a45be85369fd6a2402e1544a8a5c50be5c074a0b81d2672cb6b3c8bc5e7d33"
+}

@@ -1,0 +1,108 @@
+{
+  "dataset_id": "ds005345",
+  "name": "Le Petit Prince (LPP) Multi-talker: Naturalistic 7T fMRI and EEG Dataset",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "## Participants\nThis dataset includes 25 native Mandarin Chinese speakers (14 females, mean age = 24.04 \u00b1 2.28 years) who participated in both EEG and fMRI experiments. The participants were all right-handed, with no reported history of neurological disorders. They were enrolled in undergraduate or graduate programs in Shanghai. All participants gave informed consent, and the experiments were approved by the Ethics Committee of the Ninth People's Hospital, affiliated with Shanghai Jiao Tong University School of Medicine (SH9H-2019-T33-2 and SH9H-2022-T379-2).\nIn the case of French participants, due to legal constraints, additional session considerations were taken into account, such as shorter session durations.\n## Experiment Procedure\nMRI Scanning Sessions\nParticipants underwent both EEG and fMRI experiments while listening to the Chinese version of *Le Petit Prince*. During the MRI session, participants were instructed to maintain fixation on a crosshair on the screen and minimize eye movements and head motions. The task involved attending to different talkers in the multitalker condition (single male, single female, mixed male, and mixed female talkers).\nSession Breakdown\n- The entire session lasted approximately 70 minutes for fMRI participants, including a series of 4 conditions (single-talker, mixed-attended, and mixed-unattended conditions).\n- Quiz questions were administered after each run to assess participants' comprehension of the narrative.\nIn the French cohort, due to legal time constraints, the experiment durations were adjusted.\n## Stimuli\nThe stimuli were selected excerpts from the Chinese version of *Le Petit Prince* (available at [xiaowangzi.org](http://www.xiaowangzi.org/)). These audio clips were previously used in both EEG (Li et al., 2024) and fMRI (Li et al., 2022) studies.\nThe English and Chinese versions were enhanced with visual stimuli (e.g., images of scenes from the book) to align with the storyline. However, visual stimuli were not presented in the French version to comply with legal restrictions.\n## Acquisition\nMRI Hardware & Scanning Parameters\n- EEG: Data were collected using a 64-channel actiCAP system, sampled at 500 Hz, and filtered between 0.016 and 80 Hz.\n- fMRI: Scanning was performed on a 7.0 T Terra Siemens MRI scanner at the Zhangjiang International Brain Imaging Centre. The scanning parameters differed slightly between the English/Chinese and French studies due to equipment availability.\n  - Functional MRI: 85 interleaved axial slices (1.6\u00d71.6\u00d71.6 mm voxel size, TR = 1000 ms, TE = 22.2 ms)\n  - Anatomical MRI: MP-RAGE sequence, T1-weighted images (voxel size = 0.7\u00d70.7\u00d70.7 mm).\n## Preprocessing\nMRI Data Processing\n1. DICOM to NIfTI Conversion: All raw MRI data were converted to NIfTI format using `dcm2niix` (version 1.0.20220505) and processed using the `fMRIPrep` pipeline (version 20.2.0).\n2. Anatomical Preprocessing:\n   - Skull stripping\n   - Segmentation into gray matter (GM), white matter (WM), and cerebrospinal fluid (CSF)\n   - Registration to the Montreal Neurological Institute (MNI) space using MNI152NLin2009cAsym:res-2 template.\n3. Functional Preprocessing:\n   - Motion correction\n   - Slice-timing correction\n   - Multi-echo ICA for denoising\n   - Voxel resampling to native and MNI spaces.\nNote: Visual stimuli processing for the English and Chinese conditions was handled separately to avoid potential biases in the analysis.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Zhengwu Ma",
+    "Nan Wang",
+    "Jixing Li"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005345.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "multitalker"
+  ],
+  "sessions": [],
+  "total_files": 26,
+  "size_bytes": 174527101942,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 26,
+    "ages": [
+      26,
+      23,
+      24,
+      21,
+      21,
+      24,
+      27,
+      20,
+      25,
+      23,
+      28,
+      26,
+      24,
+      23,
+      26,
+      21,
+      26,
+      26,
+      23,
+      21,
+      27,
+      25,
+      21,
+      26,
+      24,
+      22
+    ],
+    "age_min": 20,
+    "age_max": 28,
+    "age_mean": 23.96153846153846,
+    "species": null,
+    "sex_distribution": {
+      "f": 15,
+      "m": 11
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Jixing Li",
+  "contact_info": [
+    "Zhengwu Ma",
+    "Wang Nan",
+    "Jixing Li",
+    "Zhengwu Ma"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:49:37.418446+00:00",
+    "dataset_created_at": "2024-07-16T14:14:02.035Z",
+    "dataset_modified_at": "2025-04-17T07:54:50.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005345",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005345",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "The experimental procedures have been approved by the Ethics Committee of City University of Hong Kong and the Ninth People\u2019s Hospital affiliated with Shanghai Jiao Tong University School of Medicine (EEG: SH9H-2019-T33-2; fMRI: SH9H-2022-T379-2)."
+  ],
+  "ingestion_fingerprint": "6b902f73d593c4dfb14e8ac7bf0d97fa07dd8e5e1e45e051eefa0e6027c25492"
+}

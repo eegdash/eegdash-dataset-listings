@@ -1,0 +1,112 @@
+{
+  "dataset_id": "ds003343",
+  "name": "Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset contains the EEG data used for the study: \"Disentangling the percepts of illusory movement and sensory stimulation during tendon vibration in the EEG\" (Schneider, C., Marquis, R., J\u00f6hr, J., Da Lopes Silva, M., Ryvlin, P., Serino, A., De Lucia, M., Diserens, K. Unpublished [fill according to following pattern: Journal (Year). https://doi.org/....])\nParticipants:\nTwenty healthy participants (twelve female, eight male), age 24.6 \u00b1 3.2 years, all right-handed. All subjects participated voluntarily and consented in writing to the experiment. The study was covered by the ethical protocol No. 142/09 from the Commission cantonale d'\u00e9thique de la recherche sur l'\u00eatre humain (CER -VD) and in agreement with the Declaration of Helsinki.\nExperimental setup:\nThe subjects sat comfortably in a chair facing towards their right side so to not see the stimulated left arm, which could have hampered the illusion of movement created during the tendon vibration. While their right arm rested comfortably in the lap, the left arm was supported by a movable forearm rest which allowed two degrees of freedom in the horizontal plane. The reason for this was that proprioceptive feedback of the arm touching an immobile object can prevent the motor illusion from forming.\nSubjects wore an EEG cap with built-in wireless amplifier (g.tec Nautilus, g.tec medical engineering, Graz, Austria) with 16 electrodes covering the sensorimotor cortex in the international 10-10 system at positions (Fz, FC3, FC2, FCz, FC2, FC4, C3, C1, Cz, C2, C4, CP3, CP1, CPz, CP2, CP4). The signals were recorded at 500Hz with a hardware-implemented bandpass filter between 0.1 and 100 Hz and sent to a computer in the same room. The reference electrode was placed on the right earlobe.\nTendon vibration was achieved with electromechanical wireless vibrators set into a soft, elastic brace on the left elbow joint (Vibramoov, Techno Concept, Manosque, France). The left arm was chosen since it was demonstrated that illusions start faster and are more vivid in the non-dominant extremity. One vibrator was sitting against the distal biceps tendon and the other against the distal triceps tendon on the same arm. Time information about the beginning of each stimulation was sent via a cable link to the computer and stored with the EEG data.\nStudy protocol:\nEEG was recorded continuously while delivering stimulation sequences consisting of two different vibration types. The first elicited an illusion of elbow extension and was produced by vibrating the distal biceps tendon at 90Hz and the distal triceps tendon at 50Hz. The second produced only a vibration sensation without any movement illusion and consisted of stimulating both tendons at 70Hz. So, the average frequency of stimulation delivered to the agonist-antagonist pair was the same between conditions, but one condition was designed to induce a clear illusion and the other no illusion at all (control).\nEach stimulation lasted three seconds and consisted of one second of linear frequency ramp-up, one second of a stable frequency interval and one second of linear frequency ramp-down. The linear ramps started and ended 10 Hz below the target frequency for each stimulation type. The amplitude of the vibration was 2-3 mm. These parameters were based on Romaigu\u00e8re et al. (2003) and the perception of illusory movement across all subjects was ensured in a pre-screening procedure. This setting was kept constant throughout the whole recording session.\nEach subject underwent three blocks of 72 vibrations (36 illusion, 36 control), arranged randomly and different for each block. The same stimulus sequences were employed for each participant. Inter stimulus intervals varied between one and three seconds and were randomized within and between blocks in order to minimize stimulus onset anticipation.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.1",
+  "license": "CC0",
+  "authors": [
+    "Christoph Schneider",
+    "Renaud Marquis",
+    "Jane Johr",
+    "Marina Da Silva Lopes",
+    "Philippe Ryvlin",
+    "Andrea Serino",
+    "Marzia De Lucia",
+    "Karin Diserens"
+  ],
+  "funding": [
+    "This work was supported by the Fondation CHUV, Lausanne, Switzerland; the Loterie Romande, Lausanne, Switzerland; and Techno Concept, Mane, France."
+  ],
+  "dataset_doi": "10.18112/openneuro.ds003343.v2.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "fps"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 59,
+  "size_bytes": 695587039,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      27,
+      28,
+      32,
+      23,
+      22,
+      31,
+      24,
+      24,
+      23,
+      26,
+      22,
+      23,
+      22,
+      25,
+      21,
+      23,
+      27,
+      26,
+      21,
+      20
+    ],
+    "age_min": 20,
+    "age_max": 32,
+    "age_mean": 24.5,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 8
+    },
+    "handedness_distribution": {
+      "r": 20
+    }
+  },
+  "senior_author": "Karin Diserens",
+  "contact_info": [
+    "Christoph Schneider"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:30.968423+00:00",
+    "dataset_created_at": "2020-10-25T01:44:08.277Z",
+    "dataset_modified_at": "2021-05-05T13:15:08.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003343",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003343",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We want to thank Techno Concept and especially Frederic Albert for sharing their extensive knowledge on the topic and for aiding with the technical setup for the tendon vibration. Further we appreciate the work Sophie Aebischer and Elise Marenghi put into reviewing corresponding literature for their bachelor thesis at the Haute ecole de travail social et de la sante (EESP) Lausanne.",
+  "how_to_acknowledge": "If you reference this dataset in your publications, please acknowledge its authors and cite the paper specified under 'ReferenceAndLinks'. Also, please include the following message: 'This data was obtained from the Open Neuro database.'",
+  "references_and_links": [
+    "Insert citation + paper doi"
+  ],
+  "ingestion_fingerprint": "888e68c3354ed517d6c6d649fd6a0550754e08fc934ef72024994f90a46491ea"
+}

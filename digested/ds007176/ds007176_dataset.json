@@ -1,0 +1,142 @@
+{
+  "dataset_id": "ds007176",
+  "name": "Longitudinal EEG Test-Retest Reliability in Healthy Individuals",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Longitudinal EEG Test-Retest Reliability in Healthy Individuals\n================================================================\nDataset Description\n-------------------\nThis dataset contains longitudinal resting-state EEG recordings from 43 healthy adults,\ncollected over four sessions spanning approximately two years, with an average interval\nof 7.2 months between sessions. The dataset includes raw EEG data and relevant metadata\nfollowing the BIDS standard.\nPurpose\n-------\nThe dataset was acquired to assess the test-retest reliability of EEG signals using\nan automated preprocessing pipeline, including independent component analysis and\nwavelet-enhanced artifact removal. It allows for analysis of neural components,\nrelative power in regions of interest (ROIs), and longitudinal stability of EEG measures.\nData Structure\n--------------\n- `dataset_description.json` : Dataset metadata and authorship information.\n- `participants.tsv` : Participant demographics and IDs.\n- `sub-XX/eeg/` : Folder for each participant containing EEG data files.\nEEG Data\n--------\nEach participant folder contains EEG recordings in BIDS-compliant format. Data\ninclude:\n- Raw EEG signals (`.eeg`, `.vhdr`, `.vmrk`)\n- Associated metadata files (`.json`) describing recording parameters and task information.\nUsage Notes\n-----------\n- All participants provided written informed consent.\n- Data are de-identified and do not contain personally identifiable information.\n- Users should cite the following paper when using this dataset:\n  Henao Isaza V, et al. Longitudinal test-retest reliability of quantitative EEG in\n  healthy individuals using an automated preprocessing approach. DOI: 10.1016/j.bspc.2026.109484\nLicense\n-------\nThis dataset is publicly available under a Creative Commons CC0 license.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Ver\u00f3nica Henao Isaza",
+    "Valeria Cadavid Castro",
+    "Luisa Mar\u00eda Zapata Saldarriaga",
+    "Yorguin-Jose Mantilla-Ramos",
+    "Jazm\u00edn Ximena Suarez Revelo",
+    "Carlos Andr\u00e9s Tob\u00f3n Quintero",
+    "John Fredy Ochoa G\u00f3mez"
+  ],
+  "funding": [
+    "Comit\u00e9 para el Desarrollo de la Investigaci\u00f3n - CODI, Universidad de Antioquia"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds007176.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "CE",
+    "OE"
+  ],
+  "sessions": [
+    "V0",
+    "V1",
+    "V2",
+    "V3",
+    "V4"
+  ],
+  "total_files": 300,
+  "size_bytes": 22616298900,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 45,
+    "ages": [
+      55,
+      52,
+      46,
+      42,
+      55,
+      52,
+      48,
+      46,
+      62,
+      59,
+      24,
+      28,
+      29,
+      25,
+      23,
+      28,
+      21,
+      25,
+      26,
+      28,
+      23,
+      33,
+      39,
+      46,
+      31,
+      29,
+      30,
+      29,
+      34,
+      42,
+      34,
+      34,
+      39,
+      35,
+      35,
+      34,
+      31,
+      30,
+      41,
+      42,
+      25,
+      45,
+      32,
+      40,
+      30
+    ],
+    "age_min": 21,
+    "age_max": 62,
+    "age_mean": 36.37777777777778,
+    "species": null,
+    "sex_distribution": {
+      "m": 17,
+      "f": 28
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "John Fredy Ochoa G\u00f3mez",
+  "contact_info": [
+    "Ver\u00f3nica Henao Isaza"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:56:58.970628+00:00",
+    "dataset_created_at": "2026-01-06T17:08:15.190Z",
+    "dataset_modified_at": "2026-04-07T14:12:56.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007176",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007176",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank all participants and staff involved in data collection.",
+  "how_to_acknowledge": "Please cite: Henao Isaza V, et al. Longitudinal test-retest reliability of quantitative EEG in healthy individuals using an automated preprocessing approach.",
+  "ethics_approvals": [
+    "Approval by Universidad de Antioquia Ethics Committee"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1016/j.bspc.2026.109484"
+  ],
+  "ingestion_fingerprint": "1b3eb9d0e8c6ab09d4152a6396c470c2381e9b4a749dfd9bf68072ccb7c2b979"
+}

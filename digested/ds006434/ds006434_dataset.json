@@ -1,0 +1,139 @@
+{
+  "dataset_id": "ds006434",
+  "name": "The auditory brainstem response to natural speech is not affected by selective attention",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Overview\n--------\nThis is the dataset for our study investigating the\neffects of selective attention to speech stimuli in the subcortex and cortex,\nentitled \"The auditory brainstem response to natural speech is not affected\nby selective attention\" by Stoll et al. (2025). Please cite our paper if\nyou use our dataset.\nIt contains EEG data for three experiments, detailed in the paper and\nbriefly summarized below. Code and stimuli to derive the responses are\nprovided in the Dataset folder and on our lab's github:\nhttps://github.com/maddoxlab/stoll_et_al_selective_attention.\nExperiment 1 - diotic stimuli (exp1Diotic)\nThis \"task\" includes EEG data for 28 subjects who listened to 120 trials\neach (64 s each; total 128 minutes) of two audiobooks - A Wrinkle in Time\n(Female narrator) and The Alchemyst (male narrator). Stimuli were set to\n65 dB SPL then summed together to be presented diotically.\nSubjects sat at a computer desk in a soundproof room.\nThey were instructed to attend to only one narrator on each trial, with cues\ngiven before they started the trial and through a fixation dot which remained\nfor the duration of the trial. For details, see the\n`Details about the experiment` section and refer to our paper.\nEEG was recorded simultaneously from a 32 channel activate montage (to examine\ncortical responses) and a 2 channel passive bipolar montage (FCz to earlobes,\nto examine subcortical responses). On a subset of the subjects\n(1, 3, 4, 7, 8, 9, 10, 11, 12, 13, 16, 18) an additional electrode was placed\non the eardrum. Data are split into cortical (active) electrodes and\nsubcortical (passive) electrodes. Since data was collected simultaneously,\ndata from all electrodes were sampled at 25 kHz. To reduce file size and\ncomputation time, the cortical electrodes were downsampled to 1 kHz and\nthe subcortical electrodes were downsampled to 10 kHz.\nExperiment 2 - dichotic stimuli (exp2Dichotic)\nThis \"task\" contains EEG data for 25 subjects who listened to 60 trials\neach (64 s each; total 64 minutes) of two audiobooks - A Wrinkle in Time\n(Female narrator) and The Alchemyst (male narrator). Stimuli were set to\n65 dB SPL and presented diotically. Subjects sat at a computer desk in a\nsoundproof room. They were instructed to attend to only one narrator on\neach trial (indicated by the story name, talker sex, and direction) with cues\ngiven before they started the trial and through a fixation dot with an arrow\nwhich remained for the duration of the trial. For details, see the\n`Details about the experiment` section and refer to our paper. The records\nof individual participant age and sex no longer exist, but overall statistics\nare reported in the paper.\nEEG was recorded simultaneously from a 32 channel activate montage (to examine\ncortical responses) and passive electrodes using a bipolar montage, with the\nnoninverting electrode placed on FCz and the inverting electrode on the earlobe,\nwith ground on the forehead. The side the electrode was placed on was\ncounterbalanced across subjects.\nExperiment 3 - passive listening to stimuli from Forte et al. (exp3Passive)\nThis \"task\" contains EEG data for 14 subjects who listened to 32 trials\neach (~117 s each; total ~62 minutes) of four audiobooks - Tales of Troy:\nUlysses the Sacker of Cities and The Green Forest Fairy Book narrated by\nJames K. White for the male speech and The Children of Odin and The Adventures\nof Odysseus and the Tale of Troy narrated by Elizabeth Klett for the female\nspeech. These audiobooks were selected to match the study by Forte et al. (2017),\nwho provided us with the audio files. Stimuli were set to 73 dB SPL then\nsummed together to be presented diotically (i.e., at 76 dB SPL). The stories\nwere paired in the same manner as in Forte et al. (2017). Subjects sat at a\ncomputer desk in a soundproof room. They were instructed to ignore the audio\nas best they could and distract themselves by watching silent captioned videos\nof their choosing or by reading.  For details, see the `Details about the experiment`\nsection and refer to our paper.\nEEG was recorded with a passive electrodes using a bipolar montage, with the\nnoninverting electrode placed on FCz and the inverting electrode on the earlobe,\nwith ground on the forehead.\nFormat\n------\nThe dataset is formatted according to the EEG Brain Imaging Data Structure.\nSee the `dataset_description.json` file for the specific version used.\nGenerally, you can find detailed event data in the .tsv files and descriptions\nin the accompanying .json files. Raw eeg files are provided in the Brain\nProducts format.\nDetails about the experiment\n----------------------------\nFor a detailed description of the task, see Stoll et al. (2025) as well\nas the supplied file json files.\nTrigger onset times have already been corrected for the tubing delay of the\ninsert earphones. Trial numbers and more metadata of the events are in each\nof the '*_eeg_events.tsv\" file, which is sufficient to know which trial\ncorresponded to which chapter and which narrator\nthe subjects were instructed to attend. As chapters were\norganized to allow subjects to follow to stories, all subjects had the same\ntrial order in experiment 1 and 2. Story order was randomized in experiment\n3, with that information stored in the '*_eeg_evnets.tsv\" file.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Thomas J Stoll",
+    "Nathan D Vandjelovic",
+    "Melissa J Polonenko",
+    "Nadja R S Li",
+    "Adrian K C Lee",
+    "Ross K Maddox"
+  ],
+  "funding": [
+    "NIH R00 DC014288",
+    "NIH R21 DC019489",
+    "NIH R01 DC013260 ",
+    "NSF 2142612",
+    "NSF 2448814"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006434.v1.2.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "exp1DioticCortex",
+    "exp1DioticSubcortex",
+    "exp2DichoticCortex",
+    "exp2DichoticSubcortex",
+    "exp3Passive"
+  ],
+  "sessions": [],
+  "total_files": 118,
+  "size_bytes": 110646361086,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 66,
+    "ages": [
+      21,
+      20,
+      24,
+      19,
+      27,
+      27,
+      29,
+      22,
+      20,
+      31,
+      26,
+      21,
+      21,
+      38,
+      23,
+      21,
+      20,
+      29,
+      23,
+      27,
+      29,
+      18,
+      18,
+      19,
+      22,
+      25,
+      20,
+      19,
+      22,
+      23,
+      39,
+      18,
+      18,
+      23,
+      19,
+      20,
+      22,
+      21,
+      30,
+      18,
+      21,
+      21
+    ],
+    "age_min": 18,
+    "age_max": 39,
+    "age_mean": 23.19047619047619,
+    "species": null,
+    "sex_distribution": {
+      "o": 25,
+      "f": 29,
+      "m": 12
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Ross K Maddox",
+  "contact_info": [
+    "Ross Maddox",
+    "Thomas Stoll"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:55:01.087681+00:00",
+    "dataset_created_at": "2025-07-01T16:32:15.143Z",
+    "dataset_modified_at": "2025-09-11T17:43:36.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006434",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006434",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Yathida Melody Anankul, Ashlynne G Xavier, Tiffany Waddington, and Susan A McLaughlin for assistance with data collection. We are grateful to Tobias Reichenbach and colleagues for freely sharing experimental data and stimuli, and to Skyler G Jennings for teaching us how to make and use the eardrum electrodes. ",
+  "how_to_acknowledge": "If you reference this dataset in a publication, please cite the paper (Stoll et. al, The auditory brainstem response to speech is not affected by selective attention. PLOS Biology, 2025).",
+  "ethics_approvals": [
+    "University of Rochester Research Subjects Review Board #1227",
+    "University of Washington Institutional Review Board #39485"
+  ],
+  "ingestion_fingerprint": "861df1c7178cb98d3f59ec4daf79960952c9f46fb5939ee3c6c3d0313627c404"
+}

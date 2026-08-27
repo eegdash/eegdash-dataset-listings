@@ -1,0 +1,90 @@
+{
+  "dataset_id": "ds004473",
+  "name": "sEEG Forced Two-Choice Task",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Welcome to our dataset! Here we present stereoelectroencephalography data from a forced two-choice response task collected in the epilepsy monitoring unit at Oregon Health & Science University. The data was analyzed in collaboration with the University of Oregon. The accompanying paper the first reference below.\nReferences\n----------\nRockhill, A. P., Mantovani, A., Stedelin, B., Nerison, C. S., Raslan, A. M., & Swann, N. C. (2022). Stereo-EEG recordings extend known distributions of canonical movement-related oscillations. Journal of Neural Engineering. https://doi.org/10.1088/1741-2552/acae0a\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nHoldgraf, C., Appelhoff, S., Bickel, S., Bouchard, K., D'Ambrosio, S., David, O., \u2026 Hermes, D. (2019). iEEG-BIDS, extending the Brain Imaging Data Structure specification to human intracranial electrophysiology. Scientific Data, 6, 102. https://doi.org/10.1038/s41597-019-0105-7",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.2",
+  "license": "CC0",
+  "authors": [
+    "Alexander P. Rockhill",
+    "Alessandra Mantovani",
+    "Brittany Stedelin",
+    "Admed M. Raslan",
+    "Nicole C. Swann"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004473.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "SlowFast"
+  ],
+  "sessions": [],
+  "total_files": 8,
+  "size_bytes": 6767566336,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 8,
+    "ages": [
+      44,
+      47,
+      33,
+      31,
+      39,
+      31,
+      30,
+      26
+    ],
+    "age_min": 26,
+    "age_max": 47,
+    "age_mean": 35.125,
+    "species": null,
+    "sex_distribution": {
+      "m": 4,
+      "f": 4
+    },
+    "handedness_distribution": {
+      "r": 6,
+      "l": 2
+    }
+  },
+  "senior_author": "Nicole C. Swann",
+  "contact_info": [
+    "Alexander Rockhill"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:45:26.703121+00:00",
+    "dataset_created_at": "2023-02-07T22:05:05.338Z",
+    "dataset_modified_at": "2023-02-09T20:17:20.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004473",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-SlowFast_beh.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004473",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "0d2120f3cf74dd63af08fae5bcfff3c5f6e93e146261a3d29166f41f9519fdf4"
+}

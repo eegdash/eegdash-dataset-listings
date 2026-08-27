@@ -1,0 +1,100 @@
+{
+  "dataset_id": "ds004642",
+  "name": "Intraoperative recordings of medianus stimulation with low and high impedance ECoG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": " ## Intraoperative recordings of medianus stimulation with low and high impedance ECoG\nThis dataset of medianus SEP was first analyzed in publication [1]. There we investigated whether the low impedance ECoG electrode (LoZ) improves fast ripple detection over a standard electrode with high impedance contacts (HiZ).\nThere are 10 patients (median age 40 y, range 19-56 y, 6 female) who underwent brain tumor resections in the perirolandic region at our institution. The data includes the continuous raw data from the ECoG contacts of both electrodes. We recorded medianus SEP intraoperatively (stimulation rate = 4.7 Hz) from two 4-contacts ECoG strips simultaneously (LoZ: a contacts, HiZ: b contacts) that had different median impedance (LoZ: 3.4 k\u03a9, HiZ: 6.9 k\u03a9).\n### Repository structure\n### Main directory (LoZ HFO)\nContains metadata files in the BIDS standard about the participants and the study. Folders are explained below.\n### Subfolders\n-   LoZ HFO/sub-/ Contains folders for each subject, named sub-  and session information.\n-   LoZ HFO/sub-/ses-01/ieeg/ Contains the raw ieeg data in .edf format for each subject. Each *ieeg.edf file contains continuous iEEG data from one stimulation rate recorded at the hand area \u03a9 from both the electrodes simultaneously . Details about the channels are given in the corresponding .tsv file.\n### Note from the paper\n\"The offline data processing used the continuous ECoG that was recorded in parallel to the SEP recordings. Data analysis was performed with custom scripts in Matlab. To detect the SEP stimulation artefact, we first filtered the ECoG (high pass cutoff = 200 Hz) and performed local peak detection (minimum peak prominence between peaks = 30 ms, minimum peak width = 4 ms, samples = 0.2 ms). We used the times of the detected stimulus artifact as triggers to define sweeps with post-stimulus recording sweep length 50 ms. We classified sweeps with amplitude \u00b1100 \u00b5V as artefact-ridden and excluded them from further analysis.\nWe averaged 100 sweeps and filtered the averaged trace (bandpass [30 300] Hz, IIR filter, response roll-off -12 db per octave, forward and reverse filtering to avoid phase distortion). We visually inspected the data and selected one optimal channel with high N20 amplitude (positive or negative) for further analysis. From the averaged N20 trace, we determined the N20 peak latency. To obtain the N20 peak amplitude and the SNR, we inspected the latency of the N20 peak. If the N20 latency was >20 ms, we selected a signal window [20 25] ms. If the N20 latency was \u2264 20 ms, we selected a signal window [17 22] ms. In the same way, we filtered the averaged trace in the [250 500] Hz band to obtain the evoked FR and in the [500 1000] Hz band to obtain the evoked HFO. We doubled the largest deflection in the signal window of the N20 frequency band to define the N20 signal amplitude. In the FR and HFO bands we used the peak-to-peak amplitude.\"\n### BIDS Conversion\nbids-starter-kid and custom Matlab scripts were used to convert the dataset into BIDS format.\n### References\n[1] Vasileios Dimakopoulos, Marian C. Neidert, Johannes Sarnthein, Low impedance electrodes improve detection of high frequency oscillations in the intracranial EEG, Clinical Neurophysiology, 2023, ISSN 1388-2457, https://doi.org/10.1016/j.clinph.2023.07.002\nIf you have any inquiries or questions, contact:\n* Vasileios Dimakopoulos (vasileios.dimakopoulos@usz.ch)\n* Johannes Sarnthein (johannes.sarnthein@usz.ch)",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Vasileios Dimakopoulos",
+    "Marian Neidert",
+    "Johannes Sarnthein"
+  ],
+  "funding": [
+    "Swiss National Science Foundation, SNSF 204651",
+    "Alexander S. Onassis Public Benefit Foundation Scholarship"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004642.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "lozHFO"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 10,
+  "size_bytes": 1292805561,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 10,
+    "ages": [
+      38,
+      44,
+      32,
+      50,
+      46,
+      56,
+      32,
+      38,
+      42,
+      19
+    ],
+    "age_min": 19,
+    "age_max": 56,
+    "age_mean": 39.7,
+    "species": null,
+    "sex_distribution": {
+      "f": 6,
+      "m": 4
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Johannes Sarnthein",
+  "contact_info": [
+    "Vasileios S. Dimakopoulos",
+    "Johannes Sarnthein"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:46:38.212328+00:00",
+    "dataset_created_at": "2023-07-17T13:57:44.780Z",
+    "dataset_modified_at": "2023-07-31T08:41:33.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004642",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004642",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We acknowledge a grant awarded by the Swiss National Science Foundation (funded by the SNSF 204651 to JS) and a scholarship awarded by the Alexander S. Onassis Public Benefit Foundation (to VD). The funders had no role in the design or analysis of the study",
+  "how_to_acknowledge": "Please cite this paper: https://doi.org/10.1016/j.clinph.2023.07.002",
+  "ethics_approvals": [
+    "Kantonale Ethikkommision PB-2017-00094"
+  ],
+  "references_and_links": [
+    "Vasileios Dimakopoulos, Marian C. Neidert, Johannes Sarnthein, Low impedance electrodes improve detection of high frequency oscillations in the intracranial EEG, Clinical Neurophysiology, 2023"
+  ],
+  "ingestion_fingerprint": "74cd956f34bbacd8695f39390eb26bf7d403789de73c4930bff5b10b08170777"
+}

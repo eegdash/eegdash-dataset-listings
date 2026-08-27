@@ -1,0 +1,118 @@
+{
+  "dataset_id": "ds004944",
+  "name": "Dataset of BCI2000-compatible intraoperative ECoG with neuromorphic encoding",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "## Overview\nThis dataset comprises recordings of intraoperative Electrocorticography (ECoG) from 22 patients undergoing resective epilepsy surgery.\nFor each patient, the dataset is organized into pre-resection recording (referred to as SITUATION1A) and post-resection recording (referred to as SITUATION2A).\nWe provide raw ECoG recordings for each patient and a derivative folder that contains all the main processing stages\nperformed with our neuromorphic processing pipeline: [https://doi.org/10.1038/s41467-024-47495-y](https://doi.org/10.1038/s41467-024-47495-y).\nThe pipeline preprocesses ECoG recordings in real-time and performs Asynchronous Delta Modulator (ADM) encoding with a custom BCI2000 module.\nThe ADM-encoded data are processed by a hardware Spiking Neural Network (SNN). The SNN-encoded data are then used to detect epileptiform patterns in the ECoG.\nThe code to perform preprocessing and ADM encoding in BCI2000, together with the code to detect epileptiform patterns from SNN-encoded data, are provided at [https://github.com/CostaFilippo/BCI2000_DYNAP-SE.git](https://github.com/CostaFilippo/BCI2000_DYNAP-SE.git).\nIn a previous publication, this dataset has been analyzed with a offline software algorithm: [https://doi.org/10.1016/j.clinph.2019.07.008](https://doi.org/10.1016/j.clinph.2019.07.008).\nThe annotations of the epileptiform patterns detected with the offline approach are provided at: sub-\\*/ses-SITUATION\\*/sub-\\*_ses-SITUATION\\*_task-acute_events.tsv.\nThe annotations of the epileptiform patterns detected with the online neuromorphic processing are provided at derivative/sub-\\*/ses-SITUATION\\*/sub-\\*_ses-SITUATION*_task-EV.csv.\n## Dataset Structure\nThe derivative folder is structured as follows:\n - sub-*\n  - ses-SITUATION1A\n    - *task-BCI.dat\n    - *task-ADM.csv\n    - *task-SNN.csv\n    - *task-EV.csv\n  - ses-SITUATION2A\n    - *task-BCI.dat\n    - *task-ADM.csv\n    - *task-SNN.csv\n    - *task-EV.csv\n### File Descriptions\n- derivative\n - **task-BCI.dat:* BCI2000-compatible file containing the ECoG recording.\n - **task-ADM.csv:* ADM encoding of the ECoG recording.\n - **task-SNN.csv:* SNN encoding of the ECoG recording.\n - **task-EV.cvs:*  Annotations of the detected epileptiform patterns in the ECoG recording.\n## Data Formats\nDetails of the neuromorphic processing pipeline can be found at [https://doi.org/10.1038/s41467-024-47495-y](https://doi.org/10.1038/s41467-024-47495-y).\n#### task-BCI.dat\nThe BCI2000-compatible file contains the raw ECoG recording.\nIt can be streamed in real-time using the 'FilePlayback' BCI2000 module.\n#### task-ADM.csv\nThe ADM file is formatted as follows:\n - _pulseType_: -1 for DN pulse, +1 for UP pulse.\n - _pulseTime_: Time at which the pulse occurred.\n - _channel_: Channel in which the pulse occurred.\n - _band_: 0 for EEG band, 1 for HFO band\n#### task-SNN.csv\nThe SNN file is formatted as follows:\n - _time_: Time at which the SNN neuron activated.\n - _neuronId_: Number id of the SNN neuron (DYNAP-SE numbering from 0 to 1024).\n - _neuronCounter_: Number id of the SNN neuron (sequential numbering from 0 to 40).\n - _moduleName_: Population (ACC_4_0; ACC_0_4), band (EEG; HFO) and module number (ch 0-7) of the neuron.\n   - ACC_4_0 = ACC UP\n   - ACC_0_4 = ACC DN\n - _moduleId_: Module number (0-7).\n - _channelId_: Channel for which the SNN neuron activated.\n#### task-EV.csv\nThe EV file contains annotations of the detected epileptiform patterns with the following format:\n - _time_: time of the detected event.\n - _channelId_: channel id of the detected event.\n - _location_:  channel name of the detected event.\n## Contact Information\nFor inquiries or additional information, please contact Filippo.Costa@usz.ch or Johannes.Sarnthein@usz.ch\n## Acknowledgements\nWe thank V. Dimakopoulos for help in reformatting the data to BIDS. We acknowledge a grant awarded by the Swiss National Science Foundation (funded by the SNSF 204651 to JS and GI with GR and NK as project partners). The funder had no role in the design or analysis of the study.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Filippo Costa",
+    "Niklaus Krayenb\u00fchl",
+    "Georgia Ramantani",
+    "Ece Boran",
+    "Kristina K\u00f6nig",
+    "Johannes Sarnthein"
+  ],
+  "funding": [
+    "Swiss National Science Foundation, SNSF 204651"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004944.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "acute"
+  ],
+  "sessions": [
+    "SITUATION1A",
+    "SITUATION2A"
+  ],
+  "total_files": 44,
+  "size_bytes": 473061643,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 22,
+    "ages": [
+      15,
+      7,
+      17,
+      22,
+      20,
+      3,
+      34,
+      23,
+      1,
+      15,
+      36,
+      38,
+      42,
+      7,
+      17,
+      67,
+      3,
+      4,
+      17,
+      4,
+      41,
+      5
+    ],
+    "age_min": 1,
+    "age_max": 67,
+    "age_mean": 19.90909090909091,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 10
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Johannes Sarnthein",
+  "contact_info": [
+    "Filippo Costa",
+    "Johannes Sarnthein"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:47:38.770444+00:00",
+    "dataset_created_at": "2024-01-30T10:41:43.220Z",
+    "dataset_modified_at": "2024-04-11T09:00:21.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004944",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004944",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank V. Dimakopoulos for help in reformating the data to BIDS. We acknowledge a grant awarded by the Swiss National Science Foundation (funded by the SNSF 204651 to JS and GI with GR and NK as project partners). The funders had no role in the design or analysis of the study.",
+  "how_to_acknowledge": "If using the raw data, please cite: Ece Boran, Georgia Ramantani, Niklaus Krayenb\u00fchl, Maxine Schreiber, Kristina K\u00f6nig, Tommaso Fedele, Johannes Sarnthein **High-density ECoG improves the detection of high frequency oscillations that predict seizure outcome**, _Clinical Neurophysiology_ [https://doi.org/10.1016/j.clinph.2019.07.008]\n\nIf using the derivatives, please cite: Filippo Costa, Eline Schaft, Geertjan Huiskamp, Erik Aarnoutse, Maryse van\u2019t Klooster, Niklaus Krayenb\u00fchl, Georgia Ramantani, Maeike Zijlmans, Giacomo Indiveri, Johannes Sarnthein, **Robust compression and detection of epileptiform patterns in ECoG using a real-time spiking neural network hardware framework**, _Nature Communications_ [https://doi.org/10.1038/s41467-024-47495-y]",
+  "ethics_approvals": [
+    "The collection of patient data and their analysis was approved and performed in accordance with the guidelines",
+    "and regulations of the local research ethics committee (Kantonale Ethikkommission Z\u00fcrich 2018\u201302171).",
+    "All patients and/or their parents provided informed consent to reuse their clinical data for research purposes."
+  ],
+  "references_and_links": [
+    "Ece Boran, Georgia Ramantani, Niklaus Krayenb\u00fchl, Maxine Schreiber, Kristina K\u00f6nig, Tommaso Fedele, Johannes Sarnthein **High-density ECoG improves the detection of high frequency oscillations that predict seizure outcome**, _Clinical Neurophysiology_ [https://doi.org/10.1016/j.clinph.2019.07.008]",
+    "Filippo Costa, Eline Schaft, Geertjan Huiskamp, Erik Aarnoutse, Maryse van\u2019t Klooster, Niklaus Krayenb\u00fchl, Georgia Ramantani, Maeike Zijlmans, Giacomo Indiveri, Johannes Sarnthein, **Robust compression and detection of epileptiform patterns in ECoG using a real-time spiking neural network hardware framework**, _Nature Communications_ [https://doi.org/10.1038/s41467-024-47495-y]"
+  ],
+  "ingestion_fingerprint": "6cd41ae0d55814bdafd3728a8f6d374b5dd08aca019cd1dff565198dfb9c7c07"
+}

@@ -1,0 +1,99 @@
+{
+  "dataset_id": "ds005873",
+  "name": "SeizeIT2",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# README\nThis dataset is a BIDS compatible version of the SeizeIT2 dataset. It reorganizes the file structure to comply with the BIDS specification. To this effect:\n- Metadata was organized according to BIDS.\n- Data in the edf files contains wearable EEG, ECG, EMG and movement data recorded with the Sensor Dot device.\n- Annotations were formatted as BIDS-score compatible `tsv` files.\n### Contact person\nThe dataset was published by [Miguel Bhagubai](miguel.bhagubai@esat.kuleuven.be) and [Christos Chatzichristos](christos.chatzichristos@kuleuven.be).\n## Overview\n### Project name\nSeizeIT2 Dataset\n### Year that the project ran\n2024\n### Description of the dataset\nThe SeizeIT2 project (clinicaltrials.gov: NCT04284072), a multicenter, prospective study, was carried out to validate the Sensor Dot device in adult and pediatric patients with epilepsy. Participants were included if they had a history of refractory epilepsy and were admitted to the Epilepsy Monitoring Unit (EMU) for long-term vEEG monitoring as a presurgical evaluation procedure. The exclusion criteria included patients with skin conditions or allergies that prevented the placement of the electrodes and adhesives or had implanted devices, such as neurostimulators or pacemakers. All participants provided written informed consent. The data collection started on January 10, 2020, and ended on June 30, 2022. The study was approved by the UZ Leuven ethics committee (approval ID: S63631, ClinicalTrials.gov, NCT04284072), anonymization and sharing of the data was also approved by the same committee (S67350 - amendment 1).\nThe dataset comprises 125 patients (51 female, 41\\%) from 5 different European EMUs: University Hospital Leuven (Belgium), Freiburg University Medical Center (Germany), RWTH University of Aachen (Germany), Karolinska University Hospital (Sweden) and Coimbra University Hospital (Portugal). The University Hospital Leuven was the only center that enrolled pediatric patients. The dataset includes only data from patients with focal epilepsy who experienced one or more seizure episodes during the monitoring period.\n## Methods\nThe participants were recorded with the specific center's vEEG monitoring equipment, where the EEG electrodes were placed according to the 10-20 system or the 25-electrode array of the International Federation of Clinical Neurophysiology. The SD device was used to record wearable data simultaneously with the vEEG. The device has a size of 24.5 x 33.5 x 7.73 mm and weighs approximately 6.3 grams. The wearable device measures data at a sampling frequency of 250 Hz and has a battery life of approximately 24 hours. Two recording devices were used: one placed in the patient's upper back using a patch and connected to electrodes attached behind the ear, on the mastoid bone (EEG SD); another placed on the left side of the chest, with two electrodes extended to the lower left rib cage and the fourth intercostal space in the left parasternal position to measure ECG, and two electrodes extended to the left deltoid muscle to measure EMG data (ECG/EMG SD). The module itself contains accelerometers (ACC) and gyroscopes (GYR), which measured movement data at a sampling rate of 25 Hz.\nThe EEG SD electrode placement depended on the patient's medical history and is based on the seizure type and onset. When the seizures were suspected to originate from the left hemisphere, two electrodes were placed on the left side and one on the right side, forming one left same-side channel and one cross-head channel. Analogously, if seizures were suspected to originate from the right hemisphere, the same-side channel was derived from two electrodes placed behind the right ear. The dataset includes patients who were suspected to have generalized seizures (but had focal seizures) as well, and in this case, the cross-head channel was non-existent and replaced by an additional lateral channel by using two electrodes on each ear.\n### Dataset contents\nThe complete dataset contains around 11 640 hours of wearable data. Four different modalities were recorded for most participants: bte-EEG, ECG, EMG and movement data. All participants' data within the dataset contain wearable bte-EEG. In 3\\% of the dataset, ECG, EMG and movement data were not included due to technical failures or errors in the setup. In total, 886 focal seizures were recorded with the wearable device. The mean duration of the recorded seizures was 58 seconds, ranging between 3 seconds and 16 minutes. The majority of the seizures were focal aware (FA) and focal impaired awareness (FIA), with 317 and 393 occurrences, respectively. From the remaining seizures, 55 were focal-to-bilateral tonic clinic (FBTC), 12 were focal with unclear awareness status, 2 were subclinical focal seizures and 93 had unknown or unreported onset. There was a predominance of seizures with onset on the left hemisphere (44\\%). In 12\\% of the seizures, the onset was located in the right hemisphere, 1\\% had a bilateral onset and in 43\\% of the seizures the onset was unclear. Regarding localization, the seizure onsets were distributed over the central, frontal, temporal, occipital, parietal and insula lobes, with a predominance of temporal lobe seizures (30\\%). Several seizures recorded could not be paired with a clear onset lobe (26\\%).",
+  "recording_modality": [
+    "eeg",
+    "emg"
+  ],
+  "datatypes": [
+    "eeg",
+    "emg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Miguel Bhagubai",
+    "Christos Chatzichristos",
+    "Lauren Swinnen",
+    "Jaiver Macea",
+    "Jingwei Zhang",
+    "Lieven Lagae",
+    "Katrien Jansen",
+    "Andreas Schulze-Bonhage",
+    "Francisco Sales",
+    "Benno Mahler",
+    "Yvonne Weber",
+    "Wim Van Paesschen",
+    "Maarten De Vos  "
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005873.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "szMonitoring"
+  ],
+  "sessions": [
+    "01"
+  ],
+  "total_files": 5654,
+  "size_bytes": 47635473156,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 125,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "f": 62,
+      "m": 63
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Maarten De Vos  ",
+  "contact_info": [
+    "Christos Chatzichristos",
+    "Miguel Bhagubai"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:39.532359+00:00",
+    "dataset_created_at": "2025-01-23T08:10:38.540Z",
+    "dataset_modified_at": "2025-03-17T17:35:03.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005873",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005873",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We would like to acknowledge all clinicians who were involved in gathering the data and all researchers, mainly Thomas\nStrypsteen, Maarten Vanmarcke and Anna Martens, who aided in the development and validation of the shared code.\nThis work was funded by the European Union under the H2020-OTHER-EIT-HEALTH program (19263); Bijzonder\nOnderzoeksfonds (BOF) KU Leuven: \u201cPrevalence of Epilepsy and Sleep Disturbances in Alzheimer Disease\u201d (C24/18/097);\nStrategic basic research grant by Research Foundation Flanders (FWO) (for M. Bhagubai\u20141SB5922N); Research Foundation\nFlanders (FWO) Research Project, \u201cDeep, personalized epileptic seizure detection\u201d (G0D8321N); the Flemish Government (AI\nResearch Program); M. De Vos, M. Bhagubai and C. Chatzichristos are affiliated to Leuven.AI - KU Leuven institute for AI,\nB-3000, Leuven, Belgium.",
+  "ethics_approvals": [
+    "UZ Leuven ethics committee (S67350 - amendment 1)",
+    "UZ Leuven ethics committee (S63631)"
+  ],
+  "references_and_links": [
+    "https://github.com/biomedepi/seizeit2"
+  ],
+  "ingestion_fingerprint": "a1da6fdc0eaaeaab1d91b6265d9beeaac29e02b3637e3202afcce9fda53b3013"
+}

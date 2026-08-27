@@ -1,0 +1,137 @@
+{
+  "dataset_id": "ds003506",
+  "name": "EEG: Reinforcement Learning in Parkinson's",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Reinforcement learning task with 28 Parkinson patients and 28 matched controls.  Task with volitional and instucted choices.   Task adapted from here: https://doi.org/10.1016/j.neuron.2014.06.035.    Beh data first published here: 10.1016/j.cortex.2017.02.021.  EEG published here: 10.1016/j.brainres.2019.146541.   PD came in twice separated by a week, either ON or OFF medication.  CTL only came in once.  Task included in Matlab programming language.   Data collected circa 2015 in Cognitive Rhythms and Computation Lab at University of New Mexico.  Subjs also had an acceleromter taped to their most tremor affected hand.  X, Y, Z dimensions recorded throughout.  Check the .xls sheet under code folder for more meta data.  Some Matlab analytic scripts are included, but I didnt ensure that these are complete.  Also behavioral files from the task, which contain more trial-specific information than the triggers.\n - James F Cavanagh 02/05/2021",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "James F Cavanagh",
+    "Darin Brown"
+  ],
+  "funding": [],
+  "dataset_doi": "10.18112/openneuro.ds003506.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ReinforcementLearning"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 84,
+  "size_bytes": 17399670602,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 56,
+    "ages": [
+      61,
+      60,
+      75,
+      76,
+      75,
+      79,
+      83,
+      79,
+      67,
+      72,
+      68,
+      71,
+      68,
+      68,
+      83,
+      61,
+      55,
+      49,
+      71,
+      74,
+      76,
+      72,
+      49,
+      70,
+      64,
+      78,
+      77,
+      66,
+      68,
+      76,
+      73,
+      66,
+      80,
+      64,
+      64,
+      69,
+      69,
+      58,
+      70,
+      64,
+      52,
+      84,
+      69,
+      83,
+      83,
+      73,
+      58,
+      77,
+      65,
+      75,
+      64,
+      75,
+      73,
+      75,
+      69,
+      48
+    ],
+    "age_min": 48,
+    "age_max": 84,
+    "age_mean": 69.48214285714286,
+    "species": null,
+    "sex_distribution": {
+      "f": 22,
+      "m": 34
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Darin Brown",
+  "contact_info": [
+    "James F Cavanagh"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:41:51.126510+00:00",
+    "dataset_created_at": "2021-02-05T19:08:26.786Z",
+    "dataset_modified_at": "2021-02-05T20:08:19.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003506",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003506",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "PMID: 31704082"
+  ],
+  "ingestion_fingerprint": "2d0cf26311e5e0ace52d2adc00df1d362df28074219d88453990095bee7ce7f0"
+}

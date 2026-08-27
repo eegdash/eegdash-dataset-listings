@@ -1,0 +1,173 @@
+{
+  "dataset_id": "ds006260",
+  "name": "Dataset of psychophysiological data from children with learning difficulties who strengthen reading and math skills through assistive technology",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# README\n## Authors\nC\u00e9sar E. Corona-Gonz\u00e1lez, Claudia Rebeca De Stefano-Ramos, Juan Pablo Rosado-A\u00edza, Fabiola R G\u00f3mez-Vel\u00e1zquez, David I. Ibarra-Zarate, Luz Mar\u00eda Alonso-Valerdi\n##  Contact person\nC\u00e9sar E. Corona-Gonz\u00e1lez\n https://orcid.org/0000-0002-7680-2953\na00833959@tec.mx\n## Project name\nPsychophysiological data from Mexican children with learning difficulties who strengthen reading and math skills by assistive technology\n## Year that the project ran\n2023\n##  Brief overview of the tasks in the experiment\nThe current dataset consists of psychometric and electrophysiological data from children with reading or math learning difficulties. These data were collected to evaluate improvements in reading or math skills resulting from using an online learning method called Smartick.\nThe psychometric evaluations from children with reading difficulties encompassed: spelling tests, where 1) orthographic and 2) phonological errors were considered, 3) reading speed, expressed in words read per minute, and 4) reading comprehension, where multiple-choice questions were given to the children. The last 2 parameters were determined according to the [standards from the Ministry of Public Education](https://rarchivoszona33.files.wordpress.com/2012/10/manual_fomento.pdf) (Secretar\u00eda de Educaci\u00f3n P\u00fablica in Spanish) in Mexico. On the other hand, group 2 assessments embraced: 1) an assessment of general mathematical knowledge, as well as 2) the hits percentage, and 3) reaction time from an arithmetical task. Additionally, selective attention and intelligence quotient (IQ) were also evaluated.\nThen, individuals underwent an EEG experimental paradigm where two conditions were recorded: 1) a 3-minute eyes-open resting state and 2) performing either reading or mathematical activities. EEG recordings from the reading experiment consisted of reading a text aloud and then answering questions about the text. Alternatively, EEG recordings from the math experiment involved the solution of two blocks with 20 arithmetic operations (addition and subtraction). Subsequently, each child was randomly subcategorized as 1) the experimental group, who were asked to engage with Smartick for three months, and 2) the control group, who were not involved with the intervention. Once the 3-month period was over, every child was reassessed as described before.\n##  Description of the contents of the dataset\nThe dataset contains a total of 76 *subjects* **(sub-)**, where two study groups were assessed: 1) *reading difficulties* **(R)** and 2) *math difficulties* **(M)**. Then, each individual was subcategorized as *experimental subgroup* **(e)**, where children were compromised to engage with Smartick, or *control subgroup*  **(c)**, where they did not get involved with any intervention.\nEvery subject was followed up on for three months. During this period, each subject underwent two EEG sessions, representing the *PRE-intervention* **(ses-1)** and the *POST-intervention* **(ses-2)**.\nThe EEG recordings from the reading difficulties group consisted of a *resting state condition* **(run-1)** and while performing *active reading and reading comprehension activities* **(run-2)**. On the other hand, EEG data from the math difficulties group was collected from a *resting state condition* **(run-1)** and when *solving two blocks of 20 arithmetic operations* **(run-2 and run-3)**. All EEG files were stored in .set format. The nomenclature and description from filenames are shown below:\n| Nomenclature             |   Description              |\n|--------------------------------  |---------------------------         |\n|              sub-                    |            Subject                   |\n|                M                      |       Math group               |\n|                R                       |    Reading group             |\n|              c                          |    Control subgroup        |\n|              e                          |  Experimental subgroup|\n|              ses-1                   |    PRE-intervention  |\n|              ses-2                   | POST-Intervention  |\n|              run-1                  |  EEG for baseline     |\n|              run-2                  |  EEG for reading activity, or the first block of math|\n|              run-3                  |  EEG for the second block of math|\nExample: the file *sub-Rc11_ses-1_task-SmartickDataset_run-2_eeg.set* is related to:\n- The 11th subject from the reading difficulties group, control subgroup (sub-Rc11).\n- EEG recording from the PRE-intervention (ses-1) while performing the reading activity (run-2)\n##  Independent variables\n- Study groups:\n    + Reading difficulties\n      * Control: children did not follow any intervention\n      * Experimental: Children used the reading program of Smartick for 3 months\n    + Math difficulties\n        * Control: children did not follow any intervention\n        * Experimental: Children used the math program of Smartick for 3 months\n- Condition:\n    + PRE-intervention: first psychological and electroencephalographic evaluation\n    + POST-intervention: second psychological and electroencephalographic evaluation\n##  Dependent variables\n- *Psychometric data from the reading difficulties group*:\n   * Orthographic_ERR: number of orthographic errors.\n   * Phonological_ERR:\u00a0number of phonological errors.\n   * Selective_Attention: score from the selective attention test.\n   * Reading_Speed: reading speed in words per minute.\n   * Comprehension: score on a reading comprehension task.\n   * GROUP: C for the control group, E for the experimental group.\n   * GENDER: M for male, F for Female.\n   * AGE: age at the beginning of the study.\n   * IQ:\u00a0intelligence quotient.\n- *Psychometric data from the math difficulties group*:\n   * WRAT4: score from the WRAT-4 test.\n   * hits: hits during the EEG acquisition [%].\n   * RT: reaction time during the EEG acquisition\u00a0[s].\n   * Selective_Attention: score from the selective attention test.\n   * GROUP: C for the control Group, E for the experimental group.\n   * GENDER: M for male, F for female.\n   * AGE: age at the beginning of the study.\n   * IQ:\u00a0intelligence quotient.\n**Psychometric data can be found in the *01_Psychometric_Data.xlsx* file**\n- *Engagement percentage within Smartick (only for experimental group)*\n    * These values represent the engagement percentage through Smartick.\n    * Students were asked to get involved with the online method for learning for 3 months, 5 days a week.\n    * Greater values than 100% denote participants who regularly logged in more than 5 days weekly.\n**Engagement percentage be found in the *05_SessionEngagement.xlsx* file**\n##  Methods\n### Subjects\nSeventy-six Mexican children between 7 and 13 years old were enrolled in this study.\n### Information about the recruitment procedure\nThe sample was recruited through non-profit foundations that support learning and foster care programs.\n### Apparatus\ng.USBamp RESEARCH amplifier\n### Initial setup\n1. Explain the task to the participant.\n2. Sign informed consent.\n3. Set up electrodes.\n### Task details\nThe *stimuli* nested folder contains all stimuli employed in the EEG experiments.\n**Level 1**\n- Math: Images used in the math experiment.\u200b\u200b\u200b\u200b\u200b\u200b\u200b\n- Reading: Images used in the reading experiment.\n**Level 2**\n- Math\n    * POST_Operations: arithmetic operations from the POST-intervention.\n    * PRE_Operations: arithmetic operations from the PRE-intervention.\n- Reading\n    * POST_Reading1: text 1 and text-related comprehension questions from the POST-intervention.\n    * POST_Reading2: text 2 and text-related comprehension questions from the POST-intervention.\n    * POST_Reading3: text 3 and text-related comprehension questions from the POST-intervention.\n    * PRE_Reading1: text 1 and text-related comprehension questions from the PRE-intervention.\n    * PRE_Reading2: text 2 and text-related comprehension questions from the PRE-intervention.\n    * PRE_Reading3: text 3 and text-related comprehension questions from the PRE-intervention.\n**Level 3**\n- Math\n    * *Operation01.jpg* to *Operation20.jpg*: arithmetical operations solved during the first block of the math EEG experiment.\n    * *Operation21.jpg* to *Operation40.jpg*: arithmetical operations solved during the second block of the math EEG experiment.\n    * *Experiment_Start.jpeg*: start of the experiment.\n    * *Experiment_End.jpeg*: end of the experiment.\n    * *End_Block_1.jpeg*: break between blocks.\n- Reading\n    * Q1.png: first question.\n    * Q2.png: second question.\n    * Q3.png: third question.\n    * Reading1, Reading2, or Reading3: texts from the reading EEG experiment.\n**The files *3. Reading_Tags.xlsx* and *4. Math_Tags.xlsx* provide the following information:**\n- Order: number for better event accommodation.\n- Event: tag in EEG file.\n- Subject: Subject identifier\n- Intervention: PRE (ses-1) or POST (ses-2).\n- Reading/Block: task identifier tag.\n\t* \"R1\", \"R2\", and \"R3\" indicates which reading was assigned to each participant.\n\t* \"1\" and \"2\" for the blocks of the math\u00a0experiment.\n- Group: control or experimental.\n- Description: event tag meaning.\n- Question shown (PRE):\u00a0There are no event tags for questions in the PRE-EEG. intervention. Question sequences were registered manually.\n### Experimental location\nTecnologico de Monterrey. Av. Eugenio Garza Sada 2501 Sur, Tecnologico, 64849 Monterrey, N.L., Mexico.\n### Missing data\nThe file ***2. EEG Data Descriptor.xlsx*** describes the data availability for EEG recordings. Some cells are highlighted to indicate some situations:\n- Yellow cells mean that the quality of the EEG signals is inconsistent. However, EEG files were\u00a0included for EEG preprocessing purposes. Additionally, EEG events for these files were not exported.\n- Red cells imply that data is unavailable due to technical problems during the experiment's run and saving.\n### Notes\nEEG signals were filtered online with a 0.1-100 Hz bandpass filter.\nThe electrode O2 showed technical issues during the EEG experiment. The authors suggest the interpolation of this electrode",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "C\u00e9sar E. Corona-Gonz\u00e1lez",
+    "Claudia Rebeca De Stefano-Ramos",
+    "Juan Pablo Rosado-A\u00edza",
+    "David I. Ibarra-Zarate",
+    "Fabiola R. G\u00f3mez-Vel\u00e1zquez",
+    "Luz Mar\u00eda Alonso-Valerdi"
+  ],
+  "funding": [
+    "Tecnologico de Monterrey",
+    "CONAHCYT (894658)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006260.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "SmartickDataset"
+  ],
+  "sessions": [
+    "1",
+    "2"
+  ],
+  "total_files": 366,
+  "size_bytes": 2908201731,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 76,
+    "ages": [
+      9,
+      12,
+      8,
+      8,
+      9,
+      9,
+      7,
+      9,
+      9,
+      12,
+      10,
+      12,
+      12,
+      12,
+      10,
+      10,
+      11,
+      8,
+      10,
+      11,
+      8,
+      10,
+      13,
+      11,
+      10,
+      7,
+      9,
+      8,
+      11,
+      10,
+      11,
+      10,
+      9,
+      11,
+      12,
+      11,
+      9,
+      12,
+      9,
+      11,
+      11,
+      9,
+      9,
+      9,
+      10,
+      10,
+      11,
+      11,
+      11,
+      10,
+      10,
+      11,
+      7,
+      8,
+      10,
+      10,
+      11,
+      10,
+      8,
+      8,
+      8,
+      8,
+      11,
+      11,
+      9,
+      11,
+      10,
+      11,
+      10,
+      10,
+      12,
+      8,
+      9,
+      12,
+      7,
+      10
+    ],
+    "age_min": 7,
+    "age_max": 13,
+    "age_mean": 9.881578947368421,
+    "species": null,
+    "sex_distribution": {
+      "m": 41,
+      "f": 35
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Luz Mar\u00eda Alonso-Valerdi",
+  "contact_info": [
+    "Corona-Gonz\u00e1lez, C\u00e9sar E."
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:54:48.936955+00:00",
+    "dataset_created_at": "2025-05-23T17:52:16.432Z",
+    "dataset_modified_at": "2025-05-29T20:03:20.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006260",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.txt",
+      "participants.json",
+      "participants.tsv",
+      "task-SmartickDataset_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006260",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "The authors are grateful to the company Smartick for granting free access to the online method for learning.",
+  "ethics_approvals": [
+    "April 28, 2023: Neuroscience Institute of University of Guadalajara Ethics Committee (Reference: ET122022-356)",
+    "September 02, 2022: ISRCTN (Reference: ISRCTN14013636)"
+  ],
+  "generated_by": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "10.2"
+    }
+  ],
+  "ingestion_fingerprint": "c0e75cdc79d604a7fe90a9dce87f2b62ccdb54e26307e2f18901b6ffcee86368"
+}

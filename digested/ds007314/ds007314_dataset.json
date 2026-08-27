@@ -1,0 +1,113 @@
+{
+  "dataset_id": "ds007314",
+  "name": "tACS for Patients with Post-Stroke Anomia",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "**Title:** Transcranial Alternating Current Stimulation (tACS) for Patients with Post-Stroke Anomia: Preliminary Data on Picture Naming Performance\n**Dataset Description:**\\\nThis dataset includes EEG recordings from two post-stroke patients with chronic anomia who participated in an 8-week individualized neuromodulation intervention using transcranial alternating current stimulation (tACS). The intervention alternated between stimulation and non-stimulation phases every two weeks and was designed to enhance naming abilities via cortical entrainment, guided by individual EEG profiles.\n**Data Overview:**\n- **Participants:** 2 individuals with post-stroke anomia (1 left-hemisphere lesion, 1 right-hemisphere lesion)\n- **Sessions:** EEG recorded every two weeks during the intervention (W1, W2, W4, W6, W8), and at follow-ups (W12, W20)\n- **Stimulation:** tACS applied during alternating weeks; frequency and montage were personalized based on initial EEG\n- **Tasks:** Picture naming task using a standardized set of stimuli; EEG recorded during task execution\n- **Modality:** EEG (recorded using Starstim-32), processed in EEGLAB and prepared for BIDS\n**Experimental Design:**\\\nA single-case experimental design (SCED, ABAB type) was employed. Behavioral and EEG data were collected across 24 naming sessions and 6 EEG recording sessions per participant. The data includes tACS and no-tACS conditions.\n**Purpose:**\\\nTo investigate whether tACS improves naming accuracy and latency in chronic aphasia and whether those effects are sustained after intervention.\n**Data Notes:**\n- EEG recordings are organized in BIDS format, with sessions labeled by week (e.g., `week-01`, `week-12`)\n- Session and run numbers reflect weeks of intervention\n**Ethics:**\\\nAll participants provided written informed consent. The study was approved by the Ethics Committee of the Medical School of Ioannina (approval nr. 49625) and conducted in accordance with the Declaration of Helsinki.\n**Contact:**\\\nFor questions about the dataset, contact Maria Martzoukou (<m.martzoukou@uoi.gr>)",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Maria Martzoukou",
+    "Nefeli K. Dimitriou",
+    "Binbin Xu",
+    "Malo Renaud-d\u2019Ambra",
+    "Anastasia Nousia",
+    "Alexandre Aksenov",
+    "Anne Beuter",
+    "Grigorios Nasios"
+  ],
+  "funding": [
+    "No formal funding reported."
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds007314.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "PictureNaming"
+  ],
+  "sessions": [
+    "1",
+    "12",
+    "2",
+    "20",
+    "4",
+    "6",
+    "8"
+  ],
+  "total_files": 14,
+  "size_bytes": 1165891095,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [
+      38,
+      54
+    ],
+    "age_min": 38,
+    "age_max": 54,
+    "age_mean": 46.0,
+    "species": null,
+    "sex_distribution": {
+      "f": 1,
+      "m": 1
+    },
+    "handedness_distribution": {
+      "r": 1,
+      "l": 1
+    }
+  },
+  "senior_author": "Grigorios Nasios",
+  "contact_info": [
+    "Maria Martzoukou"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:57:28.042979+00:00",
+    "dataset_created_at": "2026-01-23T19:09:13.444Z",
+    "dataset_modified_at": "2026-04-03T07:38:20.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007314",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-PictureNaming_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007314",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank the participants and their caregivers for their commitment to this study.",
+  "how_to_acknowledge": "Please cite the associated publication: Martzoukou et al., 'tACS for patients with Post-Stroke Anomia: Preliminary Data on Picture Naming Performance'.",
+  "ethics_approvals": [
+    "University of Ioannina Medical School Ethics Committee, Approval Number 49625"
+  ],
+  "references_and_links": [
+    "https://www.neuroelectrics.com/products/starstim/",
+    "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0342191"
+  ],
+  "generated_by": [
+    {
+      "Name": "EEGLAB",
+      "Version": "2023",
+      "Description": "EEG preprocessing and BIDS conversion"
+    }
+  ],
+  "ingestion_fingerprint": "0fe27bc1d1d00303eeb0677a12a2be0d360aec3f3516276c9020449117276b46"
+}

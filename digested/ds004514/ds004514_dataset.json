@@ -1,0 +1,93 @@
+{
+  "dataset_id": "ds004514",
+  "name": "Simultaneous EEG and fNIRS recordings for semantic decoding of imagined animals and tools",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "\ufeff### Description\nThis dataset contains simultaneous electroencephalography (EEG) and near-infrared spectroscopy (fNIRS) signals recorded from 12 participants while performing a silent naming task and three sensory-based imagery tasks using visual, auditory, and tactile perception.\nParticipants were asked to visualize an object in their minds, imagine the sounds made by the object, and imagine the feeling of touching the object.\n### EEG\nEEG data were acquired with a BioSemi ActiveTwo system with 64 electrodes positioned according to the international 10-20 system, plus one electrode on each earlobe as references ('EXG1' channel is the left ear electrode and 'EXG2' channel is the right ear electrode).\nAdditionally, 2 electrodes placed on the left hand measured galvanic skin response ('GSR1' channel) and a respiration belt around the waist measured respiration ('Resp' channel).\nThe sampling rate was 2048 Hz.\nThe electrode names were saved in a default BioSemi labeling scheme (A1-A32, B1-B32). See the Biosemi documentation for the corresponding international 10-20 naming scheme (https://www.biosemi.com/pics/cap_64_layout_medium.jpg, https://www.biosemi.com/headcap.htm).\nFor convenience, the following ordered channels\n```\n['A1', 'A2', 'A3', 'A4', 'A5', 'A6', 'A7', 'A8', 'A9', 'A10', 'A11', 'A12', 'A13', 'A14', 'A15', 'A16', 'A17', 'A18', 'A19', 'A20', 'A21', 'A22', 'A23', 'A24', 'A25', 'A26', 'A27', 'A28', 'A29', 'A30', 'A31', 'A32', 'B1', 'B2', 'B3', 'B4', 'B5', 'B6', 'B7', 'B8', 'B9', 'B10', 'B11', 'B12', 'B13', 'B14', 'B15', 'B16', 'B17', 'B18', 'B19', 'B20', 'B21', 'B22', 'B23', 'B24', 'B25', 'B26', 'B27', 'B28', 'B29', 'B30', 'B31', 'B32']\n```\ncan thus be renamed to\n```\n['Fp1', 'AF7', 'AF3', 'F1', 'F3', 'F5', 'F7', 'FT7', 'FC5', 'FC3', 'FC1', 'C1', 'C3', 'C5', 'T7', 'TP7', 'CP5', 'CP3', 'CP1', 'P1', 'P3', 'P5', 'P7', 'P9', 'PO7', 'PO3', 'O1', 'Iz', 'Oz', 'POz', 'Pz', 'CPz', 'Fpz', 'Fp2', 'AF8', 'AF4', 'AFz', 'Fz', 'F2', 'F4', 'F6', 'F8', 'FT8', 'FC6', 'FC4', 'FC2', 'FCz', 'Cz', 'C2', 'C4', 'C6', 'T8', 'TP8', 'CP6', 'CP4', 'CP2', 'P2', 'P4', 'P6', 'P8', 'P10', 'PO8', 'PO4', 'O2']\n```\n### fNIRS\nfNIRS data were acquired with a NIRx NIRScoutXP continuous wave imaging system equipped with 4 light detectors, 8 light emitters (sources), and low-profile fNIRS optodes.\nBoth electrodes and optodes were placed in a NIRx NIRScap for integrated fNIRS-EEG layouts.\nTwo different montages were used: frontal and temporal, see references for more information.\n### Stimulus\nFolder 'stimuli' contains all images of the semantic categories of animals and tools presented to participants.\n### Example code\nWe have prepared example scripts to demonstrate how to load the EEG and fNIRS data into Python using MNE and MNE-BIDS packages. These scripts are located in the 'code' directory.\n### References\nThis dataset was analyzed in the following publications:\n[1] Ryb\u00e1\u0159, M., Poli, R. and Daly, I., 2024. Using data from cue presentations results in grossly overestimating semantic BCI performance. Scientific Reports, 14(1), p.28003.\n[2] Ryb\u00e1\u0159, M., Poli, R. and Daly, I., 2021. Decoding of semantic categories of imagined concepts of animals and tools in fNIRS. Journal of Neural Engineering, 18(4), p.046035.\n[3] Ryb\u00e1\u0159, M., 2023. Towards EEG/fNIRS-based semantic brain-computer interfacing (Doctoral dissertation, University of Essex).",
+  "recording_modality": [
+    "eeg",
+    "fnirs"
+  ],
+  "datatypes": [
+    "eeg",
+    "fnirs"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Milan Ryb\u00e1\u0159",
+    "Riccardo Poli",
+    "Ian Daly"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004514.v1.1.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "eeg",
+    "nirs"
+  ],
+  "sessions": [],
+  "total_files": 24,
+  "size_bytes": 25930603322,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 12,
+    "ages": [
+      26,
+      32,
+      57,
+      47,
+      23,
+      21,
+      29,
+      50,
+      27,
+      33,
+      28,
+      20
+    ],
+    "age_min": 20,
+    "age_max": 57,
+    "age_mean": 32.75,
+    "species": null,
+    "sex_distribution": {
+      "f": 9,
+      "m": 3
+    },
+    "handedness_distribution": {
+      "r": 12
+    }
+  },
+  "senior_author": "Ian Daly",
+  "contact_info": [
+    "Milan Ryb\u00e1\u0159"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:45:48.801022+00:00",
+    "dataset_created_at": "2023-02-27T13:39:47.155Z",
+    "dataset_modified_at": "2025-04-03T23:41:15.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004514",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004514",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "311a69d43d35372a2f547fb62c5095bb19aa27e5f05ae73dc824b596a57f15e4"
+}

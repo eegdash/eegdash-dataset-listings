@@ -1,0 +1,87 @@
+{
+  "dataset_id": "ds007738",
+  "name": "Whole-Head Cocktail Party fNIRS",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "Whole-Head Cocktail Party fNIRS\nWhole-head functional near-infrared spectroscopy (fNIRS) recordings from\n38 subjects performing covert and overt spatial-attention tasks in a\ncocktail-party paradigm, with simultaneous eye-tracking.\nfNIRS: 56 sources, 144 detectors, 1134 measurement channels at ~8.99 Hz.\nTasks\n-----\novert:            Spatial attention with overt eye movements: subjects move\n                  their eyes to attend to audiovisual stimuli (videos) on the\n                  cued side.\ncovert:           Covert auditory attention: audio-only stimuli; subjects\n                  fixate the central plus sign and attend to left or right\n                  without moving their eyes.\nvisualorient:     Eye-movement-only baseline. Subjects make ~5 s eye orienting\n                  and fixation movements with no audiovisual stimuli and no\n                  fixation cross. Matches the overt task structure.\nresting:          Resting-state recording: 5 minutes of central-fixation on a\n                  plus sign with no task.\nlongvisualorient: Orienting + visual attention recording with events.tsv\n                  aligned to the audiovisual orienting cue. Subjects orient\n                  their eyes to the cue; ~15-17 s later a video clip appears\n                  on the attended side. Same SNIRF recording as videoattend;\n                  only the events.tsv differs.\nvideoattend:      Same SNIRF recording as longvisualorient, with events.tsv\n                  aligned to the onset of the video clip (~15-17 s after the\n                  orienting cue) for video-locked GLM analysis.\nPrivacy\n-------\nThis dataset contains only fNIRS optical measurements and eye-tracking time\nseries; no anatomical scans (MRI, CT, photographs, or otherwise) are\nincluded. Facial defacing is therefore not applicable to this dataset.\nData were acquired and shared under approved IRB consent.\nCompanion analysis code: https://github.com/duwadisudan/wholehead-cocktail-party-fnirs",
+  "recording_modality": [
+    "fnirs"
+  ],
+  "datatypes": [
+    "fnirs"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.1",
+  "license": "CC0",
+  "authors": [
+    "Sudan Duwadi",
+    "De'Ja Rogers",
+    "Alex D. Boyd",
+    "Laura B. Carlton",
+    "Yiwen Zhang",
+    "Anna Kawai Gaona",
+    "Aneesa Diya Pathiyaparambath",
+    "Ravin Chaudhury",
+    "Bernhard B Zimmermann",
+    "Walker J O'Brien",
+    "Alexander von L\u00fchmann",
+    "David A. Boas",
+    "Meryem A. Y\u00fccel",
+    "Kamal Sen"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007738.v1.0.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "covert",
+    "longvisualorient",
+    "overt",
+    "resting",
+    "videoattend",
+    "visualorient"
+  ],
+  "sessions": [],
+  "total_files": 223,
+  "size_bytes": 38804290552,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 38,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Kamal Sen",
+  "contact_info": [
+    "Sudan Duwadi"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:59:38.662287+00:00",
+    "dataset_created_at": "2026-05-01T16:06:43.105Z",
+    "dataset_modified_at": "2026-05-01T18:45:07.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007738",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.txt",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007738",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "3b2ea06325ecefd82c950e6c741e24b16bc8143e53b58a993e8ccb331333d8a2"
+}

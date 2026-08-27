@@ -1,0 +1,2889 @@
+{
+  "dataset": "ds005342",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:49:35.395683+00:00",
+  "record_count": 32,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-001_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-001/eeg/sub-001_task-sitstand_eeg.set",
+      "bids_relpath": "sub-001/eeg/sub-001_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "001",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "001",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-001/eeg/sub-001_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-001/eeg/sub-001_task-sitstand_channels.tsv",
+          "sub-001/eeg/sub-001_task-sitstand_events.tsv",
+          "sub-001/eeg/sub-001_task-sitstand_eeg.json",
+          "sub-001/eeg/sub-001_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 955480,
+      "duration_seconds": 3821.92,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3821.92,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-007_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-007/eeg/sub-007_task-sitstand_eeg.set",
+      "bids_relpath": "sub-007/eeg/sub-007_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "007",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "007",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-007/eeg/sub-007_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-007/eeg/sub-007_task-sitstand_channels.tsv",
+          "sub-007/eeg/sub-007_task-sitstand_events.tsv",
+          "sub-007/eeg/sub-007_task-sitstand_eeg.json",
+          "sub-007/eeg/sub-007_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 921008,
+      "duration_seconds": 3684.032,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 27.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3684.032,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-020_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-020/eeg/sub-020_task-sitstand_eeg.set",
+      "bids_relpath": "sub-020/eeg/sub-020_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "020",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "020",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-020/eeg/sub-020_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-020/eeg/sub-020_task-sitstand_channels.tsv",
+          "sub-020/eeg/sub-020_task-sitstand_events.tsv",
+          "sub-020/eeg/sub-020_task-sitstand_eeg.json",
+          "sub-020/eeg/sub-020_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 920796,
+      "duration_seconds": 3683.184,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 22.0,
+        "handedness": "left_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3683.184,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-009_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-009/eeg/sub-009_task-sitstand_eeg.set",
+      "bids_relpath": "sub-009/eeg/sub-009_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "009",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "009",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-009/eeg/sub-009_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-009/eeg/sub-009_task-sitstand_channels.tsv",
+          "sub-009/eeg/sub-009_task-sitstand_events.tsv",
+          "sub-009/eeg/sub-009_task-sitstand_eeg.json",
+          "sub-009/eeg/sub-009_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 915096,
+      "duration_seconds": 3660.384,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 20.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3660.384,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-004_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-004/eeg/sub-004_task-sitstand_eeg.set",
+      "bids_relpath": "sub-004/eeg/sub-004_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "004",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "004",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-004/eeg/sub-004_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-004/eeg/sub-004_task-sitstand_channels.tsv",
+          "sub-004/eeg/sub-004_task-sitstand_events.tsv",
+          "sub-004/eeg/sub-004_task-sitstand_eeg.json",
+          "sub-004/eeg/sub-004_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 925704,
+      "duration_seconds": 3702.816,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3702.816,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-011_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-011/eeg/sub-011_task-sitstand_eeg.set",
+      "bids_relpath": "sub-011/eeg/sub-011_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "011",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "011",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-011/eeg/sub-011_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-011/eeg/sub-011_task-sitstand_channels.tsv",
+          "sub-011/eeg/sub-011_task-sitstand_events.tsv",
+          "sub-011/eeg/sub-011_task-sitstand_eeg.json",
+          "sub-011/eeg/sub-011_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 938628,
+      "duration_seconds": 3754.512,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3754.512,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-014_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-014/eeg/sub-014_task-sitstand_eeg.set",
+      "bids_relpath": "sub-014/eeg/sub-014_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "014",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "014",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-014/eeg/sub-014_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-014/eeg/sub-014_task-sitstand_channels.tsv",
+          "sub-014/eeg/sub-014_task-sitstand_events.tsv",
+          "sub-014/eeg/sub-014_task-sitstand_eeg.json",
+          "sub-014/eeg/sub-014_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 953524,
+      "duration_seconds": 3814.096,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3814.096,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-015_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-015/eeg/sub-015_task-sitstand_eeg.set",
+      "bids_relpath": "sub-015/eeg/sub-015_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "015",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "015",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-015/eeg/sub-015_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-015/eeg/sub-015_task-sitstand_channels.tsv",
+          "sub-015/eeg/sub-015_task-sitstand_events.tsv",
+          "sub-015/eeg/sub-015_task-sitstand_eeg.json",
+          "sub-015/eeg/sub-015_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 930400,
+      "duration_seconds": 3721.6,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 28.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3721.6,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-018_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-018/eeg/sub-018_task-sitstand_eeg.set",
+      "bids_relpath": "sub-018/eeg/sub-018_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "018",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "018",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-018/eeg/sub-018_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-018/eeg/sub-018_task-sitstand_channels.tsv",
+          "sub-018/eeg/sub-018_task-sitstand_events.tsv",
+          "sub-018/eeg/sub-018_task-sitstand_eeg.json",
+          "sub-018/eeg/sub-018_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 953102,
+      "duration_seconds": 3812.408,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3812.408,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-016_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-016/eeg/sub-016_task-sitstand_eeg.set",
+      "bids_relpath": "sub-016/eeg/sub-016_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "016",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "016",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-016/eeg/sub-016_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-016/eeg/sub-016_task-sitstand_channels.tsv",
+          "sub-016/eeg/sub-016_task-sitstand_events.tsv",
+          "sub-016/eeg/sub-016_task-sitstand_eeg.json",
+          "sub-016/eeg/sub-016_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 923420,
+      "duration_seconds": 3693.68,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 23.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3693.68,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-022_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-022/eeg/sub-022_task-sitstand_eeg.set",
+      "bids_relpath": "sub-022/eeg/sub-022_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "022",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "022",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-022/eeg/sub-022_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-022/eeg/sub-022_task-sitstand_channels.tsv",
+          "sub-022/eeg/sub-022_task-sitstand_events.tsv",
+          "sub-022/eeg/sub-022_task-sitstand_eeg.json",
+          "sub-022/eeg/sub-022_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 917840,
+      "duration_seconds": 3671.36,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 25.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3671.36,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-002_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-002/eeg/sub-002_task-sitstand_eeg.set",
+      "bids_relpath": "sub-002/eeg/sub-002_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "002",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "002",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-002/eeg/sub-002_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-002/eeg/sub-002_task-sitstand_channels.tsv",
+          "sub-002/eeg/sub-002_task-sitstand_events.tsv",
+          "sub-002/eeg/sub-002_task-sitstand_eeg.json",
+          "sub-002/eeg/sub-002_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 931756,
+      "duration_seconds": 3727.024,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 27.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3727.024,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-025_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-025/eeg/sub-025_task-sitstand_eeg.set",
+      "bids_relpath": "sub-025/eeg/sub-025_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "025",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "025",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-025/eeg/sub-025_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-025/eeg/sub-025_task-sitstand_channels.tsv",
+          "sub-025/eeg/sub-025_task-sitstand_events.tsv",
+          "sub-025/eeg/sub-025_task-sitstand_eeg.json",
+          "sub-025/eeg/sub-025_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 906980,
+      "duration_seconds": 3627.92,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 24.0,
+        "handedness": "right_handed",
+        "major": "industrial_engineering"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3627.92,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-021_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-021/eeg/sub-021_task-sitstand_eeg.set",
+      "bids_relpath": "sub-021/eeg/sub-021_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "021",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "021",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-021/eeg/sub-021_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-021/eeg/sub-021_task-sitstand_channels.tsv",
+          "sub-021/eeg/sub-021_task-sitstand_events.tsv",
+          "sub-021/eeg/sub-021_task-sitstand_eeg.json",
+          "sub-021/eeg/sub-021_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 926040,
+      "duration_seconds": 3704.16,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 21.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3704.16,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-029_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-029/eeg/sub-029_task-sitstand_eeg.set",
+      "bids_relpath": "sub-029/eeg/sub-029_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "029",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "029",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-029/eeg/sub-029_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-029/eeg/sub-029_task-sitstand_channels.tsv",
+          "sub-029/eeg/sub-029_task-sitstand_events.tsv",
+          "sub-029/eeg/sub-029_task-sitstand_eeg.json",
+          "sub-029/eeg/sub-029_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 907044,
+      "duration_seconds": 3628.176,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3628.176,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-028_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-028/eeg/sub-028_task-sitstand_eeg.set",
+      "bids_relpath": "sub-028/eeg/sub-028_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "028",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "028",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-028/eeg/sub-028_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-028/eeg/sub-028_task-sitstand_channels.tsv",
+          "sub-028/eeg/sub-028_task-sitstand_events.tsv",
+          "sub-028/eeg/sub-028_task-sitstand_eeg.json",
+          "sub-028/eeg/sub-028_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 923364,
+      "duration_seconds": 3693.456,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 19.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3693.456,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-032_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-032/eeg/sub-032_task-sitstand_eeg.set",
+      "bids_relpath": "sub-032/eeg/sub-032_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "032",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "032",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-032/eeg/sub-032_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-032/eeg/sub-032_task-sitstand_channels.tsv",
+          "sub-032/eeg/sub-032_task-sitstand_events.tsv",
+          "sub-032/eeg/sub-032_task-sitstand_eeg.json",
+          "sub-032/eeg/sub-032_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 927268,
+      "duration_seconds": 3709.072,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 27.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3709.072,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-023_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-023/eeg/sub-023_task-sitstand_eeg.set",
+      "bids_relpath": "sub-023/eeg/sub-023_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "023",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "023",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-023/eeg/sub-023_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-023/eeg/sub-023_task-sitstand_channels.tsv",
+          "sub-023/eeg/sub-023_task-sitstand_events.tsv",
+          "sub-023/eeg/sub-023_task-sitstand_eeg.json",
+          "sub-023/eeg/sub-023_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 911487,
+      "duration_seconds": 3645.948,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3645.948,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-017_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-017/eeg/sub-017_task-sitstand_eeg.set",
+      "bids_relpath": "sub-017/eeg/sub-017_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "017",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "017",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-017/eeg/sub-017_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-017/eeg/sub-017_task-sitstand_channels.tsv",
+          "sub-017/eeg/sub-017_task-sitstand_events.tsv",
+          "sub-017/eeg/sub-017_task-sitstand_eeg.json",
+          "sub-017/eeg/sub-017_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 930696,
+      "duration_seconds": 3722.784,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 24.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3722.784,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-026_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-026/eeg/sub-026_task-sitstand_eeg.set",
+      "bids_relpath": "sub-026/eeg/sub-026_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "026",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "026",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-026/eeg/sub-026_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-026/eeg/sub-026_task-sitstand_channels.tsv",
+          "sub-026/eeg/sub-026_task-sitstand_events.tsv",
+          "sub-026/eeg/sub-026_task-sitstand_eeg.json",
+          "sub-026/eeg/sub-026_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 914000,
+      "duration_seconds": 3656.0,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 25.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3656,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-008_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-008/eeg/sub-008_task-sitstand_eeg.set",
+      "bids_relpath": "sub-008/eeg/sub-008_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "008",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "008",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-008/eeg/sub-008_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-008/eeg/sub-008_task-sitstand_channels.tsv",
+          "sub-008/eeg/sub-008_task-sitstand_events.tsv",
+          "sub-008/eeg/sub-008_task-sitstand_eeg.json",
+          "sub-008/eeg/sub-008_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 931656,
+      "duration_seconds": 3726.624,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 20.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3726.624,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-019_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-019/eeg/sub-019_task-sitstand_eeg.set",
+      "bids_relpath": "sub-019/eeg/sub-019_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "019",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "019",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-019/eeg/sub-019_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-019/eeg/sub-019_task-sitstand_channels.tsv",
+          "sub-019/eeg/sub-019_task-sitstand_events.tsv",
+          "sub-019/eeg/sub-019_task-sitstand_eeg.json",
+          "sub-019/eeg/sub-019_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 936472,
+      "duration_seconds": 3745.888,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 24.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3745.888,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-024_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-024/eeg/sub-024_task-sitstand_eeg.set",
+      "bids_relpath": "sub-024/eeg/sub-024_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "024",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "024",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-024/eeg/sub-024_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-024/eeg/sub-024_task-sitstand_channels.tsv",
+          "sub-024/eeg/sub-024_task-sitstand_events.tsv",
+          "sub-024/eeg/sub-024_task-sitstand_eeg.json",
+          "sub-024/eeg/sub-024_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 948795,
+      "duration_seconds": 3795.18,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 29.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3795.18,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-012_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-012/eeg/sub-012_task-sitstand_eeg.set",
+      "bids_relpath": "sub-012/eeg/sub-012_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "012",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "012",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-012/eeg/sub-012_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-012/eeg/sub-012_task-sitstand_channels.tsv",
+          "sub-012/eeg/sub-012_task-sitstand_events.tsv",
+          "sub-012/eeg/sub-012_task-sitstand_eeg.json",
+          "sub-012/eeg/sub-012_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 919752,
+      "duration_seconds": 3679.008,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 19.0,
+        "handedness": "left_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3679.008,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-027_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-027/eeg/sub-027_task-sitstand_eeg.set",
+      "bids_relpath": "sub-027/eeg/sub-027_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "027",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "027",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-027/eeg/sub-027_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-027/eeg/sub-027_task-sitstand_channels.tsv",
+          "sub-027/eeg/sub-027_task-sitstand_events.tsv",
+          "sub-027/eeg/sub-027_task-sitstand_eeg.json",
+          "sub-027/eeg/sub-027_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 909756,
+      "duration_seconds": 3639.024,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 23.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3639.024,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-030_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-030/eeg/sub-030_task-sitstand_eeg.set",
+      "bids_relpath": "sub-030/eeg/sub-030_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "030",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "030",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-030/eeg/sub-030_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-030/eeg/sub-030_task-sitstand_channels.tsv",
+          "sub-030/eeg/sub-030_task-sitstand_events.tsv",
+          "sub-030/eeg/sub-030_task-sitstand_eeg.json",
+          "sub-030/eeg/sub-030_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 932828,
+      "duration_seconds": 3731.312,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 22.0,
+        "handedness": "left_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3731.312,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-005_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-005/eeg/sub-005_task-sitstand_eeg.set",
+      "bids_relpath": "sub-005/eeg/sub-005_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "005",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "005",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-005/eeg/sub-005_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-005/eeg/sub-005_task-sitstand_channels.tsv",
+          "sub-005/eeg/sub-005_task-sitstand_events.tsv",
+          "sub-005/eeg/sub-005_task-sitstand_eeg.json",
+          "sub-005/eeg/sub-005_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 916512,
+      "duration_seconds": 3666.048,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 26.0,
+        "handedness": "right_handed",
+        "major": "industrial_automation"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3666.048,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-031_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-031/eeg/sub-031_task-sitstand_eeg.set",
+      "bids_relpath": "sub-031/eeg/sub-031_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "031",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "031",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-031/eeg/sub-031_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-031/eeg/sub-031_task-sitstand_channels.tsv",
+          "sub-031/eeg/sub-031_task-sitstand_events.tsv",
+          "sub-031/eeg/sub-031_task-sitstand_eeg.json",
+          "sub-031/eeg/sub-031_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 920024,
+      "duration_seconds": 3680.096,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 23.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3680.096,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-010_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-010/eeg/sub-010_task-sitstand_eeg.set",
+      "bids_relpath": "sub-010/eeg/sub-010_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "010",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "010",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-010/eeg/sub-010_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-010/eeg/sub-010_task-sitstand_channels.tsv",
+          "sub-010/eeg/sub-010_task-sitstand_events.tsv",
+          "sub-010/eeg/sub-010_task-sitstand_eeg.json",
+          "sub-010/eeg/sub-010_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 935548,
+      "duration_seconds": 3742.192,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 22.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3742.192,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-013_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-013/eeg/sub-013_task-sitstand_eeg.set",
+      "bids_relpath": "sub-013/eeg/sub-013_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "013",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "013",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-013/eeg/sub-013_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-013/eeg/sub-013_task-sitstand_channels.tsv",
+          "sub-013/eeg/sub-013_task-sitstand_events.tsv",
+          "sub-013/eeg/sub-013_task-sitstand_eeg.json",
+          "sub-013/eeg/sub-013_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 958075,
+      "duration_seconds": 3832.3,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 20.0,
+        "handedness": "right_handed",
+        "major": "medicine"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3832.3,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-003_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-003/eeg/sub-003_task-sitstand_eeg.set",
+      "bids_relpath": "sub-003/eeg/sub-003_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "003",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "003",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-003/eeg/sub-003_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-003/eeg/sub-003_task-sitstand_channels.tsv",
+          "sub-003/eeg/sub-003_task-sitstand_events.tsv",
+          "sub-003/eeg/sub-003_task-sitstand_eeg.json",
+          "sub-003/eeg/sub-003_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 950731,
+      "duration_seconds": 3802.924,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "F",
+        "age": 21.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3802.924,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    },
+    {
+      "dataset": "ds005342",
+      "data_name": "ds005342_sub-006_task-sitstand_eeg.set",
+      "bidspath": "ds005342/sub-006/eeg/sub-006_task-sitstand_eeg.set",
+      "bids_relpath": "sub-006/eeg/sub-006_task-sitstand_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "006",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "006",
+        "session": null,
+        "task": "sitstand",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005342",
+        "raw_key": "sub-006/eeg/sub-006_task-sitstand_eeg.set",
+        "dep_keys": [
+          "sub-006/eeg/sub-006_task-sitstand_channels.tsv",
+          "sub-006/eeg/sub-006_task-sitstand_events.tsv",
+          "sub-006/eeg/sub-006_task-sitstand_eeg.json",
+          "sub-006/eeg/sub-006_task-sitstand_eeg.fdt"
+        ]
+      },
+      "ch_names": [
+        "F3",
+        "Fz",
+        "F4",
+        "FC5",
+        "FC1",
+        "FC2",
+        "FC6",
+        "C3",
+        "Cz",
+        "C4",
+        "CP5",
+        "CP1",
+        "CP2",
+        "CP6",
+        "P3",
+        "Pz",
+        "P4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 17,
+      "ntimes": 921133,
+      "duration_seconds": 3684.532,
+      "digested_at": "2026-08-27T08:49:35.395683+00:00",
+      "participant_tsv": {
+        "gender": "M",
+        "age": 21.0,
+        "handedness": "right_handed",
+        "major": "nursing"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "sidecar_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "right mastoid (M2)",
+      "software_filters": {
+        "FilterDescription": {
+          "Description": "Bandpass filter using a 6th-order Butterworth filter with cutoff frequencies from 0.01 Hz to 60 Hz"
+        }
+      },
+      "manufacturer": "g.tec",
+      "manufacturers_model_name": "g.Nautilus PRO",
+      "eeg_placement_scheme": "10-20",
+      "institution_name": "Universidad Antonio Nari\u00f1o",
+      "recording_type": "continuous",
+      "recording_duration": 3684.532,
+      "eeg_ground": "AFz channel",
+      "montage_hash": "5c389ec11cd5438d"
+    }
+  ]
+}

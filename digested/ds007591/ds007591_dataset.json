@@ -1,0 +1,98 @@
+{
+  "dataset_id": "ds007591",
+  "name": "Delineating neural contributions to EEG-based speech decoding",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Delineating neural contributions to EEG-based speech decoding\n## Overview\n128-channel EEG recordings during speech production tasks.\nParticipants produced one of 5 color words (green, magenta, orange, violet, yellow)\nunder three speech conditions: overt, minimally overt, and covert.\nEach trial consists of 5 repetitions of the same word (1.25 sec per repetition).\n## Channel layout (139 channels total)\n- Channels 1-128: EEG\n- Channels 129-130: DISPLAY (bipolar pair, misc)\n- Channels 131-132: MIC (bipolar pair, misc)\n- Channels 133-134: EOG (bipolar pair)\n- Channels 135-136: EMG upper orbicularis oris (bipolar pair)\n- Channels 137-138: EMG lower orbicularis oris (bipolar pair)\n- Channel 139: TRIGGER (marks trial onsets)\n## Session types\n- calibration: Offline data collection for decoder training\n- online: Real-time decoding with trained decoder\n## Preprocessing note\nThe EEG channels were recorded with a 10x preamp gain.\nRaw values have been converted to Volts (\u00d71e-6).\n## Code\nCode for data loading, preprocessing, and decoding models is available at:\nhttps://github.com/arayabrain/uhd-gmail-public",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Motoshige Sato",
+    "Yasuo Kabe",
+    "Sensho Nobe",
+    "Akito Yoshida",
+    "Masakazu Inoue",
+    "Mayumi Shimizu",
+    "Kenichi Tomeoka",
+    "Shuntaro Sasai"
+  ],
+  "funding": [
+    "JST, Moonshot R&D Grant Number JPMJMS2012"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds007591.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "covert",
+    "minimallyovert",
+    "overt"
+  ],
+  "sessions": [
+    "20230511",
+    "20230512",
+    "20230516",
+    "20230523",
+    "20230524",
+    "20230529"
+  ],
+  "total_files": 21,
+  "size_bytes": 1737849881,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 3,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Shuntaro Sasai",
+  "contact_info": [
+    "Motoshige Sato"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:58:26.382051+00:00",
+    "dataset_created_at": "2026-03-28T11:25:10.663Z",
+    "dataset_modified_at": "2026-03-31T19:35:29.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007591",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "events.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007591",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Ryota Kanai, for helpful discussions, and Rousslan Fernand Julien Dossa for data collection. Special thanks to Anna Maria Hadjiev for her meticulous proofreading, significantly enhancing our manuscript's quality.",
+  "how_to_acknowledge": "Please cite the following paper (doi: https://doi.org/10.1101/2024.05.09.591996) and this dataset using its OpenNeuro DOI.",
+  "ethics_approvals": [
+    "Shiba Palace Clinic Ethics Review Committee",
+    "Declaration of Helsinki"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1101/2024.05.09.591996"
+  ],
+  "ingestion_fingerprint": "ca0969d2737094040a4c293089706039909ada71ef6c0156fd62bcdfb8d637c2"
+}

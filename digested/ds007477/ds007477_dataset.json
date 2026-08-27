@@ -1,0 +1,74 @@
+{
+  "dataset_id": "ds007477",
+  "name": "TimeSeries BIDS converted",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset was converted from TimeSeriesHbORT_18sub_twoSessionICAdenoise(1).mat using `convert_mat_to_bids.py`.\nNotes:\n- Review and confirm `*_nirs.json` (SamplingFrequency, NIRSChannelCount, source/detector mapping) before public release.\n- This README is a placeholder to satisfy BIDS recommendations; replace with dataset-specific information as needed.",
+  "recording_modality": [
+    "fnirs"
+  ],
+  "datatypes": [
+    "fnirs"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Niu\uff0cHaijing",
+    "Zheng, Sha",
+    "Yuan, Haodong"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds007477.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ort"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 36,
+  "size_bytes": 9384,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Yuan, Haodong",
+  "contact_info": [
+    "\u6d69\u4e1c \u82d1"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:58:01.230365+00:00",
+    "dataset_created_at": "2026-03-06T03:08:35.425Z",
+    "dataset_modified_at": "2026-03-18T13:20:02.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007477",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007477",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "945859376c4274cf5fadfd937392c24afba6ea144338ceeda9de5bd6b3613ee7"
+}

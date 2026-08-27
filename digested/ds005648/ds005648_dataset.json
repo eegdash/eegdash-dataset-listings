@@ -1,0 +1,101 @@
+{
+  "dataset_id": "ds005648",
+  "name": "Mapping object space dimensions: new insights from temporal dynamics",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# README\nExperiment details for Mapping object space dimensions: new insights from temporal dynamics. The main folder contains the raw MEG data for all participants in standard bids format. See references.\nThe \u201csourcedata\u201d folder contains the trial behavioral data collected during the EEG Session. The data in this folder follows the following trial structure:\n\t\u2022\tsourcedata\n\t\u2043\tsub-[participant number]_task-targets_events.csv: contains all the events for each trial in the EEG session, detailing what was shown on the screen\n\t\u2022\tsub-[participant number]:contains BIDS formatted raw EEG data\n\t\u2043\tsub-[participant name]_task-targets_events_short.tsv: information about the channels used and sampling rate for all trials\n\t\u2043\tsub-[participant name]_task-targets_eeg.bdf: EEG raw data",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "Alexis Kidder(*)",
+    "Genevieve Quek",
+    "Tijl Grootswagers"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005648.v1.0.3",
+  "associated_paper_doi": null,
+  "tasks": [
+    "targets"
+  ],
+  "sessions": [],
+  "total_files": 21,
+  "size_bytes": 16672927073,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 21,
+    "ages": [
+      28,
+      30,
+      35,
+      26,
+      19,
+      20,
+      24,
+      62,
+      20,
+      19,
+      18,
+      22,
+      22,
+      18,
+      23,
+      25,
+      28,
+      30,
+      28,
+      21,
+      24
+    ],
+    "age_min": 18,
+    "age_max": 62,
+    "age_mean": 25.80952380952381,
+    "species": null,
+    "sex_distribution": {
+      "f": 12,
+      "m": 9
+    },
+    "handedness_distribution": {
+      "r": 18,
+      "l": 1,
+      "a": 1
+    }
+  },
+  "senior_author": "Tijl Grootswagers",
+  "contact_info": [
+    "Alexis Kidder"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:03.228046+00:00",
+    "dataset_created_at": "2024-11-20T22:13:29.697Z",
+    "dataset_modified_at": "2026-03-30T15:14:55.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005648",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.txt",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005648",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ingestion_fingerprint": "73672b84794fa033eac9776dcdf0ba3c495b462b3de7d539e2bc1fedc10c0794"
+}

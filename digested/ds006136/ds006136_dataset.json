@@ -1,0 +1,88 @@
+{
+  "dataset_id": "ds006136",
+  "name": "OWM-Dataset",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# OWM-Dataset\n## Description\nThe dataset contains processed intracranial EEG recordings from frontal (LMFG, RMFG) and temporal (LMTG, RMTG) areas of 13 subjects (epilepsy patients) while they performed a load-3 object working memory task. Please see the associated publication (Paper): https://doi.org/10.1016/j.neuroimage.2026.121718\n## Data structure\n### Included trials\nThe dataset includes trials which were used for the final analyses (i.e., after artifact rejection; see the Methods section of the Paper for a full description of preprocessing procedures). Note that since some artifact rejection procedures were performed at the single-trial level, trial indexes are not matched across channels even for the same subject (i.e., trial 1 of channel 1 may not correspond to trial 1 of channel 2) and have to be read separately. The sourcedata/ folder contains per-subject trial indexes for trial matching.\n### Trial structure\nEach trial is 6498 ms long (1000 ms of fixation, 1500 ms of encoding and 3998 ms of delay).\n### Storage format\nTo comply with the .edf format, trials for every channel were concatenated into a single one-dimensional array. Due to a different number of trials across channels, each array was padded with 0s on the right, ensuring the same data length for all channels within a subject. The total number of concatenated trials per channel and the padding length are recorded in the \"_channels.tsv\" file for each subject.\n### Performance\nThe sourcedata/ folder contains performance results for every subject. Rows of each table correspond to trials (the order matches LFP recordings). Columns represent whether the subject selected the presented stimuli during the search period (0 = no, 1 = yes).\n## Reading the data and replicating the results\nThe Paper repository (https://github.com/V-Marco/FT-bursting-WM) includes a Python function for reading the data, performing trial matching, appending performance information, and representing the recordings as a 2D table. The repository also includes examples on replicating the main figures.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0",
+  "authors": [
+    "Vladimir Omelyusik",
+    "Tyler S. Davis",
+    "Satish S. Nair",
+    "Behrad Noudoost",
+    "Patrick Hackett",
+    "Elliot H. Smith",
+    "Shervin Rahimpour",
+    "John D. Rolston",
+    "Bornali Kundu"
+  ],
+  "funding": [
+    "K12 grant from the Neurosurgery Career Development Award, parent award from the NINDS as well as a Neurosurgery Research Education Fund award",
+    "NIH/NINDS career development award to JDR (K23 NS114178)",
+    "NIMH MH122023 and NSF-OAC 2417875 (SSN)"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds006136.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "OWM"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 14,
+  "size_bytes": 299778229,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 13,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Bornali Kundu",
+  "contact_info": [
+    "Vladimir Omelyusik",
+    "Bornali Kundu"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:54:33.841467+00:00",
+    "dataset_created_at": "2025-04-16T16:28:47.452Z",
+    "dataset_modified_at": "2026-01-29T22:08:24.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds006136",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds006136",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "This protocol was approved by the University of Utah Institutional Review Board and the University of Missouri Institutional Review Board",
+    "Written consent was obtained from all participants by the research team, separate from the clinical team, and the patient was informed that study participation did not affect their clinical care in any way"
+  ],
+  "ingestion_fingerprint": "7ef58303e0652dae780864e62769057377903ab6910e89152243ef549a338f8a"
+}

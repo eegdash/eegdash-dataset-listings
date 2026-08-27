@@ -1,0 +1,105 @@
+{
+  "dataset_id": "ds002034",
+  "name": "Real-time EEG feedback on alpha power lateralization leads to behavioral improvements in a covert attention task",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "This dataset contains the EEG recordings used in the paper: \"Real-time EEG Feedback on Alpha Power Lateralization Leads to Behavioral Improvements in a Covert Attention Task\" (Schneider, C., Pereira, M., Tonin, L. et al. Brain Topogr (2019). https://doi.org/10.1007/s10548-019-00725-9)\nParticipants:\nFourteen healthy subjects (seven female, seven male), age 23\u00b11.52 years, with normal or corrected to normal vision took part in the study. All gave informed written consent and received course credits for their participation. The study was covered by the ethical protocol No PB_2017-00295 of the ethics commissions of the cantons of Vaud and Geneva, Switzerland and complied with the standards of the Declaration of Helsinki.\nExperimental paradigm:\nEach trial started with the presentation of a gray central fixation point at 0.5\u00b0 visual angle and subjects were instructed to neither move nor blink until the trial was over. After 1 to 2 s (random duration), a cue\u2014corresponding to the task to perform\u2014was presented for 100 ms: half a circle (line width 0.1\u00b0, radius 2\u00b0) to the left or to the right indicated the side to attend to, a full circle around the fixation point indicated a central fixation trial (no covert attention shift). This was followed by the sustained attention phase\u20141 to 5 s\u2014where subjects were instructed to covertly attend to the target placeholder indicated by the cue. Target placeholders were circles with an inscribed cross (line width 0.2\u00b0, radius 2\u00b0, centered at 12\u00b0 extremity from the center point and at a downward angle of 30\u00b0 from the horizontal midline; Fig. 1b). The target placeholder at the non-cued side is also called a distractor. To be consistent with the real-time feedback runs where color represented the decoded \u03b1-LI (see below), the color of both target placeholders varied randomly between isoluminant red and green (L*a*b color space (CIELAB), L and b constant, a varied between \u2212 80 and 80). A trial ended when the inscribed cross disappeared in the to-attend target (valid cue) or on the opposite side (invalid cue). Subjects were instructed to react to the trial end as fast as possible with a button press using the right index finger. The inter-trial interval was 2\u20133 s long. In online runs, the min. and max. duration of the sustained attention period was between 2 and 20 s and inter-trial intervals ranged from 4-5 seconds.\nRecordings:\nThe EEG was recorded with an active 64 channel HIamp EEG\u00a0amplifier (g.tec, Schiedlberg, Austria) at 512Hz and referenced to the linked ears. The electrodes were positioned according to the international 10-10 system with the ground electrode on FCz. For more details please refer to the paper.\nThe study involved recordings (sessions) on three different days. One recording session lasted approximately 90 min, including the technical setup. Time on task was less than 40 min per session, with breaks after each run (every 9\u201310 min). On the first recording day subjects practiced for one run to familiarize with the task. Then they performed four offline runs (no feedback, 80 trials each) to calibrate their individual decoder for the real-time feedback (Fig. 1a, \"Offline Paradigm\"). On day two and three the \u03b1-power lateralization index (\u03b1-LI) feedback was administered in a single-blinded crossover design. Subjects were randomly assigned to either receive real or sham \u03b1-LI feedback on day two and then switched the other feedback group on day three (\"Real-time feedback paradigm\" and \"Sham feedback\"). Therefore, both days had the same run structure: they started and ended with one offline run (80 trials each, including catch trials), while the real-time feedback was given during two middle runs (40 long trials each).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.1.1",
+  "license": "CC0",
+  "authors": [
+    "Christoph Schneider",
+    "Michael Pereira",
+    "Luca Tonin",
+    "Jose del R. Millan"
+  ],
+  "funding": [
+    "No external funding sources"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds002034.v1.0.3",
+  "associated_paper_doi": null,
+  "tasks": [
+    "offline",
+    "offlinecatch",
+    "onlinereal",
+    "onlinesham"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03"
+  ],
+  "total_files": 167,
+  "size_bytes": 10842685064,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 14,
+    "ages": [
+      24,
+      24,
+      27,
+      22,
+      22,
+      24,
+      22,
+      22,
+      21,
+      22,
+      22,
+      23,
+      23,
+      24
+    ],
+    "age_min": 21,
+    "age_max": 27,
+    "age_mean": 23.0,
+    "species": null,
+    "sex_distribution": {
+      "m": 7,
+      "f": 7
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Jose del R. Millan",
+  "contact_info": [
+    "Michael Pereira",
+    "Christoph Schneider"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:40:43.498742+00:00",
+    "dataset_created_at": "2019-07-13T08:51:21.305Z",
+    "dataset_modified_at": "2022-04-08T15:37:24.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds002034",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds002034",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "If you reference this dataset in your publications, please acknowledge its authors and cite the paper specified under 'ReferenceAndLinks'. Also, please include the following message: 'This data was obtained from the Open Neuro database.'",
+  "references_and_links": [
+    "Schneider, C., Pereira, M., Tonin, L. et al. Brain Topogr (2019). https://doi.org/10.1007/s10548-019-00725-9"
+  ],
+  "ingestion_fingerprint": "73a4d8bb5e6d30a0c278b56e01e0855c3bc1a002affd21be2e1a44fed2aec22d"
+}

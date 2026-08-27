@@ -1,0 +1,115 @@
+{
+  "dataset_id": "ds005530",
+  "name": "Depotentiation of emotional reactivity using TMR during REM sleep",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Disarming emotional memories using Targeted Memory Reactivation during Rapid Eye Movement sleep\nThis dataset contains fMRI and EEG data from a study investigating the effects of Targeted Memory Reactivation (TMR) during REM sleep on emotional reactivity. As well as behavioural data and ECG collected during behavioural tasks.\n## Study Design\nParticipants rated the arousal of 48 affective images paired with semantically matching sounds. Heart rate deceleration was used as a measure of their autonomic arousal. Half of these sounds were cued during REM in the subsequent overnight sleep cycle. Participants rated the images in an MRI scanner with pulse oximetry 48 hours after encoding, and they completed an online follow up two weeks later.\n### Sessions\n1. Baseline: Initial arousal ratings as well as overnight sleep with TMR\n2. Session 48-H: fMRI scanning, pulse oximetry and arousal ratings (48 hours after baseline)\n3. Session 2-Wk: Online follow-up (2 weeks after baseline)\n## Data Acquisition\n- **fMRI**: Acquired using a Siemens Magnetom Prisma 3T scanner with a 32-channel head coil\n- **Heart Rate**: Recorded using BrainVision BrainAmp ExG with ExG AUX box and multitrodes during the behavioural session and pulse oximetry during the fMRI session3\n- **Polysomnography**: Recorded using ten electrodes including 6 EEG channels (F3, F4, C3, C4, O1 and O2), 2 EMG channels and 2 EOG channels. All channels were live referenced to the average of left and right mastoids.\n## Dataset Contents\nThis initial upload contains:\n- T1-weighted structural images\n- Functional MRI data from Session 48-H\n- B0 field maps\n- Behavioural data from all sessions\n## Preprocessing\nfMRI data were preprocessed using fMRIPrep 20.2.7. Details of the preprocessing pipeline can be found in the methods section of the associated publication.\nT1-weighted structural scans were defaced using pydeface version 2.0.2 to ensure participant anonymity.\nWithin the behavioral data, the baseline ratings were centered within each participant. This was achieved by subtracting each participant's mean baseline rating from the item-specific ratings they gave to the stimuli.\n## Additional Information\nFor more detailed information about the study design, methods, and results, please refer to the associated publication (citation to be added upon publication).\nThis dataset was initially converted to BIDS format using ezBIDS (https://brainlife.io/ezbids).\n### Contact\nFor questions about the MRI dataset, please contact:\nDr Tamas Foldes\nfoldesta@cardiff.ac.uk",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Viviana Greco",
+    "Tamas A. Foldes",
+    "Neil A. Harrison",
+    "Kevin Murphy",
+    "Marta Wawrzuta",
+    "Mahmoud E. A. Abdellahi",
+    "Penelope A. Lewis"
+  ],
+  "funding": [
+    "ERC consolidator grant SolutionSleep to Lewis P.A.",
+    "The Wellcome Trust [WT224267] to Murphy K"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds005530.v1.0.9",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleep"
+  ],
+  "sessions": [],
+  "total_files": 21,
+  "size_bytes": 6949640968,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 17,
+    "ages": [
+      26,
+      22,
+      29,
+      29,
+      22,
+      29,
+      23,
+      22,
+      27,
+      21,
+      21,
+      22,
+      27,
+      29,
+      32,
+      23,
+      22,
+      26
+    ],
+    "age_min": 21,
+    "age_max": 32,
+    "age_mean": 25.11111111111111,
+    "species": null,
+    "sex_distribution": {
+      "m": 7,
+      "f": 11
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Penelope A. Lewis",
+  "contact_info": [
+    "Tamas Foldes",
+    "viviana greco"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:52:39.999972+00:00",
+    "dataset_created_at": "2024-09-25T19:04:42.320Z",
+    "dataset_modified_at": "2025-02-24T20:34:28.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005530",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005530",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Sophie Smith and Caterina Leitner for collaboration at the early and late phases of the study. We also acknowledge Sofia I.R. Pereira for her significant contribution to data collection.",
+  "how_to_acknowledge": "Please cite the associated publication (citation to be added upon publication).",
+  "ethics_approvals": [
+    "Ethics Committee of the School of Psychology at Cardiff University"
+  ],
+  "generated_by": [
+    {
+      "Name": "ezBIDS",
+      "Version": "n/a",
+      "Description": "ezBIDS is a web-based tool for converting MRI datasets to BIDS, requiring neither coding nor knowledge of the BIDS specification",
+      "CodeURL": "https://brainlife.io/ezbids/"
+    }
+  ],
+  "ingestion_fingerprint": "1e57dd2aaf3cd15ca8e84788dda2b196d0b3a94a16e9c5ccd6905311e09454de"
+}

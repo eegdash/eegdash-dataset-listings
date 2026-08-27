@@ -1,0 +1,108 @@
+{
+  "dataset_id": "ds007870",
+  "name": "Appleseed Audiobook MEG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "\ufeff# Appleseed MEG Dataset (BIDS)\nThis dataset contains the Appleseed MEG data in Brain Imaging Data Structure (BIDS) standard formnat. It includes MEG recordings from 12 participants listening to continuous narrative speech, plus an empty-room recording, along with stimulus files and derivative outputs.\n## Dataset summary\n- Dataset type: raw\n- BIDS version: 1.7.0\n- Subjects: sub-01 through sub-12, plus sub-emptyroom\n- Modality: MEG\n- Stimuli: audio, gammatone feature pickles, and Praat TextGrid annotations\n- Derivatives: Freesurfer outputs, MNE-related files, predictor objects, and processing scripts\n## Citation\nPlease cite:\nBrodbeck, Christian, Shohini Bhattasali, Aura AL Cruz Heredia, Philip Resnik, Jonathan Z Simon, and Ellen Lau (2022). Parallel processing in speech perception with local and global representations of linguistic context. eLife, 11, e72056. https://doi.org/10.7554/elife.72056\n## Abstract\nSpeech processing is highly incremental. It is widely accepted that human listeners continuously use the linguistic context to anticipate upcoming concepts, words, and phonemes. However, previous evidence supports two seemingly contradictory models of how a predictive context is integrated with the bottom-up sensory input: Classic psycholinguistic paradigms suggest a two-stage process, in which acoustic input initially leads to local, context-independent representations, which are then quickly integrated with contextual constraints. This contrasts with the view that the brain constructs a single coherent, unified interpretation of the input, which fully integrates available information across representational hierarchies, and thus uses contextual constraints to modulate even the earliest sensory representations. To distinguish these hypotheses, we tested magnetoencephalography responses to continuous narrative speech for signatures of local and unified predictive models. Results provide evidence that listeners employ both types of models in parallel. Two local context models uniquely predict some part of early neural responses, one based on sublexical phoneme sequences, and one based on the phonemes in the current word alone; at the same time, even early responses to phonemes also reflect a unified model that incorporates sentence-level constraints to predict upcoming phonemes. Neural source localization places the anatomical origins of the different predictive models in nonidentical parts of the superior temporal lobes bilaterally, with the right hemisphere showing a relative preference for more local models. These results suggest that speech processing recruits both local and unified predictive models in parallel, reconciling previous disparate findings. Parallel models might make the perceptual system more robust, facilitate processing of unexpected inputs, and serve a function in language acquisition\n## Directory structure\nThe repository currently contains the following top-level content:\n```text\nBIDS/\n\u251c\u2500\u2500 README.md\n\u251c\u2500\u2500 dataset_description.json\n\u251c\u2500\u2500 participants.tsv\n\u251c\u2500\u2500 participants.json\n\u251c\u2500\u2500 stimuli/\n\u2502   \u251c\u2500\u2500 *-gammatone.pickle\n\u2502   \u2514\u2500\u2500 *.TextGrid\n\u251c\u2500\u2500 sub-01/\n\u2502   \u2514\u2500\u2500 meg/\n\u251c\u2500\u2500 sub-02/\n\u2502   \u2514\u2500\u2500 meg/\n\u251c\u2500\u2500 ...\n\u251c\u2500\u2500 sub-12/\n\u2502   \u2514\u2500\u2500 meg/\n\u251c\u2500\u2500 sub-emptyroom/\n\u2514\u2500\u2500 derivatives/\n    \u251c\u2500\u2500 freesurfer/\n    \u251c\u2500\u2500 mne/\n    \u251c\u2500\u2500 predictors/\n    \u2514\u2500\u2500 scripts/\n```\nEach subject folder contains a MEG data directory with BIDS-compliant files such as:\n- channel descriptions\n- event files\n- metadata JSON files\n- MEG FIF files\n- a scans.tsv file\n## Notes\n- Subjects sub-04 and sub-05 heard stimulus 11b instead of stimulus 11.\n- MRI data are not subject-specific anatomical scans; they are derived from the fsaverage template using subject-specific scaling parameters.\n- Original audio files are copyrighted and cannot be shared.\n## Data access and use\nMEG data are stored in FIFF format and can be opened with MNE-Python. The BIDS metadata files describe the recording structure, events, channels, and task definitions for each subject.\n## Correspondance\nPlease contact Dr. Christian Brodbeck at brodbecc@mcmaster.ca for any further details or questions.",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Brodbeck, Christian",
+    "Bhattasali, Shohini",
+    "Cruz Heredia, Aura AL",
+    "Resnik, Philip",
+    "Simon, Jonathan Z",
+    "Lau, Ellen"
+  ],
+  "funding": [
+    "NIH"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds007870.v1.3.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "Appleseed",
+    "Tone",
+    "noise"
+  ],
+  "sessions": [
+    "20191211",
+    "20191212",
+    "20191213",
+    "20200219",
+    "20200226",
+    "20200304",
+    "20200305",
+    "20200306"
+  ],
+  "total_files": 44,
+  "size_bytes": 44192090326,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 13,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": {
+      "r": 11,
+      "l": 1
+    }
+  },
+  "senior_author": "Lau, Ellen",
+  "contact_info": [
+    "Prasanna Vijayaraghavan"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T09:00:08.856149+00:00",
+    "dataset_created_at": "2026-05-28T16:43:17.846Z",
+    "dataset_modified_at": "2026-08-26T15:17:02.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds007870",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "datacite.yml",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds007870",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Funding and support for this research",
+  "how_to_acknowledge": "Please cite this paper: Christian Brodbeck, Shohini Bhattasali, Aura AL Cruz Heredia, Philip Resnik, Jonathan Z Simon, Ellen Lau (2022). Parallel processing in speech perception with local and global representations of linguistic context. eLife, 11, e72056. https://doi.org/10.7554/elife.72056",
+  "ethics_approvals": [
+    "The study was approved by the IRB of the University of Maryland under the protocol titled 'MEG Studies of Speech and Language Processing' (reference # 01153), on August 22, 2018 and September 9, 2019 (approval duration: 1 year). All participants provided written informed consent prior to the start of the experiment."
+  ],
+  "references_and_links": [
+    "Christian Brodbeck, Shohini Bhattasali, Aura AL Cruz Heredia, Philip Resnik, Jonathan Z Simon, Ellen Lau (2022). Parallel processing in speech perception with local and global representations of linguistic context. eLife, 11, e72056. https://doi.org/10.7554/elife.72056"
+  ],
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.17.0",
+      "CodeURL": "https://mne.tools/mne-bids/",
+      "Description": "Conversion of MEG data to BIDS format using MNE-Python"
+    }
+  ],
+  "ingestion_fingerprint": "e08d600f13c68447324fcdd04e5436c719d2077de3804487be6eaabbaff01433"
+}

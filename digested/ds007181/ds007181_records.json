@@ -1,0 +1,4965 @@
+{
+  "dataset": "ds007181",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:57:16.991282+00:00",
+  "record_count": 59,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-17_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-17/eeg/sub-17_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-17/eeg/sub-17_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-17/eeg/sub-17_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-17/eeg/sub-17_task-sleep_acq-PSG_channels.tsv",
+          "sub-17/eeg/sub-17_task-sleep_acq-PSG_events.tsv",
+          "sub-17/eeg/sub-17_task-sleep_acq-PSG_events.json",
+          "sub-17/eeg/sub-17_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 66.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-50_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-50/eeg/sub-50_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-50/eeg/sub-50_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "50",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "50",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-50/eeg/sub-50_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-50/eeg/sub-50_task-sleep_acq-PSG_channels.tsv",
+          "sub-50/eeg/sub-50_task-sleep_acq-PSG_events.tsv",
+          "sub-50/eeg/sub-50_task-sleep_acq-PSG_events.json",
+          "sub-50/eeg/sub-50_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 67.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-61_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-61/eeg/sub-61_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-61/eeg/sub-61_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "61",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "61",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-61/eeg/sub-61_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-61/eeg/sub-61_task-sleep_acq-PSG_channels.tsv",
+          "sub-61/eeg/sub-61_task-sleep_acq-PSG_events.tsv",
+          "sub-61/eeg/sub-61_task-sleep_acq-PSG_events.json",
+          "sub-61/eeg/sub-61_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 67.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-14_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-14/eeg/sub-14_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-14/eeg/sub-14_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-14/eeg/sub-14_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-14/eeg/sub-14_task-sleep_acq-PSG_channels.tsv",
+          "sub-14/eeg/sub-14_task-sleep_acq-PSG_events.tsv",
+          "sub-14/eeg/sub-14_task-sleep_acq-PSG_events.json",
+          "sub-14/eeg/sub-14_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 64.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-65_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-65/eeg/sub-65_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-65/eeg/sub-65_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "65",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "65",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-65/eeg/sub-65_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-65/eeg/sub-65_task-sleep_acq-PSG_channels.tsv",
+          "sub-65/eeg/sub-65_task-sleep_acq-PSG_events.tsv",
+          "sub-65/eeg/sub-65_task-sleep_acq-PSG_events.json",
+          "sub-65/eeg/sub-65_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 56.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-41_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-41/eeg/sub-41_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-41/eeg/sub-41_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "41",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "41",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-41/eeg/sub-41_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-41/eeg/sub-41_task-sleep_acq-PSG_channels.tsv",
+          "sub-41/eeg/sub-41_task-sleep_acq-PSG_events.tsv",
+          "sub-41/eeg/sub-41_task-sleep_acq-PSG_events.json",
+          "sub-41/eeg/sub-41_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 67.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-26_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-26/eeg/sub-26_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-26/eeg/sub-26_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "26",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "26",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-26/eeg/sub-26_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-26/eeg/sub-26_task-sleep_acq-PSG_channels.tsv",
+          "sub-26/eeg/sub-26_task-sleep_acq-PSG_events.tsv",
+          "sub-26/eeg/sub-26_task-sleep_acq-PSG_events.json",
+          "sub-26/eeg/sub-26_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 61.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-58_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-58/eeg/sub-58_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-58/eeg/sub-58_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "58",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "58",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-58/eeg/sub-58_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-58/eeg/sub-58_task-sleep_acq-PSG_channels.tsv",
+          "sub-58/eeg/sub-58_task-sleep_acq-PSG_events.tsv",
+          "sub-58/eeg/sub-58_task-sleep_acq-PSG_events.json",
+          "sub-58/eeg/sub-58_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 61.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-60_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-60/eeg/sub-60_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-60/eeg/sub-60_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "60",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "60",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-60/eeg/sub-60_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-60/eeg/sub-60_task-sleep_acq-PSG_channels.tsv",
+          "sub-60/eeg/sub-60_task-sleep_acq-PSG_events.tsv",
+          "sub-60/eeg/sub-60_task-sleep_acq-PSG_events.json",
+          "sub-60/eeg/sub-60_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 54.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-27_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-27/eeg/sub-27_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-27/eeg/sub-27_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "27",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "27",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-27/eeg/sub-27_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-27/eeg/sub-27_task-sleep_acq-PSG_channels.tsv",
+          "sub-27/eeg/sub-27_task-sleep_acq-PSG_events.tsv",
+          "sub-27/eeg/sub-27_task-sleep_acq-PSG_events.json",
+          "sub-27/eeg/sub-27_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 68.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-24_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-24/eeg/sub-24_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-24/eeg/sub-24_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-24/eeg/sub-24_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-24/eeg/sub-24_task-sleep_acq-PSG_channels.tsv",
+          "sub-24/eeg/sub-24_task-sleep_acq-PSG_events.tsv",
+          "sub-24/eeg/sub-24_task-sleep_acq-PSG_events.json",
+          "sub-24/eeg/sub-24_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 57.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-37_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-37/eeg/sub-37_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-37/eeg/sub-37_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "37",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "37",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-37/eeg/sub-37_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-37/eeg/sub-37_task-sleep_acq-PSG_channels.tsv",
+          "sub-37/eeg/sub-37_task-sleep_acq-PSG_events.tsv",
+          "sub-37/eeg/sub-37_task-sleep_acq-PSG_events.json",
+          "sub-37/eeg/sub-37_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 60.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-15_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-15/eeg/sub-15_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-15/eeg/sub-15_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-15/eeg/sub-15_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-15/eeg/sub-15_task-sleep_acq-PSG_channels.tsv",
+          "sub-15/eeg/sub-15_task-sleep_acq-PSG_events.tsv",
+          "sub-15/eeg/sub-15_task-sleep_acq-PSG_events.json",
+          "sub-15/eeg/sub-15_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 66.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-04_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-04/eeg/sub-04_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-04/eeg/sub-04_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-04/eeg/sub-04_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-04/eeg/sub-04_task-sleep_acq-PSG_channels.tsv",
+          "sub-04/eeg/sub-04_task-sleep_acq-PSG_events.tsv",
+          "sub-04/eeg/sub-04_task-sleep_acq-PSG_events.json",
+          "sub-04/eeg/sub-04_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 68.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-48_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-48/eeg/sub-48_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-48/eeg/sub-48_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "48",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "48",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-48/eeg/sub-48_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-48/eeg/sub-48_task-sleep_acq-PSG_channels.tsv",
+          "sub-48/eeg/sub-48_task-sleep_acq-PSG_events.tsv",
+          "sub-48/eeg/sub-48_task-sleep_acq-PSG_events.json",
+          "sub-48/eeg/sub-48_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 60.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-64_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-64/eeg/sub-64_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-64/eeg/sub-64_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "64",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "64",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-64/eeg/sub-64_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-64/eeg/sub-64_task-sleep_acq-PSG_channels.tsv",
+          "sub-64/eeg/sub-64_task-sleep_acq-PSG_events.tsv",
+          "sub-64/eeg/sub-64_task-sleep_acq-PSG_events.json",
+          "sub-64/eeg/sub-64_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 51.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-52_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-52/eeg/sub-52_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-52/eeg/sub-52_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "52",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "52",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-52/eeg/sub-52_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-52/eeg/sub-52_task-sleep_acq-PSG_channels.tsv",
+          "sub-52/eeg/sub-52_task-sleep_acq-PSG_events.tsv",
+          "sub-52/eeg/sub-52_task-sleep_acq-PSG_events.json",
+          "sub-52/eeg/sub-52_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 56.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-40_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-40/eeg/sub-40_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-40/eeg/sub-40_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "40",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "40",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-40/eeg/sub-40_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-40/eeg/sub-40_task-sleep_acq-PSG_channels.tsv",
+          "sub-40/eeg/sub-40_task-sleep_acq-PSG_events.tsv",
+          "sub-40/eeg/sub-40_task-sleep_acq-PSG_events.json",
+          "sub-40/eeg/sub-40_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 44.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-13_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-13/eeg/sub-13_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-13/eeg/sub-13_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-13/eeg/sub-13_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-13/eeg/sub-13_task-sleep_acq-PSG_channels.tsv",
+          "sub-13/eeg/sub-13_task-sleep_acq-PSG_events.tsv",
+          "sub-13/eeg/sub-13_task-sleep_acq-PSG_events.json",
+          "sub-13/eeg/sub-13_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 63.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-05_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-05/eeg/sub-05_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-05/eeg/sub-05_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-05/eeg/sub-05_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-05/eeg/sub-05_task-sleep_acq-PSG_channels.tsv",
+          "sub-05/eeg/sub-05_task-sleep_acq-PSG_events.tsv",
+          "sub-05/eeg/sub-05_task-sleep_acq-PSG_events.json",
+          "sub-05/eeg/sub-05_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 67.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-44_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-44/eeg/sub-44_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-44/eeg/sub-44_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "44",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "44",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-44/eeg/sub-44_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-44/eeg/sub-44_task-sleep_acq-PSG_channels.tsv",
+          "sub-44/eeg/sub-44_task-sleep_acq-PSG_events.tsv",
+          "sub-44/eeg/sub-44_task-sleep_acq-PSG_events.json",
+          "sub-44/eeg/sub-44_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 69.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-47_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-47/eeg/sub-47_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-47/eeg/sub-47_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "47",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "47",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-47/eeg/sub-47_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-47/eeg/sub-47_task-sleep_acq-PSG_channels.tsv",
+          "sub-47/eeg/sub-47_task-sleep_acq-PSG_events.tsv",
+          "sub-47/eeg/sub-47_task-sleep_acq-PSG_events.json",
+          "sub-47/eeg/sub-47_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 61.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-18_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-18/eeg/sub-18_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-18/eeg/sub-18_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-18/eeg/sub-18_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-18/eeg/sub-18_task-sleep_acq-PSG_channels.tsv",
+          "sub-18/eeg/sub-18_task-sleep_acq-PSG_events.tsv",
+          "sub-18/eeg/sub-18_task-sleep_acq-PSG_events.json",
+          "sub-18/eeg/sub-18_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 59.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-33_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-33/eeg/sub-33_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-33/eeg/sub-33_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "33",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "33",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-33/eeg/sub-33_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-33/eeg/sub-33_task-sleep_acq-PSG_channels.tsv",
+          "sub-33/eeg/sub-33_task-sleep_acq-PSG_events.tsv",
+          "sub-33/eeg/sub-33_task-sleep_acq-PSG_events.json",
+          "sub-33/eeg/sub-33_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 68.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-12_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-12/eeg/sub-12_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-12/eeg/sub-12_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-12/eeg/sub-12_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-12/eeg/sub-12_task-sleep_acq-PSG_channels.tsv",
+          "sub-12/eeg/sub-12_task-sleep_acq-PSG_events.tsv",
+          "sub-12/eeg/sub-12_task-sleep_acq-PSG_events.json",
+          "sub-12/eeg/sub-12_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 58.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-62_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-62/eeg/sub-62_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-62/eeg/sub-62_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "62",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "62",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-62/eeg/sub-62_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-62/eeg/sub-62_task-sleep_acq-PSG_channels.tsv",
+          "sub-62/eeg/sub-62_task-sleep_acq-PSG_events.tsv",
+          "sub-62/eeg/sub-62_task-sleep_acq-PSG_events.json",
+          "sub-62/eeg/sub-62_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 55.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-30_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-30/eeg/sub-30_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-30/eeg/sub-30_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-30/eeg/sub-30_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-30/eeg/sub-30_task-sleep_acq-PSG_channels.tsv",
+          "sub-30/eeg/sub-30_task-sleep_acq-PSG_events.tsv",
+          "sub-30/eeg/sub-30_task-sleep_acq-PSG_events.json",
+          "sub-30/eeg/sub-30_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 59.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-11_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-11/eeg/sub-11_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-11/eeg/sub-11_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-11/eeg/sub-11_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-11/eeg/sub-11_task-sleep_acq-PSG_channels.tsv",
+          "sub-11/eeg/sub-11_task-sleep_acq-PSG_events.tsv",
+          "sub-11/eeg/sub-11_task-sleep_acq-PSG_events.json",
+          "sub-11/eeg/sub-11_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 60.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-06_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-06/eeg/sub-06_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-06/eeg/sub-06_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-06/eeg/sub-06_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-06/eeg/sub-06_task-sleep_acq-PSG_channels.tsv",
+          "sub-06/eeg/sub-06_task-sleep_acq-PSG_events.tsv",
+          "sub-06/eeg/sub-06_task-sleep_acq-PSG_events.json",
+          "sub-06/eeg/sub-06_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 55.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-21_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-21/eeg/sub-21_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-21/eeg/sub-21_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-21/eeg/sub-21_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-21/eeg/sub-21_task-sleep_acq-PSG_channels.tsv",
+          "sub-21/eeg/sub-21_task-sleep_acq-PSG_events.tsv",
+          "sub-21/eeg/sub-21_task-sleep_acq-PSG_events.json",
+          "sub-21/eeg/sub-21_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 65.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-20_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-20/eeg/sub-20_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-20/eeg/sub-20_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-20/eeg/sub-20_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-20/eeg/sub-20_task-sleep_acq-PSG_channels.tsv",
+          "sub-20/eeg/sub-20_task-sleep_acq-PSG_events.tsv",
+          "sub-20/eeg/sub-20_task-sleep_acq-PSG_events.json",
+          "sub-20/eeg/sub-20_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 53.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-32_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-32/eeg/sub-32_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-32/eeg/sub-32_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "32",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "32",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-32/eeg/sub-32_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-32/eeg/sub-32_task-sleep_acq-PSG_channels.tsv",
+          "sub-32/eeg/sub-32_task-sleep_acq-PSG_events.tsv",
+          "sub-32/eeg/sub-32_task-sleep_acq-PSG_events.json",
+          "sub-32/eeg/sub-32_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 55.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-59_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-59/eeg/sub-59_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-59/eeg/sub-59_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "59",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "59",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-59/eeg/sub-59_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-59/eeg/sub-59_task-sleep_acq-PSG_channels.tsv",
+          "sub-59/eeg/sub-59_task-sleep_acq-PSG_events.tsv",
+          "sub-59/eeg/sub-59_task-sleep_acq-PSG_events.json",
+          "sub-59/eeg/sub-59_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 55.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-36_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-36/eeg/sub-36_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-36/eeg/sub-36_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "36",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "36",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-36/eeg/sub-36_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-36/eeg/sub-36_task-sleep_acq-PSG_channels.tsv",
+          "sub-36/eeg/sub-36_task-sleep_acq-PSG_events.tsv",
+          "sub-36/eeg/sub-36_task-sleep_acq-PSG_events.json",
+          "sub-36/eeg/sub-36_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 68.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-35_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-35/eeg/sub-35_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-35/eeg/sub-35_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "35",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "35",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-35/eeg/sub-35_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-35/eeg/sub-35_task-sleep_acq-PSG_channels.tsv",
+          "sub-35/eeg/sub-35_task-sleep_acq-PSG_events.tsv",
+          "sub-35/eeg/sub-35_task-sleep_acq-PSG_events.json",
+          "sub-35/eeg/sub-35_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 64.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-19_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-19/eeg/sub-19_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-19/eeg/sub-19_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "19",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "19",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-19/eeg/sub-19_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-19/eeg/sub-19_task-sleep_acq-PSG_channels.tsv",
+          "sub-19/eeg/sub-19_task-sleep_acq-PSG_events.tsv",
+          "sub-19/eeg/sub-19_task-sleep_acq-PSG_events.json",
+          "sub-19/eeg/sub-19_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 58.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-08_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-08/eeg/sub-08_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-08/eeg/sub-08_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-08/eeg/sub-08_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-08/eeg/sub-08_task-sleep_acq-PSG_channels.tsv",
+          "sub-08/eeg/sub-08_task-sleep_acq-PSG_events.tsv",
+          "sub-08/eeg/sub-08_task-sleep_acq-PSG_events.json",
+          "sub-08/eeg/sub-08_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 67.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-10_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-10/eeg/sub-10_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-10/eeg/sub-10_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-10/eeg/sub-10_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-10/eeg/sub-10_task-sleep_acq-PSG_channels.tsv",
+          "sub-10/eeg/sub-10_task-sleep_acq-PSG_events.tsv",
+          "sub-10/eeg/sub-10_task-sleep_acq-PSG_events.json",
+          "sub-10/eeg/sub-10_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 67.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-45_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-45/eeg/sub-45_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-45/eeg/sub-45_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "45",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "45",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-45/eeg/sub-45_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-45/eeg/sub-45_task-sleep_acq-PSG_channels.tsv",
+          "sub-45/eeg/sub-45_task-sleep_acq-PSG_events.tsv",
+          "sub-45/eeg/sub-45_task-sleep_acq-PSG_events.json",
+          "sub-45/eeg/sub-45_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 69.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-16_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-16/eeg/sub-16_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-16/eeg/sub-16_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-16/eeg/sub-16_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-16/eeg/sub-16_task-sleep_acq-PSG_channels.tsv",
+          "sub-16/eeg/sub-16_task-sleep_acq-PSG_events.tsv",
+          "sub-16/eeg/sub-16_task-sleep_acq-PSG_events.json",
+          "sub-16/eeg/sub-16_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 65.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-25_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-25/eeg/sub-25_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-25/eeg/sub-25_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-25/eeg/sub-25_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-25/eeg/sub-25_task-sleep_acq-PSG_channels.tsv",
+          "sub-25/eeg/sub-25_task-sleep_acq-PSG_events.tsv",
+          "sub-25/eeg/sub-25_task-sleep_acq-PSG_events.json",
+          "sub-25/eeg/sub-25_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 56.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-42_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-42/eeg/sub-42_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-42/eeg/sub-42_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "42",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "42",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-42/eeg/sub-42_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-42/eeg/sub-42_task-sleep_acq-PSG_channels.tsv",
+          "sub-42/eeg/sub-42_task-sleep_acq-PSG_events.tsv",
+          "sub-42/eeg/sub-42_task-sleep_acq-PSG_events.json",
+          "sub-42/eeg/sub-42_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 60.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-34_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-34/eeg/sub-34_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-34/eeg/sub-34_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "34",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "34",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-34/eeg/sub-34_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-34/eeg/sub-34_task-sleep_acq-PSG_channels.tsv",
+          "sub-34/eeg/sub-34_task-sleep_acq-PSG_events.tsv",
+          "sub-34/eeg/sub-34_task-sleep_acq-PSG_events.json",
+          "sub-34/eeg/sub-34_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 61.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-49_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-49/eeg/sub-49_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-49/eeg/sub-49_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "49",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "49",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-49/eeg/sub-49_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-49/eeg/sub-49_task-sleep_acq-PSG_channels.tsv",
+          "sub-49/eeg/sub-49_task-sleep_acq-PSG_events.tsv",
+          "sub-49/eeg/sub-49_task-sleep_acq-PSG_events.json",
+          "sub-49/eeg/sub-49_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 61.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-07_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-07/eeg/sub-07_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-07/eeg/sub-07_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-07/eeg/sub-07_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-07/eeg/sub-07_task-sleep_acq-PSG_channels.tsv",
+          "sub-07/eeg/sub-07_task-sleep_acq-PSG_events.tsv",
+          "sub-07/eeg/sub-07_task-sleep_acq-PSG_events.json",
+          "sub-07/eeg/sub-07_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 58.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-09_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-09/eeg/sub-09_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-09/eeg/sub-09_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-09/eeg/sub-09_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-09/eeg/sub-09_task-sleep_acq-PSG_channels.tsv",
+          "sub-09/eeg/sub-09_task-sleep_acq-PSG_events.tsv",
+          "sub-09/eeg/sub-09_task-sleep_acq-PSG_events.json",
+          "sub-09/eeg/sub-09_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 58.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-02_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-02/eeg/sub-02_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-02/eeg/sub-02_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-02/eeg/sub-02_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-02/eeg/sub-02_task-sleep_acq-PSG_channels.tsv",
+          "sub-02/eeg/sub-02_task-sleep_acq-PSG_events.tsv",
+          "sub-02/eeg/sub-02_task-sleep_acq-PSG_events.json",
+          "sub-02/eeg/sub-02_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 61.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-29_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-29/eeg/sub-29_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-29/eeg/sub-29_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "29",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "29",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-29/eeg/sub-29_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-29/eeg/sub-29_task-sleep_acq-PSG_channels.tsv",
+          "sub-29/eeg/sub-29_task-sleep_acq-PSG_events.tsv",
+          "sub-29/eeg/sub-29_task-sleep_acq-PSG_events.json",
+          "sub-29/eeg/sub-29_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 65.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-46_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-46/eeg/sub-46_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-46/eeg/sub-46_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "46",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "46",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-46/eeg/sub-46_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-46/eeg/sub-46_task-sleep_acq-PSG_channels.tsv",
+          "sub-46/eeg/sub-46_task-sleep_acq-PSG_events.tsv",
+          "sub-46/eeg/sub-46_task-sleep_acq-PSG_events.json",
+          "sub-46/eeg/sub-46_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 66.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-53_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-53/eeg/sub-53_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-53/eeg/sub-53_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "53",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "53",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-53/eeg/sub-53_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-53/eeg/sub-53_task-sleep_acq-PSG_channels.tsv",
+          "sub-53/eeg/sub-53_task-sleep_acq-PSG_events.tsv",
+          "sub-53/eeg/sub-53_task-sleep_acq-PSG_events.json",
+          "sub-53/eeg/sub-53_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 70.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-66_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-66/eeg/sub-66_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-66/eeg/sub-66_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "66",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "66",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-66/eeg/sub-66_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-66/eeg/sub-66_task-sleep_acq-PSG_channels.tsv",
+          "sub-66/eeg/sub-66_task-sleep_acq-PSG_events.tsv",
+          "sub-66/eeg/sub-66_task-sleep_acq-PSG_events.json",
+          "sub-66/eeg/sub-66_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 50.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-63_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-63/eeg/sub-63_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-63/eeg/sub-63_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "63",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "63",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-63/eeg/sub-63_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-63/eeg/sub-63_task-sleep_acq-PSG_channels.tsv",
+          "sub-63/eeg/sub-63_task-sleep_acq-PSG_events.tsv",
+          "sub-63/eeg/sub-63_task-sleep_acq-PSG_events.json",
+          "sub-63/eeg/sub-63_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 70.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-31_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-31/eeg/sub-31_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-31/eeg/sub-31_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "31",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "31",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-31/eeg/sub-31_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-31/eeg/sub-31_task-sleep_acq-PSG_channels.tsv",
+          "sub-31/eeg/sub-31_task-sleep_acq-PSG_events.tsv",
+          "sub-31/eeg/sub-31_task-sleep_acq-PSG_events.json",
+          "sub-31/eeg/sub-31_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 66.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-22_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-22/eeg/sub-22_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-22/eeg/sub-22_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-22/eeg/sub-22_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-22/eeg/sub-22_task-sleep_acq-PSG_channels.tsv",
+          "sub-22/eeg/sub-22_task-sleep_acq-PSG_events.tsv",
+          "sub-22/eeg/sub-22_task-sleep_acq-PSG_events.json",
+          "sub-22/eeg/sub-22_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 56.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-55_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-55/eeg/sub-55_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-55/eeg/sub-55_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "55",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "55",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-55/eeg/sub-55_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-55/eeg/sub-55_task-sleep_acq-PSG_channels.tsv",
+          "sub-55/eeg/sub-55_task-sleep_acq-PSG_events.tsv",
+          "sub-55/eeg/sub-55_task-sleep_acq-PSG_events.json",
+          "sub-55/eeg/sub-55_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 61.0,
+        "sex": "M"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-28_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-28/eeg/sub-28_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-28/eeg/sub-28_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "28",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "28",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-28/eeg/sub-28_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-28/eeg/sub-28_task-sleep_acq-PSG_channels.tsv",
+          "sub-28/eeg/sub-28_task-sleep_acq-PSG_events.tsv",
+          "sub-28/eeg/sub-28_task-sleep_acq-PSG_events.json",
+          "sub-28/eeg/sub-28_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 60.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-23_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-23/eeg/sub-23_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-23/eeg/sub-23_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-23/eeg/sub-23_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-23/eeg/sub-23_task-sleep_acq-PSG_channels.tsv",
+          "sub-23/eeg/sub-23_task-sleep_acq-PSG_events.tsv",
+          "sub-23/eeg/sub-23_task-sleep_acq-PSG_events.json",
+          "sub-23/eeg/sub-23_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "HC",
+        "age": 61.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-54_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-54/eeg/sub-54_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-54/eeg/sub-54_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "54",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "54",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-54/eeg/sub-54_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-54/eeg/sub-54_task-sleep_acq-PSG_channels.tsv",
+          "sub-54/eeg/sub-54_task-sleep_acq-PSG_events.tsv",
+          "sub-54/eeg/sub-54_task-sleep_acq-PSG_events.json",
+          "sub-54/eeg/sub-54_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 62.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds007181",
+      "data_name": "ds007181_sub-51_task-sleep_acq-PSG_eeg.edf",
+      "bidspath": "ds007181/sub-51/eeg/sub-51_task-sleep_acq-PSG_eeg.edf",
+      "bids_relpath": "sub-51/eeg/sub-51_task-sleep_acq-PSG_eeg.edf",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".edf",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "51",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "entities_mne": {
+        "subject": "51",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": "PSG"
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds007181",
+        "raw_key": "sub-51/eeg/sub-51_task-sleep_acq-PSG_eeg.edf",
+        "dep_keys": [
+          "sub-51/eeg/sub-51_task-sleep_acq-PSG_channels.tsv",
+          "sub-51/eeg/sub-51_task-sleep_acq-PSG_events.tsv",
+          "sub-51/eeg/sub-51_task-sleep_acq-PSG_events.json",
+          "sub-51/eeg/sub-51_task-sleep_acq-PSG_eeg.json"
+        ]
+      },
+      "ch_names": [
+        "Fp1-M2",
+        "Fp2-M1",
+        "F3-M2",
+        "F4-M1",
+        "F7-M2",
+        "F8-M1",
+        "C3-M2",
+        "C4-M1",
+        "T3-M2",
+        "T4-M1",
+        "T5-M2",
+        "T6-M1",
+        "P3-M2",
+        "P4-M1",
+        "O1-M2",
+        "O2-M1",
+        "Fz",
+        "Cz",
+        "Pz",
+        "E1-M2",
+        "E2-M2",
+        "Chin 1-Chin 2",
+        "Chin 3-Chin 2",
+        "RIP ECG"
+      ],
+      "sampling_frequency": 1024.0,
+      "nchans": 24,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:57:16.991282+00:00",
+      "participant_tsv": {
+        "group": "ZAN",
+        "age": 68.0,
+        "sex": "F"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": "mne_bids",
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "eeg_reference": "linked mastoids",
+      "montage_hash": null
+    }
+  ]
+}

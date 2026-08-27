@@ -1,0 +1,131 @@
+{
+  "dataset_id": "ds003702",
+  "name": "Social Memory cuing",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "EEG Raw and processed data for a memory task presented in virtual reality,\nThe full task is on OSF: https://osf.io/s9xmu/files\nDerviatives:\nBehavioral data from the task in derivatives\nProcessed data is in the derivatives\nCode\nEvent codes are listed in the code file\nTrial function, preprocessing, data cleaning and analysis are also in the code file.\nTask:\nWearing a head mounted display to display the task in virtual reality participants completed a visual working memory task\nIn the task they had to remember the status of and details about presented objects.\nA person or a stick cued the items such that it could look left or right and items could appear on the left or right. Sometimes the cue was valid\n(i.e. pointed where objects appeared) and sometimes it was invalid (pointed away from where objects appeared)\nThe objects were always a bowl, a cup, a plate and a teapot. Each could have a different status that needed to be remembered\npraticipants were probed on memory for item location and then item status\nPreprint  to be added\nEvent codes within the data set are as follows. Trial function is included in code folder.\nFor the avatar cue\ns3021 Character shown - i.e. moment the avatar appears\ns3022 Objects shown - i.e. moment that the memory targets appear\ns3023 Maintenance interal - i.e. moment the memory objects leave the screen and the blank maintenance interval occurs\ns3024 Probe object shown - i.e. moment that participantis presented with location probe\ns3025 Resp 1 made - i.e. moment that the participants have responded to the location probe\ns3026 Q2 shown - i.e. moment that participants are asked a question about the status of the objects\ns3027 Resp 2 made - i.e. moment that the participants have responded to the status probe\nFor the stick cue\ns3041 Stick shown - i.e. moment the stick appears\ns3042 Objects shown - i.e. moment that the memory targets appear\ns3043 Maintenance interal - i.e. moment the memory objects leave the screen and the blank maintenance interval occurs\ns3044 Probe object shown - i.e. moment that participantis presented with location probe\ns3045 Resp 1 made - i.e. moment that the participants have responded to the location probe\ns3046 Q2 shown - i.e. moment that participants are asked a question about the status of the objects\ns3047 Resp 2 made - i.e. moment that the participants have responded to the status probe\nTrial info EEG processed data\n1: Main condition (MainCon)\n\t1 = Stick Congruent\n\t2 = Stick Incongruenct\n\t3 = Avatar Congruent\n\t4 = Avatar Incongruent\n2: Cue condition left or right (MConCueLR)\n\t1 = Stick Congruent Cue shifts left\n\t2 = Stick Congruent Cue shifts right\n\t3 = Stick Incongruent Cue shifts left\n\t4 = Stick Incongruent Cue shifts right\n\t5 = Avatar Congruent Cue shifts left\n\t6 = Avatar Congruent Cue shifts right\n\t7 = Avatar Incongruent Cue shifts left\n\t8 = Avatar Incongruent Cue shifts right\n3: Condition from experiment build (con)\n\t1 = Congruent, cueshift L, items Left, same location\n\t2 = Congruent, cueshift L, items Left, dif location\n\t3 = Congruent, cueshift R, items Right, same location\n\t4 = Congruent, cueshift R, items Right, dif location\n\t5 = Incongruent, cueshift L, items Right, same location\n\t6 = Incongruent, cueshift L, items Right, dif location\n\t7 = Incongruent, cueshift R, items Left, same location\n\t8 = Incongruent, cueshift R, items Left, dif location\n4: Validity\n\t1 = valid (congruent)\n\t2= invalid (incongruent)\n5: Location\n\t1 = Same (i.e. probe at same location as when initially presented)\n\t2 = Different (i.e. probe at different location as when initially presented)\n6 Cue\n\t1 = Stick cue\n\t2 = Avatar cue\n7 Left or Right cue (LorR) specific to  the cue shift\n\t1 = Left Stick\n\t2 = Right Stick\n\t3 = Left Avatar\n\t4 = Right Avatar\n8 Start: Sample time for start of the trial\n9 Cue: Sample time for cue onset\n10 Targets: Sample time for target onset\n11 Maintenance: Sample time for start of mainanance interval\n12 Location probe: Sample time for location probe being shown\n13 Location response time: Sample time for response to location probe being made\n14 Status question: Sample time for status question being asked\n15 Status response time: Sample time for response to status question being made\n16 Accuracy for the location question\n17 Accuracy for the status question",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.6.0",
+  "license": "CC0",
+  "authors": [
+    "Samantha Gregory",
+    "Hongfang Wang",
+    "Klaus Kessler"
+  ],
+  "funding": [
+    "This work was supported by a Leverhulme Trust early career fellowship [ECF-2018-130] awarded to S.E.A. Gregory.)."
+  ],
+  "dataset_doi": "10.18112/openneuro.ds003702.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "SocialMemoryCuing"
+  ],
+  "sessions": [],
+  "total_files": 47,
+  "size_bytes": 18784103504,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 47,
+    "ages": [
+      20,
+      19,
+      27,
+      18,
+      18,
+      19,
+      19,
+      21,
+      22,
+      20,
+      20,
+      19,
+      31,
+      21,
+      20,
+      23,
+      27,
+      22,
+      25,
+      32,
+      21,
+      19,
+      21,
+      18,
+      19,
+      19,
+      21,
+      19,
+      20,
+      22,
+      19,
+      18,
+      19,
+      18,
+      21,
+      24,
+      20,
+      20,
+      19,
+      19,
+      22,
+      19,
+      19,
+      22,
+      23,
+      19,
+      21
+    ],
+    "age_min": 18,
+    "age_max": 32,
+    "age_mean": 20.93617021276596,
+    "species": null,
+    "sex_distribution": {
+      "f": 31,
+      "m": 16
+    },
+    "handedness_distribution": {
+      "r": 44,
+      "l": 3
+    }
+  },
+  "senior_author": "Klaus Kessler",
+  "contact_info": [
+    "Samantha Gregory"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:42:27.394294+00:00",
+    "dataset_created_at": "2021-06-15T15:03:49.921Z",
+    "dataset_modified_at": "2024-09-17T17:40:13.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds003702",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds003702",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "Gregory, S., Wang, H., & Kessler, K. (2021, June 17). EEG alpha and theta signatures of socially and non-socially cued working memory in virtual reality. https://doi.org/10.31234/osf.io/mkags"
+  ],
+  "ingestion_fingerprint": "cee3ebf4b9bcb932c15f30f9929e6d017074190ed044ef37fe75634a6dcd8a23"
+}

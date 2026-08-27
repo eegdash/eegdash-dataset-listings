@@ -1,0 +1,65 @@
+{
+  "dataset": "ds004398",
+  "source": "openneuro",
+  "digested_at": "2026-08-27T08:44:58.586978+00:00",
+  "record_count": 1,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "ds004398",
+      "data_name": "ds004398_sub-231_task-loc_run-01_meg.ds",
+      "bidspath": "ds004398/sub-231/meg/sub-231_task-loc_run-01_meg.ds",
+      "bids_relpath": "sub-231/meg/sub-231_task-loc_run-01_meg.ds",
+      "datatype": "meg",
+      "suffix": "meg",
+      "extension": ".ds",
+      "recording_modality": [
+        "meg"
+      ],
+      "entities": {
+        "subject": "231",
+        "session": null,
+        "task": "loc",
+        "run": "01",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "231",
+        "session": null,
+        "task": "loc",
+        "run": "01",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds004398",
+        "raw_key": "sub-231/meg/sub-231_task-loc_run-01_meg.ds",
+        "dep_keys": [
+          "sub-231/meg/sub-231_task-loc_run-01_coordsystem.json"
+        ]
+      },
+      "ch_names": null,
+      "sampling_frequency": 600.0,
+      "nchans": 305,
+      "ntimes": null,
+      "duration_seconds": null,
+      "digested_at": "2026-08-27T08:44:58.586978+00:00",
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": null,
+        "ch_names": null,
+        "duration_seconds": null
+      },
+      "power_line_frequency": 50,
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "CTF",
+      "manufacturers_model_name": "CTF-275: OMEGA 2000",
+      "institution_name": "Wellcome Centre for Human Neuroimaging",
+      "recording_type": "continuous",
+      "montage_hash": null
+    }
+  ]
+}

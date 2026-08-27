@@ -1,0 +1,118 @@
+{
+  "dataset_id": "ds005876",
+  "name": "Song Familiarity",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Song Familiarity\nTwenty-nine participants listened to song melodies and responded as soon as the song felt familiar. Participants were then asked to identify the song, if possible (title, artist, or lyrics). Next, participants were shown a multiple choice display with four song titles, selected a song title, and were given visual feedback (correct: selected option turned green and a checkmark appeared next to the title; incorrect: selected option turned red and an x appeared next to the title.)\nSong stimuli are taken from Kostic and Cleary (2009): https://supp.apa.org/psycarticles/supplemental/a0014584/a0014584_supp.html\nAn audio file with a reconstruction of what each participant heard throughout the experiment can be found in /derivatives. The audio file has been synchronized with the EEG recording.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Jared R. Girard",
+    "Aaron M. Bishop",
+    "Cameron D. Hassall"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds005876.v1.0.1",
+  "associated_paper_doi": null,
+  "tasks": [
+    "songfamiliarity"
+  ],
+  "sessions": [],
+  "total_files": 29,
+  "size_bytes": 7654276844,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 29,
+    "ages": [
+      24,
+      27,
+      44,
+      23,
+      18,
+      18,
+      23,
+      18,
+      18,
+      18,
+      24,
+      29,
+      18,
+      18,
+      23,
+      19,
+      19,
+      24,
+      24,
+      24,
+      20,
+      21,
+      28,
+      26,
+      29,
+      18,
+      20,
+      21,
+      24
+    ],
+    "age_min": 18,
+    "age_max": 44,
+    "age_mean": 22.75862068965517,
+    "species": null,
+    "sex_distribution": {
+      "m": 10,
+      "f": 19
+    },
+    "handedness_distribution": {
+      "l": 3,
+      "r": 25
+    }
+  },
+  "senior_author": "Cameron D. Hassall",
+  "contact_info": [
+    "Cameron Hassall"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:53:49.533779+00:00",
+    "dataset_created_at": "2025-01-23T18:10:12.912Z",
+    "dataset_modified_at": "2025-01-23T20:53:55.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds005876",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv",
+      "task-songfamiliarity_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds005876",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    ""
+  ],
+  "generated_by": [
+    {
+      "Name": "bids-matlab-tools",
+      "Version": "9.0"
+    }
+  ],
+  "ingestion_fingerprint": "b01176ff49414414d3851d5b6d52fe832b3c726f6fa2d5a69b62f044b58ccdb2"
+}

@@ -1,0 +1,113 @@
+{
+  "dataset_id": "ds004381",
+  "name": "Intraoperative EEG dataset during medianus-tibialis stimulation with 8 different rates",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Intraoperative EEG dataset during medianus-tibialis stimulation with 8 different rates\nThis dataset was obtained from the publication [1] wherein we varyied the stimulus repetition rate and recorded medianus and tibial nerve SEP.\nWe randomly sampled a number of sweeps corresponding to recording durations up to 20 s and calculated the signal-to-noise ratio (SNR).\nThere are 14 adults subjects and 4 children subjects with continuous EEG data split in sessions (tibial left/right, medianus left/right) and runs (1 run for each stimulation rate).\nWe also provide processed data (derivatives) for all the sessions.\nIn total there are 34 medianus SEP and 32 tibial SEP sessions.\n## Repository structure\n### Main directory (SEP rate/)\nContains metadata files in the BIDS standard about the participants and the study. Folders are explained below.\n### Subfolders\n* SEP rate/sub-**/\nContains folders for each subject, named sub-<subject number> and session information.\n* SEP rate/sub-**/ses-01/eeg\nContains the raw eeg data in .edf format for each subject.\nEach *eeg.edf file contains EEG data from one stimulation rate (see scans.tsv column stimRate).\nDetails about the channels are given in the corresponding .tsv file.\n* SEP rate/derivatives\nContains folders for each subject,named sub-<subject number> and session information that include processed data\n* SEP rate/derivatives/sub-**/ses-01/eeg/\nContains processed data for each subject.\n# Note from the paper\n\"The offline data processing used the continuous EEG that was recorded in parallel to the SEP recordings.\nData analysis was performed with custom scripts in Matlab (www.mathworks.com). To detect the SEP stimulation artefact,\nwe first filtered the EEG (high pass cutoff = 200 Hz) and performed local peak detection (minimum peak prominence between peaks = 30 ms,\nminimum peak width = 4 ms, samples = 0.2 ms). We used the times of the detected stimulus artifact as triggers to define sweeps with\npost-stimulus recording sweep length 50 ms for medianus SEP and 100 ms for tibial SEP. We resampled the data to sampling rate 1200 Hz before\nfurther processing. We classified sweeps with amplitude > 10 \u00c2\u00b5V as artefact-ridden and excluded them from further analysis.\"\nBIDS Conversion\n---------------\nbids-starter-kid and custom Matlab scripts were used to convert the dataset into BIDS format.\nReferences\n----------\n[1] Dimakopoulos V, Selmin G, Regli L, Sarnthein J, Optimization of signal-to-noise ratio in short-duration SEP recordings by variation of stimulation rate, Clinical Neurophysiology, 2023, ISSN 1388-2457, https://doi.org/10.1016/j.clinph.2023.03.008.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.4.0",
+  "license": "CC0",
+  "authors": [
+    "Giorgio Selmin",
+    "Vasileios Dimakopoulos",
+    "Niklaus Krayenb\u00fchl",
+    "Luca Regli",
+    "Johannes Sarnthein"
+  ],
+  "funding": [
+    "Swiss National Science Foundation, SNSF 204651",
+    "Alexander S. Onassis Public Benefit Foundation Scholarship"
+  ],
+  "dataset_doi": "doi:10.18112/openneuro.ds004381.v1.0.2",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sepRate"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04"
+  ],
+  "total_files": 437,
+  "size_bytes": 8296777421,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [
+      53,
+      30,
+      63,
+      72,
+      57,
+      29,
+      44,
+      66,
+      31,
+      87,
+      51,
+      60,
+      69,
+      37,
+      4,
+      9,
+      14,
+      5
+    ],
+    "age_min": 4,
+    "age_max": 87,
+    "age_mean": 43.388888888888886,
+    "species": null,
+    "sex_distribution": {
+      "m": 12,
+      "f": 6
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Johannes Sarnthein",
+  "contact_info": [
+    "Vasileios S. Dimakopoulos",
+    "Johannes Sarnthein"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:50.525592+00:00",
+    "dataset_created_at": "2022-12-20T10:56:51.377Z",
+    "dataset_modified_at": "2024-10-29T11:46:29.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004381",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004381",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We acknowledge a grant awarded by the Swiss National Science Foundation(funded by the SNSF 204651 to J.S.) and a scholarship awarded by the Alexander S. Onassis Public Benefit Foundation (to V.D.). The funders had no role in the design or analysis of the study. We thank two anonymous reviewers for their constructive comments on earlier versions of the manuscript.",
+  "how_to_acknowledge": "If you use this dataset please cite this paper: Dimakopoulos V, Selmin G, Regli L, Sarnthein J, Optimization of signal-to-noise ratio in short-duration SEP recordings by variation of stimulation rate, Clinical Neurophysiology, 2023, ISSN 1388-2457, https://doi.org/10.1016/j.clinph.2023.03.008.",
+  "ethics_approvals": [
+    "2019-01977"
+  ],
+  "references_and_links": [
+    "https://hfozuri.ch"
+  ],
+  "ingestion_fingerprint": "41310d660cd201bfb246e2bea31d6523a6abc16d690db3e8f13ad74c8091feb7"
+}

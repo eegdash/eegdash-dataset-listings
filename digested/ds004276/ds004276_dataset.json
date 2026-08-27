@@ -1,0 +1,130 @@
+{
+  "dataset_id": "ds004276",
+  "name": "Auditory single word recognition in MEG",
+  "canonical_name": null,
+  "source": "openneuro",
+  "readme": "# Auditory single word recognition in MEG\nThis dataset is described in Gaston et al. (2022).\nStimuli and TextGrids are available from the Massive Auditory Lexical Decision database (Tucker et al., 2019).\nConverted to BIDS using MNE-BIDS (Appelhoff et al., 2019; Niso et al., 2018).\n# References\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nGaston, P., Brodbeck, C., Phillips, C., & Lau, E. (2022). Auditory word comprehension is less incremental in isolated words. Neurobiology of Language\nNiso, G., Gorgolewski, K. J., Bock, E., Brooks, T. L., Flandin, G., Gramfort, A., Henson, R. N., Jas, M., Litvak, V., Moreau, J., Oostenveld, R., Schoffelen, J., Tadel, F., Wexler, J., Baillet, S. (2018). MEG-BIDS, the brain imaging data structure extended to magnetoencephalography. Scientific Data, 5, 180110. https://doi.org/10.1038/sdata.2018.110\nTucker, B. V., Brenner, D., Danielson, D. K., Kelley, M. C., Nenadi\u0107, F., & Sims, M. (2019). The Massive Auditory Lexical Decision (MALD) database. Behavior Research Methods, 51(3), 1187\u20131204. https://doi.org/10.3758/s13428-018-1056-1",
+  "recording_modality": [
+    "meg"
+  ],
+  "datatypes": [
+    "meg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Phoebe Gaston",
+    "Christian Brodbeck",
+    "Colin Phillips",
+    "Ellen Lau"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds004276.v1.1.0",
+  "associated_paper_doi": null,
+  "tasks": [
+    "noise",
+    "words"
+  ],
+  "sessions": [
+    "20190925",
+    "20190930",
+    "20191007",
+    "20191015",
+    "20191025",
+    "20191112",
+    "20191115",
+    "20191122",
+    "20191125",
+    "20191202",
+    "20191204",
+    "20191206",
+    "20191209",
+    "20191210",
+    "20191211",
+    "20191212",
+    "20191213",
+    "20191216"
+  ],
+  "total_files": 36,
+  "size_bytes": 16087882081,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 19,
+    "ages": [
+      21,
+      19,
+      21,
+      19,
+      20,
+      30,
+      18,
+      20,
+      19,
+      20,
+      19,
+      20,
+      23,
+      24,
+      20,
+      20,
+      22,
+      21
+    ],
+    "age_min": 18,
+    "age_max": 30,
+    "age_mean": 20.88888888888889,
+    "species": null,
+    "sex_distribution": {
+      "f": 9,
+      "m": 9
+    },
+    "handedness_distribution": {
+      "r": 18
+    }
+  },
+  "senior_author": "Ellen Lau",
+  "contact_info": [
+    "Christian Brodbeck",
+    "Phoebe Gaston"
+  ],
+  "timestamps": {
+    "digested_at": "2026-08-27T08:44:34.243191+00:00",
+    "dataset_created_at": "2022-09-23T14:41:43.515Z",
+    "dataset_modified_at": "2026-08-18T14:50:54.000Z"
+  },
+  "storage": {
+    "backend": "s3",
+    "base": "s3://openneuro.org/ds004276",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "meg.json",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://openneuro.org/datasets/ds004276",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "references_and_links": [
+    "https://doi.org/10.1162/nol_a_00084",
+    "https://doi.org/10.3758/s13428-018-1056-1"
+  ],
+  "generated_by": [
+    {
+      "Name": "MNE-BIDS",
+      "Version": "0.19.0",
+      "CodeURL": "https://mne.tools/mne-bids/"
+    }
+  ],
+  "ingestion_fingerprint": "c99ca5f748fad43b4ea0d893c2552db3119ce22d22c32472b24c508014cc4462"
+}
