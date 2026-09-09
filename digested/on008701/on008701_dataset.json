@@ -1,0 +1,94 @@
+{
+  "dataset_id": "on008701",
+  "name": "MET - Music-Induced Emotion EEG Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on008701-blue)](https://doi.org/10.82901/nemar.on008701)\n# MET: Music-Induced EEG Dataset\n## Overview\nThe MET (Music-Induced EEG Dataset) contains EEG recordings collected from 20 participants during resting-state and music-listening experiments.\nEach participant completed:\n- One resting-state recording session (`ses-rest`)\n- Twenty music-listening sessions (`ses-t01` to `ses-t20`)\nEach music session corresponds to a different song. The total recording duration for each song is 130 seconds, including:\n- 5 seconds before music onset\n- 120 seconds of music playback\n- 5 seconds after music offset\nEEG signals were originally recorded using a 128-channel EEG system at a sampling rate of 1000 Hz. After preprocessing and channel selection, 66 EEG channels are provided in this dataset.\nThe dataset follows the Brain Imaging Data Structure (BIDS) specification for EEG recordings.\n---\n## Repository Structure\nEach EEG session contains the following files:\n*_eeg.eeg: EEG signal data in BrainVision format. (Unit: \u00b5V [microvolts])\n*_eeg.vhdr: BrainVision header file containing acquisition parameters.\n*_eeg.vmrk: Event marker file.\n*_eeg.json: EEG recording metadata.\n*_channels.tsv: Information about EEG channels, including channel names and units.\n*_events.tsv: Timing information for experimental events.\n*_events.json: Description of event variables stored in events.tsv.\n*_electrodes.tsv: Spatial coordinates of EEG electrodes.\n*_coordsystem.json: Coordinate system used for electrode locations.\n*_scans.tsv: List of files acquired during the session.\n---\n## Sample Code (PTTHON):\n```py\nfrom mne_bids import BIDSPath, read_raw_bids\n# 1. Set file path and file name\nbids_path = BIDSPath(\n    subject='01',          # subject index (eg. 01)\n    session='t01',          # trial index (eg. t01)\n    task='music',\n    datatype='eeg',\n    root='/Users/kathy/Documents/EEG data/EGI_preprocessed_bids' # directory root path\n)\n# 2. Load BIDS file\nraw_read = read_raw_bids(bids_path=bids_path, extra_params={'preload': True})\n# 3. Check Info\nprint(raw_read.info)\n```\n---\nReferences\n----------\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., H\u00f6chenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC0",
+  "authors": [
+    "Weng Lam, Cheang"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on008701",
+  "associated_paper_doi": null,
+  "tasks": [
+    "music"
+  ],
+  "sessions": [
+    "t01",
+    "t02",
+    "t03",
+    "t04",
+    "t05",
+    "t06",
+    "t07",
+    "t08",
+    "t09",
+    "t13",
+    "t15",
+    "t17",
+    "t18",
+    "t20",
+    "t23",
+    "t24",
+    "t25",
+    "t26",
+    "t27",
+    "t30"
+  ],
+  "total_files": 399,
+  "size_bytes": 14020380119,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Weng Lam, Cheang",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-09-09T07:24:09.946547+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-09-08 20:39:47"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on008701",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on008701",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds008701.v1.0.2"
+    }
+  ],
+  "ingestion_fingerprint": "fd611804f0e12f05c56369c2ebd43eb63ed72a8ffd9103d67efe08b86abb5273"
+}

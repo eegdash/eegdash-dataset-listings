@@ -1,0 +1,109 @@
+{
+  "dataset_id": "on008257",
+  "name": "EEG Moments Dataset (EMD)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on008257-blue)](https://doi.org/10.82901/nemar.on008257)\n# EEG Moments Dataset (EMD)\nThis is the data repository for the [EEG Moments Dataset (EMD)][paper_emd]. EMD contains EEG responses to 1,102 3-second videos across 6 human subjects. During the EMD experiment, the video stimuli were presented with the corresponding audio track, so as to enable analyses of visual and/or auditory processing of naturalistic dynamic events. Each subject saw the 1,000 video training set 6 times, and the 102 video testing set 24 times. Each video is additionally human-annotated with 15 object labels, 5 scene labels, 5 action labels, 5 sentence text descriptions, 1 spoken transcription, 1 memorability score, and 1 memorability decay rate.\nEMD is the EEG companion dataset of the [BOLD Moments Dataset (BMD)][paper_bmd], which consists of fMRI responses for the same 1,102 3-second videos.\nEMD additionally contains eye tracking data (gaze and pupil size) collected during the EEG experiment. Note that subjects were instructed to maintain central fixation during the stimulus video presentation.\n## \ud83d\udd0d Overview of contents\nThe home folder (everything except the `./stimuli` and the `./derivatives/` folders) contains the raw EEG and eye-tracking data in BIDS format before any preprocessing. The eye-tracking data is denoted as `physio` in the corresponding file names. Download this folder if you want to run your own preprocessing pipeline.\nThe `./stimuli/` folder contains a `.txt` file with instructions to access the video stimuli which, due to copyright permission considerations, must be downloaded separately.\nThe `./derivatives/` folder contains all data derivatives, including the stimulus metadata (`./derivatives/stimuli_metadata/`), preprocessed EEG data (`./derivatives/eeg/`), and preprocessed eye-tracking data (`./derivatives/eyetracking/`).\n## \ud83d\udcdd Data collection notes\n### \ud83e\udde0 Missing EEG data\n#### Subject 1\n- **Session 3:**\n    - **Run 10:** The first EEG video trial is missing, as the EEG recording only starts ~400ms after the onset of the first video trial.\n#### Subject 5\n- **Session 7:**\n    - **Run 16:** The EEG recording only contains the first 64 (out of 66) video trials.\n### \ud83d\udc41\ufe0f Missing eye tracking data\n#### Subject 4\n- **Session 5:**\n    - **Run 5:** The eye tracking recording only contains the first 39 (out of 66) video trials.\n- **Session 6:**\n    - **Run 10:** The eye tracking recording only contains the first 23 (out of 66) video trials.\n    - **Run 12:** The eye tracking recording only contains the first 33 (out of 66) video trials.\n#### Subject 5\n- **Session 6:**\n    - **Run 11:** The eye tracking recording only contains the first 50 (out of 66) video trials.\n## \ud83d\udcbb Code\nThe code we used for collecting, preprocessing and analyzing the EEG Moments Dataset (EMD) is available on [GitHub][github].\nIf you wish to familiarize with EMD's preprocessed EEG and eye tracking data, check out this [interactive Colab tutorial][colab].\n## \ud83d\udce7 Contact\nFor any question regarding the EEG Moments Dataset, you can get in touch with Ale Gifford (alessandro.gifford@gmail.com).\n## \ud83d\udcdc Citation\nIf you use EMD's data, please cite the paper:\n> * Gifford AT, Oyarzo P, Zonneveld AW, Sartzetaki C, Groen IIA, Cichy RM. 2026. !!!TITLE!!!. _arXiv_. DOI: [!!!!!!!!!!!!!!!!!!][paper_emd]\nIf you use EMD's stimuli or stimulus metadata, please also cite the paper:\n> * Lahner B, Dwivedi K, Iamshchinina P, Graumann M, Lascelles A, Roig G, Gifford AT, Pan B, Jin S, Murty AR, Kay K, Oliva A, Cichy RM. 2024. Modeling short visual events through the BOLD moments video fMRI dataset and metadata. _Nature Communications_. DOI: [https://doi.org/10.1038/s41467-024-50310-3][paper_bmd]\n[paper_emd]: !!!!!!!!!!!!!!!!!!!!!!!!!!!!!\n[paper_bmd]: https://doi.org/10.1038/s41467-024-50310-3\n[github]: https://github.com/gifale95/EMD\n[colab]: https://colab.research.google.com/drive/1Z5MDo8yy3sucggLQ4SMETtud2E1igRE9?usp=drive_link",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Alessandro T. Gifford",
+    "Pablo Oyarzo",
+    "Anne W. Zonneveld",
+    "Christina Sartzetaki",
+    "Iris I.A. Groen",
+    "Radoslaw M. Cichy"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on008257",
+  "associated_paper_doi": null,
+  "tasks": [
+    "video"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+  ],
+  "total_files": 768,
+  "size_bytes": 225159553491,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 6,
+    "ages": [
+      28,
+      32,
+      24,
+      23,
+      21,
+      21
+    ],
+    "age_min": 21,
+    "age_max": 32,
+    "age_mean": 24.833333333333332,
+    "species": null,
+    "sex_distribution": {
+      "m": 3,
+      "f": 3
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Radoslaw M. Cichy",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-09-09T07:24:06.862471+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-09-08 16:51:23"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on008257",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv",
+      "task-video_eeg.json",
+      "task-video_events.json",
+      "task-video_recording-eye1_physio.json",
+      "task-video_recording-eye1_physioevents.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on008257",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "??????????????????????????????",
+  "ethics_approvals": [
+    "Procedures were approved by the ethical committee of the Department of Education and Psychology at Freie Universit\u00e4t Berlin and were in accordance with the Declaration of Helsinki."
+  ],
+  "references_and_links": [
+    "Paper: ???????????????????????????????",
+    "Code: https://github.com/gifale95/EMD",
+    "BOLD Moments Dataset: https://doi.org/10.1038/s41467-024-50310-3"
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds008257.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "1ba2a303d866ad34a7b2e031fe52072e3db2f2e96630f9d692b024b12116347f"
+}
