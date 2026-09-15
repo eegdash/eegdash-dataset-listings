@@ -1,0 +1,98 @@
+{
+  "dataset_id": "on002720",
+  "name": "A  dataset  recorded  during  development  of a  tempo-based  brain-computer  music  interface",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on002720-blue)](https://doi.org/10.82901/nemar.on002720)\n0. Sections\n------------\n1. Project\n2. Dataset\n3. Terms of Use\n4. Contents\n5. Method and Processing\n1. PROJECT\n------------\nTitle: Brain-Computer Music Interface for Monitoring and Inducing Affective States (BCMI-MIdAS)\nDates: 2012-2017\nFunding organisation: Engineering and Physical Sciences Research Council (EPSRC)\nGrant no.: EP/J003077/1\n2. DATASET\n------------\nTitle: EEG from a Brain-Computer Music Interface for controlling music tempo.\nDescription: This dataset accompanies the publication by Daly et al. (2018) and has been analysed in Daly et al. (2014a; 2014b) (please see Section 5 for full references). The dataset is obtained from a music-based Brain-Computer Interface constructed to allow users to modulate the tempo of a piece of music dynamically via intentional control. The dataset contains the electroencephalogram (EEG) data from 19 healthy participants instructed to increase the tempo of the music via kinaesthetically imagining squeezing a ball in their right hand or decrease the tempo by relaxing. The paradigm was split into 9 runs. The first was a calibration run, containing 30 trials in pairs of increase and decrease tempo trials.\nPublication Year: 2018\nCreators: Nicoletta Nicolaou, Ian Daly\nContributors: Isil Poyraz Bilgin, James Weaver, Asad Malik, Alexis Kirke, Duncan Williams.\nPrincipal Investigator: Slawomir Nasuto (EP/J003077/1).\nCo-Investigator: Eduardo Miranda (EP/J002135/1).\nOrganisation: University of Reading\nRights-holders: University of Reading\nSource: The synthetic generator used to generate the music clips was presented in Williams et al., \u00e2\u20ac\u0153Affective Calibration of Musical Feature Sets in an Emotionally Intelligent Music Composition System\u00e2\u20ac\u009d, ACM Trans. Appl. Percept. 14, 3, Article 17 (May 2017), 13 pages. DOI: https://doi.org/10.1145/3059005\n3. TERMS OF USE\n-----------------\nCopyright University of Reading, 2018. This dataset is licensed by the rights-holder(s) under a Creative Commons Attribution 4.0 International Licence: https://creativecommons.org/licenses/by/4.0/.\n4. CONTENTS\n------------\nZip File listing:\nThe dataset comprises data from 19 subjects.\nThe data is provided in BIDS format. The sampling rate is 1 kHz and the EEG corresponding to a music clip is 20 s long (the duration of the clips).\n5. METHOD and PROCESSING\n--------------------------\nThis information is available in the following publications:\n[1] Daly, I., \u2026 \u201c\u201d, Dataset paper, 2018.\n[2] Daly, I., Hallowell, J., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Williams, D., Miranda, E. R., Nasuto, S. J., \u201cChanges in music tempo entrain movement related brain activity\u201d, in Proc. 36th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC'14), Chicago, Illinois, USA; pp. , 2014a.\n[3] Daly, I., Williams, D., Hwang, F., Kirke, A., Malik, A., Roesch, E., Weaver, J., Miranda, E. R., Nasuto, S. J., \u201cBrain-computer music interfacing for continuous control of musical tempo\u201d, in Proc. 6th International Brain-Computer Interface Conference 2014, Graz, Austria; 2014b\nPlease cite these references and the reference to the music generator if you use this dataset in your study.\nThank you for your interest in our work.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.0.2",
+  "license": "CC0",
+  "authors": [
+    "Ian Daly",
+    "Nicoletta Nicolaou",
+    "Duncan Williams",
+    "Faustina Hwang",
+    "Alexis Kirke",
+    "Eduardo Miranda",
+    "Slawomir J. Nasuto"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on002720",
+  "associated_paper_doi": null,
+  "tasks": [],
+  "sessions": [],
+  "total_files": 165,
+  "size_bytes": 2566224912,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [
+      23,
+      24,
+      28,
+      20,
+      19,
+      26,
+      20,
+      23,
+      23,
+      21,
+      21,
+      23,
+      21,
+      18,
+      19,
+      19,
+      19,
+      24
+    ],
+    "age_min": 18,
+    "age_max": 28,
+    "age_mean": 21.72222222222222,
+    "species": null,
+    "sex_distribution": {
+      "m": 14,
+      "f": 4
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Slawomir J. Nasuto",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-09-15T07:51:53.491762+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-21 07:04:41"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on002720",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on002720",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "source_datasets": [
+    {
+      "DOI": "10.18112/openneuro.ds002720.v1.0.1"
+    }
+  ],
+  "ingestion_fingerprint": "ee6419578422a5424e0560ac8aa21be9476e66fd07651b0f923d7634c638a3a3"
+}
