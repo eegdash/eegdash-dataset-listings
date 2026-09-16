@@ -1,0 +1,150 @@
+{
+  "dataset_id": "on004148",
+  "name": "A test-retest resting and cognitive state EEG dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on004148-blue)](https://doi.org/10.82901/nemar.on004148)\n#  General information\nThis dataset contains resting(eyes closed, eyes open) and cognitive(subtraction, music, memory) state EEG recordings with 60 participants\nduring three experimental sessions together with sleep, emotion, mental health, and mind-wandering related measures\n#    Dataset\n##   Presentation\n     The data collection was initiated in September 2019 and was terminated in April 2021. The detailed description of the dataset is currently under working\n     by Yulin Wang, and will submit to Scientific Data for publication.\n#### EEG acquisition\n     * EEG system (Brain Products GmbH, Steing- rabenstr, Germany, 64 electrodes)\n     * Sampling frequency: 500Hz\n     * Impedances were kept below 5k\n## Contact\n     * If you have any questions or comments, please contact:\n     * Xu Lei: xlei@swu.edu.cn\n     * Yulin Wang: yulin.wang90.swu@gmail.com",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.2",
+  "license": "CC0",
+  "authors": [
+    "Yulin Wang",
+    "Wei Duan",
+    "Lihong Ding",
+    "Debo Dong",
+    "Xu Lei"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on004148",
+  "associated_paper_doi": null,
+  "tasks": [
+    "eyesclosed",
+    "eyesopen",
+    "mathematic",
+    "memory",
+    "music"
+  ],
+  "sessions": [
+    "session1",
+    "session2",
+    "session3"
+  ],
+  "total_files": 900,
+  "size_bytes": 100121525766,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 60,
+    "ages": [
+      19,
+      19,
+      19,
+      20,
+      19,
+      21,
+      20,
+      19,
+      21,
+      21,
+      20,
+      21,
+      19,
+      19,
+      22,
+      25,
+      20,
+      19,
+      19,
+      19,
+      22,
+      22,
+      19,
+      19,
+      18,
+      20,
+      19,
+      20,
+      20,
+      20,
+      18,
+      20,
+      19,
+      22,
+      21,
+      21,
+      19,
+      21,
+      20,
+      19,
+      20,
+      19,
+      20,
+      19,
+      22,
+      21,
+      18,
+      19,
+      20,
+      21,
+      20,
+      18,
+      20,
+      18,
+      18,
+      18,
+      18,
+      18,
+      28,
+      26
+    ],
+    "age_min": 18,
+    "age_max": 28,
+    "age_mean": 20.016666666666666,
+    "species": null,
+    "sex_distribution": {
+      "m": 28,
+      "f": 32
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Xu Lei",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-09-16T07:41:48.879285+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-06-23 13:16:10"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on004148",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on004148",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "This dataset has received funding supproted from the National Natural Science Foundation of China (grant number 31971028) and the Major Project of Medicine Science and Technology of PLA (AWS17J012)",
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds004148.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "8c7aecf97955cda287da743cfcfaefd80f3098d3bc30f899928179ba8083f14a"
+}
