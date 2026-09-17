@@ -1,0 +1,95 @@
+{
+  "dataset_id": "nm000279",
+  "name": "ZuCo 2.0: EEG and Eye-Tracking during Natural Reading and Annotation",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000279-blue)](https://doi.org/10.82901/nemar.nm000279)\n# ZuCo 2.0: EEG and Eye-Tracking during Natural Reading and Annotation\nSimultaneous 128-channel EEG (EGI Geodesic, 500 Hz, Cz reference) and eye-tracking (EyeLink 1000, 500 Hz, left eye) while adult native English speakers read natural sentences.\nTasks: nr (Normal reading (task 1): naturalistic reading of Wikipedia sentences.), tsr (Task-specific reading (task 2): reading Wikipedia sentences while annotating specific semantic relations.)\nEach reading block is a run; eye-tracking gaze/pupil samples are co-located _recording-eyetrack_physio, fixations/saccades/blinks are in events.tsv.\nCite: Hollenstein, N., Troendle, M., Zhang, C., & Langer, N. (2020). ZuCo 2.0: A Dataset of Physiological Recordings During Natural Reading and Annotation. LREC 2020.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Nora Hollenstein",
+    "Marius Tr\u00f6ndle",
+    "Ce Zhang",
+    "Nicolas Langer"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000279",
+  "associated_paper_doi": null,
+  "tasks": [
+    "nr",
+    "tsr"
+  ],
+  "sessions": [],
+  "total_files": 252,
+  "size_bytes": 19698373353,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Nicolas Langer",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-09-17T07:33:20.684345+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-09-16 17:22:37"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000279",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-nr_eeg.json",
+      "task-nr_events.json",
+      "task-tsr_eeg.json",
+      "task-tsr_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000279",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Recorded at the University of Zurich. Adult native English speakers read natural sentences while 128-channel EEG (EGI Geodesic) and eye-tracking (EyeLink 1000) were recorded simultaneously.",
+  "how_to_acknowledge": "Hollenstein, N., Troendle, M., Zhang, C., & Langer, N. (2020). ZuCo 2.0: A Dataset of Physiological Recordings During Natural Reading and Annotation. LREC 2020.",
+  "ethics_approvals": [
+    "Ethics Commission of the University of Zurich"
+  ],
+  "references_and_links": [
+    "https://aclanthology.org/2020.lrec-1.18/",
+    "https://osf.io/2urht/"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_zuco.py",
+      "Description": "EEGLAB->BIDS EEG (GSN-HydroCel-128) + EyeLink eye-tracking physio + reading events"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.18653/v1/2020.lrec-1.18"
+    }
+  ],
+  "ingestion_fingerprint": "d0b0bfebb242ede52956ef0ae3266bb63a5cacdf6e6aaa00a5a5f81746da77d1"
+}
