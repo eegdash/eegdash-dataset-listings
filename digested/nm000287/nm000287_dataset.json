@@ -1,0 +1,100 @@
+{
+  "dataset_id": "nm000287",
+  "name": "Muse Sleep-Onset EEG \u2014 EEG/EMG Foundation Challenge 2026, Track 03",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000287-blue)](https://doi.org/10.82901/nemar.nm000287)\n# Muse sleep-onset EEG\nThis dataset contains 540 at-home EEG recordings from 203 participants, collected\nby Muse for Track 03 of the EEG/EMG Foundation Challenge 2026. The task is to\npredict the time remaining until the first N2 sleep epoch using only EEG recorded\nup to the time of prediction.\nThe recordings total approximately 157.52 hours and last about 6 to 30 minutes\neach. All have four channels (TP9, AF7, AF8, TP10) sampled at 128 Hz, with one\nannotation marking the first N2 epoch. Full sleep-stage annotations are not\nincluded.\n[Competition](https://neural-interfaces26.github.io/tracks.html) \u00b7\n[Track 03 on Codabench](https://www.codabench.org/competitions/17983/)\n## Recordings and split\nAll 540 recordings are included in the NEMAR deposit, `nm000287`. The supplied\nsplit is stored in each participant's `sub-<label>_sessions.tsv`:\n| Split | Recordings | Participants |\n| --- | ---: | ---: |\n| Train | 500 | 203 |\n| Test | 40 | 40 |\nEvery test participant also appears in training. This split therefore evaluates\nnew recordings from known participants, not generalization to unseen people.\nIt reproduces the supplied `splits.csv`; the assignments are included in the\nsession tables, so that external file is not needed to use the deposit.\nThe competition evaluates both seen and unseen participants using weighted\nbinned mean absolute error (W-bMAE). This deposit does not contain an unseen-person\ntest cohort. Follow the competition code for evaluation windows, target clipping\nand scoring.\n## Read the data\nRecordings use EEG-BIDS with BrainVision `.vhdr`, `.vmrk` and `.eeg` files.\nRead them with MNE-BIDS, which applies the units and scaling from the header and\nloads the accompanying BIDS metadata:\n```python\nfrom mne_bids import BIDSPath, read_raw_bids\npath = BIDSPath(\n    root=\"nm000287\", subject=\"001\", session=\"001\", task=\"sleeponset\",\n    datatype=\"eeg\", suffix=\"eeg\", extension=\".vhdr\",\n)\nraw = read_raw_bids(path)\n```\nSet `root` to your local dataset directory. The binary EEG contains multiplexed\n32-bit floats; reading it without the header scaling gives incorrect amplitudes.\nEach `events.tsv` contains one `n2_onset` event (`value=1`). Its `onset` is in\nseconds from recording start, and `sample` is a zero-based sample index.\nBrainVision marker positions are one-based. A `duration` of zero marks an instant,\nnot the length of an N2 epoch. The marker's `Stimulus` label is an export convention.\nThe N2 scoring method is not documented.\nSession tables also contain sample counts, durations, N2 onset and signal-quality\nflags; `sessions.json` defines these columns. `participants.tsv` contains recording\ncounts and total durations. Demographics and acquisition dates are unavailable.\nSession onset times are relative to recording start, not necessarily lights out.\nIn EEG sidecars, `RecordingDuration` is the time to the last sample,\n`(number_of_samples - 1) / 128`; session durations use `number_of_samples / 128`.\n## Keep recording length out of the model\nEvery recording ends exactly 300 seconds after N2 onset. Knowing the full\nrecording length therefore reveals the target without using EEG:\n```text\nrecording start                 first N2                 recording end\n      |---------------------------|---------------------------|\n      0                         onset                    onset + 300 s\nAt time t: use EEG up to t to predict onset - t.\n```\nFor causal evaluation, hide total duration, sample counts, end-of-file information,\nN2 annotations and future EEG from the model. Whole-recording quality summaries\nand participant total durations must also remain outside the inputs. Preprocessing\nmust not use future samples. These files do not enforce those restrictions;\nthe evaluation pipeline must enforce them.\n## Acquisition and signal quality\nThe curator identified the hardware as Muse S family. The exact generation,\nfirmware, reference and ground are unconfirmed. Headers identify pybv 0.7.5 as\nthe export software, not the acquisition software. The stored rate is 128 Hz.\nDownsampling from 256 Hz is a curator-supplied assumption; the original rate,\nresampling method and anti-aliasing filter have not been verified.\nPrior filtering is unknown. `HardwareFilters: n/a` means that this information\nis unavailable. The supplied 60 Hz power-line setting and channel cutoff fields\nhave been preserved but not independently verified. No filtering, resampling\nor signal correction was performed during metadata preparation.\nA screen of all 2,160 channel-recordings found no nonfinite samples or exactly\nconstant aligned two-second windows. Median Welch spectra flagged 726\nchannel-recordings at 50 Hz and 958 at 60 Hz, using peaks more than 10 dB above\nadjacent bands. In 217 channel-recordings, more than 1% of samples exceeded\n500 microvolts in absolute amplitude. At the recording level, 200 had 50 Hz\nflags, 294 had 60 Hz flags and 128 had amplitude flags; these groups overlap.\nThe flags identify recordings to inspect, not a diagnosis of artifacts.\nNo isolated 50/60 Hz dip exceeded 10 dB below both spectral shoulders; apparent\n60 Hz suppression against a combined baseline can reflect broad roll-off.\nThese spectra do not establish whether a notch filter was previously applied.\nAll source channels are marked `good`, but those labels are not independent\nquality checks. Per-recording flags are described in `SubjectArtefactDescription`\nand the session tables. Detailed audit scripts and spectra are not included in\nthis deposit.\nElectrode and anatomical-landmark coordinates are identical across recordings,\nin metres in the CapTrak frame. Their provenance is unknown; they should not be\ntreated as participant-specific measurements. Exact binary comparisons found\nno duplicate EEG files, including across splits. Partial overlap and transformed\nduplicates were not tested. Missing dates prevent checking chronological separation.\n## Credit, consent and validation\nCredit **Muse Team** and cite dataset `nm000287` with the version used. The data\nare licensed under [CC-BY-NC-SA-4.0](LICENSE), matching the emg2pose release.\nMuse determined internally that this collection was exempt from ethics review.\nThe depositor confirmed authorization and participant consent for sharing,\nabsence of identifiable personal information, and destruction of the\nre-identification key.\nBefore upload, BIDS validation passed with no errors. All 540 recordings were\nchecked for consistent splits, channel order, sample counts and event timing.\nWarnings remain for unavailable recommended metadata and collective authorship;\nno HED tags are used. To validate a local copy, run:\n```sh\nnemar dataset validate nm000287\n```\nFor the file conventions, see [EEG-BIDS (Pernet et al., 2019)](https://doi.org/10.1038/s41597-019-0104-8)\nand [MNE-BIDS (Appelhoff et al., 2019)](https://doi.org/10.21105/joss.01896).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC-BY-NC-SA-4.0",
+  "authors": [
+    "Muse Team"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000287",
+  "associated_paper_doi": null,
+  "tasks": [
+    "sleeponset"
+  ],
+  "sessions": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005"
+  ],
+  "total_files": 540,
+  "size_bytes": 1164647485,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 203,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Muse Team",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-09-25T07:31:07.730103+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-09-24 17:53:48"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000287",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "LICENSE",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "sessions.json",
+      "task-sleeponset_eeg.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000287",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Collective at-home data collection by participants, provided by Muse for Track 03 (Sleep onset) of the EEG/EMG Foundation Challenge 2026. Collective authorship and the license matching emg2pose were specified by the dataset curator.",
+  "how_to_acknowledge": "Credit Muse Team and identify this Muse Sleep-Onset EEG dataset and its version. Include the dataset DOI when one is assigned, and retain the CC-BY-NC-SA-4.0 license attribution.",
+  "ethics_approvals": [
+    "Muse determined internally that this collection was exempt from ethics review. The depositor confirmed authorization and participant consent for sharing, absence of identifiable personal information, and destruction of the re-identification key."
+  ],
+  "references_and_links": [
+    "https://neural-interfaces26.github.io/tracks.html",
+    "https://neural-interfaces26.github.io/organizers.html",
+    "https://www.codabench.org/competitions/17983/",
+    "https://doi.org/10.21105/joss.01896",
+    "https://doi.org/10.1038/s41597-019-0104-8"
+  ],
+  "generated_by": [
+    {
+      "Name": "pybv",
+      "Version": "0.7.5",
+      "Description": "BrainVision export; software and version recorded in the supplied .vhdr and .vmrk headers. This identifies the export software, not the acquisition firmware or full preprocessing pipeline."
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://neural-interfaces26.github.io/tracks.html"
+    }
+  ],
+  "ingestion_fingerprint": "5acfefee4d9286ded7737f41d7f7eb1c4f295d152404474bd915bfc92174f56b"
+}
