@@ -1,0 +1,150 @@
+{
+  "dataset_id": "nm000280",
+  "name": "A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000280-blue)](https://doi.org/10.82901/nemar.nm000280)\n# A steady-state visual evoked potential (SSVEP)-based BCI dataset in children and adolescents\nEEG from 47 neurotypical children and adolescents (5-18 years, mean 12.6 +/- 3.9;\n19 female) who each completed a two-stage SSVEP-BCI session: a stimulus\npersonalization pipeline, then an online 4-target SSVEP game. Recorded with a\ng.tec g.GAMMAsys gel-based system (g.USBamp, g.GAMMAcap), 16 channels at 256 Hz,\nearlobe reference, Fpz ground.\nReleased by the BCI4Kids program to support signal-processing methods developed\nspecifically for pediatric SSVEP-BCI data.\n## Contents\n    sub-<label>/ses-S001/eeg/    BrainVision EEG + BIDS sidecars\n    sourcedata/                  the original Zenodo v3.0 distribution, verbatim\n## Tasks\n| task | description |\n|------|-------------|\n| `T1` | Stimulus personalization: 12 stimuli (4 contrasts x 3 sizes), all flickering at 10 Hz. |\n| `T2`, `T3` | Online 4-target SSVEP game at 6.25 / 10 / 11.11 / 14.28 Hz, played on two themed maps -- once with the participant's personal stimulus and once with a high-contrast standard. |\n| `T4` | An additional game run, present for sub-P026 only. |\nFour participants (sub-P016, sub-P023, sub-P039, sub-P043) have a single game\nrun rather than two.\n## The `acq` entity\nGame runs carry `acq-<stimulus><map>`, joining two properties the upstream\nfilenames separated with an underscore (`acq-C4S1_M1`), which BIDS would read as\ntwo entities:\n* stimulus -- `BW` is the high-contrast standard stimulus; `C<x>S<y>` is the\n  personal stimulus at contrast `<x>`, size `<y>`.\n* map -- `M1` or `M2`, the themed map used for that game.\nSo `acq-C4S1M1` is \"personal stimulus, contrast 4 size 1, map 1\", and `acq-BWM2`\nis \"standard stimulus, map 2\".\n## Events\n`events.tsv` reports the Unity marker stream verbatim, as logged during the\nexperiment. Game runs additionally logged the live fbCCA classifier output in a\nseparate stream; that stream is *not* folded into `trial_type`, because it is\nthe frequency the system identified rather than the frequency the participant\nwas asked to look at.\n> **Trial labels are not ground truth.** The frequency a participant was\n> instructed to attend is recorded in the per-game movement CSVs under\n> `sourcedata/`, together with the corner-to-frequency mapping, which was\n> randomised across the game. Treating the classifier's selection as the label\n> biases benchmarks toward fbCCA's behaviour.\n## Provenance\nThe Zenodo release states BIDS in its `dataset_description.json` and README, but\nships raw XDF recordings with BIDS-style filenames and no sidecars. This deposit\nconverts those recordings to BrainVision with `mne-bids`, deriving\n`channels.tsv`, `events.tsv` and the JSON sidecars. Channel order, the\nmicrovolt-to-volt scaling and the `standard_1020` montage follow the MOABB\n`Schrag2026Pediatric` reader, so this deposit and that loader agree.\nNo electrode coordinate files are included. Positions were never digitised for\nthis study, and writing the idealised `standard_1020` template coordinates would\nhave required labelling them `space-CapTrak`, which asserts a measurement that\ndid not happen. All channels carry standard 10-20 names, so the template montage\nis recoverable in one call (`raw.set_montage(\"standard_1020\")`), which is what\nthe MOABB reader does.\nEverything published on Zenodo -- including the comfort ratings, the movement\nCSVs and videos, the surveys and the supplementary files, none of which BIDS\nrepresents -- is preserved unchanged under `sourcedata/`.\n## Ethics\nThis study was approved by the **University of Calgary Conjoint Health Research\nEthics Board under ID REB25-0723**. Informed assent and parental consent were\nobtained for all participants, and all participants -- or their guardians --\nconsented to the sharing and publication of their de-identified data. The data\nwere collected from participants recruited through the Healthy Infants and\nChildren's Clinical Research Program, a community-based healthy-control\nrecruitment program.\n## Licence\nCC-BY-4.0, following the licence the authors set on Zenodo version 3.0. Earlier\nversions (1.0 and 2) were CC-BY-ND-4.0. Note that the `dataset_description.json`\n*inside* the version 3.0 archive still carries the superseded `CC-BY-ND-4.0`\nstring and the older concept DOI; the Zenodo record itself is authoritative and\nstates CC-BY-4.0.\n## Citation\nSchrag, E., Comaduran Marquez, D., Kirton, A., & Kinney-Lang, E. (2026).\n*A steady-state visual evoked potential-based brain-computer interface dataset\nin children and adolescents.* Research Square preprint.\nhttps://doi.org/10.21203/rs.3.rs-9347306/v1\nDataset: https://doi.org/10.5281/zenodo.19440996",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Emily Schrag",
+    "Daniel Comaduran Marquez",
+    "Adam Kirton",
+    "Eli Kinney-Lang"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000280",
+  "associated_paper_doi": null,
+  "tasks": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "sessions": [
+    "S001"
+  ],
+  "total_files": 138,
+  "size_bytes": 2588456549,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 47,
+    "ages": [
+      12,
+      10,
+      12,
+      13,
+      16,
+      14,
+      9,
+      17,
+      16,
+      8,
+      11,
+      9,
+      10,
+      17,
+      17,
+      6,
+      16,
+      17,
+      15,
+      10,
+      12,
+      8,
+      11,
+      17,
+      17,
+      17,
+      9,
+      17,
+      17,
+      17,
+      17,
+      18,
+      10,
+      12,
+      11,
+      9,
+      17,
+      14,
+      5,
+      15,
+      15,
+      16,
+      5,
+      8,
+      6,
+      7,
+      10
+    ],
+    "age_min": 5,
+    "age_max": 18,
+    "age_mean": 12.595744680851064,
+    "species": null,
+    "sex_distribution": {
+      "m": 28,
+      "f": 19
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Eli Kinney-Lang",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-08T08:46:32.863526+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-08 05:41:02"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000280",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000280",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Data collected by the BCI4Kids program.",
+  "how_to_acknowledge": "Please cite the dataset (https://doi.org/10.5281/zenodo.19440996) and the associated paper (https://doi.org/10.21203/rs.3.rs-9347306/v1).",
+  "ethics_approvals": [
+    "University of Calgary Conjoint Health Research Ethics Board, REB25-0723. Informed assent and parental consent were obtained for all participants, and all participants (or their guardians) consented to the sharing and publication of their de-identified data."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.21203/rs.3.rs-9347306/v1",
+    "https://doi.org/10.5281/zenodo.19440996"
+  ],
+  "generated_by": [
+    {
+      "Name": "mne-bids",
+      "Version": "0.19.0",
+      "CodeURL": "https://mne.tools/mne-bids/",
+      "Description": "Converted from the raw XDF recordings published in Zenodo version 3.0 into BIDS-compliant BrainVision files. Channel order, microvolt-to-volt scaling and the standard_1020 montage follow the MOABB Schrag2026Pediatric reader."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.20848097",
+      "URL": "https://zenodo.org/records/20848097",
+      "Version": "3.0"
+    }
+  ],
+  "ingestion_fingerprint": "75b5707fa09af0cca6cefb98cbfbfbf1201f8284bde1fb4188414cd83d57d19c"
+}

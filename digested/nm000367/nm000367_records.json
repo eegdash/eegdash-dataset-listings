@@ -1,0 +1,1997 @@
+{
+  "dataset": "nm000367",
+  "source": "nemar",
+  "digested_at": "2026-10-08T08:47:23.126691+00:00",
+  "record_count": 16,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-7_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-7/ieeg/sub-7_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-7/ieeg/sub-7_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "7",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "7",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-7/ieeg/sub-7_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-7/ieeg/sub-7_task-cogboundary_channels.tsv",
+          "sub-7/ieeg/sub-7_task-cogboundary_events.tsv",
+          "sub-7/ieeg/sub-7_task-cogboundary_events.json",
+          "sub-7/ieeg/sub-7_electrodes.tsv",
+          "sub-7/ieeg/sub-7_coordsystem.json",
+          "sub-7/ieeg/sub-7_task-cogboundary_ieeg.json",
+          "sub-7/ieeg/sub-7_task-cogboundary_ieeg.eeg",
+          "sub-7/ieeg/sub-7_task-cogboundary_ieeg.vmrk",
+          "sub-7/ieeg/sub-7_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-7/ieeg/sub-7_task-cogboundary_ieeg.vhdr": "SHA256E-s1478--4a54795a531d82850657d5df108439e8946213df45421434126e6dc3812a5998.vhdr",
+          "sub-7/ieeg/sub-7_task-cogboundary_ieeg.eeg": "SHA256E-s62132304--c3e461204c1656e4b1bac5a91fcf413fa0ad6b01167efac5541b1b4deaab7b67.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-130",
+        "NLX-microwires-131",
+        "NLX-microwires-132",
+        "NLX-microwires-133",
+        "NLX-microwires-134",
+        "NLX-microwires-135",
+        "NLX-microwires-136",
+        "NLX-microwires-147",
+        "NLX-microwires-148",
+        "NLX-microwires-149",
+        "NLX-microwires-150",
+        "NLX-microwires-151",
+        "NLX-microwires-152",
+        "NLX-microwires-161",
+        "NLX-microwires-170",
+        "NLX-microwires-172",
+        "NLX-microwires-173",
+        "NLX-microwires-174",
+        "NLX-microwires-175",
+        "NLX-microwires-178",
+        "NLX-microwires-179",
+        "NLX-microwires-180",
+        "NLX-microwires-181",
+        "NLX-microwires-182",
+        "NLX-microwires-183",
+        "NLX-microwires-184"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 26,
+      "ntimes": 597426,
+      "duration_seconds": 2987.13,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 63.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 7.0,
+        "lab_patient_code": "TWH111",
+        "same_participant_in": null,
+        "paper_participant_id": 7.0,
+        "paper_n_neurons_inside_mtl": 34.0,
+        "paper_n_neurons_outside_mtl": 21.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 26.0,
+        "lfp_regions": "amygdala_left,hippocampus_left,parahippocampal_gyrus_left,ventral_medial_prefrontal_cortex_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2987.13,
+      "montage_hash": "6b2b0aeb922beb41"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-14_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-14/ieeg/sub-14_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-14/ieeg/sub-14_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-14/ieeg/sub-14_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-14/ieeg/sub-14_task-cogboundary_channels.tsv",
+          "sub-14/ieeg/sub-14_task-cogboundary_events.tsv",
+          "sub-14/ieeg/sub-14_task-cogboundary_events.json",
+          "sub-14/ieeg/sub-14_electrodes.tsv",
+          "sub-14/ieeg/sub-14_coordsystem.json",
+          "sub-14/ieeg/sub-14_task-cogboundary_ieeg.json",
+          "sub-14/ieeg/sub-14_task-cogboundary_ieeg.eeg",
+          "sub-14/ieeg/sub-14_task-cogboundary_ieeg.vmrk",
+          "sub-14/ieeg/sub-14_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/ieeg/sub-14_task-cogboundary_ieeg.vhdr": "SHA256E-s1232--4db7c77dc4c88b2a26e2f870af975682cd5df348d6ca617961862a0df4583388.vhdr",
+          "sub-14/ieeg/sub-14_task-cogboundary_ieeg.eeg": "SHA256E-s38790792--f68070be8a80feffd340234f452dadb87ec6fa4837f1516a0910b9ac58abf80a.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-154",
+        "NLX-microwires-155",
+        "NLX-microwires-156",
+        "NLX-microwires-157",
+        "NLX-microwires-160",
+        "NLX-microwires-162",
+        "NLX-microwires-164",
+        "NLX-microwires-165",
+        "NLX-microwires-167",
+        "NLX-microwires-168",
+        "NLX-microwires-170",
+        "NLX-microwires-173",
+        "NLX-microwires-174",
+        "NLX-microwires-175",
+        "NLX-microwires-181",
+        "NLX-microwires-186",
+        "NLX-microwires-189",
+        "NLX-microwires-192"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 18,
+      "ntimes": 538761,
+      "duration_seconds": 2693.805,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 14.0,
+        "lab_patient_code": "TWH120",
+        "same_participant_in": null,
+        "paper_participant_id": 14.0,
+        "paper_n_neurons_inside_mtl": 30.0,
+        "paper_n_neurons_outside_mtl": 19.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 18.0,
+        "lfp_regions": "amygdala_right,hippocampus_left,hippocampus_right,parahippocampal_gyrus_left,parahippocampal_gyrus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2693.805,
+      "montage_hash": "024ede72c6198f57"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-12_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-12/ieeg/sub-12_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-12/ieeg/sub-12_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-12/ieeg/sub-12_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-12/ieeg/sub-12_task-cogboundary_channels.tsv",
+          "sub-12/ieeg/sub-12_task-cogboundary_events.tsv",
+          "sub-12/ieeg/sub-12_task-cogboundary_events.json",
+          "sub-12/ieeg/sub-12_electrodes.tsv",
+          "sub-12/ieeg/sub-12_coordsystem.json",
+          "sub-12/ieeg/sub-12_task-cogboundary_ieeg.json",
+          "sub-12/ieeg/sub-12_task-cogboundary_ieeg.eeg",
+          "sub-12/ieeg/sub-12_task-cogboundary_ieeg.vmrk",
+          "sub-12/ieeg/sub-12_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/ieeg/sub-12_task-cogboundary_ieeg.vhdr": "SHA256E-s1883--34c87b9fb9c3368b8c553142ca4fad9d55a97e4ee62df76413b6829f3135e848.vhdr",
+          "sub-12/ieeg/sub-12_task-cogboundary_ieeg.eeg": "SHA256E-s91093860--4de44000d037fa8cace221e1ee42753da2e2bd6ccb923ec8060fe1388ae1479f.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-129",
+        "NLX-microwires-130",
+        "NLX-microwires-131",
+        "NLX-microwires-132",
+        "NLX-microwires-133",
+        "NLX-microwires-134",
+        "NLX-microwires-135",
+        "NLX-microwires-137",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-141",
+        "NLX-microwires-142",
+        "NLX-microwires-144",
+        "NLX-microwires-145",
+        "NLX-microwires-146",
+        "NLX-microwires-147",
+        "NLX-microwires-148",
+        "NLX-microwires-149",
+        "NLX-microwires-150",
+        "NLX-microwires-151",
+        "NLX-microwires-152",
+        "NLX-microwires-154",
+        "NLX-microwires-155",
+        "NLX-microwires-156",
+        "NLX-microwires-157",
+        "NLX-microwires-159",
+        "NLX-microwires-160",
+        "NLX-microwires-161",
+        "NLX-microwires-162",
+        "NLX-microwires-164",
+        "NLX-microwires-165",
+        "NLX-microwires-168",
+        "NLX-microwires-169",
+        "NLX-microwires-170",
+        "NLX-microwires-171",
+        "NLX-microwires-173",
+        "NLX-microwires-174",
+        "NLX-microwires-175",
+        "NLX-microwires-176"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 39,
+      "ntimes": 583935,
+      "duration_seconds": 2919.675,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 63.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Cedars-Sinai Medical Center",
+        "dandi_subject_id": 12.0,
+        "lab_patient_code": "P64CS",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-7",
+        "paper_participant_id": 12.0,
+        "paper_n_neurons_inside_mtl": 28.0,
+        "paper_n_neurons_outside_mtl": 42.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Right lateral temporal neocortical",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 39.0,
+        "lfp_regions": "amygdala_left,dorsal_anterior_cingulate_cortex_left,dorsal_anterior_cingulate_cortex_right,hippocampus_left,pre_supplementary_motor_area_left,pre_supplementary_motor_area_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Cedars-Sinai Medical Center",
+      "recording_type": "continuous",
+      "recording_duration": 2919.675,
+      "montage_hash": "c91c3c5e21c92438"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-15_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-15/ieeg/sub-15_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-15/ieeg/sub-15_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-15/ieeg/sub-15_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-15/ieeg/sub-15_task-cogboundary_channels.tsv",
+          "sub-15/ieeg/sub-15_task-cogboundary_events.tsv",
+          "sub-15/ieeg/sub-15_task-cogboundary_events.json",
+          "sub-15/ieeg/sub-15_electrodes.tsv",
+          "sub-15/ieeg/sub-15_coordsystem.json",
+          "sub-15/ieeg/sub-15_task-cogboundary_ieeg.json",
+          "sub-15/ieeg/sub-15_task-cogboundary_ieeg.eeg",
+          "sub-15/ieeg/sub-15_task-cogboundary_ieeg.vmrk",
+          "sub-15/ieeg/sub-15_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/ieeg/sub-15_task-cogboundary_ieeg.vhdr": "SHA256E-s1418--33621afe1d4ad7cd63b4a3c4d8e8419dca8918cb39dda577fdf0d596b5cda868.vhdr",
+          "sub-15/ieeg/sub-15_task-cogboundary_ieeg.eeg": "SHA256E-s59014464--05cef2476eed2607f183788bbe2ef85cff08981f6129bb05b01a70309774fb7c.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-132",
+        "NLX-microwires-133",
+        "NLX-microwires-135",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-143",
+        "NLX-microwires-163",
+        "NLX-microwires-164",
+        "NLX-microwires-165",
+        "NLX-microwires-171",
+        "NLX-microwires-172",
+        "NLX-microwires-174",
+        "NLX-microwires-176",
+        "NLX-microwires-178",
+        "NLX-microwires-181",
+        "NLX-microwires-183",
+        "NLX-microwires-184",
+        "NLX-microwires-186",
+        "NLX-microwires-187",
+        "NLX-microwires-188",
+        "NLX-microwires-190",
+        "NLX-microwires-219",
+        "NLX-microwires-224"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 24,
+      "ntimes": 614734,
+      "duration_seconds": 3073.67,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 15.0,
+        "lab_patient_code": "TWH125",
+        "same_participant_in": null,
+        "paper_participant_id": 15.0,
+        "paper_n_neurons_inside_mtl": 31.0,
+        "paper_n_neurons_outside_mtl": 20.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 24.0,
+        "lfp_regions": "amygdala_left,amygdala_right,hippocampus_left,hippocampus_right,parahippocampal_gyrus_left,parahippocampal_gyrus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 3073.67,
+      "montage_hash": "8293d59fbff60d0e"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-16_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-16/ieeg/sub-16_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-16/ieeg/sub-16_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-16/ieeg/sub-16_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-16/ieeg/sub-16_task-cogboundary_channels.tsv",
+          "sub-16/ieeg/sub-16_task-cogboundary_events.tsv",
+          "sub-16/ieeg/sub-16_task-cogboundary_events.json",
+          "sub-16/ieeg/sub-16_electrodes.tsv",
+          "sub-16/ieeg/sub-16_coordsystem.json",
+          "sub-16/ieeg/sub-16_task-cogboundary_ieeg.json",
+          "sub-16/ieeg/sub-16_task-cogboundary_ieeg.eeg",
+          "sub-16/ieeg/sub-16_task-cogboundary_ieeg.vmrk",
+          "sub-16/ieeg/sub-16_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/ieeg/sub-16_task-cogboundary_ieeg.vhdr": "SHA256E-s1077--3292cafd23abd245a0d9f0c4064d1800d12b3937b337107e4c2ccd4954bc2d8c.vhdr",
+          "sub-16/ieeg/sub-16_task-cogboundary_ieeg.eeg": "SHA256E-s32333444--7d7791a2e623bcb41cdb37d821fc8039ec12842c6d34e5337a1bf07cdf4da1eb.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-130",
+        "NLX-microwires-131",
+        "NLX-microwires-132",
+        "NLX-microwires-133",
+        "NLX-microwires-138",
+        "NLX-microwires-140",
+        "NLX-microwires-142",
+        "NLX-microwires-144",
+        "NLX-microwires-157",
+        "NLX-microwires-158",
+        "NLX-microwires-163",
+        "NLX-microwires-164",
+        "NLX-microwires-168"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 13,
+      "ntimes": 621797,
+      "duration_seconds": 3108.985,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 16.0,
+        "lab_patient_code": "TWH126",
+        "same_participant_in": null,
+        "paper_participant_id": 16.0,
+        "paper_n_neurons_inside_mtl": 14.0,
+        "paper_n_neurons_outside_mtl": 8.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 13.0,
+        "lfp_regions": "amygdala_right,hippocampus_right,parahippocampal_gyrus_right",
+        "lfp_hemispheres": "right"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 3108.985,
+      "montage_hash": "fe2b39341947c38d"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-5_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-5/ieeg/sub-5_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-5/ieeg/sub-5_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "5",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "5",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-5/ieeg/sub-5_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-5/ieeg/sub-5_task-cogboundary_channels.tsv",
+          "sub-5/ieeg/sub-5_task-cogboundary_events.tsv",
+          "sub-5/ieeg/sub-5_task-cogboundary_events.json",
+          "sub-5/ieeg/sub-5_electrodes.tsv",
+          "sub-5/ieeg/sub-5_coordsystem.json",
+          "sub-5/ieeg/sub-5_task-cogboundary_ieeg.json",
+          "sub-5/ieeg/sub-5_task-cogboundary_ieeg.eeg",
+          "sub-5/ieeg/sub-5_task-cogboundary_ieeg.vmrk",
+          "sub-5/ieeg/sub-5_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-5/ieeg/sub-5_task-cogboundary_ieeg.vhdr": "SHA256E-s1726--1af2399eb78292bdf86908d412d81ae3d5eff03284cd88f4b413042c5bbca366.vhdr",
+          "sub-5/ieeg/sub-5_task-cogboundary_ieeg.eeg": "SHA256E-s80366480--75808c9a1dcb1c9f3c514eec0d742bff8aa42fdead21e7ccf2f278a018401643.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-130",
+        "NLX-microwires-131",
+        "NLX-microwires-133",
+        "NLX-microwires-135",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-141",
+        "NLX-microwires-142",
+        "NLX-microwires-143",
+        "NLX-microwires-144",
+        "NLX-microwires-146",
+        "NLX-microwires-147",
+        "NLX-microwires-148",
+        "NLX-microwires-149",
+        "NLX-microwires-151",
+        "NLX-microwires-152",
+        "NLX-microwires-163",
+        "NLX-microwires-164",
+        "NLX-microwires-166",
+        "NLX-microwires-167",
+        "NLX-microwires-178",
+        "NLX-microwires-179",
+        "NLX-microwires-183",
+        "NLX-microwires-186",
+        "NLX-microwires-188",
+        "NLX-microwires-191",
+        "NLX-microwires-192",
+        "NLX-microwires-203",
+        "NLX-microwires-204",
+        "NLX-microwires-205",
+        "NLX-microwires-206",
+        "NLX-microwires-207",
+        "NLX-microwires-208"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 590930,
+      "duration_seconds": 2954.65,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 5.0,
+        "lab_patient_code": "TWH109",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-29",
+        "paper_participant_id": 5.0,
+        "paper_n_neurons_inside_mtl": 30.0,
+        "paper_n_neurons_outside_mtl": 19.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Multifocal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 34.0,
+        "lfp_regions": "amygdala_left,amygdala_right,dorsal_anterior_cingulate_cortex_left,hippocampus_left,hippocampus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2954.65,
+      "montage_hash": "01eee3e97d95a2b4"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-6_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-6/ieeg/sub-6_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-6/ieeg/sub-6_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "6",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "6",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-6/ieeg/sub-6_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-6/ieeg/sub-6_task-cogboundary_channels.tsv",
+          "sub-6/ieeg/sub-6_task-cogboundary_events.tsv",
+          "sub-6/ieeg/sub-6_task-cogboundary_events.json",
+          "sub-6/ieeg/sub-6_electrodes.tsv",
+          "sub-6/ieeg/sub-6_coordsystem.json",
+          "sub-6/ieeg/sub-6_task-cogboundary_ieeg.json",
+          "sub-6/ieeg/sub-6_task-cogboundary_ieeg.eeg",
+          "sub-6/ieeg/sub-6_task-cogboundary_ieeg.vmrk",
+          "sub-6/ieeg/sub-6_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-6/ieeg/sub-6_task-cogboundary_ieeg.vhdr": "SHA256E-s1044--f40d552ac17aecca64ad18fdaaf740a42c18429db67aa23c35476fa02c916206.vhdr",
+          "sub-6/ieeg/sub-6_task-cogboundary_ieeg.eeg": "SHA256E-s30088896--6ce4392c22fb27e73c256610b0a9c861a5a109586662a0ae972ae546a915f1f4.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-133",
+        "NLX-microwires-136",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-141",
+        "NLX-microwires-142",
+        "NLX-microwires-143",
+        "NLX-microwires-151",
+        "NLX-microwires-170",
+        "NLX-microwires-171",
+        "NLX-microwires-175",
+        "NLX-microwires-190"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 12,
+      "ntimes": 626852,
+      "duration_seconds": 3134.26,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 38.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 6.0,
+        "lab_patient_code": "TWH110",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-30",
+        "paper_participant_id": 6.0,
+        "paper_n_neurons_inside_mtl": 19.0,
+        "paper_n_neurons_outside_mtl": 12.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Right fusiform cortex",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 12.0,
+        "lfp_regions": "amygdala_left,amygdala_right,hippocampus_left,hippocampus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 3134.26,
+      "montage_hash": "b55d805d9bd3c7b3"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-8_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-8/ieeg/sub-8_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-8/ieeg/sub-8_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "8",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "8",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-8/ieeg/sub-8_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-8/ieeg/sub-8_task-cogboundary_channels.tsv",
+          "sub-8/ieeg/sub-8_task-cogboundary_events.tsv",
+          "sub-8/ieeg/sub-8_task-cogboundary_events.json",
+          "sub-8/ieeg/sub-8_electrodes.tsv",
+          "sub-8/ieeg/sub-8_coordsystem.json",
+          "sub-8/ieeg/sub-8_task-cogboundary_ieeg.json",
+          "sub-8/ieeg/sub-8_task-cogboundary_ieeg.eeg",
+          "sub-8/ieeg/sub-8_task-cogboundary_ieeg.vmrk",
+          "sub-8/ieeg/sub-8_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-8/ieeg/sub-8_task-cogboundary_ieeg.vhdr": "SHA256E-s1354--7317d6aa6647694984a7c8e6946b91cf88a1aaf76ff766c5776ac8ddcade1c9b.vhdr",
+          "sub-8/ieeg/sub-8_task-cogboundary_ieeg.eeg": "SHA256E-s50199600--4778ac1640e0a63e26335ae1d37e56dac8e128cd4ecb901af76a14d8f698b953.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-130",
+        "NLX-microwires-133",
+        "NLX-microwires-142",
+        "NLX-microwires-146",
+        "NLX-microwires-150",
+        "NLX-microwires-153",
+        "NLX-microwires-154",
+        "NLX-microwires-155",
+        "NLX-microwires-156",
+        "NLX-microwires-157",
+        "NLX-microwires-158",
+        "NLX-microwires-159",
+        "NLX-microwires-160",
+        "NLX-microwires-161",
+        "NLX-microwires-162",
+        "NLX-microwires-185",
+        "NLX-microwires-186",
+        "NLX-microwires-187",
+        "NLX-microwires-188",
+        "NLX-microwires-189",
+        "NLX-microwires-191",
+        "NLX-microwires-192"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 22,
+      "ntimes": 570450,
+      "duration_seconds": 2852.25,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Cedars-Sinai Medical Center",
+        "dandi_subject_id": 8.0,
+        "lab_patient_code": "P62CS",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-6; DANDI 000623 (NEMAR nm000357) sub-CS62",
+        "paper_participant_id": 8.0,
+        "paper_n_neurons_inside_mtl": 31.0,
+        "paper_n_neurons_outside_mtl": 20.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Left mesial temporal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 22.0,
+        "lfp_regions": "amygdala_right,dorsal_anterior_cingulate_cortex_right,hippocampus_right,pre_supplementary_motor_area_right,ventral_medial_prefrontal_cortex_left",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Cedars-Sinai Medical Center",
+      "recording_type": "continuous",
+      "recording_duration": 2852.25,
+      "montage_hash": "ac527cc1b6a36ae5"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-4_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-4/ieeg/sub-4_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-4/ieeg/sub-4_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "4",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "4",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-4/ieeg/sub-4_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-4/ieeg/sub-4_task-cogboundary_channels.tsv",
+          "sub-4/ieeg/sub-4_task-cogboundary_events.tsv",
+          "sub-4/ieeg/sub-4_task-cogboundary_events.json",
+          "sub-4/ieeg/sub-4_electrodes.tsv",
+          "sub-4/ieeg/sub-4_coordsystem.json",
+          "sub-4/ieeg/sub-4_task-cogboundary_ieeg.json",
+          "sub-4/ieeg/sub-4_task-cogboundary_ieeg.eeg",
+          "sub-4/ieeg/sub-4_task-cogboundary_ieeg.vmrk",
+          "sub-4/ieeg/sub-4_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-4/ieeg/sub-4_task-cogboundary_ieeg.vhdr": "SHA256E-s1602--4c5a572649e75728cdce12377326d95c5b5c12a3227f9736230c19c22d797cc2.vhdr",
+          "sub-4/ieeg/sub-4_task-cogboundary_ieeg.eeg": "SHA256E-s67865040--c02428842c5daa571a4022a68be269d2056880c74d5d199a924e0a5db4cc3cc5.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-130",
+        "NLX-microwires-133",
+        "NLX-microwires-134",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-141",
+        "NLX-microwires-142",
+        "NLX-microwires-143",
+        "NLX-microwires-144",
+        "NLX-microwires-154",
+        "NLX-microwires-156",
+        "NLX-microwires-157",
+        "NLX-microwires-158",
+        "NLX-microwires-159",
+        "NLX-microwires-160",
+        "NLX-microwires-179",
+        "NLX-microwires-180",
+        "NLX-microwires-181",
+        "NLX-microwires-182",
+        "NLX-microwires-183",
+        "NLX-microwires-184",
+        "NLX-microwires-185",
+        "NLX-microwires-186",
+        "NLX-microwires-187",
+        "NLX-microwires-188",
+        "NLX-microwires-189",
+        "NLX-microwires-190",
+        "NLX-microwires-191",
+        "NLX-microwires-192"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 30,
+      "ntimes": 565542,
+      "duration_seconds": 2827.71,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 49.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 4.0,
+        "lab_patient_code": "TWH103",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-27",
+        "paper_participant_id": 4.0,
+        "paper_n_neurons_inside_mtl": 35.0,
+        "paper_n_neurons_outside_mtl": 22.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Right mesial temporal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 30.0,
+        "lfp_regions": "amygdala_right,dorsal_anterior_cingulate_cortex_right,hippocampus_right,ventral_medial_prefrontal_cortex_left",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2827.71,
+      "montage_hash": "21439dbd7b18ab61"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-9_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-9/ieeg/sub-9_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-9/ieeg/sub-9_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "9",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "9",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-9/ieeg/sub-9_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-9/ieeg/sub-9_task-cogboundary_channels.tsv",
+          "sub-9/ieeg/sub-9_task-cogboundary_events.tsv",
+          "sub-9/ieeg/sub-9_task-cogboundary_events.json",
+          "sub-9/ieeg/sub-9_electrodes.tsv",
+          "sub-9/ieeg/sub-9_coordsystem.json",
+          "sub-9/ieeg/sub-9_task-cogboundary_ieeg.json",
+          "sub-9/ieeg/sub-9_task-cogboundary_ieeg.eeg",
+          "sub-9/ieeg/sub-9_task-cogboundary_ieeg.vmrk",
+          "sub-9/ieeg/sub-9_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-9/ieeg/sub-9_task-cogboundary_ieeg.vhdr": "SHA256E-s1726--83f055ed8f5f1d17900b1c97785f1bcd40be6d7f3d09753034d5c1bd58b1b8db.vhdr",
+          "sub-9/ieeg/sub-9_task-cogboundary_ieeg.eeg": "SHA256E-s79217552--055f1011cfc15f2474c8c0d64ec001e57657c19721b3628336b10aa201528c1f.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-129",
+        "NLX-microwires-130",
+        "NLX-microwires-131",
+        "NLX-microwires-132",
+        "NLX-microwires-134",
+        "NLX-microwires-135",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-141",
+        "NLX-microwires-143",
+        "NLX-microwires-144",
+        "NLX-microwires-145",
+        "NLX-microwires-146",
+        "NLX-microwires-147",
+        "NLX-microwires-148",
+        "NLX-microwires-149",
+        "NLX-microwires-150",
+        "NLX-microwires-151",
+        "NLX-microwires-152",
+        "NLX-microwires-162",
+        "NLX-microwires-164",
+        "NLX-microwires-168",
+        "NLX-microwires-169",
+        "NLX-microwires-173",
+        "NLX-microwires-174",
+        "NLX-microwires-175",
+        "NLX-microwires-178",
+        "NLX-microwires-179",
+        "NLX-microwires-180",
+        "NLX-microwires-181",
+        "NLX-microwires-184",
+        "NLX-microwires-186",
+        "NLX-microwires-187",
+        "NLX-microwires-191"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 582482,
+      "duration_seconds": 2912.41,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 36.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 9.0,
+        "lab_patient_code": "TWH113",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-31",
+        "paper_participant_id": 9.0,
+        "paper_n_neurons_inside_mtl": 33.0,
+        "paper_n_neurons_outside_mtl": 21.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Right mesial temporal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 34.0,
+        "lfp_regions": "amygdala_left,amygdala_right,hippocampus_left,hippocampus_right,parahippocampal_gyrus_left,parahippocampal_gyrus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2912.41,
+      "montage_hash": "4ddae1dc4e860f0e"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-10_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-10/ieeg/sub-10_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-10/ieeg/sub-10_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-10/ieeg/sub-10_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-10/ieeg/sub-10_task-cogboundary_channels.tsv",
+          "sub-10/ieeg/sub-10_task-cogboundary_events.tsv",
+          "sub-10/ieeg/sub-10_task-cogboundary_events.json",
+          "sub-10/ieeg/sub-10_electrodes.tsv",
+          "sub-10/ieeg/sub-10_coordsystem.json",
+          "sub-10/ieeg/sub-10_task-cogboundary_ieeg.json",
+          "sub-10/ieeg/sub-10_task-cogboundary_ieeg.eeg",
+          "sub-10/ieeg/sub-10_task-cogboundary_ieeg.vmrk",
+          "sub-10/ieeg/sub-10_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/ieeg/sub-10_task-cogboundary_ieeg.vhdr": "SHA256E-s1077--c96f508d404ab921b08c1033448bf6cc4e8671e3736d1406def20408a30443f6.vhdr",
+          "sub-10/ieeg/sub-10_task-cogboundary_ieeg.eeg": "SHA256E-s30261816--2b3ea22318c5e28f9b400dcde72e9ef6063f3a3a542730f4224c9cdc216499af.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-137",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-141",
+        "NLX-microwires-142",
+        "NLX-microwires-143",
+        "NLX-microwires-217",
+        "NLX-microwires-218",
+        "NLX-microwires-219",
+        "NLX-microwires-220",
+        "NLX-microwires-221",
+        "NLX-microwires-222",
+        "NLX-microwires-223"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 13,
+      "ntimes": 581958,
+      "duration_seconds": 2909.79,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 10.0,
+        "lab_patient_code": "TWH116",
+        "same_participant_in": null,
+        "paper_participant_id": 10.0,
+        "paper_n_neurons_inside_mtl": 27.0,
+        "paper_n_neurons_outside_mtl": 17.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 13.0,
+        "lfp_regions": "hippocampus_left,hippocampus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2909.79,
+      "montage_hash": "d15a10ad6c0ecbb1"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-11_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-11/ieeg/sub-11_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-11/ieeg/sub-11_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-11/ieeg/sub-11_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-11/ieeg/sub-11_task-cogboundary_channels.tsv",
+          "sub-11/ieeg/sub-11_task-cogboundary_events.tsv",
+          "sub-11/ieeg/sub-11_task-cogboundary_events.json",
+          "sub-11/ieeg/sub-11_electrodes.tsv",
+          "sub-11/ieeg/sub-11_coordsystem.json",
+          "sub-11/ieeg/sub-11_task-cogboundary_ieeg.json",
+          "sub-11/ieeg/sub-11_task-cogboundary_ieeg.eeg",
+          "sub-11/ieeg/sub-11_task-cogboundary_ieeg.vmrk",
+          "sub-11/ieeg/sub-11_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ieeg/sub-11_task-cogboundary_ieeg.vhdr": "SHA256E-s1015--4935765c3e92b71999fa2821f2e7ec146a76d7ef570c8df90acabf7263db087a.vhdr",
+          "sub-11/ieeg/sub-11_task-cogboundary_ieeg.eeg": "SHA256E-s26513564--24345887d0a914186444e1c345b5fe1269f631a676188547609ee163c1d42be0.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-148",
+        "NLX-microwires-149",
+        "NLX-microwires-152",
+        "NLX-microwires-154",
+        "NLX-microwires-157",
+        "NLX-microwires-158",
+        "NLX-microwires-159",
+        "NLX-microwires-160",
+        "NLX-microwires-164",
+        "NLX-microwires-166",
+        "NLX-microwires-167"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 11,
+      "ntimes": 602581,
+      "duration_seconds": 3012.905,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 68.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 11.0,
+        "lab_patient_code": "TWH117",
+        "same_participant_in": null,
+        "paper_participant_id": 11.0,
+        "paper_n_neurons_inside_mtl": 14.0,
+        "paper_n_neurons_outside_mtl": 7.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 11.0,
+        "lfp_regions": "amygdala_left,hippocampus_left,parahippocampal_gyrus_left",
+        "lfp_hemispheres": "left"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 3012.905,
+      "montage_hash": "0180a7a801ff5a2a"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-17_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-17/ieeg/sub-17_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-17/ieeg/sub-17_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-17/ieeg/sub-17_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-17/ieeg/sub-17_task-cogboundary_channels.tsv",
+          "sub-17/ieeg/sub-17_task-cogboundary_events.tsv",
+          "sub-17/ieeg/sub-17_task-cogboundary_events.json",
+          "sub-17/ieeg/sub-17_electrodes.tsv",
+          "sub-17/ieeg/sub-17_coordsystem.json",
+          "sub-17/ieeg/sub-17_task-cogboundary_ieeg.json",
+          "sub-17/ieeg/sub-17_task-cogboundary_ieeg.eeg",
+          "sub-17/ieeg/sub-17_task-cogboundary_ieeg.vmrk",
+          "sub-17/ieeg/sub-17_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/ieeg/sub-17_task-cogboundary_ieeg.vhdr": "SHA256E-s1263--e3b2ebd744e818beed2ce7ed6d0e8e64aacef266865c460a17da49607155c8b7.vhdr",
+          "sub-17/ieeg/sub-17_task-cogboundary_ieeg.eeg": "SHA256E-s43393568--0e8424f9c8c1bcade045b4d84a1bf30405257141a6bab2f8bcb76d30271a9865.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-130",
+        "NLX-microwires-135",
+        "NLX-microwires-136",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-141",
+        "NLX-microwires-143",
+        "NLX-microwires-144",
+        "NLX-microwires-146",
+        "NLX-microwires-152",
+        "NLX-microwires-155",
+        "NLX-microwires-172",
+        "NLX-microwires-173",
+        "NLX-microwires-174",
+        "NLX-microwires-186",
+        "NLX-microwires-188",
+        "NLX-microwires-189",
+        "NLX-microwires-191"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 19,
+      "ntimes": 570968,
+      "duration_seconds": 2854.84,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 28.0,
+        "sex": "M",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 17.0,
+        "lab_patient_code": "TWH127",
+        "same_participant_in": null,
+        "paper_participant_id": 17.0,
+        "paper_n_neurons_inside_mtl": 27.0,
+        "paper_n_neurons_outside_mtl": 17.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": null,
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 19.0,
+        "lfp_regions": "amygdala_left,amygdala_right,hippocampus_left,parahippocampal_gyrus_left,parahippocampal_gyrus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2854.84,
+      "montage_hash": "e2dab6851be7bc6f"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-3_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-3/ieeg/sub-3_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-3/ieeg/sub-3_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "3",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "3",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-3/ieeg/sub-3_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-3/ieeg/sub-3_task-cogboundary_channels.tsv",
+          "sub-3/ieeg/sub-3_task-cogboundary_events.tsv",
+          "sub-3/ieeg/sub-3_task-cogboundary_events.json",
+          "sub-3/ieeg/sub-3_electrodes.tsv",
+          "sub-3/ieeg/sub-3_coordsystem.json",
+          "sub-3/ieeg/sub-3_task-cogboundary_ieeg.json",
+          "sub-3/ieeg/sub-3_task-cogboundary_ieeg.eeg",
+          "sub-3/ieeg/sub-3_task-cogboundary_ieeg.vmrk",
+          "sub-3/ieeg/sub-3_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-3/ieeg/sub-3_task-cogboundary_ieeg.vhdr": "SHA256E-s1230--d9ee62b00453d5b0745b5ab690bb3ec98d1d87edc8682eb29b97dd05b9599f36.vhdr",
+          "sub-3/ieeg/sub-3_task-cogboundary_ieeg.eeg": "SHA256E-s42445368--8557141e1ca6fae3232f1ae06e6bedab1a795bf4f7bc3a33197f06b5e7aa221f.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-131",
+        "NLX-microwires-136",
+        "NLX-microwires-138",
+        "NLX-microwires-139",
+        "NLX-microwires-140",
+        "NLX-microwires-141",
+        "NLX-microwires-143",
+        "NLX-microwires-170",
+        "NLX-microwires-172",
+        "NLX-microwires-178",
+        "NLX-microwires-179",
+        "NLX-microwires-180",
+        "NLX-microwires-182",
+        "NLX-microwires-183",
+        "NLX-microwires-188",
+        "NLX-microwires-190",
+        "NLX-microwires-191",
+        "NLX-microwires-192"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 18,
+      "ntimes": 589519,
+      "duration_seconds": 2947.595,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 25.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Toronto Western Hospital",
+        "dandi_subject_id": 3.0,
+        "lab_patient_code": "TWH101",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-26",
+        "paper_participant_id": 3.0,
+        "paper_n_neurons_inside_mtl": 31.0,
+        "paper_n_neurons_outside_mtl": 19.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Left neocortical temporal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": 2018.0,
+        "n_lfp_channels": 18.0,
+        "lfp_regions": "amygdala_left,amygdala_right,hippocampus_left,hippocampus_right,parahippocampal_gyrus_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Toronto Western Hospital",
+      "recording_type": "continuous",
+      "recording_duration": 2947.595,
+      "montage_hash": "942cec1b59c08159"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-2_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-2/ieeg/sub-2_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-2/ieeg/sub-2_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "2",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "2",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-2/ieeg/sub-2_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-2/ieeg/sub-2_task-cogboundary_channels.tsv",
+          "sub-2/ieeg/sub-2_task-cogboundary_events.tsv",
+          "sub-2/ieeg/sub-2_task-cogboundary_events.json",
+          "sub-2/ieeg/sub-2_electrodes.tsv",
+          "sub-2/ieeg/sub-2_coordsystem.json",
+          "sub-2/ieeg/sub-2_task-cogboundary_ieeg.json",
+          "sub-2/ieeg/sub-2_task-cogboundary_ieeg.eeg",
+          "sub-2/ieeg/sub-2_task-cogboundary_ieeg.vmrk",
+          "sub-2/ieeg/sub-2_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-2/ieeg/sub-2_task-cogboundary_ieeg.vhdr": "SHA256E-s1943--d422852790e5747786c851c950ee4d6ec289eb784ef6aa8016a6ef1348c16cb3.vhdr",
+          "sub-2/ieeg/sub-2_task-cogboundary_ieeg.eeg": "SHA256E-s92112896--b997f2ab86d557e1f8fc12654ccc3bf2a66aa5d6ed55a6fda204ab08ec1406eb.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-134",
+        "NLX-microwires-137",
+        "NLX-microwires-138",
+        "NLX-microwires-140",
+        "NLX-microwires-142",
+        "NLX-microwires-143",
+        "NLX-microwires-144",
+        "NLX-microwires-146",
+        "NLX-microwires-147",
+        "NLX-microwires-149",
+        "NLX-microwires-150",
+        "NLX-microwires-151",
+        "NLX-microwires-152",
+        "NLX-microwires-155",
+        "NLX-microwires-156",
+        "NLX-microwires-158",
+        "NLX-microwires-159",
+        "NLX-microwires-160",
+        "NLX-microwires-161",
+        "NLX-microwires-163",
+        "NLX-microwires-168",
+        "NLX-microwires-170",
+        "NLX-microwires-180",
+        "NLX-microwires-182",
+        "NLX-microwires-184",
+        "NLX-microwires-185",
+        "NLX-microwires-186",
+        "NLX-microwires-187",
+        "NLX-microwires-188",
+        "NLX-microwires-189",
+        "NLX-microwires-190",
+        "NLX-microwires-191",
+        "NLX-microwires-192",
+        "NLX-microwires-204",
+        "NLX-microwires-206",
+        "NLX-microwires-207",
+        "NLX-microwires-210",
+        "NLX-microwires-213",
+        "NLX-microwires-214",
+        "NLX-microwires-215",
+        "NLX-microwires-216"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 41,
+      "ntimes": 561664,
+      "duration_seconds": 2808.32,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 52.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Cedars-Sinai Medical Center",
+        "dandi_subject_id": 2.0,
+        "lab_patient_code": "P61CS",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-5",
+        "paper_participant_id": 2.0,
+        "paper_n_neurons_inside_mtl": 45.0,
+        "paper_n_neurons_outside_mtl": 29.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Left mesial temporal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 41.0,
+        "lfp_regions": "amygdala_left,amygdala_right,dorsal_anterior_cingulate_cortex_left,dorsal_anterior_cingulate_cortex_right,hippocampus_left,hippocampus_right,parahippocampal_gyrus_left,pre_supplementary_motor_area_left,pre_supplementary_motor_area_right,ventral_medial_prefrontal_cortex_left",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Cedars-Sinai Medical Center",
+      "recording_type": "continuous",
+      "recording_duration": 2808.32,
+      "montage_hash": "05b900c5539c8d80"
+    },
+    {
+      "dataset": "nm000367",
+      "data_name": "nm000367_sub-13_task-cogboundary_ieeg.vhdr",
+      "bidspath": "nm000367/sub-13/ieeg/sub-13_task-cogboundary_ieeg.vhdr",
+      "bids_relpath": "sub-13/ieeg/sub-13_task-cogboundary_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "cogboundary",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000367",
+        "raw_key": "sub-13/ieeg/sub-13_task-cogboundary_ieeg.vhdr",
+        "dep_keys": [
+          "sub-13/ieeg/sub-13_task-cogboundary_channels.tsv",
+          "sub-13/ieeg/sub-13_task-cogboundary_events.tsv",
+          "sub-13/ieeg/sub-13_task-cogboundary_events.json",
+          "sub-13/ieeg/sub-13_electrodes.tsv",
+          "sub-13/ieeg/sub-13_coordsystem.json",
+          "sub-13/ieeg/sub-13_task-cogboundary_ieeg.json",
+          "sub-13/ieeg/sub-13_task-cogboundary_ieeg.eeg",
+          "sub-13/ieeg/sub-13_task-cogboundary_ieeg.vmrk",
+          "sub-13/ieeg/sub-13_task-cogboundary_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/ieeg/sub-13_task-cogboundary_ieeg.vhdr": "SHA256E-s1728--259f3e77893e75bb88ecd723deca783524546030230adb20e910e3321f28535f.vhdr",
+          "sub-13/ieeg/sub-13_task-cogboundary_ieeg.eeg": "SHA256E-s74974760--89e18bd9d7108ef5b5f4c042e388bde2c731b58e90b536770f5579088d14984b.eeg"
+        }
+      },
+      "ch_names": [
+        "NLX-microwires-145",
+        "NLX-microwires-146",
+        "NLX-microwires-147",
+        "NLX-microwires-148",
+        "NLX-microwires-149",
+        "NLX-microwires-150",
+        "NLX-microwires-151",
+        "NLX-microwires-152",
+        "NLX-microwires-153",
+        "NLX-microwires-154",
+        "NLX-microwires-155",
+        "NLX-microwires-156",
+        "NLX-microwires-157",
+        "NLX-microwires-158",
+        "NLX-microwires-159",
+        "NLX-microwires-160",
+        "NLX-microwires-177",
+        "NLX-microwires-178",
+        "NLX-microwires-179",
+        "NLX-microwires-180",
+        "NLX-microwires-181",
+        "NLX-microwires-182",
+        "NLX-microwires-183",
+        "NLX-microwires-184",
+        "NLX-microwires-185",
+        "NLX-microwires-186",
+        "NLX-microwires-187",
+        "NLX-microwires-188",
+        "NLX-microwires-189",
+        "NLX-microwires-190",
+        "NLX-microwires-191",
+        "NLX-microwires-192",
+        "NLX-microwires-193",
+        "NLX-microwires-194"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 34,
+      "ntimes": 551285,
+      "duration_seconds": 2756.425,
+      "digested_at": "2026-10-08T08:47:23.126691+00:00",
+      "participant_tsv": {
+        "age": 55.0,
+        "sex": "F",
+        "species": "Homo sapiens",
+        "recording_institution": "Cedars-Sinai Medical Center",
+        "dandi_subject_id": 13.0,
+        "lab_patient_code": "P65CS",
+        "same_participant_in": "DANDI 000673 (NEMAR nm000368) sub-8",
+        "paper_participant_id": 13.0,
+        "paper_n_neurons_inside_mtl": 48.0,
+        "paper_n_neurons_outside_mtl": 30.0,
+        "diagnosis": "drug-resistant epilepsy",
+        "seizure_onset_zone": "Bilateral independent temporal",
+        "implant_type": "Behnke-Fried hybrid macro-micro depth electrodes (Ad-Tech), microwires",
+        "recording_year": null,
+        "n_lfp_channels": 34.0,
+        "lfp_regions": "amygdala_left,amygdala_right,hippocampus_left,hippocampus_right,ventral_medial_prefrontal_cortex_right",
+        "lfp_hemispheres": "bilateral"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not documented in the source release for these microwire recordings.",
+      "software_filters": {
+        "DownsamplingByAuthors": {
+          "Description": "The source series is described in the NWB as 'LFP recordings that have been downsampled to 200 Hz' (rate attribute 200 Hz) from the 32 kHz broadband signal. The anti-aliasing filter used for the released series is not documented. Zheng et al. (2024, Methods) describe, for their analysis, replacing the LFP in a 3 ms window centred on each detected spike by linear interpolation and downsampling from 32 kHz to 250 Hz; whether spike interpolation was applied to the released 200 Hz series is not stated. None of this was applied by the BIDS conversion."
+        }
+      },
+      "hardware_filters": {
+        "Broadband": {
+          "Description": "Broadband neural signals recorded at 32 kHz with 0.1-8000 Hz filtering (Zheng et al. 2024, Methods).",
+          "LowCutoffHz": 0.1,
+          "HighCutoffHz": 8000
+        }
+      },
+      "manufacturer": "Neuralynx",
+      "manufacturers_model_name": "ATLAS",
+      "institution_name": "Cedars-Sinai Medical Center",
+      "recording_type": "continuous",
+      "recording_duration": 2756.425,
+      "montage_hash": "a7491ddc651b8859"
+    }
+  ]
+}

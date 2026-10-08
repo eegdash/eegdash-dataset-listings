@@ -1,0 +1,94 @@
+{
+  "dataset_id": "nm000316",
+  "name": "IMUMIA2026: Multi-paradigm motor-imagery EEG dataset (IMU-MI_A)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000316-blue)](https://doi.org/10.82901/nemar.nm000316)\nIMUMIA2026\n==========\nMulti-paradigm motor-imagery EEG dataset (IMU-MI_A) [1]_.\nDataset Overview\n----------------\n  Code: IMUMIA2026\n  Paradigm: imagery\n  DOI: 10.5281/zenodo.20421767\n  Subjects: 5\n  Sessions per subject: 1\n  Events: left_hand=1, right_hand=2, left_foot=3, right_foot=4, left_thumb=5, right_thumb=6, left_index=7, right_index=8, left_pinch=9, right_pinch=10\n  Trial interval: [0, 4] s\n  Runs per session: 5\n  File format: Curry\nAcquisition\n-----------\n  Sampling rate: 1000.0 Hz\n  Number of channels: 69\n  Channel types: eeg=64, eog=2, ecg=1, emg=1, misc=1\n  Channel names: FP1, FPZ, FP2, AF3, AF4, F7, F5, F3, F1, FZ, F2, F4, F6, F8, FT7, FC5, FC3, FC1, FCZ, FC2, FC4, FC6, FT8, T7, C5, C3, C1, CZ, C2, C4, C6, T8, M1, TP7, CP5, CP3, CP1, CPZ, CP2, CP4, CP6, TP8, M2, P7, P5, P3, P1, PZ, P2, P4, P6, P8, PO7, PO5, PO3, POZ, PO4, PO6, PO8, CB1, O1, OZ, O2, CB2\n  Montage: standard_1020\n  Hardware: Neuroscan SynAmps (64-channel Quik-Cap)\n  Reference: Cz\n  Ground: forehead\n  Sensor type: Ag/AgCl\n  Line frequency: 50.0 Hz\n  Impedance threshold: 10.0 kOhm\n  Electrode type: passive\n  Auxiliary channels: EOG (2 ch, HEO, VEO), EMG (1 ch), ECG\nParticipants\n------------\n  Number of subjects: 5\n  Health status: healthy\nExperimental Protocol\n---------------------\n  Paradigm: imagery\n  Number of classes: 10\n  Class labels: left_hand, right_hand, left_foot, right_foot, left_thumb, right_thumb, left_index, right_index, left_pinch, right_pinch\n  Trial duration: 6.0 s\n  Study design: Five motor-imagery tasks (left/right hand, foot, thumb, index finger and index-thumb pinch), each recorded under a Classic Arrow paradigm and a Cue-Execution dual-stage paradigm.\n  Stimulus type: visual\n  Stimulus modalities: visual\n  Synchronicity: cue-based\n  Mode: offline\n  Instructions: Perform the cued left- or right-side motor imagery of the task's body part following the arrow direction.\nHED Event Annotations\n---------------------\n  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n  left_hand\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Left, Hand\n  right_hand\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Right, Hand\n  left_foot\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/left_foot\n  right_foot\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/right_foot\n  left_thumb\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/left_thumb\n  right_thumb\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/right_thumb\n  left_index\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/left_index\n  right_index\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/right_index\n  left_pinch\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/left_pinch\n  right_pinch\n    \u251c\u2500 Sensory-event\n    \u2514\u2500 Label/right_pinch\nParadigm-Specific Parameters\n----------------------------\n  Detected paradigm: motor_imagery\n  Imagery tasks: left_hand, right_hand, left_foot, right_foot, left_thumb, right_thumb, left_index, right_index, left_pinch, right_pinch\n  Imagery duration: 4.0 s\nData Structure\n--------------\n  Blocks per session: 5\n  Trials context: Single session with five runs (one motor-imagery task each). Only the Classic Arrow cues (12 trials per side and task) are labelled by default; the dual-stage paradigm markers are kept in the annotations.\nPreprocessing\n-------------\n  Data state: raw\n  Preprocessing applied: False\nTags\n----\n  Pathology: healthy\n  Modality: motor\n  Type: Motor Imagery\nDocumentation\n-------------\n  Description: Human motor-imagery EEG covering diverse cognitive states: five body-part tasks (hand, foot, thumb, index finger, pinch) under two paradigms, 64-channel Neuroscan at 1000 Hz. Public five-subject sample of a 244-participant dataset.\n  DOI: 10.5281/zenodo.20421767\n  License: CC-BY-4.0\n  Investigators: Jianxiu Li, Changming Wang, Chao Chen\n  Institution: Inner Mongolia University\n  Address: Inner Mongolia, China\n  Country: CN\n  Repository: Zenodo\n  Data URL: https://doi.org/10.5281/zenodo.20421767\n  Publication year: 2026\n  Keywords: EEG, motor imagery, BCI, fine motor imagery\nReferences\n----------\nLi, J., Wang, C., and Chen, C. (2026). A Human Motor Imagery EEG Dataset Covering Diverse Cognitive States and Neural Response Patterns. Zenodo. DOI: https://doi.org/10.5281/zenodo.20421767\nNotes\nThe numeric event code to left/right assignment follows the authors' documented condition order (the \"Left ... MI\" condition is listed before the \"Right ... MI\" condition in every ``task-Task*_events.json``); the archive ships no explicit trigger code book. Users are advised to verify laterality against the EMG/EOG channels before publication.\n.. versionadded:: 1.8.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.8.0dev0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb\nEthics\n------\nEthics approval: the data analysed in this deposit were collected under the\nethics approval obtained by the original investigators and reported in the\nprimary publication cited above (see References/Documentation sections of\nthis README). Participants gave informed consent in the source study. No\nnew human-subject data were collected during this BIDS re-release; this\nNEMAR record only reformats the published source data into BIDS via MOABB.\nPlease consult the primary publication for the exact IRB/ethics committee\nreference.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Jianxiu Li",
+    "Changming Wang",
+    "Chao Chen"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000316",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0"
+  ],
+  "total_files": 25,
+  "size_bytes": 3487192971,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 5,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Chao Chen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-08T08:47:00.363161+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-08 03:50:30"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000316",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000316",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.5281/zenodo.20421767"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.5281/zenodo.20421767",
+      "URL": "https://doi.org/10.5281/zenodo.20421767"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.20421767"
+    }
+  ],
+  "ingestion_fingerprint": "042f898e307e5d5a88d03d36d1daf0baa1c8d92fd230feec302013c912b3c96a"
+}

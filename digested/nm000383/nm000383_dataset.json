@@ -1,0 +1,117 @@
+{
+  "dataset_id": "nm000383",
+  "name": "Medial and lateral orbitofrontal cortex in approach-avoidance decisions (Starkweather et al., 2026): SEEG high-frequency activity, 6 patients (derivative)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000383-blue)](https://doi.org/10.82901/nemar.nm000383)\n# Approach-avoidance decisions in human orbitofrontal cortex: SEEG high-frequency activity (derivative)\nDERIVATIVE dataset. The Dryad release contains the authors' processed high-frequency activity (HFA, 70-150 Hz), not raw iEEG.\n## Source\n- Dryad: Starkweather, Willbrand, Sellers, Hullett, Krystal, Lee, Willie, Brunner, Hsu, Chang, Knight. doi:10.5061/dryad.kh18932k7\n  (version 5, 2026-09-09). License CC0 1.0.\n- Article: Starkweather et al. (2026) Nature Neuroscience, doi:10.1038/s41593-026-02444-4 (open access).\n- Analysis code: https://github.com/cstarkweather/OFC_analysis_codes. Task: https://github.com/cstarkweather/Starkweather-neurogame\n- Original files unchanged in `sourcedata/dryad-kh18932k7/` (subject.mat, behavior_data.mat, README.md).\n## Participants and ethics\nSix patients with stereotactic depth electrodes (five implanted at UCSF, one at WUSTL), implanted for epilepsy, MDD or OCD.\nEthics (verbatim from the article): \"Approval for the study was granted by the institutional review boards of the University of\nCalifornia, San Francisco (UCSF), University of California, Berkeley and Washington University in St. Louis (WUSTL). Written\ninformed consent was obtained from all participants prior to testing.\"\nAge, sex and clinical indication come from Extended Data Table 1 of the article, matched to the release by subject order\n(see participants.json for the caveat).\n## Files\n- `sub-XX/ieeg/sub-XX_task-approachavoid_acq-<align>_ieeg.*`: BrainVision float32. One file per alignment in the release\n  (`electrode(k).trigger(1..5)`): `onset` (trigger 1, trial onset) and `decision` (trigger 2, button press) as described by the\n  README; `trig3`, `trig4`, `trig5` are present in the release but not described, and are kept as released. Each trial is a\n  12000-sample segment at 1 kHz with time zero at sample 5000 (-4.999 to +7.000 s; the authors' code uses column 5000 as time\n  zero). The release README mentions 10000 columns; the files hold 12000. Values are unchanged (units not stated: n/a).\n- `*_events.tsv`: one row per trial: segment boundaries, alignment time, and per-trial behaviour (choice = release field `decision`, rt, outcome, offers,\n  trial type, approach probability, conflict, value) plus the raw `triggers` values, all verbatim.\n- `*_goodtrials.tsv`: `electrode(k).trigger(j).good_trials` per channel and trial (1 = kept by the authors' artifact review).\n- `*_channels.tsv`: release electrodes (E01..), bipolar, with the release's anatomical label, `array` value and sulcal coordinates.\n- `sub-XX/sub-XX_trialtypes.tsv`: per-trial-type tables (offers, approach probability, conflict, value). `sub-XX_VAS.tsv`: VAS field.\n- No x/y/z electrode coordinates are released (electrodes.tsv has n/a).\n## Notes\n- The release README says 100 electrodes remained after exclusions; the `subject.mat` holds 129 electrode entries in total\n  (16, 17, 37, 22, 17, 20). All are included as released; `array` and `good_trials` are kept for filtering.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "Clara Kwon Starkweather",
+    "Ethan H. Willbrand",
+    "Kristin K. Sellers",
+    "Patrick W. Hullett",
+    "Andrew D. Krystal",
+    "A. Moses Lee",
+    "Jon T. Willie",
+    "Peter Brunner",
+    "Ming Hsu",
+    "Edward F. Chang",
+    "Robert T. Knight"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000383",
+  "associated_paper_doi": null,
+  "tasks": [
+    "approachavoid"
+  ],
+  "sessions": [],
+  "total_files": 30,
+  "size_bytes": 12100934081,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 6,
+    "ages": [
+      27,
+      26,
+      27,
+      46,
+      22,
+      21
+    ],
+    "age_min": 21,
+    "age_max": 46,
+    "age_mean": 28.166666666666668,
+    "species": null,
+    "sex_distribution": {
+      "m": 4,
+      "f": 2
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Robert T. Knight",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-08T08:47:30.342471+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-08 05:20:19"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000383",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-approachavoid_channels.json",
+      "task-approachavoid_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000383",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Starkweather CK, Willbrand EH, Sellers KK, Hullett PW, Krystal AD, Lee AM, Willie JT, Brunner P, Hsu M, Chang EF, Knight RT (2026) Intracranial recordings in humans reveal differential contributions of medial and lateral orbitofrontal cortex to approach-avoidance decision-making. Nature Neuroscience, doi:10.1038/s41593-026-02444-4; and Dryad doi:10.5061/dryad.kh18932k7.",
+  "ethics_approvals": [
+    "Approval for the study was granted by the institutional review boards of the University of California, San Francisco (UCSF), University of California, Berkeley and Washington University in St. Louis (WUSTL). Written informed consent was obtained from all participants prior to testing. [Starkweather et al. 2026, Nature Neuroscience, Methods > Participants, doi:10.1038/s41593-026-02444-4]"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1038/s41593-026-02444-4",
+    "https://doi.org/10.5061/dryad.kh18932k7",
+    "https://github.com/cstarkweather/OFC_analysis_codes",
+    "https://github.com/cstarkweather/Starkweather-neurogame"
+  ],
+  "generated_by": [
+    {
+      "Name": "Authors' preprocessing (FieldTrip; code https://github.com/cstarkweather/OFC_analysis_codes)",
+      "Description": "Bipolar re-reference to nearest neighbour; 0.5-200 Hz band-pass; 60 Hz notch + harmonics; HFA 70-150 Hz = mean of ten 10-Hz sub-band Hilbert envelopes, each normalised to a 10 s pre-task baseline; epoched per trial at 1 kHz."
+    },
+    {
+      "Name": "b2dryad_convert058.py",
+      "Description": "Repackaging only: trials back-to-back in BrainVision float32 (values unchanged), one file per alignment; behaviour into events.tsv. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.5061/dryad.kh18932k7",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.kh18932k7",
+      "Version": "Dryad version 5 (published 2026-09-09)"
+    }
+  ],
+  "ingestion_fingerprint": "02f1a7b30fe84f04762fa853a953f81f89fe3a71ec44447facb581a54a57ae1b"
+}

@@ -1,0 +1,118 @@
+{
+  "dataset_id": "nm000318",
+  "name": "Batista2022: Motor-imagery EEG during NeuRow VR/haptics BCI training",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000318-blue)](https://doi.org/10.82901/nemar.nm000318)\nBatista2022\n===========\nMotor-imagery EEG during NeuRow VR/haptics BCI training [1]_.\nDataset Overview\n----------------\n  Code: Batista2022\n  Paradigm: imagery\n  DOI: 10.5281/zenodo.7664068\n  Subjects: 20\n  Sessions per subject: 1\n  Events: left_hand=7, right_hand=8\n  Trial interval: [0, 5] s\n  Runs per session: 5\n  File format: BrainVision\nAcquisition\n-----------\n  Sampling rate: 500.0 Hz\n  Number of channels: 38\n  Channel types: eeg=32, ecg=1, resp=1, misc=4\n  Channel names: Fp1, Fz, F3, F7, FT9, FC5, FC1, C3, T7, TP9, CP5, CP1, Pz, P3, P7, O1, Oz, O2, P4, P8, TP10, CP6, CP2, Cz, C4, T8, FT10, FC6, FC2, F4, F8, Fp2\n  Montage: standard_1020\n  Hardware: LiveAmp 32 (Brain Products GmbH)\n  Software: BrainVision Recorder\n  Sensor type: active Ag/AgCl\n  Line frequency: 50.0 Hz\n  Cap manufacturer: Brain Products GmbH\n  Cap model: actiCAP\n  Electrode type: active\nParticipants\n------------\n  Number of subjects: 20\n  Health status: healthy\n  Age: mean=24.79, std=3.54\nExperimental Protocol\n---------------------\n  Paradigm: imagery\n  Number of classes: 2\n  Class labels: left_hand, right_hand\n  Trial duration: 5.0 s\n  Study design: Within-subject, randomized-order cue-based left- vs right-hand motor imagery of a bimanual rowing task, compared across Graz and NeuRow virtual-reality conditions with optional haptic and head-mounted-display feedback, plus a motor-execution control.\n  Feedback type: visual\n  Stimulus type: visual\n  Stimulus modalities: visual, tactile\n  Synchronicity: cue-based\n  Mode: online\n  Training/test split: False\n  Instructions: Imagine moving the left or right paddle (bimanual rowing) following the directional cue.\nHED Event Annotations\n---------------------\n  Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser\n  left_hand\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Left, Hand\n  right_hand\n    \u251c\u2500 Sensory-event, Experimental-stimulus, Visual-presentation\n    \u2514\u2500 Agent-action\n       \u2514\u2500 Imagine\n          \u251c\u2500 Move\n          \u2514\u2500 Right, Hand\nParadigm-Specific Parameters\n----------------------------\n  Detected paradigm: motor_imagery\n  Imagery tasks: left_hand, right_hand\n  Imagery duration: 5.0 s\nData Structure\n--------------\n  Blocks per session: 5\n  Trials context: One lab session per subject with up to five imagery runs (one per condition: MI, MIMO, MIMOHP, MIMOVR, MIMOVRHP; the motor-execution ME control is excluded). Trials are cue-locked to the left/right-hand marker with a 5 s imagery/feedback window.\nPreprocessing\n-------------\n  Data state: raw\n  Preprocessing applied: False\nSignal Processing\n-----------------\n  Frequency bands: mu=[8.0, 12.0] Hz; beta=[12.0, 30.0] Hz\nCross-Validation\n----------------\n  Evaluation type: within_subject\nBCI Application\n---------------\n  Applications: motor rehabilitation, BCI training\n  Environment: lab\n  Online feedback: True\nTags\n----\n  Pathology: healthy\n  Modality: motor\n  Type: Motor Imagery\nDocumentation\n-------------\n  Description: Motor-imagery EEG plus PPG, respiration, ECG and accelerometry from 20 healthy volunteers performing cued left/right-hand motor imagery of a rowing task during VR/haptics BCI training.\n  DOI: 10.5281/zenodo.7664068\n  License: CC-BY-4.0\n  Investigators: Diogo Batista, Gustavo Caetano, Mathis Fleury, Patricia Figueiredo, Athanasios Vourvopoulos\n  Institution: Instituto Superior Tecnico, Universidade de Lisboa\n  Country: PT\n  Repository: Zenodo\n  Data URL: https://zenodo.org/records/7664069\n  Publication year: 2022\n  Keywords: motor imagery, BCI, brain-computer interface, EEG, virtual reality, haptics, neurorehabilitation\nReferences\n----------\nBatista, D., Caetano, G., Fleury, M., Figueiredo, P., and Vourvopoulos, A. (2022). Physiological Signals During Motor Imagery Brain-Computer Interface Training Using Virtual Reality and Haptics. Zenodo. DOI: https://doi.org/10.5281/zenodo.7664068\nNotes\n.. versionadded:: 1.8.0\nAppelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896\nPernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8\n---\nGenerated by MOABB 1.8.0dev0 (Mother of All BCI Benchmarks)\nhttps://github.com/NeuroTechX/moabb\nEthics\n------\nEthics approval: the data analysed in this deposit were collected under the\nethics approval obtained by the original investigators and reported in the\nprimary publication cited above (see References/Documentation sections of\nthis README). Participants gave informed consent in the source study. No\nnew human-subject data were collected during this BIDS re-release; this\nNEMAR record only reformats the published source data into BIDS via MOABB.\nPlease consult the primary publication for the exact IRB/ethics committee\nreference.\n## Ethics\nWritten informed consent was obtained from all participants in accordance with the 1964 Declaration of Helsinki (Batista et al. 2022, Zenodo DOI 10.5281/zenodo.7664068). The source does not name the approving ethics committee in-line.\nVerbatim from the source:\n> All participants signed an informed consent before participating in the study in accordance with the 1964 Declaration of Helsinki.\nSource: Zenodo record 7664068 / 7664069 description (https://zenodo.org/records/7664068).\nNote: The source statement is incomplete (no committee named); defers to the primary publication for the full ethics record.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Diogo Batista",
+    "Gustavo Caetano",
+    "Mathis Fleury",
+    "Patricia Figueiredo",
+    "Athanasios Vourvopoulos"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000318",
+  "associated_paper_doi": null,
+  "tasks": [
+    "imagery"
+  ],
+  "sessions": [
+    "0lab1",
+    "0pilot1"
+  ],
+  "total_files": 99,
+  "size_bytes": 5884206877,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 20,
+    "ages": [
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24,
+      24
+    ],
+    "age_min": 24,
+    "age_max": 24,
+    "age_mean": 24.0,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Athanasios Vourvopoulos",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-08T08:47:02.377367+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-08 03:51:05"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000318",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000318",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "ethics_approvals": [
+    "Written informed consent was obtained from all participants in accordance with the 1964 Declaration of Helsinki (Batista et al. 2022, Zenodo DOI 10.5281/zenodo.7664068). The source does not name the approving ethics committee in-line."
+  ],
+  "references_and_links": [
+    "https://zenodo.org/records/7664069"
+  ],
+  "generated_by": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "10.5281/zenodo.7664068",
+      "URL": "https://zenodo.org/records/7664069"
+    },
+    {
+      "DOI": "doi:10.5281/zenodo.7664068"
+    }
+  ],
+  "ingestion_fingerprint": "a253b6c75208fcac05b0cb68e48d68db7c0e2f1cbf4a717626ec3929295f5226"
+}

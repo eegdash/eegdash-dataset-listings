@@ -1,0 +1,103 @@
+{
+  "dataset_id": "nm000401",
+  "name": "Subthalamic local field potentials during the balloon analogue risk task (Pearson et al., 2017): Parkinson's disease DBS surgery (derivative: decimated LFP)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000401-blue)](https://doi.org/10.82901/nemar.nm000401)\n# Subthalamic LFP during the balloon analogue risk task (Pearson et al., 2017) - DERIVATIVE\nIntraoperative recordings from the subthalamic nucleus (STN) of patients with Parkinson's disease during DBS\nimplantation (Duke University Medical Center) while they played a self-paced balloon analogue risk task (BART).\nSingle microelectrodes, and in a subset (article: 7 datasets) a 32-channel Pt/Ir microwire array.\nTHIS IS A DERIVATIVE DATASET: the LFP in the release was \"recorded at 1kHz, decimated and stored here at 200Hz\"\n(release README); it is not the raw acquisition.\n## Source\n- Dryad: John M. Pearson, Patrick T. Hickey, Shivanand P. Lad, Michael L. Platt, Dennis A. Turner. Data from: Local fields in human subthalamic nucleus track the lead-up to impulsive\n  choices. doi:10.5061/dryad.54tp8q5 (version 1, 2018-08-07). License: CC0 1.0 (Dryad).\n- Article: Front Neurosci 11:646 (2017), doi:10.3389/fnins.2017.00646 (PMC5703842). Code: https://github.com/jmxpearson/bart_analysis\n- Both Dryad files were downloaded through the Dryad API and matched the Dryad md5 digests and sizes.\n## Contents\n- `sub-<nn>/ieeg/sub-<nn>_task-bart_run-<dataset>_ieeg.*`: 17 recordings of 14 patients (`sub-<nn>` =\n  patient p<nn> of bart.hdf5; `run` = its dataset number, e.g. the two sides of a bilateral implantation), 4.33 h.\n  Channels `c<k>` = channel numbers of the release (1 channel, or 32 for the microwire arrays). Values: the release\n  voltages (V) x 1e6 as float32 \u00b5V (max absolute rounding error 0.49 \u00b5V). Time zero = time 0 of the release LFP tables.\n- Sampling: 200 Hz (5 ms step) except sub-17 run-1, sub-21 run-1, sub-24 run-1, sub-25 run-1 (4 ms step, 250 Hz), as measured from the\n  time columns; the README states 200 Hz for all.\n- `events.tsv`: one `balloon` row per trial with every behavioural column of the release (onset = 'start inflating'),\n  plus `censored` rows with the artifact intervals per channel from /censor. Event times are used as stored; the\n  release does not state explicitly that behaviour and LFP share the time axis (both are in seconds from the task\n  start in the authors' analysis).\n- Behaviour tables without LFP (patient/dataset): p10/d1, p25/d2 (behaviour and, for p10, spikes only; in sourcedata).\n- Spike times of 56 sorted units (/spikes) are NOT converted (BIDS-iEEG has no spike format); they are in\n  `sourcedata/dryad-54tp8q5/bart.hdf5` (the complete, unchanged release file) with README_for_bart.md.\n- No electrode coordinates are released; `electrodes.tsv` lists the channels with x, y, z = n/a.\n## Participants\n15 patients (5 female, 10 male) per the article; its Table 1 gives age bands, disease duration, LEDD and surgery side\nper row, without patient numbers, so they are not assigned to subjects here.\n## Privacy\nbart.hdf5 holds patient numbers, times in seconds and behaviour only; no names or dates were found. The file is\nincluded unchanged.\n## Additional metadata and localisation (added 2026-10-08)\nCompiled after the upload from the article, its supplement and the source deposit (each statement names its source). Text and sidecar metadata only; no data file was changed.\nSources: P = Pearson, Hickey, Lad, Platt, Turner 2017, Front Neurosci 11:646, doi:10.3389/fnins.2017.00646 (PMC5703842). R = deposit README_for_bart.md. F = bart.hdf5 metadata (Voyager Job).\n**Recording.** Plexon MAP system with FHC Guideline 4000. For single-electrode recordings, the high-pass (spike) and low-pass (LFP) signals were recorded; for the 32-channel arrays, LFP came from all 32 channels and high-pass from the 16 most active (P). LFP was recorded at 1 kHz and stored decimated to 200 Hz (R). The time step is 4 ms (250 Hz) in p17/d1, p21, p24 and p25 (measured from the file; atlas note). Spikes were sorted offline with WaveClus (P). Censoring tables mark artifactual epochs (R).\n**Electrodes.** Single-channel tungsten microelectrodes (Frederick Haer) were used for STN localisation. In 7 datasets (16.2, 17.2, 18.1, 20.1, 22.1, 23.1, 30.1), after mapping, a 32-channel Pt/Ir microwire array (35 \u00b5m wires, Ad-Tech) was passed to the STN through an outer cannula and slowly advanced (P).\n**Reference.** Not stated in P. For analysis, the mean across channels was subtracted at each time point (P, LFP preprocessing).\n**Localisation.** The STN was targeted indirectly (X 11-12 mm from midline, Y 2 mm behind the AC-PC midpoint, Z 4 mm below AC-PC), refined on FLAIR, and its borders were defined by single-unit mapping (aim: at least 5.5-6 mm of STN multi-unit activity, typically 2-3 passes). Data were mostly collected during localisation, with the electrode left at a well-isolated unit. Both sides were recorded in subjects 14, 16 and 17. 55 of 56 units were judged to be within STN boundaries; one was probably in SNr. The microwire positions are \"distributed at random throughout STN\" (P, Methods/Results/Discussion). No per-channel coordinates, depths or hemispheres are published or present in F.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "John M. Pearson",
+    "Patrick T. Hickey",
+    "Shivanand P. Lad",
+    "Michael L. Platt",
+    "Dennis A. Turner"
+  ],
+  "funding": [
+    "NIH grant R21NS066115 (D.T.)",
+    "NIH grant R21NS084176 (J.P.)",
+    "NIH grant K01ES025442 (J.P.)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000401",
+  "associated_paper_doi": null,
+  "tasks": [
+    "bart"
+  ],
+  "sessions": [],
+  "total_files": 17,
+  "size_bytes": 2938204283,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 14,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Dennis A. Turner",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-08T08:47:38.557434+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-08 06:14:12"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000401",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-bart_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000401",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Pearson JM, Hickey PT, Lad SP, Platt ML, Turner DA (2017) Local fields in human subthalamic nucleus track the lead-up to impulsive choices. Front Neurosci 11:646, doi:10.3389/fnins.2017.00646; and the Dryad dataset doi:10.5061/dryad.54tp8q5.",
+  "ethics_approvals": [
+    "This study was carried out in accordance with the recommendations of the Duke University Medical Center Institutional Review Board with written informed consent from all subjects. All subjects gave written informed consent in accordance with the Declaration of Helsinki. The protocol was approved by the Duke University Medical Center Institutional Review Board. [Pearson et al. 2017, Front Neurosci 11:646, Materials and Methods]"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.3389/fnins.2017.00646",
+    "https://doi.org/10.5061/dryad.54tp8q5",
+    "https://github.com/jmxpearson/bart_analysis"
+  ],
+  "generated_by": [
+    {
+      "Name": "Authors' processing",
+      "Description": "LFP recorded at 1 kHz, decimated and stored at 200 Hz (README; 4 recordings have a 4 ms step); spike sorting with WaveClus (article)."
+    },
+    {
+      "Name": "b3w3_convert_pearson.py",
+      "Description": "Repackaging: per-channel LFP tables on a common time grid in BrainVision float32 (\u00b5V); behaviour and artifact-censoring tables to events.tsv. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.5061/dryad.54tp8q5",
+      "URL": "https://datadryad.org/dataset/doi:10.5061/dryad.54tp8q5",
+      "Version": "Dryad version 1 (published 2018-08-07)"
+    }
+  ],
+  "ingestion_fingerprint": "aad2d75a750996e9af2ea32dae21c9ac34849bba6ad42cb4a68df23b03818ae7"
+}

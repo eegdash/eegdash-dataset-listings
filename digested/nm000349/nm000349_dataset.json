@@ -1,0 +1,139 @@
+{
+  "dataset_id": "nm000349",
+  "name": "Chamanzar2020: Ultra high-density EEG of interictal migraine and controls during visual, auditory stimulation and rest",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000349-blue)](https://doi.org/10.82901/nemar.nm000349)\n# Ultra high-density EEG of interictal migraine and controls: sensory and rest\nBIDS conversion of the Carnegie Mellon University KiltHub release doi:10.1184/R1/12636731\n(Chamanzar, Haigh, Grover, Behrmann; CC BY 4.0), data for Chamanzar et al. (2021),\n\"Abnormalities in cortical pattern of coherence in migraine detected using ultra high-density EEG\",\nBrain Communications, doi:10.1093/braincomms/fcab061.\n## Participants\n39 participants: 18 with migraine recorded interictally (sub-M01..sub-M18) and\n21 healthy controls (sub-C01..sub-C21). The published analysis used 17 migraine (14 after\nexcluding M2, M6, M18 for medication; M13 lacks the auditory task) and 18 matched controls; C2, C6 and\nC12 are additional controls without demographics. See `participants.tsv` (`in_paper_analysis`, `notes`).\n## Recording\n128-channel BioSemi ActiveTwo, 512 Hz, 24-bit, custom ultra-high-density cap (~14 mm spacing) over\noccipital, parietal and frontal areas, inside a Faraday cage. Channel labels use 10-5 names, but the\npositions are custom and no digitized coordinates were released, so no electrodes.tsv is provided.\nAuxiliary channels: mastoids M1/M2 (type EEG), EOG LO1/LO2/IO1/SO1, ECG (collar bone), IO2 (role not\ndocumented, type MISC), GSR1/2, Erg1/2, Resp, Plet, Temp. Online reference CMS/DRL; no offline processing.\nMains frequency 60 Hz.\n## Tasks\n- `task-ssvep`: vertical grating flickering at 4 or 6 Hz for 2 s (100 trials each), ISI 1-1.5 s.\n- `task-ssaep`: 1 kHz tone amplitude-modulated at 4 or 6 Hz for 2 s (100 trials each), ISI 1-1.5 s.\n- `task-rest`: eyes open, fixation cross, 2-min blocks.\nAbout 10% of task trials are attention trials with a key press (colour change of the fixation cross).\nEvent codes are decoded from the Status channel; see `task-*_events.json`. The Status channel's bit 16\n(value 65536) toggles occasionally; it is masked out and is not an event.\n## Known irregularities (from the original files)\n- sub-M13 has no SSAEP recording (documented in the release).\n- sub-C14 SSAEP was recorded in two files (run-1: 75+75 trials, run-2: 25+25 trials).\n- sub-C12 SSVEP is truncated (25+25 trials, ~215 s); not documented in the release.\n- Most resting files contain 2-3 blocks (~400 s) rather than the six blocks in the protocol; sub-M01 and\n  sub-M02 contain ~800 s.\n- Trigger value 5 at the end of some resting files and one value 23 (sub-M03 SSVEP) are not described in\n  the protocol; they are kept as `undocumented_code_*`.\n- Original file names: M15's files are named `P15_*`; M1/M3 resting use `M1resting`/`M3Resting`.\n## Additional material\n- `stimuli/`: MATLAB/Psychtoolbox code of the three paradigms and SSVEP pattern files (from the release).\n- `sourcedata/original_release/`: the complete original KiltHub release, all 43 files byte-identical to\n  doi:10.1184/R1/12636731 (per-subject zips, README.txt, protocol PDF, demographics sheet, stimulus zip).\n- `sourcedata/sub-*/`: per-subject feedback reaction-time files extracted from the zips\n  (`*aud_migraine.txt`, `*vis_migraine.txt`: line 1 trial labels 1/2, line 2 attention trials, line 3\n  response times in s).\n- `sourcedata/sourcedata_provenance.json`: size, MD5/SHA-256 and origin of every source file; the BIDS\n  `*_eeg.bdf` files are byte-identical to the BDFs inside the original zips.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Alireza Chamanzar",
+    "Sarah M. Haigh",
+    "Pulkit Grover",
+    "Marlene Behrmann"
+  ],
+  "funding": [
+    "CMU BrainHUB (MB, PG, AC)",
+    "Chuck Noll Foundation for Brain Injury Research (PG)",
+    "NARSAD Young Investigator Grant, BBRF 26282 (SMH)",
+    "NSF EPSCoR 1632849 (SMH, Co-I)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000349",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest",
+    "ssaep",
+    "ssvep"
+  ],
+  "sessions": [],
+  "total_files": 117,
+  "size_bytes": 28749532186,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 39,
+    "ages": [
+      20,
+      20,
+      19,
+      30,
+      30,
+      30,
+      54,
+      43,
+      24,
+      20,
+      20,
+      20,
+      25,
+      29,
+      26,
+      21,
+      23,
+      49,
+      19,
+      23,
+      19,
+      20,
+      19,
+      54,
+      31,
+      43,
+      31,
+      19,
+      19,
+      22,
+      22,
+      47,
+      20,
+      24,
+      30,
+      30
+    ],
+    "age_min": 19,
+    "age_max": 54,
+    "age_mean": 27.63888888888889,
+    "species": null,
+    "sex_distribution": {
+      "f": 26,
+      "m": 10
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Marlene Behrmann",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-08T08:47:10.852268+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-08 05:43:44"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000349",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000349",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite Chamanzar et al. (2021), Brain Communications, doi:10.1093/braincomms/fcab061, and the data release doi:10.1184/R1/12636731.",
+  "ethics_approvals": [
+    "Carnegie Mellon University Institutional Review Board; written informed consent from each participant (Chamanzar et al. 2021)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1093/braincomms/fcab061",
+    "https://doi.org/10.1184/R1/12636731"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_bids.py (mne-bids)",
+      "Version": "0.19.0",
+      "Description": "BDF files copied byte-identically; sidecars, events and participants generated from the release README, protocol PDF, stimulus code and demographics sheet."
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://kilthub.cmu.edu/articles/dataset/12636731",
+      "DOI": "doi:10.1184/R1/12636731",
+      "Version": "v1 (2020-07-21)"
+    }
+  ],
+  "ingestion_fingerprint": "cfabbb9567b22d6d9ce59f191252563761d75148bcfb400d06cf5420556977e5"
+}

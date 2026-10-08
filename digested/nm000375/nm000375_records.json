@@ -1,0 +1,1697 @@
+{
+  "dataset": "nm000375",
+  "source": "nemar",
+  "digested_at": "2026-10-08T08:47:27.260693+00:00",
+  "record_count": 16,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-04_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-04/ieeg/sub-04_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-04/ieeg/sub-04_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-04/ieeg/sub-04_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ieeg/sub-04_task-pblt_channels.tsv",
+          "sub-04/ieeg/sub-04_task-pblt_events.tsv",
+          "sub-04/ieeg/sub-04_task-pblt_ieeg.json",
+          "sub-04/ieeg/sub-04_task-pblt_ieeg.eeg",
+          "sub-04/ieeg/sub-04_task-pblt_ieeg.vmrk",
+          "sub-04/ieeg/sub-04_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ieeg/sub-04_task-pblt_ieeg.vhdr": "SHA256E-s1047--f5643cd4fe66f90c42c70798919b7077411051176f55c761630adcc15ee6241b.vhdr",
+          "sub-04/ieeg/sub-04_task-pblt_ieeg.eeg": "SHA256E-s37822464--02a2f71b6a5953874975a7dae33123422ac5b5794cfb4b9a6f0c3c896bcc36a8.eeg"
+        }
+      },
+      "ch_names": [
+        "O2-O1",
+        "O3-O2",
+        "O4-O3",
+        "O7-O6",
+        "O8-O7",
+        "O9-O8",
+        "O10-O9",
+        "O11-O10",
+        "G'8-G'7",
+        "G'9-G'8",
+        "G'14-G'13",
+        "O'2-O'1",
+        "O'3-O'2",
+        "O'6-O'5",
+        "O'11-O'10",
+        "O'12-O'11",
+        "X'2-X'1",
+        "Y'2-Y'1",
+        "Y'3-Y'2",
+        "Y'10-Y'9",
+        "Y'11-Y'10",
+        "Y'12-Y'11",
+        "Y'13-Y'12",
+        "F'7-F'6",
+        "F'8-F'7",
+        "F'9-F'8",
+        "F'10-F'9",
+        "Z'6-Z'5",
+        "Z'7-Z'6",
+        "Z'8-Z'7",
+        "Z'14-Z'13",
+        "Z'15-Z'14"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 32,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-4",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 32.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 4.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC;lOFC;vmPFC",
+        "hemispheres": "L;R",
+        "n_aINS": 3.0,
+        "n_dlPFC": 13.0,
+        "n_lOFC": 7.0,
+        "n_vmPFC": 9.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-14_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-14/ieeg/sub-14_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-14/ieeg/sub-14_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-14/ieeg/sub-14_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-14/ieeg/sub-14_task-pblt_channels.tsv",
+          "sub-14/ieeg/sub-14_task-pblt_events.tsv",
+          "sub-14/ieeg/sub-14_task-pblt_ieeg.json",
+          "sub-14/ieeg/sub-14_task-pblt_ieeg.eeg",
+          "sub-14/ieeg/sub-14_task-pblt_ieeg.vmrk",
+          "sub-14/ieeg/sub-14_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/ieeg/sub-14_task-pblt_ieeg.vhdr": "SHA256E-s990--44f02c974db581611a1b892c4ea0b3c48fa69283308c9578ace44bf0f6bde285.vhdr",
+          "sub-14/ieeg/sub-14_task-pblt_ieeg.eeg": "SHA256E-s34276608--430422d8734eaa62bd18f4d35164f7db830d0afd40cf38facd1e1024c7ba029d.eeg"
+        }
+      },
+      "ch_names": [
+        "E'2-E'1",
+        "E'3-E'2",
+        "E'4-E'3",
+        "O'2-O'1",
+        "O'3-O'2",
+        "O'6-O'5",
+        "O'7-O'6",
+        "O'8-O'7",
+        "O'9-O'8",
+        "O'10-O'9",
+        "O'11-O'10",
+        "K'7-K'6",
+        "K'8-K'7",
+        "K'9-K'8",
+        "K'10-K'9",
+        "K'11-K'10",
+        "F'4-F'3",
+        "F'5-F'4",
+        "F'6-F'5",
+        "F'7-F'6",
+        "F'8-F'7",
+        "F'9-F'8",
+        "F'10-F'9",
+        "Y'4-Y'3",
+        "Y'5-Y'4",
+        "Y'7-Y'6",
+        "Y'8-Y'7",
+        "Y'9-Y'8",
+        "Y'10-Y'9"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 29,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-14",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 29.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 13.0,
+        "implant_type": "SEEG",
+        "rois": "dlPFC;lOFC;vmPFC",
+        "hemispheres": "L",
+        "n_aINS": 0.0,
+        "n_dlPFC": 18.0,
+        "n_lOFC": 9.0,
+        "n_vmPFC": 2.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-03_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-03/ieeg/sub-03_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-03/ieeg/sub-03_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-03/ieeg/sub-03_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-03/ieeg/sub-03_task-pblt_channels.tsv",
+          "sub-03/ieeg/sub-03_task-pblt_events.tsv",
+          "sub-03/ieeg/sub-03_task-pblt_ieeg.json",
+          "sub-03/ieeg/sub-03_task-pblt_ieeg.eeg",
+          "sub-03/ieeg/sub-03_task-pblt_ieeg.vmrk",
+          "sub-03/ieeg/sub-03_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ieeg/sub-03_task-pblt_ieeg.vhdr": "SHA256E-s627--5daa7c9d41e8116d5e925656dd0a357c45fcc02bf08a61709b98208ce376e70d.vhdr",
+          "sub-03/ieeg/sub-03_task-pblt_ieeg.eeg": "SHA256E-s7091712--ab5b66eb17393eaa133cf9e3dc1ab355985dbde2815564c8e76522e25a3d7d6d.eeg"
+        }
+      },
+      "ch_names": [
+        "X'3-X'2",
+        "X'4-X'3",
+        "X'9-X'8",
+        "X'10-X'9",
+        "X2-X1",
+        "X3-X2",
+        "X4-X3",
+        "X5-X4",
+        "X6-X5",
+        "X7-X6",
+        "Q2-Q1",
+        "Q3-Q2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 147744,
+      "duration_seconds": 577.125,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-3",
+        "n_trials": 288.0,
+        "n_bipolar_contacts": 12.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 3.0,
+        "implant_type": "SEEG",
+        "rois": "aINS",
+        "hemispheres": "L;R",
+        "n_aINS": 12.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 0.0,
+        "n_vmPFC": 0.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 577.125,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-12_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-12/ieeg/sub-12_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-12/ieeg/sub-12_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-12/ieeg/sub-12_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-12/ieeg/sub-12_task-pblt_channels.tsv",
+          "sub-12/ieeg/sub-12_task-pblt_events.tsv",
+          "sub-12/ieeg/sub-12_task-pblt_ieeg.json",
+          "sub-12/ieeg/sub-12_task-pblt_ieeg.eeg",
+          "sub-12/ieeg/sub-12_task-pblt_ieeg.vmrk",
+          "sub-12/ieeg/sub-12_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/ieeg/sub-12_task-pblt_ieeg.vhdr": "SHA256E-s636--8d084ccf491176f1b340faa622f0034354230c5aec0369f8fe6d758d4c583726.vhdr",
+          "sub-12/ieeg/sub-12_task-pblt_ieeg.eeg": "SHA256E-s14183424--b7c870e58bb78978c399b1c988b9a0f1813e252ad8faf7891a898ced5b5ebacc.eeg"
+        }
+      },
+      "ch_names": [
+        "X'2-X'1",
+        "X'3-X'2",
+        "X'4-X'3",
+        "X'5-X'4",
+        "X'6-X'5",
+        "X'7-X'6",
+        "X'8-X'7",
+        "X'9-X'8",
+        "X2-X1",
+        "X5-X4",
+        "X6-X5",
+        "X15-X14"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 12,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-12",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 12.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 11.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC",
+        "hemispheres": "L;R",
+        "n_aINS": 11.0,
+        "n_dlPFC": 1.0,
+        "n_lOFC": 0.0,
+        "n_vmPFC": 0.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-08_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-08/ieeg/sub-08_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-08/ieeg/sub-08_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-08/ieeg/sub-08_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-08/ieeg/sub-08_task-pblt_channels.tsv",
+          "sub-08/ieeg/sub-08_task-pblt_events.tsv",
+          "sub-08/ieeg/sub-08_task-pblt_ieeg.json",
+          "sub-08/ieeg/sub-08_task-pblt_ieeg.eeg",
+          "sub-08/ieeg/sub-08_task-pblt_ieeg.vmrk",
+          "sub-08/ieeg/sub-08_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/ieeg/sub-08_task-pblt_ieeg.vhdr": "SHA256E-s643--25cc33b4108a4228713a4172c7eff80ff2da2928eedf61e4860b4c0867ec7af6.vhdr",
+          "sub-08/ieeg/sub-08_task-pblt_ieeg.eeg": "SHA256E-s15338700--595bdc411fd59e784b4371a19d9ef255fe5c82e743485d74c753b99d5a5f2d9b.eeg"
+        }
+      },
+      "ch_names": [
+        "W3-W2",
+        "W4-W3",
+        "L10-L9",
+        "L11-L10",
+        "L12-L11",
+        "H9-H8",
+        "X2-X1",
+        "X3-X2",
+        "X6-X5",
+        "X7-X6",
+        "Y2-Y1",
+        "Y3-Y2",
+        "Y13-Y12"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 13,
+      "ntimes": 294975,
+      "duration_seconds": 1152.24609375,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-8",
+        "n_trials": 575.0,
+        "n_bipolar_contacts": 13.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 7.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC;vmPFC",
+        "hemispheres": "R",
+        "n_aINS": 6.0,
+        "n_dlPFC": 5.0,
+        "n_lOFC": 0.0,
+        "n_vmPFC": 2.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1152.24609375,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-15_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-15/ieeg/sub-15_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-15/ieeg/sub-15_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-15/ieeg/sub-15_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-15/ieeg/sub-15_task-pblt_channels.tsv",
+          "sub-15/ieeg/sub-15_task-pblt_events.tsv",
+          "sub-15/ieeg/sub-15_task-pblt_ieeg.json",
+          "sub-15/ieeg/sub-15_task-pblt_ieeg.eeg",
+          "sub-15/ieeg/sub-15_task-pblt_ieeg.vmrk",
+          "sub-15/ieeg/sub-15_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/ieeg/sub-15_task-pblt_ieeg.vhdr": "SHA256E-s641--9625294bb38af8fe16245ff03de98ed0f510436a0a15b43cfa917e59c9e44224.vhdr",
+          "sub-15/ieeg/sub-15_task-pblt_ieeg.eeg": "SHA256E-s7682688--a5cdfb8f34064737e117e0376668f0471f438bd74766becf4a50045269c7525a.eeg"
+        }
+      },
+      "ch_names": [
+        "J2-J1",
+        "J3-J2",
+        "O2-O1",
+        "O3-O2",
+        "O4-O3",
+        "O5-O4",
+        "O6-O5",
+        "O7-O6",
+        "O8-O7",
+        "O9-O8",
+        "O10-O9",
+        "O11-O10",
+        "O12-O11"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 13,
+      "ntimes": 147744,
+      "duration_seconds": 577.125,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-15",
+        "n_trials": 288.0,
+        "n_bipolar_contacts": 13.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 14.0,
+        "implant_type": "SEEG",
+        "rois": "lOFC;vmPFC",
+        "hemispheres": "R",
+        "n_aINS": 0.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 9.0,
+        "n_vmPFC": 4.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 577.125,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-02_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-02/ieeg/sub-02_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-02/ieeg/sub-02_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-02/ieeg/sub-02_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ieeg/sub-02_task-pblt_channels.tsv",
+          "sub-02/ieeg/sub-02_task-pblt_events.tsv",
+          "sub-02/ieeg/sub-02_task-pblt_ieeg.json",
+          "sub-02/ieeg/sub-02_task-pblt_ieeg.eeg",
+          "sub-02/ieeg/sub-02_task-pblt_ieeg.vmrk",
+          "sub-02/ieeg/sub-02_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ieeg/sub-02_task-pblt_ieeg.vhdr": "SHA256E-s444--1c15771851232257b97123343084aa72a92bb2bc02393610dd7358a724a954e2.vhdr",
+          "sub-02/ieeg/sub-02_task-pblt_ieeg.eeg": "SHA256E-s2363904--581e5b01dd33d6580f618053de9322e588c2d29b4b1429f4381845439abe6365.eeg"
+        }
+      },
+      "ch_names": [
+        "X3-X2",
+        "X5-X4"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 2,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-2",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 2.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 2.0,
+        "implant_type": "SEEG",
+        "rois": "aINS",
+        "hemispheres": "R",
+        "n_aINS": 2.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 0.0,
+        "n_vmPFC": 0.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-07_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-07/ieeg/sub-07_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-07/ieeg/sub-07_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-07/ieeg/sub-07_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-07/ieeg/sub-07_task-pblt_channels.tsv",
+          "sub-07/ieeg/sub-07_task-pblt_events.tsv",
+          "sub-07/ieeg/sub-07_task-pblt_ieeg.json",
+          "sub-07/ieeg/sub-07_task-pblt_ieeg.eeg",
+          "sub-07/ieeg/sub-07_task-pblt_ieeg.vmrk",
+          "sub-07/ieeg/sub-07_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/ieeg/sub-07_task-pblt_ieeg.vhdr": "SHA256E-s495--74ac18076ad9c6f09c74d0aac07589fa466ab2d45e4605fcdce47b9754d5e7b5.vhdr",
+          "sub-07/ieeg/sub-07_task-pblt_ieeg.eeg": "SHA256E-s5909760--01f3c8309a49203a3c8e550112f8cb28a6d012d8e49092de96594a2ef4dff012.eeg"
+        }
+      },
+      "ch_names": [
+        "X2-X1",
+        "X3-X2",
+        "X4-X3",
+        "X5-X4",
+        "X6-X5"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 5,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-7",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 5.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 6.0,
+        "implant_type": "SEEG",
+        "rois": "aINS",
+        "hemispheres": "R",
+        "n_aINS": 5.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 0.0,
+        "n_vmPFC": 0.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-16_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-16/ieeg/sub-16_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-16/ieeg/sub-16_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-16/ieeg/sub-16_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-16/ieeg/sub-16_task-pblt_channels.tsv",
+          "sub-16/ieeg/sub-16_task-pblt_events.tsv",
+          "sub-16/ieeg/sub-16_task-pblt_ieeg.json",
+          "sub-16/ieeg/sub-16_task-pblt_ieeg.eeg",
+          "sub-16/ieeg/sub-16_task-pblt_ieeg.vmrk",
+          "sub-16/ieeg/sub-16_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/ieeg/sub-16_task-pblt_ieeg.vhdr": "SHA256E-s587--92e99693647313bc899c03dd43979f390853b20cf1b2b9ecf59c22f4cb0f2c23.vhdr",
+          "sub-16/ieeg/sub-16_task-pblt_ieeg.eeg": "SHA256E-s7879680--d8cf537c20d36f66651ac09be9f0f02d34f7f0d679cbdb873ef272b137a5ba26.eeg"
+        }
+      },
+      "ch_names": [
+        "O2-O1",
+        "O3-O2",
+        "O5-O4",
+        "O7-O6",
+        "O8-O7",
+        "O9-O8",
+        "O10-O9",
+        "O11-O10",
+        "O12-O11",
+        "P3-P2"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 10,
+      "ntimes": 196992,
+      "duration_seconds": 769.5,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-16",
+        "n_trials": 384.0,
+        "n_bipolar_contacts": 10.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 15.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;lOFC;vmPFC",
+        "hemispheres": "R",
+        "n_aINS": 1.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 6.0,
+        "n_vmPFC": 3.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 769.5,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-10_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-10/ieeg/sub-10_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-10/ieeg/sub-10_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-10/ieeg/sub-10_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-10/ieeg/sub-10_task-pblt_channels.tsv",
+          "sub-10/ieeg/sub-10_task-pblt_events.tsv",
+          "sub-10/ieeg/sub-10_task-pblt_ieeg.json",
+          "sub-10/ieeg/sub-10_task-pblt_ieeg.eeg",
+          "sub-10/ieeg/sub-10_task-pblt_ieeg.vmrk",
+          "sub-10/ieeg/sub-10_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/ieeg/sub-10_task-pblt_ieeg.vhdr": "SHA256E-s939--21f181504737389eb4748afab5d1ad6651b761a380e161af636cc18e3c784560.vhdr",
+          "sub-10/ieeg/sub-10_task-pblt_ieeg.eeg": "SHA256E-s33094656--9c158876c9b2e0acb7767a6b20658bc7ab42c38477293c9d209054632bc30c61.eeg"
+        }
+      },
+      "ch_names": [
+        "F7-F6",
+        "F8-F7",
+        "F9-F8",
+        "G8-G7",
+        "G9-G8",
+        "G11-G10",
+        "G12-G11",
+        "O2-O1",
+        "O3-O2",
+        "O4-O3",
+        "O5-O4",
+        "O6-O5",
+        "O7-O6",
+        "O8-O7",
+        "O9-O8",
+        "O10-O9",
+        "O11-O10",
+        "T2-T1",
+        "G'10-G'9",
+        "G'11-G'10",
+        "G'12-G'11",
+        "O'2-O'1",
+        "O'3-O'2",
+        "O'4-O'3",
+        "O'5-O'4",
+        "O'6-O'5",
+        "O'7-O'6",
+        "O'10-O'9"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 28,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-10",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 28.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 9.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC;lOFC;vmPFC",
+        "hemispheres": "L;R",
+        "n_aINS": 1.0,
+        "n_dlPFC": 10.0,
+        "n_lOFC": 7.0,
+        "n_vmPFC": 10.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-09_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-09/ieeg/sub-09_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-09/ieeg/sub-09_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-09/ieeg/sub-09_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-09/ieeg/sub-09_task-pblt_channels.tsv",
+          "sub-09/ieeg/sub-09_task-pblt_events.tsv",
+          "sub-09/ieeg/sub-09_task-pblt_ieeg.json",
+          "sub-09/ieeg/sub-09_task-pblt_ieeg.eeg",
+          "sub-09/ieeg/sub-09_task-pblt_ieeg.vmrk",
+          "sub-09/ieeg/sub-09_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/ieeg/sub-09_task-pblt_ieeg.vhdr": "SHA256E-s723--afddc672c6f6969410fdc29621ba1273367b602557adf99ec1532d6093f12d0e.vhdr",
+          "sub-09/ieeg/sub-09_task-pblt_ieeg.eeg": "SHA256E-s16744320--0913d122bdc96e9fd016daba8901389f6fb7fc99ec3e4db27e3299cdc45dad86.eeg"
+        }
+      },
+      "ch_names": [
+        "X'2-X'1",
+        "X'3-X'2",
+        "X'4-X'3",
+        "X'5-X'4",
+        "O'2-O'1",
+        "O'5-O'4",
+        "X2-X1",
+        "X3-X2",
+        "X4-X3",
+        "X5-X4",
+        "X6-X5",
+        "O2-O1",
+        "O7-O6",
+        "O8-O7",
+        "O9-O8",
+        "O10-O9",
+        "O11-O10"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 17,
+      "ntimes": 246240,
+      "duration_seconds": 961.875,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-9",
+        "n_trials": 480.0,
+        "n_bipolar_contacts": 17.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 8.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;lOFC;vmPFC",
+        "hemispheres": "L;R",
+        "n_aINS": 9.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 5.0,
+        "n_vmPFC": 3.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 961.875,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-11_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-11/ieeg/sub-11_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-11/ieeg/sub-11_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-11/ieeg/sub-11_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-11/ieeg/sub-11_task-pblt_channels.tsv",
+          "sub-11/ieeg/sub-11_task-pblt_events.tsv",
+          "sub-11/ieeg/sub-11_task-pblt_ieeg.json",
+          "sub-11/ieeg/sub-11_task-pblt_ieeg.eeg",
+          "sub-11/ieeg/sub-11_task-pblt_ieeg.vmrk",
+          "sub-11/ieeg/sub-11_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ieeg/sub-11_task-pblt_ieeg.vhdr": "SHA256E-s912--ddab367ac20cbdc0f77a6a529d6a922ab6109c5e7fd07cf88e64de59e1782b81.vhdr",
+          "sub-11/ieeg/sub-11_task-pblt_ieeg.eeg": "SHA256E-s29548800--60b136314609875c5f4400120fda811c12637a3a1e34d5b4057ce9e6229b1a51.eeg"
+        }
+      },
+      "ch_names": [
+        "X'4-X'3",
+        "X'5-X'4",
+        "X'6-X'5",
+        "X'7-X'6",
+        "X'8-X'7",
+        "L'3-L'2",
+        "L'4-L'3",
+        "L'5-L'4",
+        "L'11-L'10",
+        "L'12-L'11",
+        "G'5-G'4",
+        "G'6-G'5",
+        "G'7-G'6",
+        "G'8-G'7",
+        "G'9-G'8",
+        "G'10-G'9",
+        "O'3-O'2",
+        "O'4-O'3",
+        "O'9-O'8",
+        "O'10-O'9",
+        "O'11-O'10",
+        "O'12-O'11",
+        "Q'2-Q'1",
+        "Q'3-Q'2",
+        "Q'4-Q'3"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 25,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-11",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 25.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 10.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC;lOFC;vmPFC",
+        "hemispheres": "L",
+        "n_aINS": 8.0,
+        "n_dlPFC": 8.0,
+        "n_lOFC": 4.0,
+        "n_vmPFC": 5.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-05_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-05/ieeg/sub-05_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-05/ieeg/sub-05_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-05/ieeg/sub-05_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-05/ieeg/sub-05_task-pblt_channels.tsv",
+          "sub-05/ieeg/sub-05_task-pblt_events.tsv",
+          "sub-05/ieeg/sub-05_task-pblt_ieeg.json",
+          "sub-05/ieeg/sub-05_task-pblt_ieeg.eeg",
+          "sub-05/ieeg/sub-05_task-pblt_ieeg.vmrk",
+          "sub-05/ieeg/sub-05_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/ieeg/sub-05_task-pblt_ieeg.vhdr": "SHA256E-s467--ebef3afecd896ed4cc4a7fcc4c118ad46f891037c1b182234101622ea3768b40.vhdr",
+          "sub-05/ieeg/sub-05_task-pblt_ieeg.eeg": "SHA256E-s2954880--a7a254d9c706cc997819c0f823f948ce6c4e5ddb11c02316f14ce437c9f189e7.eeg"
+        }
+      },
+      "ch_names": [
+        "X'2-X'1",
+        "X'3-X'2",
+        "X'4-X'3"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 3,
+      "ntimes": 246240,
+      "duration_seconds": 961.875,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-5",
+        "n_trials": 480.0,
+        "n_bipolar_contacts": 3.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 5.0,
+        "implant_type": "SEEG",
+        "rois": "aINS",
+        "hemispheres": "L",
+        "n_aINS": 3.0,
+        "n_dlPFC": 0.0,
+        "n_lOFC": 0.0,
+        "n_vmPFC": 0.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 961.875,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-17_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-17/ieeg/sub-17_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-17/ieeg/sub-17_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-17/ieeg/sub-17_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-17/ieeg/sub-17_task-pblt_channels.tsv",
+          "sub-17/ieeg/sub-17_task-pblt_events.tsv",
+          "sub-17/ieeg/sub-17_task-pblt_ieeg.json",
+          "sub-17/ieeg/sub-17_task-pblt_ieeg.eeg",
+          "sub-17/ieeg/sub-17_task-pblt_ieeg.vmrk",
+          "sub-17/ieeg/sub-17_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/ieeg/sub-17_task-pblt_ieeg.vhdr": "SHA256E-s622--293b52967415e81bb0b9b99e44c0df74aa5d97fdd2d9e02a7c321df65b3d6c3d.vhdr",
+          "sub-17/ieeg/sub-17_task-pblt_ieeg.eeg": "SHA256E-s6500736--99b15fed57b09ea46b87802e3335ae947bfbfa1cd48247066840ae836500159a.eeg"
+        }
+      },
+      "ch_names": [
+        "O'3-O'2",
+        "O'4-O'3",
+        "O'5-O'4",
+        "O'6-O'5",
+        "O'7-O'6",
+        "O'8-O'7",
+        "F'4-F'3",
+        "F'5-F'4",
+        "F'6-F'5",
+        "F'7-F'6",
+        "F'8-F'7"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 11,
+      "ntimes": 147744,
+      "duration_seconds": 577.125,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-17",
+        "n_trials": 288.0,
+        "n_bipolar_contacts": 11.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 16.0,
+        "implant_type": "SEEG",
+        "rois": "dlPFC;lOFC;vmPFC",
+        "hemispheres": "L",
+        "n_aINS": 0.0,
+        "n_dlPFC": 5.0,
+        "n_lOFC": 4.0,
+        "n_vmPFC": 2.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 577.125,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-01_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-01/ieeg/sub-01_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-01/ieeg/sub-01_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-pblt_channels.tsv",
+          "sub-01/ieeg/sub-01_task-pblt_events.tsv",
+          "sub-01/ieeg/sub-01_task-pblt_ieeg.json",
+          "sub-01/ieeg/sub-01_task-pblt_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-pblt_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-pblt_ieeg.vhdr": "SHA256E-s685--e89fe2bb3fcda00fedbfcd867c5e0949388b67c0f08592c308d79a7b0f6bdd29.vhdr",
+          "sub-01/ieeg/sub-01_task-pblt_ieeg.eeg": "SHA256E-s17729280--73f81acbefb82cf58a57cd521a28dd91db00722bea9862f52a14d12bb11b0d95.eeg"
+        }
+      },
+      "ch_names": [
+        "E9-E8",
+        "E10-E9",
+        "E11-E10",
+        "E12-E11",
+        "X2-X1",
+        "X3-X2",
+        "X7-X6",
+        "X14-X13",
+        "G9-G8",
+        "G12-G11",
+        "G13-G12",
+        "O2-O1",
+        "O7-O6",
+        "O12-O11",
+        "Q2-Q1"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 15,
+      "ntimes": 295488,
+      "duration_seconds": 1154.25,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-1",
+        "n_trials": 576.0,
+        "n_bipolar_contacts": 15.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 1.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC;lOFC;vmPFC",
+        "hemispheres": "R",
+        "n_aINS": 4.0,
+        "n_dlPFC": 8.0,
+        "n_lOFC": 2.0,
+        "n_vmPFC": 1.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 1154.25,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000375",
+      "data_name": "nm000375_sub-13_task-pblt_ieeg.vhdr",
+      "bidspath": "nm000375/sub-13/ieeg/sub-13_task-pblt_ieeg.vhdr",
+      "bids_relpath": "sub-13/ieeg/sub-13_task-pblt_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "pblt",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000375",
+        "raw_key": "sub-13/ieeg/sub-13_task-pblt_ieeg.vhdr",
+        "dep_keys": [
+          "sub-13/ieeg/sub-13_task-pblt_channels.tsv",
+          "sub-13/ieeg/sub-13_task-pblt_events.tsv",
+          "sub-13/ieeg/sub-13_task-pblt_ieeg.json",
+          "sub-13/ieeg/sub-13_task-pblt_ieeg.eeg",
+          "sub-13/ieeg/sub-13_task-pblt_ieeg.vmrk",
+          "sub-13/ieeg/sub-13_task-pblt_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/ieeg/sub-13_task-pblt_ieeg.vhdr": "SHA256E-s813--32097f3632ba35de476c2703083f7d39bf6c6044b9b42fd21ddf067faa26c2d9.vhdr",
+          "sub-13/ieeg/sub-13_task-pblt_ieeg.eeg": "SHA256E-s12410496--08c3dc6e0d51054de9fdc38efc0938bffbb25df69cf87e0b9c544629e126ba81.eeg"
+        }
+      },
+      "ch_names": [
+        "O3-O2",
+        "O7-O6",
+        "X2-X1",
+        "X3-X2",
+        "X4-X3",
+        "X5-X4",
+        "X6-X5",
+        "X7-X6",
+        "G'13-G'12",
+        "G'14-G'13",
+        "O'5-O'4",
+        "O'6-O'5",
+        "O'7-O'6",
+        "O'8-O'7",
+        "O'9-O'8",
+        "O'10-O'9",
+        "O'11-O'10",
+        "X'2-X'1",
+        "X'3-X'2",
+        "X'5-X'4",
+        "X'6-X'5"
+      ],
+      "sampling_frequency": 256.0,
+      "nchans": 21,
+      "ntimes": 147744,
+      "duration_seconds": 577.125,
+      "digested_at": "2026-10-08T08:47:27.260693+00:00",
+      "participant_tsv": {
+        "source_id": "subject-13",
+        "n_trials": 288.0,
+        "n_bipolar_contacts": 21.0,
+        "age": null,
+        "sex": null,
+        "handedness": null,
+        "paper_subject": 12.0,
+        "implant_type": "SEEG",
+        "rois": "aINS;dlPFC;lOFC;vmPFC",
+        "hemispheres": "L;R",
+        "n_aINS": 10.0,
+        "n_dlPFC": 2.0,
+        "n_lOFC": 6.0,
+        "n_vmPFC": 3.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "bipolar (adjacent contacts on the same SEEG shaft, as named); original recordings referenced to one contact located in the white matter (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "BandpassFilter": {
+          "Description": "Bandwidth of the original SEEG acquisition (Micromed), before the authors' high-gamma estimation (Combrisson et al. 2024, eLife 12:RP92938, doi:10.7554/eLife.92938, Methods)",
+          "LowCutoff": 0.1,
+          "HighCutoff": 200
+        }
+      },
+      "manufacturer": "Micromed",
+      "recording_type": "epoched",
+      "recording_duration": 577.125,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    }
+  ]
+}

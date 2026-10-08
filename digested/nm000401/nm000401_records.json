@@ -1,0 +1,1654 @@
+{
+  "dataset": "nm000401",
+  "source": "nemar",
+  "digested_at": "2026-10-08T08:47:38.557434+00:00",
+  "record_count": 17,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-14_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-14/ieeg/sub-14_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-14/ieeg/sub-14_task-bart_run-1_channels.tsv",
+          "sub-14/ieeg/sub-14_task-bart_run-1_events.tsv",
+          "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.json",
+          "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.eeg",
+          "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.vmrk",
+          "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.vhdr": "SHA256E-s444--80bce9bc1014b79f68d39e206a2118c339be45d517063d3db9a3b2eed087041b.vhdr",
+          "sub-14/ieeg/sub-14_task-bart_run-1_ieeg.eeg": "SHA256E-s474504--3e0fcccbe57028a1cef64c17310785704ce374e95cb66366a6d498944edb2e2d.eeg"
+        }
+      },
+      "ch_names": [
+        "c17"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 1,
+      "ntimes": 118626,
+      "duration_seconds": 593.13,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p14",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 2.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 2.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC) | d2: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 593.13,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-14_task-bart_run-2_ieeg.vhdr",
+      "bidspath": "nm000401/sub-14/ieeg/sub-14_task-bart_run-2_ieeg.vhdr",
+      "bids_relpath": "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "14",
+        "session": null,
+        "task": "bart",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "14",
+        "session": null,
+        "task": "bart",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.vhdr",
+        "dep_keys": [
+          "sub-14/ieeg/sub-14_task-bart_run-2_channels.tsv",
+          "sub-14/ieeg/sub-14_task-bart_run-2_events.tsv",
+          "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.json",
+          "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.eeg",
+          "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.vmrk",
+          "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.vhdr": "SHA256E-s444--1aa7ba39b52d0424b1f742b4dfc2cba95c84e4ca8ded626cfca25f4e10468887.vhdr",
+          "sub-14/ieeg/sub-14_task-bart_run-2_ieeg.eeg": "SHA256E-s474844--11465dab2b9b6f1d196a2b8244f3e94f377afcb6a41b67ccfb064f6844c3827f.eeg"
+        }
+      },
+      "ch_names": [
+        "c17"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 1,
+      "ntimes": 118711,
+      "duration_seconds": 593.555,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p14",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 2.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 2.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC) | d2: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 593.13,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-12_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-12/ieeg/sub-12_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-12/ieeg/sub-12_task-bart_run-1_channels.tsv",
+          "sub-12/ieeg/sub-12_task-bart_run-1_events.tsv",
+          "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.json",
+          "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.eeg",
+          "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.vmrk",
+          "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.vhdr": "SHA256E-s444--9447a73158da917ed923fc37307ecb27475526d7dbf0795a48d8020057b9b19c.vhdr",
+          "sub-12/ieeg/sub-12_task-bart_run-1_ieeg.eeg": "SHA256E-s582136--73b378d202b521971b9a4d50687da50ed6a9452ded3dc4967fc5f6bf6a540891.eeg"
+        }
+      },
+      "ch_names": [
+        "c17"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 1,
+      "ntimes": 145534,
+      "duration_seconds": 727.67,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p12",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 1.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 727.67,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-15_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-15/ieeg/sub-15_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "15",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "15",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-15/ieeg/sub-15_task-bart_run-1_channels.tsv",
+          "sub-15/ieeg/sub-15_task-bart_run-1_events.tsv",
+          "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.json",
+          "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.eeg",
+          "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.vmrk",
+          "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.vhdr": "SHA256E-s444--a360437b8294a2e6cebe6a73bb2258c3e6d36ca64f168b89ae86a13c97ca7708.vhdr",
+          "sub-15/ieeg/sub-15_task-bart_run-1_ieeg.eeg": "SHA256E-s1047740--afbfdbf6cda977b9eeec88b70c8509e5926387ca8fa64c507852d9594ab6e5bf.eeg"
+        }
+      },
+      "ch_names": [
+        "c17"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 1,
+      "ntimes": 261935,
+      "duration_seconds": 1309.675,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p15",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 1.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 1309.675,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-23_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-23/ieeg/sub-23_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "23",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "23",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-23/ieeg/sub-23_task-bart_run-1_channels.tsv",
+          "sub-23/ieeg/sub-23_task-bart_run-1_events.tsv",
+          "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.json",
+          "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.eeg",
+          "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.vmrk",
+          "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.vhdr": "SHA256E-s995--2b5686b829e3cc2204b523135aaa5958292cb9c739308178533d6865c9a07193.vhdr",
+          "sub-23/ieeg/sub-23_task-bart_run-1_ieeg.eeg": "SHA256E-s19782912--19a33468243dec23a33575f6ad79ba74550f02c1bca93cae03e72208017cec9d.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 154554,
+      "duration_seconds": 772.77,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p23",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech)",
+        "n_lfp_channels": 32.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 32 LFP ch, 6 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 772.77,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-16_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-16/ieeg/sub-16_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-16/ieeg/sub-16_task-bart_run-1_channels.tsv",
+          "sub-16/ieeg/sub-16_task-bart_run-1_events.tsv",
+          "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.json",
+          "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.eeg",
+          "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.vmrk",
+          "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.vhdr": "SHA256E-s444--c6036fa22e8c70e2bde0d5aba9ba96f672f33c0c8caefdc52da2f55a4cdaa976.vhdr",
+          "sub-16/ieeg/sub-16_task-bart_run-1_ieeg.eeg": "SHA256E-s850044--aab925ba0541fb12a8e5032016771c6499b93694280bb960a0b422431424f937.eeg"
+        }
+      },
+      "ch_names": [
+        "c17"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 1,
+      "ntimes": 212511,
+      "duration_seconds": 1062.555,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p16",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 2.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech); single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 33.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 0 units, single tungsten microelectrode (FHC) | d2: 32 LFP ch, 0 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 1062.555,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-16_task-bart_run-2_ieeg.vhdr",
+      "bidspath": "nm000401/sub-16/ieeg/sub-16_task-bart_run-2_ieeg.vhdr",
+      "bids_relpath": "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "16",
+        "session": null,
+        "task": "bart",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "16",
+        "session": null,
+        "task": "bart",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.vhdr",
+        "dep_keys": [
+          "sub-16/ieeg/sub-16_task-bart_run-2_channels.tsv",
+          "sub-16/ieeg/sub-16_task-bart_run-2_events.tsv",
+          "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.json",
+          "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.eeg",
+          "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.vmrk",
+          "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.vhdr": "SHA256E-s995--5677c1ec1b2c1494838ca1ba3e49f1c8787ab5011888c58f9cafa91cde825d31.vhdr",
+          "sub-16/ieeg/sub-16_task-bart_run-2_ieeg.eeg": "SHA256E-s16696064--64273fbe54a7b0f2786c8fe04dc3d03b6eed662d7f7998fb5c4ef4ff898631bd.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 130438,
+      "duration_seconds": 652.19,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p16",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 2.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech); single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 33.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 0 units, single tungsten microelectrode (FHC) | d2: 32 LFP ch, 0 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 1062.555,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-25_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-25/ieeg/sub-25_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "25",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "25",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-25/ieeg/sub-25_task-bart_run-1_channels.tsv",
+          "sub-25/ieeg/sub-25_task-bart_run-1_events.tsv",
+          "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.json",
+          "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.eeg",
+          "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.vmrk",
+          "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.vhdr": "SHA256E-s443--7536ade91324e312f2ea22bfd4b690940fffd889c07a9416d84f5e5b531b6d70.vhdr",
+          "sub-25/ieeg/sub-25_task-bart_run-1_ieeg.eeg": "SHA256E-s212504--2f3847241403dce8e9f9ae092c5f10d63a64370e5c52f00d8332674e1cbd8646.eeg"
+        }
+      },
+      "ch_names": [
+        "c2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 1,
+      "ntimes": 53126,
+      "duration_seconds": 212.504,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p25",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "no LFP (spikes/behaviour only); single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 1.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC) | d2: 0 LFP ch, 1 units, no LFP (spikes/behaviour only)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.004 s (250 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 212.504,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-21_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-21/ieeg/sub-21_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "21",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "21",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-21/ieeg/sub-21_task-bart_run-1_channels.tsv",
+          "sub-21/ieeg/sub-21_task-bart_run-1_events.tsv",
+          "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.json",
+          "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.eeg",
+          "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.vmrk",
+          "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.vhdr": "SHA256E-s443--a26c96892b985c54679309f8ccfd65c14d7568587d6cf580534fb89deb4d61d7.vhdr",
+          "sub-21/ieeg/sub-21_task-bart_run-1_ieeg.eeg": "SHA256E-s618884--271ce2313c65420a99e6aa6795089e81edd664f9cfe02bcda9dde516c7e5d83e.eeg"
+        }
+      },
+      "ch_names": [
+        "c2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 1,
+      "ntimes": 154721,
+      "duration_seconds": 618.884,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p21",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 1.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.004 s (250 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 618.884,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-11_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-11/ieeg/sub-11_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-11/ieeg/sub-11_task-bart_run-1_channels.tsv",
+          "sub-11/ieeg/sub-11_task-bart_run-1_events.tsv",
+          "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.json",
+          "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.eeg",
+          "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.vmrk",
+          "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.vhdr": "SHA256E-s444--8f4cb97c562778278dd9645fd8769802179f9db6c5ee55583a709445f0ed2006.vhdr",
+          "sub-11/ieeg/sub-11_task-bart_run-1_ieeg.eeg": "SHA256E-s1002912--1d6a9b3cddb34d2e2072e691e01fcb51519812e3da26d7b2e63f828fa6aee84d.eeg"
+        }
+      },
+      "ch_names": [
+        "c17"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 1,
+      "ntimes": 250728,
+      "duration_seconds": 1253.64,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p11",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 1.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 1253.64,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-24_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-24/ieeg/sub-24_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "24",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "24",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-24/ieeg/sub-24_task-bart_run-1_channels.tsv",
+          "sub-24/ieeg/sub-24_task-bart_run-1_events.tsv",
+          "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.json",
+          "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.eeg",
+          "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.vmrk",
+          "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.vhdr": "SHA256E-s443--f9232948f5f7b0ee081923081326f483842c5c0a40a409e96c2d7b24175b5609.vhdr",
+          "sub-24/ieeg/sub-24_task-bart_run-1_ieeg.eeg": "SHA256E-s667392--2a17352fec0bd8a02259dc2184091c8b211d686312379d84b5e06695098737ad.eeg"
+        }
+      },
+      "ch_names": [
+        "c2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 1,
+      "ntimes": 166848,
+      "duration_seconds": 667.392,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p24",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 1.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.004 s (250 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 667.392,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-17_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-17/ieeg/sub-17_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-17/ieeg/sub-17_task-bart_run-1_channels.tsv",
+          "sub-17/ieeg/sub-17_task-bart_run-1_events.tsv",
+          "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.json",
+          "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.eeg",
+          "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.vmrk",
+          "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.vhdr": "SHA256E-s443--03efbdaabdcbc4610ed23b68140e2ab746dc0b8e7fbc439aeca7578779adee6a.vhdr",
+          "sub-17/ieeg/sub-17_task-bart_run-1_ieeg.eeg": "SHA256E-s399976--7395582702c213f1f7861393a8a8b12801e0f93279739d240df464846035eefb.eeg"
+        }
+      },
+      "ch_names": [
+        "c2"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 1,
+      "ntimes": 99994,
+      "duration_seconds": 399.976,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p17",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 2.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech); single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 33.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC) | d2: 32 LFP ch, 8 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.004 s (250 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 399.976,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-17_task-bart_run-2_ieeg.vhdr",
+      "bidspath": "nm000401/sub-17/ieeg/sub-17_task-bart_run-2_ieeg.vhdr",
+      "bids_relpath": "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "17",
+        "session": null,
+        "task": "bart",
+        "run": "2",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "17",
+        "session": null,
+        "task": "bart",
+        "run": "2",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.vhdr",
+        "dep_keys": [
+          "sub-17/ieeg/sub-17_task-bart_run-2_channels.tsv",
+          "sub-17/ieeg/sub-17_task-bart_run-2_events.tsv",
+          "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.json",
+          "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.eeg",
+          "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.vmrk",
+          "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.vhdr": "SHA256E-s995--aa3b8476b586b063dbfef9d99a5b7b574d685ad93d4dbd0192e2eec3795bb7c8.vhdr",
+          "sub-17/ieeg/sub-17_task-bart_run-2_ieeg.eeg": "SHA256E-s23486464--a8d48748da2281c0dfdaeed3a99405345c1bd578cad1f81e13cdb93a62aa91c9.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 183488,
+      "duration_seconds": 917.44,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p17",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 2.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech); single tungsten microelectrode (FHC)",
+        "n_lfp_channels": 33.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 1 LFP ch, 1 units, single tungsten microelectrode (FHC) | d2: 32 LFP ch, 8 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.004 s (250 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 399.976,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-18_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-18/ieeg/sub-18_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "18",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "18",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-18/ieeg/sub-18_task-bart_run-1_channels.tsv",
+          "sub-18/ieeg/sub-18_task-bart_run-1_events.tsv",
+          "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.json",
+          "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.eeg",
+          "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.vmrk",
+          "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.vhdr": "SHA256E-s995--d9f4ef4d0371f5769b4f4164290f9b9dcbeb502dcf9f3d3ff28e02bc9e2508e3.vhdr",
+          "sub-18/ieeg/sub-18_task-bart_run-1_ieeg.eeg": "SHA256E-s41359616--7352740c112073915d1b5ac4c70d9702e504a6bcc38f63c4841964b9c0296798.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 323122,
+      "duration_seconds": 1615.61,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p18",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech)",
+        "n_lfp_channels": 32.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 32 LFP ch, 4 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 1615.61,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-30_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-30/ieeg/sub-30_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "30",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "30",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-30/ieeg/sub-30_task-bart_run-1_channels.tsv",
+          "sub-30/ieeg/sub-30_task-bart_run-1_events.tsv",
+          "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.json",
+          "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.eeg",
+          "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.vmrk",
+          "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.vhdr": "SHA256E-s995--65df220892ba57d58c18edad1b19e95fa686458c3561dbd40e4dc58f3df1df31.vhdr",
+          "sub-30/ieeg/sub-30_task-bart_run-1_ieeg.eeg": "SHA256E-s22881920--1c9ffb629df7bfb4730262c4f7188918327fd3ba9d31106d2bc1bd14fdc0444e.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 178765,
+      "duration_seconds": 893.825,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p30",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech)",
+        "n_lfp_channels": 32.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 32 LFP ch, 2 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 893.825,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-20_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-20/ieeg/sub-20_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "20",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "20",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-20/ieeg/sub-20_task-bart_run-1_channels.tsv",
+          "sub-20/ieeg/sub-20_task-bart_run-1_events.tsv",
+          "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.json",
+          "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.eeg",
+          "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.vmrk",
+          "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.vhdr": "SHA256E-s995--745154cfb2e8aa43df9625431e2220f599f1303001d603e55184ed2cfac6a369.vhdr",
+          "sub-20/ieeg/sub-20_task-bart_run-1_ieeg.eeg": "SHA256E-s53735168--40ebae39dcf4899e10ee9d506c5680e29f21e32951d0363134f318d4aa8b2bea.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 419806,
+      "duration_seconds": 2099.03,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p20",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech)",
+        "n_lfp_channels": 32.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 32 LFP ch, 13 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 2099.03,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000401",
+      "data_name": "nm000401_sub-22_task-bart_run-1_ieeg.vhdr",
+      "bidspath": "nm000401/sub-22/ieeg/sub-22_task-bart_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "22",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "22",
+        "session": null,
+        "task": "bart",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000401",
+        "raw_key": "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-22/ieeg/sub-22_task-bart_run-1_channels.tsv",
+          "sub-22/ieeg/sub-22_task-bart_run-1_events.tsv",
+          "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.json",
+          "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.eeg",
+          "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.vmrk",
+          "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.vhdr": "SHA256E-s995--7d18804b1cb21c1548df39f3d5c3259d27c9ca1c2fe386af891b3cd890be9915.vhdr",
+          "sub-22/ieeg/sub-22_task-bart_run-1_ieeg.eeg": "SHA256E-s30804224--d39bd168a5f8e38a1bb470f63ed8b03a049e5ae0a41021a3242eccb4a601d401.eeg"
+        }
+      },
+      "ch_names": [
+        "c17",
+        "c18",
+        "c19",
+        "c20",
+        "c21",
+        "c22",
+        "c23",
+        "c24",
+        "c25",
+        "c26",
+        "c27",
+        "c28",
+        "c29",
+        "c30",
+        "c31",
+        "c32",
+        "c33",
+        "c34",
+        "c35",
+        "c36",
+        "c37",
+        "c38",
+        "c39",
+        "c40",
+        "c41",
+        "c42",
+        "c43",
+        "c44",
+        "c45",
+        "c46",
+        "c47",
+        "c48"
+      ],
+      "sampling_frequency": 200.0,
+      "nchans": 32,
+      "ntimes": 240658,
+      "duration_seconds": 1203.29,
+      "digested_at": "2026-10-08T08:47:38.557434+00:00",
+      "participant_tsv": {
+        "source_id": "p22",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease",
+        "n_recordings": 1.0,
+        "implant_type": "32-ch Pt/Ir microwire array (Ad-Tech)",
+        "n_lfp_channels": 32.0,
+        "regions_sampled": "subthalamic nucleus (STN)",
+        "recordings_detail": "d1: 32 LFP ch, 12 units, 32-ch Pt/Ir microwire array (Ad-Tech)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "Decimation": {
+          "Description": "README: LFP recorded at 1 kHz, decimated and stored at 200 Hz; this recording's time step is 0.005 s (200 Hz)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Plexon; FHC (article: Plexon MAP system and FHC Guideline 4000)",
+      "recording_type": "continuous",
+      "recording_duration": 1203.29,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    }
+  ]
+}

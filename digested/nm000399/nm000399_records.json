@@ -1,0 +1,2284 @@
+{
+  "dataset": "nm000399",
+  "source": "nemar",
+  "digested_at": "2026-10-08T08:47:38.542784+00:00",
+  "record_count": 26,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4046_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4046",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4046",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_channels.tsv",
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_events.tsv",
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.json",
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.vhdr": "SHA256E-s471--cc510b3f9f2d6c9c857b6d2bdd0853724ee959cbe5a2c172491de773a0e97c61.vhdr",
+          "sub-DBS4046/ses-2/ieeg/sub-DBS4046_ses-2_task-reading_ieeg.eeg": "SHA256E-s5391608--6fafa8cda6dce7fa5b4d3e62edbb96f339a337d2225b9719eaca2f8272b802a1.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 2,
+      "ntimes": 673951,
+      "duration_seconds": 673.951,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 3.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 6.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 673.951,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "de1bcc1eae18a131"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4046_ses-3_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4046",
+        "session": "3",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4046",
+        "session": "3",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_channels.tsv",
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_events.tsv",
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.json",
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.eeg",
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.vmrk",
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.vhdr": "SHA256E-s471--42f27a0354aecab935f19073aab020341e5a86ed830d56d43287dc5c6b15e835.vhdr",
+          "sub-DBS4046/ses-3/ieeg/sub-DBS4046_ses-3_task-reading_ieeg.eeg": "SHA256E-s5272040--e48c1976bb41de9ad7bde0a5273aa77449076207031219bf1a4fff8c8a419154.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 2,
+      "ntimes": 659005,
+      "duration_seconds": 659.005,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 3.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 6.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 659.005,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "e214ef987539d7e0"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4046_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4046",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4046",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_channels.tsv",
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_events.tsv",
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.json",
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.vhdr": "SHA256E-s471--0c3f3043cbc104b8691bf9280638dc559701fc82de4609f09e099435be833a1a.vhdr",
+          "sub-DBS4046/ses-1/ieeg/sub-DBS4046_ses-1_task-reading_ieeg.eeg": "SHA256E-s5491784--4a0956e0eff1414da13467848b6e2fa8f365d075a4ceee03148a7b6a1338b52a.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 2,
+      "ntimes": 686473,
+      "duration_seconds": 686.473,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 3.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 6.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 686.473,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "b399bc0922541550"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4054_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4054",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4054",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_channels.tsv",
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_events.tsv",
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.json",
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--244f81a304e27dcc6f6993527c60886436b3a296c562adc604e4982abe91cb11.vhdr",
+          "sub-DBS4054/ses-2/ieeg/sub-DBS4054_ses-2_task-reading_ieeg.eeg": "SHA256E-s21870016--e752525dfb100ca82aec1df31d4248264fb22b81c608420f6669cb7b34f1814f.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 683438,
+      "duration_seconds": 683.438,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 683.438,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "b5ca6912c6d5a0f7"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4054_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4054",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4054",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_channels.tsv",
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_events.tsv",
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.json",
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--620e7564461bb3bbe6d6a69510f969536ea1d02c3993b51a8b9023c71f061686.vhdr",
+          "sub-DBS4054/ses-1/ieeg/sub-DBS4054_ses-1_task-reading_ieeg.eeg": "SHA256E-s11269376--fda3686be5bca2e4e929db146b7a08b10be93b88fefd049ac79e5e7a08798d6d.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 704336,
+      "duration_seconds": 704.336,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 704.336,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "aa25526cfd67fb8b"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4040_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4040",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4040",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_channels.tsv",
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_events.tsv",
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.json",
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.vhdr": "SHA256E-s492--63d99fa9b4f31fd0d4ea9c00d86910a92036f0bfe8a1f297476f13bbc2e3971d.vhdr",
+          "sub-DBS4040/ses-2/ieeg/sub-DBS4040_ses-2_task-reading_ieeg.eeg": "SHA256E-s8814684--7dda8c8e91b7c9f4000af4c60bb007881028113de834b45f57301a30bd0f054a.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_a",
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 734557,
+      "duration_seconds": 734.557,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "R",
+        "n_contacts": 6.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 734.557,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "0ca8ae5db65a000e"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4040_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4040",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4040",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_channels.tsv",
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_events.tsv",
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.json",
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.vhdr": "SHA256E-s492--71c131e585504c61dd29221a19cb18b714c2fde83ac858f54bd37d5cb92bf8c1.vhdr",
+          "sub-DBS4040/ses-1/ieeg/sub-DBS4040_ses-1_task-reading_ieeg.eeg": "SHA256E-s8866704--c78d0d2c0d256a0d88a1ab642ec732f59374622dc4cbba9a56dfa9655da2b098.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_a",
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 738892,
+      "duration_seconds": 738.892,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "R",
+        "n_contacts": 6.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 738.892,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f5ca2e096476e48d"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4052_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4052",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4052",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_channels.tsv",
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_events.tsv",
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.json",
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--b468166ce580865c88034e5162d78dedf995c6070beba2569b8ba3f478453b72.vhdr",
+          "sub-DBS4052/ses-2/ieeg/sub-DBS4052_ses-2_task-reading_ieeg.eeg": "SHA256E-s21232672--c7ec28e12c0b5fbc77ba3c1204c28898734a051b1e5004006413f4e61f6a8f8c.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 663521,
+      "duration_seconds": 663.521,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 663.521,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "5fdf5b3a0562cae6"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4052_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4052",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4052",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_channels.tsv",
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_events.tsv",
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.json",
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--697e5621573980722b1a48c23f0502eb615f7a53dcbf33ecb4d6c8f7ba820273.vhdr",
+          "sub-DBS4052/ses-1/ieeg/sub-DBS4052_ses-1_task-reading_ieeg.eeg": "SHA256E-s11596240--6f2e4fae2a496fe1b0924a1b2b5503a8b90c160aac7cb1243f9e4f0ca541cda4.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 724765,
+      "duration_seconds": 724.765,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 724.765,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "237b2450b30785bd"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4055_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4055",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4055",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_channels.tsv",
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_events.tsv",
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.json",
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--3d64eda329284fe97349708af8e99ed90ce4424d2758a56ffb47e971037d4b20.vhdr",
+          "sub-DBS4055/ses-2/ieeg/sub-DBS4055_ses-2_task-reading_ieeg.eeg": "SHA256E-s23710816--fdbfb7ce177fa8ae56b597b71b33df25617e6f2d60a0021995638790cd7dbf58.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 740963,
+      "duration_seconds": 740.963,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 740.963,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "84122055137ad1b9"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4055_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4055",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4055",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_channels.tsv",
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_events.tsv",
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.json",
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--c56f18695ea670beea18e3fd9e55b6c4bf9bdeeaac092b38ff8c91e07f2ad6b9.vhdr",
+          "sub-DBS4055/ses-1/ieeg/sub-DBS4055_ses-1_task-reading_ieeg.eeg": "SHA256E-s12125648--214745fcbfe7698fd441043ba56f520549b83f39b4cea0b061f8bad51e730c02.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 757853,
+      "duration_seconds": 757.853,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 757.853,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "abeed04f34ab3168"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4056_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4056",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4056",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_channels.tsv",
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_events.tsv",
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.json",
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--43106f916761b9ed8e74b0d19aee8daf697d2aaf92dc94b5323c43b08695e656.vhdr",
+          "sub-DBS4056/ses-2/ieeg/sub-DBS4056_ses-2_task-reading_ieeg.eeg": "SHA256E-s21507008--8109caad16fe3d229d88fb76ce64ae16cc1afaa6031ade3def919853b530f5d2.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 672094,
+      "duration_seconds": 672.094,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 672.094,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "01980900de74b475"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4056_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4056",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4056",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_channels.tsv",
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_events.tsv",
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.json",
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--7eef1f07249daa024b6344100844cb8c24b038370cc8b44976ca3a36c981971f.vhdr",
+          "sub-DBS4056/ses-1/ieeg/sub-DBS4056_ses-1_task-reading_ieeg.eeg": "SHA256E-s10962624--1ff1d410b856574b29e966981337d379e99418b9b971aec9f1bff2ab3cb50453.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 685164,
+      "duration_seconds": 685.164,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 685.164,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "e51cb8e8c4d0f68a"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4047_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4047",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4047",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_channels.tsv",
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_events.tsv",
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.json",
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.vhdr": "SHA256E-s492--0cec74dba5549b252fda63094364b4c8a1f07ce0afbf7f571fd37c5937bf9f06.vhdr",
+          "sub-DBS4047/ses-2/ieeg/sub-DBS4047_ses-2_task-reading_ieeg.eeg": "SHA256E-s7793364--5ca4037367ab58f0c74df8c36f576cac4631f4b7ef55abb3222ccfcbc4878ec4.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_c",
+        "macro_p",
+        "macro_m"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 649447,
+      "duration_seconds": 649.447,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 3.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 9.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 649.447,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "a752cf513d895e4b"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4047_ses-3_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4047",
+        "session": "3",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4047",
+        "session": "3",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_channels.tsv",
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_events.tsv",
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.json",
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.eeg",
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.vmrk",
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.vhdr": "SHA256E-s492--9b33b1e8dc631260de6f57420f85c9171fe40176af29506b01f0bd59d17ea662.vhdr",
+          "sub-DBS4047/ses-3/ieeg/sub-DBS4047_ses-3_task-reading_ieeg.eeg": "SHA256E-s7555584--e3c66bfb7ea3fea17218b841b8189cc94432fcf8bd5f31adb25096069ef9111c.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_c",
+        "macro_p",
+        "macro_m"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 629632,
+      "duration_seconds": 629.632,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 3.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 9.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 629.632,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "9d2329a65984f023"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4047_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4047",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4047",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_channels.tsv",
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_events.tsv",
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.json",
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.vhdr": "SHA256E-s492--30c99e24f4c033d600a2d0079ed9d5ca8e01dd929b8ad4ab78aae313fe755466.vhdr",
+          "sub-DBS4047/ses-1/ieeg/sub-DBS4047_ses-1_task-reading_ieeg.eeg": "SHA256E-s8229828--eb129e6b5f54637d93e56d7346b8fa80a4a3cbe2b23dc4f7978eff1b9e95503f.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_c",
+        "macro_p",
+        "macro_m"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 685819,
+      "duration_seconds": 685.819,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 3.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 9.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 685.819,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "ea41921c4e8df073"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4049_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4049",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4049",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_channels.tsv",
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_events.tsv",
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.json",
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--0975fd77c546f7cdd9c33170746b250b47d065d3dcb412c7829b374030db7949.vhdr",
+          "sub-DBS4049/ses-2/ieeg/sub-DBS4049_ses-2_task-reading_ieeg.eeg": "SHA256E-s22521440--f79f4956edcc5c00686995f1226cb6f69b1bc7755bf9ad1585e3f781afb0ceee.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 703795,
+      "duration_seconds": 703.795,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 703.795,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "db514016325e6c09"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4049_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4049",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4049",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_channels.tsv",
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_events.tsv",
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.json",
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--1eade2fcd444f6f65b23854696b25902911265c87f8ed724978e4e88ee4e4892.vhdr",
+          "sub-DBS4049/ses-1/ieeg/sub-DBS4049_ses-1_task-reading_ieeg.eeg": "SHA256E-s10760624--18fc2faa743327b5c466e2e4de6c71e9fb7e312d67d8cfb85c7c4dce8c94c6cd.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 672539,
+      "duration_seconds": 672.539,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 672.539,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "012d92fe1bb8328c"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4053_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4053",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4053",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_channels.tsv",
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_events.tsv",
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.json",
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--54f6fbff6594819ef94f7483b240b06dcf22750798108b118f75d8903446fdc6.vhdr",
+          "sub-DBS4053/ses-2/ieeg/sub-DBS4053_ses-2_task-reading_ieeg.eeg": "SHA256E-s18428384--765927ba573209573f240cb9356cf4f022a85fb24014730902c2b0a3de77f744.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 575887,
+      "duration_seconds": 575.887,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 575.887,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "c045114009b71d3c"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4053_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4053",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4053",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_channels.tsv",
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_events.tsv",
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.json",
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--0bfa20e5067d2b8e5d706891743a69c7bb9d725fb1b37428c883f5118c2846f1.vhdr",
+          "sub-DBS4053/ses-1/ieeg/sub-DBS4053_ses-1_task-reading_ieeg.eeg": "SHA256E-s10469792--89dc927e6e16abb036106538483356635d2254dc9aa0f9c8624c42d4d4be3b3f.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 654362,
+      "duration_seconds": 654.362,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 654.362,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "abfa3bac9e35e9cf"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4038_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4038",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4038",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_channels.tsv",
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_events.tsv",
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.json",
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.vhdr": "SHA256E-s492--11a9db5db1e5e50259a2b5aae0612899296bdb181ea5a1f077287fdddf4cd4d9.vhdr",
+          "sub-DBS4038/ses-2/ieeg/sub-DBS4038_ses-2_task-reading_ieeg.eeg": "SHA256E-s7210176--5337916d773e8293a04a9195400d3120c6e9e16f53ca99ba1e5049c1ad51ff76.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_a",
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 600848,
+      "duration_seconds": 600.848,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 4.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 12.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 600.848,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "8c3c2fa4bb9d1244"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4038_ses-4_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4038",
+        "session": "4",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4038",
+        "session": "4",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_channels.tsv",
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_events.tsv",
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.json",
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.eeg",
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.vmrk",
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.vhdr": "SHA256E-s492--62d0531296420df499c287413cd4b808196a95c47570e4e9042693ce7b523e01.vhdr",
+          "sub-DBS4038/ses-4/ieeg/sub-DBS4038_ses-4_task-reading_ieeg.eeg": "SHA256E-s7333584--c5d51d80d08ea6314dbd787cfe945ad229d1a279562f16b209b7a8d89e8d7f7b.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_a",
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 611132,
+      "duration_seconds": 611.132,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 4.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 12.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 611.132,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "5e7b833b4de6c5d1"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4038_ses-3_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4038",
+        "session": "3",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4038",
+        "session": "3",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_channels.tsv",
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_events.tsv",
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.json",
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.eeg",
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.vmrk",
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.vhdr": "SHA256E-s492--9b0110b6d20c1539139f77e9f49cde170c051df1b2e1c6bef2496a7037345fce.vhdr",
+          "sub-DBS4038/ses-3/ieeg/sub-DBS4038_ses-3_task-reading_ieeg.eeg": "SHA256E-s7341324--e9a6d87ecceb569dd00a94d0dc6c1dcafda31957e12e891b88696e91c00111a7.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_a",
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 611777,
+      "duration_seconds": 611.777,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 4.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 12.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 611.777,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "ce019e555b9311e5"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4038_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4038",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4038",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_channels.tsv",
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_events.tsv",
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.json",
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.vhdr": "SHA256E-s492--055aeabbe8d30b603b1a24a459debcda8622afc950fc714a116e180e715ae516.vhdr",
+          "sub-DBS4038/ses-1/ieeg/sub-DBS4038_ses-1_task-reading_ieeg.eeg": "SHA256E-s7470936--435262bd969bb0f24206c1c54901d316639c7fb7d2b5cff8b98d269809afa884.eeg"
+        }
+      },
+      "ch_names": [
+        "macro_a",
+        "macro_c",
+        "macro_p"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 3,
+      "ntimes": 622578,
+      "duration_seconds": 622.578,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 4.0,
+        "recording_type": "mapping electrode macro contacts",
+        "implant_type": "microelectrode-mapping macro ring (Alpha Omega)",
+        "recorded_hemisphere": "L",
+        "n_contacts": 12.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 622.578,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "3662be70b8417576"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4051_ses-2_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4051",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4051",
+        "session": "2",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_channels.tsv",
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_events.tsv",
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.json",
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.eeg",
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.vmrk",
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.vhdr": "SHA256E-s589--edd1d3282e4025648dce42c35dc46e39248a85d5c33a3ce9b77090b7bb3ccc88.vhdr",
+          "sub-DBS4051/ses-2/ieeg/sub-DBS4051_ses-2_task-reading_ieeg.eeg": "SHA256E-s21154080--2927080af36d183728907eb6b0364f36cbb2bb6c1791076a19bfaa36cf6d0c94.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04",
+        "dbs_05",
+        "dbs_06",
+        "dbs_07",
+        "dbs_08"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 661065,
+      "duration_seconds": 661.065,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 661.065,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "6223b42761477bf3"
+    },
+    {
+      "dataset": "nm000399",
+      "data_name": "nm000399_sub-DBS4051_ses-1_task-reading_ieeg.vhdr",
+      "bidspath": "nm000399/sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.vhdr",
+      "bids_relpath": "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS4051",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS4051",
+        "session": "1",
+        "task": "reading",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000399",
+        "raw_key": "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_channels.tsv",
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_events.tsv",
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.json",
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.eeg",
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.vmrk",
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.vhdr": "SHA256E-s509--389b46f3caff011940f77d990fc844cf6ecb88a86680cd9ad99652a921e8d39b.vhdr",
+          "sub-DBS4051/ses-1/ieeg/sub-DBS4051_ses-1_task-reading_ieeg.eeg": "SHA256E-s11179952--950bb7e0c9f51758a49a92fed8203dc113efb0ad665ec11f728d0ad57692fa6e.eeg"
+        }
+      },
+      "ch_names": [
+        "dbs_01",
+        "dbs_02",
+        "dbs_03",
+        "dbs_04"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 4,
+      "ntimes": 698747,
+      "duration_seconds": 698.747,
+      "digested_at": "2026-10-08T08:47:38.542784+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "handedness": "R",
+        "diagnosis": "essential tremor",
+        "n_sessions": 2.0,
+        "recording_type": "DBS lead",
+        "implant_type": "DBS-lead (Medtronic 3387)",
+        "recorded_hemisphere": "both",
+        "n_contacts": 8.0,
+        "regions_sampled": "thalamus (ventral lateral; Vim target)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Not re-referenced (column 1 of D.trial); the common-average-referenced copy (column 2) is in sourcedata only. Original recording reference not stated in the release.",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "D.state: notch_filt,ds to 1khz,lpf_400, hpf_2, badch detected,badtrial of all type identified, CAR signal at second row, recording side documented (notch at 60 Hz and harmonics, resampled to 1 kHz, low-pass 400 Hz, high-pass 2 Hz per the article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "recording_type": "epoched",
+      "recording_duration": 698.747,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "33b27ad219359503"
+    }
+  ]
+}
