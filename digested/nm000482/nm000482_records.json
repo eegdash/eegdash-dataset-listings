@@ -1,0 +1,1583 @@
+{
+  "dataset": "nm000482",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:26:20.886379+00:00",
+  "record_count": 14,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-04_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_events.tsv",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_events.json",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s1324--404e6916093965e8a324eeb7bdfe848dc4c297231206b2c925ef3715a52368c3.vhdr",
+          "sub-04/ieeg/sub-04_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s907200000--f056ae6f014d04516f8d46b7b8e1bb04045c1d8ab262b7d3420425d4ac33a69a.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "ROFC16",
+        "RSGC4",
+        "RSGC5",
+        "RSGC6",
+        "RSGC7",
+        "RSGC8",
+        "RSGC9",
+        "RSGC10",
+        "RSGC11",
+        "RSGC12",
+        "RSGC13",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11",
+        "LOFC12",
+        "LOFC13",
+        "LOFC14",
+        "LOFC15",
+        "LOFC16"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 42,
+      "ntimes": 5400000,
+      "duration_seconds": 5400.0,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 4 (figshare files 61081342, 61081411, 61081348, 61081351)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 5400.0,
+      "bad_channels": [
+        "ROFC16",
+        "RSGC13",
+        "LOFC16"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-04_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_channels.tsv",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_events.tsv",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_events.json",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.json",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s1304--799c60b13cf1772e91547c198f48fa912fa49beda6e09cfe737ffcae83de336f.vhdr",
+          "sub-04/ieeg/sub-04_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s907200000--c1082398c82c2bda22fcab6a029fc97ada11380622524560ad7157d2b1f58e63.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "ROFC16",
+        "RSGC4",
+        "RSGC5",
+        "RSGC6",
+        "RSGC7",
+        "RSGC8",
+        "RSGC9",
+        "RSGC10",
+        "RSGC11",
+        "RSGC12",
+        "RSGC13",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11",
+        "LOFC12",
+        "LOFC13",
+        "LOFC14",
+        "LOFC15",
+        "LOFC16"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 42,
+      "ntimes": 5400000,
+      "duration_seconds": 5400.0,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 4 (figshare files 61081342, 61081411, 61081348, 61081351)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 5400.0,
+      "bad_channels": [
+        "ROFC16",
+        "RSGC13",
+        "LOFC16"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-03_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_channels.tsv",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_events.tsv",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_events.json",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.json",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s828--c76a929e52bfc2d9763f6cfff0327c46ebe7c42f0ade6fc0954a87f1b4ac0024.vhdr",
+          "sub-03/ieeg/sub-03_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s67594720--86ff3771d5d3ccf3f118a5d1ce16932bf43c2434ec4bb2b46868836f65c7cd6e.eeg"
+        }
+      },
+      "ch_names": [
+        "LOD1",
+        "LOD2",
+        "LOD3",
+        "LOD4",
+        "LOD5",
+        "LOD6",
+        "LOD7",
+        "LOD8",
+        "LOD9",
+        "LOD10",
+        "ROD1",
+        "ROD2",
+        "ROD3",
+        "ROD4",
+        "ROD5",
+        "ROD6",
+        "ROD7",
+        "ROD8",
+        "ROD9",
+        "ROD10"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 20,
+      "ntimes": 844934,
+      "duration_seconds": 844.934,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 3 (figshare files 61081336, 61081393, 61081339, 61081345)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 844.934,
+      "bad_channels": [
+        "LOD1",
+        "LOD2",
+        "LOD3",
+        "LOD4",
+        "LOD10",
+        "ROD1",
+        "ROD2",
+        "ROD8",
+        "ROD9",
+        "ROD10"
+      ],
+      "bad_channels_count": 10,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-03_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_events.tsv",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_events.json",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s848--fe8e0741e5cdffe38b9f02d7cd2841193659835265a9db7e69fe3fae0911abf3.vhdr",
+          "sub-03/ieeg/sub-03_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s67594720--192ad1323eb6a505518f79cf2106519f0709d2b0e1b9dfed33c0c7a3071acd75.eeg"
+        }
+      },
+      "ch_names": [
+        "LOD1",
+        "LOD2",
+        "LOD3",
+        "LOD4",
+        "LOD5",
+        "LOD6",
+        "LOD7",
+        "LOD8",
+        "LOD9",
+        "LOD10",
+        "ROD1",
+        "ROD2",
+        "ROD3",
+        "ROD4",
+        "ROD5",
+        "ROD6",
+        "ROD7",
+        "ROD8",
+        "ROD9",
+        "ROD10"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 20,
+      "ntimes": 844934,
+      "duration_seconds": 844.934,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 3 (figshare files 61081336, 61081393, 61081339, 61081345)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 844.934,
+      "bad_channels": [
+        "LOD1",
+        "LOD2",
+        "LOD3",
+        "LOD4",
+        "LOD10",
+        "ROD1",
+        "ROD2",
+        "ROD8",
+        "ROD9",
+        "ROD10"
+      ],
+      "bad_channels_count": 10,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-06_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_channels.tsv",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_events.tsv",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_events.json",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.json",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s1058--934c6480955ff6dcd45da1b069fbcab59fc3e38de19964c59d08d7083a185b15.vhdr",
+          "sub-06/ieeg/sub-06_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s324004320--f02b50efb354cb87892944db0bfbd92336dce6ffd9e210934a659671e7132787.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11",
+        "LOFC12",
+        "LOFC13",
+        "LOFC14",
+        "LOFC15"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 30,
+      "ntimes": 2700036,
+      "duration_seconds": 2700.036,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 6 (figshare files 61081363, 61081405, 61081366, 61081369)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 2700.036,
+      "bad_channels": [
+        "ROFC15",
+        "LOFC15"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-06_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_events.tsv",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_events.json",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s1078--5afb18f4c74122030988dae936dfbc0d747c797ea1bea919f49696ca6cecf067.vhdr",
+          "sub-06/ieeg/sub-06_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s324004320--bb1a2267b30f93eb6d8ef7751e5869c8423d16d566c2d9a0c342c277cfb17422.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11",
+        "LOFC12",
+        "LOFC13",
+        "LOFC14",
+        "LOFC15"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 30,
+      "ntimes": 2700036,
+      "duration_seconds": 2700.036,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 6 (figshare files 61081363, 61081405, 61081366, 61081369)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 2700.036,
+      "bad_channels": [
+        "ROFC15",
+        "LOFC15"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-02_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_channels.tsv",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_events.tsv",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_events.json",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.json",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s907--6005c2163d00c0226798db44f442797b4a4e5e1ea04d8fb69bedecfdac2739cc.vhdr",
+          "sub-02/ieeg/sub-02_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s139369052--d2c7c850e1146fd0d46cbd93a1260c57d1f5dcec8cef9265de3d0b3eecf6da6e.eeg"
+        }
+      },
+      "ch_names": [
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LSFG1",
+        "LSFG2",
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "RSFG1",
+        "RSFG2"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 1514881,
+      "duration_seconds": 1514.881,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 2 (figshare files 61081327, 61081402, 61081330, 61081333)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1514.881,
+      "bad_channels": [
+        "LOFC10",
+        "LSFG1",
+        "LSFG2",
+        "ROFC1",
+        "ROFC2",
+        "ROFC9",
+        "RSFG2"
+      ],
+      "bad_channels_count": 7,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-02_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_events.tsv",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_events.json",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s927--da68a22e6d990464f4607fe426132309a1dcb434476d85c8a7a7ab0f2bcc291b.vhdr",
+          "sub-02/ieeg/sub-02_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s139369052--902def5333e8ae22b5664d454de370b90bd61cfdc042a71decf3459b4bdd23e1.eeg"
+        }
+      },
+      "ch_names": [
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LSFG1",
+        "LSFG2",
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "RSFG1",
+        "RSFG2"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 1514881,
+      "duration_seconds": 1514.881,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 2 (figshare files 61081327, 61081402, 61081330, 61081333)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1514.881,
+      "bad_channels": [
+        "LOFC10",
+        "LSFG1",
+        "LSFG2",
+        "ROFC1",
+        "ROFC2",
+        "ROFC9",
+        "RSFG2"
+      ],
+      "bad_channels_count": 7,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-07_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_channels.tsv",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_events.tsv",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_events.json",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.json",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s1079--7f859d17e9d3eea1cdb9fe3be32f0dcfec9b11c46ff4e96b677cbbd93970b2ea.vhdr",
+          "sub-07/ieeg/sub-07_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s175562548--c9bcd7ed85c5bdece6cc2fc80217b8c587a0be31ae74ba028ec708aabbd1903c.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "ROFC16",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11",
+        "LOFC12",
+        "LOFC13",
+        "LOFC14",
+        "LOFC15"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 31,
+      "ntimes": 1415827,
+      "duration_seconds": 1415.827,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 7 (figshare files 61081372, 61081399, 61081375, 61081378)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1415.827,
+      "bad_channels": [
+        "ROFC16",
+        "LOFC15"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-07_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_events.tsv",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_events.json",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s1099--5e2603657fc669b01d728e15864775c25b5993c13e59a72839d0f8eaa6cd4c27.vhdr",
+          "sub-07/ieeg/sub-07_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s175562548--2b14317478924c5d9b90399e7724e792674906ffc553b7bfb7ca13a8d2802b0c.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "ROFC16",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11",
+        "LOFC12",
+        "LOFC13",
+        "LOFC14",
+        "LOFC15"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 31,
+      "ntimes": 1415827,
+      "duration_seconds": 1415.827,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 7 (figshare files 61081372, 61081399, 61081375, 61081378)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1415.827,
+      "bad_channels": [
+        "ROFC16",
+        "LOFC15"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-05_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_channels.tsv",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_events.tsv",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_events.json",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.json",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s995--0595373cb92e4f631f19589d72164191101d06487e968732894644fd6793afd1.vhdr",
+          "sub-05/ieeg/sub-05_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s278507808--2c69053a4307ae26ce799dfe8762286c78b687acbb805fb15b230db8327ab5e4.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "ROFC16",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 27,
+      "ntimes": 2578776,
+      "duration_seconds": 2578.776,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 5 (figshare files 61081354, 61081408, 61081357, 61081360)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 2578.776,
+      "bad_channels": [
+        "ROFC16",
+        "LOFC11"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-05_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_events.tsv",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_events.json",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s1015--e484fab9e45df7cddb635b1aa05aaee626c04d18a3c75574b199cbec5e2bf31b.vhdr",
+          "sub-05/ieeg/sub-05_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s278507808--2ee64222f000576135369df5881d0977e45501299a5b1cf061d66320ba8ca66a.eeg"
+        }
+      },
+      "ch_names": [
+        "ROFC1",
+        "ROFC2",
+        "ROFC3",
+        "ROFC4",
+        "ROFC5",
+        "ROFC6",
+        "ROFC7",
+        "ROFC8",
+        "ROFC9",
+        "ROFC10",
+        "ROFC11",
+        "ROFC12",
+        "ROFC13",
+        "ROFC14",
+        "ROFC15",
+        "ROFC16",
+        "LOFC1",
+        "LOFC2",
+        "LOFC3",
+        "LOFC4",
+        "LOFC5",
+        "LOFC6",
+        "LOFC7",
+        "LOFC8",
+        "LOFC9",
+        "LOFC10",
+        "LOFC11"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 27,
+      "ntimes": 2578776,
+      "duration_seconds": 2578.776,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 5 (figshare files 61081354, 61081408, 61081357, 61081360)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 2578.776,
+      "bad_channels": [
+        "ROFC16",
+        "LOFC11"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-01_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bidspath": "nm000482/sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "unreferenced"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_channels.tsv",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_events.tsv",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_events.json",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.json",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.vhdr": "SHA256E-s799--890d2b95301c03b01b757ef5e7989139929bf7ad1b583fe5fc97545af3a0992c.vhdr",
+          "sub-01/ieeg/sub-01_task-ccep_acq-unreferenced_ieeg.eeg": "SHA256E-s102772800--bb710aab011789104dadf575f827d23f1496bc02183688e2b5387d65ff9a9cd0.eeg"
+        }
+      },
+      "ch_names": [
+        "OL1",
+        "OL2",
+        "OL3",
+        "OL4",
+        "OL5",
+        "OL6",
+        "OL7",
+        "OL8",
+        "OL9",
+        "OL10",
+        "OL11",
+        "OL12",
+        "OL13",
+        "OL14",
+        "OL15",
+        "OL16",
+        "OL17",
+        "OL18"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 18,
+      "ntimes": 1427400,
+      "duration_seconds": 1427.4,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 1 (figshare files 61081318, 61081396, 61081321, 61081324)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1427.4,
+      "bad_channels": [
+        "OL6",
+        "OL12",
+        "OL18"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000482",
+      "data_name": "nm000482_sub-01_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bidspath": "nm000482/sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "ccep",
+        "run": null,
+        "acquisition": "bipolar"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000482",
+        "raw_key": "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_channels.tsv",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_events.tsv",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_events.json",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.json",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.vhdr": "SHA256E-s779--04b68ccd3eecd992977be1292e7021658a0635a53bbe02a99b80751d63bf5cc0.vhdr",
+          "sub-01/ieeg/sub-01_task-ccep_acq-bipolar_ieeg.eeg": "SHA256E-s102772800--1e3175c36d1e2a302274501997693eaf1f732235bc2d925071242401845147e5.eeg"
+        }
+      },
+      "ch_names": [
+        "OL1",
+        "OL2",
+        "OL3",
+        "OL4",
+        "OL5",
+        "OL6",
+        "OL7",
+        "OL8",
+        "OL9",
+        "OL10",
+        "OL11",
+        "OL12",
+        "OL13",
+        "OL14",
+        "OL15",
+        "OL16",
+        "OL17",
+        "OL18"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 18,
+      "ntimes": 1427400,
+      "duration_seconds": 1427.4,
+      "digested_at": "2026-10-13T09:26:20.886379+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "group": "epilepsy",
+        "release_folder": "subject 1 (figshare files 61081318, 61081396, 61081321, 61081324)"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar (adjacent contacts; authors)",
+      "software_filters": {
+        "authors' preprocessing": {
+          "description": "condensed/preprocessed timeseries as released (details in the article); bipolar = adjacent-contact re-referencing by the authors"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "institution_name": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1427.4,
+      "bad_channels": [
+        "OL6",
+        "OL12",
+        "OL18"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    }
+  ]
+}

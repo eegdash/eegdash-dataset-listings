@@ -1,0 +1,1349 @@
+{
+  "dataset": "nm000480",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:26:18.858043+00:00",
+  "record_count": 11,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-04_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-04/ieeg/sub-04_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-04/ieeg/sub-04_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-04/ieeg/sub-04_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ieeg/sub-04_task-wmgating_channels.tsv",
+          "sub-04/ieeg/sub-04_task-wmgating_events.tsv",
+          "sub-04/ieeg/sub-04_task-wmgating_events.json",
+          "sub-04/ieeg/sub-04_task-wmgating_ieeg.json",
+          "sub-04/ieeg/sub-04_task-wmgating_ieeg.eeg",
+          "sub-04/ieeg/sub-04_task-wmgating_ieeg.vmrk",
+          "sub-04/ieeg/sub-04_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ieeg/sub-04_task-wmgating_ieeg.vhdr": "SHA256E-s1404--d4731c33934871a47ff86520376a08e8f2892c1a1c6bfa2c328854c58bd0c4b7.vhdr",
+          "sub-04/ieeg/sub-04_task-wmgating_ieeg.eeg": "SHA256E-s73612056--00722dd82b3d40374e30c2ca225e04272c227ae8c49f078ee656749407982369.eeg"
+        }
+      },
+      "ch_names": [
+        "RMT2-RMT1",
+        "RMT3-RMT2",
+        "RMT4-RMT3",
+        "RTO2-RTO1",
+        "RTO3-RTO2",
+        "RTO4-RTO3",
+        "RTO5-RTO4",
+        "RIHA1-RIHA2",
+        "RIHA2-RIHA3",
+        "RIHA3-RIHA4",
+        "RIHP2-RIHP1",
+        "RIHP3-RIHP2",
+        "RIHP4-RIHP3",
+        "ROF1-ROF2",
+        "ROF2-ROF3",
+        "ROF3-ROF4",
+        "ROF4-ROF5",
+        "ROF5-ROF6",
+        "ROF6-ROF7",
+        "ROF7-ROF8",
+        "RLF5-RLF4",
+        "RLF6-RLF5",
+        "RLF7-RLF6",
+        "RLF8-RLF7",
+        "LMT2-LMT1",
+        "LMT3-LMT2",
+        "LMT4-LMT3",
+        "LTO5-LTO4",
+        "LTO6-LTO5",
+        "LTO7-LTO6",
+        "LTO8-LTO7",
+        "LIHA1-LIHA2",
+        "LIHA2-LIHA3",
+        "LIHA3-LIHA4",
+        "LIHP2-LIHP1",
+        "LIHP3-LIHP2",
+        "LIHP4-LIHP3",
+        "LOF1-LOF2",
+        "LOF4-LOF5",
+        "LOF5-LOF6",
+        "LOF6-LOF7",
+        "LOF7-LOF8"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 42,
+      "ntimes": 438167,
+      "duration_seconds": 438.167,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S4",
+        "sampling_frequency": 1000.0,
+        "n_trials": 60.0,
+        "n_channels": 42.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 438.167,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "214c67f3c6100c1e"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-03_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-03/ieeg/sub-03_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-03/ieeg/sub-03_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-03/ieeg/sub-03_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-03/ieeg/sub-03_task-wmgating_channels.tsv",
+          "sub-03/ieeg/sub-03_task-wmgating_events.tsv",
+          "sub-03/ieeg/sub-03_task-wmgating_events.json",
+          "sub-03/ieeg/sub-03_task-wmgating_ieeg.json",
+          "sub-03/ieeg/sub-03_task-wmgating_ieeg.eeg",
+          "sub-03/ieeg/sub-03_task-wmgating_ieeg.vmrk",
+          "sub-03/ieeg/sub-03_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ieeg/sub-03_task-wmgating_ieeg.vhdr": "SHA256E-s1673--cf44d5a23a421038b7d7de3686ae0becd734adc599325cdb17e96733729b730c.vhdr",
+          "sub-03/ieeg/sub-03_task-wmgating_ieeg.eeg": "SHA256E-s125614320--e3063242b874f2c0fc2c3bdb8181a03da1320c52def31eb7c5eb75fbc9b36236.eeg"
+        }
+      },
+      "ch_names": [
+        "G1-G2",
+        "G2-G3",
+        "G4-G5",
+        "G6-G7",
+        "G7-G8",
+        "G9-G10",
+        "G10-G11",
+        "G11-G12",
+        "G14-G15",
+        "G15-G16",
+        "G17-G18",
+        "G18-G19",
+        "G19-G20",
+        "G20-G21",
+        "G23-G24",
+        "G25-G26",
+        "G26-G27",
+        "G27-G28",
+        "G28-G29",
+        "G30-G31",
+        "G31-G32",
+        "G33-G34",
+        "G34-G35",
+        "G35-G36",
+        "G36-G37",
+        "G38-G39",
+        "G39-G40",
+        "G41-G42",
+        "G42-G43",
+        "G43-G44",
+        "G46-G47",
+        "G49-G50",
+        "G50-G51",
+        "G51-G52",
+        "G52-G53",
+        "G53-G54",
+        "G57-G58",
+        "G63-G64",
+        "RFP2-RFP1",
+        "RFP3-RFP2",
+        "RFP4-RFP3",
+        "RIHA2-RIHA1",
+        "RIHA3-RIHA2",
+        "RIHA4-RIHA3",
+        "RHPA1-RHPA2",
+        "RHPA2-RHPA3",
+        "RHPA3-RHPA4",
+        "RIHP2-RIHP1",
+        "RIHP3-RIHP2",
+        "RIHP4-RIHP3",
+        "RIHP7-RIHP6",
+        "LLF2-LLF1",
+        "LLF3-LLF2",
+        "LLF4-LLF3",
+        "LIH1-LIH2",
+        "LIH2-LIH3",
+        "LIH3-LIH4"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 57,
+      "ntimes": 550940,
+      "duration_seconds": 550.94,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S3",
+        "sampling_frequency": 1000.0,
+        "n_trials": 80.0,
+        "n_channels": 57.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 550.94,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "ee05f3ac3a1b3e62"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-08_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-08/ieeg/sub-08_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-08/ieeg/sub-08_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-08/ieeg/sub-08_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-08/ieeg/sub-08_task-wmgating_channels.tsv",
+          "sub-08/ieeg/sub-08_task-wmgating_events.tsv",
+          "sub-08/ieeg/sub-08_task-wmgating_events.json",
+          "sub-08/ieeg/sub-08_task-wmgating_ieeg.json",
+          "sub-08/ieeg/sub-08_task-wmgating_ieeg.eeg",
+          "sub-08/ieeg/sub-08_task-wmgating_ieeg.vmrk",
+          "sub-08/ieeg/sub-08_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/ieeg/sub-08_task-wmgating_ieeg.vhdr": "SHA256E-s853--f928cf2c130d1cdba29d111f0f4104396d341fc6de658da3ccd08f102746ab2e.vhdr",
+          "sub-08/ieeg/sub-08_task-wmgating_ieeg.eeg": "SHA256E-s21626640--add6935ac3ec84238f99284cf9e06cffc92150a10ca9883e39d58a9ccc4c32d6.eeg"
+        }
+      },
+      "ch_names": [
+        "LHH7-LHH8",
+        "LHH8-LHH9",
+        "LHH9-LHH10",
+        "RAC1-RAC2",
+        "RAC2-RAC3",
+        "RAC3-RAC4",
+        "RAC7-RAC8",
+        "RAM2-RAM3",
+        "RAM6-RAM7",
+        "RHH2-RHH3",
+        "RHH5-RHH6",
+        "ROF1-ROF2",
+        "ROF2-ROF3",
+        "ROF7-ROF8",
+        "RTH2-RTH3",
+        "RTH3-RTH4",
+        "RTH4-RTH5",
+        "RTH5-RTH6",
+        "RTH6-RTH7",
+        "RTH7-RTH8"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 20,
+      "ntimes": 270333,
+      "duration_seconds": 270.333,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S8",
+        "sampling_frequency": 1000.0,
+        "n_trials": 47.0,
+        "n_channels": 20.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 270.333,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "4d158f759c162973"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-06_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-06/ieeg/sub-06_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-06/ieeg/sub-06_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-06/ieeg/sub-06_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-06/ieeg/sub-06_task-wmgating_channels.tsv",
+          "sub-06/ieeg/sub-06_task-wmgating_events.tsv",
+          "sub-06/ieeg/sub-06_task-wmgating_events.json",
+          "sub-06/ieeg/sub-06_task-wmgating_ieeg.json",
+          "sub-06/ieeg/sub-06_task-wmgating_ieeg.eeg",
+          "sub-06/ieeg/sub-06_task-wmgating_ieeg.vmrk",
+          "sub-06/ieeg/sub-06_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/ieeg/sub-06_task-wmgating_ieeg.vhdr": "SHA256E-s1068--b8bb8337531747a6e6afeb4620577b03e53d63a2674e222d38c899f8905b2ea9.vhdr",
+          "sub-06/ieeg/sub-06_task-wmgating_ieeg.eeg": "SHA256E-s55373296--4b132455aafae4d3c4d679e7a4c3a1a58a174f5154df8ea569885b9c34bdc0ff.eeg"
+        }
+      },
+      "ch_names": [
+        "LAM2-LAM3",
+        "LAM4-LAM5",
+        "LHH1-LHH2",
+        "LHH2-LHH3",
+        "LHH3-LHH4",
+        "LHH5-LHH6",
+        "RAC1-RAC2",
+        "RAC2-RAC3",
+        "RAC4-RAC5",
+        "RAM1-RAM2",
+        "RAM2-RAM3",
+        "RAM3-RAM4",
+        "RAM6-RAM7",
+        "RAM7-RAM8",
+        "RHH1-RHH2",
+        "RHH2-RHH3",
+        "RHH3-RHH4",
+        "RHH5-RHH6",
+        "RHH6-RHH7",
+        "RHH7-RHH8",
+        "ROF1-ROF2",
+        "ROF2-ROF3",
+        "ROF3-ROF4",
+        "ROF5-ROF6",
+        "ROF6-ROF7",
+        "ROF7-ROF8",
+        "RPC1-RPC2",
+        "RPC2-RPC3",
+        "RPC3-RPC4"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 29,
+      "ntimes": 477356,
+      "duration_seconds": 477.356,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S6",
+        "sampling_frequency": 1000.0,
+        "n_trials": 69.0,
+        "n_channels": 29.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 477.356,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "1619e0d0036ba78e"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-02_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-02/ieeg/sub-02_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-02/ieeg/sub-02_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-02/ieeg/sub-02_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ieeg/sub-02_task-wmgating_channels.tsv",
+          "sub-02/ieeg/sub-02_task-wmgating_events.tsv",
+          "sub-02/ieeg/sub-02_task-wmgating_events.json",
+          "sub-02/ieeg/sub-02_task-wmgating_ieeg.json",
+          "sub-02/ieeg/sub-02_task-wmgating_ieeg.eeg",
+          "sub-02/ieeg/sub-02_task-wmgating_ieeg.vmrk",
+          "sub-02/ieeg/sub-02_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ieeg/sub-02_task-wmgating_ieeg.vhdr": "SHA256E-s1558--b16c9a0c809b7f49a8aedb6a5df795f34bd76a7e0dc9d0ecd465d15e680ebee3.vhdr",
+          "sub-02/ieeg/sub-02_task-wmgating_ieeg.eeg": "SHA256E-s102613448--3aad39da80a4452f133e905168fac95f697fbea309664dc90e39ba2e0d42862f.eeg"
+        }
+      },
+      "ch_names": [
+        "ROF2-ROF1",
+        "ROF3-ROF2",
+        "ROF4-ROF3",
+        "ROF6-ROF5",
+        "ROF7-ROF6",
+        "ROF8-ROF7",
+        "ROF10-ROF9",
+        "ROF11-ROF10",
+        "ROF12-ROF11",
+        "ROF14-ROF13",
+        "ROF15-ROF14",
+        "ROF16-ROF15",
+        "RFP2-RFP1",
+        "RFP3-RFP2",
+        "RFP4-RFP3",
+        "RFP5-RFP4",
+        "RFP6-RFP5",
+        "RFP7-RFP6",
+        "RFP8-RFP7",
+        "RFP9-RFP8",
+        "RFP10-RFP9",
+        "RFP13-RFP12",
+        "RFP14-RFP13",
+        "RFP15-RFP14",
+        "RFP16-RFP15",
+        "RST3-RST9",
+        "RST4-RST10",
+        "RST5-RST11",
+        "RST6-RST12",
+        "RT1-RT2",
+        "RT2-RT3",
+        "RT3-RT4",
+        "RT4-RT5",
+        "RT5-RT6",
+        "RT6-RT7",
+        "RT9-RT10",
+        "RT10-RT11",
+        "RT11-RT12",
+        "RT15-RT16",
+        "RT17-RT18",
+        "RT18-RT19",
+        "RT19-RT20",
+        "RT20-RT21",
+        "RT21-RT22",
+        "RT22-RT23",
+        "RT26-RT27",
+        "RT27-RT28",
+        "RT28-RT29",
+        "RT29-RT30"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 49,
+      "ntimes": 523538,
+      "duration_seconds": 523.538,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S2",
+        "sampling_frequency": 1000.0,
+        "n_trials": 75.0,
+        "n_channels": 49.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 523.538,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "a3bbe578f0e26870"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-07_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-07/ieeg/sub-07_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-07/ieeg/sub-07_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "07",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "07",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-07/ieeg/sub-07_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-07/ieeg/sub-07_task-wmgating_channels.tsv",
+          "sub-07/ieeg/sub-07_task-wmgating_events.tsv",
+          "sub-07/ieeg/sub-07_task-wmgating_events.json",
+          "sub-07/ieeg/sub-07_task-wmgating_ieeg.json",
+          "sub-07/ieeg/sub-07_task-wmgating_ieeg.eeg",
+          "sub-07/ieeg/sub-07_task-wmgating_ieeg.vmrk",
+          "sub-07/ieeg/sub-07_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-07/ieeg/sub-07_task-wmgating_ieeg.vhdr": "SHA256E-s1164--bf3447425646e20b8f3cbac84ad24690c527bfd8d402adfd1facd3e30e0d2b27.vhdr",
+          "sub-07/ieeg/sub-07_task-wmgating_ieeg.eeg": "SHA256E-s55985028--b828bd626cbd19430c16e6a55b8821272d4d022c6570cdf0898724aa267990b5.eeg"
+        }
+      },
+      "ch_names": [
+        "LAC3-LAC4",
+        "LAC4-LAC5",
+        "LAM1-LAM2",
+        "LAM2-LAM3",
+        "LAM3-LAM4",
+        "LAM4-LAM5",
+        "LAM7-LAM8",
+        "LHH3-LHH4",
+        "LHH6-LHH7",
+        "LHH7-LHH8",
+        "LOF1-LOF2",
+        "LOF2-LOF3",
+        "LOF3-LOF4",
+        "LOF4-LOF5",
+        "LOF6-LOF7",
+        "LOF7-LOF8",
+        "RAC3-RAC4",
+        "RAC4-RAC5",
+        "RAC5-RAC6",
+        "RAC6-RAC7",
+        "RAC7-RAC8",
+        "RAM1-RAM2",
+        "RAM2-RAM3",
+        "RAM3-RAM4",
+        "RAM4-RAM5",
+        "RAM7-RAM8",
+        "RHH2-RHH3",
+        "RHH3-RHH4",
+        "RHH5-RHH6",
+        "RHH7-RHH8",
+        "ROF1-ROF2",
+        "ROF2-ROF3",
+        "ROF3-ROF4"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 33,
+      "ntimes": 424129,
+      "duration_seconds": 424.129,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S7",
+        "sampling_frequency": 1000.0,
+        "n_trials": 73.0,
+        "n_channels": 33.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 424.129,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "7b47a0fcee0f2806"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-10_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-10/ieeg/sub-10_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-10/ieeg/sub-10_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "10",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "10",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-10/ieeg/sub-10_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-10/ieeg/sub-10_task-wmgating_channels.tsv",
+          "sub-10/ieeg/sub-10_task-wmgating_events.tsv",
+          "sub-10/ieeg/sub-10_task-wmgating_events.json",
+          "sub-10/ieeg/sub-10_task-wmgating_ieeg.json",
+          "sub-10/ieeg/sub-10_task-wmgating_ieeg.eeg",
+          "sub-10/ieeg/sub-10_task-wmgating_ieeg.vmrk",
+          "sub-10/ieeg/sub-10_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/ieeg/sub-10_task-wmgating_ieeg.vhdr": "SHA256E-s1396--54a6700bf985c8fbf68a0d2ced684dfd553afeb1e488a444a853d8e496b417f3.vhdr",
+          "sub-10/ieeg/sub-10_task-wmgating_ieeg.eeg": "SHA256E-s53729592--71a4560f6e264a671e8cea37c72547d4aeaa7147c5d50d978ef7c0c885afc165.eeg"
+        }
+      },
+      "ch_names": [
+        "RAL1-RAL2",
+        "RAL4-RAL5",
+        "RAL5-RAL6",
+        "RAL6-RAL7",
+        "RAL7-RAL8",
+        "RAL8-RAL9",
+        "RALB1-RALB2",
+        "RALB2-RALB3",
+        "RALB3-RALB4",
+        "RALB4-RALB5",
+        "RALB5-RALB6",
+        "RALB6-RALB7",
+        "RALB7-RALB8",
+        "RALB8-RALB9",
+        "RML4-RML5",
+        "RML5-RML6",
+        "RML6-RML7",
+        "RML7-RML8",
+        "RML8-RML9",
+        "RPL4-RPL5",
+        "RPL5-RPL6",
+        "RPL6-RPL7",
+        "RPL7-RPL8",
+        "RPL8-RPL9",
+        "RPM1-RPM2",
+        "RPM2-RPM3",
+        "RPM3-RPM4",
+        "RPM4-RPM5",
+        "RPM6-RPM7",
+        "RPM7-RPM8",
+        "RPM8-RPM9",
+        "RPM9-RPM10",
+        "RPLT4-RPLT5",
+        "RPLT5-RPLT6",
+        "RPLT6-RPLT7",
+        "RPLT7-RPLT8",
+        "RO4-RO5",
+        "RO5-RO6",
+        "RH4-RH5",
+        "RH5-RH6",
+        "RH6-RH7",
+        "RH7-RH8"
+      ],
+      "sampling_frequency": 512.0,
+      "nchans": 42,
+      "ntimes": 319819,
+      "duration_seconds": 624.646484375,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S10",
+        "sampling_frequency": 512.0,
+        "n_trials": 75.0,
+        "n_channels": 42.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 624.646484,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "48c70ae6f9c6630f"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-09_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-09/ieeg/sub-09_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-09/ieeg/sub-09_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-09/ieeg/sub-09_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-09/ieeg/sub-09_task-wmgating_channels.tsv",
+          "sub-09/ieeg/sub-09_task-wmgating_events.tsv",
+          "sub-09/ieeg/sub-09_task-wmgating_events.json",
+          "sub-09/ieeg/sub-09_task-wmgating_ieeg.json",
+          "sub-09/ieeg/sub-09_task-wmgating_ieeg.eeg",
+          "sub-09/ieeg/sub-09_task-wmgating_ieeg.vmrk",
+          "sub-09/ieeg/sub-09_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/ieeg/sub-09_task-wmgating_ieeg.vhdr": "SHA256E-s2306--6587c14e72a88b80c5dec364699dcebd4661db861f641f518b2a0ff0aab9eebb.vhdr",
+          "sub-09/ieeg/sub-09_task-wmgating_ieeg.eeg": "SHA256E-s149386240--c23ffded2cb9c9bc6357b57cd2f85d0c7d656d4bff1f9c58c950fde872e454a7.eeg"
+        }
+      },
+      "ch_names": [
+        "RSM4-RSM5",
+        "RSM5-RSM6",
+        "RSM6-RSM7",
+        "RSM7-RSM8",
+        "RSM8-RSM9",
+        "RAC5-RAC6",
+        "RAC6-RAC7",
+        "RAC7-RAC8",
+        "RAC8-RAC9",
+        "RAC9-RAC10",
+        "ROF1-ROF2",
+        "ROF2-ROF3",
+        "ROF7-ROF8",
+        "ROF8-ROF9",
+        "ROF9-ROF10",
+        "RIN1-RIN2",
+        "RIN2-RIN3",
+        "RIN3-RIN4",
+        "RIN4-RIN5",
+        "RIN5-RIN6",
+        "RIN7-RIN8",
+        "RIN8-RIN9",
+        "RIN9-RIN10",
+        "RTI1-RTI2",
+        "RTI2-RTI3",
+        "RTI3-RTI4",
+        "RTI4-RTI5",
+        "RTI5-RTI6",
+        "RTI6-RTI7",
+        "RTI8-RTI9",
+        "RTI9-RTI10",
+        "RAM3-RAM4",
+        "RAM6-RAM7",
+        "RAM7-RAM8",
+        "RAM8-RAM9",
+        "RHH8-RHH9",
+        "RTH5-RTH6",
+        "RTH6-RTH7",
+        "RTH7-RTH8",
+        "RTH8-RTH9",
+        "LSMA8-LSMA9",
+        "LSMA9-LSMA10",
+        "LAC5-LAC6",
+        "LAC6-LAC7",
+        "LAC7-LAC8",
+        "LAC9-LAC10",
+        "LOF1-LOF2",
+        "LOF2-LOF3",
+        "LOF3-LOF4",
+        "LOF5-LOF6",
+        "LOF6-LOF7",
+        "LOF7-LOF8",
+        "LOF8-LOF9",
+        "LIN1-LIN2",
+        "LIN2-LIN3",
+        "LIN3-LIN4",
+        "LIN4-LIN5",
+        "LIN5-LIN6",
+        "LIN6-LIN7",
+        "LIN7-LIN8",
+        "LIN8-LIN9",
+        "LIN9-LIN10",
+        "LTI1-LTI2",
+        "LTI3-LTI4",
+        "LTI5-LTI6",
+        "LTI6-LTI7",
+        "LTI7-LTI8",
+        "LTI8-LTI9",
+        "LTI9-LTI10",
+        "LAM5-LAM6",
+        "LAM6-LAM7",
+        "LAM7-LAM8",
+        "LAM8-LAM9",
+        "LAM9-LAM10",
+        "LTH4-LTH5",
+        "LTH5-LTH6",
+        "LTH6-LTH7",
+        "LTH7-LTH8",
+        "LTH8-LTH9",
+        "LTH9-LTH10"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 80,
+      "ntimes": 466832,
+      "duration_seconds": 466.832,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S9",
+        "sampling_frequency": 1000.0,
+        "n_trials": 73.0,
+        "n_channels": 80.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 466.832,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "d3117bbdde0aef26"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-11_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-11/ieeg/sub-11_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-11/ieeg/sub-11_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-11/ieeg/sub-11_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-11/ieeg/sub-11_task-wmgating_channels.tsv",
+          "sub-11/ieeg/sub-11_task-wmgating_events.tsv",
+          "sub-11/ieeg/sub-11_task-wmgating_events.json",
+          "sub-11/ieeg/sub-11_task-wmgating_ieeg.json",
+          "sub-11/ieeg/sub-11_task-wmgating_ieeg.eeg",
+          "sub-11/ieeg/sub-11_task-wmgating_ieeg.vmrk",
+          "sub-11/ieeg/sub-11_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ieeg/sub-11_task-wmgating_ieeg.vhdr": "SHA256E-s500--6ff222c608c4f6659714a158cf15498210c603ec96673a93722b35fab6843717.vhdr",
+          "sub-11/ieeg/sub-11_task-wmgating_ieeg.eeg": "SHA256E-s6187800--b4ca9973058853b3875dcb37a252e5069d637c940078eb8d1304279ff54c9225.eeg"
+        }
+      },
+      "ch_names": [
+        "ROF4-ROF5",
+        "ROF9-ROF10",
+        "RPC7-RPC8",
+        "RPC8-RPC9",
+        "RPC9-RPC10"
+      ],
+      "sampling_frequency": 512.0,
+      "nchans": 5,
+      "ntimes": 309390,
+      "duration_seconds": 604.27734375,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S11",
+        "sampling_frequency": 512.0,
+        "n_trials": 58.0,
+        "n_channels": 5.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 604.277344,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "e82476c26ac991a8"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-05_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-05/ieeg/sub-05_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-05/ieeg/sub-05_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "05",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "05",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-05/ieeg/sub-05_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-05/ieeg/sub-05_task-wmgating_channels.tsv",
+          "sub-05/ieeg/sub-05_task-wmgating_events.tsv",
+          "sub-05/ieeg/sub-05_task-wmgating_events.json",
+          "sub-05/ieeg/sub-05_task-wmgating_ieeg.json",
+          "sub-05/ieeg/sub-05_task-wmgating_ieeg.eeg",
+          "sub-05/ieeg/sub-05_task-wmgating_ieeg.vmrk",
+          "sub-05/ieeg/sub-05_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-05/ieeg/sub-05_task-wmgating_ieeg.vhdr": "SHA256E-s1446--fcc439ab64d5f6b969912f9d3140198311f57fa8147b322d7349f74483a9fa56.vhdr",
+          "sub-05/ieeg/sub-05_task-wmgating_ieeg.eeg": "SHA256E-s123402432--49c66cb698383bb78431ea901ae51ccb49c5bb1807d6b2a0bba60fafdbefa3a7.eeg"
+        }
+      },
+      "ch_names": [
+        "RIHP2-RIHP1",
+        "RIHP3-RIHP2",
+        "RIHP4-RIHP3",
+        "RIHA2-RIHA1",
+        "RIHA3-RIHA2",
+        "RIHA4-RIHA3",
+        "RLT2-RLT1",
+        "RLT4-RLT3",
+        "RMT2-RMT3",
+        "RMT3-RMT4",
+        "ROF1-ROF2",
+        "ROF2-ROF3",
+        "ROF3-ROF4",
+        "ROF4-ROF5",
+        "ROF5-ROF6",
+        "ROF6-ROF7",
+        "ROF7-ROF8",
+        "RLFP5-RLFP4",
+        "RLFP6-RLFP5",
+        "RLFP7-RLFP6",
+        "RLFP8-RLFP7",
+        "LIHP2-LIHP1",
+        "LIHP3-LIHP2",
+        "LIHP4-LIHP3",
+        "LIHA2-LIHA1",
+        "LIHA3-LIHA2",
+        "LIHA4-LIHA3",
+        "LMT2-LMT1",
+        "LMT3-LMT2",
+        "LMT4-LMT3",
+        "LLT1-LLT2",
+        "LOF1-LOF2",
+        "LOF2-LOF3",
+        "LOF3-LOF4",
+        "LOF4-LOF5",
+        "LOF5-LOF6",
+        "LOF6-LOF7",
+        "LOF7-LOF8",
+        "LLFP2-LLFP1",
+        "LLFP5-LLFP4",
+        "LLFP6-LLFP5",
+        "LLFP7-LLFP6",
+        "LLFP8-LLFP7"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 43,
+      "ntimes": 717456,
+      "duration_seconds": 717.456,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S5",
+        "sampling_frequency": 1000.0,
+        "n_trials": 74.0,
+        "n_channels": 43.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 717.456,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "2b2266c6bb6b2943"
+    },
+    {
+      "dataset": "nm000480",
+      "data_name": "nm000480_sub-01_task-wmgating_ieeg.vhdr",
+      "bidspath": "nm000480/sub-01/ieeg/sub-01_task-wmgating_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-wmgating_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "wmgating",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000480",
+        "raw_key": "sub-01/ieeg/sub-01_task-wmgating_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-wmgating_channels.tsv",
+          "sub-01/ieeg/sub-01_task-wmgating_events.tsv",
+          "sub-01/ieeg/sub-01_task-wmgating_events.json",
+          "sub-01/ieeg/sub-01_task-wmgating_ieeg.json",
+          "sub-01/ieeg/sub-01_task-wmgating_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-wmgating_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-wmgating_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-wmgating_ieeg.vhdr": "SHA256E-s1550--1fbd0c68721d1259f9279ca11dd4ef52cd2a3c4e17b52efc7c586e8574ec4352.vhdr",
+          "sub-01/ieeg/sub-01_task-wmgating_ieeg.eeg": "SHA256E-s98926100--3d35bd71170576e716e3cfcd7d32e13bf13cb3e3b66673a000fa66bb69970ecf.eeg"
+        }
+      },
+      "ch_names": [
+        "LF9-LF1",
+        "LF15-LF7",
+        "LF16-LF8",
+        "LF17-LF9",
+        "LF18-LF10",
+        "LF19-LF11",
+        "LF21-LF13",
+        "LF22-LF14",
+        "LF24-LF16",
+        "LF25-LF17",
+        "LF28-LF20",
+        "LF31-LF23",
+        "LF32-LF24",
+        "LF33-LF25",
+        "LF38-LF30",
+        "LF39-LF31",
+        "LF40-LF32",
+        "LF41-LF33",
+        "LF43-LF35",
+        "LF44-LF36",
+        "LF46-LF38",
+        "LF47-LF39",
+        "LF48-LF40",
+        "LF49-LF41",
+        "LF51-LF43",
+        "LF52-LF44",
+        "LF53-LF45",
+        "LF54-LF46",
+        "LF55-LF47",
+        "LF56-LF48",
+        "LF58-LF50",
+        "LF59-LF51",
+        "LF60-LF52",
+        "LF61-LF53",
+        "LF62-LF54",
+        "LF63-LF55",
+        "LF64-LF56",
+        "RAH4-RAH3",
+        "RAH5-RAH4",
+        "RAH7-RAH6",
+        "RAH8-RAH7",
+        "RAH9-RAH8",
+        "RPH3-RPH2",
+        "RPH7-RPH6",
+        "RPH8-RPH7",
+        "RPH10-RPH9",
+        "RPH11-RPH10",
+        "RPH15-RPH14",
+        "RPH16-RPH15"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 49,
+      "ntimes": 504725,
+      "duration_seconds": 504.725,
+      "digested_at": "2026-10-13T09:26:18.858043+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "S1",
+        "sampling_frequency": 1000.0,
+        "n_trials": 76.0,
+        "n_channels": 49.0
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "bipolar montage between neighbouring contacts of the same anatomical structure (channel names give the pair)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "0.1 Hz high-pass and (1 kHz data) 300 Hz low-pass FIR filters, 60 Hz harmonics removed (DFT), demeaned, epoched, artifact/epileptiform electrodes and epochs removed, bipolar montage (article). UCI data resampled from 5 kHz to 1 kHz. Values written unchanged."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Nihon Kohden",
+      "recording_type": "epoched",
+      "recording_duration": 504.725,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "545cebcb9adc0d11"
+    }
+  ]
+}

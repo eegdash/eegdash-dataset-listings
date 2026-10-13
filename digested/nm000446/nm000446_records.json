@@ -1,0 +1,4571 @@
+{
+  "dataset": "nm000446",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:25:55.586226+00:00",
+  "record_count": 44,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K8",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "K8",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s957--f0d76281bbdb2032590eb03d7d70200496db3d8e9bc0c14a136dd8d4cd3a05d1.vhdr",
+          "sub-K8/ses-medoff/ieeg/sub-K8_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s35583552--0e7cdc85106575543d9ef9c47f468a24400ee2570451ca5606dd3c3e087cc829.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "EMG1",
+        "EMG2",
+        "Pho",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 24,
+      "ntimes": 370662,
+      "duration_seconds": 180.9873046875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K8",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 180.9873,
+      "bad_channels": [
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K8_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K8",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "K8",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s974--0fda487a6adbc06baea7dd3928a1c0ea67c5b4b711a0dbab8e5995ba5130d192.vhdr",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s651482460--f2edf8ec0b702c2a1e3fe4f29227cb22682f43dd58184061931602cd3c052442.eeg"
+        }
+      },
+      "ch_names": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "R0",
+        "R2",
+        "R3",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "R02",
+        "RFex",
+        "RFfl",
+        "AcXL",
+        "AcYL",
+        "AcZL",
+        "F-L0",
+        "F-L1",
+        "S-L0",
+        "S-L1",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 27,
+      "ntimes": 6032245,
+      "duration_seconds": 1472.716064453125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K8",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1484.2747,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K8_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K8",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "K8",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s972--df345385f03cb3124e6065f38a816adc79035e6b16b0a9192f8e312dc3587e44.vhdr",
+          "sub-K8/ses-medon/ieeg/sub-K8_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s656595612--9ab584532a322c60727be20d2bad5d26deb86df00277b1f35b607c86025593f1.eeg"
+        }
+      },
+      "ch_names": [
+        "L0",
+        "L2",
+        "L3",
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L02",
+        "RFex",
+        "RFfl",
+        "AcXL",
+        "AcYL",
+        "AcZL",
+        "F-L0",
+        "F-L2",
+        "S-L0",
+        "S-L2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 27,
+      "ntimes": 6079589,
+      "duration_seconds": 1484.274658203125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K8",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1484.2747,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K6",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "K6",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s875--90e771bf959b1eb9cc35396c2956277dd8b49b9dfdcc7da2d3c83495a4b3f771.vhdr",
+          "sub-K6/ses-medoff/ieeg/sub-K6_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s48989904--f1c78d2e5db044e72092de2eae561306fa3db7373ed5b639ddfe38bca40810f9.eeg"
+        }
+      },
+      "ch_names": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "C3",
+        "C4",
+        "Cz",
+        "CPz",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "Virtual",
+        "Virtual_2",
+        "Virtual_3",
+        "Virtual_4"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 19,
+      "ntimes": 644604,
+      "duration_seconds": 157.3740234375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K6",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 157.374,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K6",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "K6",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_channels.tsv",
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_events.tsv",
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.json",
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s871--72d47df7ed6073976419f6e7555eb02d61f98622ce6635d3fe49b3eda040e347.vhdr",
+          "sub-K6/ses-medon/ieeg/sub-K6_ses-medon_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s49309560--056b6c8e179c76b89f176e003d38ece7a098db3177d6efd3b894e9a33a10e978.eeg"
+        }
+      },
+      "ch_names": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "R0",
+        "R1",
+        "R2",
+        "R3",
+        "C3",
+        "C4",
+        "Cz",
+        "CPz",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "Virtual",
+        "Virtual_2",
+        "Virtual_3",
+        "Virtual_4"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 19,
+      "ntimes": 648810,
+      "duration_seconds": 158.40087890625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K6",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 158.4009,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K11_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K11",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "K11",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_channels.tsv",
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_events.tsv",
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.json",
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.eeg",
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.vmrk",
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.vhdr": "SHA256E-s834--36d010372068af9b76053219c1ffd0d3049cd900cb591183289e619e1340e22c.vhdr",
+          "sub-K11/ses-medoff/ieeg/sub-K11_ses-medoff_task-rest_acq-right_ieeg.eeg": "SHA256E-s17735544--f785daef446be5246662cdb7742ca43da8967f0f02e5b7943253fbd4cc298927.eeg"
+        }
+      },
+      "ch_names": [
+        "CPz",
+        "Oz",
+        "R02",
+        "R23",
+        "EMG1",
+        "EMG2",
+        "Pho",
+        "Aclx",
+        "Acly",
+        "Aclz",
+        "F-CPz",
+        "F-CPz_2",
+        "S-CPz",
+        "S-CPz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 18,
+      "ntimes": 246327,
+      "duration_seconds": 120.27685546875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K11",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 120.2769,
+      "bad_channels": [
+        "F-CPz",
+        "F-CPz_2",
+        "S-CPz",
+        "S-CPz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K11_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K11",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "K11",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s835--c2cfe5d7045d5e4d853246983b3008a2848fb31da2d61d3df59fc00f81c25fe3.vhdr",
+          "sub-K11/ses-medon/ieeg/sub-K11_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s496147532--9f9e2e5d9a227ffd659fe0fbfc2348efc6b0d2956f76204d5cd76d7b5e0fc12a.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R3",
+        "R4",
+        "Oz",
+        "O1",
+        "O2",
+        "CPz",
+        "R13",
+        "AcrX",
+        "AcrY",
+        "AcrZ",
+        "F-R1",
+        "F-R3",
+        "S-R1",
+        "S-R3",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 19,
+      "ntimes": 6528257,
+      "duration_seconds": 1593.812744140625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K11",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1593.8127,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G34",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G34",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s999--82a06b96fe086c03ff46c98072cb729c75bc5c31b7359fd6e58c20a28ca0859c.vhdr",
+          "sub-G34/ses-medoff/ieeg/sub-G34_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s64534808--796021b84e03601b6b9bfd1258fe8d6941d2e3893aa9a9c15f14a4b20b0cda77.eeg"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "P3",
+        "P4",
+        "Pz",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "ECG",
+        "Ax1",
+        "Ax2",
+        "Ph",
+        "FcLe",
+        "FcRi",
+        "Code",
+        "Virtual",
+        "Virtual_2",
+        "Virtual_3",
+        "Virtual_4"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 26,
+      "ntimes": 620527,
+      "duration_seconds": 302.99169921875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G34",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 302.9917,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G34",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G34",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_channels.tsv",
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_events.tsv",
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.json",
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s995--46c176814f0df4242229874068e3b789f67b454defba2d6623acafbde00e4a2f.vhdr",
+          "sub-G34/ses-medon/ieeg/sub-G34_ses-medon_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s64508808--4aadba596fb51f4dac055d89028e5f42424255a09e26420e1f27a7edccd06a79.eeg"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "P3",
+        "P4",
+        "Pz",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "ECG",
+        "Ax1",
+        "Ax2",
+        "Ph",
+        "FcLe",
+        "FcRi",
+        "Code",
+        "Virtual",
+        "Virtual_2",
+        "Virtual_3",
+        "Virtual_4"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 26,
+      "ntimes": 620277,
+      "duration_seconds": 302.86962890625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G34",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 302.8696,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G10_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G10",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G10",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_channels.tsv",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_events.tsv",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.json",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.eeg",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.vmrk",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.vhdr": "SHA256E-s821--3eb528900c326c0b8124c5b05bfd449c57d6a00ca635e1b1e469ba3b4f60e9c2.vhdr",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-left_ieeg.eeg": "SHA256E-s596782152--bda74fdbac9983b8882af302812c4dc13905d441dcae95a91f51e5fb8034f87f.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "Le02",
+        "R02",
+        "AcX",
+        "AcY",
+        "F_Le02",
+        "F_R02",
+        "S_Le02",
+        "S_R02",
+        "Ch1",
+        "Ch2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 18,
+      "ntimes": 8288641,
+      "duration_seconds": 4047.18798828125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G10",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 4047.188,
+      "bad_channels": [
+        "Ch2"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G10_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G10",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G10",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_channels.tsv",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_events.tsv",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.json",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.eeg",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.vmrk",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.vhdr": "SHA256E-s841--ca0220bdc82aa7d07595c1923ac388bb2eb5687b71209c2a0448b005769b969a.vhdr",
+          "sub-G10/ses-medoff/ieeg/sub-G10_ses-medoff_task-stim_acq-right_ieeg.eeg": "SHA256E-s900934628--951e80a5fbe3a9ab1ff1692eb4ff6ec751fa5e050edb1016a9558c9e3334f8c6.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "Le02",
+        "L13",
+        "R02",
+        "AcX",
+        "AcY",
+        "F_Le02",
+        "F_R02",
+        "S_Le02",
+        "S_R02",
+        "Ch1",
+        "Ch2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 19,
+      "ntimes": 11854403,
+      "duration_seconds": 5788.28271484375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G10",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 4047.188,
+      "bad_channels": [
+        "Ch2"
+      ],
+      "bad_channels_count": 1,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G10_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G10",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G10",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s818--8ec321a7fcc682120cd3c903c357bd61613225275063d008595a6ebdb52e2269.vhdr",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s779164992--97c904450c7505be5cd8098f3373f17e8ba40fb7ee33dd698664f9a77d69a78d.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "Le02",
+        "R02",
+        "AcX",
+        "AcY",
+        "F_Le02",
+        "F_R02",
+        "S_Le02",
+        "S_R02",
+        "Ch1",
+        "Ch2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 18,
+      "ntimes": 10821736,
+      "duration_seconds": 5284.05078125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G10",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 5284.0508,
+      "bad_channels": [
+        "CP4",
+        "Ch2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G10_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G10",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G10",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s820--0899a66d69f61c5925e022bf687ec0a1b78022064e8f94ee3e08799d188b174c.vhdr",
+          "sub-G10/ses-medon/ieeg/sub-G10_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s779017536--261474e118d63b2bdc321cb078c5b8368f6e3429c4d7824b689c5f8f6d45f781.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "Le02",
+        "R02",
+        "AcX",
+        "AcY",
+        "F_Le02",
+        "F_R02",
+        "S_Le02",
+        "S_R02",
+        "Ch1",
+        "Ch2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 18,
+      "ntimes": 10819688,
+      "duration_seconds": 5283.05078125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G10",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 5284.0508,
+      "bad_channels": [
+        "CP4",
+        "Ch2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G30",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G30",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s964--f5e3366f695a936e469030cfe364bddf126381a8b5165c2cc0c3315a04d243d0.vhdr",
+          "sub-G30/ses-medoff/ieeg/sub-G30_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s26289984--aea871080cf59ee09ba6abeeb2b2b6809430b1a78c174a17a3ca3c801f5fd08c.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "R02",
+        "R13",
+        "L02",
+        "L13",
+        "EMG1",
+        "EMG2",
+        "Pho",
+        "Aclx",
+        "Acly",
+        "Aclz",
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 24,
+      "ntimes": 273854,
+      "duration_seconds": 133.7177734375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G30",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 133.7178,
+      "bad_channels": [
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G30_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G30",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G30",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s1041--dea8490d2ec12c33b38cb405bb64516d389f152f535622ef40488a09a232429a.vhdr",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s721848764--827030946cfe23ddf1efb06ead627b3c365dd31a10c593d20d095d1d35daa644.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "L1",
+        "L2",
+        "L4",
+        "L5",
+        "L6",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L24",
+        "RFF",
+        "RFE",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "F-R1",
+        "F-R2",
+        "S-R1",
+        "S-R2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 31,
+      "ntimes": 5821361,
+      "duration_seconds": 1421.230712890625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G30",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1421.2307,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G30_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G30",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G30",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s1043--eecc09bf4b1fc5b0098b793e66513f3fdc229c493486df45c664e14140bf23b1.vhdr",
+          "sub-G30/ses-medon/ieeg/sub-G30_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s716442612--5bc453a84402a84c92b18facef9596f369cd9637323a0642f90f2f3321495fad.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "R13",
+        "LFF",
+        "LFE",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "F-R1",
+        "F-R3",
+        "S-R1",
+        "S-R3",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 31,
+      "ntimes": 5777763,
+      "duration_seconds": 1410.586669921875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G30",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1421.2307,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G31",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G31",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s964--7f22184cbf9d6f1934639a3e9c959ab5388f66088b06bde2feac8f20f712eff7.vhdr",
+          "sub-G31/ses-medoff/ieeg/sub-G31_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s23529216--f3ec09986118cd2ea9cb4b546cc954c2e0c13495086c21720b6ea3c4dc4240a7.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "EMG1",
+        "EMG2",
+        "Pho",
+        "Aclx",
+        "Acly",
+        "Aclz",
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 24,
+      "ntimes": 245096,
+      "duration_seconds": 119.67578125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G31",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 119.6758,
+      "bad_channels": [
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G31_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G31",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G31",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s956--ba77b7ffa406f8317baf4a78c95dc94625ef54b68fae0b6f4dc361ea1998f307.vhdr",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s624167024--66fec48e4f32d9f54e94a4c1b5ab90e7a5d67eed7b4792b67d3eae42533020d7.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "R13",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "F-R1",
+        "F-R2",
+        "S-R1",
+        "S-R2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 26,
+      "ntimes": 6001606,
+      "duration_seconds": 1465.23583984375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G31",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1368.8767,
+      "bad_channels": [
+        "L2",
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G31_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G31",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G31",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s954--afa04f872682a90f835738fe4d6186a9a89d128156bebbcf6c03fe19771ac85e.vhdr",
+          "sub-G31/ses-medon/ieeg/sub-G31_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s583119576--1498faebc59c21af14b2fdc7c1d17764f99a6ff16d76b47877a911270a683fad.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L13",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "F-R1",
+        "F-R2",
+        "S-R1",
+        "S-R2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 26,
+      "ntimes": 5606919,
+      "duration_seconds": 1368.876708984375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G31",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1368.8767,
+      "bad_channels": [
+        "L2",
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-XG37_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "XG37",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "XG37",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_channels.tsv",
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_events.tsv",
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.json",
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.eeg",
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.vmrk",
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.vhdr": "SHA256E-s984--61f311ced74f2fd86bcc8960cc6e43a661caaff86632394a3b0a2bc97b2fe221.vhdr",
+          "sub-XG37/ses-medoff/ieeg/sub-XG37_ses-medoff_task-rest_acq-left_ieeg.eeg": "SHA256E-s57027672--8e95d7e3882b8a5a58a1c6c1253bc6dac5dbfa24f175b527c9edac0718d00bef.eeg"
+        }
+      },
+      "ch_names": [
+        "CREF",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L13",
+        "L24",
+        "R13",
+        "R24",
+        "Pho",
+        "Ac1X",
+        "Ac1Y",
+        "Ac1Z",
+        "Ac2X",
+        "Ac2Y",
+        "Ac2Z",
+        "F-CREF",
+        "F-CREF_2",
+        "S-CREF",
+        "S-CREF_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 26,
+      "ntimes": 548343,
+      "duration_seconds": 133.872802734375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "XG37",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 133.8728,
+      "bad_channels": [
+        "CREF",
+        "F-CREF",
+        "F-CREF_2",
+        "S-CREF",
+        "S-CREF_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 9,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-XG37_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "XG37",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "XG37",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s1077--e65a1d3d7393e4aa2ff667be3f55d8e5d4ab3519d06ab6c5eac32fc78b3cd9e0.vhdr",
+          "sub-XG37/ses-medon/ieeg/sub-XG37_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s747006720--23dfa54aa68163ac3ba8e646e5761574d9d6e9490052b5e6278607bbb676cc49.eeg"
+        }
+      },
+      "ch_names": [
+        "CREF",
+        "L1",
+        "L2",
+        "L4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L12",
+        "L24",
+        "Ac1X",
+        "Ac1Y",
+        "Ac2X",
+        "Ac2Y",
+        "F-L24",
+        "F-L24_2",
+        "S-L24",
+        "S-L24_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 32,
+      "ntimes": 5835990,
+      "duration_seconds": 1424.80224609375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "XG37",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1424.8022,
+      "bad_channels": [
+        "CREF",
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G32",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G32",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s934--11607642477ac3d4821bd7fe8264806fdb613f5845b5c22c30399147fce4265a.vhdr",
+          "sub-G32/ses-medoff/ieeg/sub-G32_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s25429976--c15d3c965341af84364c6c4fe106727154a22774140651530153388927defb66.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "EMG1",
+        "EMG2",
+        "Pho",
+        "Acrx",
+        "Acry",
+        "Acrz",
+        "F-R13",
+        "F-R13_2",
+        "S-R13",
+        "S-R13_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 22,
+      "ntimes": 288977,
+      "duration_seconds": 141.10205078125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G32",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 141.1021,
+      "bad_channels": [
+        "F-R13",
+        "F-R13_2",
+        "S-R13",
+        "S-R13_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G32_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G32",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G32",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s1090--97521b5598f17ebb13b9d2b95e6ad164f521cf705b160bdd194ecd9a9277c2c4.vhdr",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s776605152--d0f2a134837708f8134776b7907d64823e458126b0aa8a0a93eae2a5770c22f9.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L13",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "F-R1",
+        "F-R2",
+        "S-R1",
+        "S-R2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 34,
+      "ntimes": 5710332,
+      "duration_seconds": 1394.1240234375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G32",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1394.124,
+      "bad_channels": [
+        "L2",
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G32_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G32",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G32",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s1092--ad4975afaa63c5efc351868573dd47a8304bdea89d5fb4a59bad41821ec6e2f1.vhdr",
+          "sub-G32/ses-medon/ieeg/sub-G32_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s840573296--2b0a8bc99d0d9169e9b3ecb25d8af7d88ea34781d1a28bb5f9dae48257736e63.eeg"
+        }
+      },
+      "ch_names": [
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "R13",
+        "AccX",
+        "AccY",
+        "AccZ",
+        "F-R1",
+        "F-R2",
+        "S-R1",
+        "S-R2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 34,
+      "ntimes": 6180686,
+      "duration_seconds": 1508.95654296875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G32",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1394.124,
+      "bad_channels": [
+        "L2",
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G23_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G23",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G23",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_channels.tsv",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_events.tsv",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.json",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.eeg",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.vmrk",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.vhdr": "SHA256E-s703--854038283122d0c04fefb02ab4eab6ffcf13c8e7b2fd91d36d2f4d1ac8346e94.vhdr",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-rest_acq-left_ieeg.eeg": "SHA256E-s13848672--a16a7efdabc5330205ac7bd5e3f9ed4724ee0831a79de3220d37025a790a3712.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "FCz",
+        "Cz",
+        "Oz",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 12,
+      "ntimes": 288514,
+      "duration_seconds": 140.8759765625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G23",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 140.876,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G23_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G23",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G23",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_channels.tsv",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_events.tsv",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.json",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.eeg",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.vmrk",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.vhdr": "SHA256E-s846--6e43d3d523a1b74547737ce9b7415e90bf67c76a1efcf4c1abbdbfd963e197d4.vhdr",
+          "sub-G23/ses-medoff/ieeg/sub-G23_ses-medoff_task-stim_acq-right_ieeg.eeg": "SHA256E-s654896712--d12e95e868f7c031939a663de4b9afb666134542aeaea50683a53c932d4fb6f0.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "FCz",
+        "Cz",
+        "Oz",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "F_L02",
+        "F_L13",
+        "S_L02",
+        "S_L13",
+        "Ch2",
+        "Amp2",
+        "R02_DcRem"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 19,
+      "ntimes": 8617062,
+      "duration_seconds": 4207.5498046875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G23",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 140.876,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G23_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G23",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G23",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s843--6a8008f74fc62fad1857cfde6baa91b1d729304b4b893afb9ed77a6a0c154097.vhdr",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s656912612--a8b75c9cb0f15d3a8dd2c847bdae1fb3aa07b9f2027c071e494d7e20dbf0b89f.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "FCz",
+        "Cz",
+        "Oz",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "F_L02",
+        "F_L13",
+        "S_L02",
+        "S_L13",
+        "Ch2",
+        "Amp2",
+        "R02-DcRem"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 19,
+      "ntimes": 8643587,
+      "duration_seconds": 4220.50146484375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G23",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 133.3716,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G23_ses-medon_task-rest_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G23",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G23",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_channels.tsv",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_events.tsv",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.json",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.eeg",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.vmrk",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.vhdr": "SHA256E-s682--72eed2f9f54720ba7fbe845cb7d5054113d61d0d14a542db4ddd576b71a38971.vhdr",
+          "sub-G23/ses-medon/ieeg/sub-G23_ses-medon_task-rest_acq-left_ieeg.eeg": "SHA256E-s12018380--d6e3d8c95c97186c3994bd49bb484120910ac38a1fdefc33eef581807526cd2b.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "FCz",
+        "Cz",
+        "Oz",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 11,
+      "ntimes": 273145,
+      "duration_seconds": 133.37158203125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G23",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 133.3716,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G28",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G28",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s961--3c28090b70c958d510441038897a8bcee5f082f4facc8e741ed7802790be6729.vhdr",
+          "sub-G28/ses-medoff/ieeg/sub-G28_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s35497056--55fc79ad107f2154afe4a8812226d453fd418baee10ed19a4b2b63035cef8837.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "EMG1",
+        "EMG2",
+        "Pho",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 24,
+      "ntimes": 369761,
+      "duration_seconds": 180.54736328125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G28",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 180.5474,
+      "bad_channels": [
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G28_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G28",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G28",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s975--d10b3440e7be85402213f2a9119670df01ba32ebe81a38973b920257ed01933b.vhdr",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s696096396--c81d2283c77b609273d44bd40e289ae618a5bbc84b7c5b643c48d2001d90806d.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L1",
+        "L3",
+        "L4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "L02",
+        "RFex",
+        "RFfl",
+        "AcXL",
+        "AcYL",
+        "AcZL",
+        "F-Cz",
+        "F-C3",
+        "S-Cz",
+        "S-C3",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 27,
+      "ntimes": 6445337,
+      "duration_seconds": 1573.568603515625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G28",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1573.5686,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G28_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G28",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G28",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s977--cbe8c694f3b47a75e037d6e565a969f44c2feeeb3df34955a5f007097fe16607.vhdr",
+          "sub-G28/ses-medon/ieeg/sub-G28_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s617196672--be312bf0ed38b5f7576e18d9c87bb13e29dd58773ae02d7c2f45f9774e989509.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "R1",
+        "R2",
+        "R4",
+        "R24",
+        "RFex",
+        "RFfl",
+        "AcXL",
+        "AcYL",
+        "AcZL",
+        "F-Cz",
+        "F-C3",
+        "S-Cz",
+        "S-C3",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 27,
+      "ntimes": 5714784,
+      "duration_seconds": 1395.2109375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G28",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1573.5686,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G27",
+        "session": "medoff",
+        "task": "unspecified",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G27",
+        "session": "medoff",
+        "task": "unspecified",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_channels.tsv",
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_events.tsv",
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.json",
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.eeg",
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vmrk",
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.vhdr": "SHA256E-s532--38f9bcfc4dcbf6415044d5b7f10653be2b931e86547d9d74f6b1ad55846397c0.vhdr",
+          "sub-G27/ses-medoff/ieeg/sub-G27_ses-medoff_task-unspecified_acq-left_ieeg.eeg": "SHA256E-s14687180--58483ead5fb926df07822b9bc8c1164e01f258bcf92da9c5f754915b596d0fd9.eeg"
+        }
+      },
+      "ch_names": [
+        "L13"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 1,
+      "ntimes": 3671795,
+      "duration_seconds": 896.434326171875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G27",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 896.4343,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G27_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G27",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G27",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s1271--4a430aa088c874258248446049f26d36a9c58a8f87a41e385de8eb11da7c1247.vhdr",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s1030961636--797b7550093932798bf04f09bc651ed379c9f3c47dd17c9fbbc4083ffbe4b0f3.eeg"
+        }
+      },
+      "ch_names": [
+        "L123",
+        "L789",
+        "Lv4",
+        "Lv5",
+        "Lv6",
+        "Lv7",
+        "Lv8",
+        "Cz",
+        "CP3",
+        "CP4",
+        "Pz",
+        "P3",
+        "P4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "R5",
+        "R6",
+        "R7",
+        "R8",
+        "R9",
+        "R10",
+        "R11",
+        "R12",
+        "R13",
+        "R14",
+        "R15",
+        "R16",
+        "Lv13",
+        "RFex",
+        "RFfl",
+        "AcXR",
+        "AcYR",
+        "AcZR",
+        "F-L123",
+        "F-L789",
+        "S-L123",
+        "S-L789",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 43,
+      "ntimes": 5993963,
+      "duration_seconds": 1463.369873046875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G27",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1463.3699,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G27_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G27",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G27",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s1267--4ae71dd12952ca43ba369f3c687c49e3b17730dfb52707779a47cd0b6c7b5559.vhdr",
+          "sub-G27/ses-medon/ieeg/sub-G27_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s1039425928--877c9bbf83834decd50d00aebc31e9d84a60e73e41fc9b525aaa4cf2b4cfb41e.eeg"
+        }
+      },
+      "ch_names": [
+        "Rv1",
+        "Rv3",
+        "Rv4",
+        "Rv5",
+        "Rv6",
+        "Rv7",
+        "Rv8",
+        "Cz",
+        "CP3",
+        "CP4",
+        "Pz",
+        "P3",
+        "P4",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "L9",
+        "L10",
+        "L11",
+        "L12",
+        "L13",
+        "L14",
+        "L15",
+        "L16",
+        "Rv13",
+        "LFex",
+        "LFfl",
+        "AcXL",
+        "AcYL",
+        "AcZL",
+        "F-Rv1",
+        "F-Rv3",
+        "S-Rv1",
+        "S-Rv3",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 43,
+      "ntimes": 6043174,
+      "duration_seconds": 1475.38427734375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G27",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1463.3699,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G33",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G33",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_channels.tsv",
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_events.tsv",
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.json",
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s925--0bd7a038bd8b356431432980c9568194c9e3164173b19b145e349f933709b750.vhdr",
+          "sub-G33/ses-medoff/ieeg/sub-G33_ses-medoff_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s54381624--ff92f9f10853272b921de0f629c5b5801bc9bf92a6e70348558d6548b471314a.eeg"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "P3",
+        "P4",
+        "Pz",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "ECG",
+        "Ax1",
+        "Ax2",
+        "Virtual",
+        "Virtual_2",
+        "Virtual_3",
+        "Virtual_4"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 22,
+      "ntimes": 617973,
+      "duration_seconds": 301.74462890625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G33",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 301.7446,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "bids_relpath": "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G33",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "entities_mne": {
+        "subject": "G33",
+        "session": "medon",
+        "task": "rest",
+        "run": null,
+        "acquisition": "bilateral"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_channels.tsv",
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_events.tsv",
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.json",
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.eeg",
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.vmrk",
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.vhdr": "SHA256E-s1013--4bb79352d818070d0258414cff546cf79465a6c13222a69f572e592a0acf3e4a.vhdr",
+          "sub-G33/ses-medon/ieeg/sub-G33_ses-medon_task-rest_acq-bilateral_ieeg.eeg": "SHA256E-s67245660--754659f3a21ea93bfc6b4bdfd5a8558f82769984548b47d6d717b52d9b64e08b.eeg"
+        }
+      },
+      "ch_names": [
+        "F3",
+        "F4",
+        "C3",
+        "C4",
+        "P3",
+        "P4",
+        "Pz",
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "R1",
+        "R2",
+        "R3",
+        "R4",
+        "ECG",
+        "AxL",
+        "AxR",
+        "Snd",
+        "FcRi",
+        "FcLe",
+        "Ph",
+        "Code",
+        "Virtual",
+        "Virtual_2",
+        "Virtual_3",
+        "Virtual_4"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 27,
+      "ntimes": 622645,
+      "duration_seconds": 304.02587890625,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G33",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 304.0259,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G24_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G24",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G24",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_channels.tsv",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_events.tsv",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.json",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.eeg",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.vmrk",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.vhdr": "SHA256E-s876--e054de275a5ee2c3e698af291dce02baa8872a1768a7b0e82ab8ecd6a1efbc1d.vhdr",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-left_ieeg.eeg": "SHA256E-s420383124--bff5da07c3c304710d140b45cfef0551f15dac6e1df21a4de31e841b5c8d0f1a.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "FC3",
+        "FC4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F_L02",
+        "F_R02",
+        "S_L02",
+        "S_R02",
+        "Amp1",
+        "Amp2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 21,
+      "ntimes": 5004561,
+      "duration_seconds": 2443.63330078125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G24",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 2443.6333,
+      "bad_channels": [
+        "FC3",
+        "FC4",
+        "Amp2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G24_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G24",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G24",
+        "session": "medoff",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_channels.tsv",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_events.tsv",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.json",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.eeg",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.vmrk",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.vhdr": "SHA256E-s878--bc0b700ef7c2e4cabd0629cc4865e2bd908a79141e986fd4335b78847c450492.vhdr",
+          "sub-G24/ses-medoff/ieeg/sub-G24_ses-medoff_task-stim_acq-right_ieeg.eeg": "SHA256E-s358088472--8fe25b7b06e30d7d7d5c8bf2dd0662bdf5efac762f30a815822fa9f70e09379b.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "FC3",
+        "FC4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F_R02",
+        "F_L02",
+        "S_R02",
+        "S_L02",
+        "Amp1",
+        "Amp2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 21,
+      "ntimes": 4262958,
+      "duration_seconds": 2081.5224609375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G24",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 2443.6333,
+      "bad_channels": [
+        "FC3",
+        "FC4",
+        "Amp2"
+      ],
+      "bad_channels_count": 3,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G24_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G24",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "G24",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s871--1b9a999f8ed151aeaef57b2bd1b1245bf26d5c76dd162da5318100762f43fe2f.vhdr",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s384363672--494f945544cef3de3e7ac732457b2552e3c0dcf11f22729bf7488f286e6a3869.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "FC3",
+        "FC4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F_L02",
+        "F_R02",
+        "S_L02",
+        "S_R02",
+        "Ch1",
+        "Ch2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 21,
+      "ntimes": 4575758,
+      "duration_seconds": 2234.2568359375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G24",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 2234.2568,
+      "bad_channels": [
+        "FC3",
+        "FC4",
+        "L13",
+        "Ch2"
+      ],
+      "bad_channels_count": 4,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-G24_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "G24",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "G24",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s875--79440e29eaa8f2ff1bd4819178ab209f10df6d8187818a5826f55749c649a93d.vhdr",
+          "sub-G24/ses-medon/ieeg/sub-G24_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s358227576--bdb47e92b1e44e4cc9f52f02360d702fa7db8e03c1fbfb4111670b9ac1d0a5a5.eeg"
+        }
+      },
+      "ch_names": [
+        "Fz",
+        "Cz",
+        "FC3",
+        "FC4",
+        "C3",
+        "C4",
+        "CP3",
+        "CP4",
+        "L02",
+        "L13",
+        "R02",
+        "R13",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F_R02",
+        "F_L02",
+        "S_R02",
+        "S_L02",
+        "Amp1",
+        "Amp2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 21,
+      "ntimes": 4264614,
+      "duration_seconds": 2082.3310546875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "G24",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 2234.2568,
+      "bad_channels": [
+        "FC3",
+        "FC4",
+        "L13",
+        "Ch2"
+      ],
+      "bad_channels_count": 4,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K7_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K7",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "K7",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_channels.tsv",
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_events.tsv",
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.json",
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.eeg",
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.vmrk",
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.vhdr": "SHA256E-s940--5e2f53af6cd8c9f41e3465dd0b5bee1d984b4f496409092102ea2c10e504e9d4.vhdr",
+          "sub-K7/ses-medoff/ieeg/sub-K7_ses-medoff_task-rest_acq-left_ieeg.eeg": "SHA256E-s31117800--0217ef8c8a31b312cc16c8ce1885ca674cb7252bacf5c3c852710a4b60595cea.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C4",
+        "C3",
+        "Pz",
+        "CP4",
+        "CP3",
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "L02",
+        "L13",
+        "EMG1",
+        "Pho",
+        "AcX",
+        "AcY",
+        "AcZ",
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 25,
+      "ntimes": 311178,
+      "duration_seconds": 151.9423828125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K7",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 151.9424,
+      "bad_channels": [
+        "L0",
+        "L1",
+        "L2",
+        "L3",
+        "F-Cz",
+        "F-Cz_2",
+        "S-Cz",
+        "S-Cz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 12,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-K7_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bidspath": "nm000446/sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "bids_relpath": "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "K7",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "entities_mne": {
+        "subject": "K7",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "left"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.vhdr",
+        "dep_keys": [
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_channels.tsv",
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_events.tsv",
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.json",
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.eeg",
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.vmrk",
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.vhdr": "SHA256E-s970--01c95927c2c1c64e30e9261ba18d67cfb2187a1ba5fcf8f5d5e49fe79e9ca336.vhdr",
+          "sub-K7/ses-medon/ieeg/sub-K7_ses-medon_task-stim_acq-left_ieeg.eeg": "SHA256E-s420785560--4a554dd5b3c35864476748627b7599c10733ac17de9c5d61100cb491007be98b.eeg"
+        }
+      },
+      "ch_names": [
+        "Cz",
+        "C4",
+        "C3",
+        "Pz",
+        "CP4",
+        "CP3",
+        "L01",
+        "L13",
+        "EMGR",
+        "AcXH",
+        "AcYH",
+        "AcZH",
+        "AcXF",
+        "AcYF",
+        "AcZF",
+        "F-L13",
+        "F-AcZH",
+        "S-L13",
+        "S-AcZH",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2",
+        "Bet1",
+        "Bet2",
+        "Bet3"
+      ],
+      "sampling_frequency": 2048.0,
+      "nchans": 26,
+      "ntimes": 4046015,
+      "duration_seconds": 1975.59326171875,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "K7",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "King's College Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "Porti",
+      "recording_type": "continuous",
+      "recording_duration": 1975.5933,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-XG39_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "XG39",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "XG39",
+        "session": "medoff",
+        "task": "rest",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_channels.tsv",
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_events.tsv",
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.json",
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.eeg",
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.vmrk",
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.vhdr": "SHA256E-s888--8c7e6b8848275d718d2b536be0b059cbd434ce37ffd609a4ae0b9bd6885e8ef6.vhdr",
+          "sub-XG39/ses-medoff/ieeg/sub-XG39_ses-medoff_task-rest_acq-right_ieeg.eeg": "SHA256E-s44638944--6927d2ad726e565c0e1ad3e307314568470dbebb1c21bde0f0d105c5e4c93634.eeg"
+        }
+      },
+      "ch_names": [
+        "CPz",
+        "CP4",
+        "C3",
+        "Cz",
+        "C4",
+        "L13",
+        "L24",
+        "R13",
+        "R24",
+        "Pho",
+        "Accx",
+        "Accy",
+        "Accz",
+        "F-CPz",
+        "F-CPz_2",
+        "S-CPz",
+        "S-CPz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 21,
+      "ntimes": 531416,
+      "duration_seconds": 129.740234375,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "XG39",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 129.7402,
+      "bad_channels": [
+        "F-CPz",
+        "F-CPz_2",
+        "S-CPz",
+        "S-CPz_2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "bad_channels_count": 8,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000446",
+      "data_name": "nm000446_sub-XG39_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bidspath": "nm000446/sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "bids_relpath": "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "XG39",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "entities_mne": {
+        "subject": "XG39",
+        "session": "medon",
+        "task": "stim",
+        "run": null,
+        "acquisition": "right"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000446",
+        "raw_key": "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.vhdr",
+        "dep_keys": [
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_channels.tsv",
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_events.tsv",
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.json",
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.eeg",
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.vmrk",
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.vhdr": "SHA256E-s1072--4de9bb0e2cfe6d8953ff846456a50f82184d527c419a293097d2f8499ba8eb21.vhdr",
+          "sub-XG39/ses-medon/ieeg/sub-XG39_ses-medon_task-stim_acq-right_ieeg.eeg": "SHA256E-s762210816--dd3132472468e14a9cac34f0563e8d7039b4110ae93ba732700f35c2bd4ea880.eeg"
+        }
+      },
+      "ch_names": [
+        "L1",
+        "L2",
+        "L3",
+        "L4",
+        "L5",
+        "L6",
+        "L7",
+        "L8",
+        "R1",
+        "R3",
+        "R4",
+        "Cz",
+        "C3",
+        "C4",
+        "CPz",
+        "CP3",
+        "CP4",
+        "R13",
+        "AcXR",
+        "AcYR",
+        "AcZR",
+        "AcXL",
+        "AcYL",
+        "AcZL",
+        "F-L1",
+        "F-L2",
+        "S-L1",
+        "S-L2",
+        "Am1",
+        "Am2",
+        "Rs1",
+        "Rs2"
+      ],
+      "sampling_frequency": 4096.0,
+      "nchans": 32,
+      "ntimes": 5954772,
+      "duration_seconds": 1453.8017578125,
+      "digested_at": "2026-10-13T09:25:55.586226+00:00",
+      "participant_tsv": {
+        "release_code": "XG39",
+        "diagnosis": "Parkinson's disease",
+        "recruitment_site": "St George's University Hospital, London",
+        "age": null,
+        "sex": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "not documented in the release; channel labels as released (Wiest et al. 2023: bipolar STN recordings from the contacts adjacent to the stimulation contact)",
+      "software_filters": "n/a",
+      "hardware_filters": "n/a",
+      "manufacturer": "TMS International",
+      "manufacturers_model_name": "SAGA32",
+      "recording_type": "continuous",
+      "recording_duration": 1453.8018,
+      "bad_channels": [
+        "Am2",
+        "Rs2"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    }
+  ]
+}

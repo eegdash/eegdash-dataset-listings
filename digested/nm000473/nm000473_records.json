@@ -1,0 +1,944 @@
+{
+  "dataset": "nm000473",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:26:15.798206+00:00",
+  "record_count": 10,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-04_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-04/ieeg/sub-04_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-04/ieeg/sub-04_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-04/ieeg/sub-04_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ieeg/sub-04_task-actionobservation_channels.tsv",
+          "sub-04/ieeg/sub-04_task-actionobservation_events.tsv",
+          "sub-04/ieeg/sub-04_task-actionobservation_events.json",
+          "sub-04/ieeg/sub-04_task-actionobservation_ieeg.json",
+          "sub-04/ieeg/sub-04_task-actionobservation_ieeg.eeg",
+          "sub-04/ieeg/sub-04_task-actionobservation_ieeg.vmrk",
+          "sub-04/ieeg/sub-04_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ieeg/sub-04_task-actionobservation_ieeg.vhdr": "SHA256E-s586--03e1c32306ea3e7bdcf64c6cc419cec23c4af3109faccf5c4daf3089af165917.vhdr",
+          "sub-04/ieeg/sub-04_task-actionobservation_ieeg.eeg": "SHA256E-s123264000--fb25dd05334180cef0a215062fa86926d7994819ef2a9d6f363d8cfc87fb3162.eeg"
+        }
+      },
+      "ch_names": [
+        "A26",
+        "A27",
+        "A32",
+        "B24",
+        "B25",
+        "B26",
+        "B27",
+        "B33",
+        "B55"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 9,
+      "ntimes": 3424000,
+      "duration_seconds": 3424.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient4"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3424.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "12d264bd7b62eca5"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-03_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-03/ieeg/sub-03_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-03/ieeg/sub-03_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "03",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "03",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-03/ieeg/sub-03_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-03/ieeg/sub-03_task-actionobservation_channels.tsv",
+          "sub-03/ieeg/sub-03_task-actionobservation_events.tsv",
+          "sub-03/ieeg/sub-03_task-actionobservation_events.json",
+          "sub-03/ieeg/sub-03_task-actionobservation_ieeg.json",
+          "sub-03/ieeg/sub-03_task-actionobservation_ieeg.eeg",
+          "sub-03/ieeg/sub-03_task-actionobservation_ieeg.vmrk",
+          "sub-03/ieeg/sub-03_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-03/ieeg/sub-03_task-actionobservation_ieeg.vhdr": "SHA256E-s815--6841e71307645a4ef7352f2fb9250a0fdebc99cd5d7b99057e6816d7b17e523b.vhdr",
+          "sub-03/ieeg/sub-03_task-actionobservation_ieeg.eeg": "SHA256E-s305360000--793ab11af7c1074c047e266a53db7511687ecca01be787302c4034e926cb735b.eeg"
+        }
+      },
+      "ch_names": [
+        "A38",
+        "A43",
+        "A44",
+        "A49",
+        "A50",
+        "A51",
+        "A52",
+        "A56",
+        "A57",
+        "A58",
+        "A59",
+        "A60",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B9",
+        "B15",
+        "B16",
+        "B27",
+        "B28"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 22,
+      "ntimes": 3470000,
+      "duration_seconds": 3470.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient3"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3470.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "4b6a5ed5b9c41fea"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-12_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-12/ieeg/sub-12_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-12/ieeg/sub-12_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "12",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "12",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-12/ieeg/sub-12_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-12/ieeg/sub-12_task-actionobservation_channels.tsv",
+          "sub-12/ieeg/sub-12_task-actionobservation_events.tsv",
+          "sub-12/ieeg/sub-12_task-actionobservation_events.json",
+          "sub-12/ieeg/sub-12_task-actionobservation_ieeg.json",
+          "sub-12/ieeg/sub-12_task-actionobservation_ieeg.eeg",
+          "sub-12/ieeg/sub-12_task-actionobservation_ieeg.vmrk",
+          "sub-12/ieeg/sub-12_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-12/ieeg/sub-12_task-actionobservation_ieeg.vhdr": "SHA256E-s750--e0cf8a370c2ce2e4ad8f1207da1dcc1a4bc0e7c29fa33f4f4b5f07baf48562e3.vhdr",
+          "sub-12/ieeg/sub-12_task-actionobservation_ieeg.eeg": "SHA256E-s256104000--c647f65ef91595c1732632d3f5e357ec187f542694b34f64abf0d56e43fb57fb.eeg"
+        }
+      },
+      "ch_names": [
+        "A29",
+        "A45",
+        "A48",
+        "A52",
+        "A53",
+        "A54",
+        "A55",
+        "A56",
+        "A57",
+        "A58",
+        "A59",
+        "B48",
+        "B49",
+        "B51",
+        "B52",
+        "B54",
+        "B55",
+        "B56"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 18,
+      "ntimes": 3557000,
+      "duration_seconds": 3557.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient12"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3557.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "56759d89b5426dd5"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-08_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-08/ieeg/sub-08_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-08/ieeg/sub-08_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "08",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "08",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-08/ieeg/sub-08_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-08/ieeg/sub-08_task-actionobservation_channels.tsv",
+          "sub-08/ieeg/sub-08_task-actionobservation_events.tsv",
+          "sub-08/ieeg/sub-08_task-actionobservation_events.json",
+          "sub-08/ieeg/sub-08_task-actionobservation_ieeg.json",
+          "sub-08/ieeg/sub-08_task-actionobservation_ieeg.eeg",
+          "sub-08/ieeg/sub-08_task-actionobservation_ieeg.vmrk",
+          "sub-08/ieeg/sub-08_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-08/ieeg/sub-08_task-actionobservation_ieeg.vhdr": "SHA256E-s708--3b3d5fee18107cdfda41f3357d5ae020f6a481bfee61f37f2d529ae21553a419.vhdr",
+          "sub-08/ieeg/sub-08_task-actionobservation_ieeg.eeg": "SHA256E-s219392000--56356d0ae090f2a221ec84885b6f0fd6dc746a9a5a72f3f399e511407a420667.eeg"
+        }
+      },
+      "ch_names": [
+        "A24",
+        "A25",
+        "A31",
+        "A32",
+        "A39",
+        "A45",
+        "A53",
+        "B4",
+        "B5",
+        "B6",
+        "B7",
+        "B8",
+        "B10",
+        "B11",
+        "B12",
+        "B20"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 16,
+      "ntimes": 3428000,
+      "duration_seconds": 3428.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient8"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3428.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "92e644ea474b53f3"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-06_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-06/ieeg/sub-06_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-06/ieeg/sub-06_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "06",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "06",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-06/ieeg/sub-06_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-06/ieeg/sub-06_task-actionobservation_channels.tsv",
+          "sub-06/ieeg/sub-06_task-actionobservation_events.tsv",
+          "sub-06/ieeg/sub-06_task-actionobservation_events.json",
+          "sub-06/ieeg/sub-06_task-actionobservation_ieeg.json",
+          "sub-06/ieeg/sub-06_task-actionobservation_ieeg.eeg",
+          "sub-06/ieeg/sub-06_task-actionobservation_ieeg.vmrk",
+          "sub-06/ieeg/sub-06_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-06/ieeg/sub-06_task-actionobservation_ieeg.vhdr": "SHA256E-s676--d50c473e2d171404d2e117c4ca41769fb324378ca8dcac976edbc4bbb09855ec.vhdr",
+          "sub-06/ieeg/sub-06_task-actionobservation_ieeg.eeg": "SHA256E-s65128000--f40db704a6e415c954ca4c6d40b04df1744cd7e2be991039cb6d45e1e5083663.eeg"
+        }
+      },
+      "ch_names": [
+        "A51",
+        "A52",
+        "A53",
+        "A54",
+        "A56",
+        "A57",
+        "A58",
+        "A59",
+        "A60",
+        "B6",
+        "B19",
+        "B20",
+        "B26",
+        "B27"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 14,
+      "ntimes": 1163000,
+      "duration_seconds": 1163.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient6"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1163.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "f650901477388a5d"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-02_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-02/ieeg/sub-02_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-02/ieeg/sub-02_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-02/ieeg/sub-02_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ieeg/sub-02_task-actionobservation_channels.tsv",
+          "sub-02/ieeg/sub-02_task-actionobservation_events.tsv",
+          "sub-02/ieeg/sub-02_task-actionobservation_events.json",
+          "sub-02/ieeg/sub-02_task-actionobservation_ieeg.json",
+          "sub-02/ieeg/sub-02_task-actionobservation_ieeg.eeg",
+          "sub-02/ieeg/sub-02_task-actionobservation_ieeg.vmrk",
+          "sub-02/ieeg/sub-02_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ieeg/sub-02_task-actionobservation_ieeg.vhdr": "SHA256E-s569--c6a2222359865ee01946f583d6571969cf9f29c004e490915ece5c5bb10b379a.vhdr",
+          "sub-02/ieeg/sub-02_task-actionobservation_ieeg.eeg": "SHA256E-s56256000--3f9b894dcf52c3eebb857c1365cbe4d9c8b97a5b689c7236f9f1b83c0101ed64.eeg"
+        }
+      },
+      "ch_names": [
+        "A49",
+        "A54",
+        "A55",
+        "A56",
+        "B23",
+        "B53",
+        "B58",
+        "B59"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 8,
+      "ntimes": 1758000,
+      "duration_seconds": 1758.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient2"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1758.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "2e8ebf990ce6012f"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-09_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-09/ieeg/sub-09_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-09/ieeg/sub-09_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "09",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "09",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-09/ieeg/sub-09_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-09/ieeg/sub-09_task-actionobservation_channels.tsv",
+          "sub-09/ieeg/sub-09_task-actionobservation_events.tsv",
+          "sub-09/ieeg/sub-09_task-actionobservation_events.json",
+          "sub-09/ieeg/sub-09_task-actionobservation_ieeg.json",
+          "sub-09/ieeg/sub-09_task-actionobservation_ieeg.eeg",
+          "sub-09/ieeg/sub-09_task-actionobservation_ieeg.vmrk",
+          "sub-09/ieeg/sub-09_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-09/ieeg/sub-09_task-actionobservation_ieeg.vhdr": "SHA256E-s450--ed659c9a87fe26a2e71620d1ef50f6abe172170187a0f05d9a108251dce11380.vhdr",
+          "sub-09/ieeg/sub-09_task-actionobservation_ieeg.eeg": "SHA256E-s13704000--56087e32b504918b28d0d4c367b945055b16daa41f833b4987fd3de1a0d420d2.eeg"
+        }
+      },
+      "ch_names": [
+        "A38"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 1,
+      "ntimes": 3426000,
+      "duration_seconds": 3426.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient9"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3426.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "8171085e00462a51"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-11_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-11/ieeg/sub-11_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-11/ieeg/sub-11_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "11",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "11",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-11/ieeg/sub-11_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-11/ieeg/sub-11_task-actionobservation_channels.tsv",
+          "sub-11/ieeg/sub-11_task-actionobservation_events.tsv",
+          "sub-11/ieeg/sub-11_task-actionobservation_events.json",
+          "sub-11/ieeg/sub-11_task-actionobservation_ieeg.json",
+          "sub-11/ieeg/sub-11_task-actionobservation_ieeg.eeg",
+          "sub-11/ieeg/sub-11_task-actionobservation_ieeg.vmrk",
+          "sub-11/ieeg/sub-11_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-11/ieeg/sub-11_task-actionobservation_ieeg.vhdr": "SHA256E-s1090--ddb3cfb55a4c392a96a85966a9985a6dc3bfa04a65d0940877d0f722b83f3d18.vhdr",
+          "sub-11/ieeg/sub-11_task-actionobservation_ieeg.eeg": "SHA256E-s513116000--a8fe385ed2afa027fd675d3b5ed403baa489d969c96e845b2a00e7ed992d51ad.eeg"
+        }
+      },
+      "ch_names": [
+        "A9",
+        "A10",
+        "A13",
+        "A14",
+        "A16",
+        "A19",
+        "A20",
+        "A21",
+        "A24",
+        "A32",
+        "A44",
+        "A48",
+        "A49",
+        "A52",
+        "A53",
+        "A56",
+        "A60",
+        "A61",
+        "B1",
+        "B16",
+        "B20",
+        "B25",
+        "B26",
+        "B28",
+        "B34",
+        "B35",
+        "B36",
+        "B38",
+        "B42",
+        "B43",
+        "B49",
+        "B50",
+        "B51",
+        "B52",
+        "B53",
+        "B54",
+        "B58"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 37,
+      "ntimes": 3467000,
+      "duration_seconds": 3467.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient11"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3467.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "84374d6e33f87ada"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-01_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-01/ieeg/sub-01_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-01/ieeg/sub-01_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-actionobservation_channels.tsv",
+          "sub-01/ieeg/sub-01_task-actionobservation_events.tsv",
+          "sub-01/ieeg/sub-01_task-actionobservation_events.json",
+          "sub-01/ieeg/sub-01_task-actionobservation_ieeg.json",
+          "sub-01/ieeg/sub-01_task-actionobservation_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-actionobservation_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-actionobservation_ieeg.vhdr": "SHA256E-s728--ee040bf12c8c1c6cf1f85a8f12d2ae95de105b1e3a23709cfb1f33bddab3d211.vhdr",
+          "sub-01/ieeg/sub-01_task-actionobservation_ieeg.eeg": "SHA256E-s273292000--568b2b346ab3c5a21f8947a51e353cc186ac9c15dcec1c7eab0f9d6ca8d49836.eeg"
+        }
+      },
+      "ch_names": [
+        "B1",
+        "B2",
+        "B9",
+        "B10",
+        "B17",
+        "B18",
+        "B19",
+        "B22",
+        "B25",
+        "B26",
+        "B29",
+        "B30",
+        "B31",
+        "B38",
+        "B39",
+        "B45",
+        "B46"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 17,
+      "ntimes": 4019000,
+      "duration_seconds": 4019.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient1"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 4019.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "c7b52687e2239dd0"
+    },
+    {
+      "dataset": "nm000473",
+      "data_name": "nm000473_sub-13_task-actionobservation_ieeg.vhdr",
+      "bidspath": "nm000473/sub-13/ieeg/sub-13_task-actionobservation_ieeg.vhdr",
+      "bids_relpath": "sub-13/ieeg/sub-13_task-actionobservation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "13",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "13",
+        "session": null,
+        "task": "actionobservation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000473",
+        "raw_key": "sub-13/ieeg/sub-13_task-actionobservation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-13/ieeg/sub-13_task-actionobservation_channels.tsv",
+          "sub-13/ieeg/sub-13_task-actionobservation_events.tsv",
+          "sub-13/ieeg/sub-13_task-actionobservation_events.json",
+          "sub-13/ieeg/sub-13_task-actionobservation_ieeg.json",
+          "sub-13/ieeg/sub-13_task-actionobservation_ieeg.eeg",
+          "sub-13/ieeg/sub-13_task-actionobservation_ieeg.vmrk",
+          "sub-13/ieeg/sub-13_task-actionobservation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-13/ieeg/sub-13_task-actionobservation_ieeg.vhdr": "SHA256E-s657--20d1088dce213ed54acdc607c508a4b414397b31d25ead34586857900fd40d5b.vhdr",
+          "sub-13/ieeg/sub-13_task-actionobservation_ieeg.eeg": "SHA256E-s186836000--b83e8c287b912f4e01596b625c30adbfad13045bd1e1628f609da53282dfbea2.eeg"
+        }
+      },
+      "ch_names": [
+        "A16",
+        "A17",
+        "A19",
+        "A25",
+        "B3",
+        "B4",
+        "B5",
+        "B15",
+        "B23",
+        "B24",
+        "B31",
+        "B32",
+        "B39"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 13,
+      "ntimes": 3593000,
+      "duration_seconds": 3593.0,
+      "digested_at": "2026-10-13T09:26:15.798206+00:00",
+      "participant_tsv": {
+        "age": null,
+        "sex": null,
+        "source_id": "Patient13"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "re-referenced by the authors (release file name LARER_reref; see article); original reference not stated in the release",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Release file '<Patient>LARER_rerefDataInROI.mat': FieldTrip data re-referenced by the authors (montage in cfg.previous; scheme not stated in the release, see article) and restricted to the region-of-interest channels. Values written unchanged (\u00b5V per hdr.chanunit)."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 3593.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": "51e6f8fd259d0be9"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "dataset_id": "nm000476",
+  "name": "Hoy2024 effort decision LFP: subthalamic/pallidal and prefrontal recordings during an effort-based decision task (DBS surgery)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000476-blue)](https://doi.org/10.82901/nemar.nm000476)\n# Hoy et al. 2024: basal ganglia and prefrontal LFP during effort-based decisions (intraoperative DBS recordings)\n5 subjects, 14 recordings, 3.90 h. Released by the authors on OSF (doi:10.17605/OSF.IO/JQ6Z4, CC-BY-4.0).\n## Organisation (DatasetType derivative)\n- `*_acq-preproc_ieeg.vhdr` (PFC01, PFC03, PFC04, PFC05): the authors' preprocessed, epoched bipolar signals (`sbj_data.ts`, trials\n  -2 to 9 s around the offer, 422 or 500 Hz) with the two channel labels of the release (STN or GPi; FPC or OFC), written\n  back-to-back with one `New Segment` marker per trial. `events.tsv` carries every per-trial field of `sbj_data.bhv` (key, rt,\n  block, effort, stake, decision, previous-trial values, model values SV/EFFs/p_accept/dec_ease, ...); `code/*_bhvextra.json` holds the\n  index lists (good_key_ix, reject_ix, ...) and the model parameters (`sbj_data.mdl`).\n- `*_acq-raw_run-<k>_ieeg.vhdr` (all five subjects, two runs each): the continuous neural exports of `raw_data/` (`signal` 2 x N at\n  422 Hz, or `datar` N x 4 at 500 Hz for PFC01) written unchanged. The release does not document the channel order or units of these\n  exports (channels `ch1..`, `units` n/a) and the behavioural trial timestamps are on a separate clock (sync files), so these runs\n  have no events.tsv.\n- No electrode coordinates are released (`electrodes.tsv` with n/a). Age and sex are not in the release.\n- `sourcedata/osf-jq6z4/`: the preprocessed and neural MAT files (MAT header export dates set to day 01). The behavioural and sync\n  files contain exact session timestamps and are not redistributed (see `NOT_COPIED_release_files.txt`); session months:\n  {\"PFC01_behavioral_data_run1.mat\": \"2020-06-01\", \"PFC01_behavioral_data_run2.mat\": \"2020-06-01\", \"PFC03_behavioral_data_run1.mat\": \"2019-12-01\", \"PFC03_behavioral_data_run2.mat\": \"2019-12-01\", \"PFC04_behavioral_data_run1.mat\": \"2019-09-01\", \"PFC04_behavioral_data_run2.mat\": \"2019-09-01\", \"PFC05_behavioral_data_run1.mat\": \"2019-09-01\", \"PFC05_behavioral_data_run2.mat\": \"2019-09-01\", \"PMC10_behavioral_data_run1.mat\": \"2020-01-01\", \"PMC10_behavioral_data_run2.mat\": \"2020-01-01\"}.\n## Privacy\nSubject codes only; the behavioural files with exact timestamps are excluded. String scan of the converted MAT files:\n12 flagged strings (see code/conversion_report.json).",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Colin W. Hoy",
+    "Coralie de Hemptinne",
+    "Sarah S. Wang",
+    "Catherine J. Harmer",
+    "Matthew A. J. Apps",
+    "Masud Husain",
+    "Philip A. Starr",
+    "Simon Little"
+  ],
+  "funding": [
+    "Wellcome Trust 226645/Z/22/Z",
+    "NIH NINDS K23NS120037",
+    "NIH NIMH F32MH132174",
+    "UKRI BBSRC BB/R010668/2"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000476",
+  "associated_paper_doi": null,
+  "tasks": [
+    "effort"
+  ],
+  "sessions": [],
+  "total_files": 14,
+  "size_bytes": 170969473,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 5,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Simon Little",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-13T09:26:17.830742+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-13 06:08:09"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000476",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000476",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Hoy CW, de Hemptinne C, Wang SS, Harmer CJ, Apps MAJ, Husain M, Starr PA, Little S (2024). Beta and theta oscillations track effort and previous reward in the human basal ganglia and prefrontal cortex during decision making. PNAS 121(31):e2322869121, doi:10.1073/pnas.2322869121, and the OSF release doi:10.17605/OSF.IO/JQ6Z4.",
+  "ethics_approvals": [
+    "Collected under the source study's approval (see the article, doi:10.1073/pnas.2322869121)."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1073/pnas.2322869121",
+    "https://doi.org/10.1101/2023.12.05.570285",
+    "https://doi.org/10.17605/OSF.IO/JQ6Z4"
+  ],
+  "generated_by": [
+    {
+      "Name": "o5c_A1_convert_lit174.py",
+      "Description": "Repackaging of the preprocessed FieldTrip epochs (acq-preproc, with sbj_data.bhv as events) and of the continuous neural exports (acq-raw) into BrainVision float32. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/JQ6Z4",
+      "URL": "https://osf.io/jq6z4/",
+      "Version": "OSF node jq6z4 (files as downloaded 2026-10-11; sha256 in sourcedata/osf-jq6z4/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "ingestion_fingerprint": "2fd972409ecd65c3b007ec9d5bac2eb36f83345197f171b62e20bbbbb3fda520"
+}

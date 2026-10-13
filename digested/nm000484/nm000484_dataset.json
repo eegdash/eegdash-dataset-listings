@@ -1,0 +1,91 @@
+{
+  "dataset_id": "nm000484",
+  "name": "s500-literature-83: Example intracranial EEG with qHFO detections from 'Redaction of false High Frequency Oscillations due to muscle artifact' (Stacey lab, Mendeley Data)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000484-blue)](https://doi.org/10.82901/nemar.nm000484)\n# Example intracranial EEG with qHFO detections (Stacey lab, Mendeley Data bt58z3yhdy)\nThe intracranial example recording distributed with the code of Ren, Gliske, Brang and Stacey (2019), \"Redaction of false\nhigh frequency oscillations due to muscle artifact improves specificity to epileptic tissue\" (Clin Neurophysiol): 61 intracranial\nchannels, 3000001 samples at 5000 Hz (10.0 min), with 357 automated qHFO\ndetections (start/stop sample and channel). The release uses it to demonstrate the wavelet-entropy feature that separates\nEMG-contaminated false HFOs from real HFOs (threshold 8.956 in the release script).\n## Source\n- Mendeley Data doi:10.17632/bt58z3yhdy.1 (contributor William Stacey), licence CC0 1.0. `examples.zip` = `intracranialEEG.mat`\n  (MATLAB v7.3, `data` int16 61 x 3000001), `qHFOdetection.mat` (startIdx, stopIdx, chanIdx), `data.mat` (19-channel scalp EEG\n  example for the scalp EMG detector), MATLAB code and `Readme.docx`. All kept byte-identical in `sourcedata/mendeley_bt58z3yhdy/`.\n- Sampling frequency: `fs = 5000` in `example_intracranial_feature.m` (\"sampling frequency of raw iEEG\"); the scalp example\n  uses `FS = 5000` as well.\n## Content\n- `sub-01/ieeg/sub-01_task-rest_ieeg.*`: the 61 intracranial channels as BrainVision IEEE float32, integer values unchanged.\n  The release gives no channel names (channels are `ch01`..`ch61` = matrix rows), no electrode types or positions, no reference\n  and no unit (`units` = n/a; the amplitudes, std ~250, are consistent with microvolts but this is not stated). Channel type OTHER.\n- `events.tsv`: one row per qHFO detection (onset/duration from the release sample indices, channel). Whether a detection is\n  an EMG-false HFO is computed by the release code (not released as a table).\n- The 19-channel scalp EEG example (`data.mat`) is in sourcedata only (no channel names or montage released).\n## Participants\nOne patient under intracranial monitoring; no demographic or clinical information in the release.\n## Privacy\nThe release holds anonymous matrices and sample indices only; no dates (`acq_time` n/a), names or identifiers.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "William Stacey",
+    "Stacey lab (University of Michigan)"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000484",
+  "associated_paper_doi": null,
+  "tasks": [
+    "rest"
+  ],
+  "sessions": [],
+  "total_files": 1,
+  "size_bytes": 1090571898,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 1,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Stacey lab (University of Michigan)",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-13T09:26:21.912003+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-13 06:13:50"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000484",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-rest_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000484",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite the Mendeley Data release (doi:10.17632/bt58z3yhdy.1, CC0) and the article: Ren S, Gliske SV, Brang D, Stacey WC (2019) Redaction of false high frequency oscillations due to muscle artifact improves specificity to epileptic tissue. Clinical Neurophysiology 130(6):976-985, doi:10.1016/j.clinph.2019.03.028.",
+  "ethics_approvals": [
+    "Collected under the source study's approval (University of Michigan; see the article doi:10.1016/j.clinph.2019.03.028)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.17632/bt58z3yhdy.1",
+    "https://doi.org/10.1016/j.clinph.2019.03.028"
+  ],
+  "generated_by": [
+    {
+      "Name": "o5c_D_convert_l83.py",
+      "Description": "intracranialEEG.mat int16 matrix -> BrainVision IEEE float32 (values unchanged, 5000 Hz from the release script), qHFOdetection.mat -> events.tsv. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.17632/bt58z3yhdy.1",
+      "URL": "https://data.mendeley.com/datasets/bt58z3yhdy/1",
+      "Version": "1 (examples.zip, 358 MB), licence CC0 1.0 (Mendeley record)"
+    }
+  ],
+  "ingestion_fingerprint": "4ad98fd958658e2b6d97b05483a33869d67a2cd6412f35dae4a290da98100197"
+}

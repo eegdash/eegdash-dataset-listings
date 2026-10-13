@@ -1,0 +1,102 @@
+{
+  "dataset_id": "nm000471",
+  "name": "Treder2021 hippocampal switchboard: epoched intracranial EEG during object/scene localiser and associative recall (extra-hippocampal channels)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000471-blue)](https://doi.org/10.82901/nemar.nm000471)\n# Treder et al. 2021, \"The hippocampus as the switchboard between perception and memory\": intracranial EEG epochs\nEpoched intracranial EEG from 11 patients (22 recordings, 9.03 h of epochs, 200 Hz) during an object/scene\nlocaliser task and an associative recall task, released by the authors on OSF (https://osf.io/kpxw9/, CC0) with the MATLAB\nscripts that reproduce the PNAS figures.\n## What is converted (DatasetType derivative)\n- `sub-XX/ieeg/sub-XX_task-localiser_ieeg.vhdr` and `..._task-recall_ieeg.vhdr`: the released `s<NN>_<task>_EEG_extraHIPP.mat`\n  FieldTrip epochs (single precision, 200 Hz), written back-to-back with one `New Segment` marker per trial; `events.tsv` has\n  each trial's position in the file, the authors' time axis start (-2 s) and every `trialinfo` field as released.\n- Channel names are the released anonymised labels `channel01..N`; no coordinates or anatomical labels are released for them\n  (`electrodes.tsv` with n/a coordinates). Per the file names these are the extra-hippocampal channels; the hippocampal data of\n  the release are time-frequency power only (`*_recall_TFR_HIPP.mat`, derived, not converted; listed in\n  `sourcedata/osf-kpxw9/NOT_COPIED_release_files.tsv` together with the scalp-EEG experiment files of `sharing/EEG/`).\n- Signal units are not stated in the release (`units` = n/a; values unchanged). Preprocessing is described in the article.\n- `sourcedata/osf-kpxw9/`: the converted MAT files, the authors' scripts and auxiliary files, unchanged.\n- Age and sex are not in the release.\n## Privacy\nChannel names are anonymised by the authors; files hold trial numbers, responses and reaction times only.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "Matthias S. Treder",
+    "Ian Charest",
+    "Sebastian Michelmann",
+    "Mar\u00eda Carmen Mart\u00edn-Buro",
+    "Fr\u00e9d\u00e9ric Roux",
+    "Fernando Carceller-Benito",
+    "Arturo Ugalde-Canitrot",
+    "David T. Rollings",
+    "Vijay Sawlani",
+    "Ramesh Chelvarajah",
+    "Maria Wimber",
+    "Simon Hanslmayr",
+    "Bernhard P. Staresina"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000471",
+  "associated_paper_doi": null,
+  "tasks": [
+    "localiser",
+    "recall"
+  ],
+  "sessions": [],
+  "total_files": 22,
+  "size_bytes": 4606119873,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 11,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Bernhard P. Staresina",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-13T09:26:12.767707+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-13 06:07:08"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000471",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000471",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Treder MS, Charest I, Michelmann S, et al. (2021) The hippocampus as the switchboard between perception and memory. PNAS 118(50):e2114171118, doi:10.1073/pnas.2114171118, and the OSF release https://osf.io/kpxw9/.",
+  "ethics_approvals": [
+    "Collected under the source study's approval (see the article, doi:10.1073/pnas.2114171118)."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1073/pnas.2114171118",
+    "https://doi.org/10.1101/2020.05.20.104539",
+    "https://osf.io/kpxw9/"
+  ],
+  "generated_by": [
+    {
+      "Name": "o5c_A1_convert_lit169.py",
+      "Description": "Repackaging of the FieldTrip epoch structs (eeg.trial) into BrainVision float32, trials back-to-back, with eeg.trialinfo as events. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://osf.io/kpxw9/",
+      "Version": "OSF node kpxw9 'Treder_et_al_2021' (files as downloaded 2026-10-11; sha256 in sourcedata/osf-kpxw9/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "ingestion_fingerprint": "934aa1d7fd749e9fe2d0d72aff2b4b5e1a530334ae63f35941f4d48908ce55f7"
+}

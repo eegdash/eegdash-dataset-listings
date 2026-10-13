@@ -1,0 +1,99 @@
+{
+  "dataset_id": "nm000480",
+  "name": "s500-literature-171: Working-memory gating task iEEG, epoched bipolar ECoG/sEEG from 11 patients with Yeo-7 network labels (Johnson et al., 2023) (derivative)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000480-blue)](https://doi.org/10.82901/nemar.nm000480)\n# Johnson et al. (2023), \"A rapid theta network mechanism for flexible information encoding\": epoched iEEG\nPreprocessed, bipolar-referenced intracranial EEG from 11 neurosurgical patients (11 recordings, 1.56 h of\nepochs) performing a single-trial working-memory gating task (context-first / context-last), released by the authors on OSF\n(https://osf.io/rx2zd/, CC-BY 4.0) together with the analysis scripts.\nTHIS IS A DERIVATIVE DATASET: the release holds the authors' epoched, filtered, artifact-cleaned bipolar channels (article\nMethods), not the raw clinical recordings.\n## Contents\n- `sub-NN/ieeg/sub-NN_task-wmgating_ieeg.*`: the released `data.trial` epochs written back-to-back (one `New Segment` marker\n  per trial; `events.tsv` gives each trial's position, its authors' time axis start (-1 s) and every `trialinfo` field as\n  released: trl_num, context, congruency, stimuli, rt, acc, Rel, Irrel, stim1, stim2, stim3, digitStimuli, digit_position, target_position, distractor_position, s2_onset, s3_onset, resp_onset). Unit \u00b5V assumed (not stated in the release); values unchanged.\n- Channel names are the bipolar pairs (e.g. `LF9-LF1`). The channel type is INFERRED from the pair numbering following the\n  article's montage rule (sEEG: deep-surface neighbours, adjacent numbers; ECoG grids: row-by-row neighbours, non-adjacent\n  numbers); the release itself does not state the electrode type per channel.\n- `sub-NN_space-Other_electrodes.tsv`: `data.elec.chanpos` of each bipolar channel as released. The release does not state\n  whether chanpos is in native or MNI space (the article localizes in native space and transforms to MNI for group display),\n  hence `space-Other`; see coordsystem.json. The per-subject `yeo.mat` (Yeo-7 network per task-responsive electrode) lists\n  fewer entries than channels and carries no channel names, so it could not be mapped to channels; it is kept in sourcedata/\n  (counts per subject in code/conversion_report.json, key yeo_unmapped). Where its length matches the channel count the\n  network is written to the `yeo7_network` column.\n- `participants.tsv`: no per-subject age or sex in the release (article Table S1).\n- `sourcedata/osf-rx2zd/`: every release file (data incl. `behavior.mat`, `trialinfo.mat`, scripts) unchanged apart from MAT\n  text-header dates reduced to month/year; `DEIDENTIFICATION_MANIFEST.tsv` lists sha-256 before and after.\n## Privacy\nSubjects are numbered S1-S11; files hold trial parameters, responses and reaction times only.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Elizabeth L. Johnson",
+    "Jack J. Lin",
+    "David King-Stephens",
+    "Peter B. Weber",
+    "Kenneth D. Laxer",
+    "Ignacio Saez",
+    "Fady Girgis",
+    "Mark D'Esposito",
+    "Robert T. Knight",
+    "David Badre"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000480",
+  "associated_paper_doi": null,
+  "tasks": [
+    "wmgating"
+  ],
+  "sessions": [],
+  "total_files": 11,
+  "size_bytes": 2560692372,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 11,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "David Badre",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-13T09:26:18.858043+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-13 06:08:37"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000480",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000480",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Johnson EL, Lin JJ, King-Stephens D, Weber PB, Laxer KD, Saez I, Girgis F, D'Esposito M, Knight RT, Badre D (2023) A rapid theta network mechanism for flexible information encoding. Nature Communications 14:2872, doi:10.1038/s41467-023-38574-7; and the OSF dataset https://osf.io/rx2zd/.",
+  "ethics_approvals": [
+    "Collected under research protocols approved by the Institutional Review Boards of UC Irvine, UC Davis and California Pacific Medical Center; written informed consent (article)."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1038/s41467-023-38574-7",
+    "https://doi.org/10.17605/OSF.IO/RX2ZD",
+    "https://osf.io/rx2zd/"
+  ],
+  "generated_by": [
+    {
+      "Name": "o5c_A2_convert_lit171.py",
+      "Description": "Repackaging of the FieldTrip epoch structs (data.trial) into BrainVision float32, trials back-to-back, with data.trialinfo as events, data.elec.chanpos as electrodes and the Yeo-7 assignment as electrode/channel labels. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.17605/OSF.IO/RX2ZD",
+      "URL": "https://osf.io/rx2zd/",
+      "Version": "OSF node rx2zd, 44 files as listed 2026-10-11 (sha256 per file in sourcedata/osf-rx2zd/DEIDENTIFICATION_MANIFEST.tsv)"
+    }
+  ],
+  "ingestion_fingerprint": "6f158dd71e8d40e887c1ff782c464a5a1a6df1dde2baa959916f0c0542e101ed"
+}

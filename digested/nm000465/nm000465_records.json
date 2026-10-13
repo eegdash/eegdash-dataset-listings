@@ -1,0 +1,4660 @@
+{
+  "dataset": "nm000465",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:26:09.739506+00:00",
+  "record_count": 47,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-130_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-130/ieeg/sub-130_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-130/ieeg/sub-130_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "130",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "130",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-130/ieeg/sub-130_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-130/ieeg/sub-130_task-localizer_channels.tsv",
+          "sub-130/ieeg/sub-130_task-localizer_events.tsv",
+          "sub-130/ieeg/sub-130_task-localizer_ieeg.json",
+          "sub-130/ieeg/sub-130_task-localizer_ieeg.eeg",
+          "sub-130/ieeg/sub-130_task-localizer_ieeg.vmrk",
+          "sub-130/ieeg/sub-130_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-130/ieeg/sub-130_task-localizer_ieeg.vhdr": "SHA256E-s985--75814e86b8557514d30f0b988a7ebd4d56ec343995d93b0d48e8aa642f110296.vhdr",
+          "sub-130/ieeg/sub-130_task-localizer_ieeg.eeg": "SHA256E-s30601680--13eb20fda7a86febb0b8bf6820561afb1bca91af7bc95f811fd7e0ef9e01723e.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 382521,
+      "duration_seconds": 191.2605,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_130",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 191.2605,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-130_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-130/ieeg/sub-130_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-130/ieeg/sub-130_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "130",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "130",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-130/ieeg/sub-130_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-130/ieeg/sub-130_task-stopsignal_channels.tsv",
+          "sub-130/ieeg/sub-130_task-stopsignal_events.tsv",
+          "sub-130/ieeg/sub-130_task-stopsignal_ieeg.json",
+          "sub-130/ieeg/sub-130_task-stopsignal_ieeg.eeg",
+          "sub-130/ieeg/sub-130_task-stopsignal_ieeg.vmrk",
+          "sub-130/ieeg/sub-130_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-130/ieeg/sub-130_task-stopsignal_ieeg.vhdr": "SHA256E-s981--520cc57a32599450c1f1cb8399607a6444b5a819f054e6e7081467eb681851a6.vhdr",
+          "sub-130/ieeg/sub-130_task-stopsignal_ieeg.eeg": "SHA256E-s139690480--6a05d1a24c16ee4cf5bd0918c9040f18c1d3c45373ca2936b644f183e951ffa1.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1746131,
+      "duration_seconds": 873.0655,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_130",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 191.2605,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-120_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-120/ieeg/sub-120_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-120/ieeg/sub-120_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "120",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "120",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-120/ieeg/sub-120_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-120/ieeg/sub-120_task-stopsignal_channels.tsv",
+          "sub-120/ieeg/sub-120_task-stopsignal_events.tsv",
+          "sub-120/ieeg/sub-120_task-stopsignal_ieeg.json",
+          "sub-120/ieeg/sub-120_task-stopsignal_ieeg.eeg",
+          "sub-120/ieeg/sub-120_task-stopsignal_ieeg.vmrk",
+          "sub-120/ieeg/sub-120_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-120/ieeg/sub-120_task-stopsignal_ieeg.vhdr": "SHA256E-s981--2857b42cb6cfde0ce460f1171ce85a5ff695bf800feded233318b869aba2f8b7.vhdr",
+          "sub-120/ieeg/sub-120_task-stopsignal_ieeg.eeg": "SHA256E-s139559600--999a69f6bd7de1dd6ddb44b0a4b2a1a41382b2fe77a36926ca58288733f74383.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1744495,
+      "duration_seconds": 872.2475,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_120",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.638,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-120_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-120/ieeg/sub-120_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-120/ieeg/sub-120_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "120",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "120",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-120/ieeg/sub-120_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-120/ieeg/sub-120_task-localizer_channels.tsv",
+          "sub-120/ieeg/sub-120_task-localizer_events.tsv",
+          "sub-120/ieeg/sub-120_task-localizer_ieeg.json",
+          "sub-120/ieeg/sub-120_task-localizer_ieeg.eeg",
+          "sub-120/ieeg/sub-120_task-localizer_ieeg.vmrk",
+          "sub-120/ieeg/sub-120_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-120/ieeg/sub-120_task-localizer_ieeg.vhdr": "SHA256E-s985--cc4ac184e4320adcca66ceff942a378b1ab27cf38306ba4cd3a3d3f43c29f916.vhdr",
+          "sub-120/ieeg/sub-120_task-localizer_ieeg.eeg": "SHA256E-s27622080--cd8adb21da684656aa19665929512dde71f840305683c8936a9f63fe26a20e44.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 345276,
+      "duration_seconds": 172.638,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_120",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.638,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-126_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-126/ieeg/sub-126_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-126/ieeg/sub-126_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "126",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "126",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-126/ieeg/sub-126_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-126/ieeg/sub-126_task-stopsignal_channels.tsv",
+          "sub-126/ieeg/sub-126_task-stopsignal_events.tsv",
+          "sub-126/ieeg/sub-126_task-stopsignal_ieeg.json",
+          "sub-126/ieeg/sub-126_task-stopsignal_ieeg.eeg",
+          "sub-126/ieeg/sub-126_task-stopsignal_ieeg.vmrk",
+          "sub-126/ieeg/sub-126_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-126/ieeg/sub-126_task-stopsignal_ieeg.vhdr": "SHA256E-s1101--6a2c43271a4143fae19cd79f29b06fcc1845e42ae12256475fffb1659d57609e.vhdr",
+          "sub-126/ieeg/sub-126_task-stopsignal_ieeg.eeg": "SHA256E-s176289600--8c94a819d9e1d1642aff296dc321d8f619d9a48185be9d768b1875cfd6e26f9a.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 1836350,
+      "duration_seconds": 918.175,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_126",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 176.035,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-126_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-126/ieeg/sub-126_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-126/ieeg/sub-126_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "126",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "126",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-126/ieeg/sub-126_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-126/ieeg/sub-126_task-localizer_channels.tsv",
+          "sub-126/ieeg/sub-126_task-localizer_events.tsv",
+          "sub-126/ieeg/sub-126_task-localizer_ieeg.json",
+          "sub-126/ieeg/sub-126_task-localizer_ieeg.eeg",
+          "sub-126/ieeg/sub-126_task-localizer_ieeg.vmrk",
+          "sub-126/ieeg/sub-126_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-126/ieeg/sub-126_task-localizer_ieeg.vhdr": "SHA256E-s1105--d350cdc229f537767a030d62b1a57fe68a40cff97f94c674c7f70ddca57fed4d.vhdr",
+          "sub-126/ieeg/sub-126_task-localizer_ieeg.eeg": "SHA256E-s33798720--d9cf927bfa8241ed8c74c2f1769a697fd484ffc1fcbf118a83dd318fc555278d.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 352070,
+      "duration_seconds": 176.035,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_126",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 176.035,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-128_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-128/ieeg/sub-128_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-128/ieeg/sub-128_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "128",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "128",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-128/ieeg/sub-128_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-128/ieeg/sub-128_task-stopsignal_channels.tsv",
+          "sub-128/ieeg/sub-128_task-stopsignal_events.tsv",
+          "sub-128/ieeg/sub-128_task-stopsignal_ieeg.json",
+          "sub-128/ieeg/sub-128_task-stopsignal_ieeg.eeg",
+          "sub-128/ieeg/sub-128_task-stopsignal_ieeg.vmrk",
+          "sub-128/ieeg/sub-128_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-128/ieeg/sub-128_task-stopsignal_ieeg.vhdr": "SHA256E-s1101--22f6dfe4129e1f0e38fde8cbc59b3b5140b3d8b0f615848c150b9aed8c4daa79.vhdr",
+          "sub-128/ieeg/sub-128_task-stopsignal_ieeg.eeg": "SHA256E-s174284448--0e15ccc3f40bff2fe20f0d4fccfb1be8585dba0241dafc2a6c25c5a42aec8c45.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 1815463,
+      "duration_seconds": 907.7315,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_128",
+        "age": null,
+        "sex": null,
+        "dbs_target": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 181.257,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-128_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-128/ieeg/sub-128_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-128/ieeg/sub-128_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "128",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "128",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-128/ieeg/sub-128_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-128/ieeg/sub-128_task-localizer_channels.tsv",
+          "sub-128/ieeg/sub-128_task-localizer_events.tsv",
+          "sub-128/ieeg/sub-128_task-localizer_ieeg.json",
+          "sub-128/ieeg/sub-128_task-localizer_ieeg.eeg",
+          "sub-128/ieeg/sub-128_task-localizer_ieeg.vmrk",
+          "sub-128/ieeg/sub-128_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-128/ieeg/sub-128_task-localizer_ieeg.vhdr": "SHA256E-s1105--45d262d4f7ef9bdc3d78f170feff3495d26491b340c4f995276470b8083fae01.vhdr",
+          "sub-128/ieeg/sub-128_task-localizer_ieeg.eeg": "SHA256E-s34801344--3e4c27eaedca9bf64cfc219e9795975c1e9e1878343a69d806ebae9bd41f4d40.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 362514,
+      "duration_seconds": 181.257,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_128",
+        "age": null,
+        "sex": null,
+        "dbs_target": null
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 181.257,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-119_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-119/ieeg/sub-119_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-119/ieeg/sub-119_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "119",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "119",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-119/ieeg/sub-119_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-119/ieeg/sub-119_task-stopsignal_channels.tsv",
+          "sub-119/ieeg/sub-119_task-stopsignal_events.tsv",
+          "sub-119/ieeg/sub-119_task-stopsignal_ieeg.json",
+          "sub-119/ieeg/sub-119_task-stopsignal_ieeg.eeg",
+          "sub-119/ieeg/sub-119_task-stopsignal_ieeg.vmrk",
+          "sub-119/ieeg/sub-119_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-119/ieeg/sub-119_task-stopsignal_ieeg.vhdr": "SHA256E-s1101--af3afca998f47f47cac35df1cae7f7785951eb971553cf61b7ceb1db43fa36f7.vhdr",
+          "sub-119/ieeg/sub-119_task-stopsignal_ieeg.eeg": "SHA256E-s185711712--ccd4ae8a7c79642f1883bfa41f83b36d9293487b41e3937aa50d8f25f9a841ed.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 1934497,
+      "duration_seconds": 967.2485,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_119",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 179.4955,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-119_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-119/ieeg/sub-119_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-119/ieeg/sub-119_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "119",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "119",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-119/ieeg/sub-119_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-119/ieeg/sub-119_task-localizer_channels.tsv",
+          "sub-119/ieeg/sub-119_task-localizer_events.tsv",
+          "sub-119/ieeg/sub-119_task-localizer_ieeg.json",
+          "sub-119/ieeg/sub-119_task-localizer_ieeg.eeg",
+          "sub-119/ieeg/sub-119_task-localizer_ieeg.vmrk",
+          "sub-119/ieeg/sub-119_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-119/ieeg/sub-119_task-localizer_ieeg.vhdr": "SHA256E-s1105--15f9e273f876086ae1dc35556611c99c86e52506b8a40bd1a9faefa4586e49a2.vhdr",
+          "sub-119/ieeg/sub-119_task-localizer_ieeg.eeg": "SHA256E-s34463136--d0042d613875a686dbf2e67dddc8c57d00c6baba0b5754741ea7c5b2f14fae6a.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 358991,
+      "duration_seconds": 179.4955,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_119",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 179.4955,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-117_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+      "bidspath": "nm000465/sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+      "bids_relpath": "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "117",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000ttl"
+      },
+      "entities_mne": {
+        "subject": "117",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000ttl"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+        "dep_keys": [
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_channels.tsv",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_events.tsv",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.json",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.eeg",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.vmrk",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.vhdr": "SHA256E-s537--193f82f491ae3ec2365cf52cdab45ec35bfed0d637a57fa1cf0061eb26d2b670.vhdr",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000ttl_ieeg.eeg": "SHA256E-s5513680--d23f5ffd69c1dda1d4a494ba64e1c0478e056d581421a4ffec5c38e4e8235850.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 344605,
+      "duration_seconds": 172.3025,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_117",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.323,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-117_task-stopsignal_acq-fs2000ttl_ieeg.vhdr",
+      "bidspath": "nm000465/sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.vhdr",
+      "bids_relpath": "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "117",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs2000ttl"
+      },
+      "entities_mne": {
+        "subject": "117",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs2000ttl"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.vhdr",
+        "dep_keys": [
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_channels.tsv",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_events.tsv",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.json",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.eeg",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.vmrk",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.vhdr": "SHA256E-s533--acc17a6210124d3ae66958c70281ef35434394106a81c454ee8f2517994256a0.vhdr",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000ttl_ieeg.eeg": "SHA256E-s28698448--c6f0912e7597127dc6d03dba22d49c4043a5547e85451a3e96467779a0adb6f7.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1793653,
+      "duration_seconds": 896.8265,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_117",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.323,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-117_task-localizer_acq-fs2000_ieeg.vhdr",
+      "bidspath": "nm000465/sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.vhdr",
+      "bids_relpath": "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "117",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "entities_mne": {
+        "subject": "117",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.vhdr",
+        "dep_keys": [
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_channels.tsv",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_events.tsv",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.json",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.eeg",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.vmrk",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.vhdr": "SHA256E-s1007--b72b1daae8f38256b6507b8ab360d9d4c91367dbb43ee6732a0bf9cf2b61440b.vhdr",
+          "sub-117/ieeg/sub-117_task-localizer_acq-fs2000_ieeg.eeg": "SHA256E-s27571680--8c898eb995e8cf40acae904d030c0b70a9561679ecb79715f5b776ec0bf474d2.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 344646,
+      "duration_seconds": 172.323,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_117",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.323,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-117_task-stopsignal_acq-fs2000_ieeg.vhdr",
+      "bidspath": "nm000465/sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.vhdr",
+      "bids_relpath": "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "117",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "entities_mne": {
+        "subject": "117",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.vhdr",
+        "dep_keys": [
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_channels.tsv",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_events.tsv",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.json",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.eeg",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.vmrk",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.vhdr": "SHA256E-s1003--90303d57aee90e73cfdbb60e899bec6fbf96ebb2efb9825c4187dcee6749ffa9.vhdr",
+          "sub-117/ieeg/sub-117_task-stopsignal_acq-fs2000_ieeg.eeg": "SHA256E-s143495520--122a9a8859c2a182746679de03fa67b1b0f9709293a5fdd6e4484b7694f48ae5.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1793694,
+      "duration_seconds": 896.847,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_117",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.323,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-116_task-stopsignal_run-1_ieeg.vhdr",
+      "bidspath": "nm000465/sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "116",
+        "session": null,
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "116",
+        "session": null,
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_channels.tsv",
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_events.tsv",
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.json",
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.eeg",
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.vmrk",
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.vhdr": "SHA256E-s905--243d5ab8efb04552e14e4bfc1a77fb99ada19b6c6e7690ac2e76dd58d30ef9a2.vhdr",
+          "sub-116/ieeg/sub-116_task-stopsignal_run-1_ieeg.eeg": "SHA256E-s60493616--6247e5af948d99391b39904223ec6e2f9d56dc4150ec6613ea05ade36bc1f555.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 889612,
+      "duration_seconds": 444.806,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_116",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 444.806,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-114_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-114/ieeg/sub-114_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-114/ieeg/sub-114_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "114",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "114",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-114/ieeg/sub-114_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-114/ieeg/sub-114_task-localizer_channels.tsv",
+          "sub-114/ieeg/sub-114_task-localizer_events.tsv",
+          "sub-114/ieeg/sub-114_task-localizer_ieeg.json",
+          "sub-114/ieeg/sub-114_task-localizer_ieeg.eeg",
+          "sub-114/ieeg/sub-114_task-localizer_ieeg.vmrk",
+          "sub-114/ieeg/sub-114_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-114/ieeg/sub-114_task-localizer_ieeg.vhdr": "SHA256E-s1015--ce841230524182604fac6cf6b9aa425ff89109457ebd334ec476f5e0e0f466aa.vhdr",
+          "sub-114/ieeg/sub-114_task-localizer_ieeg.eeg": "SHA256E-s28654332--2d33db283189503f09378f8f02815dd646d2bde7ae0a383bfb14034df302f1d7.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 21,
+      "ntimes": 341123,
+      "duration_seconds": 170.5615,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_114",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 170.5615,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-114_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-114/ieeg/sub-114_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-114/ieeg/sub-114_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "114",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "114",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-114/ieeg/sub-114_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-114/ieeg/sub-114_task-stopsignal_channels.tsv",
+          "sub-114/ieeg/sub-114_task-stopsignal_events.tsv",
+          "sub-114/ieeg/sub-114_task-stopsignal_ieeg.json",
+          "sub-114/ieeg/sub-114_task-stopsignal_ieeg.eeg",
+          "sub-114/ieeg/sub-114_task-stopsignal_ieeg.vmrk",
+          "sub-114/ieeg/sub-114_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-114/ieeg/sub-114_task-stopsignal_ieeg.vhdr": "SHA256E-s1011--cc1afe3b3830570f7dc012e6ee000696f279d7bbf6d2c674678b260fd5602f1b.vhdr",
+          "sub-114/ieeg/sub-114_task-stopsignal_ieeg.eeg": "SHA256E-s146495328--bba5c4849cccb347f62270bdd4400f41057cc896e5edb5d6c179a5a179fe3081.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 21,
+      "ntimes": 1743992,
+      "duration_seconds": 871.996,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_114",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 170.5615,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-132_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-132/ieeg/sub-132_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-132/ieeg/sub-132_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "132",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "132",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-132/ieeg/sub-132_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-132/ieeg/sub-132_task-stopsignal_channels.tsv",
+          "sub-132/ieeg/sub-132_task-stopsignal_events.tsv",
+          "sub-132/ieeg/sub-132_task-stopsignal_ieeg.json",
+          "sub-132/ieeg/sub-132_task-stopsignal_ieeg.eeg",
+          "sub-132/ieeg/sub-132_task-stopsignal_ieeg.vmrk",
+          "sub-132/ieeg/sub-132_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-132/ieeg/sub-132_task-stopsignal_ieeg.vhdr": "SHA256E-s981--835efdef4160d69b523f60d3cd85908d383f37ca33bd9c19c2118978e0ddee0e.vhdr",
+          "sub-132/ieeg/sub-132_task-stopsignal_ieeg.eeg": "SHA256E-s134375440--44b19fbba9b84a56fd1ee968bcac17e2ace779c9a6eb0f6f2fe08b6e5ce06417.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1679693,
+      "duration_seconds": 839.8465,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_132",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 839.8465,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-125_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-125/ieeg/sub-125_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-125/ieeg/sub-125_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "125",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "125",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-125/ieeg/sub-125_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-125/ieeg/sub-125_task-stopsignal_channels.tsv",
+          "sub-125/ieeg/sub-125_task-stopsignal_events.tsv",
+          "sub-125/ieeg/sub-125_task-stopsignal_ieeg.json",
+          "sub-125/ieeg/sub-125_task-stopsignal_ieeg.eeg",
+          "sub-125/ieeg/sub-125_task-stopsignal_ieeg.vmrk",
+          "sub-125/ieeg/sub-125_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-125/ieeg/sub-125_task-stopsignal_ieeg.vhdr": "SHA256E-s981--b9776724c9d47d3ac347c5e923aca7833de5914d52d219f057461e3bb6b6a077.vhdr",
+          "sub-125/ieeg/sub-125_task-stopsignal_ieeg.eeg": "SHA256E-s139086480--88764ae2a4510042a574a38a70117d0ddbeaacae8e98c1eac4bcc60dabf25754.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1738581,
+      "duration_seconds": 869.2905,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_125",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 229.3865,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-125_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-125/ieeg/sub-125_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-125/ieeg/sub-125_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "125",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "125",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-125/ieeg/sub-125_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-125/ieeg/sub-125_task-localizer_channels.tsv",
+          "sub-125/ieeg/sub-125_task-localizer_events.tsv",
+          "sub-125/ieeg/sub-125_task-localizer_ieeg.json",
+          "sub-125/ieeg/sub-125_task-localizer_ieeg.eeg",
+          "sub-125/ieeg/sub-125_task-localizer_ieeg.vmrk",
+          "sub-125/ieeg/sub-125_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-125/ieeg/sub-125_task-localizer_ieeg.vhdr": "SHA256E-s985--88ae673abe7a43b17896d522bcd19573956f8aeecd264829e1553eb8d0eb7997.vhdr",
+          "sub-125/ieeg/sub-125_task-localizer_ieeg.eeg": "SHA256E-s36701840--80070f04a8e72893bf9b899fcf50a8e2590b9b8b409d173e4e4da2847a881943.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 458773,
+      "duration_seconds": 229.3865,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_125",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 229.3865,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-118_task-localizer_acq-fs2000_ieeg.vhdr",
+      "bidspath": "nm000465/sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.vhdr",
+      "bids_relpath": "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "118",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "entities_mne": {
+        "subject": "118",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.vhdr",
+        "dep_keys": [
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_channels.tsv",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_events.tsv",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.json",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.eeg",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.vmrk",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.vhdr": "SHA256E-s1007--9dd928cc4a1f25c6b58d8ed71524e609917fd5b8a3ad099e901f23e95ff108ed.vhdr",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000_ieeg.eeg": "SHA256E-s28920560--8ff72e6fb3da41cda28784114e643589be7159a7bba1430bdfc0da9d4b41a744.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 361507,
+      "duration_seconds": 180.7535,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_118",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 180.7535,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-118_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+      "bidspath": "nm000465/sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+      "bids_relpath": "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "118",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000ttl"
+      },
+      "entities_mne": {
+        "subject": "118",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": "fs2000ttl"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.vhdr",
+        "dep_keys": [
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_channels.tsv",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_events.tsv",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.json",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.eeg",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.vmrk",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.vhdr": "SHA256E-s537--784f834517e5963dce9b77389741f5c9d83016643c991e3d4fd8d961d3079bfe.vhdr",
+          "sub-118/ieeg/sub-118_task-localizer_acq-fs2000ttl_ieeg.eeg": "SHA256E-s5782112--a243fa300442f4afd43719328010a293b19c5dbf5fef8cf68fa415994ca7c8a8.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 361382,
+      "duration_seconds": 180.691,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_118",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 180.7535,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-118_task-stopsignal_acq-fs24000ttl_ieeg.vhdr",
+      "bidspath": "nm000465/sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.vhdr",
+      "bids_relpath": "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "118",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs24000ttl"
+      },
+      "entities_mne": {
+        "subject": "118",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs24000ttl"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.vhdr",
+        "dep_keys": [
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_channels.tsv",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_events.tsv",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.json",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.eeg",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.vmrk",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.vhdr": "SHA256E-s548--00be35a519bf1be2b5c2ed372e1d879d325b1f66662a5305013d54512b7f84ca.vhdr",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs24000ttl_ieeg.eeg": "SHA256E-s337938704--b90dc107b33fd1854074edc7d02d1b44ff17fb23c336b349dac762023345c45a.eeg"
+        }
+      },
+      "ch_names": [
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 4,
+      "ntimes": 21121169,
+      "duration_seconds": 880.0487083333334,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_118",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 180.7535,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-118_task-stopsignal_acq-fs2000_ieeg.vhdr",
+      "bidspath": "nm000465/sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.vhdr",
+      "bids_relpath": "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "118",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "entities_mne": {
+        "subject": "118",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": "fs2000"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.vhdr",
+        "dep_keys": [
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_channels.tsv",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_events.tsv",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.json",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.eeg",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.vmrk",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.vhdr": "SHA256E-s1003--c06bd3342575665c99ec06cf293c70e109850b02ae9ef9ee283e005881ab1252.vhdr",
+          "sub-118/ieeg/sub-118_task-stopsignal_acq-fs2000_ieeg.eeg": "SHA256E-s140807840--8ea95ebe8ff1b55b9071975b0ce8598d82ac6692826a9b44faf4201b8bfc13d8.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1760098,
+      "duration_seconds": 880.049,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_118",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 180.7535,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-122_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-122/ieeg/sub-122_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-122/ieeg/sub-122_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "122",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "122",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-122/ieeg/sub-122_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-122/ieeg/sub-122_task-localizer_channels.tsv",
+          "sub-122/ieeg/sub-122_task-localizer_events.tsv",
+          "sub-122/ieeg/sub-122_task-localizer_ieeg.json",
+          "sub-122/ieeg/sub-122_task-localizer_ieeg.eeg",
+          "sub-122/ieeg/sub-122_task-localizer_ieeg.vmrk",
+          "sub-122/ieeg/sub-122_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-122/ieeg/sub-122_task-localizer_ieeg.vhdr": "SHA256E-s1105--61d78427bf51b97a169f933a80f4a5dba1271a43e882ceccbfc34f6f82c1c3cb.vhdr",
+          "sub-122/ieeg/sub-122_task-localizer_ieeg.eeg": "SHA256E-s40176768--ea2dedcca2cab0592bdc751906c50bf0e4ea06c1d0a2d7537a73a5f62d6c03ed.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 418508,
+      "duration_seconds": 209.254,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_122",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 209.254,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-122_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-122/ieeg/sub-122_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-122/ieeg/sub-122_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "122",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "122",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-122/ieeg/sub-122_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-122/ieeg/sub-122_task-stopsignal_channels.tsv",
+          "sub-122/ieeg/sub-122_task-stopsignal_events.tsv",
+          "sub-122/ieeg/sub-122_task-stopsignal_ieeg.json",
+          "sub-122/ieeg/sub-122_task-stopsignal_ieeg.eeg",
+          "sub-122/ieeg/sub-122_task-stopsignal_ieeg.vmrk",
+          "sub-122/ieeg/sub-122_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-122/ieeg/sub-122_task-stopsignal_ieeg.vhdr": "SHA256E-s1101--a3a0a3d88b514b0b314b3b77dcfacf95451235dfceacaf778be32474941c0768.vhdr",
+          "sub-122/ieeg/sub-122_task-stopsignal_ieeg.eeg": "SHA256E-s168462048--537ad8da9d1690ef67b0784d7ae88d65392e4a76ae5c145e400c3c1118f449e4.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 1754813,
+      "duration_seconds": 877.4065,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_122",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 209.254,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-113_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-113/ieeg/sub-113_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-113/ieeg/sub-113_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "113",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "113",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-113/ieeg/sub-113_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-113/ieeg/sub-113_task-localizer_channels.tsv",
+          "sub-113/ieeg/sub-113_task-localizer_events.tsv",
+          "sub-113/ieeg/sub-113_task-localizer_ieeg.json",
+          "sub-113/ieeg/sub-113_task-localizer_ieeg.eeg",
+          "sub-113/ieeg/sub-113_task-localizer_ieeg.vmrk",
+          "sub-113/ieeg/sub-113_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-113/ieeg/sub-113_task-localizer_ieeg.vhdr": "SHA256E-s895--7c0f2f4dd5c7a8d554f0071cd5618bc8423a84a18f6041ee3a141c84f0250b72.vhdr",
+          "sub-113/ieeg/sub-113_task-localizer_ieeg.eeg": "SHA256E-s26328036--494e215a2e7c39742ff91ef525db0c2a79ef8a55280fb82ddab0af7f9b869076.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 387177,
+      "duration_seconds": 193.5885,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_113",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 193.5885,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-113_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-113/ieeg/sub-113_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-113/ieeg/sub-113_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "113",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "113",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-113/ieeg/sub-113_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-113/ieeg/sub-113_task-stopsignal_channels.tsv",
+          "sub-113/ieeg/sub-113_task-stopsignal_events.tsv",
+          "sub-113/ieeg/sub-113_task-stopsignal_ieeg.json",
+          "sub-113/ieeg/sub-113_task-stopsignal_ieeg.eeg",
+          "sub-113/ieeg/sub-113_task-stopsignal_ieeg.vmrk",
+          "sub-113/ieeg/sub-113_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-113/ieeg/sub-113_task-stopsignal_ieeg.vhdr": "SHA256E-s1011--5766db6cfc2bc66f4e630cef8e72d5128ea4a06644a6e8648217e9a9271618b2.vhdr",
+          "sub-113/ieeg/sub-113_task-stopsignal_ieeg.eeg": "SHA256E-s145924548--f34deaaf580710133206398b0bcb7aa0336174fae568832c61b3b3d018ea80e6.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 21,
+      "ntimes": 1737197,
+      "duration_seconds": 868.5985,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_113",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 193.5885,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-121_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-121/ieeg/sub-121_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-121/ieeg/sub-121_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "121",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "121",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-121/ieeg/sub-121_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-121/ieeg/sub-121_task-localizer_channels.tsv",
+          "sub-121/ieeg/sub-121_task-localizer_events.tsv",
+          "sub-121/ieeg/sub-121_task-localizer_ieeg.json",
+          "sub-121/ieeg/sub-121_task-localizer_ieeg.eeg",
+          "sub-121/ieeg/sub-121_task-localizer_ieeg.vmrk",
+          "sub-121/ieeg/sub-121_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-121/ieeg/sub-121_task-localizer_ieeg.vhdr": "SHA256E-s985--bddd58fec2bf960061a77d47831cd749998bc4e9e8f215025a58753f7381a336.vhdr",
+          "sub-121/ieeg/sub-121_task-localizer_ieeg.eeg": "SHA256E-s27652240--aee4514b507e13b483bc197ba4aa7dc1bbc99779f6073c48daceeb1c8d01173b.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 345653,
+      "duration_seconds": 172.8265,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_121",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.8265,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-121_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-121/ieeg/sub-121_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-121/ieeg/sub-121_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "121",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "121",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-121/ieeg/sub-121_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-121/ieeg/sub-121_task-stopsignal_channels.tsv",
+          "sub-121/ieeg/sub-121_task-stopsignal_events.tsv",
+          "sub-121/ieeg/sub-121_task-stopsignal_ieeg.json",
+          "sub-121/ieeg/sub-121_task-stopsignal_ieeg.eeg",
+          "sub-121/ieeg/sub-121_task-stopsignal_ieeg.vmrk",
+          "sub-121/ieeg/sub-121_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-121/ieeg/sub-121_task-stopsignal_ieeg.vhdr": "SHA256E-s981--d24f86d1b957d83bbeb9ef93beaaddfa5af472e4db60fe81cbe26a9c8ccad98a.vhdr",
+          "sub-121/ieeg/sub-121_task-stopsignal_ieeg.eeg": "SHA256E-s137485920--1b0f12c55aec66aa9535426f328797d59ec7f2bb96c8d4e090df6887b674e2b8.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 20,
+      "ntimes": 1718574,
+      "duration_seconds": 859.287,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_121",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 172.8265,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-101_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-101/ieeg/sub-101_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-101/ieeg/sub-101_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "101",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "101",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-101/ieeg/sub-101_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-101/ieeg/sub-101_task-stopsignal_channels.tsv",
+          "sub-101/ieeg/sub-101_task-stopsignal_events.tsv",
+          "sub-101/ieeg/sub-101_task-stopsignal_ieeg.json",
+          "sub-101/ieeg/sub-101_task-stopsignal_ieeg.eeg",
+          "sub-101/ieeg/sub-101_task-stopsignal_ieeg.vmrk",
+          "sub-101/ieeg/sub-101_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-101/ieeg/sub-101_task-stopsignal_ieeg.vhdr": "SHA256E-s994--30929ee4ea5e07f3dee41aaaeccac7d8ae37da9dce09309387bab2608d8d09ed.vhdr",
+          "sub-101/ieeg/sub-101_task-stopsignal_ieeg.eeg": "SHA256E-s1828367200--058d4b425da6ac8d37d402b572471150ea0e5ccf8a8613260741876536fab7b0.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 20,
+      "ntimes": 22854590,
+      "duration_seconds": 952.2745833333333,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_101",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 246.205625,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-101_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-101/ieeg/sub-101_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-101/ieeg/sub-101_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "101",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "101",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-101/ieeg/sub-101_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-101/ieeg/sub-101_task-localizer_channels.tsv",
+          "sub-101/ieeg/sub-101_task-localizer_events.tsv",
+          "sub-101/ieeg/sub-101_task-localizer_ieeg.json",
+          "sub-101/ieeg/sub-101_task-localizer_ieeg.eeg",
+          "sub-101/ieeg/sub-101_task-localizer_ieeg.vmrk",
+          "sub-101/ieeg/sub-101_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-101/ieeg/sub-101_task-localizer_ieeg.vhdr": "SHA256E-s998--3dde38deeef4d7784819e35e5829ffafa58cbdadf3146e235a83a1215e065cde.vhdr",
+          "sub-101/ieeg/sub-101_task-localizer_ieeg.eeg": "SHA256E-s472714800--8a53a87acf16379fcdf258f74416fb607d8da8f910473ed985afd48d4e8e2aaf.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 20,
+      "ntimes": 5908935,
+      "duration_seconds": 246.205625,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_101",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 246.205625,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-129_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-129/ieeg/sub-129_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-129/ieeg/sub-129_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "129",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "129",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-129/ieeg/sub-129_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-129/ieeg/sub-129_task-stopsignal_channels.tsv",
+          "sub-129/ieeg/sub-129_task-stopsignal_events.tsv",
+          "sub-129/ieeg/sub-129_task-stopsignal_ieeg.json",
+          "sub-129/ieeg/sub-129_task-stopsignal_ieeg.eeg",
+          "sub-129/ieeg/sub-129_task-stopsignal_ieeg.vmrk",
+          "sub-129/ieeg/sub-129_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-129/ieeg/sub-129_task-stopsignal_ieeg.vhdr": "SHA256E-s1101--f0c9547f30ce5f3350314896430c9980596736d55b1dff35f18f5ddce44a1902.vhdr",
+          "sub-129/ieeg/sub-129_task-stopsignal_ieeg.eeg": "SHA256E-s180263808--e4f59a0e5204c5948b444d5b863dddf638afb8fbbc234adcc09c36260ec0647d.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 1877748,
+      "duration_seconds": 938.874,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_129",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 170.247,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-129_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-129/ieeg/sub-129_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-129/ieeg/sub-129_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "129",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "129",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-129/ieeg/sub-129_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-129/ieeg/sub-129_task-localizer_channels.tsv",
+          "sub-129/ieeg/sub-129_task-localizer_events.tsv",
+          "sub-129/ieeg/sub-129_task-localizer_ieeg.json",
+          "sub-129/ieeg/sub-129_task-localizer_ieeg.eeg",
+          "sub-129/ieeg/sub-129_task-localizer_ieeg.vmrk",
+          "sub-129/ieeg/sub-129_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-129/ieeg/sub-129_task-localizer_ieeg.vhdr": "SHA256E-s1105--c3af4239e00b69aac118ccfbb51f6579709a69b8cf7d21ba69a0f91c2e37ca51.vhdr",
+          "sub-129/ieeg/sub-129_task-localizer_ieeg.eeg": "SHA256E-s32687424--42f0f7b6b3a9a1ff906a9f3e225562e448b5e77b09a6c74e328adc222110a70b.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "Inpt_RZ2_chn001",
+        "Inpt_RZ2_chn002",
+        "Inpt_RZ2_chn003",
+        "Inpt_RZ2_chn004"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 24,
+      "ntimes": 340494,
+      "duration_seconds": 170.247,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_129",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 170.247,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-109_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-109/ieeg/sub-109_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-109/ieeg/sub-109_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "109",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "109",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-109/ieeg/sub-109_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-109/ieeg/sub-109_task-localizer_channels.tsv",
+          "sub-109/ieeg/sub-109_task-localizer_events.tsv",
+          "sub-109/ieeg/sub-109_task-localizer_ieeg.json",
+          "sub-109/ieeg/sub-109_task-localizer_ieeg.eeg",
+          "sub-109/ieeg/sub-109_task-localizer_ieeg.vmrk",
+          "sub-109/ieeg/sub-109_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-109/ieeg/sub-109_task-localizer_ieeg.vhdr": "SHA256E-s895--edd64f597a13a7c34ec4aeec7d3ae68f669c31a7dbf3e2c7b91333efe9008365.vhdr",
+          "sub-109/ieeg/sub-109_task-localizer_ieeg.eeg": "SHA256E-s25027468--256badf0915c04e199ef147a3d7163e36c65f81732d0e5f226f2a2bd9f92dbcc.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 368051,
+      "duration_seconds": 184.0255,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_109",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 184.0255,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-109_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-109/ieeg/sub-109_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-109/ieeg/sub-109_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "109",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "109",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-109/ieeg/sub-109_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-109/ieeg/sub-109_task-stopsignal_channels.tsv",
+          "sub-109/ieeg/sub-109_task-stopsignal_events.tsv",
+          "sub-109/ieeg/sub-109_task-stopsignal_ieeg.json",
+          "sub-109/ieeg/sub-109_task-stopsignal_ieeg.eeg",
+          "sub-109/ieeg/sub-109_task-stopsignal_ieeg.vmrk",
+          "sub-109/ieeg/sub-109_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-109/ieeg/sub-109_task-stopsignal_ieeg.vhdr": "SHA256E-s891--d678224dc2f96a8541d7ae6d686d251de33fb9c6bd348bddf98e9ffcbf72fd43.vhdr",
+          "sub-109/ieeg/sub-109_task-stopsignal_ieeg.eeg": "SHA256E-s125008752--9497bb4ebc6681e0acfd3580c6956f1f3bc90ee7c3461ae9484d05486f95275f.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 1838364,
+      "duration_seconds": 919.182,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_109",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 184.0255,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-106_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-106/ieeg/sub-106_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-106/ieeg/sub-106_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "106",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "106",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-106/ieeg/sub-106_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-106/ieeg/sub-106_task-localizer_channels.tsv",
+          "sub-106/ieeg/sub-106_task-localizer_events.tsv",
+          "sub-106/ieeg/sub-106_task-localizer_ieeg.json",
+          "sub-106/ieeg/sub-106_task-localizer_ieeg.eeg",
+          "sub-106/ieeg/sub-106_task-localizer_ieeg.vmrk",
+          "sub-106/ieeg/sub-106_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-106/ieeg/sub-106_task-localizer_ieeg.vhdr": "SHA256E-s908--1e60036d93389bfcffe9c0ad155895c3c5b65d814e5654af750ada643414a2cd.vhdr",
+          "sub-106/ieeg/sub-106_task-localizer_ieeg.eeg": "SHA256E-s306934456--004ae2ffe1ddee811d0b6dcb808712faeb643c0d98feb0f438c6fb1c03c72edf.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 17,
+      "ntimes": 4513742,
+      "duration_seconds": 188.07258333333334,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_106",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 188.072583,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-106_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-106/ieeg/sub-106_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-106/ieeg/sub-106_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "106",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "106",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-106/ieeg/sub-106_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-106/ieeg/sub-106_task-stopsignal_channels.tsv",
+          "sub-106/ieeg/sub-106_task-stopsignal_events.tsv",
+          "sub-106/ieeg/sub-106_task-stopsignal_ieeg.json",
+          "sub-106/ieeg/sub-106_task-stopsignal_ieeg.eeg",
+          "sub-106/ieeg/sub-106_task-stopsignal_ieeg.vmrk",
+          "sub-106/ieeg/sub-106_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-106/ieeg/sub-106_task-stopsignal_ieeg.vhdr": "SHA256E-s904--dc1179778456a3acbb735da8df3c6217bd57aad1d47863466d94e44e3dc2c3bd.vhdr",
+          "sub-106/ieeg/sub-106_task-stopsignal_ieeg.eeg": "SHA256E-s1454858164--4947a693e1148a4a67874581af24a7c3bb087fa9e2e0e80797c87c97ea8c42d0.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 17,
+      "ntimes": 21394973,
+      "duration_seconds": 891.4572083333334,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_106",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 188.072583,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-110_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-110/ieeg/sub-110_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-110/ieeg/sub-110_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "110",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "110",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-110/ieeg/sub-110_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-110/ieeg/sub-110_task-localizer_channels.tsv",
+          "sub-110/ieeg/sub-110_task-localizer_events.tsv",
+          "sub-110/ieeg/sub-110_task-localizer_ieeg.json",
+          "sub-110/ieeg/sub-110_task-localizer_ieeg.eeg",
+          "sub-110/ieeg/sub-110_task-localizer_ieeg.vmrk",
+          "sub-110/ieeg/sub-110_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-110/ieeg/sub-110_task-localizer_ieeg.vhdr": "SHA256E-s895--91299a3fc54ba5c7e521ae1626e4a48d04f0c416b74eea15e14a078bc8feae77.vhdr",
+          "sub-110/ieeg/sub-110_task-localizer_ieeg.eeg": "SHA256E-s26216788--d0839630662f5a29247da509d117577b25d6f05f6efafd3054a466bd658de0ba.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 385541,
+      "duration_seconds": 192.7705,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_110",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 192.7705,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-110_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-110/ieeg/sub-110_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-110/ieeg/sub-110_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "110",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "110",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-110/ieeg/sub-110_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-110/ieeg/sub-110_task-stopsignal_channels.tsv",
+          "sub-110/ieeg/sub-110_task-stopsignal_events.tsv",
+          "sub-110/ieeg/sub-110_task-stopsignal_ieeg.json",
+          "sub-110/ieeg/sub-110_task-stopsignal_ieeg.eeg",
+          "sub-110/ieeg/sub-110_task-stopsignal_ieeg.vmrk",
+          "sub-110/ieeg/sub-110_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-110/ieeg/sub-110_task-stopsignal_ieeg.vhdr": "SHA256E-s891--b6f7132c3f57eaced3e383f50ddded3dafab7a9d935f29e98577d5131d53c161.vhdr",
+          "sub-110/ieeg/sub-110_task-stopsignal_ieeg.eeg": "SHA256E-s124050428--083f001b72223fe807eeb3a2d7e3c88507179c0a60b4c0aea472c18a312db4c6.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 1824271,
+      "duration_seconds": 912.1355,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_110",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 192.7705,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-105_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-105/ieeg/sub-105_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-105/ieeg/sub-105_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "105",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "105",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-105/ieeg/sub-105_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-105/ieeg/sub-105_task-localizer_channels.tsv",
+          "sub-105/ieeg/sub-105_task-localizer_events.tsv",
+          "sub-105/ieeg/sub-105_task-localizer_ieeg.json",
+          "sub-105/ieeg/sub-105_task-localizer_ieeg.eeg",
+          "sub-105/ieeg/sub-105_task-localizer_ieeg.vmrk",
+          "sub-105/ieeg/sub-105_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-105/ieeg/sub-105_task-localizer_ieeg.vhdr": "SHA256E-s908--a2f7d7457e284a7e5fca665b42f52d0883da1f72fe9e0d78e8a58380520245d9.vhdr",
+          "sub-105/ieeg/sub-105_task-localizer_ieeg.eeg": "SHA256E-s331029168--6c1fca635bd306be5ce08caa2669ebf4f28c762cc373655de50cfb651ce4ca89.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 17,
+      "ntimes": 4868076,
+      "duration_seconds": 202.8365,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_105",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 202.8365,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-105_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-105/ieeg/sub-105_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-105/ieeg/sub-105_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "105",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "105",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-105/ieeg/sub-105_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-105/ieeg/sub-105_task-stopsignal_channels.tsv",
+          "sub-105/ieeg/sub-105_task-stopsignal_events.tsv",
+          "sub-105/ieeg/sub-105_task-stopsignal_ieeg.json",
+          "sub-105/ieeg/sub-105_task-stopsignal_ieeg.eeg",
+          "sub-105/ieeg/sub-105_task-stopsignal_ieeg.vmrk",
+          "sub-105/ieeg/sub-105_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-105/ieeg/sub-105_task-stopsignal_ieeg.vhdr": "SHA256E-s904--e1678c5f12bdaea579eedaeeba578e9ba8f6ccc3b9a5813ef6e4e48543da76a9.vhdr",
+          "sub-105/ieeg/sub-105_task-stopsignal_ieeg.eeg": "SHA256E-s1502637004--6b4151c2f77a15d36d9e09c935d9c2db36ed8532b28d1665813307f80e679d29.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 17,
+      "ntimes": 22097603,
+      "duration_seconds": 920.7334583333334,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_105",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 202.8365,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-104_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-104/ieeg/sub-104_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-104/ieeg/sub-104_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "104",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "104",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-104/ieeg/sub-104_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-104/ieeg/sub-104_task-localizer_channels.tsv",
+          "sub-104/ieeg/sub-104_task-localizer_events.tsv",
+          "sub-104/ieeg/sub-104_task-localizer_ieeg.json",
+          "sub-104/ieeg/sub-104_task-localizer_ieeg.eeg",
+          "sub-104/ieeg/sub-104_task-localizer_ieeg.vmrk",
+          "sub-104/ieeg/sub-104_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-104/ieeg/sub-104_task-localizer_ieeg.vhdr": "SHA256E-s908--efdd34d7b6ac571a01a9c0dd17957e83c26d9c6504d70726035fd880cf8b5f23.vhdr",
+          "sub-104/ieeg/sub-104_task-localizer_ieeg.eeg": "SHA256E-s470395508--b4f6cff73b42522e32658906472fe353ab2a214857d88fe64416b34d4813b9ae.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 17,
+      "ntimes": 6917581,
+      "duration_seconds": 288.2325416666667,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_104",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN,VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 288.232542,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-104_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-104/ieeg/sub-104_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-104/ieeg/sub-104_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "104",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "104",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-104/ieeg/sub-104_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-104/ieeg/sub-104_task-stopsignal_channels.tsv",
+          "sub-104/ieeg/sub-104_task-stopsignal_events.tsv",
+          "sub-104/ieeg/sub-104_task-stopsignal_ieeg.json",
+          "sub-104/ieeg/sub-104_task-stopsignal_ieeg.eeg",
+          "sub-104/ieeg/sub-104_task-stopsignal_ieeg.vmrk",
+          "sub-104/ieeg/sub-104_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-104/ieeg/sub-104_task-stopsignal_ieeg.vhdr": "SHA256E-s904--e33da2ed0d0915181be480f792cb75cba1ef7bd4b54c420ca910c494f97bb815.vhdr",
+          "sub-104/ieeg/sub-104_task-stopsignal_ieeg.eeg": "SHA256E-s1878980692--1527c25fb3894f7844a3e5063cb4b3a28128931627827aa36b190faa7cb307ce.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 24000.0,
+      "nchans": 17,
+      "ntimes": 27632069,
+      "duration_seconds": 1151.3362083333334,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_104",
+        "age": null,
+        "sex": null,
+        "dbs_target": "STN,VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 288.232542,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-115_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-115/ieeg/sub-115_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-115/ieeg/sub-115_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "115",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "115",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-115/ieeg/sub-115_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-115/ieeg/sub-115_task-stopsignal_channels.tsv",
+          "sub-115/ieeg/sub-115_task-stopsignal_events.tsv",
+          "sub-115/ieeg/sub-115_task-stopsignal_ieeg.json",
+          "sub-115/ieeg/sub-115_task-stopsignal_ieeg.eeg",
+          "sub-115/ieeg/sub-115_task-stopsignal_ieeg.vmrk",
+          "sub-115/ieeg/sub-115_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-115/ieeg/sub-115_task-stopsignal_ieeg.vhdr": "SHA256E-s1131--bbf21bc4f27972fceb1f9e66608bac507540b758fb079bd2b63afc6d2c121856.vhdr",
+          "sub-115/ieeg/sub-115_task-stopsignal_ieeg.eeg": "SHA256E-s175984600--0704c5bf5f2357e75a8015ef73e1a67d99ba04ff4fa4e3ed6208cc9028e6786e.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "LFPx_RZ2_chn021",
+        "LFPx_RZ2_chn022",
+        "LFPx_RZ2_chn023",
+        "LFPx_RZ2_chn024",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 25,
+      "ntimes": 1759846,
+      "duration_seconds": 879.923,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_115",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 192.33,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-115_task-localizer_ieeg.vhdr",
+      "bidspath": "nm000465/sub-115/ieeg/sub-115_task-localizer_ieeg.vhdr",
+      "bids_relpath": "sub-115/ieeg/sub-115_task-localizer_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "115",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "115",
+        "session": null,
+        "task": "localizer",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-115/ieeg/sub-115_task-localizer_ieeg.vhdr",
+        "dep_keys": [
+          "sub-115/ieeg/sub-115_task-localizer_channels.tsv",
+          "sub-115/ieeg/sub-115_task-localizer_events.tsv",
+          "sub-115/ieeg/sub-115_task-localizer_ieeg.json",
+          "sub-115/ieeg/sub-115_task-localizer_ieeg.eeg",
+          "sub-115/ieeg/sub-115_task-localizer_ieeg.vmrk",
+          "sub-115/ieeg/sub-115_task-localizer_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-115/ieeg/sub-115_task-localizer_ieeg.vhdr": "SHA256E-s1135--09689c73f8606d13221c86c94527ee6c706bb27a43737a1689cc932efa3e74b8.vhdr",
+          "sub-115/ieeg/sub-115_task-localizer_ieeg.eeg": "SHA256E-s38466000--627eb24a01d715d299e6a22a889a5f185133453d0702284f296864e593852060.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "LFPx_RZ2_chn017",
+        "LFPx_RZ2_chn018",
+        "LFPx_RZ2_chn019",
+        "LFPx_RZ2_chn020",
+        "LFPx_RZ2_chn021",
+        "LFPx_RZ2_chn022",
+        "LFPx_RZ2_chn023",
+        "LFPx_RZ2_chn024",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 25,
+      "ntimes": 384660,
+      "duration_seconds": 192.33,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_115",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 192.33,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000465",
+      "data_name": "nm000465_sub-112_task-stopsignal_ieeg.vhdr",
+      "bidspath": "nm000465/sub-112/ieeg/sub-112_task-stopsignal_ieeg.vhdr",
+      "bids_relpath": "sub-112/ieeg/sub-112_task-stopsignal_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "112",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "112",
+        "session": null,
+        "task": "stopsignal",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000465",
+        "raw_key": "sub-112/ieeg/sub-112_task-stopsignal_ieeg.vhdr",
+        "dep_keys": [
+          "sub-112/ieeg/sub-112_task-stopsignal_channels.tsv",
+          "sub-112/ieeg/sub-112_task-stopsignal_events.tsv",
+          "sub-112/ieeg/sub-112_task-stopsignal_ieeg.json",
+          "sub-112/ieeg/sub-112_task-stopsignal_ieeg.eeg",
+          "sub-112/ieeg/sub-112_task-stopsignal_ieeg.vmrk",
+          "sub-112/ieeg/sub-112_task-stopsignal_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-112/ieeg/sub-112_task-stopsignal_ieeg.vhdr": "SHA256E-s891--15b23afe7141662a17ab23614fb271e7613101328c64f4b2a2a8f463360a5f90.vhdr",
+          "sub-112/ieeg/sub-112_task-stopsignal_ieeg.eeg": "SHA256E-s118223508--1e66dec8b96f923e5856bc7cfbc9c8c8b99c0bee9f4484aabf9b65b19b241cc3.eeg"
+        }
+      },
+      "ch_names": [
+        "LFPx_RZ2_chn001",
+        "LFPx_RZ2_chn002",
+        "LFPx_RZ2_chn003",
+        "LFPx_RZ2_chn004",
+        "LFPx_RZ2_chn005",
+        "LFPx_RZ2_chn006",
+        "LFPx_RZ2_chn007",
+        "LFPx_RZ2_chn008",
+        "LFPx_RZ2_chn009",
+        "LFPx_RZ2_chn010",
+        "LFPx_RZ2_chn011",
+        "LFPx_RZ2_chn012",
+        "LFPx_RZ2_chn013",
+        "LFPx_RZ2_chn014",
+        "LFPx_RZ2_chn015",
+        "LFPx_RZ2_chn016",
+        "Inpt_RZ2_chn001"
+      ],
+      "sampling_frequency": 2000.0,
+      "nchans": 17,
+      "ntimes": 1738581,
+      "duration_seconds": 869.2905,
+      "digested_at": "2026-10-13T09:26:09.739506+00:00",
+      "participant_tsv": {
+        "source_id": "Subject_112",
+        "age": null,
+        "sex": null,
+        "dbs_target": "VIM"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "LowPass": {
+          "Description": "7.5 kHz hardware low-pass (Dryad methods)"
+        }
+      },
+      "manufacturer": "Tucker-Davis Technologies",
+      "manufacturers_model_name": "RZ2 with RA16PA Medusa preamplifier and RA16LI headstage (Dryad methods)",
+      "recording_type": "continuous",
+      "recording_duration": 869.2905,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    }
+  ]
+}

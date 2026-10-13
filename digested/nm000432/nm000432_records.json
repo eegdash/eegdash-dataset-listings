@@ -1,0 +1,3912 @@
+{
+  "dataset": "nm000432",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:25:50.501796+00:00",
+  "record_count": 32,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS035_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS035",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS035",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1361--cad9962f88cd19f93e163fa37f4d5a46a1d8174ab987ebb156711009521689fd.vhdr",
+          "sub-DBS035/ses-0/ieeg/sub-DBS035_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s299893720--0db42e5148e6260ebfcb7f811a15008b3056d206f5e6dea6eccc94eb9c2b9a1d.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1972985,
+      "duration_seconds": 1972.985,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS035",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1972.985,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS043_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS043",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS043",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--7894779dc5d0b9209c3011c7e478398ce4ab257ef56545a63803b842f099c798.vhdr",
+          "sub-DBS043/ses-0/ieeg/sub-DBS043_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s231382304--311d3f0d5316f5c182618316309bf720c3cb47ae1ea306b4cfcb22de21ce30b1.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1522252,
+      "duration_seconds": 1522.252,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS043",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1522.252,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS043_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS043",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS043",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--615d5f64ba946599346450f680800f7571fad7b7f7622730eb41ffdc1cdc612d.vhdr",
+          "sub-DBS043/ses-1/ieeg/sub-DBS043_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s98426384--d49c3c9ff23ebbee332f907f17fdc4dd8a0b8eedd90341883a4cc1068a1ac713.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 647542,
+      "duration_seconds": 647.542,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS043",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 647.542,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS038_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS038",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS038",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1362--b4490d9390019fcde8a7ef7a05274182b654698246f6516f4827cb819b2f3afc.vhdr",
+          "sub-DBS038/ses-0/ieeg/sub-DBS038_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s194628856--0609bc6234616605c0c204543d08e7c42331ef1309af3ecc87a6455ea7c24f36.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1280453,
+      "duration_seconds": 1280.453,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS038",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1280.453,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS038_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS038",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS038",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_channels.tsv",
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_events.tsv",
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.json",
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1361--880888758b730085cfe072eeaf05afd619d3eea1d7a33bf344ca565750e1c24c.vhdr",
+          "sub-DBS038/ses-1/ieeg/sub-DBS038_ses-1_task-seqmem_run-4_ieeg.eeg": "SHA256E-s217034264--2cc9d31eaf15cf433f68d1956fb8a4341351871d25c29f9922cbf2e6a985a2ed.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1427857,
+      "duration_seconds": 1427.857,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS038",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1427.857,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS033_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS033",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS033",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1361--d4f2a942f0cd0a164b1da1aa73169219d21f6d75a37927cf35f63841d9123fe1.vhdr",
+          "sub-DBS033/ses-0/ieeg/sub-DBS033_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s203486656--da06091087ab668d5d9edd458155965525a1e2853c2011bbc501f715a9c9a914.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1338728,
+      "duration_seconds": 1338.728,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS033",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1338.728,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS033_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS033",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS033",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_channels.tsv",
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_events.tsv",
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.json",
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1361--a9dfd30cd8e44e4d78ced1d6c8b38423624e4a11568842ccff8476e4b6923c65.vhdr",
+          "sub-DBS033/ses-1/ieeg/sub-DBS033_ses-1_task-seqmem_run-4_ieeg.eeg": "SHA256E-s180695320--62d3bc8f7eaeb50b996809859336b57e2f9e8659e17029816417c0a899d1ab2e.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1188785,
+      "duration_seconds": 1188.785,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS033",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1188.785,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS047_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS047",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS047",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1367--3179635b53d546c248d65f1ec740a851bfa63c6e00ad504be66ae7c0e27d5502.vhdr",
+          "sub-DBS047/ses-0/ieeg/sub-DBS047_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s99049280--3157e126e42ce8c41130afca1ccba69e90e63e42447b88ed00e348477ba74a89.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 651640,
+      "duration_seconds": 651.64,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS047",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 651.64,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS047_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS047",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS047",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--727f7f721cff273537cff2cc27019086eac7291a5cf5dd467fd751c7982e81eb.vhdr",
+          "sub-DBS047/ses-1/ieeg/sub-DBS047_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s189847240--bf5350d13ae3669fd47a7c580106f027cba3f1d49eb4cda1b1df31f43237f250.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1248995,
+      "duration_seconds": 1248.995,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS047",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1248.995,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS037_ses-3_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS037",
+        "session": "3",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS037",
+        "session": "3",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_channels.tsv",
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_events.tsv",
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.json",
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1365--f05954435ccf08832ee37cd30de229951592a4eac01809846da168cacc801708.vhdr",
+          "sub-DBS037/ses-3/ieeg/sub-DBS037_ses-3_task-seqmem_run-4_ieeg.eeg": "SHA256E-s174924184--9851e2ba8d3d3a56d7ae7201984950f8146ccb58dc6271d2b7896006b2f05c10.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1150817,
+      "duration_seconds": 1150.817,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS037",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1150.817,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS037_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS037",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS037",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1065--00d28ddbe31f9ae7cda03ac53f107c35c2a723fb75bc1a74c0b1e8026cde5ca1.vhdr",
+          "sub-DBS037/ses-1/ieeg/sub-DBS037_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s125839300--00afd4d72a8abd36b7fe770469bb6bc91d3ab4a3715920d24623d20d0a148747.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP004-005",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 25,
+      "ntimes": 1258393,
+      "duration_seconds": 1258.393,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS037",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1258.393,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS042_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS042",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS042",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--96c4e1d98cafae7b4a8e7202aaba6f2c12e9eefaa0e53e93b3ffe6ff9e2e3f2a.vhdr",
+          "sub-DBS042/ses-0/ieeg/sub-DBS042_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s195926936--c0d82e7bfa45fa69af9a96e604c069133d02b11b60299d89a11747305df8739c.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1288993,
+      "duration_seconds": 1288.993,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS042",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1288.993,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS042_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS042",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS042",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--1db87b1111acaf591fb0a58586b32fd43c4a6c25eb891c680b117ed3e1ad7690.vhdr",
+          "sub-DBS042/ses-1/ieeg/sub-DBS042_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s207472856--5e70f5ae7de68ee85f0b587b5d72681062bcc9444d97984c5fdce692ed93b968.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1364953,
+      "duration_seconds": 1364.953,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS042",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1364.953,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS032_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS032",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS032",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1006--5c6c4ce18e94a5884a1209ce04be86de0cecdf0060ae525fc18340222b376532.vhdr",
+          "sub-DBS032/ses-0/ieeg/sub-DBS032_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s201371716--4e86b55838cf80c2ecc4d3edb73826fe412643bee4574c033a8573670616fd59.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 2188823,
+      "duration_seconds": 2188.823,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS032",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 2188.823,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS032_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS032",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS032",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_channels.tsv",
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_events.tsv",
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.json",
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1003--5a253fb6b0fd185adb6191896fa48a6ad19adfb5b2a18e000a403e57f07fb3cd.vhdr",
+          "sub-DBS032/ses-1/ieeg/sub-DBS032_ses-1_task-seqmem_run-4_ieeg.eeg": "SHA256E-s110424748--514fb50a706a5f6843f64a3f0708c548f4f39b42f6fdf02426580d2f3eca8a62.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 1200269,
+      "duration_seconds": 1200.269,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS032",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1200.269,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS046_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS046",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS046",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1367--58a47bef006397ce1bd8c6fc33ee281adc4196ea2cd9d5a3fdb00458865a4079.vhdr",
+          "sub-DBS046/ses-0/ieeg/sub-DBS046_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s251403288--e7b719e835f83e8064468b65d5b7be545dfc79b2db4e65ee06d2e0dfd401ed74.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1653969,
+      "duration_seconds": 1653.969,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS046",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1653.969,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS036_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS036",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS036",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1219--804081a92fcbd028e3e7790e64fdb4e36ce92673c26b3df4cd0328e03a6a8a04.vhdr",
+          "sub-DBS036/ses-0/ieeg/sub-DBS036_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s245292416--7c58140fe54db6768fd5958a4cfd4b0be50dda43026567520fd7ceee4c710a93.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP002",
+        "LFP004",
+        "LFP004-005",
+        "LFP005",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 1916347,
+      "duration_seconds": 1916.347,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS036",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1916.347,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS036_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS036",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS036",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_channels.tsv",
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_events.tsv",
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.json",
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1219--589322da4fe9fedeba0052b4d274da066e519f5514763ec172e8337d2683cf36.vhdr",
+          "sub-DBS036/ses-1/ieeg/sub-DBS036_ses-1_task-seqmem_run-4_ieeg.eeg": "SHA256E-s197378816--453a5f4aecc14450c6850959fc6d252bc11a6ae1cf11f8aead22d05957c31c2e.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP002",
+        "LFP004",
+        "LFP004-005",
+        "LFP005",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 1542022,
+      "duration_seconds": 1542.022,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS036",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1542.022,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS044_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS044",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS044",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--1f42632e6db8ca63784c9c917c92262c70b5737442fcdc68570b3a86c43e0ec6.vhdr",
+          "sub-DBS044/ses-0/ieeg/sub-DBS044_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s204801000--c3d6152f86de5a7674e4b77bfb5ccf80d940ad9e704e075e9c3af6ff049bc5b5.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1347375,
+      "duration_seconds": 1347.375,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS044",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1347.375,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS048_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS048",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS048",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--590810ca29ba12160dce8916d63809a8a70c0cf4dfd73dbc80cdb4d94dc75220.vhdr",
+          "sub-DBS048/ses-0/ieeg/sub-DBS048_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s224118072--92aaee0d3d34767d0a77d7fb4b922000a6b4e6256c441130d9e2624294ee7aed.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1474461,
+      "duration_seconds": 1474.461,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS048",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1474.461,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS048_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS048",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS048",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--634036537462d5ad399ee9dd358f7b419b9ed18928992939357d5e120c583b43.vhdr",
+          "sub-DBS048/ses-1/ieeg/sub-DBS048_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s145386176--331ab54f3d3745602154062b065e35b24adadec186ba1c16a8e468bd044532ca.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 956488,
+      "duration_seconds": 956.488,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS048",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 956.488,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS031_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS031",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS031",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s742--6181d537c659a3f09e31d1ac769ea114a322b53c879184c70e7ff096527f2053.vhdr",
+          "sub-DBS031/ses-0/ieeg/sub-DBS031_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s65855376--fbcc6f24cdaf630bae295edd7b0d2c57daf6e62e4a39545b9384eedba323ad26.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 12,
+      "ntimes": 1371987,
+      "duration_seconds": 1371.987,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS031",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1371.987,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS031_ses-1_task-seqmem_run-7_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.vhdr",
+      "bids_relpath": "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS031",
+        "session": "1",
+        "task": "seqmem",
+        "run": "7",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS031",
+        "session": "1",
+        "task": "seqmem",
+        "run": "7",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_channels.tsv",
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_events.tsv",
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.json",
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.eeg",
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.vmrk",
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.vhdr": "SHA256E-s1007--735ca1fc0f63251f8aeddea88f0e969d73f09e727799ac4f4a0af5a66de157bc.vhdr",
+          "sub-DBS031/ses-1/ieeg/sub-DBS031_ses-1_task-seqmem_run-7_ieeg.eeg": "SHA256E-s125465644--39173fd363f09b66c29c1da7cd21c8ff0278a8fc58827bd5bb805eb70a5e0a1d.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 1363757,
+      "duration_seconds": 1363.757,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS031",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1363.757,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS040_ses-0_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS040",
+        "session": "0",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS040",
+        "session": "0",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_channels.tsv",
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_events.tsv",
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.json",
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1222--00d8a242d1df45d5a6cbb9356b39bc932c56795db577b2b6ac346bc5db929f4c.vhdr",
+          "sub-DBS040/ses-0/ieeg/sub-DBS040_ses-0_task-seqmem_run-4_ieeg.eeg": "SHA256E-s175820672--9580f691c49082fe3745e3f86d52d28d9326fa77373b805ae910c95da9c1cce1.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP002",
+        "LFP004",
+        "LFP004-005",
+        "LFP005",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 32,
+      "ntimes": 1373599,
+      "duration_seconds": 1373.599,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS040",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1373.599,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS040_ses-1_task-seqmem_run-10_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.vhdr",
+      "bids_relpath": "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS040",
+        "session": "1",
+        "task": "seqmem",
+        "run": "10",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS040",
+        "session": "1",
+        "task": "seqmem",
+        "run": "10",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_channels.tsv",
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_events.tsv",
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.json",
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.eeg",
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.vmrk",
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.vhdr": "SHA256E-s1365--d5bc5cf738d491d71bea1df0801ae6a8bea8382a4b913636b2ce8ea71d0b59c4.vhdr",
+          "sub-DBS040/ses-1/ieeg/sub-DBS040_ses-1_task-seqmem_run-10_ieeg.eeg": "SHA256E-s207111248--1e1810c581acce1db2363222e2fb73766f40289c67c056299d0c1fa45895191c.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1362574,
+      "duration_seconds": 1362.574,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS040",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1362.574,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS041_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS041",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS041",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1367--4dd3e809d993e2a15e86c8eae8f489c837b0785fee5154360bfc370bcd26d3ae.vhdr",
+          "sub-DBS041/ses-0/ieeg/sub-DBS041_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s194379424--798913a68fa554cfa8d8538e9976e001207dd11ae1f7c1457580ac53a485c46b.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1278812,
+      "duration_seconds": 1278.812,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS041",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1278.812,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS041_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS041",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS041",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--f4309184b3bf3fb64288365781c7fd808ca80a2a3f39e6a6882c51aa6cfa758e.vhdr",
+          "sub-DBS041/ses-1/ieeg/sub-DBS041_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s213471232--fb68820e0e7e10cc51f05d070990924698bdbc0b23e05ae99dc3cf08740adcb6.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1404416,
+      "duration_seconds": 1404.416,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS041",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1404.416,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS029_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS029",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS029",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1007--139fbcaa4f04a98f0382aa172e264add9137cf2cb5cc690e8795b8b1418f9772.vhdr",
+          "sub-DBS029/ses-0/ieeg/sub-DBS029_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s120111704--4b1dc6b7c4937f8bd8537226ad5f2791799dc6fcef0ebe83336f6da9aa0f09a1.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 1305562,
+      "duration_seconds": 1305.562,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS029",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1305.562,
+      "bad_channels": [
+        "ECOG505-506",
+        "ECOG506"
+      ],
+      "bad_channels_count": 2,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS029_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS029",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS029",
+        "session": "1",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_channels.tsv",
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_events.tsv",
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.json",
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1003--83b5bb2fa38682ff32181b594313420f175608e330e6c850bdec171a0a588a28.vhdr",
+          "sub-DBS029/ses-1/ieeg/sub-DBS029_ses-1_task-seqmem_run-4_ieeg.eeg": "SHA256E-s125225248--1133978b71ea9b36f09ce92357aafd02dc440a8fe1f7a0ef6b614188c08ece8f.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 23,
+      "ntimes": 1361144,
+      "duration_seconds": 1361.144,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS029",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1361.144,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS045_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS045",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS045",
+        "session": "0",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_channels.tsv",
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_events.tsv",
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.json",
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1366--9d30b24283875364950899b96a83dbcd96af6637817ec853f472805e3506f2b5.vhdr",
+          "sub-DBS045/ses-0/ieeg/sub-DBS045_ses-0_task-seqmem_run-1_ieeg.eeg": "SHA256E-s168797064--e9573e561b5f822eb7c0446379f8440808cb61ac0412446e06a06b0d76f96f8a.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1110507,
+      "duration_seconds": 1110.507,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS045",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1110.507,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS045_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS045",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS045",
+        "session": "1",
+        "task": "seqmem",
+        "run": "1",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_channels.tsv",
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_events.tsv",
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.json",
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.eeg",
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.vmrk",
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.vhdr": "SHA256E-s1367--c024a1d7732a9923fa7f7cd0f4b38f765b0efa4aa5b3997afb4ea599c5470514.vhdr",
+          "sub-DBS045/ses-1/ieeg/sub-DBS045_ses-1_task-seqmem_run-1_ieeg.eeg": "SHA256E-s107137048--964357b76c747e5e462e851a51865495b369ef6bc4046efc214050d6d921d55c.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 704849,
+      "duration_seconds": 704.849,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS045",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 704.849,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000432",
+      "data_name": "nm000432_sub-DBS039_ses-0_task-seqmem_run-4_ieeg.vhdr",
+      "bidspath": "nm000432/sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.vhdr",
+      "bids_relpath": "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "DBS039",
+        "session": "0",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "DBS039",
+        "session": "0",
+        "task": "seqmem",
+        "run": "4",
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000432",
+        "raw_key": "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.vhdr",
+        "dep_keys": [
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_channels.tsv",
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_events.tsv",
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.json",
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.eeg",
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.vmrk",
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.vhdr": "SHA256E-s1365--c95a388849331dfa69c8f03b9c5e8f8b8454a30c612b07b56c127eb837da65f0.vhdr",
+          "sub-DBS039/ses-0/ieeg/sub-DBS039_ses-0_task-seqmem_run-4_ieeg.eeg": "SHA256E-s231638424--1d4d235a0edd2a87e07ed7f95185c9f469f0acd3112124239ceff9dd816731d4.eeg"
+        }
+      },
+      "ch_names": [
+        "LFP001",
+        "LFP001-002",
+        "LFP001-003",
+        "LFP002",
+        "LFP002-003",
+        "LFP003",
+        "LFP004",
+        "LFP004-005",
+        "LFP004-006",
+        "LFP005",
+        "LFP005-006",
+        "LFP006",
+        "ECOG501",
+        "ECOG501-502",
+        "ECOG502",
+        "ECOG502-503",
+        "ECOG503",
+        "ECOG503-504",
+        "ECOG504",
+        "ECOG504-505",
+        "ECOG505",
+        "ECOG505-506",
+        "ECOG506",
+        "ECOG507",
+        "ECOG507-508",
+        "ECOG508",
+        "ECOG508-509",
+        "ECOG509",
+        "ECOG509-510",
+        "ECOG510",
+        "ECOG510-511",
+        "ECOG511",
+        "ECOG511-512",
+        "ECOG512",
+        "ECOG512-513",
+        "ECOG513",
+        "ECOG513-514",
+        "ECOG514"
+      ],
+      "sampling_frequency": 1000.0,
+      "nchans": 38,
+      "ntimes": 1523937,
+      "duration_seconds": 1523.937,
+      "digested_at": "2026-10-13T09:25:50.501796+00:00",
+      "participant_tsv": {
+        "source_id": "DBS039",
+        "age": null,
+        "sex": null,
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 60,
+      "ieeg_reference": "Re-referenced (see SoftwareFilters); pairs NNN-MMM are differences",
+      "software_filters": {
+        "Bandpass": {
+          "Description": "1-500 Hz (article)"
+        },
+        "Notch": {
+          "Description": "60 Hz (article)"
+        },
+        "Downsampling": {
+          "Description": "to 1 kHz from 1.5024 kHz (macro) (article)"
+        },
+        "Rereferencing": {
+          "Description": "macro: common average of simultaneously recorded macro contacts; subdural: bipolar (article)"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Alpha Omega",
+      "manufacturers_model_name": "MicroGuide Pro (article)",
+      "recording_type": "continuous",
+      "recording_duration": 1523.937,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    }
+  ]
+}

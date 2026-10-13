@@ -1,0 +1,625 @@
+{
+  "dataset": "nm000460",
+  "source": "nemar",
+  "digested_at": "2026-10-13T09:26:01.661035+00:00",
+  "record_count": 7,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-curvetracing_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-curvetracing_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-curvetracing_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "curvetracing",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "curvetracing",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-curvetracing_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-curvetracing_channels.tsv",
+          "sub-01/ieeg/sub-01_task-curvetracing_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-curvetracing_ieeg.json",
+          "sub-01/ieeg/sub-01_task-curvetracing_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-curvetracing_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-curvetracing_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-curvetracing_ieeg.vhdr": "SHA256E-s450--c0cb346345dc76b5e23d9a10dd42e0b07d86f319ba391c704e496dc9ec345370.vhdr",
+          "sub-01/ieeg/sub-01_task-curvetracing_ieeg.eeg": "SHA256E-s17521200--3fcf83aa8439867a296128bde7e81d2794b935ab54a3e2a9f4b0675e13a77a05.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 730050,
+      "duration_seconds": 784.8553262071507,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-orientation_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-orientation_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-orientation_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "orientation",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "orientation",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-orientation_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-orientation_channels.tsv",
+          "sub-01/ieeg/sub-01_task-orientation_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-orientation_ieeg.json",
+          "sub-01/ieeg/sub-01_task-orientation_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-orientation_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-orientation_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-orientation_ieeg.vhdr": "SHA256E-s448--b18279cf5a3d1cb77e8b0b1d183e3281570e64d76305522684d5f3e05ce48beb.vhdr",
+          "sub-01/ieeg/sub-01_task-orientation_ieeg.eeg": "SHA256E-s13325040--88901df7fb9d181cf02a52bb08b75a0b71514d563da8be9499ab267693bbea18.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 555210,
+      "duration_seconds": 596.8899741983045,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-context_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-context_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-context_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "context",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "context",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-context_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-context_channels.tsv",
+          "sub-01/ieeg/sub-01_task-context_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-context_ieeg.json",
+          "sub-01/ieeg/sub-01_task-context_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-context_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-context_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-context_ieeg.vhdr": "SHA256E-s440--084bc88374776380f951f2877add42e53ac62822f4e808bd9d98b35bfae9b5bc.vhdr",
+          "sub-01/ieeg/sub-01_task-context_ieeg.eeg": "SHA256E-s18748800--1739725f7d2299e00a9d2fbf804d1b53fff51f2cd8fad8db8adf271ac1a1fcd7.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 781200,
+      "duration_seconds": 839.84518982676,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-contrast_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-contrast_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-contrast_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "contrast",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "contrast",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-contrast_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-contrast_channels.tsv",
+          "sub-01/ieeg/sub-01_task-contrast_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-contrast_ieeg.json",
+          "sub-01/ieeg/sub-01_task-contrast_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-contrast_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-contrast_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-contrast_ieeg.vhdr": "SHA256E-s442--c2da20cf41f9d4247e0eaf9a4f45227c7e2fda8df4393f24ca05faf7f21b76e1.vhdr",
+          "sub-01/ieeg/sub-01_task-contrast_ieeg.eeg": "SHA256E-s7856640--62deb317405a4a2ad0e2ced6f42400afefeb01fcea8bcee8e85259b36b62f1cf.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 327360,
+      "duration_seconds": 351.93512716549947,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-spatialfreq_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-spatialfreq_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "spatialfreq",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "spatialfreq",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-spatialfreq_channels.tsv",
+          "sub-01/ieeg/sub-01_task-spatialfreq_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.json",
+          "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.vhdr": "SHA256E-s448--c24731a9afdd7be1dc756e32d5c72ef10b4c491a8074a27e77c3223a265e881a.vhdr",
+          "sub-01/ieeg/sub-01_task-spatialfreq_ieeg.eeg": "SHA256E-s2455200--5835d7785e096a4812636dfedb55155750a404fecabcd1147b8fc940d3423f6e.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 102300,
+      "duration_seconds": 109.97972723921858,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-rfmapping_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-rfmapping_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-rfmapping_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "rfmapping",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "rfmapping",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-rfmapping_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-rfmapping_channels.tsv",
+          "sub-01/ieeg/sub-01_task-rfmapping_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-rfmapping_ieeg.json",
+          "sub-01/ieeg/sub-01_task-rfmapping_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-rfmapping_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-rfmapping_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-rfmapping_ieeg.vhdr": "SHA256E-s444--2a60be5bf90881c194301299f23d04f5492c1327e2b8ae249ff18240a56d2f25.vhdr",
+          "sub-01/ieeg/sub-01_task-rfmapping_ieeg.eeg": "SHA256E-s16233360--c8216cad4c373246dd790567d2bfabe5f4015027ca5cae0684045bf60820e591.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 676390,
+      "duration_seconds": 727.1670352623172,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000460",
+      "data_name": "nm000460_sub-01_task-size_ieeg.vhdr",
+      "bidspath": "nm000460/sub-01/ieeg/sub-01_task-size_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-size_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "01",
+        "session": null,
+        "task": "size",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "01",
+        "session": null,
+        "task": "size",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000460",
+        "raw_key": "sub-01/ieeg/sub-01_task-size_ieeg.vhdr",
+        "dep_keys": [
+          "sub-01/ieeg/sub-01_task-size_channels.tsv",
+          "sub-01/ieeg/sub-01_task-size_events.tsv",
+          "sub-01/ieeg/sub-01_electrodes.tsv",
+          "sub-01/ieeg/sub-01_coordsystem.json",
+          "sub-01/ieeg/sub-01_task-size_ieeg.json",
+          "sub-01/ieeg/sub-01_task-size_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-size_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-size_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-size_ieeg.vhdr": "SHA256E-s434--996157f62c1b5c2b8a4d3504e820bec151de05d763e52e5d74ad8765a9e3689a.vhdr",
+          "sub-01/ieeg/sub-01_task-size_ieeg.eeg": "SHA256E-s5803200--cf158e3ddf4dadb0e7dccf459d452e886938478602d87772c521e2239d87fe7e.eeg"
+        }
+      },
+      "ch_names": [
+        "E6_LFP",
+        "E7_LFP",
+        "E6_MUA",
+        "E7_MUA",
+        "E6_MUAT",
+        "E7_MUAT"
+      ],
+      "sampling_frequency": 930.1714285714286,
+      "nchans": 6,
+      "ntimes": 241800,
+      "duration_seconds": 259.9520825654257,
+      "digested_at": "2026-10-13T09:26:01.661035+00:00",
+      "participant_tsv": {
+        "age": 35.0,
+        "sex": "F",
+        "handedness": null,
+        "group": "epilepsy",
+        "n_depth_electrodes": 15.0,
+        "microwire_hemisphere": "L"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "average of the (non-spiking) microwires E0-E4 of the same bundle (E5 excluded because of noise)",
+      "software_filters": {
+        "AuthorsPreprocessing": {
+          "Description": "Recorded at 32.5 kHz (NeuraLynx HS-9 unity-gain head-stage, skull-screw ground); re-referenced to the average of microwires E0-E4; LFP: down-sampled to 930 Hz, 1-200 Hz 2nd-order zero-phase Butterworth band-pass, 50 Hz sine fitted and subtracted per trial; MUA: 500 Hz-5 kHz band-pass, rectified, down-sampled to 930 Hz, low-pass < 200 Hz; MUAt: threshold crossings of the band-passed signal (Self et al. 2016, Methods and S1 Fig). Released as epochs around stimulus onset."
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "Neuralynx (HS-9 head-stage); AdTech depth electrodes with side microwires",
+      "recording_type": "epoched",
+      "recording_duration": 839.84519,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    }
+  ]
+}

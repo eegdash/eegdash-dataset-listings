@@ -1,0 +1,104 @@
+{
+  "dataset_id": "nm000432",
+  "name": "Human subthalamic nucleus LFP and prefrontal subdural recordings during a working-memory encoding decision task (Zavala, Jang & Zaghloul, 2018) - derivative",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000432-blue)](https://doi.org/10.82901/nemar.nm000432)\n# Human STN and prefrontal recordings during non-motor (working-memory encoding) decisions (Zavala, Jang & Zaghloul, 2018) - DERIVATIVE\nIntraoperative recordings from patients with Parkinson's disease undergoing STN DBS surgery at the NIH: macroelectrode LFP\nfrom three STN trajectories and subdural strips (6 and 8 contacts) over the anterior and lateral prefrontal cortex, while\nparticipants saw eight digits in sequence and remembered only those inside a target shape (article).\nTHIS IS A DERIVATIVE DATASET: the files of the release folder `ecogLFPdata_rereferenced` are, per the article, band-passed\n1-500 Hz, notch-filtered at 60 Hz, downsampled to 1 kHz (raw macro rate 1.5024 kHz) and re-referenced (macro: common average\nof the simultaneously recorded macro contacts; subdural: bipolar). Single-number channels (e.g. LFP001) and pairs\n(e.g. LFP001-002) are both given as in the release.\n## Source\n- Zavala BA, Jang AI, Zaghloul KA. Data from: Human subthalamic nucleus activity during non-motor decision making.\n  Zenodo doi:10.5281/zenodo.4960485 (mirror of the Dryad deposit), License CC0 1.0. Article: eLife 6:e31007 (2017),\n  doi:10.7554/eLife.31007. All files downloaded on Voyager with md5 verification.\n## Contents\n- `sub-DBSxxx/ses-<k>/ieeg/*_task-seqmem_run-<n>`: 32 recordings, 18 subjects, 11.88 h at 1 kHz.\n  `ses-<k>` = behavioural session_k whose events point to the recording; `run` = the recording number in the source file name.\n  Values = the release int16 numbers (scaling not stated; units n/a). `LFPnnn` = channels numbered 0NN (macro), `ECOGnnn` =\n  channels numbered 5NN (subdural); the release does not map numbers to individual contacts or strips. 'bad' in a release file\n  name -> status bad.\n- `events.tsv`: one row per digit from behavioral/session_k/events.mat (onset = eegoffset / 1000 s).\n- `sourcedata/zenodo-4960485/SeqMemRawdata/`: all channel files, behaviour, docs and Plexon spike times (sorted units from the\n  microelectrodes; the unsorted wideband spiking data are not in the release), with these changes: recording dates removed\n  from file names (day set to 01), dates in recordingdetails.txt set to day 01, events.mat mstime made relative to the first\n  event and eegfile reduced to the renamed base name. README_for_SeqMemRawdata.rtf unchanged.\n## Localisation\nNo coordinates. STN trajectories (centre/lateral/anterior per side), target frame coordinates and recording depths are given per\nsubject in docs/recordingdetails.txt (sourcedata). Article Figure 1C shows projected strip locations for 14 of 18 participants.\n## Participants\nArticle: 18 participants (16 male), 58.4 +/- 1.64 years (mean +/- SEM); not given per subject. Medication stopped 12 h before surgery.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC0-1.0",
+  "authors": [
+    "Baltazar A. Zavala",
+    "Anthony I. Jang",
+    "Kareem A. Zaghloul"
+  ],
+  "funding": [
+    "NIGMS NIH HHS T32 GM007309",
+    "NINDS Intramural Research Program"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000432",
+  "associated_paper_doi": null,
+  "tasks": [
+    "seqmem"
+  ],
+  "sessions": [
+    "0",
+    "1",
+    "3"
+  ],
+  "total_files": 32,
+  "size_bytes": 8684654494,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 18,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Kareem A. Zaghloul",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-13T09:25:50.501796+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-13 06:48:14"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000432",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "space-Other_electrodes.json",
+      "task-seqmem_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000432",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite Zavala BA, Jang AI, Zaghloul KA (2017) Human subthalamic nucleus activity during non-motor decision making. eLife 6:e31007, doi:10.7554/eLife.31007; and the data record doi:10.5281/zenodo.4960485 (Dryad mirror).",
+  "ethics_approvals": [
+    "NIH IRB protocol 11-N-0211; written informed consent (article)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.7554/eLife.31007",
+    "https://doi.org/10.5281/zenodo.4960485"
+  ],
+  "generated_by": [
+    {
+      "Name": "Authors' processing",
+      "Description": "Band-pass 1-500 Hz, 60 Hz notch, downsampling to 1 kHz, macro common-average and subdural bipolar re-referencing (article); int16 files per channel."
+    },
+    {
+      "Name": "b3w10_convert_pfc.py",
+      "Description": "int16 channel files to BrainVision float32 (values unchanged); behavioural events to events.tsv; dates removed. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.5281/zenodo.4960485",
+      "URL": "https://zenodo.org/records/4960485",
+      "Version": "Zenodo record 4960485 (published 2018-01-22)"
+    }
+  ],
+  "ingestion_fingerprint": "750c6b9a4276f8c9b9ce85758877090dbb86bc8c2f13e5942d9bcba1c42acba7"
+}
