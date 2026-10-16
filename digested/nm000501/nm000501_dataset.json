@@ -1,0 +1,99 @@
+{
+  "dataset_id": "nm000501",
+  "name": "ECoG_Tonal_Speech_Perception",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000501-blue)](https://doi.org/10.82901/nemar.nm000501)\nHuashan tonal speech ECoG (Zhang et al. Sci Data 2026), BIDS ingest.\nSIGNAL IS HIGH-GAMMA ENVELOPE (70-150 Hz Hilbert), not raw voltage.\nSource NWB iEEG series + *_ieeg.json document the envelope derivation.\nEDF stores envelope in uV; round-trip max error per file in convert_report.json.\nOne misnamed duplicate NWB (sub-01 ses-05 run-05) excluded; requirements.txt excluded.\n## Ethics\nZhang et al. (2026), Methods (verbatim):\n> The study was approved by the Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437), and the conducting of research complied with all relevant ethical considerations.\n>\n> Participants signed their names on informed consent the day before surgery and were told that the task was only for research purposes, which could be terminated at any time during the task.\nSource: Zhang H, Zhang D, Wu J, Li Y, Lu J, et al. (2026). A Fine-grained Spatiotemporal ECoG Dataset during Speech Perception in Tonal Language. Scientific Data. https://doi.org/10.1038/s41597-026-07619-z (PMC13635214)",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.7.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Haobo Zhang",
+    "Daohan Zhang",
+    "Jinsong Wu",
+    "Yuanning Li",
+    "Junfeng Lu"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000501",
+  "associated_paper_doi": null,
+  "tasks": [
+    "audio"
+  ],
+  "sessions": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06"
+  ],
+  "total_files": 20,
+  "size_bytes": 698568612,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 4,
+    "ages": [
+      55,
+      47,
+      51,
+      34
+    ],
+    "age_min": 34,
+    "age_max": 55,
+    "age_mean": 46.75,
+    "species": null,
+    "sex_distribution": {
+      "m": 2,
+      "f": 2
+    },
+    "handedness_distribution": {
+      "r": 4
+    }
+  },
+  "senior_author": "Junfeng Lu",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-16T07:08:43.530025+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-16 05:43:08"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000501",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000501",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Source: ScienceDB c4d82d65 V5 (10.57760/sciencedb.27618), Zhang et al. Sci Data 2026.",
+  "ethics_approvals": [
+    "Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437); written informed consent. Quoted from Zhang et al. 2026, Sci Data, doi:10.1038/s41597-026-07619-z, Methods: \"The study was approved by the Huashan Hospital Institutional Review Board of Fudan University (HIRB, KY2017-437), and the conducting of research complied with all relevant ethical considerations. Participants signed their names on informed consent the day before surgery and were told that the task was only for research purposes, which could be terminated at any time during the task.\""
+  ],
+  "generated_by": [
+    {
+      "Name": "nwbedf-convert",
+      "Version": "1.0",
+      "Description": "NWB high-gamma envelope exported to EDF; BIDS-valid. Signal is the authors' 70-150Hz Hilbert envelope, NOT raw voltage."
+    }
+  ],
+  "ingestion_fingerprint": "a6a2185b136e08ccef58aa8d23e6c4c0fa3121ec76c5206e466ab22bbf8398c3"
+}

@@ -1,0 +1,2086 @@
+{
+  "dataset": "nm000424",
+  "source": "nemar",
+  "digested_at": "2026-10-16T07:08:43.076473+00:00",
+  "record_count": 24,
+  "records_with_integrity_issues": 0,
+  "records": [
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd14",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd14",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s540--19786940382107592c1c3c09e0502059f4e673e44a064f455a3fb249b9b1da55.vhdr",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s2275464--7da49f0ad7e6545a06907e054b7086455f10660d4349c94a031a7ff44205e228.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 189622,
+      "duration_seconds": 758.488,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 758.488,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd14",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd14",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s542--9576acddf960cf6f8d764fd44ea67001a69ae73277b17fe99738cd44fcb1489b.vhdr",
+          "sub-pd14/ses-intraop1/ieeg/sub-pd14_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s1654272--f63d569487972bd186583ee465e7e5a847776eb077168b5a2823ee90e32def66.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 137856,
+      "duration_seconds": 551.424,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 758.488,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd10",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd10",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s576--cc2651b09c345829c7c6b59babc7eedf76dd6072fac13f561f951c6d1ec6a337.vhdr",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3120500--b7944f167f7861ac63c3ba40a92b84197b59f25eb81f782537dd8d809cf37799.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 156025,
+      "duration_seconds": 624.1,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 772.852,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd10",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd10",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--f015a6d120e8ce5cb827e2d76b71674349ad09bac4bb01080ad45c3dc6da1c56.vhdr",
+          "sub-pd10/ses-intraop1/ieeg/sub-pd10_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s3864260--76c7d28526a6633b4541ebd5a025b3ed1c17b2b7d6cb8ce850eb01d82ce6f924.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 193213,
+      "duration_seconds": 772.852,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 772.852,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd05",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd05",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s580--f1beb8b1e195044ffbf97cc8b64b070d3f1642532c655c51087ed033b3b9ce2d.vhdr",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s4011700--2f26379582a2099061430cd72369cb5f422453505926d5875d7ae661b239b16a.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 200585,
+      "duration_seconds": 802.34,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1000.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd05",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd05",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--b3aacb053a2c5342de12338d0a5247958fb94449405bd33796a32ab34a37367f.vhdr",
+          "sub-pd05/ses-intraop1/ieeg/sub-pd05_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s5000000--c8cc4929e138720a6e7830154c90dfb26b6c0bbc6ff4dad2662ccaac7015ab52.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 250000,
+      "duration_seconds": 1000.0,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1000.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd13",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd13",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--ffb9f0187d16688488270e1ff2ae50ac3f623cdadabe1b967fa31d93f0a95bc1.vhdr",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s4873380--29280801dedba50ee4e380dd017f88416a344dcaf2b59c70996ac0d5950d0479.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 243669,
+      "duration_seconds": 974.676,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 974.676,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd13",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd13",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s576--d2240dca4fed542138dbaa282136f05242852772572a8958278f295c1ee60a18.vhdr",
+          "sub-pd13/ses-intraop1/ieeg/sub-pd13_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3982060--6448b56c78b0d0d35bbbbc5b7db0e351fa73a1f058ac036567da86906ea35d17.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 199103,
+      "duration_seconds": 796.412,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 974.676,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd03",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd03",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s540--009336979e928e181c422342e3ed558484b99d0ad881ae9ff7f447ffd54c9eb3.vhdr",
+          "sub-pd03/ses-intraop1/ieeg/sub-pd03_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s1610280--fb1367ca7422a5e79fc67367e315825b2c1d80a499e9c0b057770a16a678e6af.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 134190,
+      "duration_seconds": 536.76,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 536.76,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd16",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd16",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--554f18e92d91acd85059d26679a8d00514406dfafae3420b3e254af261f314c9.vhdr",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s4578820--badae164963878ed1448b651138b4e302b478efe776acb534c8673e4411e6408.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 228941,
+      "duration_seconds": 915.764,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 915.764,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd16",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd16",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s559--64963c0c84034f9ea6fe1a846184fb3a57e304f1dd45311bf5a1f77f643c056c.vhdr",
+          "sub-pd16/ses-intraop1/ieeg/sub-pd16_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3645712--0ad5efcbe0dcd97fa3a959c215c6e4d79ac1be6eb87297863e487e8c9da08336.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 4,
+      "ntimes": 227857,
+      "duration_seconds": 911.428,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 915.764,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd04",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd04",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--cf61e2eae2f07c4f0b0f9ffb7e57a067e9681f9994f3f536f5e076bfad17f36d.vhdr",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s5000000--7cfec8607abb2ee3e16c272869d2cc1186fc7010a6a96873ab6b257919ba9750.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 250000,
+      "duration_seconds": 1000.0,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1000.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd04",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd04",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s580--71355979944634a6fa2fbdf682a61b06871108c591d67ef21214583ba74c5348.vhdr",
+          "sub-pd04/ses-intraop1/ieeg/sub-pd04_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s4787620--e30ddb52a5ce68fb58f03335f3084f693d84070844462c4325b92478979a8428.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 239381,
+      "duration_seconds": 957.524,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 1000.0,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd08",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd08",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--bcf3e0c993b442d2df9ed42b8e6c702dd3a83f78eeb74d19de4fc5119b3b1852.vhdr",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s3583960--7a32e9d482043f6f1219b276da2e0ba3d4dd650a11cd6634c1030f235939b5b2.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 179198,
+      "duration_seconds": 716.792,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 716.792,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd08",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd08",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s580--754dc76343c16b2e89e4010b63861a08361f24afbc87d1491bc3e08f4ef7406e.vhdr",
+          "sub-pd08/ses-intraop1/ieeg/sub-pd08_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3912040--1193cf69815bfd3098efccebd8f52394a29175fd6cf4fdf7c3cac610dd66d09f.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 195602,
+      "duration_seconds": 782.408,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 716.792,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd02",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd02",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s576--327fcda1a989699921337497342c58af6fc33a73466d4c9855d7dcc8d23ee49b.vhdr",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3083480--32b8da2f4445a153dbdd1282423947e31453149cde49a45af77a359ada3a2ba0.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 154174,
+      "duration_seconds": 616.696,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 958.384,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd02",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd02",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--cdf5ae752b885976cb36dcee582a5bc7642a76d92938cd35526b552463b2ef19.vhdr",
+          "sub-pd02/ses-intraop1/ieeg/sub-pd02_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s4791920--8e52faee24df97f7263613ae7fc5e5b72336f6e06d14eb5109c8c5b5360620bf.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 239596,
+      "duration_seconds": 958.384,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 958.384,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd01",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd01",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s580--590868e66d6f655a81fffde6354a963cf7a5839bf357a8a3eb107c0fe681df31.vhdr",
+          "sub-pd01/ses-intraop1/ieeg/sub-pd01_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s4053060--ea3cf17bfe5ee95bd82b600133f7ea832820a0a2c2c1b4c36619ca0df438fa67.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 202653,
+      "duration_seconds": 810.612,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtnotch_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtnotch"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 810.612,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd15",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd15",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s576--cb193ad33b46a8554e36b6f5aec9f02c48d7cdeb46fb81d5bbdec4dfac35b4fd.vhdr",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3824340--d97d73d5e293eb5a4654e53f72b04f99b8a7b4b8ee605ed673a6c8e39dc13de7.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 191217,
+      "duration_seconds": 764.868,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 710.936,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd15",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd15",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s574--c3bb94091eea985be4080a37bc347fccf5b37e9873e32543e67e91c586c5aca2.vhdr",
+          "sub-pd15/ses-intraop1/ieeg/sub-pd15_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s3554680--af0bfac12ebb1ae83bfcc2c3deb71bcd162a6a95d0db4592fa9459065293ee58.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 177734,
+      "duration_seconds": 710.936,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 710.936,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd12",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd12",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s578--9196cd9f3bb0c65c3065c4619c406e29b0cf29f59fb00703d5b5c3c5fbc83297.vhdr",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s3768760--f91fef91b70daf770acf0e5275c775198f4f758c19a1a441172bb40a6a920015.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 188438,
+      "duration_seconds": 753.752,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtnotch_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtnotch"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 753.752,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd12",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd12",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s580--dfe5c22c51399f2aa6f64aa826f59170b971bc6d6207dec96a2707b565ef1344.vhdr",
+          "sub-pd12/ses-intraop1/ieeg/sub-pd12_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s3768760--f91fef91b70daf770acf0e5275c775198f4f758c19a1a441172bb40a6a920015.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3",
+        "Ch4",
+        "Ch5"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 5,
+      "ntimes": 188438,
+      "duration_seconds": 753.752,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtnotch_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtnotch"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 753.752,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd07",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd07",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "leftstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_channels.tsv",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_events.tsv",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.json",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vmrk",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.vhdr": "SHA256E-s540--f1740e997e364fec187d6f4caa8c5256ccc49a87b833b2a1a31279c16805b86c.vhdr",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-leftstimoff_run-1_ieeg.eeg": "SHA256E-s1616940--ba9d6b153cd6713f1f13c389f98090b831ab12809f547d9998129f913e60fa50.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 134745,
+      "duration_seconds": 538.98,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 538.98,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    },
+    {
+      "dataset": "nm000424",
+      "data_name": "nm000424_sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bidspath": "nm000424/sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "bids_relpath": "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "pd07",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "entities_mne": {
+        "subject": "pd07",
+        "session": "intraop1",
+        "task": "stopsignal",
+        "run": "1",
+        "acquisition": "rightstimoff"
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/nm000424",
+        "raw_key": "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr",
+        "dep_keys": [
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_channels.tsv",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_events.tsv",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.json",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vmrk",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.vhdr": "SHA256E-s546--4c6466eb71a8e52ddeacb71aedb2a37a8cbfcba994cba4b6346faac8f4990869.vhdr",
+          "sub-pd07/ses-intraop1/ieeg/sub-pd07_ses-intraop1_task-stopsignal_acq-rightstimoff_run-1_ieeg.eeg": "SHA256E-s1336692--9aa65615ba4b413a2e449f39637b76754f8b4f8ecf038d2b8948b2601c8c1815.eeg"
+        }
+      },
+      "ch_names": [
+        "Ch1",
+        "Ch2",
+        "Ch3"
+      ],
+      "sampling_frequency": 250.0,
+      "nchans": 3,
+      "ntimes": 111391,
+      "duration_seconds": 445.564,
+      "digested_at": "2026-10-16T07:08:43.076473+00:00",
+      "participant_tsv": {
+        "diagnosis": "Parkinson's disease"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "nemar_records",
+        "ntimes": "nemar_records",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "n/a (not stated in the release)",
+      "software_filters": {
+        "HighPass": {
+          "CutoffHz": 0.5,
+          "Description": "authors' high-pass (file EEG_filtCLN_05HP.set)"
+        },
+        "Cleaning": {
+          "Description": "authors' 'filtnotch' (notch-filtered) or 'filtCLN' (cleaned) processing; this file: filtCLN"
+        },
+        "Resampling": {
+          "Description": "released at 250 Hz"
+        }
+      },
+      "hardware_filters": "n/a",
+      "manufacturer": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 538.98,
+      "bad_channels": [],
+      "bad_channels_count": 0,
+      "montage_hash": null
+    }
+  ]
+}

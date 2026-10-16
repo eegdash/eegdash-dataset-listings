@@ -1,0 +1,95 @@
+{
+  "dataset_id": "nm000513",
+  "name": "Simultaneous EEG-SEEG recordings of deep mesial temporal sources (interictal spike epochs)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000513-blue)](https://doi.org/10.82901/nemar.nm000513)\n# Simultaneous EEG-SEEG recordings of deep mesial temporal sources (Mendeley Data 8wz3wvm9y5)\nKoessler L, Ternisien E, Cecchin T, Colnat-Coulbois S, Maillard L (Universit\u00e9 de Lorraine / CHRU Nancy), Mendeley Data,\ndoi:10.17632/8wz3wvm9y5, CC BY 4.0. Release description (abridged): nine simultaneous EEG-SEEG datasets corresponding to mesial\ntemporal networks in seven patients (three females, mean age 38 years) with temporal lobe epilepsy. Within each network the earliest\ninterictal intracerebral spikes (IIS) with the highest amplitude were marked at the peak of the initial component (t0); EEG and SEEG\nsegments are 1 s epochs centred on t0, band-pass filtered 1.5-30 Hz, no artifact rejection. Acquisition: 128-channel system, 512 Hz,\nanalog 0.15 Hz high-pass, scalp FPz reference. Approved by the local ethics committee (CHRU Nancy).\n## Content (7 participants, 9 runs, 1945 spike epochs)\n- `sub-<p>` = patient P<p>; `acq-net<n>` = mesial network N<n> (patients 1 and 3 have two networks).\n- One epoched BrainVision file per network: the bipolar SEEG channels (labels `<shaft><i>_<j>`, typed SEEG) followed by the\n  simultaneous scalp EEG channels (release labels prefixed `s`, typed EEG), \u00b5V, float32, epochs written back to back\n  (`New Segment` marker per epoch); `events.tsv` gives one row per epoch with t0 at 0.5 s.\n- Units: \u00b5V, from the release description (amplitudes and thresholds are given in \u00b5V); the .mat files do not store units.\n- Each release cell array has one extra last row with a different length (775 samples) that is not a 512-sample epoch;\n  it is not written to the BIDS runs (kept in sourcedata; see `code/conversion_report.json`, `dropped_rows`).\n- No contact coordinates are released: `electrodes.tsv` lists the contacts implied by the bipolar labels with n/a coordinates.\n  Shaft -> structure table from the release (`SEEG electrodes.docx`, internal/external structure): P temporal pole/temporal pole,\n  A amygdala/superior temporal gyrus, B anterior hippocampus/middle temporal gyrus, C posterior hippocampus/middle temporal gyrus,\n  TB entorhinal cortex/inferior temporal gyrus, TM parahippocampal gyrus/middle temporal gyrus, F fusiform gyrus/middle temporal gyrus,\n  H insular cortex/Heschl gyrus, T insular cortex/superior temporal gyrus. Shafts with a `b` suffix (Ab, Bb, ...) are not described in the release.\n- Age and sex per patient are not released.\n## sourcedata/mendeley-8wz3wvm9y5/\nRelease .mat files and the electrode table; MAT text-header creation day set to 01 (DEIDENTIFICATION_MANIFEST.tsv).\n## References\n- Koessler L et al. Catching the invisible: mesial temporal source contribution to simultaneous EEG and SEEG recordings. Brain Topogr 2015;28:5-20. doi:10.1007/s10548-014-0417-z\n- Ternisien E et al. Extracting the invisible: mesial temporal source detection in simultaneous EEG and SEEG recordings. doi:10.21203/rs.3.rs-2201044/v1",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Laurent Koessler",
+    "Eric Ternisien",
+    "Thierry Cecchin",
+    "Sophie Colnat-Coulbois",
+    "Louis Maillard"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000513",
+  "associated_paper_doi": null,
+  "tasks": [
+    "iis"
+  ],
+  "sessions": [],
+  "total_files": 9,
+  "size_bytes": 761154866,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 7,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Louis Maillard",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-16T07:08:43.546389+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-15 19:26:20"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000513",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-iis_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000513",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite the Mendeley Data record doi:10.17632/8wz3wvm9y5 and Koessler et al. 2015 (Brain Topogr) / Ternisien et al.",
+  "ethics_approvals": [
+    "Local ethics committee, CHRU Nancy (release description)"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.17632/8wz3wvm9y5",
+    "https://doi.org/10.1007/s10548-014-0417-z",
+    "https://doi.org/10.21203/rs.3.rs-2201044/v1"
+  ],
+  "generated_by": [
+    {
+      "Name": "cv4_conv_lit24.py",
+      "Description": "release cell arrays -> epoched BrainVision; code in code/"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://data.mendeley.com/datasets/8wz3wvm9y5",
+      "DOI": "doi:10.17632/8wz3wvm9y5",
+      "Version": "as downloaded 2026-10-11"
+    }
+  ],
+  "ingestion_fingerprint": "b9cc33d3645c26765f960918071732222c3f177c3ebb2cda35f07198e6a85a9e"
+}

@@ -1,0 +1,108 @@
+{
+  "dataset_id": "nm000424",
+  "name": "Human subthalamic nucleus LFP during a stop-signal task (STN delta; Szabo et al.; derivative, 250 Hz)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000424-blue)](https://doi.org/10.82901/nemar.nm000424)\n# Human STN LFP during a stop-signal task (STN delta) - DERIVATIVE\nIntraoperative local field potentials from the subthalamic nucleus (STN) of patients with Parkinson's disease\nundergoing DBS surgery, recorded with microelectrodes while they performed a stop-signal reaction time task.\nTHIS IS A DERIVATIVE DATASET. The release provides the continuous STN LFP only as the authors' filtered 250 Hz EEGLAB\nfiles. Each recording exists in a 0.5 Hz and a 2 Hz high-pass version; only the 0.5 Hz version is included here.\n## Source\n- Figshare: Johanna Petra Szabo, Panna Heged\u00fcs, Tam\u00e1s Laszlovszky, L\u00e1szl\u00f3 Hal\u00e1sz, Gabriella Mikl\u00f3s, B\u00e1lint Kir\u00e1ly, Gy\u00f6rgy Perczel, Vir\u00e1g Bokodi, L\u00e1szl\u00f3 Entz, Istv\u00e1n Ulbert, Gertr\u00fad Tam\u00e1s, D\u00e1niel Fab\u00f3, Lor\u00e1nd Er\u0151ss, Bal\u00e1zs Hangya. \"Dataset for \"Neurons of the human subthalamic nucleus engage with local delta frequency processes during action cancellation\"\". doi:10.6084/m9.figshare.31359616 (CC BY 4.0).\n  Both Figshare files matched their MD5 checksums.\n- The original release (human-STN-delta_data.zip, 8.5 GB) also contains single-/multi-unit waveforms and spike times\n  (MClust/CellBase), behavioural trial files, scalp EEG (intraoperative and postoperative) and epoched/CSD files. They are\n  not repackaged here: BIDS-iEEG has no spike format, scalp EEG is not intracranial, and the epoched files duplicate the\n  continuous data. Get them from the Figshare record. The release's session folder names are surgery dates, so they\n  are not copied.\n## Contents\n- 13 patients (`sub-pd<NN>` = release patient id), 24 recordings, 5.13 h at 250 Hz.\n- `ses-intraop<k>`: intraoperative session k of that patient (ordered by date; dates removed).\n- `acq-<side>stim<off|on>`: hemisphere and the release's stimulation label (folder `stim<off|on>_<side>_LFP`).\n- Channels Ch1..Ch5: the release's microelectrode tracks (type DBS, \u00b5V, values unchanged as float32).\n- `events.tsv`: the EEGLAB annotations (StimulusOn, KeyPress1, Feedback, StopSignal, ...).\n- No coordinates are released; electrodes.tsv lists the tracks with x, y, z = n/a and the stated target (STN).\n## Privacy\nRecording dates (in the release folder names) are dropped. No names were found.\n## Ethics\nVerbatim from the article of this Figshare dataset, Szabo JP et al. (2026) \"Neurons of the human subthalamic nucleus engage with\nlocal delta frequency processes during action cancellation\", Nat Commun, doi:10.1038/s41467-026-71502-z (Europe PMC PMC13287684,\nMethods, Patient selection):\n> \"Thirteen patients with Parkinson-disease (6 males; age, 60.92 \u00b1 12.6 years; Supplementary Table S1) undergoing bilateral STN\n> DBS implantation (Supplementary Table S2) were enrolled in this study, recruited from the Institute of Neurosurgery and\n> Neurointervention (formerly National Institute of Clinical Neuroscience) of Semmelweis University (Budapest, Hungary). Informed\n> consent was obtained from all subjects. Informed consent forms and all research protocols were approved by the Institutional\n> Research Ethics Committee of NIMNN or its predecessors (OKITI IKEB1/2018; OMIII IKEB 21/2023) and the National Scientific and\n> Ethical Committee of the Medical Research Council, Budapest, Hungary (OGY\u00c9I/64814-6/2023).\"\nThe 13 patients of the article are the 13 patients of this dataset.",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC-BY-4.0",
+  "authors": [
+    "Johanna Petra Szabo",
+    "Panna Heged\u00fcs",
+    "Tam\u00e1s Laszlovszky",
+    "L\u00e1szl\u00f3 Hal\u00e1sz",
+    "Gabriella Mikl\u00f3s",
+    "B\u00e1lint Kir\u00e1ly",
+    "Gy\u00f6rgy Perczel",
+    "Vir\u00e1g Bokodi",
+    "L\u00e1szl\u00f3 Entz",
+    "Istv\u00e1n Ulbert",
+    "Gertr\u00fad Tam\u00e1s",
+    "D\u00e1niel Fab\u00f3",
+    "Lor\u00e1nd Er\u0151ss",
+    "Bal\u00e1zs Hangya"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.nm000424",
+  "associated_paper_doi": null,
+  "tasks": [
+    "stopsignal"
+  ],
+  "sessions": [
+    "intraop1"
+  ],
+  "total_files": 24,
+  "size_bytes": 86001225,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 13,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Bal\u00e1zs Hangya",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-16T07:08:43.076473+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-16 03:47:31"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000424",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-stopsignal_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000424",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Cite the Figshare dataset doi:10.6084/m9.figshare.31359616 and the associated article 'Neurons of the human subthalamic nucleus engage with local delta frequency processes during action cancellation'.",
+  "ethics_approvals": [
+    "Informed consent forms and all research protocols were approved by the Institutional Research Ethics Committee of NIMNN or its predecessors (OKITI IKEB1/2018; OMIII IKEB 21/2023) and the National Scientific and Ethical Committee of the Medical Research Council, Budapest, Hungary (OGY\u00c9I/64814-6/2023); informed consent was obtained from all subjects. Source: Szabo et al. 2026, Nat Commun, doi:10.1038/s41467-026-71502-z (Methods, Patient selection), the article of this Figshare dataset."
+  ],
+  "references_and_links": [
+    "https://doi.org/10.6084/m9.figshare.31359616"
+  ],
+  "generated_by": [
+    {
+      "Name": "Authors' processing",
+      "Description": "Intraoperative STN microelectrode LFP released as EEGLAB files at 250 Hz, high-pass filtered (0.5 or 2 Hz) and notch-filtered or cleaned."
+    },
+    {
+      "Name": "b3w11_convert_stndelta.py",
+      "Description": "Repackaging of the 0.5 Hz high-pass LFP files to BrainVision float32 \u00b5V with unchanged values; annotations to events.tsv; dated folder names dropped. Code in code/."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.6084/m9.figshare.31359616",
+      "URL": "https://figshare.com/articles/dataset/31359616",
+      "Version": "Figshare version 2"
+    }
+  ],
+  "ingestion_fingerprint": "671bc96a7c483f1688cdd775d92477a269eb825fbaaa793896564f3b88d504fd"
+}
