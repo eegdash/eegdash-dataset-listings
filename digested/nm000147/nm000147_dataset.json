@@ -1,0 +1,153 @@
+{
+  "dataset_id": "nm000147",
+  "name": "The Brain, Body, and Behaviour Dataset (1.0.0) - Experiment 4",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000147-blue)](https://doi.org/10.82901/nemar.nm000147)\n# The Brain, Body, and Behaviour Dataset - Experiment 4\n## Summary:\n**Description:**  Subjects watched five videos, knowing they'd be tested afterward. After each video, they answered 11 to 12 factual multiple-choice questions. Videos and questions were presented in random order.\n**Subjects:**  43, **Sessions:**  2\n1. *Attentive* - Watch videos with focus (Stim 4, Stim 5, Stim 6)\n2. *Attentive* - Watch different videos (Stim 1, Stim 2, Stim 3) with focus and answer questions pertaining to them after\n**Tasks (Stimuli):**\n-------------------------------------------------------------------------------------------------------------------------------------------\n| **Stimulus ID** | **Name**                                                    | **URL**                                                 |\n|-----------------|-------------------------------------------------------------|---------------------------------------------------------|\n| Stim-01         | Why are Stars Star-Shaped                                   | [Watch Here](https://www.youtube.com/embed/VVAKFJ8VVp4) |\n| Stim-02         | The Immune System Explained \u2013 Bacteria                      | [Watch Here](https://www.youtube.com/embed/zQGOcOUBi6s) |\n| Stim-03         | Are We All Related                                          | [Watch Here](https://www.youtube.com/embed/mnYSMhR3jCI) |\n| Stim-04         | How Modern Light Blbs Work                                  | [Watch Here](https://www.youtube.com/embed/oCEKMEeZXug) |\n| Stim-05         | What If We Killed All the Mosquitoes                        | [Watch Here](https://www.youtube.com/embed/e0NT9i4Qnak) |\n| Stim-06         | Three Factors That May Alter the Action of an Enzyme        | [Watch Here](https://www.youtube.com/embed/lkRZKqDdwzU) |\n-------------------------------------------------------------------------------------------------------------------------------------------\n**Modalities Recorded:**\n-   Gaze (X, Y)\n-   Pupil Size\n-   Blinks\n-   Saccades\n-   Head Position (X, Y, Z)\n-   EOG\n-   EEG\n-   ECG\n-   Respiration\n# Experiment Setup:\nIn experiment 4, there are 2 attend conditions where subjects were instructed to watch 3 instructional videos in attention condition, and 3 more videos in the second attention condition.\nThey were tested on the videos shown in the second attention condition.\nWe collected EEG, EOG, ECG, respiration, pupillary responses, gaze, and head position.\nSessions:\n-   Ses-01 contains these signals recorded on subjects watching these videos in an attentive condition. They answered questions pertaining to each video after watching the videos one at a time.\n-   Ses-02 contains the data recorded on subjects watching all of the videos again in a distracted condition in the same order as Ses-01 described above. The distraction from the stimuli was to silently count backwards from a random prime number in steps of 7. No questions were asked after this session.\n# Questionnaires:\nQuestionnaires and answers to them can be found in the phenotype/ directory.\n1.  **stimuli_questionnaire:**\nThe stimuli_questionnaire tsv and json files have the questions, answers and correct answers.\n- \u201cDomain\u201d question type is a general domain knowledge question that was asked before the subject watched a video.\n- \u201cMemory\u201d question type is a memory testing question that is asked after the subject finishes watching the video, and has questions that are directly pertaining to the video content.\n2.  **asrs_questionnaire:**\nThese tsv and json files have questions and answers to the ASRS questionnaire that is an adult ADHD symptom checklist test. The answers are options from 0 (never) to 4 (very often).\n- There are two different scales used to score this test, and there are 2 different parts (Part A, Part B) to this test. Screen test involves just the first 6 questions (Part A), and the full-test involves the entire 18 question test (Part A + Part B). Despite lesser questions, the screen test (first 6 ques) gives one a higher indication of ADHD prevalence than the full-test.\n- This is the reason why the 2 different scoring scales are based on the Screen test. Scale one is out of 6, where each question counts for just 1 point depending on the frequency of the symptom occurrence, and if one scores over 4, there is a high chance of ADHD prevalence. The next scale is out of 24 where the 5 frequencies of symptom occurrence (never, rarely, sometimes, often, very often) are assigned scores in an increasing order of 0-4, and for each question, the respective scores of the frequency is the score for that question. Out of 24, the threshold for high prevalence of ADHD is 18 for this scale.\nThe following are the question numbers for inattentive ADHD and Hyperactive ADHD\ninattentive_questions = [1,2,3,4,7,8,9,10,11,12]\nhyperactive_questions = [5,6,13,14,15,16,17,18]\n# General BIDS dataset structure overview for all MEVD experiments\nEach BIDS dataset (one per experiment) has files that describe the dataset, its participants, and related metadata at the root directory - dataset_description.json, participants.tsv and participants.json, providing essential information about the study and participants to anyone working with the dataset.\nIn the root directory, the raw data of each participant is organized by subject (sub-XX) and then further divided into sessions (ses-XX) to accommodate multi-session data collection (some experiments have 2 sessions: attentive and distracted). Inside each session folder, you'll find modality-specific subfolders, such as:\n-   **eeg**: Contains electroencephalogram data files (.bdf), event logs (events.tsv), and additional metadata (.json) that describe the experiment and recording conditions.\n-   **beh**: Contains physiological recordings like ECG (electrocardiogram) and EOG (electrooculogram) stored in compressed .tsv.gz files, with accompanying metadata in .json files.\n-   **eyetrack**: Contains physiological recordings like eye-tracking (gaze coordinates and pupil size), and head movement data, stored in compressed .tsv.gz files, with accompanying metadata in .json files.\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\n| Modality  | Filename Format                                                     | Data File Extension | Metadata                                     | Notes                                                                                      |\n|-----------|---------------------------------------------------------------------|---------------------|----------------------------------------------|--------------------------------------------------------------------------------------------|\n| EEG       | `sub_xx-ses_xx-task-stimxx_{file_of_interest.extension}`            | `.bdf`              | Exists for each file as a `.json` file       |  There are event files with a `.tsv` extension that include start and end times in seconds.|\n| Beh       | `sub_xx-ses_xx-task-stimxx_recording-{modality}_physio.{extension}` | `.tsv.gz`           | Exists for each file as a `.json` file       |                                                                                            |\n| EyeTrack  | `sub_xx-ses_xx-task-stimxx_{modality}_eyetrack.{extension}`         | `.tsv.gz`           | Exists for each file as a `.json` file       |                                                                                            |\n-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------\nThere is also a **derivatives** directory which contains preprocessed data derived from the raw recordings, such as filtered heart rate data or preprocessed physiological signals, making it easy to work with and apply advanced analyses. Files in this directory are also stored in the BIDS structure (subject-wise \u2192 session-wise \u2192 modality-wise). A brief overview on what you can expect in the derivatives directory:\n-   **eeg**: Contains filtered electroencephalogram (EEG) data files (.bdf).\n-   **beh**: Contains heart beats (r-peak timestamps synchronized with the stimulus), heart-rates, filtered ECG, breath-rates, and they are stored in compressed .tsv.gz files.\n-   **eyetrack**: Contains saccades (timestamps), saccade-rates, fixations (timestamps), fixation-rates, blinks (timestamps), blink-rates, and filtered pupil and gaze files all stored in compressed .tsv.gz files.\n## How to Navigate the Dataset\n-   **Top-Level Files**: Files like dataset_description.json and participants.tsv give you an overview of the study and participants, serving as your starting point when exploring a dataset.\n-   **Derivatives Folder**: In this folder, processed data is organized like how raw data is organized in the BIDS directory.\n-   **Subject Folders (sub-XX):** Inside these folders, data is organized by individual participants, providing separate directories for each person involved in the study.\n-   **Session Folders (ses-XX)**: For longitudinal or multi-session studies, session folders contain the raw and derived data for each session, making it easy to track and analyze data collected over time.\n-   **Modality-Specific Subfolders:** Each session is further split into subfolders according to data modalities (e.g., EEG, behavior/physio), helping you to quickly locate the data of interest, whether it\u2019s brain recordings, heart rate data, or eye movement information.\n-   **Tasks:** Each subject is exposed to different stimuli during data collection, and BIDS uses \"tasks\" in filenames to clearly differentiate recordings based on these experimental conditions. This makes it easy to identify, retrieve, and analyze data associated with specific tasks across multiple modalities.\n## Dataset Overview\nThe table below is a breakdown on the total minutes of raw data available for each session across the complete dataset:\n----------------------------------------\n| Modality                   | Hours   |\n|----------------------------|---------|\n| EEG                        | 65      |\n| ECG                        | 93.5    |\n| EOG                        | 94.35   |\n| Head                       | 92.46   |\n| Gaze                       | 110.56  |\n| Pupil                      | 110.56  |\n| Respiration                | 44.2    |\n----------------------------------------\n## Original dataset / data paper\nThis record is **Experiment 4** of the Brain, Body, and Behavior Dataset (BBBD), a\nmultimodal resource of recordings collected while participants watched short educational\nvideos. Please cite the original data descriptor when using this dataset:\n> Madsen, J., Kuppa, N., & Parra, L. C. (2026). *The Brain, Body, and Behavior Dataset\n> (BBBD): Multimodal Recordings during Educational Videos.* **Scientific Data.**\n> https://doi.org/10.1038/s41597-026-07215-1\n- **DOI:** [10.1038/s41597-026-07215-1](https://doi.org/10.1038/s41597-026-07215-1)\n- **Preprint:** [bioRxiv 2025.04.29.651259](https://doi.org/10.1101/2025.04.29.651259)\n- **Project page:** https://bbbd.pythonanywhere.com/\n- **Authors / lab:** Jens Madsen, Nikhil Kuppa, Lucas C. Parra \u2014 Department of Biomedical\n  Engineering, City College of New York (CCNY/CUNY)\nThe full BBBD comprises ~178 participants across five experiments; this NEMAR record\ncontains the **43 participants** of Experiment 4. Please credit the original creators and\ncite the data paper above.\nCorrection (2026-10-08): the mosquito video was listed above as YouTube `9w-5wJYVmcw` (\"What If We Killed All Mosquitoes?\",\nchannel What If). The presented video is `e0NT9i4Qnak` (\"What Would Happen if Mosquitoes Went Extinct?\", SciShow): this id is\ngiven by the data paper (Madsen et al. 2026, Sci Data, https://doi.org/10.1038/s41597-026-07215-1, Table 2) and embedded by\nthe BBBD website (`bbbd.pythonanywhere.com/static/experiments_script.js`), and every specific fact asked in the mosquito\nmemory quiz (`mosquitoes_quiz.tsv`: Wolbachia, \"over 3,000 species\", self-limiting gene, DDT, biomass) is in e0NT9i4Qnak and\nnot in 9w-5wJYVmcw. The link in the table now points to e0NT9i4Qnak; the title in the table and in the sidecars is the\nauthors' label for it. (Table 2 lists 4:47, which is the length of 9w-5wJYVmcw; e0NT9i4Qnak is 5:00.)\n## Stimuli\nAdded 2026-10-08 (metadata only; no video is included). `stimuli/stimuli.tsv` has one row per stimulus task (`stimNN`):\nYouTube id, the presented duration (`end - start` in `*_events.tsv`, the same in every recording), the length of the\ncurrent upload and, where verified, where the presentation starts inside the upload. The videos are third-party YouTube\nuploads (standard YouTube licence); watch them at the listed links.\nKnown timing facts:\n- The presented versions are edited: stim01 184.8 s of 208.7 s; stim02 388.8 s of 468.8 s; stim03 362.8 s of 385.1 s; stim05 261.0 s of 300.3 s. stim06 was shown for 268.53 s in every recording, longer than the 191.6-s upload: the presented version is about 90 s of other material followed by the first 178.6 s of this upload (see below).\n- Start of the presentation inside the upload (median pupil size of all recordings vs. upload luminance; the pupil\n  constricts 0.4-0.5 s after brightening; the mosquito start comes from the video content, end of the channel intro):\n  stim01: 0 s; stim02: 0 s; stim03: 2.85 s; stim04: 0 s; stim05: 10.8 s.\n- stim06: the median gaze x/y of all recordings follows the motion centroid of the upload (0.4 s later; lag checked on the\n  pupil-verified videos) from about 90 s into the presentation to its end, at upload time = presented time - 89.9 s (from\n  100 s on, p < 0.05 against random offsets in 11 of 16 10-s windows, as for videos with known starts; the same in\n  experiment 3). The first ~90 s show other material that is not public.\nProvenance check (2026-10-09, public records only): (1) the authors' own first commit of the BBBD repository\n(github.com/madjens/bbbd-dataset, commit ca94c361, `config/readmes/experiment4_README.md`) already names `e0NT9i4Qnak` for\nthe mosquito video, so the id above is the authors' and `9w-5wJYVmcw` was a later substitution in the NEMAR README; only\nthe start inside the upload (10.8 s) is inferred. (2) The enzyme upload `lkRZKqDdwzU` was not shortened after the\nrecordings: the Wayback Machine capture of 26 July 2022 of its watch page already lists `lengthSeconds` 192 (upload date\n2014-05-04), so the first ~90 s of the 268.5-s presentation came from another source or a local edit, not from a longer\nversion of this upload.",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.10.0",
+  "license": "CC BY 4.0",
+  "authors": [
+    "Jens Madsen",
+    "Nikhil Kuppa",
+    "Lucas Parra"
+  ],
+  "funding": [
+    "DRL-2201835"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000147",
+  "associated_paper_doi": null,
+  "tasks": [
+    "stim01",
+    "stim02",
+    "stim03",
+    "stim04",
+    "stim05",
+    "stim06"
+  ],
+  "sessions": [
+    "01",
+    "02"
+  ],
+  "total_files": 256,
+  "size_bytes": 5501465728,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 43,
+    "ages": [
+      20,
+      18,
+      32,
+      19,
+      24,
+      19,
+      20,
+      23,
+      21,
+      21,
+      21,
+      21,
+      19,
+      23,
+      18,
+      19,
+      24,
+      21,
+      25,
+      21,
+      27,
+      19,
+      30,
+      30,
+      29,
+      23,
+      19,
+      18,
+      23,
+      31,
+      38,
+      28,
+      23,
+      26,
+      34,
+      26,
+      25,
+      25,
+      26,
+      39,
+      26,
+      40,
+      45
+    ],
+    "age_min": 18,
+    "age_max": 45,
+    "age_mean": 25.093023255813954,
+    "species": null,
+    "sex_distribution": {
+      "f": 24,
+      "m": 19
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Lucas Parra",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-16T16:08:07.824834+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-16 13:18:30"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000147",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000147",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We acknowledge the National Science Foundation Grant DRL-1660548 for supporting this project.",
+  "how_to_acknowledge": "Please cite: Madsen, J., Kuppa, N., & Parra, L. C. (2026). The Brain, Body, and Behavior Dataset (BBBD): Multimodal Recordings during Educational Videos. Scientific Data. https://doi.org/10.1038/s41597-026-07215-1",
+  "ethics_approvals": [
+    "The City University of New York (CUNY) University Integrated Institutional Review Board"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1038/s41597-026-07215-1",
+    "https://doi.org/10.1101/2025.04.29.651259",
+    "https://bbbd.pythonanywhere.com/"
+  ],
+  "generated_by": [
+    {
+      "Name": "Manual",
+      "Description": "MATLAB: Converted .mat files to .bdf files for EEG recordings, and .mat files to tsv.gz files for physiological and eyetracking recordings (eg: ECG, gaze etc)"
+    },
+    {
+      "Name": "NeuralBench video-stimulus metadata enrichment",
+      "Version": "2026-10-08",
+      "Description": "Metadata only, no media files: stimulus table (stimuli/stimuli.tsv), README section 'Stimuli' and the changes listed in CHANGES under 2026-10-08. Facts and sources are in the README section. Prepared by Bruno Aristimunha (NeuralBench video work); the videos stay with their rights holders."
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.1038/s41597-026-07215-1"
+    }
+  ],
+  "ingestion_fingerprint": "41ad2cc3e7e6596d06d7e7fd4f01c5b0a11811171527c240270c4b897299bb94"
+}

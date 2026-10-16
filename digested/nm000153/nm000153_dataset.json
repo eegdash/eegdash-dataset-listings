@@ -1,0 +1,120 @@
+{
+  "dataset_id": "nm000153",
+  "name": "Langer et al. 2017 \u2014 Multimodal Resource for Studying Information Processing in the Developing Brain (MIPDB)",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "# MIPDB: a multimodal resource for studying information processing in the developing brain (EEG + eye tracking)\n## Summary\nThis is the **Child Mind Institute (CMI) MIPDB** dataset \u2014 a multimodal resource for\nstudying information processing in the developing brain. High-density\nelectroencephalography (EEG) and eye-tracking data were recorded from a developmental\ncohort spanning childhood to adulthood while participants performed a battery of\ncognitive and perceptual paradigms. The resource was designed to enable research on the\nmaturation of information-processing in the human brain.\nThe BIDS conversion in this NEMAR record contains EEG data for **111 participants**\n(`sub-*` folders) under the `eeg/` modality.\n## Modality and paradigms\n- **Modalities:** High-density EEG (128-channel EGI HydroCel Geodesic Sensor Net,\n  recorded with NetStation at 500 Hz) and eye tracking\n- **Population:** Developmental cohort (children, adolescents, and adults; ages ~6\u201344\n  per Langer et al. 2017)\n- **Paradigm battery (per Langer et al. 2017):** resting state, surround suppression,\n  naturalistic viewing, contrast-change detection, sequence learning, and symbol search\n> **Note on task labels:** In this conversion each recording block is published as\n> `task-blockNN` (`task-block01` \u2026 `task-block10`) because the per-block paradigm mapping\n> is not explicitly enumerated in Langer et al. 2017. The paradigm sequence above is\n> identical across subjects per the paper, but the exact mapping from block index to\n> paradigm should be confirmed against the CMI MIPDB documentation before analysis.\n> Source eye-tracking and behavioural data are preserved under `sourcedata/`.\n## Participants\nThis BIDS dataset includes **111 subjects** (anonymised CMI IDs, e.g. `sub-A00051826`).\nSee `participants.tsv` and the data paper for the developmental age range and\ndemographics.\n## Original dataset / data paper\nPlease cite the original Scientific Data descriptor when using this dataset:\n> Langer, N., Ho, E. J., Alexander, L. M., Xu, H. Y., Jozanovic, R. K., Henin, S.,\n> Petroni, A., Cohen, S., Marcelle, E. T., Parra, L. C., Milham, M. P., & Kelly, S. P.\n> (2017). *A resource for assessing information processing in the developing brain using\n> EEG and eye tracking.* **Scientific Data, 4, 170040.**\n> https://doi.org/10.1038/sdata.2017.40\n- **DOI:** [10.1038/sdata.2017.40](https://doi.org/10.1038/sdata.2017.40)\n- **Source / project:** Child Mind Institute \u2014 [CMI EEG / Eye-tracking resource](https://fcon_1000.projects.nitrc.org/indi/cmi_eeg/)\n- **Source data:** `s3://fcp-indi/data/Projects/EEG_Eyetracking_CMI_data/`\n## Attribution\nThis dataset was created by the Child Mind Institute and collaborators (Langer, Parra,\nMilham, Kelly, and colleagues). Please credit the original creators and cite the data\npaper above. This NEMAR record redistributes the dataset in BIDS format; EEG-BIDS /\nMNE-BIDS and related BIDS tools were used only for standardisation, not as the source of\nthe data.\n## License\nCC-BY-NC-SA-3.0 (see `dataset_description.json`).",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC-BY-NC-SA-3.0",
+  "authors": [
+    "Nicolas Langer",
+    "Erica J Ho",
+    "Lindsay M Alexander",
+    "Helen Y Xu",
+    "Renee K Jozanovic",
+    "Simon Henin",
+    "Agustin Petroni",
+    "Samantha Cohen",
+    "Enitan T Marcelle",
+    "Lucas C Parra",
+    "Michael P Milham",
+    "Simon P Kelly"
+  ],
+  "funding": [],
+  "dataset_doi": "doi:10.1038/sdata.2017.40",
+  "associated_paper_doi": null,
+  "tasks": [
+    "block01",
+    "block02",
+    "block03",
+    "block04",
+    "block05",
+    "block06",
+    "block07",
+    "block08",
+    "block09",
+    "block10",
+    "block11",
+    "block12",
+    "block13",
+    "block14",
+    "block15",
+    "block16",
+    "block17",
+    "block18",
+    "block19",
+    "block398"
+  ],
+  "sessions": [],
+  "total_files": 1149,
+  "size_bytes": 118435314741,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 111,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": null,
+    "handedness_distribution": null
+  },
+  "senior_author": "Simon P Kelly",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-16T16:08:07.938048+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-16 14:26:06"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000153",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000153",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "how_to_acknowledge": "Please cite: Langer, N., Ho, E. J., Alexander, L. M., Xu, H. Y., Jozanovic, R. K., Henin, S., Petroni, A., Cohen, S., Marcelle, E. T., Parra, L. C., Milham, M. P., & Kelly, S. P. (2017). A resource for assessing information processing in the developing brain using EEG and eye tracking. Scientific Data, 4, 170040. https://doi.org/10.1038/sdata.2017.40",
+  "ethics_approvals": [
+    "Chesapeake Institutional Review Board"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1038/sdata.2017.40",
+    "https://fcon_1000.projects.nitrc.org/indi/cmi_eeg/",
+    "https://pmc.ncbi.nlm.nih.gov/articles/PMC5387929/"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_mipdb.py (EEGDash)",
+      "Description": "Read EGI NetStation .raw files at 500 Hz with mne.io.read_raw_egi and rewrote each per-block .raw as one BIDS-EEG run. The per-block paradigm mapping is NOT enumerated in Langer et al. 2017, so each block is published as task-blockNN; the paradigm sequence (Resting-state \u2192 Surround suppression \u2192 Naturalistic viewing \u2192 Contrast change detection \u2192 Sequence learning \u2192 Symbol search) is identical across subjects per the paper but the mapping from block index to paradigm should be confirmed against the CMI MIPDB documentation. Source eye-tracking and behavioural data are preserved in /sourcedata.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "s3://fcp-indi/data/Projects/EEG_Eyetracking_CMI_data/",
+      "Version": "as of 2026-04"
+    }
+  ],
+  "ingestion_fingerprint": "cc2de0817b557a5e621e570a8bca0fe4192928d5c3506b95d9d3995c65517771"
+}

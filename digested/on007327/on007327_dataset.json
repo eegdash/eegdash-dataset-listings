@@ -1,0 +1,126 @@
+{
+  "dataset_id": "on007327",
+  "name": "Basketball Motor Imagery EEG Dataset",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007327-blue)](https://doi.org/10.82901/nemar.on007327)\n\"Basketball Motor Observation and Motor Imagery EEG Dataset\"\n\"=====================================\"\n\"\"\n\"This dataset contains EEG recordings from 35 healthy participants performing 3 basketball-related motor observation and motor imagery tasks.\"\n\"\"\n\"Tasks:\"\n\"1. dribble - Single-handed dribbling task with 5 conditions\"\n\"2. ballpass - Two-handed ball passing task with 4 conditions\"\n\"3. passing - Two-person passing task with 4 combined conditions (MOMO/MOMI/MIMO/MIMI) and 4 PLV conditions (observe/imagine opponent\u2192self/self\u2192opponent)\"\n\"\"\n\"Data includes:\"\n\"- Raw EEG data\"\n\"- Preprocessed data\"\n\"- PLV functional connectivity results\"\n\"\"\n\"Recorded with ANT Neuro system (64 channels, 1000Hz sampling rate).\"\n\"\"\n\"For more details, see the dataset_description.json and participants.json files.\"\n\"\"\n\"This dataset follows the BIDS 1.8.0 standard.\"",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.8.0",
+  "license": "CC0",
+  "authors": [
+    "Jiahui Han",
+    "Jiaqi Wang",
+    "Lingrong Jia",
+    "Ming Tang",
+    "School of Physics and Electronic Technology, Liaoning Normal University",
+    "Institute of Psychological and Brain Sciences, Liaoning Normal University"
+  ],
+  "funding": [],
+  "dataset_doi": "10.82901/nemar.on007327",
+  "associated_paper_doi": null,
+  "tasks": [
+    "ballpass",
+    "dribble",
+    "passing"
+  ],
+  "sessions": [],
+  "total_files": 105,
+  "size_bytes": 75606306751,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 35,
+    "ages": [
+      24,
+      21,
+      20,
+      22,
+      23,
+      22,
+      26,
+      21,
+      17,
+      21,
+      22,
+      21,
+      21,
+      22,
+      21,
+      21,
+      21,
+      22,
+      20,
+      24,
+      21,
+      20,
+      20,
+      20,
+      21,
+      20,
+      26,
+      20,
+      25,
+      20,
+      20,
+      21,
+      23,
+      21,
+      24
+    ],
+    "age_min": 17,
+    "age_max": 26,
+    "age_mean": 21.542857142857144,
+    "species": null,
+    "sex_distribution": {
+      "f": 20,
+      "m": 15
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Institute of Psychological and Brain Sciences, Liaoning Normal University",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-16T16:08:35.911211+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-16 14:42:45"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on007327",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "datacite.yml",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on007327",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "generated_by": [
+    {
+      "Name": "MATLAB BIDS Converter",
+      "Version": "1.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "DOI": "doi:10.18112/openneuro.ds007327.v1.1.0"
+    }
+  ],
+  "ingestion_fingerprint": "13f6f3df30dbdc80ed98df0345b4280225b2f165f027272c4e5b7e70646e60b9"
+}
