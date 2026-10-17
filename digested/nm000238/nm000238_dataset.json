@@ -1,0 +1,130 @@
+{
+  "dataset_id": "nm000238",
+  "name": "SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000238-blue)](https://doi.org/10.82901/nemar.nm000238)\n=============================================================\nIMPORTANT \u2014 RESTRICTED SUBJECTS EXCLUDED FROM NEMAR RE-HOST\n=============================================================\nIMPORTANT \u2014 5 of the 85 original subjects (sub-019, sub-020, sub-021, sub-022, sub-026) are EXCLUDED from this NEMAR re-host because their raw EEG files are access-restricted on the KU Leuven Dataverse (HTTP 403 on download without a data-use agreement). Researchers who need these subjects should email sparrkulee@kuleuven.be to request access and download the data directly from https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND (DOI 10.48804/K3VSND). The re-host therefore contains 80 of the original 85 subjects, covering all 11 session types (shortstories01, varyingStories01..10).\nExcluded subjects: sub-019, sub-020, sub-021, sub-022, sub-026\nCohort demographics\n-------------------\nCohort demographics (from Accou et al., Data 2024, 9, 94, Section 2.1): 85 original participants, 74 female / 11 male, aged 21.4 \u00b1 1.9 years (mean \u00b1 SD), inclusion window 18-30 years, all normal-hearing (\u226430 dB HL, 125-8000 Hz), native Dutch/Flemish speakers. Per-subject numeric ages are not published by the SparrKULee authors for privacy reasons; `participants.tsv` only ships 3-year binned ages in the `age_range` column (see `participants.json` for details).\nHow to cite\n-----------\nPlease cite the original SparrKULee data descriptor when using this dataset: Accou, B., Bollens, L., Gillis, M., Verheijen, W., Van hamme, H., & Francart, T. (2024). SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants. Data, 9(8), 94. https://doi.org/10.3390/data9080094\nWhere extra metadata lives (after NEMAR preparation)\n----------------------------------------------------\n  * `/task-listeningActive_eeg.json` \u2014 full recording-level EEG metadata (SamplingFrequency, Manufacturer, EEGChannelCount, EEGReference, PowerLineFrequency, ...). Version 1.0.0 kept it under `/code/` because the EEG was stored as `.bdf.gz`, which the validator does not match against the sidecar. Since version 1.1.0 the EEG is plain `.bdf` and the sidecar is back at the dataset root, where BIDS inheritance applies it to every `task-listeningActive` recording.\n  * `/task-restingState_eeg.json` \u2014 added in version 1.1.0 (the validator requires it once the restingState `.bdf` files are visible): TaskName and SamplingFrequency from the BDF headers; EEGReference, PowerLineFrequency and SoftwareFilters copied from the authors' `task-listeningActive_eeg.json` (same BioSemi ActiveTwo set-up).\n  * `/sourcedata/` \u2014 added in version 1.1.0: the 659 original `*_eeg.bdf.gz` files of the KU Leuven RDR release (doi:10.48804/K3VSND), byte-identical, at their original relative paths (`sourcedata/sub-XXX/ses-YYY/eeg/...`). They are the files version 1.0.0 stored as EEG data. `sourcedata/sourcedata_provenance.json` lists size, SHA-256, MD5 and RDR file id of each. BIDS tools ignore `sourcedata/`.\n  * `sub-*/ses-*/eeg/*_channels.tsv` (task listeningActive, restingState) \u2014 added in version 1.1.0, one per recording: channel name, type, units, sampling frequency and filter cut-offs read from that recording's BDF header.\n  * `/task-listeningActive_eeg.json` \u2014 in version 1.1.0 `TaskName` changed from `listening` to `listeningActive` to match the file names; `SamplingFrequency` 8192 \u2192 1024 to match the BDF headers; every other value is the authors'.\n  * No `electrodes.tsv` / `coordsystem.json`: the release has no digitised electrode positions, and template positions would be invented.\n  * `/code/remarks/` \u2014 per-session free-form recording notes (`.txt` and `.docx`) originally placed under `sub-XX/ses-YY/remarks/`. Relocated so the validator does not see an arbitrary `remarks/` folder inside BIDS session directories.\n  * `/code/convert_accou2023.py` \u2014 the exact script that was run to produce this NEMAR re-host.\n-------------------------------------------------------------\nREADME\n======\n__SparrKULee__: A Speech-evoked Auditory Response Repository of the KU Leuven, containing EEG of 85 participants\nOverview\n--------\nAn overview of the dataset including details about the filetypes, methods and technical validation can be found in [our\npaper]()\nNotes\n-----\nCode to download, preprocess and validate the data can be found at https://github.com/exporl/auditory-eeg-dataset.\nDue to mistakes during recording, following recordings do not have an adequate number of triggers and can therefore not be accurately aligned with the stimulus:\n1. sub-006/ses-shortstories01/eeg/sub-006_ses-shortstories01_task-listeningActive_run-06_eeg.bdf\n2. sub-017/ses-shortstories01/eeg/sub-017_ses-shortstories01_task-listeningActive_run-03_eeg.bdf\n3. sub-048/ses-varyingStories05/eeg/sub-048_ses-varyingStories05_task-listeningActive_run-04_eeg.bdf",
+  "recording_modality": [
+    "eeg"
+  ],
+  "datatypes": [
+    "eeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0) for the EEG data. Stimuli can only be used for non-commercial purposes.",
+  "authors": [
+    "Bernd Accou",
+    "Lies Bollens",
+    "Marlies Gillis",
+    "Wendy Verheijen",
+    "Hugo Van hamme",
+    "Tom Francart"
+  ],
+  "funding": [
+    "KU Leuven Special Research Fund C24/18/099 (C2 project to Tom Francart and Hugo Van hamme)",
+    "PhD grant 1S89622N of the Research Foundation Flanders (FWO)",
+    "PhD grant 1SB1421N of the Research Foundation Flanders (FWO)",
+    "European Research Council (ERC) grant under the European Union\u2019s Horizon 2020 research and innovation program (grant agreement No 637424, ERC Starting Grant to Tom Francart)"
+  ],
+  "dataset_doi": "10.82901/nemar.nm000238",
+  "associated_paper_doi": null,
+  "tasks": [
+    "listeningActive",
+    "restingState"
+  ],
+  "sessions": [
+    "shortstories01",
+    "varyingStories01",
+    "varyingStories02",
+    "varyingStories03",
+    "varyingStories04",
+    "varyingStories05",
+    "varyingStories06",
+    "varyingStories07",
+    "varyingStories08",
+    "varyingStories09",
+    "varyingStories10"
+  ],
+  "total_files": 659,
+  "size_bytes": 261484051551,
+  "data_processed": true,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 80,
+    "ages": [],
+    "age_min": null,
+    "age_max": null,
+    "age_mean": null,
+    "species": null,
+    "sex_distribution": {
+      "f": 74,
+      "m": 11
+    },
+    "handedness_distribution": {
+      "r": 73,
+      "l": 10
+    }
+  },
+  "senior_author": "Tom Francart",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-17T15:46:09.072830+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-10-16 11:12:36"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/nm000238",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv",
+      "task-audiogram_beh.json",
+      "task-listeningActive_eeg.json",
+      "task-listeningActive_events.json",
+      "task-listeningActive_stimulation.json",
+      "task-restingState_eeg.json",
+      "task-restingState_events.json"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/nm000238",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "Amelie Algoet, Jolien Smeulders, Lore Kerkhofs, Sara Peeters, Merel Dillen, Ilham Gamgami, Amber Verhoeven, Vitor Vasconselos, Jard Hendrickx, Lore Verbeke and Ana Carbajal Chavez",
+  "how_to_acknowledge": "Please cite the original SparrKULee data descriptor when using this dataset: Accou, B., Bollens, L., Gillis, M., Verheijen, W., Van hamme, H., & Francart, T. (2024). SparrKULee: A Speech-Evoked Auditory Response Repository from KU Leuven, Containing the EEG of 85 Participants. Data, 9(8), 94. https://doi.org/10.3390/data9080094",
+  "ethics_approvals": [
+    "Medical Ethics Committee UZ KU Leuven/Research (KU Leuven, Belgium) with reference S57102"
+  ],
+  "references_and_links": [
+    "Code to preprocess the data and run technical validation: 'https://github.com/exporl/auditory-eeg-dataset'",
+    "https://doi.org/10.3390/data9080094"
+  ],
+  "generated_by": [
+    {
+      "Name": "convert_accou2023.py (EEGDash)",
+      "Description": "Prepared the original SparrKULee BIDS dataset for NEMAR re-hosting: excluded 5 access-restricted subjects (sub-019..022, sub-026), moved the string-range `age` column into `age_range` and set `age` to n/a, moved per-session `remarks/` text files into `/code/remarks/`, moved orphan top-level EEG sidecar into `/code/` (the raw EEG ships as `.bdf.gz` which the validator does not recognise as a BIDS data suffix), filled in recommended task-level metadata (TaskName/Description/Instructions/Institution*/StimulusPresentation) on the top-level `_beh.json` and `_events.json` sidecars, and added a prominent exclusion warning plus cohort demographics to README and dataset_description.json.",
+      "CodeURL": "https://github.com/bruaristimunha/EEGDash"
+    },
+    {
+      "Name": "nm000238 v1.1.0 plain-BDF rebuild",
+      "Description": "Decompressed every sub-*/ses-*/eeg/*_eeg.bdf.gz of version 1.0.0 to *_eeg.bdf: the SHA-256 of each .bdf.gz was checked against its git-annex key, gzip checked CRC32 and length, and every BDF header was checked (BIOSEMI magic, 24BIT, header size, file size = header + records x samples x 3 bytes). Signal and header bytes are unchanged. Moved task-listeningActive_eeg.json from /code/ back to the dataset root and removed *.bdf.gz from .bidsignore. Scripts and the per-file verification table are in /code/plain_bdf_v1.1.0/.",
+      "CodeURL": "https://github.com/nemarDatasets/nm000238/tree/main/code/plain_bdf_v1.1.0"
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/K3VSND",
+      "DOI": "doi:10.48804/K3VSND"
+    }
+  ],
+  "ingestion_fingerprint": "b43f218177136e45f51da63ea39a0df4c734509ce4bd389bf42b06a773d7a2c3"
+}

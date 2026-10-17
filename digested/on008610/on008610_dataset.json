@@ -1,0 +1,120 @@
+{
+  "dataset_id": "on008610",
+  "name": "FUS and Tactile Neuromodulation in NHP VPL - Electrophysiology",
+  "canonical_name": null,
+  "source": "nemar",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on008610-blue)](https://doi.org/10.82901/nemar.on008610)\n# Raw Macaque Electrophysiology Dataset\n## Overview\nThis dataset contains intracranial electrophysiology recordings from macaque VPL thalamus, acquired with a NeuroNexus V1x32-Edge (Vector Array) single-shank probe (32 sites, 100 \u00b5m pitch, 177 \u00b5m\u00b2 iridium sites) on a Blackrock Cerebus system, during two conditions:\n- Focused ultrasound (FUS) neuromodulation, with sonication targeted at either:\n  - VPL thalamus (co-located with the recording array), or\n  - insular cortex (recording remains in VPL)\n- Tactile stimulation of the hand contralateral to the recording hemisphere (right-hemisphere VPL array \u2192 left-hand stimulation, unless a session notes otherwise)\nFUS target (VPL vs insular cortex) and tactile stimulation side are recorded in each run\u2019s `events.tsv` `stim_site` column\u2014treat that as the authoritative per-trial record.\nThe data support the following publication:\nZheng, N., Yang, P.F., Phipps, M.A. et al. Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus. *Nat Commun* (2026). https://doi.org/10.1038/s41467-026-75826-8\n## Subjects\nSpecies: *Macaca fascicularis* and *Macaca mulatta*\nSubject identifiers have been anonymized.\nAdditional subject information is provided in `participants.tsv`.\n## Experimental design\nExtracellular electrophysiology was recorded from: VPL\nFocused ultrasound was targeted to: VPL or insular cortex\nThe experiment included the following conditions:\n- Focused ultrasound stimulation\n- Tactile stimulation\nEvent timing and stimulation parameters are provided in the corresponding `events.tsv` files.\n## Electrophysiology acquisition\nRecording system: Blackrock Microsystems\nRecording hardware: CerePlex Direct with CerePlex M headstage\nElectrode/probe: NeuroNexus V1x32-Edge\nNumber of channels: 32\nSampling frequency: 30 kHz (spikes), 1 kHz (LFP)\nRecording hemisphere: Right\nRecording location: VPL\n## Data format\nRaw Blackrock files were read with NPMK (`openNSx`, `openNEV`) in MATLAB and written to NWB using MatNWB.\nFile types may include:\n- `.nwb`: raw electrophysiology recording and metadata\n- `.tsv`: participant, channel, electrode, and event tables\n- `.json`: metadata describing corresponding files\n## Data included\nsub-01:\n- Spikes dataset: FUS stimulation in VPL (`ses-ieeg01`)\n- LFP dataset: FUS stimulation in VPL (`ses-ieeg02`)\n- Tactile stimulation (left hand) (`ses-ieeg03`)\nsub-02:\n- Spikes dataset: FUS stimulation in VPL (`ses-ieeg01`)\n- LFP dataset: FUS stimulation in VPL (`ses-ieeg02`)\n- Spikes dataset: FUS stimulation in insular cortex (`ses-ieeg03`)\n- Tactile stimulation (left hand) (`ses-ieeg04`)\n## Funding\nThis work was supported by NIH grants:\n- NINDS RF1 NS126144\n- NIBIB 1U18EB02935\n## Contact\nLi Min Chen\nVanderbilt University Institute of Imaging Science, Vanderbilt University\nlimin.chen@vanderbilt.edu\nLi Min Chen\nDepartment of Radiology and Radiological Sciences, Vanderbilt University Medical Center\nlimin.chen@vumc.org\n## License\nCC0",
+  "recording_modality": [
+    "ieeg"
+  ],
+  "datatypes": [
+    "ieeg"
+  ],
+  "experimental_modalities": null,
+  "bids_version": "1.9.0",
+  "license": "CC0",
+  "authors": [
+    "Ning Zheng",
+    "Pai-Feng Yang",
+    "M. Anthony Phipps",
+    "Jiro Kusunose",
+    "Arabinda Mishra",
+    "Jixin Xia",
+    "William Rodriguez",
+    "Allen T. Newton",
+    "Benoit M. Dawant",
+    "John C. Gore",
+    "Charles F. Caskey",
+    "Li Min Chen"
+  ],
+  "funding": [
+    "NIH/NINDS RF1 NS126144",
+    "NIH/NIBIB 1U18EB02935"
+  ],
+  "dataset_doi": "10.82901/nemar.on008610",
+  "associated_paper_doi": null,
+  "tasks": [
+    "FUS",
+    "Tactile"
+  ],
+  "sessions": [
+    "ieeg01",
+    "ieeg02",
+    "ieeg03",
+    "ieeg04"
+  ],
+  "total_files": 65,
+  "size_bytes": 5440786324,
+  "data_processed": false,
+  "study_domain": null,
+  "study_design": null,
+  "contributing_labs": null,
+  "n_contributing_labs": null,
+  "demographics": {
+    "subjects_count": 2,
+    "ages": [
+      19,
+      15
+    ],
+    "age_min": 15,
+    "age_max": 19,
+    "age_mean": 17.0,
+    "species": null,
+    "sex_distribution": {
+      "f": 1,
+      "m": 1
+    },
+    "handedness_distribution": null
+  },
+  "senior_author": "Li Min Chen",
+  "contact_info": null,
+  "timestamps": {
+    "digested_at": "2026-10-17T15:46:09.070505+00:00",
+    "dataset_created_at": null,
+    "dataset_modified_at": "2026-09-08 20:07:51"
+  },
+  "storage": {
+    "backend": "nemar",
+    "base": "s3://nemar/on008610",
+    "raw_key": "dataset_description.json",
+    "dep_keys": [
+      "CHANGES",
+      "README.md",
+      "participants.json",
+      "participants.tsv"
+    ]
+  },
+  "external_links": {
+    "source_url": "https://nemar.org/dataexplorer/detail/on008610",
+    "osf_url": null,
+    "github_url": null,
+    "paper_url": null
+  },
+  "acknowledgements": "We thank Ms. Chaohui Tang and Xuerong Zhang for assisting with animal care and data acquisition.",
+  "how_to_acknowledge": "Please cite: Zheng, N., Yang, P.F., Phipps, M.A. et al. Transcranial focused ultrasound modulates spiking, LFP, and BOLD activity in the primate thalamus. Nat Commun (2026). https://doi.org/10.1038/s41467-026-75826-8",
+  "ethics_approvals": [
+    "IACUC protocol # M170062-03"
+  ],
+  "references_and_links": [
+    "https://doi.org/10.1038/s41467-026-75826-8"
+  ],
+  "generated_by": [
+    {
+      "Name": "Custom BlackRock-to-BIDS pipeline",
+      "Version": "0.1.0",
+      "Description": "NPMK (openNSx/openNEV) for raw read, MatNWB for NWB export",
+      "CodeURL": ""
+    }
+  ],
+  "source_datasets": [
+    {
+      "URL": "n/a",
+      "DOI": "n/a",
+      "Version": "n/a"
+    },
+    {
+      "DOI": "doi:10.18112/openneuro.ds008610.v1.0.0"
+    }
+  ],
+  "ingestion_fingerprint": "188c2a5af1ad8081c8761d4fd287bec76d875db5057207124bda1ebf436bd7d5"
+}
