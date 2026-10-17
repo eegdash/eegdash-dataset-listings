@@ -3,7 +3,7 @@
   "name": "High-Density Diffuse Optical Tomography Audiovisual Movie Viewing Dataset",
   "canonical_name": null,
   "source": "nemar",
-  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007473-blue)](https://doi.org/10.82901/nemar.on007473)\nThis dataset consists of 5 participants completing functional localizer and movie viewing tasks. These data are stored in SNIRF format with optode and landmark locations associated with subject specific head models.\nSee the corresponding publication for more information about this dataset:\nTripathy K, Fogarty M, et al., \"Mapping brain function in adults and young children during naturalistic viewing with high-density diffuse optical tomography.\" Human Brain Mapping. 2024 May;45(7):e26684. doi: 10.1002/hbm.26684. PMID: 38703090; PMCID: PMC11069306.\nKalyan Tripathy, Zachary E. Markow, Morgan Fogarty, Mariel L. Schroeder, Alexa M. Svoboda, Adam T. Eggebrecht, Bradley L. Schlaggar, Jason W. Trobaugh, Joseph P. Culver, \"Multisensory naturalistic decoding with high-density diffuse optical tomography,\" Neurophoton. 12(1) 015002 (23 January 2025) https://doi.org/10.1117/1.NPh.12.1.015002",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on007473-blue)](https://doi.org/10.82901/nemar.on007473)\nThis dataset consists of 5 participants completing functional localizer and movie viewing tasks. These data are stored in SNIRF format with optode and landmark locations associated with subject specific head models.\nSee the corresponding publication for more information about this dataset:\nTripathy K, Fogarty M, et al., \"Mapping brain function in adults and young children during naturalistic viewing with high-density diffuse optical tomography.\" Human Brain Mapping. 2024 May;45(7):e26684. doi: 10.1002/hbm.26684. PMID: 38703090; PMCID: PMC11069306.\nKalyan Tripathy, Zachary E. Markow, Morgan Fogarty, Mariel L. Schroeder, Alexa M. Svoboda, Adam T. Eggebrecht, Bradley L. Schlaggar, Jason W. Trobaugh, Joseph P. Culver, \"Multisensory naturalistic decoding with high-density diffuse optical tomography,\" Neurophoton. 12(1) 015002 (23 January 2025) https://doi.org/10.1117/1.NPh.12.1.015002\n## Stimuli (added 2026-10-08, metadata only)\nThe movie clips are not included (commercial films and TV episodes). `task-MOVnnn` is a run index within a session, not\na movie identity (the same label shows different clips in different sessions).\n- `stimuli/stimuli.tsv`: the 20 clips used in the movie runs (authors' clip names: Finding Nemo `FN_gates_1-4`, Frozen\n  `Frozen1-4`, Moana `Moana1-4`, Curious George `CG_D1/D2/SM1/SM2`, Daniel Tiger's Neighborhood `DT1-4`), the source\n  work, the movie-period duration in the runs, and where the clip starts in the source. Each start was found by\n  correlating the authors' 1-s luminance and auditory-envelope regressors\n  (https://github.com/mefogarty/feature-mapping-tutorial, `FeatureRegressors/`) with a copy of the source; for the four\n  films the start is the position in one copy and other editions may be offset by a few seconds; for Curious George and\n  Daniel Tiger it is the position in the official channel upload listed.\n- `stimuli/run_to_clip.tsv`: run -> clip for the 80 movie runs listed in the authors' table `MovieParticipants_Adults.mat`\n  (same repository). Every clip has a distinct movie-period duration (0.1-s resolution), which identifies the clip of the\n  remaining movie runs.\nKnown file issues (unchanged here): `*_events.tsv` give `onset` and `duration` in samples (10.42 Hz), not seconds; and\n`mne.io.read_raw_snirf` fails on these SNIRF files because `landmarkLabels` is stored 2-D.\n### Runs of A04 in ses-7 and ses-8 (added 2026-10-09)\nSub-A04 has 16 movie-task runs outside the 40 A04 movie runs of the 2024 paper (its Supplemental Table ST1 counts\n40 movie runs for A04; the authors' run table `MovieParticipants_Adults.mat` covers ses-2 to ses-6): ses-7 MOV002-MOV009 and\nses-8 MOV001-MOV008. The 2025 paper (Tripathy et al., Neurophotonics 12(1):015002, cited above) says that this data set\n\"was expanded to include additional movie viewing runs\" and that supplemental data \"were collected from one participant who\nlistened to audio clips without visuals and watched silent movies stripped of audio for a control experiment\"; its\nSupplementary Fig. 4A/C: \"Participant A04 was presented with four different audio clips without any visuals twice each\nover the course of an imaging session\" and \"with four different silent movie clips twice each over the course of an\nimaging session\". Two sessions of 8 control runs each match ses-7 and ses-8 (8 runs each) of A04. Which session is the\naudio-only one and which the silent-video one, which four clips were used and in what order are not stated, and the SNIRF\nsidecars of these runs give only `TaskName` MOVnnn. Until the authors confirm, these 16 runs should not be taken as\naudiovisual movie viewing; `stimuli/run_to_clip.tsv` does not list them.",
   "recording_modality": [
     "fnirs"
   ],
@@ -68,7 +68,7 @@
     "8"
   ],
   "total_files": 189,
-  "size_bytes": 38979322105,
+  "size_bytes": 38979337819,
   "data_processed": true,
   "study_domain": null,
   "study_design": null,
@@ -87,9 +87,9 @@
   "senior_author": "Joseph P Culver",
   "contact_info": null,
   "timestamps": {
-    "digested_at": "2026-08-26T11:14:24.581118+00:00",
+    "digested_at": "2026-10-17T20:50:40.985355+00:00",
     "dataset_created_at": null,
-    "dataset_modified_at": "2026-06-19 01:14:29"
+    "dataset_modified_at": "2026-10-15 22:22:39"
   },
   "storage": {
     "backend": "nemar",
@@ -107,10 +107,17 @@
     "github_url": null,
     "paper_url": null
   },
+  "generated_by": [
+    {
+      "Name": "NeuralBench video-stimulus metadata enrichment",
+      "Version": "2026-10-08",
+      "Description": "Metadata only, no media files: stimulus table (stimuli/stimuli.tsv), README section 'Stimuli' and the changes listed in CHANGES under 1.0.1. Facts and sources are in the README section. Prepared by Bruno Aristimunha (NeuralBench video work); the videos stay with their rights holders."
+    }
+  ],
   "source_datasets": [
     {
       "DOI": "doi:10.18112/openneuro.ds007473.v1.0.0"
     }
   ],
-  "ingestion_fingerprint": "c93b4eecfaeb237590548870d8d3d8000f73d8f270a25e8217e00ed79521651e"
+  "ingestion_fingerprint": "bc9398bdf1665bd0dae5d067c328b9433d8f24af65f7ba6e521e4dda458b2446"
 }

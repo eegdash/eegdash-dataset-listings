@@ -1,10 +1,148 @@
 {
   "dataset": "on006695",
   "source": "nemar",
-  "digested_at": "2026-08-26T11:13:26.491800+00:00",
+  "digested_at": "2026-10-17T20:50:49.173435+00:00",
   "record_count": 19,
   "records_with_integrity_issues": 0,
   "records": [
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-101_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-101/eeg/sub-101_task-sleep_eeg.set",
+      "bids_relpath": "sub-101/eeg/sub-101_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "101",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "101",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-101/eeg/sub-101_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-101/eeg/sub-101_task-sleep_channels.tsv",
+          "sub-101/eeg/sub-101_task-sleep_eeg.json",
+          "sub-101/eeg/sub-101_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-101/eeg/sub-101_task-sleep_eeg.set": "SHA256E-s329623648--b9c333b5cdecab67cd4b373e1c8cfc5b906eed1c4ab1847ceb6f15952a7f912f.set",
+          "sub-101/eeg/sub-101_task-sleep_eeg.fdt": "SHA256E-s179787180--b1496b7c94851c7eb7ff1f42766568ae3829945860594ef621ee0f3c000e69e6.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 14982265,
+      "duration_seconds": 29964.53,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 29.0,
+        "sex": "Female",
+        "ethnicity": "Asian"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 29964.53,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-102_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-102/eeg/sub-102_task-sleep_eeg.set",
+      "bids_relpath": "sub-102/eeg/sub-102_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "102",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "102",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-102/eeg/sub-102_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-102/eeg/sub-102_task-sleep_channels.tsv",
+          "sub-102/eeg/sub-102_task-sleep_eeg.json",
+          "sub-102/eeg/sub-102_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-102/eeg/sub-102_task-sleep_eeg.set": "SHA256E-s423932264--eb222cf48778c45aca4316a5a32585485952ebb4fac014f61e80fb04f9631dcc.set",
+          "sub-102/eeg/sub-102_task-sleep_eeg.fdt": "SHA256E-s231227616--a32238336675ce61aa1dc28041e726a9f3e87b20f90ccbe6151f5e23687198b5.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 19268968,
+      "duration_seconds": 38537.936,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 24.0,
+        "sex": "Female",
+        "ethnicity": "White"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 38537.936,
+      "montage_hash": null
+    },
     {
       "dataset": "on006695",
       "data_name": "on006695_sub-104_task-sleep_eeg.set",
@@ -53,7 +191,7 @@
       "nchans": 3,
       "ntimes": 18345000,
       "duration_seconds": 36690.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 21.0,
         "sex": "Male",
@@ -63,291 +201,15 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
       "recording_duration": 36690,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-126_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-126/eeg/sub-126_task-sleep_eeg.set",
-      "bids_relpath": "sub-126/eeg/sub-126_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "126",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "126",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-126/eeg/sub-126_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-126/eeg/sub-126_task-sleep_channels.tsv",
-          "sub-126/eeg/sub-126_task-sleep_eeg.json",
-          "sub-126/eeg/sub-126_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-126/eeg/sub-126_task-sleep_eeg.set": "SHA256E-s344204048--f9a8d264e8adc4be02ea8b64841a83326249cb01a1513129a716c3639131a09e.set",
-          "sub-126/eeg/sub-126_task-sleep_eeg.fdt": "SHA256E-s187740024--0882a26a22bae9d2eb74e61d7447a89894b99544788bdb28653aecb39d8063a8.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 15645002,
-      "duration_seconds": 31290.004,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 23.0,
-        "sex": "Female",
-        "ethnicity": "Caucasian"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 31290.004,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-119_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-119/eeg/sub-119_task-sleep_eeg.set",
-      "bids_relpath": "sub-119/eeg/sub-119_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "119",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "119",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-119/eeg/sub-119_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-119/eeg/sub-119_task-sleep_channels.tsv",
-          "sub-119/eeg/sub-119_task-sleep_eeg.json",
-          "sub-119/eeg/sub-119_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-119/eeg/sub-119_task-sleep_eeg.set": "SHA256E-s305263528--c418e255cb58cfd578d695e0bb91331d18d07cab4762b5ace77fdf11d0d71bc7.set",
-          "sub-119/eeg/sub-119_task-sleep_eeg.fdt": "SHA256E-s166500000--bbd1f2542a19c1504b4beb830487acc491a2e559429c7248699c20dd06e778b3.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 13875000,
-      "duration_seconds": 27750.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 21.0,
-        "sex": "Female",
-        "ethnicity": "Hispanic"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 27750,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-110_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-110/eeg/sub-110_task-sleep_eeg.set",
-      "bids_relpath": "sub-110/eeg/sub-110_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "110",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "110",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-110/eeg/sub-110_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-110/eeg/sub-110_task-sleep_channels.tsv",
-          "sub-110/eeg/sub-110_task-sleep_eeg.json",
-          "sub-110/eeg/sub-110_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-110/eeg/sub-110_task-sleep_eeg.set": "SHA256E-s350804072--6a948c0f51119866506a12a6bb93f439e6251af789d24a2ec0854a5442fd8f95.set",
-          "sub-110/eeg/sub-110_task-sleep_eeg.fdt": "SHA256E-s191340000--611f64192e9b5bb20adc9cf8fc59194b303e083e0347a29600714bef6abb8abf.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 15945000,
-      "duration_seconds": 31890.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 19.0,
-        "sex": "Female",
-        "ethnicity": "Hispanic"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 31890,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-125_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-125/eeg/sub-125_task-sleep_eeg.set",
-      "bids_relpath": "sub-125/eeg/sub-125_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "125",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "125",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-125/eeg/sub-125_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-125/eeg/sub-125_task-sleep_channels.tsv",
-          "sub-125/eeg/sub-125_task-sleep_eeg.json",
-          "sub-125/eeg/sub-125_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-125/eeg/sub-125_task-sleep_eeg.set": "SHA256E-s347834040--dc7ebc5b269615ff9d12c4d0a58702f22d81dca98626b3b1c1b8e07c343de755.set",
-          "sub-125/eeg/sub-125_task-sleep_eeg.fdt": "SHA256E-s189720000--54cefa0e048cf37c9a985add3e532ac8f7790a53ceba85fe83290d682202e610.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 15810000,
-      "duration_seconds": 31620.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 20.0,
-        "sex": "Male",
-        "ethnicity": "Chinese"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 31620,
       "montage_hash": null
     },
     {
@@ -398,7 +260,7 @@
       "nchans": 3,
       "ntimes": 13721359,
       "duration_seconds": 27442.718,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 25.0,
         "sex": "Male",
@@ -408,84 +270,15 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
       "recording_duration": 27442.718,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-123_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-123/eeg/sub-123_task-sleep_eeg.set",
-      "bids_relpath": "sub-123/eeg/sub-123_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "123",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "123",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-123/eeg/sub-123_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-123/eeg/sub-123_task-sleep_channels.tsv",
-          "sub-123/eeg/sub-123_task-sleep_eeg.json",
-          "sub-123/eeg/sub-123_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-123/eeg/sub-123_task-sleep_eeg.set": "SHA256E-s312523616--04e89c3dfadb8ba3941a5752490972de3579c4c9aaf7594318a5a4a1c470582b.set",
-          "sub-123/eeg/sub-123_task-sleep_eeg.fdt": "SHA256E-s170460000--204691ac86cb04c416255ea09a945e9a971276775a82049ad960a833dc43a671.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 14205000,
-      "duration_seconds": 28410.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 23.0,
-        "sex": "Female",
-        "ethnicity": "Caucasian"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 28410,
       "montage_hash": null
     },
     {
@@ -536,7 +329,7 @@
       "nchans": 3,
       "ntimes": 16481753,
       "duration_seconds": 32963.506,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 20.0,
         "sex": "Male",
@@ -546,15 +339,291 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
       "recording_duration": 32963.506,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-107_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-107/eeg/sub-107_task-sleep_eeg.set",
+      "bids_relpath": "sub-107/eeg/sub-107_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "107",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "107",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-107/eeg/sub-107_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-107/eeg/sub-107_task-sleep_channels.tsv",
+          "sub-107/eeg/sub-107_task-sleep_eeg.json",
+          "sub-107/eeg/sub-107_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-107/eeg/sub-107_task-sleep_eeg.set": "SHA256E-s324073752--fe64813ec7fac22575edea2442438be8637b6c049cd2c4874c4a85ce29c0f42a.set",
+          "sub-107/eeg/sub-107_task-sleep_eeg.fdt": "SHA256E-s176760000--f375f8162785026103c33b7095af4c1104994fc397682ecc4eb4bac790a87b2a.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 14730000,
+      "duration_seconds": 29460.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "Male",
+        "ethnicity": "Filipino/Mexican"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 29460,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-109_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-109/eeg/sub-109_task-sleep_eeg.set",
+      "bids_relpath": "sub-109/eeg/sub-109_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "109",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "109",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-109/eeg/sub-109_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-109/eeg/sub-109_task-sleep_channels.tsv",
+          "sub-109/eeg/sub-109_task-sleep_eeg.json",
+          "sub-109/eeg/sub-109_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-109/eeg/sub-109_task-sleep_eeg.set": "SHA256E-s350144072--2718ce2bcd66a1c0918971216d000954dbf2e7fd1c4eb6c54d8e8bc7b43677d8.set",
+          "sub-109/eeg/sub-109_task-sleep_eeg.fdt": "SHA256E-s190980000--6308ca5955cdfebe678f4d4218b73dbde38df9ae8ad0ea2485274fdb634ffcfe.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 15915000,
+      "duration_seconds": 31830.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "Male",
+        "ethnicity": "Asian"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 31830,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-110_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-110/eeg/sub-110_task-sleep_eeg.set",
+      "bids_relpath": "sub-110/eeg/sub-110_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "110",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "110",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-110/eeg/sub-110_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-110/eeg/sub-110_task-sleep_channels.tsv",
+          "sub-110/eeg/sub-110_task-sleep_eeg.json",
+          "sub-110/eeg/sub-110_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-110/eeg/sub-110_task-sleep_eeg.set": "SHA256E-s350804072--6a948c0f51119866506a12a6bb93f439e6251af789d24a2ec0854a5442fd8f95.set",
+          "sub-110/eeg/sub-110_task-sleep_eeg.fdt": "SHA256E-s191340000--611f64192e9b5bb20adc9cf8fc59194b303e083e0347a29600714bef6abb8abf.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 15945000,
+      "duration_seconds": 31890.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 19.0,
+        "sex": "Female",
+        "ethnicity": "Hispanic"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 31890,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-111_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-111/eeg/sub-111_task-sleep_eeg.set",
+      "bids_relpath": "sub-111/eeg/sub-111_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "111",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "111",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-111/eeg/sub-111_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-111/eeg/sub-111_task-sleep_channels.tsv",
+          "sub-111/eeg/sub-111_task-sleep_eeg.json",
+          "sub-111/eeg/sub-111_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-111/eeg/sub-111_task-sleep_eeg.set": "SHA256E-s301633480--e2f13b698eeaad31c00fab6d8d6f56af330c8730ef7d576c20797e7dddc73dd2.set",
+          "sub-111/eeg/sub-111_task-sleep_eeg.fdt": "SHA256E-s164520000--9907b31832a17c948a8e5ab4b2694f48cedce26913b476096f80fa8889c33a4b.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 13710000,
+      "duration_seconds": 27420.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 26.0,
+        "sex": "Male",
+        "ethnicity": "white"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 27420,
       "montage_hash": null
     },
     {
@@ -605,7 +674,7 @@
       "nchans": 3,
       "ntimes": 17040000,
       "duration_seconds": 34080.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 20.0,
         "sex": "Female",
@@ -615,9 +684,9 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
@@ -674,7 +743,7 @@
       "nchans": 3,
       "ntimes": 16275002,
       "duration_seconds": 32550.004,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 26.0,
         "sex": "Female",
@@ -684,84 +753,15 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
       "recording_duration": 32550.004,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-102_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-102/eeg/sub-102_task-sleep_eeg.set",
-      "bids_relpath": "sub-102/eeg/sub-102_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "102",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "102",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-102/eeg/sub-102_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-102/eeg/sub-102_task-sleep_channels.tsv",
-          "sub-102/eeg/sub-102_task-sleep_eeg.json",
-          "sub-102/eeg/sub-102_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-102/eeg/sub-102_task-sleep_eeg.set": "SHA256E-s423932264--eb222cf48778c45aca4316a5a32585485952ebb4fac014f61e80fb04f9631dcc.set",
-          "sub-102/eeg/sub-102_task-sleep_eeg.fdt": "SHA256E-s231227616--a32238336675ce61aa1dc28041e726a9f3e87b20f90ccbe6151f5e23687198b5.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 19268968,
-      "duration_seconds": 38537.936,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 24.0,
-        "sex": "Female",
-        "ethnicity": "White"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 38537.936,
       "montage_hash": null
     },
     {
@@ -812,7 +812,7 @@
       "nchans": 3,
       "ntimes": 16095002,
       "duration_seconds": 32190.004,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 24.0,
         "sex": "Female",
@@ -822,84 +822,15 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
       "recording_duration": 32190.004,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-107_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-107/eeg/sub-107_task-sleep_eeg.set",
-      "bids_relpath": "sub-107/eeg/sub-107_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "107",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "107",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-107/eeg/sub-107_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-107/eeg/sub-107_task-sleep_channels.tsv",
-          "sub-107/eeg/sub-107_task-sleep_eeg.json",
-          "sub-107/eeg/sub-107_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-107/eeg/sub-107_task-sleep_eeg.set": "SHA256E-s324073752--fe64813ec7fac22575edea2442438be8637b6c049cd2c4874c4a85ce29c0f42a.set",
-          "sub-107/eeg/sub-107_task-sleep_eeg.fdt": "SHA256E-s176760000--f375f8162785026103c33b7095af4c1104994fc397682ecc4eb4bac790a87b2a.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 14730000,
-      "duration_seconds": 29460.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 20.0,
-        "sex": "Male",
-        "ethnicity": "Filipino/Mexican"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 29460,
       "montage_hash": null
     },
     {
@@ -950,7 +881,7 @@
       "nchans": 3,
       "ntimes": 15735002,
       "duration_seconds": 31470.004,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 27.0,
         "sex": "Male",
@@ -960,9 +891,9 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
@@ -973,9 +904,9 @@
     },
     {
       "dataset": "on006695",
-      "data_name": "on006695_sub-111_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-111/eeg/sub-111_task-sleep_eeg.set",
-      "bids_relpath": "sub-111/eeg/sub-111_task-sleep_eeg.set",
+      "data_name": "on006695_sub-119_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-119/eeg/sub-119_task-sleep_eeg.set",
+      "bids_relpath": "sub-119/eeg/sub-119_task-sleep_eeg.set",
       "datatype": "eeg",
       "suffix": "eeg",
       "extension": ".set",
@@ -983,14 +914,14 @@
         "eeg"
       ],
       "entities": {
-        "subject": "111",
+        "subject": "119",
         "session": null,
         "task": "sleep",
         "run": null,
         "acquisition": null
       },
       "entities_mne": {
-        "subject": "111",
+        "subject": "119",
         "session": null,
         "task": "sleep",
         "run": null,
@@ -999,15 +930,15 @@
       "storage": {
         "backend": "nemar",
         "base": "s3://nemar/on006695",
-        "raw_key": "sub-111/eeg/sub-111_task-sleep_eeg.set",
+        "raw_key": "sub-119/eeg/sub-119_task-sleep_eeg.set",
         "dep_keys": [
-          "sub-111/eeg/sub-111_task-sleep_channels.tsv",
-          "sub-111/eeg/sub-111_task-sleep_eeg.json",
-          "sub-111/eeg/sub-111_task-sleep_eeg.fdt"
+          "sub-119/eeg/sub-119_task-sleep_channels.tsv",
+          "sub-119/eeg/sub-119_task-sleep_eeg.json",
+          "sub-119/eeg/sub-119_task-sleep_eeg.fdt"
         ],
         "annex_keys": {
-          "sub-111/eeg/sub-111_task-sleep_eeg.set": "SHA256E-s301633480--e2f13b698eeaad31c00fab6d8d6f56af330c8730ef7d576c20797e7dddc73dd2.set",
-          "sub-111/eeg/sub-111_task-sleep_eeg.fdt": "SHA256E-s164520000--9907b31832a17c948a8e5ab4b2694f48cedce26913b476096f80fa8889c33a4b.fdt"
+          "sub-119/eeg/sub-119_task-sleep_eeg.set": "SHA256E-s305263528--c418e255cb58cfd578d695e0bb91331d18d07cab4762b5ace77fdf11d0d71bc7.set",
+          "sub-119/eeg/sub-119_task-sleep_eeg.fdt": "SHA256E-s166500000--bbd1f2542a19c1504b4beb830487acc491a2e559429c7248699c20dd06e778b3.fdt"
         }
       },
       "ch_names": [
@@ -1017,234 +948,27 @@
       ],
       "sampling_frequency": 500.0,
       "nchans": 3,
-      "ntimes": 13710000,
-      "duration_seconds": 27420.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "ntimes": 13875000,
+      "duration_seconds": 27750.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
-        "age": 26.0,
-        "sex": "Male",
-        "ethnicity": "white"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 27420,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-109_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-109/eeg/sub-109_task-sleep_eeg.set",
-      "bids_relpath": "sub-109/eeg/sub-109_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "109",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "109",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-109/eeg/sub-109_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-109/eeg/sub-109_task-sleep_channels.tsv",
-          "sub-109/eeg/sub-109_task-sleep_eeg.json",
-          "sub-109/eeg/sub-109_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-109/eeg/sub-109_task-sleep_eeg.set": "SHA256E-s350144072--2718ce2bcd66a1c0918971216d000954dbf2e7fd1c4eb6c54d8e8bc7b43677d8.set",
-          "sub-109/eeg/sub-109_task-sleep_eeg.fdt": "SHA256E-s190980000--6308ca5955cdfebe678f4d4218b73dbde38df9ae8ad0ea2485274fdb634ffcfe.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 15915000,
-      "duration_seconds": 31830.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 20.0,
-        "sex": "Male",
-        "ethnicity": "Asian"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 31830,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-101_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-101/eeg/sub-101_task-sleep_eeg.set",
-      "bids_relpath": "sub-101/eeg/sub-101_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "101",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "101",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-101/eeg/sub-101_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-101/eeg/sub-101_task-sleep_channels.tsv",
-          "sub-101/eeg/sub-101_task-sleep_eeg.json",
-          "sub-101/eeg/sub-101_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-101/eeg/sub-101_task-sleep_eeg.set": "SHA256E-s329623648--b9c333b5cdecab67cd4b373e1c8cfc5b906eed1c4ab1847ceb6f15952a7f912f.set",
-          "sub-101/eeg/sub-101_task-sleep_eeg.fdt": "SHA256E-s179787180--b1496b7c94851c7eb7ff1f42766568ae3829945860594ef621ee0f3c000e69e6.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 14982265,
-      "duration_seconds": 29964.53,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 29.0,
+        "age": 21.0,
         "sex": "Female",
-        "ethnicity": "Asian"
+        "ethnicity": "Hispanic"
       },
       "_has_missing_files": false,
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
-      "recording_duration": 29964.53,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on006695",
-      "data_name": "on006695_sub-124_task-sleep_eeg.set",
-      "bidspath": "on006695/sub-124/eeg/sub-124_task-sleep_eeg.set",
-      "bids_relpath": "sub-124/eeg/sub-124_task-sleep_eeg.set",
-      "datatype": "eeg",
-      "suffix": "eeg",
-      "extension": ".set",
-      "recording_modality": [
-        "eeg"
-      ],
-      "entities": {
-        "subject": "124",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "124",
-        "session": null,
-        "task": "sleep",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on006695",
-        "raw_key": "sub-124/eeg/sub-124_task-sleep_eeg.set",
-        "dep_keys": [
-          "sub-124/eeg/sub-124_task-sleep_channels.tsv",
-          "sub-124/eeg/sub-124_task-sleep_eeg.json",
-          "sub-124/eeg/sub-124_task-sleep_eeg.fdt"
-        ],
-        "annex_keys": {
-          "sub-124/eeg/sub-124_task-sleep_eeg.set": "SHA256E-s312193664--2029470d23851506ba222d0193c665df258dc86c9ce96be86a3ddd523106007a.set",
-          "sub-124/eeg/sub-124_task-sleep_eeg.fdt": "SHA256E-s170280024--6fb27abeffdd4712bc2f08d20903da96f2e4523dd61d47ccd92bf6496367bdb8.fdt"
-        }
-      },
-      "ch_names": [
-        "FP1-AFz",
-        "FP2-AFz",
-        "FF"
-      ],
-      "sampling_frequency": 500.0,
-      "nchans": 3,
-      "ntimes": 14190002,
-      "duration_seconds": 28380.004,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
-      "participant_tsv": {
-        "age": 20.0,
-        "sex": "Male",
-        "ethnicity": "Filipino, Mexican"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "nemar_records",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 60,
-      "eeg_reference": "common",
-      "software_filters": "n/a",
-      "recording_type": "continuous",
-      "recording_duration": 28380.004,
+      "recording_duration": 27750,
       "montage_hash": null
     },
     {
@@ -1295,7 +1019,7 @@
       "nchans": 3,
       "ntimes": 13695000,
       "duration_seconds": 27390.0,
-      "digested_at": "2026-08-26T11:13:26.491800+00:00",
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
       "participant_tsv": {
         "age": 27.0,
         "sex": "Female",
@@ -1305,15 +1029,291 @@
       "_metadata_provenance": {
         "sampling_frequency": "mne_bids",
         "nchans": "mne_bids",
-        "ntimes": "nemar_records",
+        "ntimes": "size_arithmetic",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60,
       "eeg_reference": "common",
       "software_filters": "n/a",
       "recording_type": "continuous",
       "recording_duration": 27390,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-123_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-123/eeg/sub-123_task-sleep_eeg.set",
+      "bids_relpath": "sub-123/eeg/sub-123_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "123",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "123",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-123/eeg/sub-123_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-123/eeg/sub-123_task-sleep_channels.tsv",
+          "sub-123/eeg/sub-123_task-sleep_eeg.json",
+          "sub-123/eeg/sub-123_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-123/eeg/sub-123_task-sleep_eeg.set": "SHA256E-s312523616--04e89c3dfadb8ba3941a5752490972de3579c4c9aaf7594318a5a4a1c470582b.set",
+          "sub-123/eeg/sub-123_task-sleep_eeg.fdt": "SHA256E-s170460000--204691ac86cb04c416255ea09a945e9a971276775a82049ad960a833dc43a671.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 14205000,
+      "duration_seconds": 28410.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "Female",
+        "ethnicity": "Caucasian"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 28410,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-124_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-124/eeg/sub-124_task-sleep_eeg.set",
+      "bids_relpath": "sub-124/eeg/sub-124_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "124",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "124",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-124/eeg/sub-124_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-124/eeg/sub-124_task-sleep_channels.tsv",
+          "sub-124/eeg/sub-124_task-sleep_eeg.json",
+          "sub-124/eeg/sub-124_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-124/eeg/sub-124_task-sleep_eeg.set": "SHA256E-s312193664--2029470d23851506ba222d0193c665df258dc86c9ce96be86a3ddd523106007a.set",
+          "sub-124/eeg/sub-124_task-sleep_eeg.fdt": "SHA256E-s170280024--6fb27abeffdd4712bc2f08d20903da96f2e4523dd61d47ccd92bf6496367bdb8.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 14190002,
+      "duration_seconds": 28380.004,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "Male",
+        "ethnicity": "Filipino, Mexican"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 28380.004,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-125_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-125/eeg/sub-125_task-sleep_eeg.set",
+      "bids_relpath": "sub-125/eeg/sub-125_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "125",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "125",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-125/eeg/sub-125_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-125/eeg/sub-125_task-sleep_channels.tsv",
+          "sub-125/eeg/sub-125_task-sleep_eeg.json",
+          "sub-125/eeg/sub-125_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-125/eeg/sub-125_task-sleep_eeg.set": "SHA256E-s347834040--dc7ebc5b269615ff9d12c4d0a58702f22d81dca98626b3b1c1b8e07c343de755.set",
+          "sub-125/eeg/sub-125_task-sleep_eeg.fdt": "SHA256E-s189720000--54cefa0e048cf37c9a985add3e532ac8f7790a53ceba85fe83290d682202e610.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 15810000,
+      "duration_seconds": 31620.0,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 20.0,
+        "sex": "Male",
+        "ethnicity": "Chinese"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 31620,
+      "montage_hash": null
+    },
+    {
+      "dataset": "on006695",
+      "data_name": "on006695_sub-126_task-sleep_eeg.set",
+      "bidspath": "on006695/sub-126/eeg/sub-126_task-sleep_eeg.set",
+      "bids_relpath": "sub-126/eeg/sub-126_task-sleep_eeg.set",
+      "datatype": "eeg",
+      "suffix": "eeg",
+      "extension": ".set",
+      "recording_modality": [
+        "eeg"
+      ],
+      "entities": {
+        "subject": "126",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "126",
+        "session": null,
+        "task": "sleep",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "nemar",
+        "base": "s3://nemar/on006695",
+        "raw_key": "sub-126/eeg/sub-126_task-sleep_eeg.set",
+        "dep_keys": [
+          "sub-126/eeg/sub-126_task-sleep_channels.tsv",
+          "sub-126/eeg/sub-126_task-sleep_eeg.json",
+          "sub-126/eeg/sub-126_task-sleep_eeg.fdt"
+        ],
+        "annex_keys": {
+          "sub-126/eeg/sub-126_task-sleep_eeg.set": "SHA256E-s344204048--f9a8d264e8adc4be02ea8b64841a83326249cb01a1513129a716c3639131a09e.set",
+          "sub-126/eeg/sub-126_task-sleep_eeg.fdt": "SHA256E-s187740024--0882a26a22bae9d2eb74e61d7447a89894b99544788bdb28653aecb39d8063a8.fdt"
+        }
+      },
+      "ch_names": [
+        "FP1-AFz",
+        "FP2-AFz",
+        "FF"
+      ],
+      "sampling_frequency": 500.0,
+      "nchans": 3,
+      "ntimes": 15645002,
+      "duration_seconds": 31290.004,
+      "digested_at": "2026-10-17T20:50:49.173435+00:00",
+      "participant_tsv": {
+        "age": 23.0,
+        "sex": "Female",
+        "ethnicity": "Caucasian"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "size_arithmetic",
+        "ch_names": "mne_bids",
+        "duration_seconds": "sidecar_arithmetic"
+      },
+      "power_line_frequency": 60,
+      "eeg_reference": "common",
+      "software_filters": "n/a",
+      "recording_type": "continuous",
+      "recording_duration": 31290.004,
       "montage_hash": null
     }
   ]

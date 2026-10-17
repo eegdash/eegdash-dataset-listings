@@ -1,9 +1,9 @@
 {
   "dataset_id": "nm000276",
-  "name": "SWEC iEEG Dataset",
+  "name": "Carzaniga-2025-foundation-10.48550/arxiv.2506.20354",
   "canonical_name": null,
   "source": "nemar",
-  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000276-blue)](https://doi.org/10.82901/nemar.nm000276)\n# SWEC iEEG Dataset (BIDS)\nLong-term pre-surgical intracranial EEG (iEEG) from patients with\npharmacoresistant epilepsy, recorded at the Sleep-Wake-Epilepsy-Center (SWEC),\nDepartment of Neurology, Inselspital, University of Bern, in collaboration with\nthe Integrated Systems Laboratory, ETH Zurich.\n## Contents\n- Subjects: 40\n- Total recording: 5376 hours of continuous iEEG\n- Annotated electrographic seizures: 381\n- Task label: `ltm` (long-term monitoring; passive, no task)\n- Format: BrainVision (IEEE float32), data in microvolts (\u00b5V)\n## Recording & preprocessing (at source)\n- Intracranial strip, grid, and depth electrodes (mixed).\n- 16-bit analog-to-digital conversion.\n- Sampling rate 512 Hz or 1024 Hz (per subject; see participants.tsv).\n- Digitally band-pass filtered 0.5-150 Hz (4th-order Butterworth, forward-backward / zero-phase).\n- Channels with artifacts were removed at the source; remaining channels marked `good`.\n- Median reference across channels (per the SWEC-ETHZ long-term protocol).\n- Seizure onsets/offsets annotated by board-certified epileptologist Prof. Kaspar Schindler.\n## Anonymization \u2014 channels & electrodes\nThe public SWEC release is FULLY ANONYMIZED. Anatomical channel labels and\nelectrode locations are NOT disclosed (electrode coordinates + the implied\nimaging would be re-identifying for epilepsy-surgery patients). Channels are\ntherefore named `iEEG01..iEEGNN`, preserving the original recording order\n(1:1 with the source channel index 0..N-1). `electrodes.tsv` lists every\ncontact with coordinates set to `n/a`, and channel type is recorded as the\ngeneric intracranial `SEEG` (the per-contact strip/grid/depth type is not\ndisclosed). No locations were fabricated.\n## Provenance\nConverted to BIDS from the public HDF5 release at\nhttps://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg\n(authentic medical-blocks / artorg source). This BIDS dataset re-hosts the\n40-subject / 378-file public subset.\n## How to cite\nCarzaniga, F., Hersche, M., Sebastian, A., Schindler, K. & Rahimi, A.\n\"A foundation model with multi-variate parallel attention to generate neuronal\nactivity.\" arXiv:2506.20354 (2025). https://doi.org/10.48550/arXiv.2506.20354\nSWEC-ETHZ iEEG Database: http://ieeg-swez.ethz.ch/\n## License\nCommunity Data License Agreement \u2013 Permissive, Version 2.0 (CDLA-Permissive-2.0).",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.nm000276-blue)](https://doi.org/10.82901/nemar.nm000276)\n# SWEC iEEG Dataset (BIDS)\nLong-term pre-surgical intracranial EEG (iEEG) from patients with\npharmacoresistant epilepsy, recorded at the Sleep-Wake-Epilepsy-Center (SWEC),\nDepartment of Neurology, Inselspital, University of Bern, in collaboration with\nthe Integrated Systems Laboratory, ETH Zurich.\n## Contents\n- Subjects: 50 (`sub-01` ... `sub-50`; 40 since v1.0.0, 10 added in v1.1.0)\n- Total recording: 6672 hours of continuous iEEG\n- Annotated electrographic seizures: 460\n- Task label: `ltm` (long-term monitoring; passive, no task)\n- Format: BrainVision (IEEE float32), data in microvolts (\u00b5V)\n## Recording & preprocessing (at source)\n- Intracranial strip, grid, and depth electrodes (mixed).\n- 16-bit analog-to-digital conversion.\n- Sampling rate 512 Hz or 1024 Hz (per subject; see participants.tsv).\n- Digitally band-pass filtered 0.5-150 Hz (4th-order Butterworth, forward-backward / zero-phase).\n- Channels with artifacts were removed at the source; remaining channels marked `good`.\n- Median reference across channels (per the SWEC-ETHZ long-term protocol).\n- Seizure onsets/offsets annotated by board-certified epileptologist Prof. Kaspar Schindler.\n## Anonymization \u2014 channels & electrodes\nThe public SWEC release is FULLY ANONYMIZED. Anatomical channel labels and\nelectrode locations are NOT disclosed (electrode coordinates + the implied\nimaging would be re-identifying for epilepsy-surgery patients). Channels are\ntherefore named `iEEG01..iEEGNN`, preserving the original recording order\n(1:1 with the source channel index 0..N-1). `electrodes.tsv` lists every\ncontact with coordinates set to `n/a`, and channel type is recorded as the\ngeneric intracranial `SEEG` (the per-contact strip/grid/depth type is not\ndisclosed). No locations were fabricated.\n## Provenance\nv1.0.0 (40 subjects) was converted to BIDS from the public HDF5 release at\nhttps://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg\n(authentic medical-blocks / artorg source) and re-hosted its 40-subject public subset.\nv1.1.0 adds the 10 remaining subjects of the same cohort (`sub-07`, `sub-13`,\n`sub-14`, `sub-17`, `sub-21`, `sub-25`, `sub-26`, `sub-40`, `sub-44`, `sub-49`)\nfrom the authors' Hugging Face release `NeuroTec/SWEC_iEEG_Dataset`, revision\n`584e9d29313ad6d2ed675b5d5202240f4ff75970`\n(https://huggingface.co/datasets/NeuroTec/SWEC_iEEG_Dataset). Every source file\nwas verified against its Hugging Face LFS sha256 before conversion. Conversion is\nlossless: the float32 `data/ieeg` samples of the HDF5 part files are written\nunchanged, in part order, into one continuous BrainVision file per subject (no\nfiltering, resampling, re-referencing, scaling or channel removal), and the\n`data/seizures` onsets/offsets become `events.tsv` rows. The source holds no\ntiming information beyond this gap-free concatenation of parts.\nSubject crosswalk. `sub-NN` here is upstream patient NN. In the Hugging Face\nrelease the same patient is folder `ID{NN+18}` (e.g. `sub-07` = `ID25`,\n`sub-50` = `ID68`): the virtual-dataset index of every `IDxx_total.h5` still\npoints to `ID{xx-18}_part_*.h5`, and the 40 v1.0.0 subjects match folders\nID19-ID68 exactly in channel count, sampling rate, sample count and (for 39 of\n40) seizure table. The same converter reproduces 39 of the 40 v1.0.0 `.eeg`\nfiles byte-for-byte (sha256 identical) from the Hugging Face files. The\nexception is `sub-02` (see Corrections). The\n`participants.tsv` column `source_id` records the Hugging Face folder of each\nsubject.\nHugging Face folders ID01-ID18 are a second copy of 18 of these patients\n(ID01-ID18 = ID20, ID21, ID22, ID24, ID25, ID27, ID28, ID29, ID30, ID31, ID32,\nID34, ID35, ID36, ID37, ID38, ID39, ID40: identical channel count, sampling\nrate, sample count and seizure table; compressed signal chunks byte-identical\nwhere compared). They are not added again. The card's figures (68 subjects,\n9328 hours, 704 ictal events) count these 18 copies; the 50 distinct patients\ntotal 6672 hours and 460 annotated seizures.\n## Corrections in v1.1.0\n- `sub-02`: in the v1.0.0 file, 6 of the 20 source parts (parts 1, 6, 9, 14,\n  15 and 16; 170,454,540 samples, about 92.5 h) were all zeros. The source\n  holds real signal there (Hugging Face `ID20`); the other 14 parts are\n  identical. v1.1.0 replaces the file with the complete conversion, same size,\n  sampling rate and channels.\n- `sub-01`: v1.0.0 shipped no `events.tsv`. The Hugging Face release annotates\n  25 seizures for this patient (folder `ID19`), whose signal is byte-identical\n  to the v1.0.0 file. v1.1.0 adds them.\n## How to cite\nCarzaniga, F., Hersche, M., Sebastian, A., Schindler, K. & Rahimi, A.\n\"A foundation model with multi-variate parallel attention to generate neuronal\nactivity.\" arXiv:2506.20354 (2025). https://doi.org/10.48550/arXiv.2506.20354\nSWEC-ETHZ iEEG Database: http://ieeg-swez.ethz.ch/\n## License\nCommunity Data License Agreement \u2013 Permissive, Version 2.0 (CDLA-Permissive-2.0).\nThe Hugging Face dataset card (revision `584e9d29`) states:\n\"The iEEG SWEC dataset is licensed using the Community Data License Agreement \u2013\nPermissive, Version 2.0\" and, under \"Disclaimer\": \"This dataset may only be used\nfor research. For other applications any liability is denied. In particular, the\ndataset must not be used for diagnostic purposes.\"",
   "recording_modality": [
     "ieeg"
   ],
@@ -27,15 +27,15 @@
     "ltm"
   ],
   "sessions": [],
-  "total_files": 40,
-  "size_bytes": 3254808175422,
+  "total_files": 50,
+  "size_bytes": 5206284456061,
   "data_processed": false,
   "study_domain": null,
   "study_design": null,
   "contributing_labs": null,
   "n_contributing_labs": null,
   "demographics": {
-    "subjects_count": 40,
+    "subjects_count": 50,
     "ages": [],
     "age_min": null,
     "age_max": null,
@@ -47,9 +47,9 @@
   "senior_author": "Abbas Rahimi",
   "contact_info": null,
   "timestamps": {
-    "digested_at": "2026-08-26T11:04:33.770977+00:00",
+    "digested_at": "2026-10-17T20:51:00.502362+00:00",
     "dataset_created_at": null,
-    "dataset_modified_at": "2026-07-10 16:27:26"
+    "dataset_modified_at": "2026-10-16 11:26:06"
   },
   "storage": {
     "backend": "nemar",
@@ -74,20 +74,30 @@
   "references_and_links": [
     "https://doi.org/10.48550/arXiv.2506.20354",
     "http://ieeg-swez.ethz.ch/",
-    "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg"
+    "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
+    "https://huggingface.co/datasets/NeuroTec/SWEC_iEEG_Dataset"
   ],
   "generated_by": [
     {
       "Name": "swec-bids-converter",
       "Description": "Streaming HDF5 (data/ieeg, \u00b5V) -> BrainVision BIDS conversion; channels indexed in original order, seizures mapped to events, electrodes n/a (anonymized).",
       "CodeURL": "https://github.com/IBM/multi-variate-parallel-transformer"
+    },
+    {
+      "Name": "laneH_convert.py (nm000276 extension)",
+      "Version": "2026-10-06",
+      "Description": "Streaming HDF5 (Hugging Face NeuroTec/SWEC_iEEG_Dataset @584e9d29, data/ieeg float32 \u00b5V) -> BrainVision BIDS with the v1.0.0 conventions; reproduces v1.0.0 .eeg files byte-for-byte; used for the subjects added in v1.1.0 and sub-01 events."
     }
   ],
   "source_datasets": [
     {
       "URL": "https://mb-neuro.medical-blocks.ch/public_access/databases/ieeg/swec_ieeg",
       "Version": "public_access"
+    },
+    {
+      "URL": "https://huggingface.co/datasets/NeuroTec/SWEC_iEEG_Dataset/tree/584e9d29313ad6d2ed675b5d5202240f4ff75970",
+      "Version": "584e9d29313ad6d2ed675b5d5202240f4ff75970"
     }
   ],
-  "ingestion_fingerprint": "ed17973fd0387cac0f3398916d4cd3cf45c9143fd9418394cca261776c1b881a"
+  "ingestion_fingerprint": "920e0acf6ba0e3d2372e11c439a8ed923375fcbb671ae651b18842cb4554b3a6"
 }

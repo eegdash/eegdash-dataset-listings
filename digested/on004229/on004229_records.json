@@ -1,8 +1,8 @@
 {
   "dataset": "on004229",
   "source": "nemar",
-  "digested_at": "2026-08-26T11:06:34.427812+00:00",
-  "record_count": 3,
+  "digested_at": "2026-10-17T20:50:50.224637+00:00",
+  "record_count": 2,
   "records_with_integrity_issues": 0,
   "records": [
     {
@@ -38,7 +38,8 @@
           "sub-102/meg/sub-102_task-amnoise_channels.tsv",
           "sub-102/meg/sub-102_task-amnoise_events.tsv",
           "sub-102/meg/sub-102_task-amnoise_events.json",
-          "sub-102/meg/sub-102_coordsystem.json"
+          "sub-102/meg/sub-102_coordsystem.json",
+          "sub-102/meg/sub-102_task-amnoise_meg.json"
         ],
         "annex_keys": {
           "sub-102/meg/sub-102_task-amnoise_meg.fif": "SHA256E-s1714250058--9776105e52877190a633c9f388dc9b4d84c9b979bc518cd1cfaa89185e693e69.fif"
@@ -380,9 +381,9 @@
       ],
       "sampling_frequency": 1200.0,
       "nchans": 332,
-      "ntimes": 1285199,
+      "ntimes": 1285200,
       "duration_seconds": 1070.9991666666667,
-      "digested_at": "2026-08-26T11:06:34.427812+00:00",
+      "digested_at": "2026-10-17T20:50:50.224637+00:00",
       "participant_tsv": {
         "age": 15.0,
         "sex": null,
@@ -394,67 +395,8 @@
         "nchans": "mne_bids",
         "ntimes": "nemar_records",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
-      "power_line_frequency": 60.0,
-      "software_filters": {
-        "SpatialCompensation": {
-          "GradientOrder": 0
-        }
-      },
-      "manufacturer": "Elekta",
-      "recording_type": "continuous",
-      "recording_duration": 1070.9991666666667,
-      "montage_hash": null
-    },
-    {
-      "dataset": "on004229",
-      "data_name": "on004229_sub-102_acq-crosstalk_meg.fif",
-      "bidspath": "on004229/sub-102/meg/sub-102_acq-crosstalk_meg.fif",
-      "bids_relpath": "sub-102/meg/sub-102_acq-crosstalk_meg.fif",
-      "datatype": "meg",
-      "suffix": "meg",
-      "extension": ".fif",
-      "recording_modality": [
-        "meg"
-      ],
-      "entities": {
-        "subject": "102",
-        "session": null,
-        "task": null,
-        "run": null,
-        "acquisition": "crosstalk"
-      },
-      "entities_mne": {
-        "subject": "102",
-        "session": null,
-        "task": null,
-        "run": null,
-        "acquisition": "crosstalk"
-      },
-      "storage": {
-        "backend": "nemar",
-        "base": "s3://nemar/on004229",
-        "raw_key": "sub-102/meg/sub-102_acq-crosstalk_meg.fif",
-        "dep_keys": [
-          "sub-102/meg/sub-102_coordsystem.json"
-        ],
-        "annex_keys": {
-          "sub-102/meg/sub-102_acq-crosstalk_meg.fif": "SHA256E-s47399--5a2d207f7582f4fa1884787a562c60429ba45b4f8f424f6572198e53d3733e5a.fif"
-        }
-      },
-      "ch_names": null,
-      "sampling_frequency": null,
-      "nchans": null,
-      "ntimes": null,
-      "duration_seconds": null,
-      "digested_at": "2026-08-26T11:06:34.427812+00:00",
-      "participant_tsv": {
-        "age": 15.0,
-        "sex": null,
-        "hand": null
-      },
-      "_has_missing_files": false,
       "power_line_frequency": 60.0,
       "software_filters": {
         "SpatialCompensation": {
@@ -496,7 +438,8 @@
         "base": "s3://nemar/on004229",
         "raw_key": "sub-emptyroom/ses-20000101/meg/sub-emptyroom_ses-20000101_task-noise_meg.fif",
         "dep_keys": [
-          "sub-emptyroom/ses-20000101/meg/sub-emptyroom_ses-20000101_task-noise_channels.tsv"
+          "sub-emptyroom/ses-20000101/meg/sub-emptyroom_ses-20000101_task-noise_channels.tsv",
+          "sub-emptyroom/ses-20000101/meg/sub-emptyroom_ses-20000101_task-noise_meg.json"
         ],
         "annex_keys": {
           "sub-emptyroom/ses-20000101/meg/sub-emptyroom_ses-20000101_task-noise_meg.fif": "SHA256E-s194523391--3b7c425c6fe52e94961ddbe7c755c53a4c2f366495453e5f17a5a205b53969f4.fif"
@@ -838,9 +781,9 @@
       ],
       "sampling_frequency": 1200.0,
       "nchans": 332,
-      "ntimes": 146399,
+      "ntimes": 146400,
       "duration_seconds": 121.99916666666667,
-      "digested_at": "2026-08-26T11:06:34.427812+00:00",
+      "digested_at": "2026-10-17T20:50:50.224637+00:00",
       "participant_tsv": {
         "age": null,
         "sex": null,
@@ -852,7 +795,7 @@
         "nchans": "mne_bids",
         "ntimes": "nemar_records",
         "ch_names": "mne_bids",
-        "duration_seconds": "derived"
+        "duration_seconds": "sidecar_arithmetic"
       },
       "power_line_frequency": 60.0,
       "software_filters": {

@@ -3,7 +3,7 @@
   "name": "The neural dynamics of working memory and transcranial magnetic stimulation",
   "canonical_name": null,
   "source": "openneuro",
-  "readme": "The dataset includes de-identified resting-state EEG recordings (rest), working-memory EEG and behavioural data (workingmemory), TMS-EEG recordings (tmseeg) from four stimulation sites including prefrontal cortex, premotor cortex, parietal cortex, and shoulder as a control condition, as well as behavioural data from a multi-task cognitive battery comprising the bar (bar), backwards digit span (bds), colour (clt), go/no-go (gng), n-back (nback), operation span (opn), orientation (ort), symbol search (sbs), stop-signal (sst), and symmetry span (sym) tasks. Structural MRI data were collected as part of the broader study but are not included in this OpenNeuro release.",
+  "readme": "This dataset contains behavioural, resting-state EEG, working-memory EEG, and TMS-EEG data from healthy adult participants.\nThe dataset includes behavioural task files and EEG data organised according to the Brain Imaging Data Structure (BIDS). Tasks include resting state, working memory, TMS-EEG, and cognitive/behavioural tasks.\nParticipants are identified using anonymised subject labels. No directly identifying information is included.\nFor details of the experimental procedures, task descriptions, preprocessing status, and data quality checks, please refer to the associated dataset manuscript.",
   "recording_modality": [
     "eeg"
   ],
@@ -17,12 +17,8 @@
     "Mana Biabani",
     "Nigel C. Rogasch"
   ],
-  "funding": [
-    "DP170100738",
-    "DE180100741",
-    "FT210100694"
-  ],
-  "dataset_doi": "doi:10.18112/openneuro.ds008037.v1.0.0",
+  "funding": [],
+  "dataset_doi": "doi:10.18112/openneuro.ds008037.v1.0.1",
   "associated_paper_doi": null,
   "tasks": [
     "rest",
@@ -30,7 +26,7 @@
     "workingmemory"
   ],
   "sessions": [],
-  "total_files": 670,
+  "total_files": 717,
   "size_bytes": 105318399253,
   "data_processed": false,
   "study_domain": null,
@@ -179,7 +175,7 @@
     "Mana Biabani"
   ],
   "timestamps": {
-    "digested_at": "2026-08-27T09:00:28.011201+00:00",
+    "digested_at": "2026-10-17T20:51:37.882741+00:00",
     "dataset_created_at": "2026-06-26T01:54:51.365Z",
     "dataset_modified_at": "2026-07-09T01:44:07.000Z"
   },
@@ -189,7 +185,7 @@
     "raw_key": "dataset_description.json",
     "dep_keys": [
       "CHANGES",
-      "README.md",
+      "README",
       "datacite.yml",
       "participants.json",
       "participants.tsv"
@@ -201,6 +197,7 @@
     "github_url": null,
     "paper_url": null
   },
+  "how_to_acknowledge": "\nIf you use this dataset, please cite the dataset and the following related publications:\n\nBiabani et al., https://doi.org/10.64898/2026.07.12.738085\n\nBiabani et al., https://doi.org/10.1162/imag_a_00349",
   "ethics_approvals": [
     "12723"
   ],
@@ -211,5 +208,5 @@
       "Description": "MATLAB converter for TMS-EEG EEGLAB data into BIDS EEG with NIBS metadata stored in eeg/."
     }
   ],
-  "ingestion_fingerprint": "f0c6fcd43f959433ca32f4106de5bda1519c14b8a86fd3052c7573c12a890705"
+  "ingestion_fingerprint": "5bd7f03943a567db538a17cb09958a1d3d65b25fdfaa2c9fb38ba53a77c2472c"
 }
