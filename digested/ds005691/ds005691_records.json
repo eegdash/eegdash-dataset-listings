@@ -1,15 +1,15 @@
 {
   "dataset": "ds005691",
   "source": "openneuro",
-  "digested_at": "2026-08-27T08:53:07.294142+00:00",
+  "digested_at": "2026-10-22T12:46:42.440803+00:00",
   "record_count": 8,
   "records_with_integrity_issues": 0,
   "records": [
     {
       "dataset": "ds005691",
-      "data_name": "ds005691_sub-04_task-countingDeviants_ieeg.vhdr",
-      "bidspath": "ds005691/sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr",
-      "bids_relpath": "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr",
+      "data_name": "ds005691_sub-01_task-countingDeviants_ieeg.vhdr",
+      "bidspath": "ds005691/sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr",
+      "bids_relpath": "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr",
       "datatype": "ieeg",
       "suffix": "ieeg",
       "extension": ".vhdr",
@@ -17,14 +17,14 @@
         "ieeg"
       ],
       "entities": {
-        "subject": "04",
+        "subject": "01",
         "session": null,
         "task": "countingDeviants",
         "run": null,
         "acquisition": null
       },
       "entities_mne": {
-        "subject": "04",
+        "subject": "01",
         "session": null,
         "task": "countingDeviants",
         "run": null,
@@ -33,14 +33,20 @@
       "storage": {
         "backend": "s3",
         "base": "s3://openneuro.org/ds005691",
-        "raw_key": "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr",
+        "raw_key": "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr",
         "dep_keys": [
-          "sub-04/ieeg/sub-04_task-countingDeviants_channels.tsv",
-          "sub-04/ieeg/sub-04_task-countingDeviants_events.tsv",
-          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg",
-          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk",
-          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.dat"
-        ]
+          "sub-01/ieeg/sub-01_task-countingDeviants_channels.tsv",
+          "sub-01/ieeg/sub-01_task-countingDeviants_events.tsv",
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.json",
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg",
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk",
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr": "SHA256E-s2220--2f7e846bd46d2df668f90c4e291996767a42511c30c1d392458982f242096e4c.vhdr",
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg": "SHA256E-s81376400--06a1bc84d260a6af4600e027bd84d0208c6245309506a94e8ccfe9c9e377aa62.eeg",
+          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk": "SHA256E-s60481--1987828c4c4a2c23d6531210ad6b7f4a3c560bfce5a028da138b8d2f1ae69e3c.vmrk"
+        }
       },
       "ch_names": [
         "is1",
@@ -53,11 +59,11 @@
       ],
       "sampling_frequency": 2500.0,
       "nchans": 7,
-      "ntimes": 5845200,
-      "duration_seconds": 2338.08,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
+      "ntimes": 5812600,
+      "duration_seconds": 2325.04,
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
       "participant_tsv": {
-        "age": 58.0,
+        "age": 51.0,
         "sex": "f"
       },
       "_has_missing_files": false,
@@ -84,7 +90,95 @@
       "manufacturers_model_name": "BrainAmp DC",
       "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
       "recording_type": "continuous",
-      "recording_duration": 2338.08,
+      "recording_duration": 2325.04,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005691",
+      "data_name": "ds005691_sub-02_task-countingDeviants_ieeg.vhdr",
+      "bidspath": "ds005691/sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr",
+      "bids_relpath": "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "02",
+        "session": null,
+        "task": "countingDeviants",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "02",
+        "session": null,
+        "task": "countingDeviants",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005691",
+        "raw_key": "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr",
+        "dep_keys": [
+          "sub-02/ieeg/sub-02_task-countingDeviants_channels.tsv",
+          "sub-02/ieeg/sub-02_task-countingDeviants_events.tsv",
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.json",
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg",
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk",
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr": "SHA256E-s2162--5d6bcb609bdd676ac25bf0538d1e7eb392b31b1e52263c02bf6690f5c10e50dc.vhdr",
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg": "SHA256E-s96570600--85af3a55f8e6690b6514f03074d020ad3aaf1e4ac9b251dcdf70441cc1151168.eeg",
+          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk": "SHA256E-s60462--302d3a544aff4ae7559696133c1c8e086f9c7720d5885e55b193b7f7f6954a3c.vmrk"
+        }
+      },
+      "ch_names": [
+        "is1",
+        "is2",
+        "is4",
+        "is5",
+        "is6",
+        "is7",
+        "is8"
+      ],
+      "sampling_frequency": 2500.0,
+      "nchans": 7,
+      "ntimes": 6897900,
+      "duration_seconds": 2759.16,
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
+      "participant_tsv": {
+        "age": 33.0,
+        "sex": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "fourth contact (counted from the most caudal contact) on a Boston Scientific; SC-2218 70 cm Linear ST Percutaneous Lead",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "anti_aliasingFilter": {
+          "cutoff_Hz_": 1000,
+          "roll_off": "30dB/Octave"
+        },
+        "high_passFilter": {
+          "cutoff_Hz_": 0.016
+        }
+      },
+      "manufacturer": "Brain Products GmbH",
+      "manufacturers_model_name": "BrainAmp DC",
+      "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
+      "recording_type": "continuous",
+      "recording_duration": 2759.16,
       "montage_hash": null
     },
     {
@@ -119,10 +213,16 @@
         "dep_keys": [
           "sub-03/ieeg/sub-03_task-countingDeviants_channels.tsv",
           "sub-03/ieeg/sub-03_task-countingDeviants_events.tsv",
+          "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.json",
           "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.eeg",
           "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vmrk",
           "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.dat"
-        ]
+        ],
+        "annex_keys": {
+          "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vhdr": "SHA256E-s2162--82454d44ead02f68ae7543b603c542340d1b47a4fff38ac69a6fd2986aa94e93.vhdr",
+          "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.eeg": "SHA256E-s86279900--1cf483e9779c29f4cab6aeb84c40c811d097c66770d9c657c1e1629c6f6932b8.eeg",
+          "sub-03/ieeg/sub-03_task-countingDeviants_ieeg.vmrk": "SHA256E-s60481--728364fb116819244399fb63ccdc512303369653a9f94e05b8c9b210f3c6eb47.vmrk"
+        }
       },
       "ch_names": [
         "is1",
@@ -137,7 +237,7 @@
       "nchans": 7,
       "ntimes": 6162850,
       "duration_seconds": 2465.14,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
       "participant_tsv": {
         "age": 34.0,
         "sex": "f"
@@ -167,6 +267,94 @@
       "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
       "recording_type": "continuous",
       "recording_duration": 2465.14,
+      "montage_hash": null
+    },
+    {
+      "dataset": "ds005691",
+      "data_name": "ds005691_sub-04_task-countingDeviants_ieeg.vhdr",
+      "bidspath": "ds005691/sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr",
+      "bids_relpath": "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr",
+      "datatype": "ieeg",
+      "suffix": "ieeg",
+      "extension": ".vhdr",
+      "recording_modality": [
+        "ieeg"
+      ],
+      "entities": {
+        "subject": "04",
+        "session": null,
+        "task": "countingDeviants",
+        "run": null,
+        "acquisition": null
+      },
+      "entities_mne": {
+        "subject": "04",
+        "session": null,
+        "task": "countingDeviants",
+        "run": null,
+        "acquisition": null
+      },
+      "storage": {
+        "backend": "s3",
+        "base": "s3://openneuro.org/ds005691",
+        "raw_key": "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr",
+        "dep_keys": [
+          "sub-04/ieeg/sub-04_task-countingDeviants_channels.tsv",
+          "sub-04/ieeg/sub-04_task-countingDeviants_events.tsv",
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.json",
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg",
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk",
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vhdr": "SHA256E-s2162--46860061c7faf6100bc60887e39a62f6267c94d23fd77514ff8d59304eb959c9.vhdr",
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.eeg": "SHA256E-s81832800--1a87292bc3ef532e0d82bdaa4eabdbde2946f8451cbc0bc150ecd4fdb7e9aa5e.eeg",
+          "sub-04/ieeg/sub-04_task-countingDeviants_ieeg.vmrk": "SHA256E-s60462--9102e9e8763ba870251087f4942b624e7876644920a6e17d46049dba6ac4fb9b.vmrk"
+        }
+      },
+      "ch_names": [
+        "is1",
+        "is2",
+        "is4",
+        "is5",
+        "is6",
+        "is7",
+        "is8"
+      ],
+      "sampling_frequency": 2500.0,
+      "nchans": 7,
+      "ntimes": 5845200,
+      "duration_seconds": 2338.08,
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
+      "participant_tsv": {
+        "age": 58.0,
+        "sex": "f"
+      },
+      "_has_missing_files": false,
+      "_metadata_provenance": {
+        "sampling_frequency": "mne_bids",
+        "nchans": "mne_bids",
+        "ntimes": "binary_parser",
+        "ch_names": "mne_bids",
+        "duration_seconds": "derived"
+      },
+      "power_line_frequency": 50,
+      "ieeg_reference": "fourth contact (counted from the most caudal contact) on a Boston Scientific; SC-2218 70 cm Linear ST Percutaneous Lead",
+      "software_filters": "n/a",
+      "hardware_filters": {
+        "anti_aliasingFilter": {
+          "cutoff_Hz_": 1000,
+          "roll_off": "30dB/Octave"
+        },
+        "high_passFilter": {
+          "cutoff_Hz_": 0.016
+        }
+      },
+      "manufacturer": "Brain Products GmbH",
+      "manufacturers_model_name": "BrainAmp DC",
+      "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
+      "recording_type": "continuous",
+      "recording_duration": 2338.08,
       "montage_hash": null
     },
     {
@@ -201,10 +389,16 @@
         "dep_keys": [
           "sub-06/ieeg/sub-06_task-countingDeviants_channels.tsv",
           "sub-06/ieeg/sub-06_task-countingDeviants_events.tsv",
+          "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.json",
           "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.eeg",
           "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vmrk",
           "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.dat"
-        ]
+        ],
+        "annex_keys": {
+          "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vhdr": "SHA256E-s2591--64455f58112d9fbac1bb84b093e38be3c21cd6c05a9f6cd9c151fbc5b63f27fe.vhdr",
+          "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.eeg": "SHA256E-s56072800--9d1e8b35ba46cdee2ea10a4e31554740c5a93b9a7a1d2ebc4444c06671189e53.eeg",
+          "sub-06/ieeg/sub-06_task-countingDeviants_ieeg.vmrk": "SHA256E-s39990--598144d239cf12f704a147579281bc5690216776988bc6b6b0c27f73804f537b.vmrk"
+        }
       },
       "ch_names": [
         "is1",
@@ -219,7 +413,7 @@
       "nchans": 7,
       "ntimes": 4005200,
       "duration_seconds": 1602.08,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
       "participant_tsv": {
         "age": 49.0,
         "sex": "f"
@@ -249,88 +443,6 @@
       "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
       "recording_type": "continuous",
       "recording_duration": 1602.08,
-      "montage_hash": null
-    },
-    {
-      "dataset": "ds005691",
-      "data_name": "ds005691_sub-10_task-countingDeviants_ieeg.vhdr",
-      "bidspath": "ds005691/sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr",
-      "bids_relpath": "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr",
-      "datatype": "ieeg",
-      "suffix": "ieeg",
-      "extension": ".vhdr",
-      "recording_modality": [
-        "ieeg"
-      ],
-      "entities": {
-        "subject": "10",
-        "session": null,
-        "task": "countingDeviants",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "10",
-        "session": null,
-        "task": "countingDeviants",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "s3",
-        "base": "s3://openneuro.org/ds005691",
-        "raw_key": "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr",
-        "dep_keys": [
-          "sub-10/ieeg/sub-10_task-countingDeviants_channels.tsv",
-          "sub-10/ieeg/sub-10_task-countingDeviants_events.tsv",
-          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg",
-          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vmrk",
-          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.dat"
-        ]
-      },
-      "ch_names": [
-        "is1",
-        "is2",
-        "is4",
-        "is5",
-        "is6",
-        "is7",
-        "is8"
-      ],
-      "sampling_frequency": 2500.0,
-      "nchans": 7,
-      "ntimes": 9456550,
-      "duration_seconds": 3782.62,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
-      "participant_tsv": {
-        "age": 45.0,
-        "sex": "f"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "binary_parser",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 50,
-      "ieeg_reference": "fourth contact (counted from the most caudal contact) on a Boston Scientific; SC-2218 70 cm Linear ST Percutaneous Lead",
-      "software_filters": "n/a",
-      "hardware_filters": {
-        "anti_aliasingFilter": {
-          "cutoff_Hz_": 1000,
-          "roll_off": "30dB/Octave"
-        },
-        "high_passFilter": {
-          "cutoff_Hz_": 0.016
-        }
-      },
-      "manufacturer": "Brain Products GmbH",
-      "manufacturers_model_name": "BrainAmp DC",
-      "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
-      "recording_type": "continuous",
-      "recording_duration": 3782.62,
       "montage_hash": null
     },
     {
@@ -365,10 +477,16 @@
         "dep_keys": [
           "sub-07/ieeg/sub-07_task-countingDeviants_channels.tsv",
           "sub-07/ieeg/sub-07_task-countingDeviants_events.tsv",
+          "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.json",
           "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.eeg",
           "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vmrk",
           "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.dat"
-        ]
+        ],
+        "annex_keys": {
+          "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vhdr": "SHA256E-s2370--8c0017ed4d6cc949fcb4d66cccc36e219b728e4bba26a4f0150c832956257469.vhdr",
+          "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.eeg": "SHA256E-s89063200--8d2774a434586cb1b7bc139dcda84ddd589bf7f354565915c02574bc4fa2433f.eeg",
+          "sub-07/ieeg/sub-07_task-countingDeviants_ieeg.vmrk": "SHA256E-s60459--169d188bbf0e733a0a48f9dcb63e0c8d59f08847ed210a50ccd369fde5833670.vmrk"
+        }
       },
       "ch_names": [
         "is1",
@@ -384,7 +502,7 @@
       "nchans": 8,
       "ntimes": 5566450,
       "duration_seconds": 2226.58,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
       "participant_tsv": {
         "age": 40.0,
         "sex": "f"
@@ -448,10 +566,16 @@
         "dep_keys": [
           "sub-09/ieeg/sub-09_task-countingDeviants_channels.tsv",
           "sub-09/ieeg/sub-09_task-countingDeviants_events.tsv",
+          "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.json",
           "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.eeg",
           "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vmrk",
           "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.dat"
-        ]
+        ],
+        "annex_keys": {
+          "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vhdr": "SHA256E-s2574--35f4012b02760885b6ab73aacbbef94bc80724239ef6f59498d76c238c8bd4bf.vhdr",
+          "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.eeg": "SHA256E-s133354200--536c598b7018827e110afeaf8698285bf7f6ce9c1a9dc54d5665be6b9d4ef359.eeg",
+          "sub-09/ieeg/sub-09_task-countingDeviants_ieeg.vmrk": "SHA256E-s101422--0f12c049d6748e8b012a635e4b40936aeac65ee858ecb6eb1a3c0640ac94090b.vmrk"
+        }
       },
       "ch_names": [
         "is1",
@@ -466,7 +590,7 @@
       "nchans": 7,
       "ntimes": 9525300,
       "duration_seconds": 3810.12,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
       "participant_tsv": {
         "age": 64.0,
         "sex": "m"
@@ -500,9 +624,9 @@
     },
     {
       "dataset": "ds005691",
-      "data_name": "ds005691_sub-02_task-countingDeviants_ieeg.vhdr",
-      "bidspath": "ds005691/sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr",
-      "bids_relpath": "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr",
+      "data_name": "ds005691_sub-10_task-countingDeviants_ieeg.vhdr",
+      "bidspath": "ds005691/sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr",
+      "bids_relpath": "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr",
       "datatype": "ieeg",
       "suffix": "ieeg",
       "extension": ".vhdr",
@@ -510,14 +634,14 @@
         "ieeg"
       ],
       "entities": {
-        "subject": "02",
+        "subject": "10",
         "session": null,
         "task": "countingDeviants",
         "run": null,
         "acquisition": null
       },
       "entities_mne": {
-        "subject": "02",
+        "subject": "10",
         "session": null,
         "task": "countingDeviants",
         "run": null,
@@ -526,14 +650,20 @@
       "storage": {
         "backend": "s3",
         "base": "s3://openneuro.org/ds005691",
-        "raw_key": "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vhdr",
+        "raw_key": "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr",
         "dep_keys": [
-          "sub-02/ieeg/sub-02_task-countingDeviants_channels.tsv",
-          "sub-02/ieeg/sub-02_task-countingDeviants_events.tsv",
-          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.eeg",
-          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.vmrk",
-          "sub-02/ieeg/sub-02_task-countingDeviants_ieeg.dat"
-        ]
+          "sub-10/ieeg/sub-10_task-countingDeviants_channels.tsv",
+          "sub-10/ieeg/sub-10_task-countingDeviants_events.tsv",
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.json",
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg",
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vmrk",
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.dat"
+        ],
+        "annex_keys": {
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vhdr": "SHA256E-s2580--816e4276eaca844fee4e300e5aff8bc866ed17693f5e2a8ebe8ab9f053c1112f.vhdr",
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.eeg": "SHA256E-s132391700--189808c71fa597d3c979dc4fc9db82bc9bedf7f00cbbd62c178b077554ba2a3d.eeg",
+          "sub-10/ieeg/sub-10_task-countingDeviants_ieeg.vmrk": "SHA256E-s101411--cfa6d1439836d130f430061619308709932f97a3f229f6cd3bd4aad1d746c41b.vmrk"
+        }
       },
       "ch_names": [
         "is1",
@@ -546,11 +676,11 @@
       ],
       "sampling_frequency": 2500.0,
       "nchans": 7,
-      "ntimes": 6897900,
-      "duration_seconds": 2759.16,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
+      "ntimes": 9456550,
+      "duration_seconds": 3782.62,
+      "digested_at": "2026-10-22T12:46:42.440803+00:00",
       "participant_tsv": {
-        "age": 33.0,
+        "age": 45.0,
         "sex": "f"
       },
       "_has_missing_files": false,
@@ -577,89 +707,7 @@
       "manufacturers_model_name": "BrainAmp DC",
       "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
       "recording_type": "continuous",
-      "recording_duration": 2759.16,
-      "montage_hash": null
-    },
-    {
-      "dataset": "ds005691",
-      "data_name": "ds005691_sub-01_task-countingDeviants_ieeg.vhdr",
-      "bidspath": "ds005691/sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr",
-      "bids_relpath": "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr",
-      "datatype": "ieeg",
-      "suffix": "ieeg",
-      "extension": ".vhdr",
-      "recording_modality": [
-        "ieeg"
-      ],
-      "entities": {
-        "subject": "01",
-        "session": null,
-        "task": "countingDeviants",
-        "run": null,
-        "acquisition": null
-      },
-      "entities_mne": {
-        "subject": "01",
-        "session": null,
-        "task": "countingDeviants",
-        "run": null,
-        "acquisition": null
-      },
-      "storage": {
-        "backend": "s3",
-        "base": "s3://openneuro.org/ds005691",
-        "raw_key": "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vhdr",
-        "dep_keys": [
-          "sub-01/ieeg/sub-01_task-countingDeviants_channels.tsv",
-          "sub-01/ieeg/sub-01_task-countingDeviants_events.tsv",
-          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.eeg",
-          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.vmrk",
-          "sub-01/ieeg/sub-01_task-countingDeviants_ieeg.dat"
-        ]
-      },
-      "ch_names": [
-        "is1",
-        "is2",
-        "is4",
-        "is5",
-        "is6",
-        "is7",
-        "is8"
-      ],
-      "sampling_frequency": 2500.0,
-      "nchans": 7,
-      "ntimes": 5812600,
-      "duration_seconds": 2325.04,
-      "digested_at": "2026-08-27T08:53:07.294142+00:00",
-      "participant_tsv": {
-        "age": 51.0,
-        "sex": "f"
-      },
-      "_has_missing_files": false,
-      "_metadata_provenance": {
-        "sampling_frequency": "mne_bids",
-        "nchans": "mne_bids",
-        "ntimes": "binary_parser",
-        "ch_names": "mne_bids",
-        "duration_seconds": "derived"
-      },
-      "power_line_frequency": 50,
-      "ieeg_reference": "fourth contact (counted from the most caudal contact) on a Boston Scientific; SC-2218 70 cm Linear ST Percutaneous Lead",
-      "software_filters": "n/a",
-      "hardware_filters": {
-        "anti_aliasingFilter": {
-          "cutoff_Hz_": 1000,
-          "roll_off": "30dB/Octave"
-        },
-        "high_passFilter": {
-          "cutoff_Hz_": 0.016
-        }
-      },
-      "manufacturer": "Brain Products GmbH",
-      "manufacturers_model_name": "BrainAmp DC",
-      "institution_name": "Otto von Guericke University Magdeburg and Leibniz Institute for Neurobiology Magdeburg",
-      "recording_type": "continuous",
-      "recording_duration": 2325.04,
+      "recording_duration": 3782.62,
       "montage_hash": null
     }
   ]
