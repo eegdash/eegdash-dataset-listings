@@ -3,7 +3,7 @@
   "name": "Human electroencephalography recordings from 50 subjects for 22,248 images from 1,854 object concepts",
   "canonical_name": null,
   "source": "nemar",
-  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003825-blue)](https://doi.org/10.82901/nemar.on003825)\nExperiment Details\nHuman electroencephalography recordings from 50 subjects for 1,854 concepts and 22,248 images in the THINGS stimulus database.\nImages were presented in rapid serial visual presentation streams at 10Hz rates. Participants performed an orthogonal fixation colour change detection task.\nExperiment length: 1 hour\n## Stimuli\nThe 22,248 stimulus images are NOT bundled with this BIDS dataset: the\nTHINGS image archive (Hebart et al. 2019) is licensed for research /\nnon-commercial use and may not be redistributed without consent of the\ncopyright owners. Acquire the archive directly from the canonical OSF\nproject (https://osf.io/jum2f/, file `images_THINGS.zip`, ~5 GB,\npassword documented at osf.io/j6a3m), and unpack it under\n`stimuli/<concept>/<file>.jpg`.\nOnce the images are in place, every events.tsv `stim_file` column entry\nresolves to a real file. Two helpers are provided:\n```bash\n# 1) one-off normalisation: rewrites events.tsv to BIDS-canonical form\n#    (adds stim_file, drops stim/stimname, converts onset/duration to seconds)\npython code/normalize_events_to_bids.py\n# 2) sanity check after stimuli are placed\npython code/smoke_test.py\n```\n```python\nimport pandas as pd\nfrom code.align_stimuli import StimulusAligner\naligner = StimulusAligner('.')\nevents = pd.read_csv('sub-01/eeg/sub-01_task-rsvp_events.tsv', sep='\\t')\npaths = aligner.paths_for_events(events)   # list[Path | None]\n```\nSee `stimuli/README` for the license terms and `stimuli/stim-things_image.json`\nfor the BIDS stimulus sidecar.",
+  "readme": "[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003825-blue)](https://doi.org/10.82901/nemar.on003825)\nExperiment Details\nHuman electroencephalography recordings from 50 subjects for 1,854 concepts and 22,248 images in the THINGS stimulus database.\nImages were presented in rapid serial visual presentation streams at 10Hz rates. Participants performed an orthogonal fixation colour change detection task.\nExperiment length: 1 hour\n## Stimuli\nThe stimulus images are included in this dataset under `stimuli/<concept>/<file>.jpg`: the 26,107 images of the\nTHINGS image database (Hebart et al. 2019; 1,854 concepts), of which the events of the 50 participants use 22,448\ndistinct images. They are redistributed here with permission obtained by the NEMAR curator of this dataset (Bruno Aristimunha) for the THINGS image database, whose licence otherwise forbids redistribution without the consent of the copyright owners. Use of the images remains limited to research and education (THINGS licence,\nhttps://osf.io/52wrx/download); the images are not covered by this dataset's licence.\nThe `stim` column of every `*_events.tsv` gives the image path relative to the dataset root (for example\n`stimuli/carousel/carousel_11s.jpg`), and `stimname` its file name; all 22,448 paths resolve to a file under\n`stimuli/`. `code/smoke_test.py` checks this on a local copy, and `code/align_stimuli.py` maps events rows to paths:\n```python\nimport pandas as pd\nfrom code.align_stimuli import StimulusAligner\naligner = StimulusAligner('.')\nevents = pd.read_csv('sub-01/eeg/sub-01_task-rsvp_events.tsv', sep='\\t')\npaths = aligner.paths_for_events(events)   # list[Path | None]\n```\nSee `stimuli/README` for the licence terms and `stimuli/stim-things_image.json` for the BIDS stimulus sidecar.",
   "recording_modality": [
     "eeg"
   ],
@@ -32,7 +32,7 @@
   ],
   "sessions": [],
   "total_files": 50,
-  "size_bytes": 59421078541,
+  "size_bytes": 64538108758,
   "data_processed": true,
   "study_domain": null,
   "study_design": null,
@@ -105,9 +105,9 @@
   "senior_author": "Carlson, Thomas",
   "contact_info": null,
   "timestamps": {
-    "digested_at": "2026-08-26T11:06:02.732849+00:00",
+    "digested_at": "2026-10-23T19:43:58.337065+00:00",
     "dataset_created_at": null,
-    "dataset_modified_at": "2026-03-14 10:00:50"
+    "dataset_modified_at": "2026-10-15 10:16:48"
   },
   "storage": {
     "backend": "nemar",
@@ -134,5 +134,5 @@
       "DOI": "10.18112/openneuro.ds003825.v1.1.0"
     }
   ],
-  "ingestion_fingerprint": "51905c834e32ff96901339a21f098de23759d93544f4f0a44b949aaa121fa912"
+  "ingestion_fingerprint": "7089bbcc4f7663f3aecf7f5072edb4452116614a923bcdc44171648d95642daf"
 }
