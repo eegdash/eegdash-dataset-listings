@@ -1,88 +1,104 @@
 [
   {
     "authors": [
-      "Dr. Laura Tiemann",
-      "Elisabeth S. May",
-      "Markus Ploner",
-      "Felix S. Bott"
+      "Christopher Holdgraf",
+      "Dora Hermes"
     ],
     "bids_validated": false,
     "bids_version": "unknown",
-    "dataset_id": "Tiemann2024",
+    "dataset_id": "Holdgraf2018",
     "datatypes": [
       "eeg",
-      "mea"
-    ],
-    "demographics": {
-      "ages": [],
-      "subjects_count": 166
-    },
-    "description": "\n\nThis EEG data set was recorded by the PainLabMunich (https://painlabmunich.de/) at the Technical University of Munich (TUM). 166 healthy participants took part in two identical experimental sessions, which were separated by one month. In each session, participants underwent a five-minute-long eyes-closed resting state recording. This was followed by an experimental pain paradigm applying 80 brief painful laser stimuli at 4 different intensities, for each of which a verbal pain rating was collected. Brain activity was recorded using EEG and skin conductance responses were measured. Prior to EEG recordings and EEG cap preparation, demographic and psychological variables were collected in each session, including questionnaires about sleep quality, anxiety and depression, positive and negative affect, and pain sensitivity. The original preregistration of the study can be found here: https://clinicaltrials.gov/ct2/show/NCT05616091. \n\nPlease see the README file embedded in the component \"E",
-    "external_links": {
-      "source_url": "https://osf.io/z2h86/"
-    },
-    "funding": [],
-    "license": "CC-BY-4.0",
-    "name": "Intra- and Inter-individual Differences of Pain - Data",
-    "osf_category": "data",
-    "osf_id": "z2h86",
-    "recording_modality": "eeg",
-    "sessions": [],
-    "source": "osf",
-    "study_domain": "sleep",
-    "tags": [
-      "EEG",
-      "interindividual",
-      "intraindividual",
-      "laser stimulation",
-      "pain",
-      "perception"
-    ],
-    "tasks": [],
-    "timestamps": {
-      "dataset_modified_at": "2026-07-03T18:21:34.688714"
-    }
-  },
-  {
-    "authors": [
-      "Angelique Volfart",
-      "Aliette LOCHY",
-      "Bruno Rossion",
-      "Matt Lambon Ralph"
-    ],
-    "bids_validated": false,
-    "bids_version": "unknown",
-    "dataset_id": "Volfart2026",
-    "datatypes": [
-      "eeg"
+      "meg",
+      "mea",
+      "ieeg"
     ],
     "demographics": {
       "ages": [],
       "subjects_count": 0
     },
-    "description": "Behavioral and raw EEG data associated with the manuscript \"Semantic distance differently modulates FPVS-EEG responses to words and pictures\" accepted in Neurobiology of Language. \nThe structure of the dataset follows the BIDS format, with data for each subject stored in its own folder, separately for behavioral and EEG data.",
+    "description": "Intracranial electroencephalography (iEEG) data offer a unique combination of high spatial and temporal resolution measures of the living human brain. However, data collection is limited to highly specialized clinical environments. To improve internal (re)use and external sharing of these unique data, we present a structure for storing and sharing iEEG data: BIDS-iEEG, an extension of the Brain Imaging Data Structure (BIDS) specification, along with freely available examples and a bids-starter-kit. BIDS is a framework for organizing and documenting data and metadata with the aim to make datasets more transparent and reusable and to improve reproducibility of research. It is a community-driven specification with an inclusive decision-making process. As an extension of the BIDS specification, BIDS-iEEG facilitates integration with other modalities such as fMRI, MEG, and EEG. As the BIDS-iEEG extension has received input from many iEEG researchers, it provides a common ground for data tra",
     "external_links": {
-      "source_url": "https://osf.io/bqc4x/"
+      "source_url": "https://osf.io/gwn7r/"
     },
     "funding": [],
-    "license": "CC-BY-4.0",
-    "name": "Dataset for \"Semantic distance differently modulates FPVS-EEG responses to words and pictures\"",
+    "name": "BIDS-iEEG: an extension to the Brain Imaging Data Structure (BIDS) Specification for intracranial electroencephalography",
     "osf_category": "project",
-    "osf_id": "bqc4x",
+    "osf_id": "gwn7r",
     "recording_modality": "eeg",
     "sessions": [],
     "source": "osf",
-    "study_domain": "language",
+    "study_domain": "decision-making",
     "tags": [
-      "EEG",
-      "electroencephalography",
-      "electrophysiology",
-      "fast periodic visual stimulation",
-      "FPVS"
+      "archive",
+      "BIDS-iEEG",
+      "Brain Imaging Data Structure (BIDS)",
+      "datasets",
+      "data specification",
+      "ECOG",
+      "Electrocorticography",
+      "formatting",
+      "iEEG",
+      "Intracranial Encephalography",
+      "sEEG",
+      "standardization",
+      "Stereo Electroencephalography"
     ],
     "tasks": [],
     "timestamps": {
-      "dataset_modified_at": "2026-09-28T07:48:13.298380"
+      "dataset_modified_at": "2018-12-13T22:10:28.860748"
+    }
+  },
+  {
+    "authors": [
+      "Cyril Pernet",
+      "Franklin Feingold",
+      "Stefan Appelhoff",
+      "Kirstie Whitaker",
+      "Chris Gorgolewski",
+      "Teon L Brooks",
+      "Robert Oostenveld",
+      "Samuel A. Nastase",
+      "Taylor Salo",
+      "Seitaro Iwama"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Pernet2019",
+    "datatypes": [
+      "eeg",
+      "meg",
+      "ieeg"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Collection of BIDS presentations given by researchers involved in BIDS",
+    "external_links": {
+      "source_url": "https://osf.io/yn93h/"
+    },
+    "funding": [],
+    "name": "Brain Imaging Data Structure Presentations",
+    "osf_category": "project",
+    "osf_id": "yn93h",
+    "recording_modality": "eeg",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "BIDS",
+      "Brain Imaging Data Structure",
+      "data sharing",
+      "DTI",
+      "EEG",
+      "fMRI",
+      "iEEG",
+      "MEG",
+      "MRI"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2024-07-26T08:00:34.563754"
     }
   }
 ]
