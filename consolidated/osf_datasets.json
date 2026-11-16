@@ -1,6 +1,49 @@
 [
   {
     "authors": [
+      "Elena Flores",
+      "Dominika Zofia Wojcik",
+      "Silvia Huelmo",
+      "Emiliano Díez"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Flores2026",
+    "datatypes": [
+      "eeg",
+      "fnirs"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Analysis code for the article:\n\nFlores-García, E., Wojcik, D. Z., Huelmo-Ruiz, S., &amp; Díez-Villoria, E. (2026). Autistic Trait Dimensions and Resting-State Neural Markers: A Multimodal EEG/fNIRS Study in Non-Clinical Adults. Applied Sciences, 16(19), 9850. https://doi.org/10.3390/app16199850\n\nThis repository contains the Python code and configuration needed to reproduce all analyses reported in the article and its Supplementary Materials: EEG preprocessing (extended Infomax ICA + ICLabel) and sensitivity branches, global and dynamic EEG connectivity, regional spectral power, EEG microstates, fNIRS ALFF/fALFF, EEG–fNIRS canonical correlation analysis, AQ × condition interactions, and the supplementary analyses and figures (S1–S8).\n\nThe resting-state EEG/fNIRS dataset (BIDS format) is not included; it is available from the corresponding author upon reasonable request. See README.md for setup and run instructions. License: MIT.",
+    "external_links": {
+      "source_url": "https://osf.io/3q2se/"
+    },
+    "funding": [],
+    "name": "Autistic Trait Dimensions and Resting-State Neural Markers: A Multimodal EEG/fNIRS Study in Non-Clinical Adults",
+    "osf_category": "project",
+    "osf_id": "3q2se",
+    "recording_modality": "eeg",
+    "sessions": [],
+    "source": "osf",
+    "study_domain": "resting-state",
+    "tags": [
+      "Autism-Spectrum Quotient",
+      "autistic traits",
+      "EEG",
+      "fNIRS",
+      "resting state",
+      "theta oscillations"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2026-11-11T01:50:12.821760"
+    }
+  },
+  {
+    "authors": [
       "Christopher Holdgraf",
       "Dora Hermes"
     ],
@@ -51,41 +94,312 @@
   },
   {
     "authors": [
-      "Susan Kang"
+      "Henrich Kolkhorst",
+      "Joseline Veit",
+      "Wolfram Burgard",
+      "Michael Tangermann"
     ],
     "bids_validated": false,
     "bids_version": "unknown",
-    "dataset_id": "Kang2024",
+    "dataset_id": "Kolkhorst2020",
     "datatypes": [
       "eeg"
     ],
     "demographics": {
       "ages": [],
-      "subjects_count": 102
+      "subjects_count": 19
     },
-    "description": "This project contains EEG data from a task-based experiment investigating the effectiveness of a reward-based Attentional Bias Modification procedure using the N2pc component. Data were recorded from 102 participants using a Brain Products system and are provided in native BrainVision format (.eeg, .vhdr, .vmrk).\n\nThe dataset is organized according to the BIDS (Brain Imaging Data Structure) standard and includes raw EEG recordings, event markers, and accompanying metadata (e.g., channel information and acquisition parameters).\n\nThese data can be used to reproduce the analyses reported in (submitted) and to support further research on reward-based Attentional Bias Modification.",
+    "description": "EEG data from 19 participants selecting objects directly in the environment using an ERP-based paradigm. Stimuli are presented using a laser pointer mounted on a robotic arm, avoiding any screen-based user interface.",
     "external_links": {
-      "source_url": "https://osf.io/kq5jg/"
+      "source_url": "https://osf.io/jzs7d/"
     },
     "funding": [],
-    "license": "CC-BY Attribution-NonCommercial 4.0 International",
-    "name": "ABM20",
-    "osf_category": "project",
-    "osf_id": "kq5jg",
+    "license": "Apache-2.0",
+    "name": "Freiburg Screen-free BCI for Robotic Object Selection: EEG Dataset",
+    "osf_category": "data",
+    "osf_id": "jzs7d",
     "recording_modality": "eeg",
     "sessions": [],
     "source": "osf",
-    "study_domain": "attention",
+    "study_domain": "brain-computer interface",
     "tags": [
-      "ABM",
-      "Attentional Bias Modification",
+      "BCI",
+      "BIDS",
+      "brain-computer interface",
+      "brain-machine interface",
+      "dataset",
       "EEG",
-      "N2pc",
-      "Reward-based"
+      "ERP",
+      "event-related potential",
+      "human-robot interaction",
+      "object selection",
+      "subclass structure"
     ],
     "tasks": [],
     "timestamps": {
-      "dataset_modified_at": "2026-10-31T17:14:58.382174"
+      "dataset_modified_at": "2021-06-11T15:20:48.734131"
+    }
+  },
+  {
+    "authors": [
+      "Robert Luke",
+      "Maureen Shader"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Luke2021",
+    "datatypes": [
+      "fnirs",
+      "mea"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Data in BIDS format from Shader, Maureen J., Robert Luke, Nathalie Gouailhardou, and Colette M. McKay. \"The use of broad vs restricted regions of interest in functional near-infrared spectroscopy for measuring cortical activation to auditory-only and visual-only speech.\" Hearing Research 406 (2021): 108256.\n\nhttps://doi.org/10.1016/j.heares.2021.108256",
+    "external_links": {
+      "source_url": "https://osf.io/u23rb/"
+    },
+    "funding": [],
+    "license": "CC-BY-4.0",
+    "name": "fNIRS Audio &amp; Visual Speech. Broad vs Restricted Regions of Interest",
+    "osf_category": "project",
+    "osf_id": "u23rb",
+    "recording_modality": "fnirs",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "Audio Visual Speech",
+      "BIDS",
+      "fNIRS",
+      "Hearing",
+      "Neuroscience"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2026-03-03T16:08:58.627209"
+    }
+  },
+  {
+    "authors": [
+      "Robert Luke",
+      "Maureen Shader",
+      "Eric Larson",
+      "Hamish Innes-Brown"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Luke2021_2",
+    "datatypes": [
+      "fnirs",
+      "mea"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Data in BIDS format from: \n\nRobert Luke, Eric D. Larson, Maureen J. Shader, Hamish Innes-Brown, Lindsey Van Yper, Adrian K. C. Lee, Paul F. Sowman, David McAlpine, \"Analysis methods for measuring passive auditory fNIRS responses generated by a block-design paradigm,\" Neurophoton. 8(2) 025008 (22 May 2021) https://doi.org/10.1117/1.NPh.8.2.025008",
+    "external_links": {
+      "source_url": "https://osf.io/f6tdk/"
+    },
+    "funding": [],
+    "name": "Analysis methods for measuring passive auditory fNIRS responses generated by a block-design paradigm",
+    "osf_category": "project",
+    "osf_id": "f6tdk",
+    "recording_modality": "fnirs",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "300-700Hz",
+      "500 Hz",
+      "Analysis",
+      "BIDS",
+      "Block Design",
+      "fNIRS",
+      "Hearing",
+      "Listening",
+      "Neuroscience",
+      "Noise",
+      "Signal Processing",
+      "SNIRF",
+      "Speech"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2022-03-10T22:37:57.141281"
+    }
+  },
+  {
+    "authors": [
+      "Robert Luke"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Luke2022",
+    "datatypes": [
+      "fnirs"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Data from the article Human cortical processing of interaural coherence\n\nRobert Luke, Hamish Innes- Brown, Jaime A. Undurraga, David McAlpine\n\nhttps://doi.org/10.1016/j.isci.2022.104181\n\nData is provided in BIDS format along with a small example notebook.",
+    "external_links": {
+      "source_url": "https://osf.io/tyzag/"
+    },
+    "funding": [],
+    "name": "Human cortical processing of interaural coherence",
+    "osf_category": "project",
+    "osf_id": "tyzag",
+    "recording_modality": "fnirs",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "binaural",
+      "fNIRS",
+      "functional near-infrared spectroscopy",
+      "hearing",
+      "IAC",
+      "interaural coherence",
+      "listening",
+      "neuroimaging",
+      "sound"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2022-07-19T10:00:15.094426"
+    }
+  },
+  {
+    "authors": [
+      "Samuel Le Meur-Diebolt",
+      "Felipe Cybis Pereira"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Meur-Diebolt2026",
+    "datatypes": [
+      "mea"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Converted dataset from the Nunez-Elizalde et al. (2022) article \"Neural correlates of blood flow measured by ultrasound\" to a fUSI-BIDS layout. The original dataset contains simultaneous recordings of neural activity (electrophysiology) and cerebral blood volume (functional ultrasound imaging) in awake mice. This conversion currently only exports the fUSI-related content.",
+    "external_links": {
+      "source_url": "https://osf.io/43skw/"
+    },
+    "funding": [],
+    "license": "CC-BY-4.0",
+    "name": "Nunez-Elizalde 2022 fUSI-BIDS Conversion",
+    "osf_category": "project",
+    "osf_id": "43skw",
+    "recording_modality": "mea",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "BIDS",
+      "Functional ultrasound imaging",
+      "Mouse",
+      "Neuroscience"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2026-07-03T16:31:06.005101"
+    }
+  },
+  {
+    "authors": [
+      "Cyril Pernet",
+      "Jon Clayden",
+      "Fani Deligianni"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Pernet2018",
+    "datatypes": [
+      "eeg"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "these are the same data but organised using BIDS (http://bids.neuroimaging.io/)",
+    "external_links": {
+      "source_url": "https://osf.io/dvmrb/"
+    },
+    "funding": [],
+    "license": "CC-BY-4.0",
+    "name": "BIDS ready data",
+    "osf_category": "data",
+    "osf_id": "dvmrb",
+    "recording_modality": "eeg",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "BIDS",
+      "EEG",
+      "fMRI",
+      "Imaging",
+      "MRI",
+      "Neuroscience",
+      "NODDI"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2023-02-02T16:35:59.553562"
+    }
+  },
+  {
+    "authors": [
+      "Cyril Pernet",
+      "Franklin Feingold",
+      "Stefan Appelhoff",
+      "Kirstie Whitaker",
+      "Chris Gorgolewski",
+      "Teon L Brooks",
+      "Robert Oostenveld",
+      "Samuel A. Nastase",
+      "Taylor Salo",
+      "Seitaro Iwama"
+    ],
+    "bids_validated": false,
+    "bids_version": "unknown",
+    "dataset_id": "Pernet2019",
+    "datatypes": [
+      "eeg",
+      "meg",
+      "ieeg"
+    ],
+    "demographics": {
+      "ages": [],
+      "subjects_count": 0
+    },
+    "description": "Collection of BIDS presentations given by researchers involved in BIDS",
+    "external_links": {
+      "source_url": "https://osf.io/yn93h/"
+    },
+    "funding": [],
+    "name": "Brain Imaging Data Structure Presentations",
+    "osf_category": "project",
+    "osf_id": "yn93h",
+    "recording_modality": "eeg",
+    "sessions": [],
+    "source": "osf",
+    "tags": [
+      "BIDS",
+      "Brain Imaging Data Structure",
+      "data sharing",
+      "DTI",
+      "EEG",
+      "fMRI",
+      "iEEG",
+      "MEG",
+      "MRI"
+    ],
+    "tasks": [],
+    "timestamps": {
+      "dataset_modified_at": "2024-07-26T08:00:34.563754"
     }
   },
   {
